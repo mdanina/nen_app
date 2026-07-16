@@ -1,0 +1,1316 @@
+[
+  {
+    "id": "nen-001",
+    "slug": "kolobok",
+    "title": "Колобок",
+    "author": "Народная сказка",
+    "shortDescription": "Народная сказка о темах: животные, юмор. Рекомендована НЭН детям 2–4 лет.",
+    "whyRecommended": "Помогает поговорить с ребёнком о таких темах, как животные и юмор.",
+    "ageMin": 2,
+    "ageMax": 4,
+    "ageLabel": "2–4 лет",
+    "readingMode": "together",
+    "genres": [
+      "народная сказка"
+    ],
+    "themes": [
+      "животные",
+      "юмор"
+    ],
+    "moods": [
+      "смешное",
+      "захватывающее"
+    ],
+    "suitableForBedtime": true,
+    "lengthCategory": "very-short",
+    "lengthLabel": "короткая история",
+    "classicOrModern": "classic",
+    "sensitiveTopics": [],
+    "status": "published"
+  },
+  {
+    "id": "nen-002",
+    "slug": "krasnaya-shapochka",
+    "title": "Красная Шапочка",
+    "originalTitle": "Le Petit Chaperon rouge",
+    "author": "Шарль Перро",
+    "shortDescription": "Литературная сказка о темах: природа, приключения, семья. Рекомендована НЭН детям 5–8 лет.",
+    "whyRecommended": "Помогает поговорить с ребёнком о таких темах, как природа и приключения.",
+    "ageMin": 5,
+    "ageMax": 8,
+    "ageLabel": "5–8 лет",
+    "readingMode": "together",
+    "genres": [
+      "литературная сказка"
+    ],
+    "themes": [
+      "природа",
+      "приключения",
+      "семья"
+    ],
+    "moods": [
+      "захватывающее",
+      "таинственное"
+    ],
+    "suitableForBedtime": false,
+    "lengthCategory": "very-short",
+    "lengthLabel": "короткая история",
+    "classicOrModern": "classic",
+    "sensitiveTopics": [],
+    "status": "published"
+  },
+  {
+    "id": "nen-003",
+    "slug": "zolushka",
+    "title": "Золушка",
+    "originalTitle": "Cendrillon ou la Petite Pantoufle de verre",
+    "author": "Шарль Перро",
+    "shortDescription": "Литературная сказка о темах: волшебство, семья. Рекомендована НЭН детям 5–9 лет.",
+    "whyRecommended": "Помогает поговорить с ребёнком о таких темах, как волшебство и семья.",
+    "ageMin": 5,
+    "ageMax": 9,
+    "ageLabel": "5–9 лет",
+    "readingMode": "both",
+    "genres": [
+      "литературная сказка"
+    ],
+    "themes": [
+      "волшебство",
+      "семья"
+    ],
+    "moods": [
+      "трогательное",
+      "уютное"
+    ],
+    "suitableForBedtime": true,
+    "lengthCategory": "very-short",
+    "lengthLabel": "короткая история",
+    "classicOrModern": "classic",
+    "sensitiveTopics": [],
+    "status": "published"
+  },
+  {
+    "id": "nen-004",
+    "slug": "bremenskie-muzykanty",
+    "title": "Бременские музыканты",
+    "originalTitle": "Die Bremer Stadtmusikanten",
+    "author": "Братья Гримм",
+    "shortDescription": "Литературная сказка о темах: животные, дружба, юмор. Рекомендована НЭН детям 4–8 лет.",
+    "whyRecommended": "Помогает поговорить с ребёнком о таких темах, как животные и дружба.",
+    "ageMin": 4,
+    "ageMax": 8,
+    "ageLabel": "4–8 лет",
+    "readingMode": "both",
+    "genres": [
+      "литературная сказка"
+    ],
+    "themes": [
+      "животные",
+      "дружба",
+      "юмор",
+      "творчество"
+    ],
+    "moods": [
+      "смешное",
+      "захватывающее"
+    ],
+    "suitableForBedtime": true,
+    "lengthCategory": "very-short",
+    "lengthLabel": "короткая история",
+    "classicOrModern": "classic",
+    "sensitiveTopics": [],
+    "status": "published"
+  },
+  {
+    "id": "nen-005",
+    "slug": "tri-porosenka",
+    "title": "Три поросёнка",
+    "originalTitle": "The Three Little Pigs",
+    "author": "Английская народная сказка; версия Джозефа Джейкобса",
+    "shortDescription": "Народная сказка о темах: животные, приключения, юмор. Рекомендована НЭН детям 3–6 лет.",
+    "whyRecommended": "Помогает поговорить с ребёнком о таких темах, как животные и приключения.",
+    "ageMin": 3,
+    "ageMax": 6,
+    "ageLabel": "3–6 лет",
+    "readingMode": "together",
+    "genres": [
+      "народная сказка"
+    ],
+    "themes": [
+      "животные",
+      "приключения",
+      "юмор"
+    ],
+    "moods": [
+      "смешное",
+      "захватывающее"
+    ],
+    "suitableForBedtime": true,
+    "lengthCategory": "very-short",
+    "lengthLabel": "короткая история",
+    "classicOrModern": "classic",
+    "sensitiveTopics": [],
+    "status": "published"
+  },
+  {
+    "id": "nen-006",
+    "slug": "gadkiy-utenok",
+    "title": "Гадкий утёнок",
+    "originalTitle": "Den grimme ælling",
+    "author": "Ханс Кристиан Андерсен",
+    "shortDescription": "Литературная сказка о темах: животные, природа, семья. Рекомендована НЭН детям 5–9 лет.",
+    "whyRecommended": "Помогает поговорить с ребёнком о таких темах, как животные и природа.",
+    "ageMin": 5,
+    "ageMax": 9,
+    "ageLabel": "5–9 лет",
+    "readingMode": "both",
+    "genres": [
+      "литературная сказка"
+    ],
+    "themes": [
+      "животные",
+      "природа",
+      "семья"
+    ],
+    "moods": [
+      "трогательное"
+    ],
+    "suitableForBedtime": false,
+    "lengthCategory": "very-short",
+    "lengthLabel": "короткая история",
+    "classicOrModern": "classic",
+    "sensitiveTopics": [],
+    "status": "published"
+  },
+  {
+    "id": "nen-007",
+    "slug": "priklyucheniya-pinokkio",
+    "title": "Приключения Пиноккио",
+    "originalTitle": "Le avventure di Pinocchio",
+    "author": "Карло Коллоди",
+    "shortDescription": "Литературная сказка о темах: приключения, волшебство, школа. Рекомендована НЭН детям 7–11 лет.",
+    "whyRecommended": "Помогает поговорить с ребёнком о таких темах, как приключения и волшебство.",
+    "ageMin": 7,
+    "ageMax": 11,
+    "ageLabel": "7–11 лет",
+    "readingMode": "both",
+    "genres": [
+      "литературная сказка",
+      "приключения"
+    ],
+    "themes": [
+      "приключения",
+      "волшебство",
+      "школа",
+      "семья"
+    ],
+    "moods": [
+      "захватывающее",
+      "смешное",
+      "таинственное"
+    ],
+    "suitableForBedtime": false,
+    "lengthCategory": "long",
+    "lengthLabel": "длинная книга",
+    "classicOrModern": "classic",
+    "sensitiveTopics": [],
+    "status": "published"
+  },
+  {
+    "id": "nen-008",
+    "slug": "aladdin-i-volshebnaya-lampa",
+    "title": "Аладдин и волшебная лампа",
+    "originalTitle": "Aladdin ou la Lampe merveilleuse",
+    "author": "Сказитель Ханна Дияб; публикация Антуана Галлана",
+    "shortDescription": "Народная сказка о темах: приключения, волшебство. Рекомендована НЭН детям 7–11 лет.",
+    "whyRecommended": "Помогает поговорить с ребёнком о таких темах, как приключения и волшебство.",
+    "ageMin": 7,
+    "ageMax": 11,
+    "ageLabel": "7–11 лет",
+    "readingMode": "both",
+    "genres": [
+      "народная сказка",
+      "приключения"
+    ],
+    "themes": [
+      "приключения",
+      "волшебство"
+    ],
+    "moods": [
+      "захватывающее",
+      "таинственное"
+    ],
+    "suitableForBedtime": false,
+    "lengthCategory": "short",
+    "lengthLabel": "на один вечер",
+    "classicOrModern": "classic",
+    "sensitiveTopics": [],
+    "status": "published"
+  },
+  {
+    "id": "nen-009",
+    "slug": "momotaro",
+    "title": "Момотаро",
+    "originalTitle": "桃太郎",
+    "author": "Японская народная сказка",
+    "shortDescription": "Народная сказка о темах: приключения, дружба. Рекомендована НЭН детям 6–10 лет.",
+    "whyRecommended": "Помогает поговорить с ребёнком о таких темах, как приключения и дружба.",
+    "ageMin": 6,
+    "ageMax": 10,
+    "ageLabel": "6–10 лет",
+    "readingMode": "both",
+    "genres": [
+      "народная сказка",
+      "приключения"
+    ],
+    "themes": [
+      "приключения",
+      "дружба"
+    ],
+    "moods": [
+      "захватывающее"
+    ],
+    "suitableForBedtime": false,
+    "lengthCategory": "very-short",
+    "lengthLabel": "короткая история",
+    "classicOrModern": "classic",
+    "sensitiveTopics": [],
+    "status": "published"
+  },
+  {
+    "id": "nen-010",
+    "slug": "volshebnaya-kist-ma-lyana",
+    "title": "Волшебная кисть Ма Ляна",
+    "originalTitle": "神笔马良",
+    "author": "Хун Сюньтао",
+    "shortDescription": "Литературная сказка о темах: творчество, волшебство, история. Рекомендована НЭН детям 6–10 лет.",
+    "whyRecommended": "Помогает поговорить с ребёнком о таких темах, как творчество и волшебство.",
+    "ageMin": 6,
+    "ageMax": 10,
+    "ageLabel": "6–10 лет",
+    "readingMode": "both",
+    "genres": [
+      "литературная сказка"
+    ],
+    "themes": [
+      "творчество",
+      "волшебство",
+      "история"
+    ],
+    "moods": [
+      "захватывающее",
+      "трогательное"
+    ],
+    "suitableForBedtime": false,
+    "lengthCategory": "very-short",
+    "lengthLabel": "короткая история",
+    "classicOrModern": "classic",
+    "sensitiveTopics": [],
+    "status": "published"
+  },
+  {
+    "id": "nen-011",
+    "slug": "gruffalo",
+    "title": "Груффало",
+    "originalTitle": "The Gruffalo",
+    "author": "Джулия Дональдсон",
+    "shortDescription": "Книжка-картинка о темах: животные, приключения, юмор. Рекомендована НЭН детям 3–6 лет.",
+    "whyRecommended": "Помогает поговорить с ребёнком о таких темах, как животные и приключения.",
+    "ageMin": 3,
+    "ageMax": 6,
+    "ageLabel": "3–6 лет",
+    "readingMode": "together",
+    "genres": [
+      "книжка-картинка",
+      "сказка"
+    ],
+    "themes": [
+      "животные",
+      "приключения",
+      "юмор"
+    ],
+    "moods": [
+      "смешное",
+      "захватывающее"
+    ],
+    "suitableForBedtime": true,
+    "lengthCategory": "very-short",
+    "lengthLabel": "короткая история",
+    "pages": 32,
+    "classicOrModern": "modern",
+    "sensitiveTopics": [],
+    "status": "published"
+  },
+  {
+    "id": "nen-012",
+    "slug": "imeninnyy-pirog",
+    "title": "Именинный пирог",
+    "originalTitle": "Pannkakstårtan",
+    "author": "Свен Нурдквист",
+    "shortDescription": "Книжка-картинка о темах: животные, семья, юмор. Рекомендована НЭН детям 4–7 лет.",
+    "whyRecommended": "Помогает поговорить с ребёнком о таких темах, как животные и семья.",
+    "ageMin": 4,
+    "ageMax": 7,
+    "ageLabel": "4–7 лет",
+    "readingMode": "together",
+    "genres": [
+      "книжка-картинка",
+      "рассказ"
+    ],
+    "themes": [
+      "животные",
+      "семья",
+      "юмор"
+    ],
+    "moods": [
+      "смешное",
+      "уютное"
+    ],
+    "suitableForBedtime": true,
+    "lengthCategory": "very-short",
+    "lengthLabel": "короткая история",
+    "classicOrModern": "modern",
+    "sensitiveTopics": [],
+    "status": "published"
+  },
+  {
+    "id": "nen-013",
+    "slug": "akuliska-vrag-rediski-i-drugie-istorii-o-lise-i-porosenke",
+    "title": "Акулиска — враг редиски и другие истории о Лисе и Поросёнке",
+    "author": "Бьёрн Рёрвик",
+    "shortDescription": "Сборник рассказов о темах: животные, дружба, приключения. Рекомендована НЭН детям 5–8 лет.",
+    "whyRecommended": "Помогает поговорить с ребёнком о таких темах, как животные и дружба.",
+    "ageMin": 5,
+    "ageMax": 8,
+    "ageLabel": "5–8 лет",
+    "readingMode": "both",
+    "genres": [
+      "сборник рассказов",
+      "приключения"
+    ],
+    "themes": [
+      "животные",
+      "дружба",
+      "приключения",
+      "юмор"
+    ],
+    "moods": [
+      "смешное",
+      "захватывающее"
+    ],
+    "suitableForBedtime": true,
+    "lengthCategory": "medium",
+    "lengthLabel": "на один вечер",
+    "pages": 88,
+    "classicOrModern": "modern",
+    "sensitiveTopics": [],
+    "status": "published"
+  },
+  {
+    "id": "nen-014",
+    "slug": "vafelnoe-serdtse",
+    "title": "Вафельное сердце",
+    "originalTitle": "Vaffelhjarte",
+    "author": "Мария Парр",
+    "shortDescription": "Повесть о темах: дружба, семья, приключения. Рекомендована НЭН детям 8–12 лет.",
+    "whyRecommended": "Помогает поговорить с ребёнком о таких темах, как дружба и семья.",
+    "ageMin": 8,
+    "ageMax": 12,
+    "ageLabel": "8–12 лет",
+    "readingMode": "both",
+    "genres": [
+      "повесть"
+    ],
+    "themes": [
+      "дружба",
+      "семья",
+      "приключения",
+      "юмор"
+    ],
+    "moods": [
+      "смешное",
+      "уютное",
+      "трогательное"
+    ],
+    "suitableForBedtime": false,
+    "lengthCategory": "medium",
+    "lengthLabel": "на несколько вечеров",
+    "pages": 240,
+    "classicOrModern": "modern",
+    "sensitiveTopics": [],
+    "officialAgeRating": "6+",
+    "officialAgeRatingSource": "https://samokatbook.ru/book/vafelnoe-serdtse7-e-izd/",
+    "status": "published"
+  },
+  {
+    "id": "nen-015",
+    "slug": "udivitelnoe-puteshestvie-krolika-edvarda",
+    "title": "Удивительное путешествие кролика Эдварда",
+    "originalTitle": "The Miraculous Journey of Edward Tulane",
+    "author": "Кейт ДиКамилло",
+    "shortDescription": "Повесть о темах: животные, приключения, семья. Рекомендована НЭН детям 8–12 лет.",
+    "whyRecommended": "Помогает поговорить с ребёнком о таких темах, как животные и приключения.",
+    "ageMin": 8,
+    "ageMax": 12,
+    "ageLabel": "8–12 лет",
+    "readingMode": "both",
+    "genres": [
+      "повесть",
+      "сказочная история"
+    ],
+    "themes": [
+      "животные",
+      "приключения",
+      "семья"
+    ],
+    "moods": [
+      "трогательное",
+      "захватывающее"
+    ],
+    "suitableForBedtime": false,
+    "lengthCategory": "medium",
+    "lengthLabel": "на несколько вечеров",
+    "classicOrModern": "modern",
+    "sensitiveTopics": [],
+    "officialAgeRating": "0+ — по библиотечному описанию; сверить ISBN",
+    "officialAgeRatingSource": "https://irbis.arhlib.ru/",
+    "status": "published"
+  },
+  {
+    "id": "nen-016",
+    "slug": "paks",
+    "title": "Пакс",
+    "originalTitle": "Pax",
+    "author": "Сара Пеннипакер",
+    "shortDescription": "Роман о темах: животные, дружба, семья. Рекомендована НЭН детям 10–14 лет.",
+    "whyRecommended": "Помогает поговорить с ребёнком о таких темах, как животные и дружба.",
+    "ageMin": 10,
+    "ageMax": 14,
+    "ageLabel": "10–14 лет",
+    "readingMode": "both",
+    "genres": [
+      "роман"
+    ],
+    "themes": [
+      "животные",
+      "дружба",
+      "семья",
+      "природа"
+    ],
+    "moods": [
+      "трогательное",
+      "захватывающее"
+    ],
+    "suitableForBedtime": false,
+    "lengthCategory": "long",
+    "lengthLabel": "длинная книга",
+    "pages": 320,
+    "classicOrModern": "modern",
+    "sensitiveTopics": [],
+    "officialAgeRating": "6+",
+    "officialAgeRatingSource": "https://samokatbook.ru/book/paks/",
+    "status": "published"
+  },
+  {
+    "id": "nen-017",
+    "slug": "dzheyn-lisa-i-ya",
+    "title": "Джейн, лиса и я",
+    "originalTitle": "Jane, le renard et moi",
+    "author": "Фанни Бритт",
+    "shortDescription": "Графический роман о темах: школа, дружба, семья. Рекомендована НЭН детям 10–14 лет.",
+    "whyRecommended": "Помогает поговорить с ребёнком о таких темах, как школа и дружба.",
+    "ageMin": 10,
+    "ageMax": 14,
+    "ageLabel": "10–14 лет",
+    "readingMode": "independent",
+    "genres": [
+      "графический роман"
+    ],
+    "themes": [
+      "школа",
+      "дружба",
+      "семья",
+      "творчество"
+    ],
+    "moods": [
+      "трогательное",
+      "спокойное"
+    ],
+    "suitableForBedtime": false,
+    "lengthCategory": "medium",
+    "lengthLabel": "на один вечер",
+    "pages": 100,
+    "classicOrModern": "modern",
+    "sensitiveTopics": [],
+    "officialAgeRating": "6+ — по библиотечному описанию",
+    "officialAgeRatingSource": "https://www.teenbook.ru/UPLOAD/2016/07/22/podr_2_2016.pdf",
+    "status": "published"
+  },
+  {
+    "id": "nen-018",
+    "slug": "dve-polovinki-serdtsa",
+    "title": "Две половинки сердца",
+    "originalTitle": "Vi ses när vi ses",
+    "author": "Русе Лагеркранц",
+    "shortDescription": "Повесть о темах: дружба, школа, семья. Рекомендована НЭН детям 7–10 лет.",
+    "whyRecommended": "Помогает поговорить с ребёнком о таких темах, как дружба и школа.",
+    "ageMin": 7,
+    "ageMax": 10,
+    "ageLabel": "7–10 лет",
+    "readingMode": "both",
+    "genres": [
+      "повесть"
+    ],
+    "themes": [
+      "дружба",
+      "школа",
+      "семья"
+    ],
+    "moods": [
+      "уютное",
+      "трогательное"
+    ],
+    "suitableForBedtime": true,
+    "lengthCategory": "medium",
+    "lengthLabel": "на несколько вечеров",
+    "pages": 152,
+    "classicOrModern": "modern",
+    "sensitiveTopics": [],
+    "status": "published"
+  },
+  {
+    "id": "nen-019",
+    "slug": "babushka-slomala-internet",
+    "title": "Бабушка сломала интернет",
+    "originalTitle": "Der Tag, an dem die Oma das Internet kaputt gemacht hat",
+    "author": "Марк-Уве Клинг",
+    "shortDescription": "Повесть о темах: семья, техника, юмор. Рекомендована НЭН детям 6–9 лет.",
+    "whyRecommended": "Помогает поговорить с ребёнком о таких темах, как семья и техника.",
+    "ageMin": 6,
+    "ageMax": 9,
+    "ageLabel": "6–9 лет",
+    "readingMode": "both",
+    "genres": [
+      "повесть",
+      "комедия"
+    ],
+    "themes": [
+      "семья",
+      "техника",
+      "юмор"
+    ],
+    "moods": [
+      "смешное",
+      "захватывающее"
+    ],
+    "suitableForBedtime": true,
+    "lengthCategory": "short",
+    "lengthLabel": "на один вечер",
+    "classicOrModern": "modern",
+    "sensitiveTopics": [],
+    "status": "published"
+  },
+  {
+    "id": "nen-020",
+    "slug": "bolshaya-malenkaya-devochka-kak-priruchit-gorod",
+    "title": "Большая маленькая девочка. Как приручить город",
+    "author": "Мария Бершадская",
+    "shortDescription": "Повесть о темах: семья, школа, юмор. Рекомендована НЭН детям 5–8 лет.",
+    "whyRecommended": "Помогает поговорить с ребёнком о таких темах, как семья и школа.",
+    "ageMin": 5,
+    "ageMax": 8,
+    "ageLabel": "5–8 лет",
+    "readingMode": "both",
+    "genres": [
+      "повесть",
+      "книжка-картинка"
+    ],
+    "themes": [
+      "семья",
+      "школа",
+      "юмор"
+    ],
+    "moods": [
+      "смешное",
+      "уютное"
+    ],
+    "suitableForBedtime": true,
+    "lengthCategory": "very-short",
+    "lengthLabel": "короткая история",
+    "classicOrModern": "modern",
+    "sensitiveTopics": [],
+    "status": "published"
+  },
+  {
+    "id": "nen-021",
+    "slug": "kalendar-ma-y-ya",
+    "title": "Календарь ма(й)я",
+    "author": "Виктория Ледерман",
+    "shortDescription": "Подростковая повесть о темах: школа, дружба, история. Рекомендована НЭН детям 10–14 лет.",
+    "whyRecommended": "Помогает поговорить с ребёнком о таких темах, как школа и дружба.",
+    "ageMin": 10,
+    "ageMax": 14,
+    "ageLabel": "10–14 лет",
+    "readingMode": "independent",
+    "genres": [
+      "подростковая повесть",
+      "фантастика"
+    ],
+    "themes": [
+      "школа",
+      "дружба",
+      "история",
+      "приключения",
+      "фантастика"
+    ],
+    "moods": [
+      "захватывающее",
+      "таинственное"
+    ],
+    "suitableForBedtime": false,
+    "lengthCategory": "medium",
+    "lengthLabel": "на несколько вечеров",
+    "classicOrModern": "modern",
+    "sensitiveTopics": [],
+    "status": "published"
+  },
+  {
+    "id": "nen-022",
+    "slug": "manyunya",
+    "title": "Манюня",
+    "author": "Наринэ Абгарян",
+    "shortDescription": "Автобиографическая повесть о темах: семья, дружба, юмор. Рекомендована НЭН детям 10–14 лет.",
+    "whyRecommended": "Помогает поговорить с ребёнком о таких темах, как семья и дружба.",
+    "ageMin": 10,
+    "ageMax": 14,
+    "ageLabel": "10–14 лет",
+    "readingMode": "both",
+    "genres": [
+      "автобиографическая повесть",
+      "комедия"
+    ],
+    "themes": [
+      "семья",
+      "дружба",
+      "юмор",
+      "история"
+    ],
+    "moods": [
+      "смешное",
+      "уютное",
+      "трогательное"
+    ],
+    "suitableForBedtime": false,
+    "lengthCategory": "long",
+    "lengthLabel": "длинная книга",
+    "classicOrModern": "modern",
+    "sensitiveTopics": [],
+    "status": "published"
+  },
+  {
+    "id": "nen-023",
+    "slug": "davay-poedem-v-unalashku",
+    "title": "Давай поедем в Уналашку",
+    "author": "Анна Красильщик",
+    "shortDescription": "Повесть о темах: семья, дружба, школа. Рекомендована НЭН детям 9–13 лет.",
+    "whyRecommended": "Помогает поговорить с ребёнком о таких темах, как семья и дружба.",
+    "ageMin": 9,
+    "ageMax": 13,
+    "ageLabel": "9–13 лет",
+    "readingMode": "both",
+    "genres": [
+      "повесть"
+    ],
+    "themes": [
+      "семья",
+      "дружба",
+      "школа"
+    ],
+    "moods": [
+      "трогательное",
+      "спокойное"
+    ],
+    "suitableForBedtime": false,
+    "lengthCategory": "medium",
+    "lengthLabel": "на несколько вечеров",
+    "classicOrModern": "modern",
+    "sensitiveTopics": [],
+    "officialAgeRating": "6+",
+    "officialAgeRatingSource": "https://www.labirint.ru/books/777941",
+    "status": "published"
+  },
+  {
+    "id": "nen-024",
+    "slug": "nastoyaschaya-zhizn-zhakomina-geynsboro",
+    "title": "Настоящая жизнь Жакомина Гейнсборо",
+    "originalTitle": "Les riches heures de Jacominus Gainsborough",
+    "author": "Ребекка Дотремер",
+    "shortDescription": "Книжка-картинка о темах: семья, дружба, природа. Рекомендована НЭН детям 7–12 лет.",
+    "whyRecommended": "Помогает поговорить с ребёнком о таких темах, как семья и дружба.",
+    "ageMin": 7,
+    "ageMax": 12,
+    "ageLabel": "7–12 лет",
+    "readingMode": "together",
+    "genres": [
+      "книжка-картинка",
+      "философская сказка"
+    ],
+    "themes": [
+      "семья",
+      "дружба",
+      "природа"
+    ],
+    "moods": [
+      "трогательное",
+      "спокойное",
+      "уютное"
+    ],
+    "suitableForBedtime": false,
+    "lengthCategory": "short",
+    "lengthLabel": "на один вечер",
+    "pages": 56,
+    "classicOrModern": "modern",
+    "sensitiveTopics": [],
+    "status": "published"
+  },
+  {
+    "id": "nen-025",
+    "slug": "semeynyy-albom-tirannozavra-toni-istoriya-dinozavrov",
+    "title": "Семейный альбом тираннозавра Тони. История динозавров",
+    "originalTitle": "Tony T-Rex's Family Album",
+    "author": "Майк Бентон",
+    "shortDescription": "Научно-популярная книга о темах: динозавры, природа, история. Рекомендована НЭН детям 4–8 лет.",
+    "whyRecommended": "Помогает поговорить с ребёнком о таких темах, как динозавры и природа.",
+    "ageMin": 4,
+    "ageMax": 8,
+    "ageLabel": "4–8 лет",
+    "readingMode": "together",
+    "genres": [
+      "научно-популярная книга"
+    ],
+    "themes": [
+      "динозавры",
+      "природа",
+      "история",
+      "юмор"
+    ],
+    "moods": [
+      "смешное",
+      "захватывающее"
+    ],
+    "suitableForBedtime": true,
+    "lengthCategory": "short",
+    "lengthLabel": "на один вечер",
+    "pages": 64,
+    "classicOrModern": "modern",
+    "sensitiveTopics": [],
+    "officialAgeRating": "0+ — по карточке продавца; сверить с экземпляром",
+    "officialAgeRatingSource": "https://bookshere.nl/",
+    "status": "published"
+  },
+  {
+    "id": "nen-051",
+    "slug": "ochen-golodnaya-gusenitsa",
+    "title": "Очень голодная гусеница",
+    "originalTitle": "The Very Hungry Caterpillar",
+    "author": "Эрик Карл",
+    "shortDescription": "Короткая книжка-картинка о превращении гусеницы в бабочку, счёте, днях недели и еде.",
+    "fullDescription": "Короткая книжка-картинка о превращении гусеницы в бабочку, счёте, днях недели и еде.",
+    "whyRecommended": "Подходит для самого первого совместного чтения: повторяющаяся структура помогает ребёнку следить за сюжетом и запоминать новые слова.",
+    "ageMin": 2,
+    "ageMax": 5,
+    "ageLabel": "2–5 лет",
+    "readingMode": "together",
+    "genres": [
+      "книжка-картинка",
+      "познавательная история"
+    ],
+    "themes": [
+      "животные",
+      "природа"
+    ],
+    "moods": [
+      "спокойное",
+      "уютное"
+    ],
+    "suitableForBedtime": true,
+    "lengthCategory": "very-short",
+    "lengthLabel": "короткая история",
+    "pages": 26,
+    "classicOrModern": "modern",
+    "sensitiveTopics": [],
+    "officialAgeRating": "0+ — требует сверки по ISBN",
+    "officialAgeRatingSource": "https://www.eric-carle.com/eric-carle-book-gallery/the-very-hungry-caterpillar-1969/",
+    "status": "published"
+  },
+  {
+    "id": "nen-052",
+    "slug": "spokoynoy-nochi-luna",
+    "title": "Спокойной ночи, Луна",
+    "originalTitle": "Goodnight Moon",
+    "author": "Маргарет Уайз Браун",
+    "shortDescription": "Ритмичная история-прощание со всем, что окружает ребёнка в комнате перед сном.",
+    "fullDescription": "Ритмичная история-прощание со всем, что окружает ребёнка в комнате перед сном.",
+    "whyRecommended": "Книга строит спокойный повторяющийся ритуал и хорошо подходит для чтения в конце дня.",
+    "ageMin": 2,
+    "ageMax": 5,
+    "ageLabel": "2–5 лет",
+    "readingMode": "together",
+    "genres": [
+      "книжка-картинка",
+      "стихотворная история"
+    ],
+    "themes": [
+      "семья",
+      "природа"
+    ],
+    "moods": [
+      "спокойное",
+      "уютное"
+    ],
+    "suitableForBedtime": true,
+    "lengthCategory": "very-short",
+    "lengthLabel": "короткая история",
+    "pages": 32,
+    "classicOrModern": "modern",
+    "sensitiveTopics": [],
+    "officialAgeRating": "0+ — требует сверки по ISBN",
+    "officialAgeRatingSource": "https://www.harpercollins.com/products/goodnight-moon-margaret-wise-brown",
+    "status": "published"
+  },
+  {
+    "id": "nen-053",
+    "slug": "sovyata",
+    "title": "Совята",
+    "originalTitle": "Owl Babies",
+    "author": "Мартин Уодделл",
+    "shortDescription": "Три совёнка ждут маму и по-разному справляются с тревогой, пока она не возвращается.",
+    "fullDescription": "Три совёнка ждут маму и по-разному справляются с тревогой, пока она не возвращается.",
+    "whyRecommended": "Простая и безопасная история о разлуке на короткое время и возвращении близкого взрослого.",
+    "ageMin": 2,
+    "ageMax": 5,
+    "ageLabel": "2–5 лет",
+    "readingMode": "together",
+    "genres": [
+      "книжка-картинка",
+      "семейная история"
+    ],
+    "themes": [
+      "животные",
+      "семья",
+      "природа"
+    ],
+    "moods": [
+      "спокойное",
+      "трогательное",
+      "уютное"
+    ],
+    "suitableForBedtime": true,
+    "lengthCategory": "very-short",
+    "lengthLabel": "короткая история",
+    "pages": 32,
+    "classicOrModern": "modern",
+    "sensitiveTopics": [],
+    "officialAgeRating": "0+ — требует сверки по ISBN",
+    "officialAgeRatingSource": "https://www.walker.co.uk/Owl-Babies-9781406374377.aspx",
+    "status": "published"
+  },
+  {
+    "id": "nen-054",
+    "slug": "tihaya-kniga",
+    "title": "Тихая книга",
+    "originalTitle": "The Quiet Book",
+    "author": "Дебора Андервуд",
+    "shortDescription": "Наблюдательная книжка-картинка о разных видах тишины в повседневной жизни.",
+    "fullDescription": "Наблюдательная книжка-картинка о разных видах тишины в повседневной жизни.",
+    "whyRecommended": "Помогает поговорить с ребёнком о таких темах, как животные и семья.",
+    "ageMin": 3,
+    "ageMax": 6,
+    "ageLabel": "3–6 лет",
+    "readingMode": "together",
+    "genres": [
+      "книжка-картинка"
+    ],
+    "themes": [
+      "животные",
+      "семья"
+    ],
+    "moods": [
+      "спокойное",
+      "уютное"
+    ],
+    "suitableForBedtime": true,
+    "lengthCategory": "very-short",
+    "lengthLabel": "короткая история",
+    "pages": 32,
+    "classicOrModern": "modern",
+    "sensitiveTopics": [],
+    "officialAgeRating": "0+ — требует сверки по ISBN",
+    "officialAgeRatingSource": "https://www.harpercollins.com/products/the-quiet-book-deborah-underwood",
+    "status": "published"
+  },
+  {
+    "id": "nen-055",
+    "slug": "dochurka-gruffalo",
+    "title": "Дочурка Груффало",
+    "originalTitle": "The Gruffalo's Child",
+    "author": "Джулия Дональдсон",
+    "shortDescription": "Книжка-картинка для детей 3–6 лет. Темы: животные, приключения, юмор.",
+    "fullDescription": "Книжка-картинка для детей 3–6 лет. Темы: животные, приключения, юмор.",
+    "whyRecommended": "Помогает поговорить с ребёнком о таких темах, как животные и приключения.",
+    "ageMin": 3,
+    "ageMax": 6,
+    "ageLabel": "3–6 лет",
+    "readingMode": "together",
+    "genres": [
+      "книжка-картинка",
+      "сказка"
+    ],
+    "themes": [
+      "животные",
+      "приключения",
+      "юмор"
+    ],
+    "moods": [
+      "уютное",
+      "смешное",
+      "захватывающее"
+    ],
+    "suitableForBedtime": true,
+    "lengthCategory": "very-short",
+    "lengthLabel": "короткая история",
+    "pages": 32,
+    "classicOrModern": "modern",
+    "sensitiveTopics": [],
+    "officialAgeRating": "0+ — требует сверки по ISBN",
+    "officialAgeRatingSource": "https://www.gruffalo.com/books/the-gruffalos-child",
+    "status": "published"
+  },
+  {
+    "id": "nen-056",
+    "slug": "professor-astrokot-i-ego-puteshestvie-v-kosmos",
+    "title": "Профессор Астрокот и его путешествие в космос",
+    "originalTitle": "Professor Astro Cat's Frontiers of Space",
+    "author": "Доминик Уоллиман",
+    "shortDescription": "Иллюстрированное введение в устройство космоса, планеты, звёзды и космические полёты.",
+    "fullDescription": "Иллюстрированное введение в устройство космоса, планеты, звёзды и космические полёты.",
+    "whyRecommended": "Хорошая первая книга о космосе: сложные идеи объясняются коротко, наглядно и без перегрузки терминами.",
+    "ageMin": 6,
+    "ageMax": 10,
+    "ageLabel": "6–10 лет",
+    "readingMode": "both",
+    "genres": [
+      "научно-популярная книга"
+    ],
+    "themes": [
+      "космос",
+      "техника",
+      "наука"
+    ],
+    "moods": [
+      "захватывающее"
+    ],
+    "suitableForBedtime": false,
+    "lengthCategory": "short",
+    "lengthLabel": "на один вечер",
+    "pages": 64,
+    "classicOrModern": "modern",
+    "sensitiveTopics": [],
+    "officialAgeRating": "6+ — требует сверки по ISBN",
+    "officialAgeRatingSource": "https://flyingeyebooks.com/book/professor-astro-cats-frontiers-of-space/",
+    "status": "published"
+  },
+  {
+    "id": "nen-057",
+    "slug": "dzhordzh-i-tayny-vselennoy",
+    "title": "Джордж и тайны Вселенной",
+    "originalTitle": "George's Secret Key to the Universe",
+    "author": "Люси Хокинг; Стивен Хокинг",
+    "shortDescription": "Научная фантастика для детей 9–13 лет. Темы: космос, наука, приключения.",
+    "fullDescription": "Научная фантастика для детей 9–13 лет. Темы: космос, наука, приключения.",
+    "whyRecommended": "Помогает поговорить с ребёнком о таких темах, как космос и наука.",
+    "ageMin": 9,
+    "ageMax": 13,
+    "ageLabel": "9–13 лет",
+    "readingMode": "both",
+    "genres": [
+      "научная фантастика",
+      "приключения",
+      "познавательная книга"
+    ],
+    "themes": [
+      "космос",
+      "наука",
+      "приключения"
+    ],
+    "moods": [
+      "захватывающее",
+      "таинственное"
+    ],
+    "suitableForBedtime": false,
+    "lengthCategory": "long",
+    "lengthLabel": "длинная книга",
+    "pages": 336,
+    "classicOrModern": "modern",
+    "sensitiveTopics": [],
+    "officialAgeRating": "6+ — требует сверки по ISBN",
+    "officialAgeRatingSource": "https://www.simonandschuster.com/books/Georges-Secret-Key-to-the-Universe/Lucy-Hawking/9781416985846",
+    "status": "published"
+  },
+  {
+    "id": "nen-058",
+    "slug": "detektiv-per-rasputyvaet-delo-v-poiskah-pohischennogo-labirinta",
+    "title": "Детектив Пьер распутывает дело. В поисках похищенного лабиринта",
+    "originalTitle": "Pierre the Maze Detective: The Mystery of the Empire Maze Tower",
+    "author": "Хиро Камигаки; IC4DESIGN",
+    "shortDescription": "Большая книга-лабиринт, где ребёнок ищет путь, детали и улики вместе с детективом Пьером.",
+    "fullDescription": "Большая книга-лабиринт, где ребёнок ищет путь, детали и улики вместе с детективом Пьером.",
+    "whyRecommended": "Подходит детям, которым интереснее разгадывать и рассматривать, чем читать длинный текст.",
+    "ageMin": 6,
+    "ageMax": 10,
+    "ageLabel": "6–10 лет",
+    "readingMode": "both",
+    "genres": [
+      "книга-игра",
+      "детектив"
+    ],
+    "themes": [
+      "детективы",
+      "приключения",
+      "творчество"
+    ],
+    "moods": [
+      "захватывающее",
+      "таинственное"
+    ],
+    "suitableForBedtime": false,
+    "lengthCategory": "short",
+    "lengthLabel": "на один вечер",
+    "pages": 36,
+    "classicOrModern": "modern",
+    "sensitiveTopics": [],
+    "officialAgeRating": "6+ — требует сверки по ISBN",
+    "officialAgeRatingSource": "https://www.laurenceking.com/products/pierre-the-maze-detective",
+    "status": "published"
+  },
+  {
+    "id": "nen-059",
+    "slug": "detektiv-samson",
+    "title": "Детектив Самсон",
+    "originalTitle": "Détective Samson",
+    "author": "Катерина Горелик",
+    "shortDescription": "Книжка-картинка для детей 4–7 лет. Темы: детективы, животные, юмор.",
+    "fullDescription": "Книжка-картинка для детей 4–7 лет. Темы: детективы, животные, юмор.",
+    "whyRecommended": "Помогает поговорить с ребёнком о таких темах, как детективы и животные.",
+    "ageMin": 4,
+    "ageMax": 7,
+    "ageLabel": "4–7 лет",
+    "readingMode": "together",
+    "genres": [
+      "книжка-картинка",
+      "детектив",
+      "книга-искалка"
+    ],
+    "themes": [
+      "детективы",
+      "животные",
+      "юмор"
+    ],
+    "moods": [
+      "смешное",
+      "захватывающее"
+    ],
+    "suitableForBedtime": true,
+    "lengthCategory": "very-short",
+    "lengthLabel": "короткая история",
+    "pages": 32,
+    "classicOrModern": "modern",
+    "sensitiveTopics": [],
+    "officialAgeRating": "0+ — требует сверки по ISBN",
+    "officialAgeRatingSource": "https://www.katerinagorelik.com/",
+    "status": "published"
+  },
+  {
+    "id": "nen-060",
+    "slug": "komissar-gordon-pervyy-sluchay",
+    "title": "Комиссар Гордон. Первый случай",
+    "originalTitle": "Kommissarie Gordon. Det första fallet",
+    "author": "Ульф Нильсон",
+    "shortDescription": "Детектив для детей 6–9 лет. Темы: детективы, животные, дружба.",
+    "fullDescription": "Детектив для детей 6–9 лет. Темы: детективы, животные, дружба.",
+    "whyRecommended": "Помогает поговорить с ребёнком о таких темах, как детективы и животные.",
+    "ageMin": 6,
+    "ageMax": 9,
+    "ageLabel": "6–9 лет",
+    "readingMode": "both",
+    "genres": [
+      "детектив",
+      "повесть"
+    ],
+    "themes": [
+      "детективы",
+      "животные",
+      "дружба"
+    ],
+    "moods": [
+      "уютное",
+      "таинственное",
+      "смешное"
+    ],
+    "suitableForBedtime": true,
+    "lengthCategory": "medium",
+    "lengthLabel": "на несколько вечеров",
+    "pages": 96,
+    "classicOrModern": "modern",
+    "sensitiveTopics": [],
+    "officialAgeRating": "6+ — требует сверки по ISBN",
+    "officialAgeRatingSource": "https://samokatbook.ru/",
+    "status": "published"
+  },
+  {
+    "id": "nen-061",
+    "slug": "univermag-dinozavrov",
+    "title": "Универмаг динозавров",
+    "originalTitle": "The Dinosaur Department Store",
+    "author": "Лили Мюррей",
+    "shortDescription": "Девочка отправляется выбирать динозавра в необычный универмаг, где каждый отдел предлагает новый вид.",
+    "fullDescription": "Девочка отправляется выбирать динозавра в необычный универмаг, где каждый отдел предлагает новый вид.",
+    "whyRecommended": "Лёгкая сюжетная книга для дошкольников, которые любят динозавров, но пока не готовы к энциклопедиям.",
+    "ageMin": 3,
+    "ageMax": 6,
+    "ageLabel": "3–6 лет",
+    "readingMode": "together",
+    "genres": [
+      "книжка-картинка",
+      "сказочная история"
+    ],
+    "themes": [
+      "динозавры",
+      "юмор",
+      "приключения"
+    ],
+    "moods": [
+      "смешное",
+      "захватывающее"
+    ],
+    "suitableForBedtime": true,
+    "lengthCategory": "very-short",
+    "lengthLabel": "короткая история",
+    "pages": 32,
+    "classicOrModern": "modern",
+    "sensitiveTopics": [],
+    "officialAgeRating": "0+ — требует сверки по ISBN",
+    "officialAgeRatingSource": "https://www.busterbooks.co.uk/product/the-dinosaur-department-store/",
+    "status": "published"
+  },
+  {
+    "id": "nen-062",
+    "slug": "dinozavrium",
+    "title": "Динозавриум",
+    "originalTitle": "Dinosaurium",
+    "author": "Лили Мюррей",
+    "shortDescription": "Научно-популярная книга для детей 7–12 лет. Темы: динозавры, природа, наука.",
+    "fullDescription": "Научно-популярная книга для детей 7–12 лет. Темы: динозавры, природа, наука.",
+    "whyRecommended": "Помогает поговорить с ребёнком о таких темах, как динозавры и природа.",
+    "ageMin": 7,
+    "ageMax": 12,
+    "ageLabel": "7–12 лет",
+    "readingMode": "both",
+    "genres": [
+      "научно-популярная книга",
+      "иллюстрированная энциклопедия"
+    ],
+    "themes": [
+      "динозавры",
+      "природа",
+      "наука"
+    ],
+    "moods": [
+      "захватывающее"
+    ],
+    "suitableForBedtime": false,
+    "lengthCategory": "medium",
+    "lengthLabel": "на несколько вечеров",
+    "pages": 112,
+    "classicOrModern": "modern",
+    "sensitiveTopics": [],
+    "officialAgeRating": "6+ — требует сверки по ISBN",
+    "officialAgeRatingSource": "https://www.bigpicturepress.net/dinosaurium",
+    "status": "published"
+  },
+  {
+    "id": "nen-063",
+    "slug": "emil-i-syschiki",
+    "title": "Эмиль и сыщики",
+    "originalTitle": "Emil und die Detektive",
+    "author": "Эрих Кестнер",
+    "shortDescription": "Детектив для детей 8–12 лет. Темы: детективы, дружба, приключения.",
+    "fullDescription": "Детектив для детей 8–12 лет. Темы: детективы, дружба, приключения.",
+    "whyRecommended": "Помогает поговорить с ребёнком о таких темах, как детективы и дружба.",
+    "ageMin": 8,
+    "ageMax": 12,
+    "ageLabel": "8–12 лет",
+    "readingMode": "both",
+    "genres": [
+      "детектив",
+      "приключения",
+      "повесть"
+    ],
+    "themes": [
+      "детективы",
+      "дружба",
+      "приключения"
+    ],
+    "moods": [
+      "захватывающее",
+      "смешное"
+    ],
+    "suitableForBedtime": false,
+    "lengthCategory": "medium",
+    "lengthLabel": "на несколько вечеров",
+    "pages": 192,
+    "classicOrModern": "classic",
+    "sensitiveTopics": [],
+    "officialAgeRating": "6+ — требует сверки по ISBN",
+    "officialAgeRatingSource": "https://www.kaestnerfuerkinder.net/emil-und-die-detektive/",
+    "status": "published"
+  },
+  {
+    "id": "nen-064",
+    "slug": "kalle-blumkvist-syschik",
+    "title": "Калле Блумквист — сыщик",
+    "originalTitle": "Mästerdetektiven Blomkvist",
+    "author": "Астрид Линдгрен",
+    "shortDescription": "Детектив для детей 9–13 лет. Темы: детективы, дружба, приключения.",
+    "fullDescription": "Детектив для детей 9–13 лет. Темы: детективы, дружба, приключения.",
+    "whyRecommended": "Помогает поговорить с ребёнком о таких темах, как детективы и дружба.",
+    "ageMin": 9,
+    "ageMax": 13,
+    "ageLabel": "9–13 лет",
+    "readingMode": "both",
+    "genres": [
+      "детектив",
+      "приключения",
+      "повесть"
+    ],
+    "themes": [
+      "детективы",
+      "дружба",
+      "приключения"
+    ],
+    "moods": [
+      "захватывающее",
+      "таинственное",
+      "смешное"
+    ],
+    "suitableForBedtime": false,
+    "lengthCategory": "medium",
+    "lengthLabel": "на несколько вечеров",
+    "pages": 224,
+    "classicOrModern": "classic",
+    "sensitiveTopics": [],
+    "officialAgeRating": "6+ — требует сверки по ISBN",
+    "officialAgeRatingSource": "https://www.astridlindgren.com/en/characters/kalle-blomkvist",
+    "status": "published"
+  }
+]

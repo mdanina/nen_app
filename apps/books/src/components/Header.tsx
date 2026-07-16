@@ -1,0 +1,6 @@
+import { Icon } from "@nen/ui";
+import { AppLink } from "./Link";
+export function Header({ navigate, favoriteCount, route }: { navigate: (path: string) => void; favoriteCount: number; route: string }) {
+  const links = [["/books","Каталог"],["/collections","Подборки"],["/recommend","Подобрать"],["/favorites","Избранное"]] as const;
+  return <><header className="site-header"><AppLink href="/" navigate={navigate} className="brand" ariaLabel="НЭН — на главную"><span>Н</span><span>Э</span><span>Н</span><b>Что почитать с детьми</b></AppLink><nav className="desktop-nav" aria-label="Основная навигация">{links.map(([href,label]) => <AppLink key={href} href={href} navigate={navigate} className={route.startsWith(href) ? "active" : ""}>{label}{href === "/favorites" && favoriteCount > 0 ? ` ${favoriteCount}` : ""}</AppLink>)}</nav></header><nav className="mobile-nav" aria-label="Мобильная навигация">{links.map(([href,label], index) => <AppLink key={href} href={href} navigate={navigate} className={route.startsWith(href) ? "active" : ""}><span aria-hidden="true">{["▤","◇","✦","♡"][index]}</span><small>{label}{href === "/favorites" && favoriteCount > 0 ? ` (${favoriteCount})` : ""}</small></AppLink>)}</nav></>;
+}

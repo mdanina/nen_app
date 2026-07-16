@@ -1,0 +1,20 @@
+:root {
+  --nen-ink: #1f1c18;
+  --nen-paper: #fffaf2;
+  --nen-surface: #ffffff;
+  --nen-muted: #6f6960;
+  --nen-line: #ded7cc;
+  --nen-pink: #e9577d;
+  --nen-pink-soft: #ffe1e9;
+  --nen-yellow: #f4cf52;
+  --nen-yellow-soft: #fff1b8;
+  --nen-blue: #81c5df;
+  --nen-green: #84bd88;
+  --nen-danger: #a82f4d;
+  --nen-radius-sm: 10px;
+  --nen-radius-md: 18px;
+  --nen-radius-lg: 28px;
+  --nen-shadow: 0 12px 32px rgb(31 28 24 / 0.09);
+  --nen-max: 1240px;
+  --nen-focus: 3px solid #176b8d;
+}

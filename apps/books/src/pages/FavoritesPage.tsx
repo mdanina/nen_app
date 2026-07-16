@@ -1,0 +1,5 @@
+import { EmptyState } from "@nen/ui";
+import { BookCard } from "../components/BookCard";
+import type { Book } from "../domain/books/types";
+import { useSeo } from "../hooks/useSeo";
+export function FavoritesPage({books,favorites,toggleFavorite,navigate}:{books:Book[];favorites:string[];toggleFavorite:(id:string)=>void;navigate:(path:string)=>void}){useSeo("Избранные книги — НЭН","Сохраненные книжные рекомендации НЭН.","/favorites",true);const selected=books.filter((book)=>favorites.includes(book.id));return <section className="page"><header className="page-header"><p className="eyebrow">Сохранено на этом устройстве</p><h1>Избранные книги</h1><p>Книги, к которым вы хотите вернуться позже.</p></header>{selected.length?<div className="book-grid">{selected.map((book)=><BookCard key={book.id} book={book} favorite toggleFavorite={()=>toggleFavorite(book.id)} navigate={navigate}/>)}</div>:<EmptyState title="Здесь пока пусто" action={<button className="primary-button" onClick={()=>navigate("/books")}>Открыть каталог</button>}><p>Нажмите на сердечко у книги — она появится здесь.</p></EmptyState>}</section>}

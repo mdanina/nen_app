@@ -1,25 +1,18 @@
 {
-  "name": "nen-family-catalog",
+  "name": "nen-platform",
   "private": true,
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
-    "typecheck": "tsc -b --pretty false",
-    "lint": "tsc -b --pretty false",
-    "test": "vitest run"
-  },
-  "dependencies": {
-    "@vitejs/plugin-react": "latest",
-    "vite": "latest",
-    "typescript": "latest",
-    "react": "latest",
-    "react-dom": "latest"
+    "dev": "pnpm --filter @nen/books dev",
+    "dev:books": "pnpm --filter @nen/books dev",
+    "catalog:build": "node scripts/build-books-catalog.mjs",
+    "build": "pnpm catalog:build && pnpm --filter @nen/books build",
+    "typecheck": "pnpm -r --if-present typecheck",
+    "lint": "pnpm -r --if-present lint",
+    "test": "pnpm -r --if-present test"
   },
   "devDependencies": {
-    "@types/react": "latest",
-    "@types/react-dom": "latest",
-    "vitest": "latest"
+    "typescript": "latest"
   }
 }
