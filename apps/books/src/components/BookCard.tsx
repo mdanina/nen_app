@@ -1,15 +1,10 @@
 import { Icon } from "@nen/ui";
 import type { Book, RankedBook } from "../domain/books/types";
 import { AppLink } from "./Link";
+import { BookCover } from "./BookCover";
 
 const readingLabels = { independent: "читает сам", together: "читаем вместе", both: "сам или вместе" };
 function readingTime(book: Book) { if (book.estimatedReadingMinutes) return `примерно ${book.estimatedReadingMinutes} мин`; return book.lengthLabel ?? ({ "very-short": "короткая история", short: "на один вечер", medium: "на несколько вечеров", long: "длинное чтение" } as const)[book.lengthCategory ?? "short"]; }
-
-export function BookCover({ book, large = false }: { book: Book; large?: boolean }) {
-  if (book.coverUrl) return <img className={`book-cover${large ? " book-cover--large" : ""}`} src={book.coverUrl} alt={`Обложка книги «${book.title}»`} loading={large ? "eager" : "lazy"} />;
-  const tone = [...book.id].reduce((sum, char) => sum + char.charCodeAt(0), 0) % 5;
-  return <div className={`book-cover book-cover--placeholder tone-${tone}${large ? " book-cover--large" : ""}`} role="img" aria-label={`Обложка книги «${book.title}»`}><small>НЭН рекомендует</small><strong>{book.title}</strong><span>{book.author}</span></div>;
-}
 
 export function BookCard({ book, ranked, favorite, toggleFavorite, navigate, compact = false }: { book: Book; ranked?: RankedBook; favorite: boolean; toggleFavorite: () => void; navigate: (path: string) => void; compact?: boolean }) {
   return <article className={`book-card${compact ? " book-card--compact" : ""}`}>

@@ -1,6 +1,21 @@
 export type ReadingMode = "independent" | "together" | "both";
 export type LengthCategory = "very-short" | "short" | "medium" | "long";
 export type Difficulty = "easy" | "medium" | "advanced";
+export type IdentificationStatus = "provisional" | "identified";
+export type CoverKind = "local" | "external" | "placeholder";
+export type CoverRightsStatus = "licensed" | "open-license" | "public-domain" | "external-display-only" | "unverified" | "not-required";
+
+export interface BookCoverData {
+  kind: CoverKind;
+  url?: string;
+  rightsStatus: CoverRightsStatus;
+  sourceName?: string;
+  sourcePageUrl?: string;
+  isbn13?: string;
+  temporary?: boolean;
+  attribution?: string;
+  verifiedAt?: string;
+}
 
 export interface Book {
   id: string;
@@ -13,6 +28,12 @@ export interface Book {
   whyRecommended: string;
   editorialReason?: string;
   coverUrl?: string;
+  cover?: BookCoverData;
+  identificationStatus?: IdentificationStatus;
+  isbn13?: string;
+  publisher?: string;
+  publicationYear?: number;
+  bibliographicSources?: string[];
   ageMin: number;
   ageMax: number;
   ageLabel: string;
@@ -20,6 +41,9 @@ export interface Book {
   genres: string[];
   themes: string[];
   moods: string[];
+  bookFormats?: string[];
+  lifeSituations?: string[];
+  emotionalStates?: string[];
   suitableForBedtime?: boolean;
   languageDifficulty?: Difficulty;
   lengthCategory?: LengthCategory;
@@ -32,6 +56,7 @@ export interface Book {
   seriesName?: string;
   classicOrModern?: "classic" | "modern";
   sensitiveTopics: string[];
+  sensitiveTopicsReviewed?: boolean;
   similarBookIds?: string[];
   officialAgeRating?: string;
   officialAgeRatingSource?: string;

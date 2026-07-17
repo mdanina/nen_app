@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Редакционный каталог книг НЭН v2",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["schemaVersion", "id", "slug", "status", "identificationStatus", "title", "authors", "ageMin", "ageMax", "readingMode", "bookFormats", "genres", "themes", "lifeSituations", "emotionalStates", "moods", "shortDescription", "whyRecommended", "sensitiveTopics", "sensitiveTopicsReviewed", "cover"],
+    "properties": {
+      "schemaVersion": { "const": 2 },
+      "id": { "type": "string", "minLength": 1 },
+      "slug": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+      "status": { "enum": ["draft", "facts-review", "editorial-review", "rights-review", "ready", "published", "blocked"] },
+      "identificationStatus": { "enum": ["provisional", "identified"] },
+      "title": { "type": "string", "minLength": 1 },
+      "originalTitle": { "type": "string" },
+      "authors": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } },
+      "isbn13": { "type": "string", "pattern": "^97[89][0-9]{10}$" },
+      "publisher": { "type": "string" },
+      "publicationYear": { "type": "integer", "minimum": 1900, "maximum": 2100 },
+      "pages": { "type": "integer", "minimum": 1 },
+      "bibliographicSources": { "type": "array", "items": { "type": "string", "format": "uri" } },
+      "ageMin": { "type": "integer", "minimum": 0, "maximum": 17 },
+      "ageMax": { "type": "integer", "minimum": 0, "maximum": 17 },
+      "readingMode": { "enum": ["independent", "together", "both"] },
+      "bookFormats": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+      "genres": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+      "themes": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+      "lifeSituations": { "type": "array", "items": { "type": "string" } },
+      "emotionalStates": { "type": "array", "items": { "type": "string" } },
+      "moods": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+      "shortDescription": { "type": "string", "minLength": 20 },
+      "whyRecommended": { "type": "string", "minLength": 20 },
+      "sensitiveTopics": { "type": "array", "items": { "type": "string" } },
+      "sensitiveTopicsReviewed": { "const": true },
+      "cover": {
+        "type": "object",
+        "required": ["kind", "rightsStatus"],
+        "properties": {
+          "kind": { "enum": ["local", "external", "placeholder"] },
+          "url": { "type": "string" },
+          "rightsStatus": { "enum": ["licensed", "open-license", "public-domain", "external-display-only", "unverified", "not-required"] },
+          "sourceName": { "type": "string" },
+          "sourcePageUrl": { "type": "string", "format": "uri" },
+          "isbn13": { "type": "string", "pattern": "^97[89][0-9]{10}$" },
+          "temporary": { "type": "boolean" },
+          "attribution": { "type": "string" },
+          "verifiedAt": { "type": "string", "format": "date" }
+        }
+      }
+    }
+  }
+}

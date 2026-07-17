@@ -1,5 +1,6 @@
 import { EmptyState } from "@nen/ui";
-import { BookCard, BookCover } from "../components/BookCard";
+import { BookCard } from "../components/BookCard";
+import { BookCover } from "../components/BookCover";
 import { AppLink } from "../components/Link";
 import { collections } from "../data/collections";
 import { getSimilarBooks } from "../domain/books/similarity";

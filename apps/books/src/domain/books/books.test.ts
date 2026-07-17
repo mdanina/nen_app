@@ -11,6 +11,9 @@ const book = (overrides: Partial<Book> = {}): Book => ({
 describe("validateBooks", () => {
   it("не ломает каталог из-за одной плохой записи", () => { const result = validateBooks([book(), { id: "bad" }]); expect(result.items).toHaveLength(1); expect(result.issues.length).toBeGreaterThan(0); });
   it("отклоняет повторяющиеся slug", () => { const result = validateBooks([book(), book({ id: "2" })]); expect(result.items).toHaveLength(1); expect(result.issues.some((issue) => issue.field === "slug")).toBe(true); });
+  it("отклоняет дубль произведения даже с другим id и slug", () => { const result = validateBooks([book(), book({ id: "2", slug: "two" })]); expect(result.items).toHaveLength(1); expect(result.issues.some((issue) => issue.field === "title")).toBe(true); });
+  it("не принимает identified без ISBN", () => { const result = validateBooks([book({ identificationStatus: "identified", bookFormats: ["повесть"], lifeSituations: [], emotionalStates: [] })]); expect(result.items).toHaveLength(0); expect(result.issues.some((issue) => issue.field === "identificationStatus")).toBe(true); });
+  it("не показывает внешнюю обложку без совпадающего ISBN", () => { const result = validateBooks([book({ identificationStatus: "identified", isbn13: "9785000000001", bookFormats: ["повесть"], lifeSituations: [], emotionalStates: [], sensitiveTopicsReviewed: true, cover: { kind: "external", url: "https://covers.openlibrary.org/b/isbn/9785000000002-L.jpg", rightsStatus: "external-display-only", isbn13: "9785000000002", temporary: true } })]); expect(result.items).toHaveLength(0); expect(result.issues.some((issue) => issue.field === "cover")).toBe(true); });
 });
 
 describe("searchBooks", () => {
@@ -18,7 +21,7 @@ describe("searchBooks", () => {
   it("возвращает много точных результатов", () => expect(searchBooks(books, { ...emptyFilters, age: 7 }).exact).toHaveLength(2));
   it("возвращает один точный результат", () => expect(searchBooks(books, { ...emptyFilters, age: 7, themes: ["животные"] }).exact).toHaveLength(1));
   it("не ослабляет возраст", () => { const result = searchBooks(books, { ...emptyFilters, age: 11, themes: ["несуществующая"] }); expect(result.exact).toHaveLength(0); expect(result.nearby.every((item) => item.book.ageMin <= 11 && item.book.ageMax >= 11)).toBe(true); });
-  it("объясняет неизвестную тему", () => expect(searchBooks(books, { ...emptyFilters, age: 7, themes: ["космос"] }).nearby[0].relaxed).toContain("темы"));
+  it("объясняет неизвестную тему", () => expect(searchBooks(books, { ...emptyFilters, age: 7, themes: ["космос"] }).nearby[0].relaxed.some((reason) => reason.includes("темы"))).toBe(true));
   it("предпочитает соседнюю длительность", () => expect(searchBooks(books, { ...emptyFilters, age: 7, lengths: ["very-short"], themes: ["нет"] }).nearby[0].book.lengthCategory).toBe("short"));
   it("выбирает максимальное число совпадений", () => expect(searchBooks(books, { ...emptyFilters, age: 7, themes: ["дружба", "животные"], moods: ["спокойное"] }).nearby[0].book.id).toBe("1"));
   it("понимает запрос перед сном", () => expect(searchBooks(books, { ...emptyFilters, age: 7, search: "почитать перед сном" }).exact[0].book.id).toBe("1"));
