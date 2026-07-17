@@ -28,6 +28,6 @@ export function App() {
   else if (route.startsWith("/collections/")) page = <CollectionDetailPage slug={decodeURIComponent(route.slice(13))} {...common}/>;
   else if (route === "/recommend") page = <RecommendPage {...common}/>;
   else if (route === "/favorites") page = <FavoritesPage {...common}/>;
-  else page = <section className="page narrow"><p className="eyebrow">Ошибка 404</p><h1>Страница не найдена</h1><button className="primary-button" onClick={() => navigate("/")}>На главную</button></section>;
+  else page = <section className="page narrow"><p className="eyebrow">Такой страницы нет</p><h1>Страница не найдена</h1><button className="primary-button" onClick={() => navigate("/")}>Вернуться на главную</button></section>;
   return <><Header navigate={navigate} favoriteCount={favorites.length} route={route}/><main>{page}</main><footer><strong>НЭН</strong><span>Что почитать с детьми</span><span>Честное медиа для родителей</span></footer></>;
 }

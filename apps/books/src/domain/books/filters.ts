@@ -41,29 +41,29 @@ function rank(book: Book, filters: BookFilters, relaxReading = false): RankedBoo
     else if (relaxReading) relaxed.push("формат чтения");
   }
   if (filters.search) {
-    if (searchMatches(book, filters.search)) { score += 24; matched.push("ситуации из поискового запроса"); }
-    else relaxed.push("текст поискового запроса");
+    if (searchMatches(book, filters.search)) { score += 24; matched.push("поисковому запросу"); }
+    else relaxed.push("не совпадает с поисковым запросом");
   }
   const themeMatches = filters.themes.filter((v) => book.themes.includes(v));
   score += themeMatches.length * 16;
   if (themeMatches.length) matched.push(`темам: ${themeMatches.join(", ")}`);
-  if (themeMatches.length < filters.themes.length) relaxed.push(themeMatches.length ? `часть тем (${themeMatches.length} из ${filters.themes.length})` : "темы");
+  if (themeMatches.length < filters.themes.length) relaxed.push(themeMatches.length ? `совпадает только часть тем (${themeMatches.length} из ${filters.themes.length})` : "не совпадают выбранные темы");
   const moodMatches = filters.moods.filter((v) => book.moods.includes(v));
   score += moodMatches.length * 8;
   if (moodMatches.length) matched.push(`настроению: ${moodMatches.join(", ")}`);
-  if (moodMatches.length < filters.moods.length) relaxed.push("настроение");
+  if (moodMatches.length < filters.moods.length) relaxed.push("другое настроение");
   const genreMatches = filters.genres.filter((v) => book.genres.includes(v));
   score += genreMatches.length * 7;
   if (genreMatches.length) matched.push(`жанру: ${genreMatches.join(", ")}`);
-  if (genreMatches.length < filters.genres.length) relaxed.push("точный жанр");
+  if (genreMatches.length < filters.genres.length) relaxed.push("другой жанр");
   if (filters.lengths.length) {
     if (book.lengthCategory && filters.lengths.includes(book.lengthCategory)) { score += 12; matched.push("объёму"); }
-    else if (nearestLength(filters.lengths, book.lengthCategory)) { score += 5; relaxed.push("объём до соседней категории"); }
-    else relaxed.push("объём");
+    else if (nearestLength(filters.lengths, book.lengthCategory)) { score += 5; relaxed.push("книга немного отличается по объёму"); }
+    else relaxed.push("другой объём чтения");
   }
   if (filters.difficulty) {
     if (book.languageDifficulty === filters.difficulty) { score += 6; matched.push("сложности языка"); }
-    else relaxed.push("сложность языка");
+    else relaxed.push("другая сложность языка");
   }
   return { book, score, matched, relaxed: [...new Set(relaxed)] };
 }
@@ -76,5 +76,5 @@ export function searchBooks(books: Book[], filters: BookFilters): BookSearchResu
   let relaxedReading = false;
   if (!candidates.length) { candidates = published.filter((book) => ageMatches(book, filters.age)); relaxedReading = Boolean(filters.reading); }
   const nearby = candidates.map((book) => rank(book, filters, relaxedReading)).sort((a, b) => b.score - a.score || a.relaxed.length - b.relaxed.length || a.book.title.localeCompare(b.book.title, "ru")).slice(0, 6);
-  return { exact: [], nearby, explanation: relaxedReading ? "Точных совпадений нет. Возраст сохранён, но формат чтения пришлось явно ослабить." : "Точных совпадений нет. Возраст и формат чтения сохранены; показываем книги с максимальным числом остальных совпадений." };
+  return { exact: [], nearby, explanation: relaxedReading ? "Точных совпадений нет. Мы сохранили выбранный возраст и показали ближайшие варианты с другим форматом чтения." : "Точных совпадений нет. Мы сохранили возраст и формат чтения и показали книги, которые лучше всего соответствуют остальным условиям." };
 }
