@@ -7,8 +7,12 @@
   "scripts": {
     "dev": "pnpm --filter @nen/books dev",
     "dev:books": "pnpm --filter @nen/books dev",
+    "dev:watch": "pnpm --filter @nen/watch dev",
     "catalog:build": "node scripts/build-books-catalog.mjs",
     "build": "pnpm catalog:build && pnpm --filter @nen/books build",
+    "build:watch": "pnpm --filter @nen/watch build",
+    "typecheck:watch": "pnpm --filter @nen/watch typecheck",
+    "test:watch": "pnpm --filter @nen/watch test",
     "typecheck": "pnpm -r --if-present typecheck",
     "lint": "pnpm -r --if-present lint",
     "test": "pnpm -r --if-present test"
