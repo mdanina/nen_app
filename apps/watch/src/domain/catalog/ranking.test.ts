@@ -8,10 +8,10 @@ const titles = validateCatalog(sampleCatalog).items;
 
 describe("catalog ranking and nearby results", () => {
   it("ranks exact matches with explanations", () => {
-    const result = rankExactMatches(titles, { ...emptyMovieFilters(), age: 8, themes: ["природа"], durationMinutes: { max: 60 } });
+    const result = rankExactMatches(titles, { ...emptyMovieFilters(), age: 8, themes: ["природа"] });
     expect(result.map((item) => item.title.id)).toEqual(["demo-movie-river"]);
     expect(result[0].relaxedConditions).toEqual([]);
-    expect(result[0].matchedConditions.map((item) => item.key)).toEqual(expect.arrayContaining(["age", "theme:природа", "duration"]));
+    expect(result[0].matchedConditions.map((item) => item.key)).toEqual(expect.arrayContaining(["age", "theme:природа"]));
   });
 
   it("returns no exact matches for incompatible conditions", () => {

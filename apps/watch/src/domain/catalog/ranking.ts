@@ -1,16 +1,13 @@
 import type { Cartoon, Movie, WatchTitle } from "./types";
-import { filterTitles, matchesHardConstraints, type CatalogFilters, type NumberRange } from "./filters";
+import { filterTitles, matchesHardConstraints, type CatalogFilters } from "./filters";
 
 export const FILTER_WEIGHTS = {
   contentFormat: 30,
-  duration: 26,
   releaseForm: 24,
   theme: 14,
   mood: 10,
   country: 6,
   episodeCountKnown: 5,
-  year: 5,
-  discussionPotential: 4,
   officialRating: 3,
 } as const;
 
@@ -27,12 +24,6 @@ export interface RankedTitle {
 }
 
 const condition = (key: string, label: string): ConditionExplanation => ({ key, label });
-const inRange = (value: number, range: NumberRange | null) =>
-  !range || (range.min === undefined || value >= range.min) && (range.max === undefined || value <= range.max);
-const distanceFromRange = (value: number, range: NumberRange) =>
-  range.min !== undefined && value < range.min ? range.min - value
-    : range.max !== undefined && value > range.max ? value - range.max : 0;
-
 function addArrayCriterion(
   values: readonly string[],
   selected: readonly string[],
@@ -52,24 +43,6 @@ function addArrayCriterion(
     }
   }
   return score;
-}
-
-function scoreRange(
-  value: number,
-  range: NumberRange | null,
-  key: string,
-  label: string,
-  weight: number,
-  matched: ConditionExplanation[],
-  relaxed: ConditionExplanation[],
-) {
-  if (!range) return 0;
-  if (inRange(value, range)) {
-    matched.push(condition(key, label));
-    return weight;
-  }
-  relaxed.push(condition(key, label));
-  return Math.max(0, weight - distanceFromRange(value, range));
 }
 
 function evaluate(title: WatchTitle, filters: CatalogFilters): RankedTitle {
@@ -94,14 +67,6 @@ function evaluate(title: WatchTitle, filters: CatalogFilters): RankedTitle {
       matched.push(condition("country", `страна: ${countries.join(", ")}`));
     } else relaxed.push(condition("country", "страна"));
   }
-  score += scoreRange(title.year, filters.year, "year", "год выпуска", FILTER_WEIGHTS.year, matched, relaxed);
-  if (filters.discussionPotentials.length) {
-    if (filters.discussionPotentials.includes(title.discussionPotential)) {
-      score += FILTER_WEIGHTS.discussionPotential;
-      matched.push(condition("discussionPotential", "потенциал семейного обсуждения"));
-    } else relaxed.push(condition("discussionPotential", "потенциал семейного обсуждения"));
-  }
-
   if (filters.contentType === "cartoon") {
     const cartoon = title as Cartoon;
     if (filters.releaseForms.length) {
@@ -109,14 +74,6 @@ function evaluate(title: WatchTitle, filters: CatalogFilters): RankedTitle {
         score += FILTER_WEIGHTS.releaseForm;
         matched.push(condition("releaseForm", `форма выпуска: ${cartoon.releaseForm}`));
       } else relaxed.push(condition("releaseForm", "форма выпуска"));
-    }
-    if (filters.durationMinutes) {
-      if (cartoon.duration.kind === "standalone") score += scoreRange(cartoon.duration.minutes, filters.durationMinutes, "duration", "длительность", FILTER_WEIGHTS.duration, matched, relaxed);
-      else relaxed.push(condition("duration", "длительность полнометражного мультфильма"));
-    }
-    if (filters.episodeDurationMinutes) {
-      if (cartoon.duration.kind === "series") score += scoreRange(cartoon.duration.episodeMinutes, filters.episodeDurationMinutes, "episodeDuration", "длительность серии", FILTER_WEIGHTS.duration, matched, relaxed);
-      else relaxed.push(condition("episodeDuration", "длительность серии"));
     }
     if (filters.episodeCountKnown !== null) {
       const known = cartoon.duration.kind === "series" && cartoon.duration.episodeCount !== undefined;
@@ -127,7 +84,6 @@ function evaluate(title: WatchTitle, filters: CatalogFilters): RankedTitle {
     }
   } else {
     const movie = title as Movie;
-    score += scoreRange(movie.duration.minutes, filters.durationMinutes, "duration", "длительность", FILTER_WEIGHTS.duration, matched, relaxed);
     if (filters.hasOfficialRating !== null) {
       if (Boolean(movie.officialRating) === filters.hasOfficialRating) {
         score += FILTER_WEIGHTS.officialRating;

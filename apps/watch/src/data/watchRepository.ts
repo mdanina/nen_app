@@ -49,12 +49,10 @@ export class InMemoryWatchRepository implements WatchRepository {
     const items = this.items.filter((item) => item.contentType === contentType);
     return {
       countries: uniqueStrings(items.flatMap((item) => item.country)),
-      years: [...new Set(items.map((item) => item.year))].sort((a, b) => b - a),
       contentFormats: uniqueStrings(items.map((item) => item.contentFormat)) as FilterDictionary["contentFormats"],
       moods: uniqueStrings(items.flatMap((item) => item.mood)) as FilterDictionary["moods"],
       themes: uniqueStrings(items.flatMap((item) => item.themes)),
       sensitiveTopics: uniqueStrings(items.flatMap((item) => item.sensitiveTopics)),
-      discussionPotentials: uniqueStrings(items.map((item) => item.discussionPotential)) as FilterDictionary["discussionPotentials"],
       releaseForms: uniqueStrings(items.map((item) => item.releaseForm)) as FilterDictionary["releaseForms"],
     };
   }

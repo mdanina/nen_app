@@ -9,6 +9,7 @@ import { FavoritesPage } from "../pages/FavoritesPage";
 import { HomePage } from "../pages/HomePage";
 import { CollectionsPage, NotFoundPage, RecommendPage } from "../pages/PlaceholderPages";
 import { resolveRoute } from "./routes";
+import { shouldResetScroll } from "./navigation";
 
 interface AppData {
   titles: WatchTitle[];
@@ -46,10 +47,13 @@ export function App() {
   }, []);
 
   const navigate = (href: string) => {
+    const previousPathname = window.location.pathname;
     const next = new URL(href, window.location.origin);
     window.history.pushState({}, "", `${next.pathname}${next.search}`);
     setLocation(currentLocation());
-    window.scrollTo({ top: 0, behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" });
+    if (shouldResetScroll(previousPathname, next.pathname)) {
+      window.scrollTo({ top: 0, behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" });
+    }
   };
 
   const url = new URL(location, window.location.origin);

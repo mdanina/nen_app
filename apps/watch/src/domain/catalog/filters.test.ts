@@ -22,13 +22,8 @@ describe("strict catalog filtering", () => {
     expect(filterTitles(titles, filters).map((item) => item.id)).not.toContain("demo-movie-lighthouse");
   });
 
-  it("filters movie duration", () => {
-    const result = filterTitles(titles, { ...emptyMovieFilters(), durationMinutes: { max: 60 } });
-    expect(result.map((item) => item.id)).toEqual(["demo-movie-river"]);
-  });
-
-  it("filters episode duration and known episode count", () => {
-    const result = filterTitles(titles, { ...emptyCartoonFilters(), episodeDurationMinutes: { min: 10, max: 15 }, episodeCountKnown: true });
+  it("filters cartoons with a known episode count", () => {
+    const result = filterTitles(titles, { ...emptyCartoonFilters(), episodeCountKnown: true });
     expect(result.map((item) => item.id)).toEqual(["demo-cartoon-space-series"]);
   });
 

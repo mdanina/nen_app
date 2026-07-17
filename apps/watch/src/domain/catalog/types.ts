@@ -68,11 +68,9 @@ export type WatchTitle = Cartoon | Movie;
 
 export interface FilterDictionary {
   countries: string[];
-  years: number[];
   contentFormats: ContentFormat[];
   moods: Mood[];
   themes: string[];
   sensitiveTopics: string[];
-  discussionPotentials: DiscussionPotential[];
   releaseForms: ReleaseForm[];
 }
