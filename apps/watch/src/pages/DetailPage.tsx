@@ -13,16 +13,15 @@ export function DetailPage({ slug, expectedType, titles, favorites, toggleFavori
     <Link href={catalogHref} navigate={navigate} className="back-link">← Вернуться в каталог</Link>
     <article className="detail-hero">
       <div className={`poster-placeholder large ${title.contentType}`} aria-hidden="true"><span>{title.contentType === "cartoon" ? "✦" : "▶"}</span></div>
-      <div><p className="eyebrow">{typeLabel(title)} · демонстрационная запись</p><h1>{title.title}</h1>{title.originalTitle && <p className="original-title">{title.originalTitle}</p>}<p className="lead">{title.shortDescription}</p><button className="primary-button" type="button" aria-pressed={favorites.includes(title.id)} onClick={() => toggleFavorite(title.id)}>{favorites.includes(title.id) ? "♥ Убрать из избранного" : "♡ Добавить в избранное"}</button></div>
+      <div><p className="eyebrow">{typeLabel(title)} · выбор НЭН</p><h1>{title.title}</h1>{title.originalTitle && <p className="original-title">{title.originalTitle}</p>}<p className="lead">{title.shortDescription}</p><button className="primary-button" type="button" aria-pressed={favorites.includes(title.id)} onClick={() => toggleFavorite(title.id)}>{favorites.includes(title.id) ? "♥ Убрать из избранного" : "♡ Добавить в избранное"}</button></div>
     </article>
     <div className="detail-grid">
       <section className="detail-section"><h2>О произведении</h2><dl><div><dt>Год</dt><dd>{title.year}</dd></div><div><dt>Страна</dt><dd>{title.country.join(", ")}</dd></div><div><dt>Формат</dt><dd>{title.contentFormat}</dd></div><div><dt>Длительность</dt><dd>{durationLabel(title)}</dd></div><div><dt>Потенциал обсуждения</dt><dd>{title.discussionPotential}</dd></div></dl></section>
       <section className="detail-section nen-rating"><p className="eyebrow">Редакционная оценка</p><h2>Рекомендация НЭН</h2><strong className="age-badge">{title.nenAgeRecommendation.minAge}{title.nenAgeRecommendation.maxAge ? `–${title.nenAgeRecommendation.maxAge}` : "+"} лет</strong><p>{title.nenAgeRecommendation.rationale}</p></section>
       {title.officialRating && <section className="detail-section official-rating"><p className="eyebrow">Подтверждённые данные</p><h2>Официальный возрастной рейтинг</h2><strong>{title.officialRating.system}: {title.officialRating.value}</strong><p><a href={title.officialRating.sourceUrl} target="_blank" rel="noreferrer">Источник рейтинга ↗</a></p></section>}
       <section className="detail-section"><h2>Почему рекомендуем</h2><p>{title.whyRecommended}</p><h3>Темы</h3><div className="tag-list">{title.themes.map((value) => <span key={value}>{value}</span>)}</div><h3>Настроение</h3><div className="tag-list">{title.mood.map((value) => <span key={value}>{value}</span>)}</div></section>
-      <section className="detail-section"><h2>Чувствительные темы</h2>{title.sensitiveTopics.length ? <ul>{title.sensitiveTopics.map((value) => <li key={value}>{value}</li>)}</ul> : <p>В демонстрационной записи чувствительные темы не отмечены.</p>}</section>
+      <section className="detail-section"><h2>Чувствительные темы</h2>{title.sensitiveTopics.length ? <ul>{title.sensitiveTopics.map((value) => <li key={value}>{value}</li>)}</ul> : <p>Чувствительные темы не отмечены.</p>}</section>
     </div>
-    <aside className="sample-note">Сейчас сервис использует небольшой демонстрационный каталог. Перед редакционной публикацией факты и источники будут проверены.</aside>
     {similar.length > 0 && <section><div className="section-heading"><h2>Похожие в том же каталоге</h2></div><div className="media-grid">{similar.map((item) => <MediaCard key={item.id} title={item} favorite={favorites.includes(item.id)} toggleFavorite={toggleFavorite} navigate={navigate} />)}</div></section>}
   </div>;
 }

@@ -1,0 +1,1641 @@
+[
+  {
+    "id": "nen-026",
+    "slug": "moy-sosed-totoro",
+    "title": "Мой сосед Тоторо",
+    "originalTitle": "Tonari no Totoro",
+    "contentType": "cartoon",
+    "contentFormat": "animated-feature",
+    "releaseForm": "standalone",
+    "shortDescription": "Мультфильм для детей 4–9 лет. Темы: семья, природа, волшебство.",
+    "whyRecommended": "Подходит для семейного разговора о таких темах, как семья и природа.",
+    "country": [
+      "Япония"
+    ],
+    "year": 1988,
+    "duration": {
+      "kind": "standalone",
+      "minutes": 86
+    },
+    "themes": [
+      "семья",
+      "природа",
+      "волшебство",
+      "приключения"
+    ],
+    "mood": [
+      "calm",
+      "emotional"
+    ],
+    "sensitiveTopics": [],
+    "discussionPotential": "high",
+    "nenAgeRecommendation": {
+      "minAge": 4,
+      "maxAge": 9,
+      "rationale": "Редакционный возрастной диапазон НЭН: 4–9 лет."
+    },
+    "officialRating": {
+      "system": "Возрастная маркировка РФ",
+      "value": "6+",
+      "sourceUrl": "https://kinoteatr.ru/film/moy-sosed-totoro-3/"
+    },
+    "status": "published"
+  },
+  {
+    "id": "nen-027",
+    "slug": "pesn-morya",
+    "title": "Песнь моря",
+    "originalTitle": "Song of the Sea",
+    "contentType": "cartoon",
+    "contentFormat": "animated-feature",
+    "releaseForm": "standalone",
+    "shortDescription": "Мультфильм для детей 7–12 лет. Темы: семья, природа, волшебство.",
+    "whyRecommended": "Подходит для семейного разговора о таких темах, как семья и природа.",
+    "country": [
+      "Ирландия",
+      "Бельгия",
+      "Дания",
+      "Франция",
+      "Люксембург"
+    ],
+    "year": 2014,
+    "duration": {
+      "kind": "standalone",
+      "minutes": 93
+    },
+    "themes": [
+      "семья",
+      "природа",
+      "волшебство",
+      "приключения"
+    ],
+    "mood": [
+      "emotional",
+      "thoughtful",
+      "calm"
+    ],
+    "sensitiveTopics": [],
+    "discussionPotential": "high",
+    "nenAgeRecommendation": {
+      "minAge": 7,
+      "maxAge": 12,
+      "rationale": "Редакционный возрастной диапазон НЭН: 7–12 лет."
+    },
+    "officialRating": {
+      "system": "Возрастная маркировка РФ",
+      "value": "6+",
+      "sourceUrl": "https://www.kinopoisk.ru/film/714248/"
+    },
+    "status": "published"
+  },
+  {
+    "id": "nen-028",
+    "slug": "istoriya-igrushek",
+    "title": "История игрушек",
+    "originalTitle": "Toy Story",
+    "contentType": "cartoon",
+    "contentFormat": "animated-feature",
+    "releaseForm": "standalone",
+    "shortDescription": "Мультфильм для детей 5–10 лет. Темы: дружба, семья, приключения.",
+    "whyRecommended": "Подходит для семейного разговора о таких темах, как дружба и семья.",
+    "country": [
+      "США"
+    ],
+    "year": 1995,
+    "duration": {
+      "kind": "standalone",
+      "minutes": 74
+    },
+    "themes": [
+      "дружба",
+      "семья",
+      "приключения",
+      "юмор"
+    ],
+    "mood": [
+      "cheerful",
+      "adventurous",
+      "emotional"
+    ],
+    "sensitiveTopics": [],
+    "discussionPotential": "high",
+    "nenAgeRecommendation": {
+      "minAge": 5,
+      "maxAge": 10,
+      "rationale": "Редакционный возрастной диапазон НЭН: 5–10 лет."
+    },
+    "officialRating": {
+      "system": "Возрастная маркировка РФ",
+      "value": "0+",
+      "sourceUrl": "https://www.afisha.ru/movie/istoriya-igrushek-179518/"
+    },
+    "status": "published"
+  },
+  {
+    "id": "nen-029",
+    "slug": "enkanto",
+    "title": "Энканто",
+    "originalTitle": "Encanto",
+    "contentType": "cartoon",
+    "contentFormat": "animated-feature",
+    "releaseForm": "standalone",
+    "shortDescription": "Мультфильм для детей 6–12 лет. Темы: семья, волшебство, творчество.",
+    "whyRecommended": "Подходит для семейного разговора о таких темах, как семья и волшебство.",
+    "country": [
+      "США"
+    ],
+    "year": 2021,
+    "duration": {
+      "kind": "standalone",
+      "minutes": 99
+    },
+    "themes": [
+      "семья",
+      "волшебство",
+      "творчество"
+    ],
+    "mood": [
+      "cheerful",
+      "emotional",
+      "adventurous"
+    ],
+    "sensitiveTopics": [],
+    "discussionPotential": "high",
+    "nenAgeRecommendation": {
+      "minAge": 6,
+      "maxAge": 12,
+      "rationale": "Редакционный возрастной диапазон НЭН: 6–12 лет."
+    },
+    "officialRating": {
+      "system": "Возрастная маркировка РФ",
+      "value": "6+",
+      "sourceUrl": "https://www.afisha.ru/movie/enkanto-265301/"
+    },
+    "status": "published"
+  },
+  {
+    "id": "nen-030",
+    "slug": "kak-priruchit-drakona",
+    "title": "Как приручить дракона",
+    "originalTitle": "How to Train Your Dragon",
+    "contentType": "cartoon",
+    "contentFormat": "animated-feature",
+    "releaseForm": "standalone",
+    "shortDescription": "Мультфильм для детей 7–13 лет. Темы: животные, дружба, семья.",
+    "whyRecommended": "Подходит для семейного разговора о таких темах, как животные и дружба.",
+    "country": [
+      "США"
+    ],
+    "year": 2010,
+    "duration": {
+      "kind": "standalone",
+      "minutes": 98
+    },
+    "themes": [
+      "животные",
+      "дружба",
+      "семья",
+      "приключения"
+    ],
+    "mood": [
+      "adventurous",
+      "emotional"
+    ],
+    "sensitiveTopics": [],
+    "discussionPotential": "high",
+    "nenAgeRecommendation": {
+      "minAge": 7,
+      "maxAge": 13,
+      "rationale": "Редакционный возрастной диапазон НЭН: 7–13 лет."
+    },
+    "officialRating": {
+      "system": "Возрастная маркировка РФ",
+      "value": "6+",
+      "sourceUrl": "https://www.kinopoisk.ru/film/280172/"
+    },
+    "status": "published"
+  },
+  {
+    "id": "nen-031",
+    "slug": "gadkiy-ya",
+    "title": "Гадкий я",
+    "originalTitle": "Despicable Me",
+    "contentType": "cartoon",
+    "contentFormat": "animated-feature",
+    "releaseForm": "standalone",
+    "shortDescription": "Мультфильм для детей 5–10 лет. Темы: семья, приключения, юмор.",
+    "whyRecommended": "Подходит для семейного разговора о таких темах, как семья и приключения.",
+    "country": [
+      "США",
+      "Франция"
+    ],
+    "year": 2010,
+    "duration": {
+      "kind": "standalone",
+      "minutes": 95
+    },
+    "themes": [
+      "семья",
+      "приключения",
+      "юмор"
+    ],
+    "mood": [
+      "cheerful",
+      "emotional",
+      "adventurous"
+    ],
+    "sensitiveTopics": [],
+    "discussionPotential": "high",
+    "nenAgeRecommendation": {
+      "minAge": 5,
+      "maxAge": 10,
+      "rationale": "Редакционный возрастной диапазон НЭН: 5–10 лет."
+    },
+    "officialRating": {
+      "system": "Возрастная маркировка РФ",
+      "value": "0+",
+      "sourceUrl": "https://www.afisha.ru/movie/gadkiy-ya-201233/"
+    },
+    "status": "published"
+  },
+  {
+    "id": "nen-032",
+    "slug": "chelovek-pauk-cherez-vselennye",
+    "title": "Человек-паук: Через вселенные",
+    "originalTitle": "Spider-Man: Into the Spider-Verse",
+    "contentType": "cartoon",
+    "contentFormat": "animated-feature",
+    "releaseForm": "standalone",
+    "shortDescription": "Мультфильм для детей 10–14 лет. Темы: приключения, фантастика, творчество.",
+    "whyRecommended": "Подходит для семейного разговора о таких темах, как приключения и фантастика.",
+    "country": [
+      "США"
+    ],
+    "year": 2018,
+    "duration": {
+      "kind": "standalone",
+      "minutes": 117
+    },
+    "themes": [
+      "приключения",
+      "фантастика",
+      "творчество",
+      "семья"
+    ],
+    "mood": [
+      "adventurous",
+      "cheerful",
+      "emotional"
+    ],
+    "sensitiveTopics": [],
+    "discussionPotential": "high",
+    "nenAgeRecommendation": {
+      "minAge": 10,
+      "maxAge": 14,
+      "rationale": "Редакционный возрастной диапазон НЭН: 10–14 лет."
+    },
+    "officialRating": {
+      "system": "Возрастная маркировка РФ",
+      "value": "6+",
+      "sourceUrl": "https://pioner-cinema.ru/film/chelovek-pauk-cherez-vselennye/"
+    },
+    "status": "published"
+  },
+  {
+    "id": "nen-033",
+    "slug": "koralina-v-strane-koshmarov",
+    "title": "Коралина в Стране Кошмаров",
+    "originalTitle": "Coraline",
+    "contentType": "cartoon",
+    "contentFormat": "animated-feature",
+    "releaseForm": "standalone",
+    "shortDescription": "Мультфильм для детей 10–14 лет. Темы: семья, волшебство, приключения.",
+    "whyRecommended": "Подходит для семейного разговора о таких темах, как семья и волшебство.",
+    "country": [
+      "США"
+    ],
+    "year": 2009,
+    "duration": {
+      "kind": "standalone",
+      "minutes": 100
+    },
+    "themes": [
+      "семья",
+      "волшебство",
+      "приключения"
+    ],
+    "mood": [
+      "thoughtful",
+      "adventurous"
+    ],
+    "sensitiveTopics": [],
+    "discussionPotential": "high",
+    "nenAgeRecommendation": {
+      "minAge": 10,
+      "maxAge": 14,
+      "rationale": "Редакционный возрастной диапазон НЭН: 10–14 лет."
+    },
+    "officialRating": {
+      "system": "Возрастная маркировка РФ",
+      "value": "12+",
+      "sourceUrl": "https://www.afisha.ru/movie/koralina-v-strane-koshmarov-191980/"
+    },
+    "status": "published"
+  },
+  {
+    "id": "nen-034",
+    "slug": "barashek-shon",
+    "title": "Барашек Шон",
+    "originalTitle": "Shaun the Sheep Movie",
+    "contentType": "cartoon",
+    "contentFormat": "animated-feature",
+    "releaseForm": "standalone",
+    "shortDescription": "Мультфильм для детей 4–9 лет. Темы: животные, приключения, юмор.",
+    "whyRecommended": "Подходит для семейного разговора о таких темах, как животные и приключения.",
+    "country": [
+      "Великобритания",
+      "Франция"
+    ],
+    "year": 2015,
+    "duration": {
+      "kind": "standalone",
+      "minutes": 85
+    },
+    "themes": [
+      "животные",
+      "приключения",
+      "юмор"
+    ],
+    "mood": [
+      "cheerful",
+      "calm"
+    ],
+    "sensitiveTopics": [],
+    "discussionPotential": "high",
+    "nenAgeRecommendation": {
+      "minAge": 4,
+      "maxAge": 9,
+      "rationale": "Редакционный возрастной диапазон НЭН: 4–9 лет."
+    },
+    "status": "published"
+  },
+  {
+    "id": "nen-035",
+    "slug": "klaus",
+    "title": "Клаус",
+    "originalTitle": "Klaus",
+    "contentType": "cartoon",
+    "contentFormat": "animated-feature",
+    "releaseForm": "standalone",
+    "shortDescription": "Мультфильм для детей 7–12 лет. Темы: семья, дружба, волшебство.",
+    "whyRecommended": "Подходит для семейного разговора о таких темах, как семья и дружба.",
+    "country": [
+      "Испания"
+    ],
+    "year": 2019,
+    "duration": {
+      "kind": "standalone",
+      "minutes": 96
+    },
+    "themes": [
+      "семья",
+      "дружба",
+      "волшебство",
+      "юмор"
+    ],
+    "mood": [
+      "emotional",
+      "cheerful",
+      "calm"
+    ],
+    "sensitiveTopics": [],
+    "discussionPotential": "high",
+    "nenAgeRecommendation": {
+      "minAge": 7,
+      "maxAge": 12,
+      "rationale": "Редакционный возрастной диапазон НЭН: 7–12 лет."
+    },
+    "status": "published"
+  },
+  {
+    "id": "nen-036",
+    "slug": "ernest-i-selestina",
+    "title": "Эрнест и Селестина",
+    "originalTitle": "Ernest et Célestine",
+    "contentType": "cartoon",
+    "contentFormat": "animated-feature",
+    "releaseForm": "standalone",
+    "shortDescription": "Мультфильм для детей 5–9 лет. Темы: животные, дружба, юмор.",
+    "whyRecommended": "Подходит для семейного разговора о таких темах, как животные и дружба.",
+    "country": [
+      "Франция",
+      "Бельгия",
+      "Люксембург"
+    ],
+    "year": 2012,
+    "duration": {
+      "kind": "standalone",
+      "minutes": 80
+    },
+    "themes": [
+      "животные",
+      "дружба",
+      "юмор"
+    ],
+    "mood": [
+      "calm",
+      "emotional",
+      "cheerful"
+    ],
+    "sensitiveTopics": [],
+    "discussionPotential": "high",
+    "nenAgeRecommendation": {
+      "minAge": 5,
+      "maxAge": 9,
+      "rationale": "Редакционный возрастной диапазон НЭН: 5–9 лет."
+    },
+    "status": "published"
+  },
+  {
+    "id": "nen-037",
+    "slug": "tayna-tretey-planety",
+    "title": "Тайна третьей планеты",
+    "contentType": "cartoon",
+    "contentFormat": "animated-feature",
+    "releaseForm": "standalone",
+    "shortDescription": "Мультфильм для детей 6–11 лет. Темы: космос, фантастика, приключения.",
+    "whyRecommended": "Подходит для семейного разговора о таких темах, как космос и фантастика.",
+    "country": [
+      "СССР"
+    ],
+    "year": 1981,
+    "duration": {
+      "kind": "standalone",
+      "minutes": 48
+    },
+    "themes": [
+      "космос",
+      "фантастика",
+      "приключения",
+      "животные"
+    ],
+    "mood": [
+      "adventurous",
+      "thoughtful"
+    ],
+    "sensitiveTopics": [],
+    "discussionPotential": "high",
+    "nenAgeRecommendation": {
+      "minAge": 6,
+      "maxAge": 11,
+      "rationale": "Редакционный возрастной диапазон НЭН: 6–11 лет."
+    },
+    "status": "published"
+  },
+  {
+    "id": "nen-038",
+    "slug": "ezhik-v-tumane",
+    "title": "Ёжик в тумане",
+    "contentType": "cartoon",
+    "contentFormat": "animated-feature",
+    "releaseForm": "standalone",
+    "shortDescription": "Мультфильм для детей 5–9 лет. Темы: животные, природа, дружба.",
+    "whyRecommended": "Подходит для семейного разговора о таких темах, как животные и природа.",
+    "country": [
+      "СССР"
+    ],
+    "year": 1975,
+    "duration": {
+      "kind": "standalone",
+      "minutes": 10
+    },
+    "themes": [
+      "животные",
+      "природа",
+      "дружба"
+    ],
+    "mood": [
+      "calm",
+      "thoughtful"
+    ],
+    "sensitiveTopics": [],
+    "discussionPotential": "high",
+    "nenAgeRecommendation": {
+      "minAge": 5,
+      "maxAge": 9,
+      "rationale": "Редакционный возрастной диапазон НЭН: 5–9 лет."
+    },
+    "status": "published"
+  },
+  {
+    "id": "nen-039",
+    "slug": "alesha-popovich-i-tugarin-zmey",
+    "title": "Алёша Попович и Тугарин Змей",
+    "contentType": "cartoon",
+    "contentFormat": "animated-feature",
+    "releaseForm": "standalone",
+    "shortDescription": "Мультфильм для детей 6–11 лет. Темы: история, приключения, юмор.",
+    "whyRecommended": "Подходит для семейного разговора о таких темах, как история и приключения.",
+    "country": [
+      "Россия"
+    ],
+    "year": 2004,
+    "duration": {
+      "kind": "standalone",
+      "minutes": 79
+    },
+    "themes": [
+      "история",
+      "приключения",
+      "юмор"
+    ],
+    "mood": [
+      "cheerful",
+      "adventurous"
+    ],
+    "sensitiveTopics": [],
+    "discussionPotential": "high",
+    "nenAgeRecommendation": {
+      "minAge": 6,
+      "maxAge": 11,
+      "rationale": "Редакционный возрастной диапазон НЭН: 6–11 лет."
+    },
+    "status": "published"
+  },
+  {
+    "id": "nen-040",
+    "slug": "smeshariki-nachalo",
+    "title": "Смешарики. Начало",
+    "contentType": "cartoon",
+    "contentFormat": "animated-feature",
+    "releaseForm": "standalone",
+    "shortDescription": "Мультфильм для детей 5–10 лет. Темы: животные, приключения, юмор.",
+    "whyRecommended": "Подходит для семейного разговора о таких темах, как животные и приключения.",
+    "country": [
+      "Россия"
+    ],
+    "year": 2011,
+    "duration": {
+      "kind": "standalone",
+      "minutes": 90
+    },
+    "themes": [
+      "животные",
+      "приключения",
+      "юмор",
+      "фантастика"
+    ],
+    "mood": [
+      "cheerful",
+      "adventurous"
+    ],
+    "sensitiveTopics": [],
+    "discussionPotential": "high",
+    "nenAgeRecommendation": {
+      "minAge": 5,
+      "maxAge": 10,
+      "rationale": "Редакционный возрастной диапазон НЭН: 5–10 лет."
+    },
+    "status": "published"
+  },
+  {
+    "id": "nen-041",
+    "slug": "priklyucheniya-paddingtona",
+    "title": "Приключения Паддингтона",
+    "originalTitle": "Paddington",
+    "contentType": "movie",
+    "contentFormat": "fiction",
+    "releaseForm": "standalone",
+    "shortDescription": "Фильм для детей 6–11 лет. Темы: животные, семья, дружба.",
+    "whyRecommended": "Подходит для семейного разговора о таких темах, как животные и семья.",
+    "country": [
+      "Великобритания",
+      "Франция"
+    ],
+    "year": 2014,
+    "duration": {
+      "kind": "standalone",
+      "minutes": 95
+    },
+    "themes": [
+      "животные",
+      "семья",
+      "дружба",
+      "юмор"
+    ],
+    "mood": [
+      "cheerful",
+      "calm",
+      "emotional"
+    ],
+    "sensitiveTopics": [],
+    "discussionPotential": "high",
+    "nenAgeRecommendation": {
+      "minAge": 6,
+      "maxAge": 11,
+      "rationale": "Редакционный возрастной диапазон НЭН: 6–11 лет."
+    },
+    "status": "published"
+  },
+  {
+    "id": "nen-042",
+    "slug": "garri-potter-i-filosofskiy-kamen",
+    "title": "Гарри Поттер и философский камень",
+    "originalTitle": "Harry Potter and the Philosopher's Stone",
+    "contentType": "movie",
+    "contentFormat": "fiction",
+    "releaseForm": "standalone",
+    "shortDescription": "Фильм для детей 9–14 лет. Темы: волшебство, школа, дружба.",
+    "whyRecommended": "Подходит для семейного разговора о таких темах, как волшебство и школа.",
+    "country": [
+      "Великобритания",
+      "США"
+    ],
+    "year": 2001,
+    "duration": {
+      "kind": "standalone",
+      "minutes": 152
+    },
+    "themes": [
+      "волшебство",
+      "школа",
+      "дружба",
+      "приключения"
+    ],
+    "mood": [
+      "adventurous",
+      "thoughtful"
+    ],
+    "sensitiveTopics": [],
+    "discussionPotential": "high",
+    "nenAgeRecommendation": {
+      "minAge": 9,
+      "maxAge": 14,
+      "rationale": "Редакционный возрастной диапазон НЭН: 9–14 лет."
+    },
+    "status": "published"
+  },
+  {
+    "id": "nen-043",
+    "slug": "matilda",
+    "title": "Матильда",
+    "originalTitle": "Matilda",
+    "contentType": "movie",
+    "contentFormat": "fiction",
+    "releaseForm": "standalone",
+    "shortDescription": "Фильм для детей 8–12 лет. Темы: школа, семья, волшебство.",
+    "whyRecommended": "Подходит для семейного разговора о таких темах, как школа и семья.",
+    "country": [
+      "США"
+    ],
+    "year": 1996,
+    "duration": {
+      "kind": "standalone",
+      "minutes": 98
+    },
+    "themes": [
+      "школа",
+      "семья",
+      "волшебство",
+      "юмор"
+    ],
+    "mood": [
+      "cheerful",
+      "emotional",
+      "adventurous"
+    ],
+    "sensitiveTopics": [],
+    "discussionPotential": "high",
+    "nenAgeRecommendation": {
+      "minAge": 8,
+      "maxAge": 12,
+      "rationale": "Редакционный возрастной диапазон НЭН: 8–12 лет."
+    },
+    "status": "published"
+  },
+  {
+    "id": "nen-044",
+    "slug": "hroniki-narnii-lev-koldunya-i-volshebnyy-shkaf",
+    "title": "Хроники Нарнии: Лев, колдунья и волшебный шкаф",
+    "originalTitle": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
+    "contentType": "movie",
+    "contentFormat": "fiction",
+    "releaseForm": "standalone",
+    "shortDescription": "Фильм для детей 9–14 лет. Темы: волшебство, приключения, семья.",
+    "whyRecommended": "Подходит для семейного разговора о таких темах, как волшебство и приключения.",
+    "country": [
+      "США",
+      "Великобритания"
+    ],
+    "year": 2005,
+    "duration": {
+      "kind": "standalone",
+      "minutes": 143
+    },
+    "themes": [
+      "волшебство",
+      "приключения",
+      "семья"
+    ],
+    "mood": [
+      "adventurous",
+      "thoughtful",
+      "emotional"
+    ],
+    "sensitiveTopics": [],
+    "discussionPotential": "high",
+    "nenAgeRecommendation": {
+      "minAge": 9,
+      "maxAge": 14,
+      "rationale": "Редакционный возрастной диапазон НЭН: 9–14 лет."
+    },
+    "status": "published"
+  },
+  {
+    "id": "nen-045",
+    "slug": "chudo",
+    "title": "Чудо",
+    "originalTitle": "Wonder",
+    "contentType": "movie",
+    "contentFormat": "fiction",
+    "releaseForm": "standalone",
+    "shortDescription": "Фильм для детей 10–14 лет. Темы: школа, дружба, семья.",
+    "whyRecommended": "Подходит для семейного разговора о таких темах, как школа и дружба.",
+    "country": [
+      "США",
+      "Гонконг"
+    ],
+    "year": 2017,
+    "duration": {
+      "kind": "standalone",
+      "minutes": 113
+    },
+    "themes": [
+      "школа",
+      "дружба",
+      "семья"
+    ],
+    "mood": [
+      "emotional"
+    ],
+    "sensitiveTopics": [],
+    "discussionPotential": "high",
+    "nenAgeRecommendation": {
+      "minAge": 10,
+      "maxAge": 14,
+      "rationale": "Редакционный возрастной диапазон НЭН: 10–14 лет."
+    },
+    "status": "published"
+  },
+  {
+    "id": "nen-046",
+    "slug": "hranitel-vremeni",
+    "title": "Хранитель времени",
+    "originalTitle": "Hugo",
+    "contentType": "movie",
+    "contentFormat": "fiction",
+    "releaseForm": "standalone",
+    "shortDescription": "Фильм для детей 9–14 лет. Темы: история, техника, приключения.",
+    "whyRecommended": "Подходит для семейного разговора о таких темах, как история и техника.",
+    "country": [
+      "США",
+      "Великобритания",
+      "Франция"
+    ],
+    "year": 2011,
+    "duration": {
+      "kind": "standalone",
+      "minutes": 126
+    },
+    "themes": [
+      "история",
+      "техника",
+      "приключения",
+      "семья"
+    ],
+    "mood": [
+      "thoughtful",
+      "emotional",
+      "adventurous"
+    ],
+    "sensitiveTopics": [],
+    "discussionPotential": "high",
+    "nenAgeRecommendation": {
+      "minAge": 9,
+      "maxAge": 14,
+      "rationale": "Редакционный возрастной диапазон НЭН: 9–14 лет."
+    },
+    "status": "published"
+  },
+  {
+    "id": "nen-047",
+    "slug": "nazad-v-buduschee",
+    "title": "Назад в будущее",
+    "originalTitle": "Back to the Future",
+    "contentType": "movie",
+    "contentFormat": "fiction",
+    "releaseForm": "standalone",
+    "shortDescription": "Фильм для детей 10–14 лет. Темы: техника, фантастика, семья.",
+    "whyRecommended": "Подходит для семейного разговора о таких темах, как техника и фантастика.",
+    "country": [
+      "США"
+    ],
+    "year": 1985,
+    "duration": {
+      "kind": "standalone",
+      "minutes": 116
+    },
+    "themes": [
+      "техника",
+      "фантастика",
+      "семья",
+      "приключения",
+      "юмор"
+    ],
+    "mood": [
+      "adventurous",
+      "cheerful"
+    ],
+    "sensitiveTopics": [],
+    "discussionPotential": "high",
+    "nenAgeRecommendation": {
+      "minAge": 10,
+      "maxAge": 14,
+      "rationale": "Редакционный возрастной диапазон НЭН: 10–14 лет."
+    },
+    "status": "published"
+  },
+  {
+    "id": "nen-048",
+    "slug": "cheburashka",
+    "title": "Чебурашка",
+    "contentType": "movie",
+    "contentFormat": "fiction",
+    "releaseForm": "standalone",
+    "shortDescription": "Фильм для детей 6–11 лет. Темы: животные, семья, дружба.",
+    "whyRecommended": "Подходит для семейного разговора о таких темах, как животные и семья.",
+    "country": [
+      "Россия"
+    ],
+    "year": 2023,
+    "duration": {
+      "kind": "standalone",
+      "minutes": 113
+    },
+    "themes": [
+      "животные",
+      "семья",
+      "дружба",
+      "юмор"
+    ],
+    "mood": [
+      "cheerful",
+      "emotional"
+    ],
+    "sensitiveTopics": [],
+    "discussionPotential": "high",
+    "nenAgeRecommendation": {
+      "minAge": 6,
+      "maxAge": 11,
+      "rationale": "Редакционный возрастной диапазон НЭН: 6–11 лет."
+    },
+    "status": "published"
+  },
+  {
+    "id": "nen-049",
+    "slug": "priklyucheniya-elektronika",
+    "title": "Приключения Электроника",
+    "contentType": "movie",
+    "contentFormat": "fiction",
+    "releaseForm": "standalone",
+    "shortDescription": "Фильм для детей 7–12 лет. Темы: техника, школа, дружба.",
+    "whyRecommended": "Подходит для семейного разговора о таких темах, как техника и школа.",
+    "country": [
+      "СССР"
+    ],
+    "year": 1979,
+    "duration": {
+      "kind": "standalone",
+      "minutes": 215
+    },
+    "themes": [
+      "техника",
+      "школа",
+      "дружба",
+      "приключения"
+    ],
+    "mood": [
+      "adventurous",
+      "cheerful"
+    ],
+    "sensitiveTopics": [],
+    "discussionPotential": "high",
+    "nenAgeRecommendation": {
+      "minAge": 7,
+      "maxAge": 12,
+      "rationale": "Редакционный возрастной диапазон НЭН: 7–12 лет."
+    },
+    "status": "published"
+  },
+  {
+    "id": "nen-050",
+    "slug": "bell-i-sebastyan",
+    "title": "Белль и Себастьян",
+    "originalTitle": "Belle et Sébastien",
+    "contentType": "movie",
+    "contentFormat": "fiction",
+    "releaseForm": "standalone",
+    "shortDescription": "Фильм для детей 8–13 лет. Темы: животные, природа, дружба.",
+    "whyRecommended": "Подходит для семейного разговора о таких темах, как животные и природа.",
+    "country": [
+      "Франция"
+    ],
+    "year": 2013,
+    "duration": {
+      "kind": "standalone",
+      "minutes": 104
+    },
+    "themes": [
+      "животные",
+      "природа",
+      "дружба",
+      "приключения"
+    ],
+    "mood": [
+      "emotional",
+      "adventurous"
+    ],
+    "sensitiveTopics": [],
+    "discussionPotential": "high",
+    "nenAgeRecommendation": {
+      "minAge": 8,
+      "maxAge": 13,
+      "rationale": "Редакционный возрастной диапазон НЭН: 8–13 лет."
+    },
+    "status": "published"
+  },
+  {
+    "id": "nen-065",
+    "slug": "vinni-puh",
+    "title": "Винни-Пух",
+    "contentType": "cartoon",
+    "contentFormat": "animated-feature",
+    "releaseForm": "standalone",
+    "shortDescription": "Короткая история о Винни-Пухе и Пятачке, которые отправляются за мёдом.",
+    "whyRecommended": "Короткий, понятный и очень разговорный мультфильм, который удобно включить даже при небольшом запасе времени.",
+    "country": [
+      "СССР"
+    ],
+    "year": 1969,
+    "duration": {
+      "kind": "standalone",
+      "minutes": 10
+    },
+    "themes": [
+      "животные",
+      "дружба",
+      "юмор"
+    ],
+    "mood": [
+      "cheerful",
+      "calm"
+    ],
+    "sensitiveTopics": [],
+    "discussionPotential": "high",
+    "nenAgeRecommendation": {
+      "minAge": 3,
+      "maxAge": 8,
+      "rationale": "Редакционный возрастной диапазон НЭН: 3–8 лет."
+    },
+    "officialRating": {
+      "system": "Возрастная маркировка РФ",
+      "value": "0+ — требует сверки",
+      "sourceUrl": "https://www.kinopoisk.ru/film/258621/"
+    },
+    "status": "published"
+  },
+  {
+    "id": "nen-066",
+    "slug": "malysh-i-karlson",
+    "title": "Малыш и Карлсон",
+    "contentType": "cartoon",
+    "contentFormat": "animated-feature",
+    "releaseForm": "standalone",
+    "shortDescription": "Короткометражная анимация для детей 4–9 лет. Темы: дружба, семья, юмор.",
+    "whyRecommended": "Подходит для семейного разговора о таких темах, как дружба и семья.",
+    "country": [
+      "СССР"
+    ],
+    "year": 1968,
+    "duration": {
+      "kind": "standalone",
+      "minutes": 19
+    },
+    "themes": [
+      "дружба",
+      "семья",
+      "юмор"
+    ],
+    "mood": [
+      "cheerful",
+      "calm"
+    ],
+    "sensitiveTopics": [],
+    "discussionPotential": "high",
+    "nenAgeRecommendation": {
+      "minAge": 4,
+      "maxAge": 9,
+      "rationale": "Редакционный возрастной диапазон НЭН: 4–9 лет."
+    },
+    "officialRating": {
+      "system": "Возрастная маркировка РФ",
+      "value": "0+ — требует сверки",
+      "sourceUrl": "https://www.kinopoisk.ru/film/45290/"
+    },
+    "status": "published"
+  },
+  {
+    "id": "nen-067",
+    "slug": "umka",
+    "title": "Умка",
+    "contentType": "cartoon",
+    "contentFormat": "animated-feature",
+    "releaseForm": "standalone",
+    "shortDescription": "Белый медвежонок знакомится с мальчиком и узнаёт новый для себя мир людей.",
+    "whyRecommended": "Спокойная короткая история с мягкой музыкой и простым сюжетом — хороший вариант для дошкольников.",
+    "country": [
+      "СССР"
+    ],
+    "year": 1969,
+    "duration": {
+      "kind": "standalone",
+      "minutes": 10
+    },
+    "themes": [
+      "животные",
+      "семья",
+      "природа",
+      "дружба"
+    ],
+    "mood": [
+      "calm",
+      "emotional"
+    ],
+    "sensitiveTopics": [],
+    "discussionPotential": "high",
+    "nenAgeRecommendation": {
+      "minAge": 3,
+      "maxAge": 7,
+      "rationale": "Редакционный возрастной диапазон НЭН: 3–7 лет."
+    },
+    "officialRating": {
+      "system": "Возрастная маркировка РФ",
+      "value": "0+ — требует сверки",
+      "sourceUrl": "https://www.kinopoisk.ru/film/42482/"
+    },
+    "status": "published"
+  },
+  {
+    "id": "nen-068",
+    "slug": "kotenok-po-imeni-gav",
+    "title": "Котёнок по имени Гав",
+    "contentType": "cartoon",
+    "contentFormat": "animated-feature",
+    "releaseForm": "standalone",
+    "shortDescription": "Короткометражная анимация для детей 3–7 лет. Темы: животные, дружба, юмор.",
+    "whyRecommended": "Подходит для семейного разговора о таких темах, как животные и дружба.",
+    "country": [
+      "СССР"
+    ],
+    "year": 1976,
+    "duration": {
+      "kind": "standalone",
+      "minutes": 9
+    },
+    "themes": [
+      "животные",
+      "дружба",
+      "юмор"
+    ],
+    "mood": [
+      "calm",
+      "cheerful"
+    ],
+    "sensitiveTopics": [],
+    "discussionPotential": "high",
+    "nenAgeRecommendation": {
+      "minAge": 3,
+      "maxAge": 7,
+      "rationale": "Редакционный возрастной диапазон НЭН: 3–7 лет."
+    },
+    "officialRating": {
+      "system": "Возрастная маркировка РФ",
+      "value": "0+ — требует сверки",
+      "sourceUrl": "https://www.kinopoisk.ru/film/45319/"
+    },
+    "status": "published"
+  },
+  {
+    "id": "nen-069",
+    "slug": "38-popugaev",
+    "title": "38 попугаев",
+    "contentType": "cartoon",
+    "contentFormat": "animated-feature",
+    "releaseForm": "standalone",
+    "shortDescription": "Кукольная анимация для детей 3–8 лет. Темы: животные, дружба, юмор.",
+    "whyRecommended": "Подходит для семейного разговора о таких темах, как животные и дружба.",
+    "country": [
+      "СССР"
+    ],
+    "year": 1976,
+    "duration": {
+      "kind": "standalone",
+      "minutes": 9
+    },
+    "themes": [
+      "животные",
+      "дружба",
+      "юмор"
+    ],
+    "mood": [
+      "cheerful",
+      "calm"
+    ],
+    "sensitiveTopics": [],
+    "discussionPotential": "high",
+    "nenAgeRecommendation": {
+      "minAge": 3,
+      "maxAge": 8,
+      "rationale": "Редакционный возрастной диапазон НЭН: 3–8 лет."
+    },
+    "officialRating": {
+      "system": "Возрастная маркировка РФ",
+      "value": "0+ — требует сверки",
+      "sourceUrl": "https://www.kinopoisk.ru/film/45320/"
+    },
+    "status": "published"
+  },
+  {
+    "id": "nen-070",
+    "slug": "kanikuly-bonifatsiya",
+    "title": "Каникулы Бонифация",
+    "contentType": "cartoon",
+    "contentFormat": "animated-feature",
+    "releaseForm": "standalone",
+    "shortDescription": "Короткометражная анимация для детей 4–9 лет. Темы: животные, путешествия, юмор.",
+    "whyRecommended": "Подходит для семейного разговора о таких темах, как животные и путешествия.",
+    "country": [
+      "СССР"
+    ],
+    "year": 1965,
+    "duration": {
+      "kind": "standalone",
+      "minutes": 20
+    },
+    "themes": [
+      "животные",
+      "путешествия",
+      "юмор"
+    ],
+    "mood": [
+      "cheerful",
+      "calm"
+    ],
+    "sensitiveTopics": [],
+    "discussionPotential": "high",
+    "nenAgeRecommendation": {
+      "minAge": 4,
+      "maxAge": 9,
+      "rationale": "Редакционный возрастной диапазон НЭН: 4–9 лет."
+    },
+    "officialRating": {
+      "system": "Возрастная маркировка РФ",
+      "value": "0+ — требует сверки",
+      "sourceUrl": "https://www.kinopoisk.ru/film/44948/"
+    },
+    "status": "published"
+  },
+  {
+    "id": "nen-071",
+    "slug": "vall-i",
+    "title": "ВАЛЛ·И",
+    "originalTitle": "WALL·E",
+    "contentType": "cartoon",
+    "contentFormat": "animated-feature",
+    "releaseForm": "standalone",
+    "shortDescription": "Робот-мусорщик остаётся на опустевшей Земле и отправляется в космическое путешествие.",
+    "whyRecommended": "Редкий семейный мультфильм о космосе, который одинаково хорошо работает как приключение и как история о заботе.",
+    "country": [
+      "США"
+    ],
+    "year": 2008,
+    "duration": {
+      "kind": "standalone",
+      "minutes": 98
+    },
+    "themes": [
+      "космос",
+      "техника",
+      "приключения",
+      "семья"
+    ],
+    "mood": [
+      "emotional",
+      "adventurous",
+      "calm"
+    ],
+    "sensitiveTopics": [],
+    "discussionPotential": "high",
+    "nenAgeRecommendation": {
+      "minAge": 6,
+      "maxAge": 13,
+      "rationale": "Редакционный возрастной диапазон НЭН: 6–13 лет."
+    },
+    "officialRating": {
+      "system": "Возрастная маркировка РФ",
+      "value": "0+ — требует сверки",
+      "sourceUrl": "https://www.pixar.com/feature-films/walle"
+    },
+    "status": "published"
+  },
+  {
+    "id": "nen-072",
+    "slug": "planeta-sokrovisch",
+    "title": "Планета сокровищ",
+    "originalTitle": "Treasure Planet",
+    "contentType": "cartoon",
+    "contentFormat": "animated-feature",
+    "releaseForm": "standalone",
+    "shortDescription": "Анимационная фантастика для детей 8–14 лет. Темы: космос, приключения, техника.",
+    "whyRecommended": "Подходит для семейного разговора о таких темах, как космос и приключения.",
+    "country": [
+      "США"
+    ],
+    "year": 2002,
+    "duration": {
+      "kind": "standalone",
+      "minutes": 95
+    },
+    "themes": [
+      "космос",
+      "приключения",
+      "техника"
+    ],
+    "mood": [
+      "adventurous",
+      "emotional"
+    ],
+    "sensitiveTopics": [],
+    "discussionPotential": "high",
+    "nenAgeRecommendation": {
+      "minAge": 8,
+      "maxAge": 14,
+      "rationale": "Редакционный возрастной диапазон НЭН: 8–14 лет."
+    },
+    "officialRating": {
+      "system": "Возрастная маркировка РФ",
+      "value": "0+ — требует сверки",
+      "sourceUrl": "https://movies.disney.com/treasure-planet"
+    },
+    "status": "published"
+  },
+  {
+    "id": "nen-073",
+    "slug": "horoshiy-dinozavr",
+    "title": "Хороший динозавр",
+    "originalTitle": "The Good Dinosaur",
+    "contentType": "cartoon",
+    "contentFormat": "animated-feature",
+    "releaseForm": "standalone",
+    "shortDescription": "Анимационное приключение для детей 6–11 лет. Темы: динозавры, природа, дружба.",
+    "whyRecommended": "Подходит для семейного разговора о таких темах, как динозавры и природа.",
+    "country": [
+      "США"
+    ],
+    "year": 2015,
+    "duration": {
+      "kind": "standalone",
+      "minutes": 93
+    },
+    "themes": [
+      "динозавры",
+      "природа",
+      "дружба",
+      "приключения"
+    ],
+    "mood": [
+      "emotional",
+      "adventurous"
+    ],
+    "sensitiveTopics": [],
+    "discussionPotential": "high",
+    "nenAgeRecommendation": {
+      "minAge": 6,
+      "maxAge": 11,
+      "rationale": "Редакционный возрастной диапазон НЭН: 6–11 лет."
+    },
+    "officialRating": {
+      "system": "Возрастная маркировка РФ",
+      "value": "6+ — требует сверки",
+      "sourceUrl": "https://www.pixar.com/feature-films/the-good-dinosaur"
+    },
+    "status": "published"
+  },
+  {
+    "id": "nen-074",
+    "slug": "zveropolis",
+    "title": "Зверополис",
+    "originalTitle": "Zootopia",
+    "contentType": "cartoon",
+    "contentFormat": "animated-feature",
+    "releaseForm": "standalone",
+    "shortDescription": "Анимационный детектив для детей 7–13 лет. Темы: детективы, животные, дружба.",
+    "whyRecommended": "Подходит для семейного разговора о таких темах, как детективы и животные.",
+    "country": [
+      "США"
+    ],
+    "year": 2016,
+    "duration": {
+      "kind": "standalone",
+      "minutes": 108
+    },
+    "themes": [
+      "детективы",
+      "животные",
+      "дружба",
+      "приключения"
+    ],
+    "mood": [
+      "adventurous",
+      "cheerful",
+      "thoughtful"
+    ],
+    "sensitiveTopics": [],
+    "discussionPotential": "high",
+    "nenAgeRecommendation": {
+      "minAge": 7,
+      "maxAge": 13,
+      "rationale": "Редакционный возрастной диапазон НЭН: 7–13 лет."
+    },
+    "officialRating": {
+      "system": "Возрастная маркировка РФ",
+      "value": "6+ — требует сверки",
+      "sourceUrl": "https://disneyanimation.com/films/zootopia/"
+    },
+    "status": "published"
+  },
+  {
+    "id": "nen-075",
+    "slug": "mitchelly-protiv-mashin",
+    "title": "Митчеллы против машин",
+    "originalTitle": "The Mitchells vs. the Machines",
+    "contentType": "cartoon",
+    "contentFormat": "animated-feature",
+    "releaseForm": "standalone",
+    "shortDescription": "Анимационная фантастика для детей 9–14 лет. Темы: техника, семья, приключения.",
+    "whyRecommended": "Подходит для семейного разговора о таких темах, как техника и семья.",
+    "country": [
+      "США"
+    ],
+    "year": 2021,
+    "duration": {
+      "kind": "standalone",
+      "minutes": 113
+    },
+    "themes": [
+      "техника",
+      "семья",
+      "приключения",
+      "юмор"
+    ],
+    "mood": [
+      "cheerful",
+      "adventurous"
+    ],
+    "sensitiveTopics": [],
+    "discussionPotential": "high",
+    "nenAgeRecommendation": {
+      "minAge": 9,
+      "maxAge": 14,
+      "rationale": "Редакционный возрастной диапазон НЭН: 9–14 лет."
+    },
+    "officialRating": {
+      "system": "Возрастная маркировка РФ",
+      "value": "6+ — требует сверки",
+      "sourceUrl": "https://www.sonypicturesanimation.com/projects/films/mitchells-vs-machines"
+    },
+    "status": "published"
+  },
+  {
+    "id": "nen-076",
+    "slug": "enola-holms",
+    "title": "Энола Холмс",
+    "originalTitle": "Enola Holmes",
+    "contentType": "movie",
+    "contentFormat": "fiction",
+    "releaseForm": "standalone",
+    "shortDescription": "Юная сестра Шерлока Холмса отправляется на поиски пропавшей матери и ведёт собственное расследование.",
+    "whyRecommended": "Динамичный детектив для младших подростков с самостоятельной героиней и понятной интригой.",
+    "country": [
+      "Великобритания",
+      "США"
+    ],
+    "year": 2020,
+    "duration": {
+      "kind": "standalone",
+      "minutes": 123
+    },
+    "themes": [
+      "детективы",
+      "приключения",
+      "история"
+    ],
+    "mood": [
+      "adventurous",
+      "thoughtful",
+      "cheerful"
+    ],
+    "sensitiveTopics": [],
+    "discussionPotential": "high",
+    "nenAgeRecommendation": {
+      "minAge": 11,
+      "maxAge": 14,
+      "rationale": "Редакционный возрастной диапазон НЭН: 11–14 лет."
+    },
+    "officialRating": {
+      "system": "Возрастная маркировка РФ",
+      "value": "12+ — требует сверки",
+      "sourceUrl": "https://www.netflix.com/title/81277950"
+    },
+    "status": "published"
+  },
+  {
+    "id": "nen-077",
+    "slug": "nensi-dryu",
+    "title": "Нэнси Дрю",
+    "originalTitle": "Nancy Drew",
+    "contentType": "movie",
+    "contentFormat": "fiction",
+    "releaseForm": "standalone",
+    "shortDescription": "Детектив для детей 10–14 лет. Темы: детективы, приключения, школа.",
+    "whyRecommended": "Подходит для семейного разговора о таких темах, как детективы и приключения.",
+    "country": [
+      "США"
+    ],
+    "year": 2007,
+    "duration": {
+      "kind": "standalone",
+      "minutes": 99
+    },
+    "themes": [
+      "детективы",
+      "приключения",
+      "школа"
+    ],
+    "mood": [
+      "adventurous",
+      "thoughtful",
+      "cheerful"
+    ],
+    "sensitiveTopics": [],
+    "discussionPotential": "high",
+    "nenAgeRecommendation": {
+      "minAge": 10,
+      "maxAge": 14,
+      "rationale": "Редакционный возрастной диапазон НЭН: 10–14 лет."
+    },
+    "officialRating": {
+      "system": "Возрастная маркировка РФ",
+      "value": "12+ — требует сверки",
+      "sourceUrl": "https://www.warnerbros.com/movies/nancy-drew"
+    },
+    "status": "published"
+  },
+  {
+    "id": "nen-078",
+    "slug": "zatura-kosmicheskoe-priklyuchenie",
+    "title": "Затура: Космическое приключение",
+    "originalTitle": "Zathura: A Space Adventure",
+    "contentType": "movie",
+    "contentFormat": "fiction",
+    "releaseForm": "standalone",
+    "shortDescription": "Фантастика для детей 8–13 лет. Темы: космос, приключения, семья.",
+    "whyRecommended": "Подходит для семейного разговора о таких темах, как космос и приключения.",
+    "country": [
+      "США"
+    ],
+    "year": 2005,
+    "duration": {
+      "kind": "standalone",
+      "minutes": 101
+    },
+    "themes": [
+      "космос",
+      "приключения",
+      "семья"
+    ],
+    "mood": [
+      "adventurous",
+      "thoughtful"
+    ],
+    "sensitiveTopics": [],
+    "discussionPotential": "high",
+    "nenAgeRecommendation": {
+      "minAge": 8,
+      "maxAge": 13,
+      "rationale": "Редакционный возрастной диапазон НЭН: 8–13 лет."
+    },
+    "officialRating": {
+      "system": "Возрастная маркировка РФ",
+      "value": "6+ — требует сверки",
+      "sourceUrl": "https://www.sonypictures.com/movies/zathuraaspaceadventure"
+    },
+    "status": "published"
+  },
+  {
+    "id": "nen-079",
+    "slug": "karate-patsan",
+    "title": "Каратэ-пацан",
+    "originalTitle": "The Karate Kid",
+    "contentType": "movie",
+    "contentFormat": "fiction",
+    "releaseForm": "standalone",
+    "shortDescription": "Спортивная драма для детей 10–14 лет. Темы: спорт, школа, дружба.",
+    "whyRecommended": "Подходит для семейного разговора о таких темах, как спорт и школа.",
+    "country": [
+      "США",
+      "Китай"
+    ],
+    "year": 2010,
+    "duration": {
+      "kind": "standalone",
+      "minutes": 140
+    },
+    "themes": [
+      "спорт",
+      "школа",
+      "дружба"
+    ],
+    "mood": [
+      "adventurous",
+      "emotional"
+    ],
+    "sensitiveTopics": [],
+    "discussionPotential": "high",
+    "nenAgeRecommendation": {
+      "minAge": 10,
+      "maxAge": 14,
+      "rationale": "Редакционный возрастной диапазон НЭН: 10–14 лет."
+    },
+    "officialRating": {
+      "system": "Возрастная маркировка РФ",
+      "value": "12+ — требует сверки",
+      "sourceUrl": "https://www.sonypictures.com/movies/thekaratekid"
+    },
+    "status": "published"
+  },
+  {
+    "id": "nen-080",
+    "slug": "eddi-orel",
+    "title": "Эдди «Орёл»",
+    "originalTitle": "Eddie the Eagle",
+    "contentType": "movie",
+    "contentFormat": "fiction",
+    "releaseForm": "standalone",
+    "shortDescription": "Спортивная комедия для детей 11–14 лет. Темы: спорт, история, семья.",
+    "whyRecommended": "Подходит для семейного разговора о таких темах, как спорт и история.",
+    "country": [
+      "Великобритания",
+      "Германия",
+      "США"
+    ],
+    "year": 2016,
+    "duration": {
+      "kind": "standalone",
+      "minutes": 106
+    },
+    "themes": [
+      "спорт",
+      "история",
+      "семья"
+    ],
+    "mood": [
+      "cheerful",
+      "emotional",
+      "adventurous"
+    ],
+    "sensitiveTopics": [],
+    "discussionPotential": "high",
+    "nenAgeRecommendation": {
+      "minAge": 11,
+      "maxAge": 14,
+      "rationale": "Редакционный возрастной диапазон НЭН: 11–14 лет."
+    },
+    "officialRating": {
+      "system": "Возрастная маркировка РФ",
+      "value": "12+ — требует сверки",
+      "sourceUrl": "https://www.20thcenturystudios.com/movies/eddie-the-eagle"
+    },
+    "status": "published"
+  }
+]
