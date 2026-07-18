@@ -70,8 +70,8 @@ export function App() {
       case "cartoon-detail": page = <DetailPage slug={route.slug} expectedType="cartoon" titles={data.titles} {...common} />; break;
       case "movie-detail": page = <DetailPage slug={route.slug} expectedType="movie" titles={data.titles} {...common} />; break;
       case "favorites": page = <FavoritesPage titles={data.titles} {...common} />; break;
-      case "collections": page = <CollectionsPage navigate={navigate} />; break;
-      case "collection-detail": page = <CollectionsPage slug={route.slug} navigate={navigate} />; break;
+      case "collections": page = <CollectionsPage titles={data.titles} {...common} />; break;
+      case "collection-detail": page = <CollectionsPage slug={route.slug} titles={data.titles} {...common} />; break;
       case "recommend": page = <RecommendPage navigate={navigate} />; break;
       default: page = <NotFoundPage navigate={navigate} />;
     }
