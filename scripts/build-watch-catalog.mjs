@@ -13,7 +13,7 @@ const targetPath = resolve(root, "data/generated/watch.json");
 const source = JSON.parse(await readFile(sourcePath, "utf8"));
 const { items, report } = generateWatchV2Catalog(source);
 
-if (items.length !== 100) throw new Error(`Production-каталог должен содержать ровно 100 произведений, получено ${items.length}`);
+if (items.length !== 200) throw new Error(`Production-каталог должен содержать ровно 200 произведений, получено ${items.length}`);
 await mkdir(dirname(targetPath), { recursive: true });
 await writeFile(targetPath, serializeWatchV2Catalog(items), "utf8");
 console.log(formatWatchV2Report(report));
