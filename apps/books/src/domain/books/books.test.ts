@@ -1,5 +1,8 @@
 import { describe, expect, it } from "vitest";
+import rawBooks from "../../../../../data/generated/books.json";
+import { collections } from "../../data/collections";
 import { emptyFilters, searchBooks } from "./filters";
+import { getPublicOfficialAgeRating } from "./ageRating";
 import { getSimilarBooks } from "./similarity";
 import type { Book } from "./types";
 import { validateBooks } from "./validation";
@@ -29,4 +32,17 @@ describe("searchBooks", () => {
 
 describe("getSimilarBooks", () => {
   it("не показывает текущую и объясняет сходство", () => { const source = book(); const result = getSimilarBooks(source, [source, book({ id: "2", slug: "two" }), book({ id: "3", slug: "draft", status: "draft" })]); expect(result).toHaveLength(1); expect(result[0].book.id).toBe("2"); expect(result[0].reasons.length).toBeGreaterThan(0); });
+});
+
+describe("getPublicOfficialAgeRating", () => {
+  it("показывает подтверждённую маркировку с источником", () => expect(getPublicOfficialAgeRating(book({ officialAgeRating: "6+", officialAgeRatingSource: "https://example.com/book" }))).toBe("6+"));
+  it("скрывает служебную пометку о необходимости сверки", () => expect(getPublicOfficialAgeRating(book({ officialAgeRating: "0+ — требует сверки по ISBN", officialAgeRatingSource: "https://example.com/book" }))).toBeNull());
+  it("не показывает маркировку без источника", () => expect(getPublicOfficialAgeRating(book({ officialAgeRating: "12+" }))).toBeNull());
+});
+
+describe("collections", () => {
+  it("содержат только существующие книги", () => {
+    const bookIds = new Set((rawBooks as Book[]).map((item) => item.id));
+    expect(collections.flatMap((collection) => collection.bookIds).filter((id) => !bookIds.has(id))).toEqual([]);
+  });
 });
