@@ -4,6 +4,7 @@ import { collections } from "../../data/collections";
 import { emptyFilters, searchBooks } from "./filters";
 import { getPublicOfficialAgeRating } from "./ageRating";
 import { getSimilarBooks } from "./similarity";
+import { getBookPermalink, getShareActionLabel } from "./share";
 import type { Book } from "./types";
 import { validateBooks } from "./validation";
 
@@ -57,5 +58,8 @@ describe("book permalinks", () => {
 
   it("не включает поиск и фильтры в постоянную ссылку", () => {
     expect((rawBooks as Book[]).every((item) => !item.slug.includes("?") && !item.slug.includes("#"))).toBe(true);
+    expect(getBookPermalink("451-gradus-po-farengeytu", "https://books.example.test/catalog?q=поиск")).toBe("https://books.example.test/books/451-gradus-po-farengeytu");
+    expect(getShareActionLabel(true)).toBe("Поделиться");
+    expect(getShareActionLabel(false)).toBe("Скопировать ссылку");
   });
 });
