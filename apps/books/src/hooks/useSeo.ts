@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-export function useSeo(title: string, description: string, canonicalPath: string, noIndex = false) {
+export function useSeo(title: string, description: string, canonicalPath: string, noIndex = false, type: "website" | "book" = "website") {
   useEffect(() => {
     document.title = title;
     const setMeta = (attribute: "name" | "property", key: string, content: string) => {
@@ -14,8 +14,10 @@ export function useSeo(title: string, description: string, canonicalPath: string
     setMeta("name", "description", description);
     setMeta("property", "og:title", title);
     setMeta("property", "og:description", description);
-    setMeta("property", "og:type", "website");
+    setMeta("property", "og:type", type);
     setMeta("property", "og:url", canonical);
+    setMeta("property", "og:locale", "ru_RU");
+    setMeta("property", "og:site_name", "НЭН");
     setMeta("name", "robots", noIndex ? "noindex,follow" : "index,follow");
-  }, [title, description, canonicalPath, noIndex]);
+  }, [title, description, canonicalPath, noIndex, type]);
 }

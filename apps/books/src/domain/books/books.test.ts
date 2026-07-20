@@ -46,3 +46,16 @@ describe("collections", () => {
     expect(collections.flatMap((collection) => collection.bookIds).filter((id) => !bookIds.has(id))).toEqual([]);
   });
 });
+
+describe("book permalinks", () => {
+  it("создаёт уникальную постоянную ссылку для каждой книги", () => {
+    const books = rawBooks as Book[];
+    const paths = books.map((item) => `/books/${item.slug}`);
+    expect(new Set(paths).size).toBe(books.length);
+    expect(paths.every((path) => /^\/books\/[a-z0-9]+(?:-[a-z0-9]+)*$/.test(path))).toBe(true);
+  });
+
+  it("не включает поиск и фильтры в постоянную ссылку", () => {
+    expect((rawBooks as Book[]).every((item) => !item.slug.includes("?") && !item.slug.includes("#"))).toBe(true);
+  });
+});
