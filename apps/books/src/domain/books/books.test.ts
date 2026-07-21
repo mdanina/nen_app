@@ -4,7 +4,7 @@ import { collections } from "../../data/collections";
 import { emptyFilters, searchBooks } from "./filters";
 import { getPublicOfficialAgeRating } from "./ageRating";
 import { getSimilarBooks } from "./similarity";
-import { getBookPermalink, getShareActionLabel } from "./share";
+import { canUseNativeShare, copyTextWithFallback, getBookPermalink, getShareActionLabel, tryNativeShare } from "./share";
 import type { Book } from "./types";
 import { validateBooks } from "./validation";
 
@@ -61,5 +61,39 @@ describe("book permalinks", () => {
     expect(getBookPermalink("451-gradus-po-farengeytu", "https://books.example.test/catalog?q=поиск")).toBe("https://books.example.test/books/451-gradus-po-farengeytu");
     expect(getShareActionLabel(true)).toBe("Поделиться");
     expect(getShareActionLabel(false)).toBe("Скопировать ссылку");
+  });
+});
+
+describe("book sharing compatibility", () => {
+  const data = { title: "Книга", url: "https://books.example.test/books/kniga" };
+
+  it("использует системное меню в Safari на iPhone", async () => {
+    let shareCalled = false;
+    expect(canUseNativeShare(data, { secure: true, share: async () => undefined })).toBe(true);
+    expect(await tryNativeShare(data, { secure: true, share: async () => { shareCalled = true; } })).toBe(true);
+    expect(shareCalled).toBe(true);
+  });
+
+  it("проверяет данные перед системным меню в Chrome на Android", () => {
+    expect(canUseNativeShare(data, { secure: true, share: async () => undefined, canShare: () => true })).toBe(true);
+    expect(canUseNativeShare(data, { secure: true, share: async () => undefined, canShare: () => false })).toBe(false);
+  });
+
+  it("выбирает копирование в десктопном браузере без Web Share API", () => {
+    expect(canUseNativeShare(data, { secure: true })).toBe(false);
+  });
+
+  it("переходит к копированию, если webview отклоняет Web Share", async () => {
+    expect(await tryNativeShare(data, { secure: true, share: async () => { throw new Error("blocked"); } })).toBe(false);
+  });
+
+  it("использует DOM-fallback, если Clipboard API отклоняет запись", async () => {
+    let fallbackCalled = false;
+    const copied = await copyTextWithFallback(data.url, {
+      clipboardWrite: async () => { throw new Error("denied"); },
+      legacyCopy: () => { fallbackCalled = true; return true; },
+    });
+    expect(copied).toBe(true);
+    expect(fallbackCalled).toBe(true);
   });
 });

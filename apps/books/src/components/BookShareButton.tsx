@@ -1,28 +1,38 @@
 import { useEffect, useRef, useState } from "react";
-import { getBookPermalink, getShareActionLabel } from "../domain/books/share";
+import {
+  canUseNativeShare,
+  copyTextWithFallback,
+  getBookPermalink,
+  getBrowserShareCapabilities,
+  getShareActionLabel,
+  tryNativeShare,
+} from "../domain/books/share";
 
-async function copyLink(url: string) {
-  if (navigator.clipboard?.writeText) {
-    await navigator.clipboard.writeText(url);
-    return;
-  }
-
+function legacyCopy(text: string) {
   const input = document.createElement("textarea");
-  input.value = url;
+  const previouslyFocused = document.activeElement instanceof HTMLElement ? document.activeElement : null;
+  input.value = text;
   input.setAttribute("readonly", "");
   input.style.position = "fixed";
-  input.style.opacity = "0";
+  input.style.top = "0";
+  input.style.left = "-9999px";
+  input.style.fontSize = "16px";
   document.body.append(input);
+  input.focus({ preventScroll: true });
   input.select();
+  input.setSelectionRange(0, input.value.length);
   const copied = document.execCommand("copy");
   input.remove();
-  if (!copied) throw new Error("Не удалось скопировать ссылку");
+  previouslyFocused?.focus({ preventScroll: true });
+  return copied;
 }
 
 export function BookShareButton({ slug, title }: { slug: string; title: string }) {
+  const url = getBookPermalink(slug);
+  const shareData = { title, url };
+  const [copyMode, setCopyMode] = useState(() => !canUseNativeShare(shareData, getBrowserShareCapabilities()));
   const [copied, setCopied] = useState(false);
   const timer = useRef<number | undefined>(undefined);
-  const canShare = typeof navigator.share === "function";
 
   useEffect(() => () => window.clearTimeout(timer.current), []);
 
@@ -33,26 +43,23 @@ export function BookShareButton({ slug, title }: { slug: string; title: string }
   };
 
   const handleShare = async () => {
-    const url = getBookPermalink(slug);
-    if (canShare) {
-      try {
-        await navigator.share({ title, url });
-        return;
-      } catch (error) {
-        if (error instanceof DOMException && error.name === "AbortError") return;
-      }
+    if (!copyMode) {
+      const shared = await tryNativeShare(shareData, getBrowserShareCapabilities());
+      if (shared) return;
+      setCopyMode(true);
+      setCopied(false);
+      return;
     }
 
-    try {
-      await copyLink(url);
-      showCopied();
-    } catch {
-      setCopied(false);
-    }
+    const copiedSuccessfully = await copyTextWithFallback(url, {
+      clipboardWrite: navigator.clipboard?.writeText ? (text) => navigator.clipboard.writeText(text) : undefined,
+      legacyCopy,
+    });
+    if (copiedSuccessfully) showCopied();
   };
 
   return <div>
-    <button className="save-large" type="button" onClick={handleShare}>{getShareActionLabel(canShare)}</button>
+    <button className="save-large" type="button" onClick={handleShare}>{getShareActionLabel(!copyMode)}</button>
     <p className="similar-reason" role="status" aria-live="polite">{copied ? "Ссылка скопирована" : ""}</p>
   </div>;
 }
