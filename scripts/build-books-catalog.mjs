@@ -5,9 +5,11 @@ import { fileURLToPath } from "node:url";
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const legacyPath = resolve(root, "data/source/catalog-full.json");
 const v2Path = resolve(root, "data/source/books-v2.json");
+const importedPath = resolve(root, "data/source/openlibrary-books.json");
 const targetPath = resolve(root, "data/generated/books.json");
 const legacySource = JSON.parse(await readFile(legacyPath, "utf8"));
 const v2Source = JSON.parse(await readFile(v2Path, "utf8"));
+const importedSource = JSON.parse(await readFile(importedPath, "utf8"));
 
 const allowed = {
   readingMode: new Set(["independent", "together", "both"]),
@@ -110,13 +112,26 @@ function normalized(value) {
   return String(value).toLocaleLowerCase("ru").replace(/ё/g, "е").replace(/[^a-zа-я0-9]+/g, " ").trim();
 }
 
+function importedBook(item, index) {
+  for (const field of ["id", "slug", "title", "author", "shortDescription", "whyRecommended"]) {
+    if (typeof item[field] !== "string" || !item[field].trim()) throw new Error(`Импортированная запись ${index + 1}: отсутствует ${field}`);
+  }
+  if (!Number.isFinite(item.ageMin) || !Number.isFinite(item.ageMax) || item.ageMin > item.ageMax) throw new Error(`Импортированная запись ${item.id}: некорректный возраст`);
+  if (!allowed.readingMode.has(item.readingMode)) throw new Error(`Импортированная запись ${item.id}: неизвестный формат чтения`);
+  for (const field of ["genres", "themes"]) assertVocabulary(item, field);
+  if (!Array.isArray(item.moods) || item.moods.some((value) => !allowed.moods.has(value))) throw new Error(`Импортированная запись ${item.id}: неизвестное настроение`);
+  if (item.status !== "published") throw new Error(`Импортированная запись ${item.id}: разрешены только опубликованные карточки`);
+  return item;
+}
+
 const legacyBooks = legacySource.filter((item) => item.contentType === "book" || item.contentType === "fairy-tale").map((item, index) => {
   for (const [field, value] of [["id", item.id], ["slug", item.slug], ["title", item.title]]) if (!value) throw new Error(`Legacy-запись ${index + 1}: отсутствует ${field}`);
   if (!Number.isFinite(item.recommendedAgeMin) || !Number.isFinite(item.recommendedAgeMax) || item.recommendedAgeMin > item.recommendedAgeMax) throw new Error(`Legacy-запись: некорректный возраст ${item.slug}`);
   return legacyBook(item);
 });
 const publishedV2 = v2Source.filter((item) => item.status === "published").map(v2Book);
-const books = [...legacyBooks, ...publishedV2];
+const importedBooks = importedSource.map(importedBook);
+const books = [...legacyBooks, ...publishedV2, ...importedBooks];
 
 for (const [label, key] of [["id", (book) => book.id], ["slug", (book) => book.slug], ["ISBN", (book) => book.isbn13], ["название и автор", (book) => `${normalized(book.title)}|${normalized(book.author)}`]]) {
   const seen = new Map();
@@ -130,4 +145,4 @@ for (const [label, key] of [["id", (book) => book.id], ["slug", (book) => book.s
 
 await mkdir(dirname(targetPath), { recursive: true });
 await writeFile(targetPath, `${JSON.stringify(books, null, 2)}\n`, "utf8");
-console.log(`Сформировано книг: ${books.length} (${legacyBooks.length} legacy + ${publishedV2.length} v2)`);
+console.log(`Сформировано книг: ${books.length} (${legacyBooks.length} legacy + ${publishedV2.length} v2 + ${importedBooks.length} импортированных)`);
