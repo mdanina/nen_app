@@ -1,21 +1,27 @@
 import { describe, expect, it } from "vitest";
 import productionBooks from "../../../../../data/generated/books.json";
 import importedBooks from "../../../../../data/source/openlibrary-books.json";
+import importedExclusions from "../../../../../data/source/openlibrary-books-excluded.json";
 import { StaticBooksRepository } from "../../data/booksRepository";
 import { emptyFilters, searchBooks } from "./filters";
 import type { Book } from "./types";
 import { validateBooks } from "./validation";
 
 describe("connected Open Library catalog", () => {
-  it("keeps 200 editorial records first and appends 618 imported books", () => {
-    expect(productionBooks).toHaveLength(818);
-    expect(productionBooks.slice(200)).toEqual(importedBooks);
+  const excludedIds = new Set(importedExclusions.map((item) => item.id));
+  const includedImports = importedBooks.filter((book) => !excludedIds.has(book.id));
+
+  it("keeps 200 editorial records first and appends the approved imported books", () => {
+    expect(productionBooks).toHaveLength(809);
+    expect(productionBooks.slice(200)).toEqual(includedImports);
+    expect(productionBooks.some((book) => excludedIds.has(book.id))).toBe(false);
+    expect(importedExclusions.every((item) => item.reason && item.explanation)).toBe(true);
   });
 
   it("passes the current runtime validator", () => {
     const result = validateBooks(productionBooks);
     expect(result.issues).toEqual([]);
-    expect(result.items).toHaveLength(818);
+    expect(result.items).toHaveLength(809);
   });
 
   it("has stable unique routes and Open Library work provenance", () => {
@@ -23,7 +29,7 @@ describe("connected Open Library catalog", () => {
     expect(new Set(slugs).size).toBe(slugs.length);
     expect(slugs.every((slug) => /^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(slug))).toBe(true);
 
-    const workIds = importedBooks.flatMap((book) => [
+    const workIds = includedImports.flatMap((book) => [
       ...(book.sourceMetadata?.workIds ?? []),
       ...(!book.sourceMetadata?.workIds?.length && book.sourceMetadata?.workId ? [book.sourceMetadata.workId] : []),
     ]);
@@ -32,7 +38,7 @@ describe("connected Open Library catalog", () => {
 
   it("uses only exact permanent book paths and safe cover URLs", () => {
     expect(productionBooks.every((book) => `/books/${book.slug}`.split("?").length === 1)).toBe(true);
-    const external = importedBooks.filter((book) => book.cover?.kind === "external");
+    const external = includedImports.filter((book) => book.cover?.kind === "external");
     expect(external.every((book) => /^https:\/\/covers\.openlibrary\.org\/b\/id\/\d+-L\.jpg$/.test(book.cover?.url ?? ""))).toBe(true);
     expect(external.every((book) => book.cover?.isbn13 === book.isbn13)).toBe(true);
   });

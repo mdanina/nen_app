@@ -6,10 +6,12 @@ const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const legacyPath = resolve(root, "data/source/catalog-full.json");
 const v2Path = resolve(root, "data/source/books-v2.json");
 const importedPath = resolve(root, "data/source/openlibrary-books.json");
+const importedExclusionsPath = resolve(root, "data/source/openlibrary-books-excluded.json");
 const targetPath = resolve(root, "data/generated/books.json");
 const legacySource = JSON.parse(await readFile(legacyPath, "utf8"));
 const v2Source = JSON.parse(await readFile(v2Path, "utf8"));
 const importedSource = JSON.parse(await readFile(importedPath, "utf8"));
+const importedExclusions = JSON.parse(await readFile(importedExclusionsPath, "utf8"));
 
 const allowed = {
   readingMode: new Set(["independent", "together", "both"]),
@@ -130,7 +132,15 @@ const legacyBooks = legacySource.filter((item) => item.contentType === "book" ||
   return legacyBook(item);
 });
 const publishedV2 = v2Source.filter((item) => item.status === "published").map(v2Book);
-const importedBooks = importedSource.map(importedBook);
+const importedIds = new Set(importedSource.map((item) => item.id));
+const excludedImportedIds = new Set();
+for (const exclusion of importedExclusions) {
+  if (!importedIds.has(exclusion.id)) throw new Error(`Исключение ссылается на неизвестную импортированную книгу: ${exclusion.id}`);
+  if (excludedImportedIds.has(exclusion.id)) throw new Error(`Повторяющееся исключение импортированной книги: ${exclusion.id}`);
+  if (!exclusion.reason || !exclusion.explanation) throw new Error(`Для исключения ${exclusion.id} требуется причина`);
+  excludedImportedIds.add(exclusion.id);
+}
+const importedBooks = importedSource.filter((item) => !excludedImportedIds.has(item.id)).map(importedBook);
 const books = [...legacyBooks, ...publishedV2, ...importedBooks];
 
 for (const [label, key] of [["id", (book) => book.id], ["slug", (book) => book.slug], ["ISBN", (book) => book.isbn13], ["название и автор", (book) => `${normalized(book.title)}|${normalized(book.author)}`]]) {
@@ -145,4 +155,4 @@ for (const [label, key] of [["id", (book) => book.id], ["slug", (book) => book.s
 
 await mkdir(dirname(targetPath), { recursive: true });
 await writeFile(targetPath, `${JSON.stringify(books, null, 2)}\n`, "utf8");
-console.log(`Сформировано книг: ${books.length} (${legacyBooks.length} legacy + ${publishedV2.length} v2 + ${importedBooks.length} импортированных)`);
+console.log(`Сформировано книг: ${books.length} (${legacyBooks.length} legacy + ${publishedV2.length} v2 + ${importedBooks.length} импортированных; исключено ${excludedImportedIds.size})`);

@@ -1,0 +1,116 @@
+[
+  {
+    "id": "ol-ol45513388w",
+    "title": "\"Детская книга в системе патриотического воспитания",
+    "author": "А. Н. Садриева",
+    "reason": "primary_patriotic_education",
+    "explanation": "Методический материал, непосредственно посвящённый использованию детской книги для патриотического воспитания.",
+    "evidence": [
+      "Название прямо указывает на патриотическое воспитание",
+      "Subject: Patriotism in literature",
+      "Издатель: социально-педагогическая академия"
+    ],
+    "confidence": 0.99
+  },
+  {
+    "id": "ol-ol32805819w",
+    "title": "Моя родина Россия",
+    "author": "Н. А. Гурьева",
+    "reason": "primary_patriotic_education",
+    "explanation": "Детское издание построено вокруг формирования представления о России как родине; патриотическая рамка является основной.",
+    "evidence": [
+      "Название: Моя родина Россия",
+      "Subjects: Juvenile literature, History, Civilization"
+    ],
+    "confidence": 0.91
+  },
+  {
+    "id": "ol-ol6644765w",
+    "title": "Книга юнармейца",
+    "author": "Виктор Борисович Волошинов",
+    "reason": "military_patriotic_instruction",
+    "explanation": "Практико-ориентированное детское издание о военном деле и военных играх, выпущенное ДОСААФ.",
+    "evidence": [
+      "Subjects: Military art and science",
+      "Subjects: War games",
+      "Издатель: ДОСААФ"
+    ],
+    "confidence": 0.99
+  },
+  {
+    "id": "ol-ol22577591w",
+    "title": "Славой овеянная",
+    "author": "Д. А. Драгунский",
+    "reason": "military_ideological_glorification",
+    "explanation": "Детское издание посвящено героизирующему представлению вооружённых сил СССР, а не художественному осмыслению войны.",
+    "evidence": [
+      "Название использует героизирующую формулировку",
+      "Subject: Soviet Union -- Armed Forces -- Juvenile literature",
+      "Subject: Soviet Union -- History, Military -- Juvenile literature"
+    ],
+    "confidence": 0.96
+  },
+  {
+    "id": "ol-ol38580833w",
+    "title": "В музее В. И. Ленина",
+    "author": "Сергей Михалков",
+    "reason": "political_ideological_material",
+    "explanation": "Детское произведение целиком посвящено мемориализации политического лидера и относится к идеологическому воспитательному корпусу.",
+    "evidence": [
+      "Название: В музее В. И. Ленина",
+      "Детское издание 1960 года"
+    ],
+    "confidence": 0.97
+  },
+  {
+    "id": "ol-ol2090140w",
+    "title": "Владимир Илич Ленин",
+    "author": "Надежда Константиновна Крупская",
+    "reason": "political_ideological_material",
+    "explanation": "Детская биографическая книга целиком посвящена политическому лидеру и имеет выраженную идеологическую функцию.",
+    "evidence": [
+      "Subject: Lenin, Vladimir Ilʹich -- Juvenile literature",
+      "Издательство: Детская литература",
+      "Год издания: 1969"
+    ],
+    "confidence": 0.99
+  },
+  {
+    "id": "ol-ol11338837w",
+    "title": "Наш Ленин",
+    "author": "Борис Николаевич Полевой",
+    "reason": "political_ideological_material",
+    "explanation": "Детская книга с прямой идеологической и героизирующей рамкой вокруг политического лидера.",
+    "evidence": [
+      "Название: Наш Ленин",
+      "Subject: Lenin, Vladimir Ilʹich -- Juvenile literature",
+      "Издательство: Детская литература"
+    ],
+    "confidence": 0.99
+  },
+  {
+    "id": "ol-ol22447427w",
+    "title": "Рассказы о Ленине",
+    "author": "Н. И. Крутикова",
+    "reason": "political_ideological_material",
+    "explanation": "Детское издание целиком посвящено политическому лидеру и относится к советскому идеологическому воспитательному корпусу.",
+    "evidence": [
+      "Название: Рассказы о Ленине",
+      "Издательство: Детгиз",
+      "Год издания: 1960"
+    ],
+    "confidence": 0.97
+  },
+  {
+    "id": "ol-ol2440114w",
+    "title": "Рассказы о Ленине",
+    "author": "Михаил Зощенко",
+    "reason": "political_ideological_material",
+    "explanation": "Основной предмет детского издания — политический лидер; книга относится к идеологическому корпусу, а не к нейтральной исторической прозе.",
+    "evidence": [
+      "Название: Рассказы о Ленине",
+      "Subject: Lenin, Vladimir Ilʹich -- Juvenile literature"
+    ],
+    "confidence": 0.96
+  }
+]
