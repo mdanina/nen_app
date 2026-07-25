@@ -62,6 +62,7 @@ export interface Book {
   illustrationsLevel?: "few" | "medium" | "many";
   isSeries?: boolean;
   seriesName?: string;
+  translator?: string;
   classicOrModern?: "classic" | "modern";
   sensitiveTopics: string[];
   sensitiveTopicsReviewed?: boolean;
@@ -81,6 +82,7 @@ export interface BookFilters {
   lengths: LengthCategory[];
   genres: string[];
   themes: string[];
+  publishers: string[];
   moods: string[];
   difficulty: Difficulty | null;
   search: string;

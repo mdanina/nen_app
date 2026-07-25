@@ -2,12 +2,14 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { classifyCatalogBook } from "./books/fiction-classifier.mjs";
+import { fixGeneratedAuthorCases } from "./books/russian-morphology.mjs";
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const legacyPath = resolve(root, "data/source/catalog-full.json");
 const v2Path = resolve(root, "data/source/books-v2.json");
 const importedPath = resolve(root, "data/source/openlibrary-books.json");
 const importedExclusionsPath = resolve(root, "data/source/openlibrary-books-excluded.json");
+const curatedPublisherPath = resolve(root, "data/source/curated-publisher-books.json");
 const annotationOverridesPath = resolve(root, "data/source/book-annotation-overrides.json");
 const targetPath = resolve(root, "data/generated/books.json");
 const fictionExcludedReportPath = resolve(root, "data/reports/fiction-catalog-excluded.json");
@@ -16,6 +18,7 @@ const legacySource = JSON.parse(await readFile(legacyPath, "utf8"));
 const v2Source = JSON.parse(await readFile(v2Path, "utf8"));
 const importedSource = JSON.parse(await readFile(importedPath, "utf8"));
 const importedExclusions = JSON.parse(await readFile(importedExclusionsPath, "utf8"));
+const curatedPublisherSource = JSON.parse(await readFile(curatedPublisherPath, "utf8"));
 const annotationOverrides = JSON.parse(await readFile(annotationOverridesPath, "utf8"));
 const annotationById = new Map(annotationOverrides.map((item) => [item.id, item]));
 
@@ -25,7 +28,7 @@ const allowed = {
   languageDifficulty: new Set(["easy", "medium", "advanced"]),
   bookFormats: new Set(["картонная книга", "книжка-картинка", "первое самостоятельное чтение", "книга с короткими главами", "повесть", "роман", "графический роман", "комикс", "сборник", "поэзия", "иллюстрированный нон-фикшн", "энциклопедия", "книга-игра"]),
   genres: new Set(["сказка", "реалистическая проза", "семейная история", "приключения", "детектив", "юмор", "фэнтези", "научная фантастика", "историческая проза", "биография", "научно-популярная литература", "документальная литература", "поэзия"]),
-  themes: new Set(["дружба", "семья", "школа", "детский сад", "животные", "природа", "наука", "техника", "история", "искусство", "путешествия", "взросление", "самооценка", "отношения", "тело", "безопасность", "культурное разнообразие", "юмор", "волшебство", "приключения"]),
+  themes: new Set(["дружба", "семья", "школа", "детский сад", "животные", "природа", "наука", "техника", "история", "искусство", "путешествия", "взросление", "самооценка", "отношения", "тело", "безопасность", "культурное разнообразие", "юмор", "волшебство", "приключения", "космос", "экология", "мифология", "музыка", "театр", "спорт", "морские приключения", "изобретения"]),
   lifeSituations: new Set(["перед сном", "начало детского сада", "начало школы", "смена школы", "первое самостоятельное чтение", "ребёнок не любит читать", "переезд", "эмиграция", "развод родителей", "рождение брата или сестры", "семейный конфликт", "разлука с близким", "болезнь или больница", "утрата", "буллинг", "трудности с дружбой", "важные перемены", "разговор о безопасности", "совместное семейное обсуждение"]),
   emotionalStates: new Set(["тревожится", "боится", "грустит", "злится", "ревнует", "чувствует себя одиноко", "устал или перегружен", "стесняется", "не уверен в себе", "переживает перемены", "нуждается в поддержке", "хочет успокоиться", "хочет посмеяться", "скучает", "хочет узнать новое"]),
   moods: new Set(["захватывающее", "смешное", "спокойное", "таинственное", "трогательное", "уютное", "напряжённое", "познавательное"]),
@@ -108,6 +111,7 @@ function v2Book(item) {
     author: item.authors.join("; "), shortDescription: item.shortDescription.trim(), fullDescription: item.fullDescription?.trim() || undefined,
     whyRecommended: item.whyRecommended.trim(), cover: item.cover, identificationStatus: item.identificationStatus,
     isbn13: item.isbn13 || undefined, publisher: item.publisher || undefined, publicationYear: item.publicationYear || undefined,
+    seriesName: item.seriesName || undefined, translator: item.translator || undefined,
     bibliographicSources: compact(item.bibliographicSources), ageMin: item.ageMin, ageMax: item.ageMax, ageLabel: `${item.ageMin}–${item.ageMax} лет`,
     readingMode: item.readingMode, bookFormats: compact(item.bookFormats), genres: compact(item.genres), themes: compact(item.themes),
     lifeSituations: compact(item.lifeSituations), emotionalStates: compact(item.emotionalStates), moods: compact(item.moods),
@@ -118,6 +122,56 @@ function v2Book(item) {
 }
 function normalized(value) {
   return String(value).toLocaleLowerCase("ru").replace(/ё/g, "е").replace(/[^a-zа-я0-9]+/g, " ").trim();
+}
+
+function normalizePublisher(value) {
+  if (!value) return undefined;
+  const clean = String(value).replace(/[\[\]"]/g, "").replace(/[.,\s]+$/u, "").trim();
+  const key = clean.normalize("NFKD").replace(/\p{M}/gu, "").toLocaleLowerCase("ru").replace(/[^a-zа-я0-9]+/gu, " ").trim();
+  const rules = [
+    [/samokat|самокат/u, "Самокат"],
+    [/rozovy zhiraf|розовый жираф/u, "Розовый жираф"],
+    [/peshkom v istor|пешком в истор/u, "Пешком в историю"],
+    [/makhaon|махаон/u, "Махаон"],
+    [/(?:^|\s)e?ksmo|эксмо/u, "Эксмо"],
+    [/(?:^|\s)ast(?:\s|$)|издательство аст|изд во аст/u, "АСТ"],
+    [/astrel|estrel|астрель/u, "Астрель"],
+    [/rosm[eė]n|росмэн/u, "Росмэн"],
+    [/strekoza|стрекоза/u, "Стрекоза"],
+    [/detsk.*lit|detgiz|detizdat|детская литература/u, "Детская литература"],
+    [/chavash.*izdat|чувашское книжное/u, "Чувашское книжное издательство"],
+    [/samovar|самовар/u, "Самовар"],
+    [/azbuka|азбука/u, "Азбука"],
+    [/drofa|дрофа/u, "Дрофа"],
+    [/malysh|малыш/u, "Малыш"],
+    [/bely.*gorod|белый город/u, "Белый город"],
+    [/oniks|оникс/u, "Оникс"],
+    [/olma|олма/u, "ОЛМА"],
+    [/ripol|рипол/u, "РИПОЛ классик"],
+    [/molodai?a.*gvardi|mol.*gvard|молодая гвардия/u, "Молодая гвардия"],
+    [/novoe literaturnoe obozrenie|новое литературное обозрение/u, "Новое литературное обозрение"],
+    [/rech(?:\s|$)|речь/u, "Речь"],
+    [/prof press|проф-пресс/u, "Проф-Пресс"],
+    [/bukmaster|букмастер/u, "Букмастер"],
+  ];
+  return rules.find(([pattern]) => pattern.test(key))?.[1] ?? clean;
+}
+
+function curatedPublisherBook(item, index) {
+  for (const field of ["id", "slug", "title", "shortDescription", "whyRecommended", "publisher", "isbn13"]) {
+    if (typeof item[field] !== "string" || !item[field].trim()) throw new Error(`Издательская запись ${index + 1}: отсутствует ${field}`);
+  }
+  if (!Array.isArray(item.authors) || !item.authors.length) throw new Error(`Издательская запись ${item.id}: отсутствует автор`);
+  if (!Number.isFinite(item.ageMin) || !Number.isFinite(item.ageMax) || item.ageMin > item.ageMax) throw new Error(`Издательская запись ${item.id}: некорректный возраст`);
+  if (!allowed.readingMode.has(item.readingMode)) throw new Error(`Издательская запись ${item.id}: неизвестный формат чтения`);
+  for (const field of ["genres", "themes"]) assertVocabulary(item, field);
+  if (!item.cover?.url || item.cover.kind !== "external" || item.cover.isbn13 !== item.isbn13) throw new Error(`Издательская запись ${item.id}: некорректная обложка`);
+  return {
+    ...item,
+    author: item.authors.join("; "),
+    authors: undefined,
+    ageLabel: `${item.ageMin}–${item.ageMax} лет`,
+  };
 }
 
 function importedBook(item, index) {
@@ -165,7 +219,23 @@ for (const exclusion of importedExclusions) {
   excludedImportedIds.add(exclusion.id);
 }
 const importedBooks = importedSource.filter((item) => !excludedImportedIds.has(item.id)).map(importedBook);
-const candidateBooks = [...legacyBooks, ...publishedV2, ...importedBooks];
+const curatedPublisherBooks = curatedPublisherSource.books.map(curatedPublisherBook);
+const enrichmentById = new Map(curatedPublisherSource.enrichments.map((item) => [item.id, item]));
+function applyPublisherEnrichment(book) {
+  const enrichment = enrichmentById.get(book.id);
+  if (!enrichment) return book;
+  return {
+    ...book,
+    publisher: book.publisher || enrichment.publisher || undefined,
+    publicationYear: book.publicationYear || enrichment.publicationYear || undefined,
+    pages: book.pages || enrichment.pages || undefined,
+    seriesName: book.seriesName || enrichment.seriesName || undefined,
+    translator: book.translator || enrichment.translator || undefined,
+    isbn13: book.isbn13 || enrichment.isbn13 || undefined,
+    bibliographicSources: compact([...(book.bibliographicSources ?? []), enrichment.bibliographicSource]),
+  };
+}
+const candidateBooks = [...legacyBooks, ...publishedV2, ...importedBooks, ...curatedPublisherBooks].map(applyPublisherEnrichment);
 const fictionExcluded = candidateBooks
   .map((book) => ({ book, classification: classifyCatalogBook(book) }))
   .filter(({ classification }) => classification.decision === "exclude");
@@ -216,7 +286,13 @@ function fictionOnlyGenres(book) {
 
 const books = candidateBooks
   .filter((book) => classifyCatalogBook(book).decision === "keep")
-  .map((book) => ({ ...book, genres: fictionOnlyGenres(book) }));
+  .map((book) => ({
+    ...book,
+    genres: fictionOnlyGenres(book),
+    publisher: normalizePublisher(book.publisher),
+    shortDescription: fixGeneratedAuthorCases(book.shortDescription, book.author),
+    fullDescription: fixGeneratedAuthorCases(book.fullDescription, book.author),
+  }));
 
 const missingFictionGenres = books.filter((book) => !book.genres.length);
 if (missingFictionGenres.length) {

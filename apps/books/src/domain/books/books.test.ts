@@ -2,6 +2,7 @@ import { describe, expect, it } from "vitest";
 import rawBooks from "../../../../../data/generated/books.json";
 import { collections } from "../../data/collections";
 import { emptyFilters, searchBooks } from "./filters";
+import { filtersFromUrl, filtersToUrl } from "./url";
 import { getPublicOfficialAgeRating } from "./ageRating";
 import { getSimilarBooks } from "./similarity";
 import { canUseNativeShare, copyTextWithFallback, getBookPermalink, getShareActionLabel, shareWithCopyFallback, tryNativeShare } from "./share";
@@ -30,6 +31,17 @@ describe("searchBooks", () => {
   it("предпочитает соседнюю длительность", () => expect(searchBooks(books, { ...emptyFilters, age: 7, lengths: ["very-short"], themes: ["нет"] }).nearby[0].book.lengthCategory).toBe("short"));
   it("выбирает максимальное число совпадений", () => expect(searchBooks(books, { ...emptyFilters, age: 7, themes: ["дружба", "животные"], moods: ["спокойное"] }).nearby[0].book.id).toBe("1"));
   it("понимает запрос перед сном", () => expect(searchBooks(books, { ...emptyFilters, age: 7, search: "почитать перед сном" }).exact[0].book.id).toBe("1"));
+  it("фильтрует по издательству", () => {
+    const booksByPublisher = [book({ publisher: "Самокат" }), book({ id: "2", slug: "two", title: "Вторая", publisher: "КомпасГид" })];
+    expect(searchBooks(booksByPublisher, { ...emptyFilters, publishers: ["Самокат"] }).exact.map((item) => item.book.id)).toEqual(["1"]);
+  });
+});
+
+describe("publisher filter URL", () => {
+  it("сохраняет издательства в постоянных параметрах фильтра", () => {
+    const query = filtersToUrl({ ...emptyFilters, publishers: ["Самокат", "Белая ворона"] });
+    expect(filtersFromUrl(query).publishers).toEqual(["Самокат", "Белая ворона"]);
+  });
 });
 
 describe("getSimilarBooks", () => {

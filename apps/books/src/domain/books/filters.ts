@@ -1,13 +1,13 @@
 import { matchesText } from "@nen/search";
 import type { Book, BookFilters, BookSearchResult, LengthCategory, RankedBook } from "./types";
 
-export const emptyFilters: BookFilters = { age: null, reading: null, lengths: [], genres: [], themes: [], moods: [], difficulty: null, search: "" };
+export const emptyFilters: BookFilters = { age: null, reading: null, lengths: [], genres: [], themes: [], publishers: [], moods: [], difficulty: null, search: "" };
 const lengthOrder: LengthCategory[] = ["very-short", "short", "medium", "long"];
 
 function includesAll(source: string[], selected: string[]) { return selected.every((value) => source.includes(value)); }
 function readingMatches(book: Book, reading: BookFilters["reading"]) { return !reading || book.readingMode === reading || book.readingMode === "both"; }
 function ageMatches(book: Book, age: number | null) { return age === null || (age >= book.ageMin && age <= book.ageMax); }
-function text(book: Book) { return [book.title, book.originalTitle, book.author, book.seriesName, book.shortDescription, book.fullDescription, ...book.genres, ...book.themes].filter(Boolean).join(" "); }
+function text(book: Book) { return [book.title, book.originalTitle, book.author, book.publisher, book.seriesName, book.shortDescription, book.fullDescription, ...book.genres, ...book.themes].filter(Boolean).join(" "); }
 function semanticSearchMatch(book: Book, query: string): boolean | null {
   const normalized = query.toLocaleLowerCase("ru").replaceAll("ё", "е");
   if (/перед сном|на ночь|засып/.test(normalized)) return Boolean(book.suitableForBedtime) || book.moods.some((value) => value === "спокойное" || value === "уютное");
@@ -22,6 +22,7 @@ export function exactMatch(book: Book, filters: BookFilters): boolean {
   return book.status === "published" && ageMatches(book, filters.age) && readingMatches(book, filters.reading)
     && (!filters.search || searchMatches(book, filters.search))
     && includesAll(book.themes, filters.themes) && includesAll(book.genres, filters.genres) && includesAll(book.moods, filters.moods)
+    && (!filters.publishers.length || Boolean(book.publisher && filters.publishers.includes(book.publisher)))
     && (!filters.lengths.length || Boolean(book.lengthCategory && filters.lengths.includes(book.lengthCategory)))
     && (!filters.difficulty || book.languageDifficulty === filters.difficulty);
 }
@@ -48,6 +49,10 @@ function rank(book: Book, filters: BookFilters, relaxReading = false): RankedBoo
   score += themeMatches.length * 16;
   if (themeMatches.length) matched.push(`темам: ${themeMatches.join(", ")}`);
   if (themeMatches.length < filters.themes.length) relaxed.push(themeMatches.length ? `совпадает только часть тем (${themeMatches.length} из ${filters.themes.length})` : "не совпадают выбранные темы");
+  if (filters.publishers.length) {
+    if (book.publisher && filters.publishers.includes(book.publisher)) { score += 10; matched.push(`издательству: ${book.publisher}`); }
+    else relaxed.push("другое издательство");
+  }
   const moodMatches = filters.moods.filter((v) => book.moods.includes(v));
   score += moodMatches.length * 8;
   if (moodMatches.length) matched.push(`настроению: ${moodMatches.join(", ")}`);
