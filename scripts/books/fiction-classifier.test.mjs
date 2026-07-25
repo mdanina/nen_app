@@ -68,3 +68,27 @@ test("final catalog decisions exclude the six confirmed non-fiction or adult rec
     assert.equal(result.type, type);
   }
 });
+
+test("public catalog excludes the thirteen books without verified annotations", () => {
+  const ids = [
+    "ol-ol22418629w",
+    "ol-ol13727598w",
+    "ol-ol40061322w",
+    "ol-ol43411200w",
+    "ol-ol40061324w",
+    "ol-ol2439920w",
+    "ol-ol19927903w",
+    "ol-ol33089855w",
+    "ol-ol35580781w",
+    "ol-ol37141565w",
+    "ol-ol33497265w",
+    "ol-ol39293439w",
+    "ol-ol44466703w",
+  ];
+
+  for (const id of ids) {
+    const result = classifyCatalogBook(book({ id }));
+    assert.equal(result.decision, "exclude");
+    assert.equal(result.type, "missing_verified_annotation");
+  }
+});

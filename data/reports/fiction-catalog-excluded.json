@@ -907,6 +907,30 @@
     ]
   },
   {
+    "id": "ol-ol22418629w",
+    "title": "Некогда не забудем",
+    "author": "Борис Бурьян; В. А. Жиженко",
+    "reason": "missing_verified_annotation",
+    "determinedType": "missing_verified_annotation",
+    "confidence": 0.99,
+    "evidence": [
+      "genre:реалистическая проза",
+      "subjects:explicit_fiction",
+      "manual:final_catalog_title_author_bibliography"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL22418629W"
+    ],
+    "sourceSubjects": [
+      "Translations into Russian",
+      "Belarusian Short stories",
+      "World War, 1939-1945",
+      "Juvenile fiction",
+      "Belarusian War stories",
+      "Children's writings, Belarusian"
+    ]
+  },
+  {
     "id": "ol-ol5130923w",
     "title": "География Курганской области",
     "author": "М. В. Лаврентьев",
@@ -1597,6 +1621,31 @@
     ]
   },
   {
+    "id": "ol-ol13727598w",
+    "title": "Кто как одет",
+    "author": "Акулина Каракулова",
+    "reason": "missing_verified_annotation",
+    "determinedType": "missing_verified_annotation",
+    "confidence": 0.99,
+    "evidence": [
+      "genre:поэзия",
+      "subjects:explicit_fiction",
+      "manual:final_catalog_title_author_bibliography"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL13727598W"
+    ],
+    "sourceSubjects": [
+      "Animals",
+      "Juvenile fiction",
+      "Nursery rhymes",
+      "Fiction",
+      "Animals -- Juvenile fiction.",
+      "Animals -- Fiction.",
+      "Nursery rhymes."
+    ]
+  },
+  {
     "id": "ol-ol6020191w",
     "title": "Города России",
     "author": "Алексей Клиентов",
@@ -2079,6 +2128,29 @@
     ]
   },
   {
+    "id": "ol-ol40061322w",
+    "title": "Новогодняя сказка",
+    "author": "Наталья Александровна Васильева",
+    "reason": "missing_verified_annotation",
+    "determinedType": "missing_verified_annotation",
+    "confidence": 0.99,
+    "evidence": [
+      "genre:сказка",
+      "subjects:explicit_fiction",
+      "manual:final_catalog_title_author_bibliography"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL40061322W"
+    ],
+    "sourceSubjects": [
+      "New Year",
+      "Juvenile fiction",
+      "Children's stories, Chuvash",
+      "Children's stories, Russian",
+      "Translations into Chuvash"
+    ]
+  },
+  {
     "id": "ol-ol3614124w",
     "title": "Воспитание поколений",
     "author": "Александр Ивич",
@@ -2128,6 +2200,26 @@
       "Russian literature -- 20th century -- History and criticism",
       "Children's literature, Russian -- History and criticism",
       "Children -- Books and reading -- Russia"
+    ]
+  },
+  {
+    "id": "ol-ol43411200w",
+    "title": "Волшебная дверца",
+    "author": "Ася Тепловодская; Ирина Явчуновская",
+    "reason": "missing_verified_annotation",
+    "determinedType": "missing_verified_annotation",
+    "confidence": 0.99,
+    "evidence": [
+      "genre:фэнтези",
+      "subjects:explicit_fiction",
+      "manual:final_catalog_title_author_bibliography"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL43411200W"
+    ],
+    "sourceSubjects": [
+      "Children's stories, Russian",
+      "Children's songs, Russian"
     ]
   },
   {
@@ -2331,6 +2423,27 @@
     ]
   },
   {
+    "id": "ol-ol40061324w",
+    "title": "Зайкина семья",
+    "author": "Л. А. Васильева",
+    "reason": "missing_verified_annotation",
+    "determinedType": "missing_verified_annotation",
+    "confidence": 0.99,
+    "evidence": [
+      "genre:реалистическая проза",
+      "subjects:explicit_fiction",
+      "manual:final_catalog_title_author_bibliography"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL40061324W"
+    ],
+    "sourceSubjects": [
+      "Children's stories, Chuvash",
+      "Children's stories, Russian",
+      "Translations into Chuvash"
+    ]
+  },
+  {
     "id": "ol-ol939978w",
     "title": "Современный детский фольклор и его взаимодействие с художественной литературой",
     "author": "О. Ю Трыкова",
@@ -2489,6 +2602,26 @@
     ]
   },
   {
+    "id": "ol-ol2439920w",
+    "title": "Сказка о солнечных братьях",
+    "author": "Иван Костыря",
+    "reason": "missing_verified_annotation",
+    "determinedType": "missing_verified_annotation",
+    "confidence": 0.99,
+    "evidence": [
+      "genre:сказка",
+      "subjects:explicit_fiction",
+      "manual:final_catalog_title_author_bibliography"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL2439920W"
+    ],
+    "sourceSubjects": [
+      "Children's stories, Russian",
+      "Children's stories, Russian."
+    ]
+  },
+  {
     "id": "ol-ol39299875w",
     "title": "Герой и время",
     "author": "Джонон Бобокалонова",
@@ -2559,6 +2692,28 @@
     ]
   },
   {
+    "id": "ol-ol19927903w",
+    "title": "Золотая коллекция волшебных сказок",
+    "author": "Владимир Конкин",
+    "reason": "missing_verified_annotation",
+    "determinedType": "missing_verified_annotation",
+    "confidence": 0.99,
+    "evidence": [
+      "genre:сказка",
+      "subjects:explicit_fiction",
+      "manual:final_catalog_title_author_bibliography"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL19927903W"
+    ],
+    "sourceSubjects": [
+      "Juvenile literature",
+      "Fairy tales",
+      "Translations into Russian",
+      "Children's audiobooks"
+    ]
+  },
+  {
     "id": "ol-ol6844893w",
     "title": "Полвека",
     "author": "Ирина Петровна Лупанова",
@@ -2600,6 +2755,29 @@
     "sourceSubjects": [
       "Children's literature, Russian",
       "History and criticism"
+    ]
+  },
+  {
+    "id": "ol-ol33089855w",
+    "title": "Веселая пчелка",
+    "author": "Надежда Павлович",
+    "reason": "missing_verified_annotation",
+    "determinedType": "missing_verified_annotation",
+    "confidence": 0.99,
+    "evidence": [
+      "genre:поэзия",
+      "subjects:explicit_fiction",
+      "manual:final_catalog_title_author_bibliography"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL33089855W"
+    ],
+    "sourceSubjects": [
+      "Bees",
+      "Juvenile poetry",
+      "Life cycles",
+      "Children's poetry, Russian",
+      "Illustrated children's books"
     ]
   },
   {
@@ -4094,6 +4272,32 @@
     ]
   },
   {
+    "id": "ol-ol35580781w",
+    "title": "Яшь дулкын",
+    "author": "Галимйан Гыйльманов",
+    "reason": "missing_verified_annotation",
+    "determinedType": "missing_verified_annotation",
+    "confidence": 0.99,
+    "evidence": [
+      "genre:поэзия",
+      "subjects:explicit_fiction",
+      "genre:биография",
+      "subjects:biographical_or_documentary",
+      "manual:final_catalog_title_author_bibliography"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL35580781W"
+    ],
+    "sourceSubjects": [
+      "Children's writings, Tatar",
+      "Children's writings, Russian",
+      "Children's literature, Tatar",
+      "Tatar poetry",
+      "Tatar Authors",
+      "Biography"
+    ]
+  },
+  {
     "id": "ol-ol41696456w",
     "title": "Змей, потоп и два ковчега",
     "author": "Меир Шалев",
@@ -4473,6 +4677,43 @@
     ]
   },
   {
+    "id": "ol-ol37141565w",
+    "title": "Час рассказа в еврейской библиотеке",
+    "author": "Аркадий Красильщиков",
+    "reason": "missing_verified_annotation",
+    "determinedType": "missing_verified_annotation",
+    "confidence": 0.99,
+    "evidence": [
+      "genre:реалистическая проза",
+      "subjects:explicit_fiction",
+      "manual:final_catalog_title_author_bibliography"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL37141565W"
+    ],
+    "sourceSubjects": [
+      "Jewish children's stories"
+    ]
+  },
+  {
+    "id": "ol-ol33497265w",
+    "title": "Кто сеет ветер-",
+    "author": "Валерий Пушков",
+    "reason": "missing_verified_annotation",
+    "determinedType": "missing_verified_annotation",
+    "confidence": 0.99,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "manual:final_catalog_title_author_bibliography"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL33497265W"
+    ],
+    "sourceSubjects": [
+      "Children's literature, Russian"
+    ]
+  },
+  {
     "id": "ol-ol5775527w",
     "title": "Тарханская пора",
     "author": "Сергей Алексеевич Андреев-Кривич",
@@ -4761,6 +5002,28 @@
     ]
   },
   {
+    "id": "ol-ol39293439w",
+    "title": "Отпусти народ мой!",
+    "author": "Юля Гукова; Светлана Шенбрунн",
+    "reason": "missing_verified_annotation",
+    "determinedType": "missing_verified_annotation",
+    "confidence": 0.99,
+    "evidence": [
+      "genre:реалистическая проза",
+      "manual:final_catalog_title_author_bibliography"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL39293439W"
+    ],
+    "sourceSubjects": [
+      "Children's literature, Russian",
+      "Israel",
+      "Russian Bible stories",
+      "O.T. Exodus",
+      "Israeli literature (Russian)"
+    ]
+  },
+  {
     "id": "ol-ol19978357w",
     "title": "Первые знания",
     "author": "Е. А. Малевич",
@@ -4940,6 +5203,25 @@
     "sourceSubjects": [
       "Hats",
       "Juvenile literature"
+    ]
+  },
+  {
+    "id": "ol-ol44466703w",
+    "title": "Книга забавной фантазии",
+    "author": "Андрей Брук",
+    "reason": "missing_verified_annotation",
+    "determinedType": "missing_verified_annotation",
+    "confidence": 0.99,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "manual:final_catalog_title_author_bibliography"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL44466703W"
+    ],
+    "sourceSubjects": [
+      "Children's literature, Russian",
+      "Children's books"
     ]
   },
   {

@@ -14,7 +14,7 @@ describe("connected Open Library catalog", () => {
   const includedImports = productionBooks.filter((book) => book.id.startsWith("ol-"));
 
   it("publishes only records that survived both exclusion stages", () => {
-    expect(productionBooks).toHaveLength(542);
+    expect(productionBooks).toHaveLength(529);
     expect(productionBooks.some((book) => excludedIds.has(book.id))).toBe(false);
     expect(productionBooks.some((book) => fictionExcludedIds.has(book.id))).toBe(false);
     expect(importedExclusions.every((item) => item.reason && item.explanation)).toBe(true);

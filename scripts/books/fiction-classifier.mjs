@@ -38,14 +38,27 @@ const FINAL_CATALOG_EXCLUDE = new Map([
   ["ol-ol13749469w", "early_learning_educational_book"],
   ["ol-ol32427229w", "adult_literary_collection"],
   ["ol-ol4715673w", "historical_material_culture_nonfiction"],
+  ["ol-ol22418629w", "missing_verified_annotation"],
+  ["ol-ol13727598w", "missing_verified_annotation"],
+  ["ol-ol40061322w", "missing_verified_annotation"],
+  ["ol-ol43411200w", "missing_verified_annotation"],
+  ["ol-ol40061324w", "missing_verified_annotation"],
+  ["ol-ol2439920w", "missing_verified_annotation"],
+  ["ol-ol19927903w", "missing_verified_annotation"],
+  ["ol-ol33089855w", "missing_verified_annotation"],
+  ["ol-ol35580781w", "missing_verified_annotation"],
+  ["ol-ol37141565w", "missing_verified_annotation"],
+  ["ol-ol33497265w", "missing_verified_annotation"],
+  ["ol-ol39293439w", "missing_verified_annotation"],
+  ["ol-ol44466703w", "missing_verified_annotation"],
 ]);
 
 const MANUAL_KEEP = new Set([
   "ol-ol3803771w", "ol-ol20004004w", "ol-ol19978370w", "ol-ol19978354w",
-  "ol-ol35580781w", "ol-ol12432535w", "ol-ol38513598w", "ol-ol33497265w",
+  "ol-ol12432535w", "ol-ol38513598w",
   "ol-ol55522w", "ol-ol667419w", "ol-ol38539262w", "ol-ol27958552w",
   "ol-ol23852449w", "ol-ol33098425w", "ol-ol33137652w", "ol-ol38508810w",
-  "ol-ol38533455w", "ol-ol865246w", "ol-ol44466703w", "ol-ol43943169w",
+  "ol-ol38533455w", "ol-ol865246w", "ol-ol43943169w",
   "ol-ol38509253w", "ol-ol10358155w",
 ]);
 
