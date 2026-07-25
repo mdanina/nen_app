@@ -10,6 +10,7 @@ const v2Path = resolve(root, "data/source/books-v2.json");
 const importedPath = resolve(root, "data/source/openlibrary-books.json");
 const importedExclusionsPath = resolve(root, "data/source/openlibrary-books-excluded.json");
 const curatedPublisherPath = resolve(root, "data/source/curated-publisher-books.json");
+const curatedMultiPublisherPath = resolve(root, "data/source/curated-multi-publisher-books.json");
 const annotationOverridesPath = resolve(root, "data/source/book-annotation-overrides.json");
 const targetPath = resolve(root, "data/generated/books.json");
 const fictionExcludedReportPath = resolve(root, "data/reports/fiction-catalog-excluded.json");
@@ -19,6 +20,7 @@ const v2Source = JSON.parse(await readFile(v2Path, "utf8"));
 const importedSource = JSON.parse(await readFile(importedPath, "utf8"));
 const importedExclusions = JSON.parse(await readFile(importedExclusionsPath, "utf8"));
 const curatedPublisherSource = JSON.parse(await readFile(curatedPublisherPath, "utf8"));
+const curatedMultiPublisherSource = JSON.parse(await readFile(curatedMultiPublisherPath, "utf8"));
 const annotationOverrides = JSON.parse(await readFile(annotationOverridesPath, "utf8"));
 const annotationById = new Map(annotationOverrides.map((item) => [item.id, item]));
 
@@ -219,8 +221,14 @@ for (const exclusion of importedExclusions) {
   excludedImportedIds.add(exclusion.id);
 }
 const importedBooks = importedSource.filter((item) => !excludedImportedIds.has(item.id)).map(importedBook);
-const curatedPublisherBooks = curatedPublisherSource.books.map(curatedPublisherBook);
-const enrichmentById = new Map(curatedPublisherSource.enrichments.map((item) => [item.id, item]));
+const curatedPublisherBooks = [
+  ...curatedPublisherSource.books,
+  ...curatedMultiPublisherSource.books,
+].map(curatedPublisherBook);
+const enrichmentById = new Map([
+  ...curatedPublisherSource.enrichments,
+  ...curatedMultiPublisherSource.enrichments,
+].map((item) => [item.id, item]));
 function applyPublisherEnrichment(book) {
   const enrichment = enrichmentById.get(book.id);
   if (!enrichment) return book;

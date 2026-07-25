@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import productionBooks from "../../../../../data/generated/books.json";
 import curatedPublisherSource from "../../../../../data/source/curated-publisher-books.json";
+import curatedMultiPublisherSource from "../../../../../data/source/curated-multi-publisher-books.json";
 import importedExclusions from "../../../../../data/source/openlibrary-books-excluded.json";
 import ambiguousReview from "../../../../../data/reports/ambiguous-review.json";
 import fictionExclusions from "../../../../../data/reports/fiction-catalog-excluded.json";
@@ -15,7 +16,7 @@ describe("connected Open Library catalog", () => {
   const includedImports = productionBooks.filter((book) => book.id.startsWith("ol-"));
 
   it("publishes only records that survived both exclusion stages", () => {
-    expect(productionBooks).toHaveLength(529 + curatedPublisherSource.books.length);
+    expect(productionBooks).toHaveLength(529 + curatedPublisherSource.books.length + curatedMultiPublisherSource.books.length);
     expect(productionBooks.some((book) => excludedIds.has(book.id))).toBe(false);
     expect(productionBooks.some((book) => fictionExcludedIds.has(book.id))).toBe(false);
     expect(importedExclusions.every((item) => item.reason && item.explanation)).toBe(true);

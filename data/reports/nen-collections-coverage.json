@@ -1,0 +1,267 @@
+{
+  "generatedAt": "2026-07-25T15:07:34.044Z",
+  "collections": [
+    {
+      "slug": "vybor-redaktsii-nen-2020",
+      "sourceUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
+      "sourceTitleCount": 17,
+      "matchedCount": 5,
+      "matched": [
+        {
+          "id": "nen-bv2-081",
+          "title": "Сказки по телефону"
+        },
+        {
+          "id": "nen-002",
+          "title": "Красная Шапочка"
+        },
+        {
+          "id": "nen-bv2-056",
+          "title": "Волшебник Изумрудного города"
+        },
+        {
+          "id": "nen-bv2-079",
+          "title": "Приключения Чиполлино"
+        },
+        {
+          "id": "ol-ol29230428w",
+          "title": "Возвращение блудного попугая и другие истории"
+        }
+      ],
+      "missing": [
+        "Про Лиса и Поросенка",
+        "Стихи Маши Рупасовой",
+        "Семейный альбом тираннозавра Тони",
+        "Человеткин",
+        "Мейделин Финн и собака из приюта",
+        "Мартын и Барсик",
+        "Один за всех и все за одного",
+        "Королевство кривых зеркал",
+        "Питер Пэн",
+        "Все о Муми-троллях",
+        "Мышонок, который там",
+        "Кто утешит Кнютта"
+      ]
+    },
+    {
+      "slug": "desyat-glavnyh-detskih-knig",
+      "sourceUrl": "https://n-e-n.ru/10-glavnih-detskih-knig/",
+      "sourceTitleCount": 10,
+      "matchedCount": 6,
+      "matched": [
+        {
+          "id": "nen-024",
+          "title": "Настоящая жизнь Жакомина Гейнсборо"
+        },
+        {
+          "id": "nen-023",
+          "title": "Давай поедем в Уналашку"
+        },
+        {
+          "id": "curated-whitecrow-navoznyy-zhuk-letaet-v-sumerkah-navoznyj-zhuk-letaet-v-sumerkah",
+          "title": "Навозный жук летает в сумерках"
+        },
+        {
+          "id": "curated-samokat-miss-cheriti-miss-cheriti",
+          "title": "Мисс Черити"
+        },
+        {
+          "id": "ol-ol26452135w",
+          "title": "Сказки"
+        },
+        {
+          "id": "curated-samokat-den-chisla-pi-den-chisla-pi",
+          "title": "День числа Пи"
+        }
+      ],
+      "missing": [
+        "Картофельная собака",
+        "Медведь в своем репертуаре",
+        "Штора нянюшки Лагтон",
+        "Не все умеют падать"
+      ]
+    },
+    {
+      "slug": "knigi-pro-pervuyu-lyubov",
+      "sourceUrl": "https://n-e-n.ru/knigi-pro-pervuyu-lyubov/",
+      "sourceTitleCount": 4,
+      "matchedCount": 2,
+      "matched": [
+        {
+          "id": "curated-samokat-otel-bolshaya-l-otel-bolshaya-l",
+          "title": "Отель «Большая Л»"
+        },
+        {
+          "id": "curated-samokat-gips-gips",
+          "title": "Гипс"
+        }
+      ],
+      "missing": [
+        "Река, текущая вспять",
+        "Я, не я, Жанна"
+      ]
+    },
+    {
+      "slug": "desyat-knig-dlya-malyshey",
+      "sourceUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
+      "sourceTitleCount": 10,
+      "matchedCount": 0,
+      "matched": [],
+      "missing": [
+        "Что нужно маленькой кошке",
+        "Верные друзья",
+        "Спать, как тигр",
+        "Моя сестренка Олькозавра",
+        "Как Флип затопил весь мир",
+        "Молли и штормовое море",
+        "Иди поиграй с тем мальчиком!",
+        "Год, полный чудес",
+        "Лев Петрушка и его друзья",
+        "Пингвикинги"
+      ]
+    },
+    {
+      "slug": "knigi-dlya-podrostkov",
+      "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+      "sourceTitleCount": 15,
+      "matchedCount": 2,
+      "matched": [
+        {
+          "id": "nen-bv2-140",
+          "title": "Дом, в котором…"
+        },
+        {
+          "id": "nen-bv2-137",
+          "title": "Книжный вор"
+        }
+      ],
+      "missing": [
+        "Школа в Кармартене",
+        "Заколдованная жизнь",
+        "Мулей",
+        "Жутко громко и запредельно близко",
+        "Милые кости",
+        "Когда мы встретимся",
+        "Тринадцатая сказка",
+        "Бездна Челленджера",
+        "Девятнадцать минут",
+        "Птица в клетке",
+        "Уличный кот по имени Боб",
+        "Сплетни и K-pop",
+        "Хейтеры"
+      ]
+    },
+    {
+      "slug": "knigi-na-kanikuly",
+      "sourceUrl": "https://n-e-n.ru/8-knig/",
+      "sourceTitleCount": 10,
+      "matchedCount": 1,
+      "matched": [
+        {
+          "id": "curated-samokat-neveroyatnoe-nashestvie-medvedey-na-sitsiliyu-neveroyatnoe-nashestvie-medvedey-na-sitsiliyu",
+          "title": "Невероятное нашествие медведей на Сицилию"
+        }
+      ],
+      "missing": [
+        "Щепотка магии",
+        "Горстка волшебства",
+        "Клубок заклинаний",
+        "Маленькая всемирная история",
+        "Секреты кошек",
+        "Брат дракона",
+        "Затонувший лес",
+        "6 минут для детей",
+        "Другая Элис"
+      ]
+    },
+    {
+      "slug": "lyubimye-knigi-alpina-deti",
+      "sourceUrl": "https://n-e-n.ru/5-knig-alpina/",
+      "sourceTitleCount": 5,
+      "matchedCount": 0,
+      "matched": [],
+      "missing": [
+        "Невероятно! Опасная слизь, ледяные мышки, съедобные камни и еще 95 историй о мире вокруг нас",
+        "Дружба после ссоры… Новые приключения Эмо и Чики",
+        "Я иду искать в Санкт-Петербурге",
+        "Конни и друзья: Новая школа",
+        "Истории про Пярта"
+      ]
+    },
+    {
+      "slug": "goroshek-tsikada-i-volshebstvo",
+      "sourceUrl": "https://n-e-n.ru/goroshek/",
+      "sourceTitleCount": 5,
+      "matchedCount": 2,
+      "matched": [
+        {
+          "id": "ol-ol26452135w",
+          "title": "Сказки"
+        },
+        {
+          "id": "ol-ol19978428w",
+          "title": "Лучшие сказки на ночь"
+        }
+      ],
+      "missing": [
+        "Поиграй с Мими",
+        "Школа рисования Горошка",
+        "И кто-то сказал «Привет»"
+      ]
+    },
+    {
+      "slug": "novinki-dlya-doshkolnikov",
+      "sourceUrl": "https://n-e-n.ru/novinki-dlya-shkolnikov/",
+      "sourceTitleCount": 7,
+      "matchedCount": 0,
+      "matched": [],
+      "missing": [
+        "Фредерик",
+        "Летний день с друзьями",
+        "Моя большая",
+        "Добрая акула",
+        "Суп синьора Лепрона",
+        "Сильвия и Птичка",
+        "Очки для Селесты"
+      ]
+    },
+    {
+      "slug": "volshebnye-zimnie-knigi",
+      "sourceUrl": "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/",
+      "sourceTitleCount": 8,
+      "matchedCount": 0,
+      "matched": [],
+      "missing": [
+        "Васильковая зима",
+        "Где-то в снегу",
+        "Заветное желание кротика",
+        "Елка Юлька",
+        "В поисках Деда Мороза",
+        "Самое первое новогоднее дерево",
+        "Гном и Лис",
+        "Вьюжик и упавшая звезда"
+      ]
+    },
+    {
+      "slug": "novye-fantasticheskie-istorii",
+      "sourceUrl": "https://n-e-n.ru/sohraniai-svobody-v-golove/",
+      "sourceTitleCount": 5,
+      "matchedCount": 2,
+      "matched": [
+        {
+          "id": "curated-samokat-slon-v-polnom-smysle-etogo-slova-skazki-slon-v-polnom-smysle-etogo-slova-skazki",
+          "title": "Слон в полном смысле этого слова. Сказки"
+        },
+        {
+          "id": "curated-samokat-kvartetnye-skazki-kvartetnye-skazki",
+          "title": "Квартетные сказки"
+        }
+      ],
+      "missing": [
+        "Пещерный человек",
+        "Шляпники",
+        "Магазин диковинных сладостей «Счастье за монетку»"
+      ]
+    }
+  ]
+}
