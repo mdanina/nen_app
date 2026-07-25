@@ -1,0 +1,241 @@
+{
+  "generatedAt": "2026-07-24T08:14:14.531Z",
+  "summary": {
+    "finalBooks": 548,
+    "removedInFinalPass": 238,
+    "ambiguousForManualReview": 11,
+    "remainingAutomaticExclusions": 0,
+    "keywordReviewRecords": 0,
+    "duplicateIds": 0,
+    "duplicateSlugs": 0,
+    "duplicateTitleAuthors": 0,
+    "prohibitedTemplateHits": 0,
+    "exactDuplicateDescriptionGroups": 0,
+    "nearDuplicateDescriptionPairs": 0
+  },
+  "removedByType": {
+    "атласы": 1,
+    "биографии и документальные": 34,
+    "другой non-fiction": 14,
+    "научно-популярные и познавательные": 153,
+    "справочные": 12,
+    "учебные и методические": 22,
+    "энциклопедии": 2
+  },
+  "keywordReview": [],
+  "remainingTypeReview": [],
+  "ambiguous": [
+    {
+      "id": "ol-ol19936380w",
+      "title": "Буквы, азбука, щиталки",
+      "author": "Владимир Степанов",
+      "reason": "conflicting_fiction_and_nonfiction_evidence",
+      "determinedType": "conflicting_fiction_and_nonfiction_evidence",
+      "confidence": 0.5,
+      "evidence": [
+        "genre:поэзия",
+        "subjects:explicit_fiction",
+        "subjects:explicit_nonfiction"
+      ],
+      "bibliographicSources": [
+        "https://openlibrary.org/works/OL19936380W"
+      ],
+      "sourceSubjects": [
+        "Alphabet rhymes",
+        "Russian language",
+        "Animals",
+        "Juvenile poetry",
+        "Readers",
+        "Alphabet",
+        "Rhyming games",
+        "Alphabet books",
+        "Children's poetry, Russian",
+        "Juvenile literature"
+      ]
+    },
+    {
+      "id": "ol-ol782040w",
+      "title": "Сказания о земле Русской",
+      "author": "Сергей Голицын",
+      "reason": "conflicting_fiction_and_nonfiction_evidence",
+      "determinedType": "conflicting_fiction_and_nonfiction_evidence",
+      "confidence": 0.5,
+      "evidence": [
+        "genre:сказка",
+        "format:иллюстрированный нон-фикшн"
+      ],
+      "bibliographicSources": [
+        "https://openlibrary.org/works/OL782040W"
+      ],
+      "sourceSubjects": [
+        "History",
+        "Juvenile literature",
+        "Kulikovo, Battle of, Russia, 1380",
+        "Mongol Invasion, 1237-1241",
+        "Kulikovo, Battle of, Russia, 1380 -- Juvenile literature.",
+        "Kievan Rus -- History -- Mongol Invasion, 1237-1241 -- Juvenile literature.",
+        "Russia -- History -- 1237-1480 -- Juvenile literature."
+      ]
+    },
+    {
+      "id": "ol-ol38601554w",
+      "title": "Моя Россия",
+      "author": "Н. Н. Михайлов",
+      "reason": "nonfiction_label_without_specific_source_evidence",
+      "determinedType": "nonfiction_label_without_specific_source_evidence",
+      "confidence": 0.55,
+      "evidence": [
+        "genre:научно-популярная литература"
+      ],
+      "bibliographicSources": [
+        "https://openlibrary.org/works/OL38601554W"
+      ],
+      "sourceSubjects": [
+        "Children's literature, Russian"
+      ]
+    },
+    {
+      "id": "ol-ol43826833w",
+      "title": "Даймохк-Нана",
+      "author": "Едуард Арбиевич Мамакаев",
+      "reason": "nonfiction_label_without_specific_source_evidence",
+      "determinedType": "nonfiction_label_without_specific_source_evidence",
+      "confidence": 0.55,
+      "evidence": [
+        "genre:научно-популярная литература"
+      ],
+      "bibliographicSources": [
+        "https://openlibrary.org/works/OL43826833W"
+      ],
+      "sourceSubjects": [
+        "Children's literature, Chechen"
+      ]
+    },
+    {
+      "id": "ol-ol12382574w",
+      "title": "Валдайские колокольцы",
+      "author": "М. Ефетов",
+      "reason": "nonfiction_label_without_specific_source_evidence",
+      "determinedType": "nonfiction_label_without_specific_source_evidence",
+      "confidence": 0.55,
+      "evidence": [
+        "genre:научно-популярная литература"
+      ],
+      "bibliographicSources": [
+        "https://openlibrary.org/works/OL12382574W"
+      ],
+      "sourceSubjects": [
+        "Children's literature, Russian",
+        "Children's literature, Russian."
+      ]
+    },
+    {
+      "id": "ol-ol22116633w",
+      "title": "Первая книжка для малюток",
+      "author": "Н. Гудков",
+      "reason": "nonfiction_label_without_specific_source_evidence",
+      "determinedType": "nonfiction_label_without_specific_source_evidence",
+      "confidence": 0.55,
+      "evidence": [
+        "genre:научно-популярная литература"
+      ],
+      "bibliographicSources": [
+        "https://openlibrary.org/works/OL22116633W"
+      ],
+      "sourceSubjects": [
+        "Picture books for children"
+      ]
+    },
+    {
+      "id": "ol-ol32503442w",
+      "title": "Владыка джунглей",
+      "author": "Майя Будзинская",
+      "reason": "nonfiction_label_without_specific_source_evidence",
+      "determinedType": "nonfiction_label_without_specific_source_evidence",
+      "confidence": 0.55,
+      "evidence": [
+        "genre:научно-популярная литература"
+      ],
+      "bibliographicSources": [
+        "https://openlibrary.org/works/OL32503442W"
+      ],
+      "sourceSubjects": [
+        "Children's literature"
+      ]
+    },
+    {
+      "id": "ol-ol5235855w",
+      "title": "Вместе почитаем, вместе поиграем",
+      "author": "Ирина Токмакова",
+      "reason": "nonfiction_label_without_specific_source_evidence",
+      "determinedType": "nonfiction_label_without_specific_source_evidence",
+      "confidence": 0.55,
+      "evidence": [
+        "genre:научно-популярная литература"
+      ],
+      "bibliographicSources": [
+        "https://openlibrary.org/works/OL5235855W"
+      ],
+      "sourceSubjects": [
+        "Children's literature, Russian",
+        "Children's literature, Russian -- 20th century."
+      ]
+    },
+    {
+      "id": "ol-ol44458456w",
+      "title": "Подвиги Святослава",
+      "author": "Георгий Шторм; В Стекольщиков",
+      "reason": "nonfiction_label_without_specific_source_evidence",
+      "determinedType": "nonfiction_label_without_specific_source_evidence",
+      "confidence": 0.55,
+      "evidence": [
+        "genre:научно-популярная литература"
+      ],
+      "bibliographicSources": [
+        "https://openlibrary.org/works/OL44458456W"
+      ],
+      "sourceSubjects": [
+        "Children's literature, Russian"
+      ]
+    },
+    {
+      "id": "ol-ol38427291w",
+      "title": "Рыцари нашего времени",
+      "author": "Л. Давыдов",
+      "reason": "nonfiction_label_without_specific_source_evidence",
+      "determinedType": "nonfiction_label_without_specific_source_evidence",
+      "confidence": 0.55,
+      "evidence": [
+        "genre:научно-популярная литература"
+      ],
+      "bibliographicSources": [
+        "https://openlibrary.org/works/OL38427291W"
+      ],
+      "sourceSubjects": [
+        "Children's literature, Russian"
+      ]
+    },
+    {
+      "id": "ol-ol38427409w",
+      "title": "Семья Жигулевых",
+      "author": "К. Рождественская",
+      "reason": "nonfiction_label_without_specific_source_evidence",
+      "determinedType": "nonfiction_label_without_specific_source_evidence",
+      "confidence": 0.55,
+      "evidence": [
+        "genre:научно-популярная литература"
+      ],
+      "bibliographicSources": [
+        "https://openlibrary.org/works/OL38427409W"
+      ],
+      "sourceSubjects": [
+        "Children's literature, Russian"
+      ]
+    }
+  ],
+  "duplicates": {
+    "ids": [],
+    "slugs": [],
+    "titleAuthors": []
+  }
+}

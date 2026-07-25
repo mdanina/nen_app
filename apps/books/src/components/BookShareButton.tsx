@@ -1,11 +1,10 @@
 import { useEffect, useRef, useState } from "react";
 import {
   canUseNativeShare,
-  copyTextWithFallback,
   getBookPermalink,
   getBrowserShareCapabilities,
   getShareActionLabel,
-  tryNativeShare,
+  shareWithCopyFallback,
 } from "../domain/books/share";
 
 function legacyCopy(text: string) {
@@ -32,6 +31,7 @@ export function BookShareButton({ slug, title }: { slug: string; title: string }
   const shareData = { title, url };
   const [copyMode, setCopyMode] = useState(() => !canUseNativeShare(shareData, getBrowserShareCapabilities()));
   const [copied, setCopied] = useState(false);
+  const [copyFailed, setCopyFailed] = useState(false);
   const timer = useRef<number | undefined>(undefined);
 
   useEffect(() => () => window.clearTimeout(timer.current), []);
@@ -43,23 +43,20 @@ export function BookShareButton({ slug, title }: { slug: string; title: string }
   };
 
   const handleShare = async () => {
-    if (!copyMode) {
-      const shared = await tryNativeShare(shareData, getBrowserShareCapabilities());
-      if (shared) return;
-      setCopyMode(true);
-      setCopied(false);
-      return;
-    }
-
-    const copiedSuccessfully = await copyTextWithFallback(url, {
+    setCopyFailed(false);
+    const capabilities = copyMode ? { secure: false } : getBrowserShareCapabilities();
+    const result = await shareWithCopyFallback(shareData, capabilities, {
       clipboardWrite: navigator.clipboard?.writeText ? (text) => navigator.clipboard.writeText(text) : undefined,
       legacyCopy,
     });
-    if (copiedSuccessfully) showCopied();
+    if (result === "shared") return;
+    setCopyMode(true);
+    if (result === "copied") showCopied();
+    else setCopyFailed(true);
   };
 
   return <div>
     <button className="save-large" type="button" onClick={handleShare}>{getShareActionLabel(!copyMode)}</button>
-    <p className="similar-reason" role="status" aria-live="polite">{copied ? "Ссылка скопирована" : ""}</p>
+    <p className="similar-reason" role="status" aria-live="polite">{copied ? "Ссылка скопирована" : copyFailed ? "Не удалось скопировать ссылку" : ""}</p>
   </div>;
 }

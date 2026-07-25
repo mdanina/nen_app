@@ -1,0 +1,5310 @@
+[
+  {
+    "id": "nen-025",
+    "title": "Семейный альбом тираннозавра Тони. История динозавров",
+    "author": "Майк Бентон",
+    "reason": "editorial_nonfiction",
+    "determinedType": "editorial_nonfiction",
+    "confidence": 0.98,
+    "evidence": [
+      "genre:научно-популярная книга"
+    ],
+    "bibliographicSources": [],
+    "sourceSubjects": []
+  },
+  {
+    "id": "nen-056",
+    "title": "Профессор Астрокот и его путешествие в космос",
+    "author": "Доминик Уоллиман",
+    "reason": "editorial_nonfiction",
+    "determinedType": "editorial_nonfiction",
+    "confidence": 0.98,
+    "evidence": [
+      "genre:научно-популярная книга"
+    ],
+    "bibliographicSources": [],
+    "sourceSubjects": []
+  },
+  {
+    "id": "nen-062",
+    "title": "Динозавриум",
+    "author": "Лили Мюррей",
+    "reason": "editorial_nonfiction",
+    "determinedType": "editorial_nonfiction",
+    "confidence": 0.98,
+    "evidence": [
+      "genre:научно-популярная книга",
+      "genre:иллюстрированная энциклопедия"
+    ],
+    "bibliographicSources": [],
+    "sourceSubjects": []
+  },
+  {
+    "id": "nen-bv2-002",
+    "title": "Счёт от 1 до 10",
+    "author": "Мис ван Хаут",
+    "reason": "editorial_nonfiction",
+    "determinedType": "editorial_nonfiction",
+    "confidence": 0.98,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "format:иллюстрированный нон-фикшн"
+    ],
+    "bibliographicSources": [
+      "https://samokatbook.ru/book/ot-1-do-10/"
+    ],
+    "sourceSubjects": []
+  },
+  {
+    "id": "nen-bv2-003",
+    "title": "От головы до ног",
+    "author": "Эрик Карл",
+    "reason": "editorial_nonfiction",
+    "determinedType": "editorial_nonfiction",
+    "confidence": 0.98,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/api/books?bibkeys=ISBN:9785437001240&jscmd=data&format=json"
+    ],
+    "sourceSubjects": []
+  },
+  {
+    "id": "nen-bv2-010",
+    "title": "Что, если родители разведутся?",
+    "author": "Дагмар Гайслер",
+    "reason": "editorial_nonfiction",
+    "determinedType": "editorial_nonfiction",
+    "confidence": 0.98,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "format:иллюстрированный нон-фикшн"
+    ],
+    "bibliographicSources": [
+      "https://bhv.ru/product/chto-esli-roditeli-razvedutsya/"
+    ],
+    "sourceSubjects": []
+  },
+  {
+    "id": "nen-bv2-019",
+    "title": "Сурвило",
+    "author": "Ольга Лаврентьева",
+    "reason": "biography_or_documentary",
+    "determinedType": "biography_or_documentary",
+    "confidence": 0.97,
+    "evidence": [
+      "genre:документальная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/api/books?bibkeys=ISBN:9785906331786&jscmd=data&format=json"
+    ],
+    "sourceSubjects": []
+  },
+  {
+    "id": "nen-bv2-020",
+    "title": "Краткая история всего на свете",
+    "author": "Билл Брайсон",
+    "reason": "editorial_nonfiction",
+    "determinedType": "editorial_nonfiction",
+    "confidence": 0.98,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "format:иллюстрированный нон-фикшн"
+    ],
+    "bibliographicSources": [],
+    "sourceSubjects": []
+  },
+  {
+    "id": "nen-bv2-128",
+    "title": "Карты. Путешествие в картинках по континентам, морям и культурам мира",
+    "author": "Александра Мизелиньская; Даниэль Мизелиньский",
+    "reason": "editorial_nonfiction",
+    "determinedType": "editorial_nonfiction",
+    "confidence": 0.98,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "format:иллюстрированный нон-фикшн"
+    ],
+    "bibliographicSources": [
+      "https://archive.org/advancedsearch.php?q=Mapy%20%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%B0%20%D0%9C%D0%B8%D0%B7%D0%B5%D0%BB%D0%B8%D0%BD%D1%8C%D1%81%D0%BA%D0%B0%D1%8F%3B%20%D0%94%D0%B0%D0%BD%D0%B8%D1%8D%D0%BB%D1%8C%20%D0%9C%D0%B8%D0%B7%D0%B5%D0%BB%D0%B8%D0%BD%D1%8C%D1%81%D0%BA%D0%B8%D0%B9&fl%5B%5D=identifier&fl%5B%5D=title&fl%5B%5D=creator&fl%5B%5D=date&rows=5&page=1&output=json",
+      "https://search.worldcat.org/search?q=Mapy%20%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%B0%20%D0%9C%D0%B8%D0%B7%D0%B5%D0%BB%D0%B8%D0%BD%D1%8C%D1%81%D0%BA%D0%B0%D1%8F%3B%20%D0%94%D0%B0%D0%BD%D0%B8%D1%8D%D0%BB%D1%8C%20%D0%9C%D0%B8%D0%B7%D0%B5%D0%BB%D0%B8%D0%BD%D1%8C%D1%81%D0%BA%D0%B8%D0%B9"
+    ],
+    "sourceSubjects": []
+  },
+  {
+    "id": "nen-bv2-129",
+    "title": "Анималиум",
+    "author": "Дженни Брум",
+    "reason": "editorial_nonfiction",
+    "determinedType": "editorial_nonfiction",
+    "confidence": 0.98,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "format:иллюстрированный нон-фикшн"
+    ],
+    "bibliographicSources": [
+      "https://archive.org/advancedsearch.php?q=Animalium%20%D0%94%D0%B6%D0%B5%D0%BD%D0%BD%D0%B8%20%D0%91%D1%80%D1%83%D0%BC&fl%5B%5D=identifier&fl%5B%5D=title&fl%5B%5D=creator&fl%5B%5D=date&rows=5&page=1&output=json",
+      "https://search.worldcat.org/search?q=Animalium%20%D0%94%D0%B6%D0%B5%D0%BD%D0%BD%D0%B8%20%D0%91%D1%80%D1%83%D0%BC"
+    ],
+    "sourceSubjects": []
+  },
+  {
+    "id": "nen-bv2-130",
+    "title": "Ботаникум",
+    "author": "Кэти Скотт; Кэти Уиллис",
+    "reason": "editorial_nonfiction",
+    "determinedType": "editorial_nonfiction",
+    "confidence": 0.98,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "format:иллюстрированный нон-фикшн"
+    ],
+    "bibliographicSources": [
+      "https://archive.org/advancedsearch.php?q=Botanicum%20%D0%9A%D1%8D%D1%82%D0%B8%20%D0%A1%D0%BA%D0%BE%D1%82%D1%82%3B%20%D0%9A%D1%8D%D1%82%D0%B8%20%D0%A3%D0%B8%D0%BB%D0%BB%D0%B8%D1%81&fl%5B%5D=identifier&fl%5B%5D=title&fl%5B%5D=creator&fl%5B%5D=date&rows=5&page=1&output=json",
+      "https://search.worldcat.org/search?q=Botanicum%20%D0%9A%D1%8D%D1%82%D0%B8%20%D0%A1%D0%BA%D0%BE%D1%82%D1%82%3B%20%D0%9A%D1%8D%D1%82%D0%B8%20%D0%A3%D0%B8%D0%BB%D0%BB%D0%B8%D1%81"
+    ],
+    "sourceSubjects": []
+  },
+  {
+    "id": "nen-bv2-131",
+    "title": "Под землёй. Под водой",
+    "author": "Александра Мизелиньская; Даниэль Мизелиньский",
+    "reason": "editorial_nonfiction",
+    "determinedType": "editorial_nonfiction",
+    "confidence": 0.98,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "format:иллюстрированный нон-фикшн"
+    ],
+    "bibliographicSources": [
+      "https://archive.org/advancedsearch.php?q=Pod%20ziemi%C4%85%2C%20pod%20wod%C4%85%20%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%B0%20%D0%9C%D0%B8%D0%B7%D0%B5%D0%BB%D0%B8%D0%BD%D1%8C%D1%81%D0%BA%D0%B0%D1%8F%3B%20%D0%94%D0%B0%D0%BD%D0%B8%D1%8D%D0%BB%D1%8C%20%D0%9C%D0%B8%D0%B7%D0%B5%D0%BB%D0%B8%D0%BD%D1%8C%D1%81%D0%BA%D0%B8%D0%B9&fl%5B%5D=identifier&fl%5B%5D=title&fl%5B%5D=creator&fl%5B%5D=date&rows=5&page=1&output=json",
+      "https://search.worldcat.org/search?q=Pod%20ziemi%C4%85%2C%20pod%20wod%C4%85%20%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%B0%20%D0%9C%D0%B8%D0%B7%D0%B5%D0%BB%D0%B8%D0%BD%D1%8C%D1%81%D0%BA%D0%B0%D1%8F%3B%20%D0%94%D0%B0%D0%BD%D0%B8%D1%8D%D0%BB%D1%8C%20%D0%9C%D0%B8%D0%B7%D0%B5%D0%BB%D0%B8%D0%BD%D1%8C%D1%81%D0%BA%D0%B8%D0%B9"
+    ],
+    "sourceSubjects": []
+  },
+  {
+    "id": "nen-bv2-132",
+    "title": "Путешествие Шеклтона",
+    "author": "Уильям Грилл",
+    "reason": "biography_or_documentary",
+    "determinedType": "biography_or_documentary",
+    "confidence": 0.97,
+    "evidence": [
+      "genre:документальная литература",
+      "format:иллюстрированный нон-фикшн"
+    ],
+    "bibliographicSources": [
+      "https://archive.org/advancedsearch.php?q=Shackleton's%20Journey%20%D0%A3%D0%B8%D0%BB%D1%8C%D1%8F%D0%BC%20%D0%93%D1%80%D0%B8%D0%BB%D0%BB&fl%5B%5D=identifier&fl%5B%5D=title&fl%5B%5D=creator&fl%5B%5D=date&rows=5&page=1&output=json",
+      "https://search.worldcat.org/search?q=Shackleton's%20Journey%20%D0%A3%D0%B8%D0%BB%D1%8C%D1%8F%D0%BC%20%D0%93%D1%80%D0%B8%D0%BB%D0%BB"
+    ],
+    "sourceSubjects": []
+  },
+  {
+    "id": "nen-bv2-133",
+    "title": "Женщины в науке. 50 женщин, изменивших мир",
+    "author": "Рэйчел Игнотофски",
+    "reason": "biography_or_documentary",
+    "determinedType": "biography_or_documentary",
+    "confidence": 0.97,
+    "evidence": [
+      "genre:биография",
+      "genre:научно-популярная литература",
+      "format:иллюстрированный нон-фикшн"
+    ],
+    "bibliographicSources": [
+      "https://archive.org/advancedsearch.php?q=Women%20in%20Science%20%D0%A0%D1%8D%D0%B9%D1%87%D0%B5%D0%BB%20%D0%98%D0%B3%D0%BD%D0%BE%D1%82%D0%BE%D1%84%D1%81%D0%BA%D0%B8&fl%5B%5D=identifier&fl%5B%5D=title&fl%5B%5D=creator&fl%5B%5D=date&rows=5&page=1&output=json",
+      "https://search.worldcat.org/search?q=Women%20in%20Science%20%D0%A0%D1%8D%D0%B9%D1%87%D0%B5%D0%BB%20%D0%98%D0%B3%D0%BD%D0%BE%D1%82%D0%BE%D1%84%D1%81%D0%BA%D0%B8"
+    ],
+    "sourceSubjects": []
+  },
+  {
+    "id": "nen-bv2-136",
+    "title": "Дневник Анны Франк",
+    "author": "Анна Франк",
+    "reason": "biography_or_documentary",
+    "determinedType": "biography_or_documentary",
+    "confidence": 0.97,
+    "evidence": [
+      "genre:документальная литература"
+    ],
+    "bibliographicSources": [
+      "https://archive.org/advancedsearch.php?q=Het%20Achterhuis%20%D0%90%D0%BD%D0%BD%D0%B0%20%D0%A4%D1%80%D0%B0%D0%BD%D0%BA&fl%5B%5D=identifier&fl%5B%5D=title&fl%5B%5D=creator&fl%5B%5D=date&rows=5&page=1&output=json",
+      "https://search.worldcat.org/search?q=Het%20Achterhuis%20%D0%90%D0%BD%D0%BD%D0%B0%20%D0%A4%D1%80%D0%B0%D0%BD%D0%BA"
+    ],
+    "sourceSubjects": []
+  },
+  {
+    "id": "nen-bv2-154",
+    "title": "Эл Деафо",
+    "author": "Сиси Белл",
+    "reason": "biography_or_documentary",
+    "determinedType": "biography_or_documentary",
+    "confidence": 0.97,
+    "evidence": [
+      "genre:биография"
+    ],
+    "bibliographicSources": [
+      "https://archive.org/advancedsearch.php?q=El%20Deafo%20%D0%A1%D0%B8%D1%81%D0%B8%20%D0%91%D0%B5%D0%BB%D0%BB&fl%5B%5D=identifier&fl%5B%5D=title&fl%5B%5D=creator&fl%5B%5D=date&rows=5&page=1&output=json",
+      "https://search.worldcat.org/search?q=El%20Deafo%20%D0%A1%D0%B8%D1%81%D0%B8%20%D0%91%D0%B5%D0%BB%D0%BB"
+    ],
+    "sourceSubjects": []
+  },
+  {
+    "id": "nen-bv2-155",
+    "title": "Улыбка",
+    "author": "Рейна Телгемайер",
+    "reason": "biography_or_documentary",
+    "determinedType": "biography_or_documentary",
+    "confidence": 0.97,
+    "evidence": [
+      "genre:биография"
+    ],
+    "bibliographicSources": [
+      "https://archive.org/advancedsearch.php?q=Smile%20%D0%A0%D0%B5%D0%B9%D0%BD%D0%B0%20%D0%A2%D0%B5%D0%BB%D0%B3%D0%B5%D0%BC%D0%B0%D0%B9%D0%B5%D1%80&fl%5B%5D=identifier&fl%5B%5D=title&fl%5B%5D=creator&fl%5B%5D=date&rows=5&page=1&output=json",
+      "https://search.worldcat.org/search?q=Smile%20%D0%A0%D0%B5%D0%B9%D0%BD%D0%B0%20%D0%A2%D0%B5%D0%BB%D0%B3%D0%B5%D0%BC%D0%B0%D0%B9%D0%B5%D1%80"
+    ],
+    "sourceSubjects": []
+  },
+  {
+    "id": "nen-bv2-157",
+    "title": "Персеполис",
+    "author": "Маржан Сатрапи",
+    "reason": "biography_or_documentary",
+    "determinedType": "biography_or_documentary",
+    "confidence": 0.97,
+    "evidence": [
+      "genre:биография"
+    ],
+    "bibliographicSources": [
+      "https://archive.org/advancedsearch.php?q=Persepolis%20%D0%9C%D0%B0%D1%80%D0%B6%D0%B0%D0%BD%20%D0%A1%D0%B0%D1%82%D1%80%D0%B0%D0%BF%D0%B8&fl%5B%5D=identifier&fl%5B%5D=title&fl%5B%5D=creator&fl%5B%5D=date&rows=5&page=1&output=json",
+      "https://search.worldcat.org/search?q=Persepolis%20%D0%9C%D0%B0%D1%80%D0%B6%D0%B0%D0%BD%20%D0%A1%D0%B0%D1%82%D1%80%D0%B0%D0%BF%D0%B8"
+    ],
+    "sourceSubjects": []
+  },
+  {
+    "id": "nen-bv2-158",
+    "title": "Маус",
+    "author": "Арт Шпигельман",
+    "reason": "biography_or_documentary",
+    "determinedType": "biography_or_documentary",
+    "confidence": 0.97,
+    "evidence": [
+      "genre:биография"
+    ],
+    "bibliographicSources": [
+      "https://archive.org/advancedsearch.php?q=Maus%20%D0%90%D1%80%D1%82%20%D0%A8%D0%BF%D0%B8%D0%B3%D0%B5%D0%BB%D1%8C%D0%BC%D0%B0%D0%BD&fl%5B%5D=identifier&fl%5B%5D=title&fl%5B%5D=creator&fl%5B%5D=date&rows=5&page=1&output=json",
+      "https://search.worldcat.org/search?q=Maus%20%D0%90%D1%80%D1%82%20%D0%A8%D0%BF%D0%B8%D0%B3%D0%B5%D0%BB%D1%8C%D0%BC%D0%B0%D0%BD"
+    ],
+    "sourceSubjects": []
+  },
+  {
+    "id": "ol-ol13218797w",
+    "title": "Занимательные задачи и опыты",
+    "author": "Яков Перелман",
+    "reason": "informational_or_educational_nonfiction",
+    "determinedType": "informational_or_educational_nonfiction",
+    "confidence": 0.96,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "format:иллюстрированный нон-фикшн",
+      "subjects:explicit_nonfiction"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL13218797W"
+    ],
+    "sourceSubjects": [
+      "Experiments",
+      "Science",
+      "Scientific recreations",
+      "Juvenile literature",
+      "Mathematical recreations",
+      "Scientific recreations -- Juvenile literature.",
+      "Science -- Experiments -- Juvenile literature.",
+      "Scientific recreations.",
+      "Mathematical recreations.",
+      "Science -- Experiments.",
+      "Experiments."
+    ]
+  },
+  {
+    "id": "ol-ol12142476w",
+    "title": "Связь времён",
+    "author": "Роман Григорьевич Подольный",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "format:иллюстрированный нон-фикшн"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL12142476W"
+    ],
+    "sourceSubjects": [
+      "Civilization",
+      "Continuity",
+      "History",
+      "Philosophy",
+      "Juvenile literature",
+      "Civilization -- Philosophy",
+      "Civilization -- History -- Juvenile literature"
+    ]
+  },
+  {
+    "id": "ol-ol33233595w",
+    "title": "Одни в океане",
+    "author": "Иван Владимирович Иноземцев",
+    "reason": "informational_or_educational_nonfiction",
+    "determinedType": "informational_or_educational_nonfiction",
+    "confidence": 0.96,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "format:иллюстрированный нон-фикшн",
+      "subjects:explicit_nonfiction"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL33233595W"
+    ],
+    "sourceSubjects": [
+      "Science",
+      "Juvenile literature"
+    ]
+  },
+  {
+    "id": "ol-ol19931239w",
+    "title": "Занимательная география для малышей",
+    "author": "Ольга Колпакова",
+    "reason": "informational_or_educational_nonfiction",
+    "determinedType": "informational_or_educational_nonfiction",
+    "confidence": 0.96,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "format:иллюстрированный нон-фикшн",
+      "subjects:explicit_nonfiction"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL19931239W"
+    ],
+    "sourceSubjects": [
+      "Juvenile literature",
+      "Geography"
+    ]
+  },
+  {
+    "id": "ol-ol1498167w",
+    "title": "Живописный Карамзин, или, Русская история в картинах",
+    "author": "Николай Михайлович Карамзин",
+    "reason": "informational_or_educational_nonfiction",
+    "determinedType": "informational_or_educational_nonfiction",
+    "confidence": 0.96,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "format:иллюстрированный нон-фикшн",
+      "subjects:explicit_nonfiction"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL1498167W"
+    ],
+    "sourceSubjects": [
+      "Juvenile literature",
+      "History",
+      "Pictorial works",
+      "Kievan Rus -- History -- 862-1237 -- Juvenile literature.",
+      "Kievan Rus -- History -- 862-1237 -- Pictorial works -- Juvenile literature."
+    ]
+  },
+  {
+    "id": "ol-ol223692w",
+    "title": "История России в рассказах для детей",
+    "author": "А. О. Ишимова",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "format:иллюстрированный нон-фикшн"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL223692W"
+    ],
+    "sourceSubjects": [
+      "Juvenile literature",
+      "History",
+      "Texts",
+      "Russian language",
+      "Orders of knighthood and chivalry",
+      "Decorations of honor",
+      "Medals",
+      "Russia -- History -- Juvenile literature",
+      "Russian language -- Texts"
+    ]
+  },
+  {
+    "id": "ol-ol27962677w",
+    "title": "История России с древнейших времен до конца XVII века",
+    "author": "Андрей Николаевич Сахаров",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "format:иллюстрированный нон-фикшн"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL27962677W"
+    ],
+    "sourceSubjects": [
+      "Juvenile literature",
+      "History",
+      "Civilization",
+      "Russian language materials"
+    ]
+  },
+  {
+    "id": "ol-ol33371355w",
+    "title": "Не для взрослых",
+    "author": "Мариетта Омаровна Чудакова",
+    "reason": "manual_semantic_nonfiction_review",
+    "determinedType": "manual_semantic_nonfiction_review",
+    "confidence": 0.98,
+    "evidence": [
+      "genre:реалистическая проза",
+      "subjects:explicit_fiction",
+      "format:иллюстрированный нон-фикшн",
+      "subjects:explicit_nonfiction",
+      "manual:title_author_subjects"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL33371355W"
+    ],
+    "sourceSubjects": [
+      "Young adult literature",
+      "Appreciation",
+      "History and criticism",
+      "Psychological aspects",
+      "Teenagers",
+      "Books and reading",
+      "Children's stories",
+      "Literature and morals"
+    ]
+  },
+  {
+    "id": "ol-ol19978402w",
+    "title": "Первые знания",
+    "author": "Анатолий Викторович Валаханович",
+    "reason": "informational_or_educational_nonfiction",
+    "determinedType": "informational_or_educational_nonfiction",
+    "confidence": 0.96,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "format:иллюстрированный нон-фикшн",
+      "subjects:explicit_nonfiction"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL19978402W"
+    ],
+    "sourceSubjects": [
+      "Technology",
+      "Juvenile literature",
+      "Automobiles",
+      "Animals"
+    ]
+  },
+  {
+    "id": "ol-ol11024596w",
+    "title": "История России в расказах для диетей",
+    "author": "Александра Осиповна Ишимова",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "format:иллюстрированный нон-фикшн"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL11024596W"
+    ],
+    "sourceSubjects": [
+      "Juvenile literature",
+      "History",
+      "Soviet Union -- History -- Juvenile literature"
+    ]
+  },
+  {
+    "id": "ol-ol19700982w",
+    "title": "Атлас России",
+    "author": "А. В. Дубровскйи",
+    "reason": "educational_reference_or_atlas",
+    "determinedType": "educational_reference_or_atlas",
+    "confidence": 0.99,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "format:иллюстрированный нон-фикшн",
+      "subjects:explicit_nonfiction",
+      "title:explicit_nonfiction"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL19700982W"
+    ],
+    "sourceSubjects": [
+      "Children's atlases",
+      "Atlases",
+      "Maps for children",
+      "Juvenile literature",
+      "History"
+    ]
+  },
+  {
+    "id": "ol-ol23310454w",
+    "title": "По следам отважных аеропортов",
+    "author": "Геннадий Черненко",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "format:иллюстрированный нон-фикшн"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL23310454W"
+    ],
+    "sourceSubjects": [
+      "Flight",
+      "Juvenile literature",
+      "History",
+      "Aeronautics",
+      "Air pilots"
+    ]
+  },
+  {
+    "id": "ol-ol35540103w",
+    "title": "География России, Ссср",
+    "author": "Юрий Новоселов",
+    "reason": "informational_or_educational_nonfiction",
+    "determinedType": "informational_or_educational_nonfiction",
+    "confidence": 0.96,
+    "evidence": [
+      "format:иллюстрированный нон-фикшн",
+      "subjects:explicit_nonfiction"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL35540103W"
+    ],
+    "sourceSubjects": [
+      "Juvenile literature",
+      "Description and travel",
+      "Geography"
+    ]
+  },
+  {
+    "id": "ol-ol38568751w",
+    "title": "Сто послушных рук",
+    "author": "А. Дорохов",
+    "reason": "informational_or_educational_nonfiction",
+    "determinedType": "informational_or_educational_nonfiction",
+    "confidence": 0.96,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "format:иллюстрированный нон-фикшн",
+      "subjects:explicit_nonfiction"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL38568751W"
+    ],
+    "sourceSubjects": [
+      "Technology",
+      "Juvenile literature"
+    ]
+  },
+  {
+    "id": "ol-ol4392846w",
+    "title": "Открытие Сибири",
+    "author": "А. П. Окладников",
+    "reason": "manual_semantic_nonfiction_review",
+    "determinedType": "manual_semantic_nonfiction_review",
+    "confidence": 0.98,
+    "evidence": [
+      "genre:приключения",
+      "format:иллюстрированный нон-фикшн",
+      "manual:title_author_subjects"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL4392846W"
+    ],
+    "sourceSubjects": [
+      "Discovery and exploration",
+      "History",
+      "Juvenile literature",
+      "Siberia (Russia) -- Discovery and exploration -- Juvenile literature.",
+      "Siberia (Russia) -- History -- Juvenile literature."
+    ]
+  },
+  {
+    "id": "ol-ol3398756w",
+    "title": "История корабля",
+    "author": "С. Сахарнов",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "format:иллюстрированный нон-фикшн"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL3398756W"
+    ],
+    "sourceSubjects": [
+      "Juvenile literature",
+      "History",
+      "Navigation",
+      "Ships",
+      "Ships -- History -- Juvenile literature",
+      "Navigation -- History -- Juvenile literature"
+    ]
+  },
+  {
+    "id": "ol-ol19978348w",
+    "title": "Занимаюсь математикой",
+    "author": "Марина Дружинина",
+    "reason": "manual_semantic_nonfiction_review",
+    "determinedType": "manual_semantic_nonfiction_review",
+    "confidence": 0.98,
+    "evidence": [
+      "genre:поэзия",
+      "subjects:explicit_fiction",
+      "format:иллюстрированный нон-фикшн",
+      "subjects:explicit_nonfiction",
+      "manual:title_author_subjects"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL19978348W"
+    ],
+    "sourceSubjects": [
+      "Mathematics",
+      "Early childhood education",
+      "Children's poetry, Russian",
+      "Juvenile literature",
+      "Counting"
+    ]
+  },
+  {
+    "id": "ol-ol42666756w",
+    "title": "Поезд в Казакстан",
+    "author": "И. Полянская; К. Козлова",
+    "reason": "manual_semantic_nonfiction_review",
+    "determinedType": "manual_semantic_nonfiction_review",
+    "confidence": 0.98,
+    "evidence": [
+      "genre:приключения",
+      "manual:title_author_subjects"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL42666756W"
+    ],
+    "sourceSubjects": [
+      "Railroads",
+      "Juvenile literature",
+      "Description and travel"
+    ]
+  },
+  {
+    "id": "ol-ol13749768w",
+    "title": "Рассказы скрипичного ключа",
+    "author": "Н. Л. Луганский",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "format:иллюстрированный нон-фикшн"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL13749768W"
+    ],
+    "sourceSubjects": [
+      "Music appreciation",
+      "Juvenile literature",
+      "Musical instruments",
+      "History",
+      "Music appreciation -- Juvenile literature.",
+      "Musical instruments -- History -- Juvenile literature.",
+      "Music appreciation."
+    ]
+  },
+  {
+    "id": "ol-ol29234198w",
+    "title": "Задачник по физике",
+    "author": "Григорий Остер",
+    "reason": "educational_reference_or_atlas",
+    "determinedType": "educational_reference_or_atlas",
+    "confidence": 0.99,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "format:иллюстрированный нон-фикшн",
+      "subjects:explicit_nonfiction",
+      "title:explicit_nonfiction"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL29234198W"
+    ],
+    "sourceSubjects": [
+      "Physics",
+      "Juvenile literature",
+      "Problems, exercises",
+      "Science",
+      "Russian language edition",
+      "Juvenile",
+      "Nonfiction",
+      "Russian language materials",
+      "Sciences",
+      "Ouvrages pour la jeunesse"
+    ]
+  },
+  {
+    "id": "ol-ol23170653w",
+    "title": "Книга азбука учебная блаженныя памяти Великого Государя Царя и Великого Князя Феодора Алексиеевича Всероссийскаго Самодержца",
+    "author": "В. Успенский",
+    "reason": "biography_or_documentary",
+    "determinedType": "biography_or_documentary",
+    "confidence": 0.96,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "format:иллюстрированный нон-фикшн",
+      "subjects:biographical_or_documentary"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL23170653W"
+    ],
+    "sourceSubjects": [
+      "Alphabet books",
+      "Russian language",
+      "Juvenile literature",
+      "Alphabet",
+      "Childhood and youth",
+      "Education of princes",
+      "History",
+      "Russian Manuscripts",
+      "Facsimiles"
+    ]
+  },
+  {
+    "id": "ol-ol13711004w",
+    "title": "Заниматика",
+    "author": "Георгий Юдин",
+    "reason": "informational_or_educational_nonfiction",
+    "determinedType": "informational_or_educational_nonfiction",
+    "confidence": 0.96,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "format:иллюстрированный нон-фикшн",
+      "subjects:explicit_nonfiction"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL13711004W"
+    ],
+    "sourceSubjects": [
+      "Mathematics",
+      "Juvenile literature",
+      "Mathematics -- Juvenile literature.",
+      "Mathematics."
+    ]
+  },
+  {
+    "id": "ol-ol6006743w",
+    "title": "Екатерина Великая",
+    "author": "Н. Орлова",
+    "reason": "biography_or_documentary",
+    "determinedType": "biography_or_documentary",
+    "confidence": 0.97,
+    "evidence": [
+      "genre:биография",
+      "format:иллюстрированный нон-фикшн",
+      "subjects:biographical_or_documentary"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL6006743W"
+    ],
+    "sourceSubjects": [
+      "Biography",
+      "Empresses",
+      "History",
+      "Juvenile literature",
+      "Catherine II, Empress of Russia, 1729-1796 -- Juvenile literature.",
+      "Empresses -- Russia -- Biography -- Juvenile literature.",
+      "Russia -- History -- Catherine II, 1762-1796 -- Juvenile literature."
+    ]
+  },
+  {
+    "id": "ol-ol42467371w",
+    "title": "Рассказы по истории Ссср для 4 класса",
+    "author": "Т. С. Голубева",
+    "reason": "informational_or_educational_nonfiction",
+    "determinedType": "informational_or_educational_nonfiction",
+    "confidence": 0.96,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "format:иллюстрированный нон-фикшн",
+      "subjects:explicit_nonfiction"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL42467371W"
+    ],
+    "sourceSubjects": [
+      "History",
+      "Juvenile literature",
+      "Russian language",
+      "Readers"
+    ]
+  },
+  {
+    "id": "ol-ol23310520w",
+    "title": "Повесть о рыжей девочке; Воспоминания",
+    "author": "Л. Будогоская",
+    "reason": "manual_semantic_nonfiction_review",
+    "determinedType": "manual_semantic_nonfiction_review",
+    "confidence": 0.98,
+    "evidence": [
+      "subjects:explicit_fiction",
+      "genre:биография",
+      "format:иллюстрированный нон-фикшн",
+      "subjects:biographical_or_documentary",
+      "manual:title_author_subjects"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL23310520W"
+    ],
+    "sourceSubjects": [
+      "Girls",
+      "Juvenile fiction",
+      "Russian Autobiographical fiction",
+      "Russian Women authors",
+      "Biography",
+      "Sarapul (Udmurtii︠a︡, Russia)",
+      "History",
+      "Russia",
+      "Women authors"
+    ]
+  },
+  {
+    "id": "ol-ol19940713w",
+    "title": "Народные промыслы",
+    "author": "Алексей Клиентов",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "format:иллюстрированный нон-фикшн"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL19940713W"
+    ],
+    "sourceSubjects": [
+      "Handicraft",
+      "Juvenile literature",
+      "Folk art"
+    ]
+  },
+  {
+    "id": "ol-ol5130923w",
+    "title": "География Курганской области",
+    "author": "М. В. Лаврентьев",
+    "reason": "regional_geography_textbook",
+    "determinedType": "regional_geography_textbook",
+    "confidence": 0.99,
+    "evidence": [
+      "genre:приключения",
+      "manual:final_catalog_title_author_bibliography"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL5130923W"
+    ],
+    "sourceSubjects": [
+      "Description and travel",
+      "Juvenile literature",
+      "Kurganskai͡a︡ oblastʹ (Russia) -- Description and travel -- Juvenile literature."
+    ]
+  },
+  {
+    "id": "ol-ol35540014w",
+    "title": "География Российской Империи",
+    "author": "А. Баранов",
+    "reason": "informational_or_educational_nonfiction",
+    "determinedType": "informational_or_educational_nonfiction",
+    "confidence": 0.96,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "format:иллюстрированный нон-фикшн",
+      "subjects:explicit_nonfiction"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL35540014W"
+    ],
+    "sourceSubjects": [
+      "Geography",
+      "Juvenile literature"
+    ]
+  },
+  {
+    "id": "ol-ol7249215w",
+    "title": "Приключения слов",
+    "author": "Дмитрий Юрьевич Кобяков",
+    "reason": "manual_semantic_nonfiction_review",
+    "determinedType": "manual_semantic_nonfiction_review",
+    "confidence": 0.98,
+    "evidence": [
+      "genre:приключения",
+      "format:иллюстрированный нон-фикшн",
+      "manual:title_author_subjects"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL7249215W"
+    ],
+    "sourceSubjects": [
+      "History",
+      "Juvenile literature",
+      "Russian language",
+      "Words",
+      "Etymology",
+      "Russian language -- Words -- History -- Juvenile literature."
+    ]
+  },
+  {
+    "id": "ol-ol19940683w",
+    "title": "Русские живописцы",
+    "author": "Анатолий Сергеев",
+    "reason": "biography_or_documentary",
+    "determinedType": "biography_or_documentary",
+    "confidence": 0.97,
+    "evidence": [
+      "genre:биография",
+      "format:иллюстрированный нон-фикшн",
+      "subjects:biographical_or_documentary"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL19940683W"
+    ],
+    "sourceSubjects": [
+      "Painters",
+      "Russian Art",
+      "Juvenile literature",
+      "Biography",
+      "Artists"
+    ]
+  },
+  {
+    "id": "ol-ol7817326w",
+    "title": "История России в картинах, рассказах, путешествиях",
+    "author": "Л. П. Борзова",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "format:иллюстрированный нон-фикшн"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL7817326W"
+    ],
+    "sourceSubjects": [
+      "History",
+      "Juvenile literature",
+      "Russia (Federation) -- History -- Juvenile literature",
+      "Russia -- History -- Juvenile literature",
+      "Kievan Rus -- History -- Juvenile literature"
+    ]
+  },
+  {
+    "id": "ol-ol16373386w",
+    "title": "Над ветрами",
+    "author": "Петро Иларионовыч Сымоненко",
+    "reason": "biography_or_documentary",
+    "determinedType": "biography_or_documentary",
+    "confidence": 0.97,
+    "evidence": [
+      "genre:биография",
+      "format:иллюстрированный нон-фикшн",
+      "subjects:biographical_or_documentary"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL16373386W"
+    ],
+    "sourceSubjects": [
+      "Aeronautics",
+      "History",
+      "Juvenile literature",
+      "Biography",
+      "Aeronautical engineers",
+      "Chechet, Hryhoriĭ Harasymovych -- Juvenile literature.",
+      "Aeronautics -- Soviet Union -- History -- Juvenile literature.",
+      "Aeronautical engineers -- Soviet Union -- Biography -- Juvenile literature."
+    ]
+  },
+  {
+    "id": "ol-ol2300595w",
+    "title": "Открытие Сибири",
+    "author": "Д. М. Утенков",
+    "reason": "historical_educational_nonfiction",
+    "determinedType": "historical_educational_nonfiction",
+    "confidence": 0.99,
+    "evidence": [
+      "genre:приключения",
+      "manual:final_catalog_title_author_bibliography"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL2300595W"
+    ],
+    "sourceSubjects": [
+      "Juvenile literature",
+      "Discovery and exploration",
+      "Siberia (Russia) -- Discovery and exploration -- Juvenile literature."
+    ]
+  },
+  {
+    "id": "ol-ol11968445w",
+    "title": "Мои путешествия",
+    "author": "Дмитрий Иванович Щербаков",
+    "reason": "informational_or_educational_nonfiction",
+    "determinedType": "informational_or_educational_nonfiction",
+    "confidence": 0.96,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "format:иллюстрированный нон-фикшн",
+      "subjects:explicit_nonfiction"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL11968445W"
+    ],
+    "sourceSubjects": [
+      "Juvenile literature",
+      "Geography",
+      "Geography -- Juvenile literature."
+    ]
+  },
+  {
+    "id": "ol-ol38809625w",
+    "title": "История взглядов на строение и происхождение вселенной",
+    "author": "К. Л. Баев",
+    "reason": "informational_or_educational_nonfiction",
+    "determinedType": "informational_or_educational_nonfiction",
+    "confidence": 0.96,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "format:иллюстрированный нон-фикшн",
+      "subjects:explicit_nonfiction"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL38809625W"
+    ],
+    "sourceSubjects": [
+      "Astronomy",
+      "Juvenile literature"
+    ]
+  },
+  {
+    "id": "ol-ol19952283w",
+    "title": "Игры со сказками",
+    "author": "О. С. Жукова",
+    "reason": "manual_semantic_nonfiction_review",
+    "determinedType": "manual_semantic_nonfiction_review",
+    "confidence": 0.98,
+    "evidence": [
+      "genre:сказка",
+      "subjects:explicit_fiction",
+      "subjects:explicit_nonfiction",
+      "manual:title_author_subjects"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL19952283W"
+    ],
+    "sourceSubjects": [
+      "Russian language",
+      "Children's stories, Russian",
+      "Readers",
+      "Activity programs",
+      "Early childhood education",
+      "Educational games",
+      "Juvenile literature",
+      "Preschool Education"
+    ]
+  },
+  {
+    "id": "ol-ol22364132w",
+    "title": "Ислам в Золотой Орде",
+    "author": "И. Л. Измайлов",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "format:иллюстрированный нон-фикшн"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL22364132W"
+    ],
+    "sourceSubjects": [
+      "Islamic civilization",
+      "Civilization",
+      "Juvenile literature",
+      "Islam",
+      "History"
+    ]
+  },
+  {
+    "id": "ol-ol22374836w",
+    "title": "История Сибири",
+    "author": "Ф. С. Кузнецова",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "format:иллюстрированный нон-фикшн"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL22374836W"
+    ],
+    "sourceSubjects": [
+      "Ethnology",
+      "Juvenile literature",
+      "History"
+    ]
+  },
+  {
+    "id": "ol-ol6405314w",
+    "title": "Они повторили подвиг Сусанина",
+    "author": "Николай Васильевич Борисов",
+    "reason": "biography_or_documentary",
+    "determinedType": "biography_or_documentary",
+    "confidence": 0.97,
+    "evidence": [
+      "genre:биография",
+      "subjects:biographical_or_documentary"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL6405314W"
+    ],
+    "sourceSubjects": [
+      "Biography",
+      "Heroes",
+      "Juvenile literature",
+      "World War, 1939-1945",
+      "Susanin, Ivan, 17th cent. -- Juvenile literature.",
+      "Heroes -- Soviet Union -- Biography -- Juvenile literature.",
+      "World War, 1939-1945 -- Biography -- Juvenile literature.",
+      "World War, 1939-1945 -- Soviet Union -- Juvenile literature.",
+      "Soviet Union -- Biography -- Juvenile literature."
+    ]
+  },
+  {
+    "id": "ol-ol2029239w",
+    "title": "Компьютерные дялоги от А до Я",
+    "author": "Галина Тульчинская",
+    "reason": "informational_or_educational_nonfiction",
+    "determinedType": "informational_or_educational_nonfiction",
+    "confidence": 0.96,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "format:иллюстрированный нон-фикшн",
+      "subjects:explicit_nonfiction"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL2029239W"
+    ],
+    "sourceSubjects": [
+      "Juvenile literature",
+      "Miscellanea",
+      "Science",
+      "Technology",
+      "Science -- Miscellanea -- Juvenile literature.",
+      "Technology -- Miscellanea -- Juvenile literature."
+    ]
+  },
+  {
+    "id": "ol-ol4388142w",
+    "title": "Искусство средневекового Востока",
+    "author": "Татьяна Павловна Каптерева",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "format:иллюстрированный нон-фикшн"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL4388142W"
+    ],
+    "sourceSubjects": [
+      "Asian Art",
+      "Juvenile literature",
+      "Medieval Art",
+      "Art, Asian -- Juvenile literature.",
+      "Art, Medieval -- Asia -- Juvenile literature."
+    ]
+  },
+  {
+    "id": "ol-ol32268394w",
+    "title": "Винни-Пух и философия обыденного языка",
+    "author": "Вадим Петрович Руднев",
+    "reason": "manual_semantic_nonfiction_review",
+    "determinedType": "manual_semantic_nonfiction_review",
+    "confidence": 0.98,
+    "evidence": [
+      "genre:реалистическая проза",
+      "subjects:explicit_fiction",
+      "format:иллюстрированный нон-фикшн",
+      "subjects:explicit_nonfiction",
+      "manual:title_author_subjects"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL32268394W"
+    ],
+    "sourceSubjects": [
+      "Translations into Russian",
+      "Children's stories, English",
+      "History and criticism",
+      "Teddy bears in literature"
+    ]
+  },
+  {
+    "id": "ol-ol6071859w",
+    "title": "Атлас России",
+    "author": "М. И. Горчаков",
+    "reason": "educational_reference_or_atlas",
+    "determinedType": "educational_reference_or_atlas",
+    "confidence": 0.99,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "format:иллюстрированный нон-фикшн",
+      "subjects:explicit_nonfiction",
+      "title:explicit_nonfiction"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL6071859W"
+    ],
+    "sourceSubjects": [
+      "Juvenile literature",
+      "Maps for children",
+      "Military History",
+      "Russia -- History, Military -- Juvenile literature.",
+      "Russia -- History, Military -- Maps for children.",
+      "Soviet Union -- History, Military -- Juvenile literature.",
+      "Soviet Union -- History, Military -- Maps for children."
+    ]
+  },
+  {
+    "id": "ol-ol7337767w",
+    "title": "На берегах полярного океана",
+    "author": "В. Н. Болдырев",
+    "reason": "documentary_naturalist_notes",
+    "determinedType": "documentary_naturalist_notes",
+    "confidence": 0.99,
+    "evidence": [
+      "genre:приключения",
+      "manual:final_catalog_title_author_bibliography"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL7337767W"
+    ],
+    "sourceSubjects": [
+      "Juvenile literature",
+      "Description and travel",
+      "Arctic regions -- Description and travel -- Juvenile literature.",
+      "Siberia (Russia) -- Description and travel -- Juvenile literature."
+    ]
+  },
+  {
+    "id": "ol-ol5872297w",
+    "title": "Русская письменность",
+    "author": "Елена Филякова",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "format:иллюстрированный нон-фикшн"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL5872297W"
+    ],
+    "sourceSubjects": [
+      "Alphabet",
+      "History",
+      "Juvenile literature",
+      "Russian language",
+      "Writing",
+      "Russian language -- Writing -- History -- Juvenile literature.",
+      "Russian language -- Alphabet -- Juvenile literature."
+    ]
+  },
+  {
+    "id": "ol-ol5537413w",
+    "title": "Новая история",
+    "author": "М. И. Артемова",
+    "reason": "informational_or_educational_nonfiction",
+    "determinedType": "informational_or_educational_nonfiction",
+    "confidence": 0.96,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "format:иллюстрированный нон-фикшн",
+      "subjects:explicit_nonfiction"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL5537413W"
+    ],
+    "sourceSubjects": [
+      "Bibliography",
+      "Juvenile literature",
+      "Modern History",
+      "History, Modern -- Juvenile literature -- Bibliography."
+    ]
+  },
+  {
+    "id": "ol-ol22554433w",
+    "title": "По следам отважных аеронавтов",
+    "author": "Геннадий Черненко",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "format:иллюстрированный нон-фикшн"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL22554433W"
+    ],
+    "sourceSubjects": [
+      "Flight",
+      "Aeronautics",
+      "Air pilots",
+      "Juvenile literature",
+      "History",
+      "Parachuting"
+    ]
+  },
+  {
+    "id": "ol-ol5154458w",
+    "title": "Рассказы о Ленинграде",
+    "author": "Вольт Суслов",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "format:иллюстрированный нон-фикшн"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL5154458W"
+    ],
+    "sourceSubjects": [
+      "History",
+      "Juvenile literature",
+      "Saint Petersburg (Russia) -- History -- Juvenile literature."
+    ]
+  },
+  {
+    "id": "ol-ol29237214w",
+    "title": "Начало династии Романовых",
+    "author": "Г. Б. Покровский",
+    "reason": "biography_or_documentary",
+    "determinedType": "biography_or_documentary",
+    "confidence": 0.97,
+    "evidence": [
+      "genre:биография",
+      "format:иллюстрированный нон-фикшн",
+      "subjects:biographical_or_documentary"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL29237214W"
+    ],
+    "sourceSubjects": [
+      "Juvenile literature",
+      "Biography",
+      "Kings and rulers",
+      "History",
+      "Russian language materials",
+      "History (general) and history of europe",
+      "History of Russia. Soviet Union. Former Soviet Republics",
+      "House of Romanov, 1613-1917",
+      "Literature for children",
+      "Ouvrages pour la jeunesse",
+      "Histoire"
+    ]
+  },
+  {
+    "id": "ol-ol23144413w",
+    "title": "Я познаю Байкал",
+    "author": "А. К. Тулохонов",
+    "reason": "manual_semantic_nonfiction_review",
+    "determinedType": "manual_semantic_nonfiction_review",
+    "confidence": 0.98,
+    "evidence": [
+      "genre:приключения",
+      "format:иллюстрированный нон-фикшн",
+      "manual:title_author_subjects"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL23144413W"
+    ],
+    "sourceSubjects": [
+      "Juvenile literature",
+      "Description and travel",
+      "Local History"
+    ]
+  },
+  {
+    "id": "ol-ol5880816w",
+    "title": "История Москвы",
+    "author": "Наталия Ермильченко",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "format:иллюстрированный нон-фикшн"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL5880816W"
+    ],
+    "sourceSubjects": [
+      "History",
+      "Juvenile literature",
+      "Moscow (Russia) -- History -- Juvenile literature."
+    ]
+  },
+  {
+    "id": "ol-ol23822832w",
+    "title": "История церкви для детей",
+    "author": "А. Н. Бахметева",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "format:иллюстрированный нон-фикшн"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL23822832W"
+    ],
+    "sourceSubjects": [
+      "Church history",
+      "Juvenile literature"
+    ]
+  },
+  {
+    "id": "ol-ol43840511w",
+    "title": "Сибирская сага",
+    "author": "Людмила Хворостовская",
+    "reason": "manual_semantic_nonfiction_review",
+    "determinedType": "manual_semantic_nonfiction_review",
+    "confidence": 0.98,
+    "evidence": [
+      "genre:семейная история",
+      "subjects:explicit_fiction",
+      "genre:биография",
+      "format:иллюстрированный нон-фикшн",
+      "subjects:biographical_or_documentary",
+      "manual:title_author_subjects"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL43840511W"
+    ],
+    "sourceSubjects": [
+      "Autobiography (memoirs)",
+      "Biography",
+      "History of Russia. Soviet Union. Former Soviet Republics",
+      "Literature on music",
+      "Family history",
+      "Children's stories, Russian",
+      "History",
+      "Families"
+    ]
+  },
+  {
+    "id": "ol-ol13740518w",
+    "title": "Рыцари, турниры, оружие",
+    "author": "Ольга Огнева",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "format:иллюстрированный нон-фикшн"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL13740518W"
+    ],
+    "sourceSubjects": [
+      "Armor",
+      "Civilization, Medieval",
+      "History",
+      "Juvenile literature",
+      "Knights and knighthood",
+      "Medieval Civilization",
+      "Knights and knighthood -- Juvenile literature.",
+      "Civilization, Medieval -- Juvenile literature.",
+      "Armor -- History -- Juvenile literature.",
+      "Knights and knighthood.",
+      "Civilization, Medieval.",
+      "Armor -- History."
+    ]
+  },
+  {
+    "id": "ol-ol22562536w",
+    "title": "Адрес-почта полевая, 1941-1945",
+    "author": "Владимир Понизовский; Лев Еммануилович Разгон",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "format:иллюстрированный нон-фикшн"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL22562536W"
+    ],
+    "sourceSubjects": [
+      "Juvenile Participation",
+      "Juvenile literature",
+      "World War, 1939-1945",
+      "History"
+    ]
+  },
+  {
+    "id": "ol-ol13218795w",
+    "title": "Веселые задачи",
+    "author": "Яков Перелман",
+    "reason": "informational_or_educational_nonfiction",
+    "determinedType": "informational_or_educational_nonfiction",
+    "confidence": 0.96,
+    "evidence": [
+      "format:иллюстрированный нон-фикшн",
+      "subjects:explicit_nonfiction"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL13218795W"
+    ],
+    "sourceSubjects": [
+      "Juvenile literature",
+      "Mathematical recreations",
+      "Mathematics",
+      "Games in mathematics education",
+      "Mathematical recreations.",
+      "Mathematical recreations -- Juvenile literature.",
+      "Games in mathematics education -- Juvenile literature.",
+      "Mathematics."
+    ]
+  },
+  {
+    "id": "ol-ol6020191w",
+    "title": "Города России",
+    "author": "Алексей Клиентов",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "format:иллюстрированный нон-фикшн"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL6020191W"
+    ],
+    "sourceSubjects": [
+      "Cities and towns",
+      "Juvenile literature",
+      "Local History",
+      "Cities and towns -- Russia (Federation) -- Juvenile literature.",
+      "Russia (Federation) -- History, Local -- Juvenile literature."
+    ]
+  },
+  {
+    "id": "ol-ol23170614w",
+    "title": "Игрушки в картинках",
+    "author": "А. А. Суворов",
+    "reason": "informational_or_educational_nonfiction",
+    "determinedType": "informational_or_educational_nonfiction",
+    "confidence": 0.96,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "format:иллюстрированный нон-фикшн",
+      "subjects:explicit_nonfiction"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL23170614W"
+    ],
+    "sourceSubjects": [
+      "Alphabet books",
+      "Russian language",
+      "Juvenile literature",
+      "Alphabet",
+      "Toys",
+      "Pictorial works",
+      "Folk art"
+    ]
+  },
+  {
+    "id": "ol-ol42482464w",
+    "title": "Сборник заданий и упражнений к И тому книги Аббы Евена \"Мой народ\"",
+    "author": "Мирям П. Куринский; Елена Жидкова",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "format:иллюстрированный нон-фикшн"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL42482464W"
+    ],
+    "sourceSubjects": [
+      "Jews",
+      "History",
+      "Juvenile literature"
+    ]
+  },
+  {
+    "id": "ol-ol4671951w",
+    "title": "Четверо в пути",
+    "author": "Надежда Павлова",
+    "reason": "informational_or_educational_nonfiction",
+    "determinedType": "informational_or_educational_nonfiction",
+    "confidence": 0.96,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "format:иллюстрированный нон-фикшн",
+      "subjects:explicit_nonfiction"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL4671951W"
+    ],
+    "sourceSubjects": [
+      "Books and reading",
+      "Children",
+      "Children's literature, Russian",
+      "History and criticism",
+      "Children's literature, Russian -- History and criticism.",
+      "Children -- Books and reading -- Russia."
+    ]
+  },
+  {
+    "id": "ol-ol45233249w",
+    "title": "Виталий Бианки",
+    "author": "В. В Бианки; Т. А. Федяева",
+    "reason": "biography_or_documentary",
+    "determinedType": "biography_or_documentary",
+    "confidence": 0.97,
+    "evidence": [
+      "genre:биография",
+      "format:иллюстрированный нон-фикшн",
+      "subjects:explicit_nonfiction",
+      "subjects:biographical_or_documentary"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL45233249W"
+    ],
+    "sourceSubjects": [
+      "Russian Authors",
+      "Biography",
+      "Russian literature",
+      "History and criticism",
+      "Juvenile literature"
+    ]
+  },
+  {
+    "id": "ol-ol44640686w",
+    "title": "Выбране праке о книховниктве",
+    "author": "Надежда Константиновна Крупская",
+    "reason": "informational_or_educational_nonfiction",
+    "determinedType": "informational_or_educational_nonfiction",
+    "confidence": 0.96,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "format:иллюстрированный нон-фикшн",
+      "subjects:explicit_nonfiction"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL44640686W"
+    ],
+    "sourceSubjects": [
+      "Libraries",
+      "Children's literature, Russian",
+      "History and criticism",
+      "Children's libraries"
+    ]
+  },
+  {
+    "id": "ol-ol23857937w",
+    "title": "Сербская книга XVIII-начала XX вв. в Славянском фонде Бан",
+    "author": "Е. В. Комиссарова",
+    "reason": "informational_or_educational_nonfiction",
+    "determinedType": "informational_or_educational_nonfiction",
+    "confidence": 0.96,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "format:иллюстрированный нон-фикшн",
+      "subjects:explicit_nonfiction"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL23857937W"
+    ],
+    "sourceSubjects": [
+      "Serbian imprints",
+      "Catalogs",
+      "Bibliography",
+      "Serbia",
+      "History",
+      "Children's literature, Serbian",
+      "Rossiĭskai︠a︡ akademii︠a︡ nauk. Biblioteka",
+      "Rossiĭskai︠a︡ akademii︠a︡ nauk"
+    ]
+  },
+  {
+    "id": "ol-ol33254110w",
+    "title": "Русская детская книжка-картинка, 1900-1941",
+    "author": "Валерий Блинов",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "format:иллюстрированный нон-фикшн"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL33254110W"
+    ],
+    "sourceSubjects": [
+      "Illustration of books",
+      "History",
+      "Illustrated children's books",
+      "Children's literature, Russian",
+      "Illustrations"
+    ]
+  },
+  {
+    "id": "ol-ol5561712w",
+    "title": "Пробудить геняльность",
+    "author": "Валентин Берестов",
+    "reason": "informational_or_educational_nonfiction",
+    "determinedType": "informational_or_educational_nonfiction",
+    "confidence": 0.96,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "format:иллюстрированный нон-фикшн",
+      "subjects:explicit_nonfiction"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL5561712W"
+    ],
+    "sourceSubjects": [
+      "Books and reading",
+      "Child psychology",
+      "Children",
+      "Children's literature, Russian",
+      "History and criticism",
+      "Childrenʹs literature, Russian",
+      "Children's literature, Russian -- History and criticism.",
+      "Children -- Books and reading -- Russia (Federation)",
+      "Child psychology -- Russia (Federation)"
+    ]
+  },
+  {
+    "id": "ol-ol27027713w",
+    "title": "Шахматный учебник-сказка",
+    "author": "Антонина Трофимова",
+    "reason": "manual_semantic_nonfiction_review",
+    "determinedType": "manual_semantic_nonfiction_review",
+    "confidence": 0.98,
+    "evidence": [
+      "genre:сказка",
+      "title:explicit_nonfiction",
+      "manual:title_author_subjects"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL27027713W"
+    ],
+    "sourceSubjects": [
+      "Chess",
+      "Juvenile literature",
+      "Chess for children"
+    ]
+  },
+  {
+    "id": "ol-ol19987355w",
+    "title": "Читаем сказки по слогам",
+    "author": "Владимир Сутеев",
+    "reason": "manual_semantic_nonfiction_review",
+    "determinedType": "manual_semantic_nonfiction_review",
+    "confidence": 0.98,
+    "evidence": [
+      "genre:сказка",
+      "subjects:explicit_fiction",
+      "subjects:explicit_nonfiction",
+      "manual:title_author_subjects"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL19987355W"
+    ],
+    "sourceSubjects": [
+      "Juvenile literature",
+      "Russian language",
+      "Children's stories, Russian",
+      "Readers"
+    ]
+  },
+  {
+    "id": "ol-ol33498241w",
+    "title": "М. Горький о детской литературе",
+    "author": "Максим Горький",
+    "reason": "informational_or_educational_nonfiction",
+    "determinedType": "informational_or_educational_nonfiction",
+    "confidence": 0.96,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "format:иллюстрированный нон-фикшн",
+      "subjects:explicit_nonfiction"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL33498241W"
+    ],
+    "sourceSubjects": [
+      "Children's literature",
+      "History and criticism",
+      "Russian literature",
+      "Moral and ethical aspects"
+    ]
+  },
+  {
+    "id": "ol-ol2090126w",
+    "title": "Н. К. Крупская о детской литературе и детском чтении",
+    "author": "Надежда Константиновна Крупская",
+    "reason": "informational_or_educational_nonfiction",
+    "determinedType": "informational_or_educational_nonfiction",
+    "confidence": 0.96,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "format:иллюстрированный нон-фикшн",
+      "subjects:explicit_nonfiction"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL2090126W"
+    ],
+    "sourceSubjects": [
+      "Books and reading",
+      "History and criticism",
+      "Children's literature, Russian",
+      "Children",
+      "Children's literature, Russian -- History and criticism.",
+      "Children -- Books and reading -- Soviet Union."
+    ]
+  },
+  {
+    "id": "ol-ol6062913w",
+    "title": "Волшебное зеркало детства",
+    "author": "Маргарита Славова",
+    "reason": "informational_or_educational_nonfiction",
+    "determinedType": "informational_or_educational_nonfiction",
+    "confidence": 0.96,
+    "evidence": [
+      "format:иллюстрированный нон-фикшн",
+      "subjects:explicit_nonfiction"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL6062913W"
+    ],
+    "sourceSubjects": [
+      "Children's literature",
+      "History and criticism",
+      "Theory",
+      "Children",
+      "Books and reading",
+      "Children's literature, Russian",
+      "Children's literature -- History and criticism -- Theory, etc."
+    ]
+  },
+  {
+    "id": "ol-ol6843279w",
+    "title": "Про чувства добрые",
+    "author": "Семен Самуилович Гравин",
+    "reason": "informational_or_educational_nonfiction",
+    "determinedType": "informational_or_educational_nonfiction",
+    "confidence": 0.96,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "format:иллюстрированный нон-фикшн",
+      "subjects:explicit_nonfiction"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL6843279W"
+    ],
+    "sourceSubjects": [
+      "History and criticism",
+      "Juvenile literature",
+      "Russian literature",
+      "Russian literature -- History and criticism -- Juvenile literature."
+    ]
+  },
+  {
+    "id": "ol-ol13839836w",
+    "title": "Игрушка в детской литературе",
+    "author": "Марина Костюхина",
+    "reason": "manual_semantic_nonfiction_review",
+    "determinedType": "manual_semantic_nonfiction_review",
+    "confidence": 0.98,
+    "evidence": [
+      "subjects:explicit_fiction",
+      "genre:научно-популярная литература",
+      "format:иллюстрированный нон-фикшн",
+      "subjects:explicit_nonfiction",
+      "manual:title_author_subjects"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL13839836W"
+    ],
+    "sourceSubjects": [
+      "Children's literature, Russian",
+      "History and criticism",
+      "Toys in literature",
+      "Toys",
+      "Social aspects",
+      "Play",
+      "Children's literature, Russian -- History and criticism",
+      "Toys -- Social aspects",
+      "Play -- Social aspects"
+    ]
+  },
+  {
+    "id": "ol-ol4149224w",
+    "title": "Сквозь призму детства",
+    "author": "Владимир Александров",
+    "reason": "informational_or_educational_nonfiction",
+    "determinedType": "informational_or_educational_nonfiction",
+    "confidence": 0.96,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "format:иллюстрированный нон-фикшн",
+      "subjects:explicit_nonfiction"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL4149224W"
+    ],
+    "sourceSubjects": [
+      "Books and reading",
+      "Children",
+      "Children's literature, Soviet",
+      "History and criticism",
+      "Children's literature, Soviet -- History and criticism.",
+      "Children -- Books and reading -- Soviet Union.",
+      "Children's literature, Russian",
+      "Children's literature, Russian -- History and criticism",
+      "Children's literature, Soviet -- History and criticism"
+    ]
+  },
+  {
+    "id": "ol-ol22938535w",
+    "title": "Ковчег для одного",
+    "author": "О. Т. Ковалевская",
+    "reason": "biography_or_documentary",
+    "determinedType": "biography_or_documentary",
+    "confidence": 0.97,
+    "evidence": [
+      "genre:биография",
+      "format:иллюстрированный нон-фикшн",
+      "subjects:biographical_or_documentary"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL22938535W"
+    ],
+    "sourceSubjects": [
+      "Russian Poets",
+      "Publishing",
+      "Gosudarstvennoe izdatelʹstvo detskoĭ literatury. Leningradskoe otdelenie",
+      "Gosudarstvennoe izdatelʹstvo detskoĭ literatury",
+      "Children's literature, Russian",
+      "Biography",
+      "History"
+    ]
+  },
+  {
+    "id": "ol-ol1897364w",
+    "title": "Воспитание словом",
+    "author": "Самуил Маршак",
+    "reason": "biography_or_documentary",
+    "determinedType": "biography_or_documentary",
+    "confidence": 0.97,
+    "evidence": [
+      "genre:биография",
+      "format:иллюстрированный нон-фикшн",
+      "subjects:explicit_nonfiction",
+      "subjects:biographical_or_documentary"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL1897364W"
+    ],
+    "sourceSubjects": [
+      "History and criticism",
+      "Russian literature",
+      "Books and reading",
+      "Authors, Russian",
+      "Children's literature, Russian",
+      "Biography",
+      "Children",
+      "Russian Authors",
+      "Correspondence",
+      "Russian literature -- History and criticism.",
+      "Authors, Russian -- Biography.",
+      "Children's literature, Russian -- History and criticism.",
+      "Children -- Books and reading -- Russia."
+    ]
+  },
+  {
+    "id": "ol-ol43985203w",
+    "title": "Дорога памяти",
+    "author": "Софья Прокофьева",
+    "reason": "biography_or_documentary",
+    "determinedType": "biography_or_documentary",
+    "confidence": 0.97,
+    "evidence": [
+      "genre:биография",
+      "subjects:biographical_or_documentary"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL43985203W"
+    ],
+    "sourceSubjects": [
+      "Russian Women authors",
+      "Biography",
+      "Children's literature, Russian",
+      "Intellectual life"
+    ]
+  },
+  {
+    "id": "ol-ol3614124w",
+    "title": "Воспитание поколений",
+    "author": "Александр Ивич",
+    "reason": "informational_or_educational_nonfiction",
+    "determinedType": "informational_or_educational_nonfiction",
+    "confidence": 0.96,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "format:иллюстрированный нон-фикшн",
+      "subjects:explicit_nonfiction"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL3614124W"
+    ],
+    "sourceSubjects": [
+      "Books and reading",
+      "History and criticism",
+      "Children",
+      "Children's literature, Soviet",
+      "Children's literature, Russian"
+    ]
+  },
+  {
+    "id": "ol-ol2173936w",
+    "title": "Приметы времени",
+    "author": "Сергей Владимирович Михалков",
+    "reason": "biography_or_documentary",
+    "determinedType": "biography_or_documentary",
+    "confidence": 0.97,
+    "evidence": [
+      "genre:биография",
+      "format:иллюстрированный нон-фикшн",
+      "subjects:explicit_nonfiction",
+      "subjects:biographical_or_documentary"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL2173936W"
+    ],
+    "sourceSubjects": [
+      "History and criticism",
+      "Books and reading",
+      "Children's literature, Russian",
+      "Russian literature",
+      "Children",
+      "Biography",
+      "Mikhalkov, Sergeĭ Vladimirovich, 1913-",
+      "Russian literature -- 20th century -- History and criticism",
+      "Children's literature, Russian -- History and criticism",
+      "Children -- Books and reading -- Russia"
+    ]
+  },
+  {
+    "id": "ol-ol5996204w",
+    "title": "Душегубство и живодерство в детской литературе",
+    "author": "Александр Етоев",
+    "reason": "informational_or_educational_nonfiction",
+    "determinedType": "informational_or_educational_nonfiction",
+    "confidence": 0.96,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "format:иллюстрированный нон-фикшн",
+      "subjects:explicit_nonfiction"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL5996204W"
+    ],
+    "sourceSubjects": [
+      "Children's literature, Russian",
+      "History and criticism",
+      "Illustrations",
+      "Murder in literature",
+      "Villains in literature",
+      "Violence in literature",
+      "Children's literature, Russian -- History and criticism.",
+      "Murder in literature.",
+      "Violence in literature.",
+      "Villains in literature.",
+      "Children's literature, Russian -- Illustrations."
+    ]
+  },
+  {
+    "id": "ol-ol2546870w",
+    "title": "Сказки народов мира",
+    "author": "Государственная публичная библиотека имени М.Е. Салтыкова-Щедрина.",
+    "reason": "manual_semantic_nonfiction_review",
+    "determinedType": "manual_semantic_nonfiction_review",
+    "confidence": 0.98,
+    "evidence": [
+      "genre:сказка",
+      "subjects:explicit_fiction",
+      "subjects:explicit_nonfiction",
+      "manual:title_author_subjects"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL2546870W"
+    ],
+    "sourceSubjects": [
+      "Bibliography",
+      "Tales",
+      "Fairy tales",
+      "Children's literature, Russian",
+      "Fairy tales -- Bibliography.",
+      "Tales -- Bibliography.",
+      "Children's literature, Russian -- Bibliography."
+    ]
+  },
+  {
+    "id": "ol-ol5997269w",
+    "title": "Великие полотна",
+    "author": "Галина Ветрова",
+    "reason": "informational_or_educational_nonfiction",
+    "determinedType": "informational_or_educational_nonfiction",
+    "confidence": 0.96,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "format:иллюстрированный нон-фикшн",
+      "subjects:explicit_nonfiction"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL5997269W"
+    ],
+    "sourceSubjects": [
+      "History",
+      "In art",
+      "Juvenile literature",
+      "Russian Painting",
+      "Art",
+      "Russian Portraits",
+      "Catalogs",
+      "European Portraits",
+      "Painting, Russian -- 19th century -- Juvenile literature.",
+      "Russia -- History -- Juvenile literature.",
+      "Russia -- In art -- Juvenile literature."
+    ]
+  },
+  {
+    "id": "ol-ol15931600w",
+    "title": "Твой друг музыка",
+    "author": "Г. Я Левашева",
+    "reason": "informational_or_educational_nonfiction",
+    "determinedType": "informational_or_educational_nonfiction",
+    "confidence": 0.96,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "format:иллюстрированный нон-фикшн",
+      "subjects:explicit_nonfiction"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL15931600W"
+    ],
+    "sourceSubjects": [
+      "Music",
+      "History and criticism",
+      "Juvenile literature"
+    ]
+  },
+  {
+    "id": "ol-ol44751665w",
+    "title": "Тайны сказок Пушкина",
+    "author": "Лариса Седакова",
+    "reason": "informational_or_educational_nonfiction",
+    "determinedType": "informational_or_educational_nonfiction",
+    "confidence": 0.96,
+    "evidence": [
+      "format:иллюстрированный нон-фикшн",
+      "subjects:explicit_nonfiction"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL44751665W"
+    ],
+    "sourceSubjects": [
+      "Children's literature, Russian",
+      "History and criticism"
+    ]
+  },
+  {
+    "id": "ol-ol11456777w",
+    "title": "О детях и для детей",
+    "author": "Вера Васильевна Смирнова",
+    "reason": "informational_or_educational_nonfiction",
+    "determinedType": "informational_or_educational_nonfiction",
+    "confidence": 0.96,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "format:иллюстрированный нон-фикшн",
+      "subjects:explicit_nonfiction"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL11456777W"
+    ],
+    "sourceSubjects": [
+      "History and criticism",
+      "Children's literature, Russian",
+      "Children's literature, Russian -- History and criticism"
+    ]
+  },
+  {
+    "id": "ol-ol32025571w",
+    "title": "Художник Виктор Чижиков",
+    "author": "Л. С. Кудрявцева",
+    "reason": "biography_or_documentary",
+    "determinedType": "biography_or_documentary",
+    "confidence": 0.97,
+    "evidence": [
+      "genre:биография",
+      "subjects:biographical_or_documentary"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL32025571W"
+    ],
+    "sourceSubjects": [
+      "Illustrators",
+      "Biography",
+      "Juvenile literature",
+      "Illustration of books",
+      "Children's literature, Russian",
+      "Illustrations",
+      "Illustrated children's books"
+    ]
+  },
+  {
+    "id": "ol-ol4897266w",
+    "title": "Книги нашего детства",
+    "author": "Мирон Петровский",
+    "reason": "informational_or_educational_nonfiction",
+    "determinedType": "informational_or_educational_nonfiction",
+    "confidence": 0.96,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "format:иллюстрированный нон-фикшн",
+      "subjects:explicit_nonfiction"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL4897266W"
+    ],
+    "sourceSubjects": [
+      "Books and reading",
+      "Children",
+      "Children's literature, Russian",
+      "History and criticism",
+      "Russisch",
+      "Stichting Kinderboek-Cultuurbezit",
+      "Children's literature, Russian -- History and criticism",
+      "Children -- Books and reading -- Russia",
+      "Children's literature, Russian -- History and criticism.",
+      "Children -- Books and reading -- Soviet Union.",
+      "Russisch.",
+      "Stichting Kinderboek-Cultuurbezit.",
+      "Sint-Petersburg (stad)"
+    ]
+  },
+  {
+    "id": "ol-ol939978w",
+    "title": "Современный детский фольклор и его взаимодействие с художественной литературой",
+    "author": "О. Ю Трыкова",
+    "reason": "manual_semantic_nonfiction_review",
+    "determinedType": "manual_semantic_nonfiction_review",
+    "confidence": 0.98,
+    "evidence": [
+      "genre:сказка",
+      "subjects:explicit_fiction",
+      "format:иллюстрированный нон-фикшн",
+      "subjects:explicit_nonfiction",
+      "manual:title_author_subjects"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL939978W"
+    ],
+    "sourceSubjects": [
+      "Books and reading",
+      "Children",
+      "Children's literature, Russian",
+      "Folklore and children",
+      "History and criticism",
+      "Russian Folk literature",
+      "Folklore and children -- Russia (Federation)",
+      "Children's literature, Russian -- History and criticism.",
+      "Folk literature, Russian -- History and criticism.",
+      "Children -- Books and reading -- Russia (Federation)"
+    ]
+  },
+  {
+    "id": "ol-ol4183254w",
+    "title": "Завтрашние заботы",
+    "author": "Валерий Яковлевич Вакуленко",
+    "reason": "informational_or_educational_nonfiction",
+    "determinedType": "informational_or_educational_nonfiction",
+    "confidence": 0.96,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "format:иллюстрированный нон-фикшн",
+      "subjects:explicit_nonfiction"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL4183254W"
+    ],
+    "sourceSubjects": [
+      "Books and reading",
+      "Children",
+      "Children's literature, Kyrgyz",
+      "Children's literature, Soviet",
+      "History and criticism",
+      "Children's literature, Kyrgyz -- History and criticism.",
+      "Children's literature, Soviet -- History and criticism.",
+      "Children -- Books and reading -- Soviet Union.",
+      "Children -- Books and reading -- Kyrgyzstan."
+    ]
+  },
+  {
+    "id": "ol-ol969011w",
+    "title": "В волшебной пушкинской стране",
+    "author": "Сергей Бойко",
+    "reason": "manual_semantic_nonfiction_review",
+    "determinedType": "manual_semantic_nonfiction_review",
+    "confidence": 0.98,
+    "evidence": [
+      "genre:сказка",
+      "subjects:explicit_fiction",
+      "format:иллюстрированный нон-фикшн",
+      "subjects:explicit_nonfiction",
+      "manual:title_author_subjects"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL969011W"
+    ],
+    "sourceSubjects": [
+      "Books and reading",
+      "Children",
+      "Children's literature, Russian",
+      "Folklore in literature",
+      "History and criticism",
+      "Pushkin, Aleksandr Sergeevich, 1799-1837.",
+      "Children's literature, Russian -- History and criticism.",
+      "Children -- Books and reading -- Russia.",
+      "Folklore in literature."
+    ]
+  },
+  {
+    "id": "ol-ol32027713w",
+    "title": "Некрасовская азбука для детей и взрослых",
+    "author": "Григорий Красильников",
+    "reason": "biography_or_documentary",
+    "determinedType": "biography_or_documentary",
+    "confidence": 0.97,
+    "evidence": [
+      "genre:биография",
+      "format:иллюстрированный нон-фикшн",
+      "subjects:biographical_or_documentary"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL32027713W"
+    ],
+    "sourceSubjects": [
+      "Russian Authors",
+      "Russian literature",
+      "Reading (Early childhood)",
+      "Children",
+      "Books and reading",
+      "Children's literature",
+      "Biography",
+      "History"
+    ]
+  },
+  {
+    "id": "ol-ol4008415w",
+    "title": "Чудеса в решете, или, Калинкина школа для первоклассников",
+    "author": "С. Сахарова",
+    "reason": "manual_semantic_nonfiction_review",
+    "determinedType": "manual_semantic_nonfiction_review",
+    "confidence": 0.98,
+    "evidence": [
+      "genre:реалистическая проза",
+      "subjects:explicit_fiction",
+      "subjects:explicit_nonfiction",
+      "manual:title_author_subjects"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL4008415W"
+    ],
+    "sourceSubjects": [
+      "Children's stories, Russian",
+      "Readers",
+      "Russian language",
+      "Russian language -- Readers.",
+      "Children's stories, Russian."
+    ]
+  },
+  {
+    "id": "ol-ol27689693w",
+    "title": "Весёлая зоология",
+    "author": "Андрей Усачёв",
+    "reason": "manual_semantic_nonfiction_review",
+    "determinedType": "manual_semantic_nonfiction_review",
+    "confidence": 0.98,
+    "evidence": [
+      "genre:поэзия",
+      "subjects:explicit_fiction",
+      "manual:title_author_subjects"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL27689693W"
+    ],
+    "sourceSubjects": [
+      "Russian poetry",
+      "Zoos",
+      "Juvenile literature",
+      "Russian language materials"
+    ]
+  },
+  {
+    "id": "ol-ol39299875w",
+    "title": "Герой и время",
+    "author": "Джонон Бобокалонова",
+    "reason": "informational_or_educational_nonfiction",
+    "determinedType": "informational_or_educational_nonfiction",
+    "confidence": 0.96,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "format:иллюстрированный нон-фикшн",
+      "subjects:explicit_nonfiction"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL39299875W"
+    ],
+    "sourceSubjects": [
+      "Children's literature, Tajik",
+      "History and criticism"
+    ]
+  },
+  {
+    "id": "ol-ol45057441w",
+    "title": "Желание жить",
+    "author": "Владимир Константинович Арро",
+    "reason": "biography_or_documentary",
+    "determinedType": "biography_or_documentary",
+    "confidence": 0.97,
+    "evidence": [
+      "genre:биография",
+      "format:иллюстрированный нон-фикшн",
+      "subjects:biographical_or_documentary"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL45057441W"
+    ],
+    "sourceSubjects": [
+      "Russian Dramatists",
+      "Biography",
+      "Russian Authors",
+      "History",
+      "Personal narratives",
+      "World War, 1939-1945",
+      "Children",
+      "Children's literature, Russian"
+    ]
+  },
+  {
+    "id": "ol-ol5195523w",
+    "title": "Сложная простота",
+    "author": "Борис Бегак",
+    "reason": "informational_or_educational_nonfiction",
+    "determinedType": "informational_or_educational_nonfiction",
+    "confidence": 0.96,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "format:иллюстрированный нон-фикшн",
+      "subjects:explicit_nonfiction"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL5195523W"
+    ],
+    "sourceSubjects": [
+      "Books and reading",
+      "Children",
+      "Children's literature, Russian",
+      "History and criticism",
+      "Children's literature, Russian -- History and criticism.",
+      "Children -- Books and reading -- Russia."
+    ]
+  },
+  {
+    "id": "ol-ol6844893w",
+    "title": "Полвека",
+    "author": "Ирина Петровна Лупанова",
+    "reason": "informational_or_educational_nonfiction",
+    "determinedType": "informational_or_educational_nonfiction",
+    "confidence": 0.96,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "format:иллюстрированный нон-фикшн",
+      "subjects:explicit_nonfiction"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL6844893W"
+    ],
+    "sourceSubjects": [
+      "Books and reading",
+      "Children",
+      "Children's literature, Russian",
+      "History and criticism",
+      "Children's literature, Russian -- History and criticism.",
+      "Children -- Books and reading -- Russia."
+    ]
+  },
+  {
+    "id": "ol-ol44877600w",
+    "title": "О детях и для детей",
+    "author": "В. В. Смирнова",
+    "reason": "informational_or_educational_nonfiction",
+    "determinedType": "informational_or_educational_nonfiction",
+    "confidence": 0.96,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "format:иллюстрированный нон-фикшн",
+      "subjects:explicit_nonfiction"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL44877600W"
+    ],
+    "sourceSubjects": [
+      "Children's literature, Russian",
+      "History and criticism"
+    ]
+  },
+  {
+    "id": "ol-ol23969488w",
+    "title": "Друг из далёка",
+    "author": "Л. Н. Тынянова",
+    "reason": "biography_or_documentary",
+    "determinedType": "biography_or_documentary",
+    "confidence": 0.97,
+    "evidence": [
+      "genre:биография",
+      "subjects:biographical_or_documentary"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL23969488W"
+    ],
+    "sourceSubjects": [
+      "Juvenile literature",
+      "Anthropologists",
+      "Biography",
+      "Explorers"
+    ]
+  },
+  {
+    "id": "ol-ol4990210w",
+    "title": "Живая азбука",
+    "author": "Владимир Степанов",
+    "reason": "manual_semantic_nonfiction_review",
+    "determinedType": "manual_semantic_nonfiction_review",
+    "confidence": 0.98,
+    "evidence": [
+      "genre:поэзия",
+      "subjects:explicit_fiction",
+      "manual:title_author_subjects"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL4990210W"
+    ],
+    "sourceSubjects": [
+      "Alphabet",
+      "Children's poetry, Russian",
+      "Cyrillic alphabet",
+      "Juvenile Riddles",
+      "Juvenile literature",
+      "Russian language",
+      "Russian language -- Alphabet -- Juvenile literature.",
+      "Children's poetry, Russian.",
+      "Riddles, Juvenile.",
+      "Cyrillic alphabet."
+    ]
+  },
+  {
+    "id": "ol-ol20044005w",
+    "title": "Что делать, если...",
+    "author": "Людмила Петрановская",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL20044005W"
+    ],
+    "sourceSubjects": [
+      "Juvenile literature",
+      "Life skills guides",
+      "Safety",
+      "Children",
+      "Self-reliance in children"
+    ]
+  },
+  {
+    "id": "ol-ol19966482w",
+    "title": "Большая книга необходимых знаний для малышей",
+    "author": "О. С. Жукова",
+    "reason": "informational_or_educational_nonfiction",
+    "determinedType": "informational_or_educational_nonfiction",
+    "confidence": 0.96,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "subjects:explicit_nonfiction"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL19966482W"
+    ],
+    "sourceSubjects": [
+      "Russian language",
+      "Readers",
+      "Activity programs",
+      "Parent participation",
+      "Alphabet books",
+      "Early childhood education",
+      "Juvenile literature",
+      "Preschool Education"
+    ]
+  },
+  {
+    "id": "ol-ol38497667w",
+    "title": "Встречи в степи",
+    "author": "К. А. Меркульева",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL38497667W"
+    ],
+    "sourceSubjects": [
+      "Agriculture",
+      "Juvenile literature"
+    ]
+  },
+  {
+    "id": "ol-ol19935963w",
+    "title": "Первая после букваря книга для чтения",
+    "author": "Н. С. Жукова",
+    "reason": "manual_semantic_nonfiction_review",
+    "determinedType": "manual_semantic_nonfiction_review",
+    "confidence": 0.98,
+    "evidence": [
+      "genre:поэзия",
+      "subjects:explicit_fiction",
+      "subjects:explicit_nonfiction",
+      "manual:title_author_subjects"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL19935963W"
+    ],
+    "sourceSubjects": [
+      "Children's poetry, Russian",
+      "Russian language",
+      "Children's stories, Russian",
+      "Readers",
+      "Reading (Elementary)",
+      "Juvenile literature"
+    ]
+  },
+  {
+    "id": "ol-ol19867342w",
+    "title": "Мой букварь",
+    "author": "Н. В. Нищева",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "title:explicit_nonfiction"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL19867342W"
+    ],
+    "sourceSubjects": [
+      "Alphabet",
+      "Russian language",
+      "Juvenile literature",
+      "Erstleseunterricht",
+      "Grundschule"
+    ]
+  },
+  {
+    "id": "ol-ol44050593w",
+    "title": "Лесные хоромы",
+    "author": "Гусева. Г. И.",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL44050593W"
+    ],
+    "sourceSubjects": [
+      "Forests and forestry",
+      "Juvenile literature",
+      "Trees"
+    ]
+  },
+  {
+    "id": "ol-ol45572352w",
+    "title": "Библия для детей",
+    "author": "Соколов, Александр",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL45572352W"
+    ],
+    "sourceSubjects": [
+      "Russian Bible stories",
+      "O.T.",
+      "Juvenile literature"
+    ]
+  },
+  {
+    "id": "ol-ol6399165w",
+    "title": "Человек и Океан",
+    "author": "А. А. Аксенов",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL6399165W"
+    ],
+    "sourceSubjects": [
+      "Juvenile literature",
+      "Oceanography",
+      "Oceanography -- Juvenile literature."
+    ]
+  },
+  {
+    "id": "ol-ol6271127w",
+    "title": "В небе завтрашнего дня",
+    "author": "Карл Александрович Гильзин",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL6271127W"
+    ],
+    "sourceSubjects": [
+      "Aeronautics",
+      "Juvenile literature",
+      "Aeronautics -- Juvenile literature."
+    ]
+  },
+  {
+    "id": "ol-ol6387831w",
+    "title": "На перевале Трех Волков",
+    "author": "Юрий Могутин",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL6387831W"
+    ],
+    "sourceSubjects": [
+      "Baĭkalo-Amurskai︠a︡ magistralʹ",
+      "Juvenile literature",
+      "Baĭkalo-Amurskai͡a magistralʹ -- Juvenile literature."
+    ]
+  },
+  {
+    "id": "ol-ol32068282w",
+    "title": "Влюбленный в жизнь",
+    "author": "Рубен Варшамов",
+    "reason": "biography_or_documentary",
+    "determinedType": "biography_or_documentary",
+    "confidence": 0.97,
+    "evidence": [
+      "genre:биография",
+      "subjects:biographical_or_documentary"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL32068282W"
+    ],
+    "sourceSubjects": [
+      "Graphic artists",
+      "Biography",
+      "Soviet Drawing",
+      "Magazine illustration",
+      "Picture books for children",
+      "Veselye kartinki"
+    ]
+  },
+  {
+    "id": "ol-ol20043975w",
+    "title": "Я лисица",
+    "author": "Ольга Волкова",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL20043975W"
+    ],
+    "sourceSubjects": [
+      "Juvenile literature",
+      "Foxes"
+    ]
+  },
+  {
+    "id": "ol-ol13750127w",
+    "title": "Живая азбука",
+    "author": "Андрей Усачёв",
+    "reason": "informational_or_educational_nonfiction",
+    "determinedType": "informational_or_educational_nonfiction",
+    "confidence": 0.96,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "subjects:explicit_nonfiction"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL13750127W"
+    ],
+    "sourceSubjects": [
+      "Dictionaries, Juvenile",
+      "Hebrew language",
+      "Juvenile Dictionaries",
+      "Juvenile literature",
+      "Russian",
+      "Russian speakers",
+      "Study and teaching (Early childhood)",
+      "Russian language",
+      "Dictionaries",
+      "Hebrew",
+      "Hebrew language -- Study and teaching (Early childhood) -- Russian speakers -- Juvenile literature.",
+      "Hebrew language -- Dictionaries, Juvenile -- Russian.",
+      "Hebrew language -- Dictionaries, Juvenile."
+    ]
+  },
+  {
+    "id": "ol-ol3860378w",
+    "title": "Год в лесу",
+    "author": "И. С. Соколов-Микитов",
+    "reason": "informational_or_educational_nonfiction",
+    "determinedType": "informational_or_educational_nonfiction",
+    "confidence": 0.96,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "subjects:explicit_nonfiction"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL3860378W"
+    ],
+    "sourceSubjects": [
+      "Forest ecology",
+      "Juvenile literature",
+      "Zoology",
+      "Zoology -- Juvenile literature.",
+      "Forest ecology -- Juvenile literature."
+    ]
+  },
+  {
+    "id": "ol-ol4504877w",
+    "title": "В поисках редких книг",
+    "author": "Б. Д. Челышев",
+    "reason": "informational_or_educational_nonfiction",
+    "determinedType": "informational_or_educational_nonfiction",
+    "confidence": 0.96,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "subjects:explicit_nonfiction"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL4504877W"
+    ],
+    "sourceSubjects": [
+      "Bibliography",
+      "First editions",
+      "Juvenile literature",
+      "Rare books",
+      "Russian literature",
+      "Rare books -- Russia (Federation) -- Bibliography -- Juvenile literature.",
+      "Russian literature -- First editions -- Juvenile literature."
+    ]
+  },
+  {
+    "id": "ol-ol40734781w",
+    "title": "Путь к динозавру",
+    "author": "Ирина Яковлева",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL40734781W"
+    ],
+    "sourceSubjects": [
+      "Dinosaurs",
+      "Juvenile literature"
+    ]
+  },
+  {
+    "id": "ol-ol32780662w",
+    "title": "Моя первая Третьяковка",
+    "author": "Владимир Порудоминский",
+    "reason": "biography_or_documentary",
+    "determinedType": "biography_or_documentary",
+    "confidence": 0.97,
+    "evidence": [
+      "genre:биография",
+      "subjects:biographical_or_documentary"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL32780662W"
+    ],
+    "sourceSubjects": [
+      "Artists",
+      "Biography",
+      "Juvenile literature"
+    ]
+  },
+  {
+    "id": "ol-ol13750128w",
+    "title": "Большая книга художника для самых маленьких",
+    "author": "Г. П. Шалаева",
+    "reason": "informational_or_educational_nonfiction",
+    "determinedType": "informational_or_educational_nonfiction",
+    "confidence": 0.96,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "subjects:explicit_nonfiction"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL13750128W"
+    ],
+    "sourceSubjects": [
+      "Juvenile literature",
+      "Drawing",
+      "Drawing books",
+      "Study and teaching",
+      "Drawing ability in children",
+      "Study and teaching (Elementary)",
+      "Drawing -- Study and teaching (Elementary) -- Juvenile literature.",
+      "Drawing -- Study and teaching -- Juvenile literature.",
+      "Drawing ability in children -- Juvenile literature.",
+      "Drawing.",
+      "Drawing books."
+    ]
+  },
+  {
+    "id": "ol-ol13712739w",
+    "title": "Похождения грамотея",
+    "author": "Ефим Ефимовский",
+    "reason": "informational_or_educational_nonfiction",
+    "determinedType": "informational_or_educational_nonfiction",
+    "confidence": 0.96,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "subjects:explicit_nonfiction"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL13712739W"
+    ],
+    "sourceSubjects": [
+      "Russian language",
+      "Readers",
+      "Juvenile literature",
+      "Russian language -- Readers.",
+      "Russian language -- Readers -- Juvenile literature."
+    ]
+  },
+  {
+    "id": "ol-ol1675394w",
+    "title": "Водители фрегатов",
+    "author": "Николай Чуковский",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL1675394W"
+    ],
+    "sourceSubjects": [
+      "Voyages and travels",
+      "Juvenile literature",
+      "Explorers",
+      "Explorers -- Juvenile literature.",
+      "Voyages and travels -- Juvenile literature."
+    ]
+  },
+  {
+    "id": "ol-ol4869369w",
+    "title": "Говорите правильно по-русски!",
+    "author": "А. Егорова",
+    "reason": "informational_or_educational_nonfiction",
+    "determinedType": "informational_or_educational_nonfiction",
+    "confidence": 0.96,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "subjects:explicit_nonfiction"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL4869369W"
+    ],
+    "sourceSubjects": [
+      "Case",
+      "Grammar",
+      "Juvenile literature",
+      "Russian language",
+      "Russian language -- Case -- Juvenile literature.",
+      "Russian language -- Grammar -- Juvenile literature.",
+      "Russian language -- Juvenile literature."
+    ]
+  },
+  {
+    "id": "ol-ol4886355w",
+    "title": "Друг, воспитанный тобой",
+    "author": "Борис Степанович Рябинин",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL4886355W"
+    ],
+    "sourceSubjects": [
+      "Dogs",
+      "Juvenile literature",
+      "Dogs -- Juvenile literature."
+    ]
+  },
+  {
+    "id": "ol-ol32915506w",
+    "title": "Сказки Андерсена и четыре русских художника-иллюстратора",
+    "author": "Л. У. Звонарева",
+    "reason": "biography_or_documentary",
+    "determinedType": "biography_or_documentary",
+    "confidence": 0.97,
+    "evidence": [
+      "genre:биография",
+      "subjects:biographical_or_documentary"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL32915506W"
+    ],
+    "sourceSubjects": [
+      "Illustrations",
+      "Illustration of books",
+      "Illustrators",
+      "Biography",
+      "Illustrated children's books"
+    ]
+  },
+  {
+    "id": "ol-ol27061912w",
+    "title": "Жизнь в океане",
+    "author": "Татьяна Покидаева",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL27061912W"
+    ],
+    "sourceSubjects": [
+      "Ocean",
+      "Juvenile literature",
+      "Russian language materials"
+    ]
+  },
+  {
+    "id": "ol-ol27961181w",
+    "title": "100 лучших игр летом на отдыхе и дома",
+    "author": "Татьяна Образцова",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL27961181W"
+    ],
+    "sourceSubjects": [
+      "Games",
+      "Juvenile literature",
+      "Children's parties",
+      "Fêtes d'enfants",
+      "Ouvrages pour la jeunesse"
+    ]
+  },
+  {
+    "id": "ol-ol33088633w",
+    "title": "Животные на войне",
+    "author": "А. Машистов",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL33088633W"
+    ],
+    "sourceSubjects": [
+      "Animals",
+      "Juvenile literature",
+      "War use"
+    ]
+  },
+  {
+    "id": "ol-ol32489380w",
+    "title": "В облаках",
+    "author": "Александр Александрович Дейнека",
+    "reason": "informational_or_educational_nonfiction",
+    "determinedType": "informational_or_educational_nonfiction",
+    "confidence": 0.96,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "subjects:explicit_nonfiction"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL32489380W"
+    ],
+    "sourceSubjects": [
+      "Aeronautics",
+      "Pictorial works",
+      "Juvenile literature"
+    ]
+  },
+  {
+    "id": "ol-ol13748092w",
+    "title": "Моя первая книга о человеке",
+    "author": "М. О. Лукьянов",
+    "reason": "informational_or_educational_nonfiction",
+    "determinedType": "informational_or_educational_nonfiction",
+    "confidence": 0.96,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "subjects:explicit_nonfiction"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL13748092W"
+    ],
+    "sourceSubjects": [
+      "Body, Human",
+      "Health",
+      "Human Body",
+      "Human anatomy",
+      "Juvenile literature",
+      "Human body",
+      "Human anatomy -- Juvenile literature.",
+      "Body, Human -- Juvenile literature.",
+      "Health -- Juvenile literature.",
+      "Human anatomy."
+    ]
+  },
+  {
+    "id": "ol-ol32101260w",
+    "title": "Замиетки о русских иллюстрированных изданиях",
+    "author": "Н. Обольянинов",
+    "reason": "informational_or_educational_nonfiction",
+    "determinedType": "informational_or_educational_nonfiction",
+    "confidence": 0.96,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "subjects:explicit_nonfiction"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL32101260W"
+    ],
+    "sourceSubjects": [
+      "Illustrated children's books",
+      "Bibliography",
+      "Children's literature",
+      "Illustrations",
+      "Games in literature"
+    ]
+  },
+  {
+    "id": "ol-ol19978346w",
+    "title": "1500 загадок",
+    "author": "В. Г. Дмитриева",
+    "reason": "manual_semantic_nonfiction_review",
+    "determinedType": "manual_semantic_nonfiction_review",
+    "confidence": 0.98,
+    "evidence": [
+      "subjects:explicit_fiction",
+      "genre:научно-популярная литература",
+      "manual:title_author_subjects"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL19978346W"
+    ],
+    "sourceSubjects": [
+      "Puzzles",
+      "Juvenile Riddles",
+      "Juvenile literature"
+    ]
+  },
+  {
+    "id": "ol-ol19940747w",
+    "title": "Русская азбука",
+    "author": "В. Г. Горецкий",
+    "reason": "informational_or_educational_nonfiction",
+    "determinedType": "informational_or_educational_nonfiction",
+    "confidence": 0.96,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "subjects:explicit_nonfiction"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL19940747W"
+    ],
+    "sourceSubjects": [
+      "Readers",
+      "Alphabet",
+      "Russian language",
+      "Juvenile literature",
+      "Cyrillic alphabet"
+    ]
+  },
+  {
+    "id": "ol-ol33088642w",
+    "title": "Воздухоплавание",
+    "author": "Н. Былиев",
+    "reason": "informational_or_educational_nonfiction",
+    "determinedType": "informational_or_educational_nonfiction",
+    "confidence": 0.96,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "subjects:explicit_nonfiction"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL33088642W"
+    ],
+    "sourceSubjects": [
+      "Aeronautics",
+      "Pictorial works",
+      "Children's literature, Russian"
+    ]
+  },
+  {
+    "id": "ol-ol19978400w",
+    "title": "Букварь с очень крупными буквами для быстрого обучения чтению",
+    "author": "О. В. Узорова",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "title:explicit_nonfiction"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL19978400W"
+    ],
+    "sourceSubjects": [
+      "Alphabet",
+      "Russian language",
+      "Juvenile literature",
+      "Cyrillic alphabet"
+    ]
+  },
+  {
+    "id": "ol-ol5235850w",
+    "title": "Английский язык",
+    "author": "Ирина Токмакова",
+    "reason": "manual_semantic_nonfiction_review",
+    "determinedType": "manual_semantic_nonfiction_review",
+    "confidence": 0.98,
+    "evidence": [
+      "genre:реалистическая проза",
+      "subjects:explicit_fiction",
+      "subjects:explicit_nonfiction",
+      "manual:title_author_subjects"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL5235850W"
+    ],
+    "sourceSubjects": [
+      "Alphabet",
+      "Children's stories, Russian",
+      "Cyrillic alphabet",
+      "Fiction",
+      "Juvenile fiction",
+      "Readers",
+      "Russian language",
+      "Children's stories, Russian.",
+      "Russian language -- Readers -- Juvenile fiction.",
+      "Alphabet -- Fiction.",
+      "Cyrillic alphabet -- Fiction."
+    ]
+  },
+  {
+    "id": "ol-ol37008024w",
+    "title": "Весеще!",
+    "author": "Надежда Николаевна Медюкова",
+    "reason": "manual_semantic_nonfiction_review",
+    "determinedType": "manual_semantic_nonfiction_review",
+    "confidence": 0.98,
+    "evidence": [
+      "genre:реалистическая проза",
+      "subjects:explicit_fiction",
+      "subjects:explicit_nonfiction",
+      "manual:title_author_subjects"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL37008024W"
+    ],
+    "sourceSubjects": [
+      "Chuvash language",
+      "Readers",
+      "Children's stories, Chuvash"
+    ]
+  },
+  {
+    "id": "ol-ol27059553w",
+    "title": "Занимательная азбука",
+    "author": "Александр Александрович Шибаев",
+    "reason": "manual_semantic_nonfiction_review",
+    "determinedType": "manual_semantic_nonfiction_review",
+    "confidence": 0.98,
+    "evidence": [
+      "genre:поэзия",
+      "subjects:explicit_fiction",
+      "manual:title_author_subjects"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL27059553W"
+    ],
+    "sourceSubjects": [
+      "Russian language",
+      "Juvenile literature",
+      "Alphabet",
+      "Alphabet books",
+      "Specimens",
+      "Children's poetry, Russian",
+      "Children's stories, Russian",
+      "Picture books for children",
+      "Russian language materials"
+    ]
+  },
+  {
+    "id": "ol-ol32257864w",
+    "title": "Воспоминания",
+    "author": "Владимир Конашевич",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "format:иллюстрированный нон-фикшн"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL32257864W"
+    ],
+    "sourceSubjects": [
+      "Russian Art",
+      "Illustration of books",
+      "Themes, motives",
+      "Illustrated children's books",
+      "Artists"
+    ]
+  },
+  {
+    "id": "ol-ol1252555w",
+    "title": "Занимательная геохимия",
+    "author": "Александр Евгеньевич Ферсман",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL1252555W"
+    ],
+    "sourceSubjects": [
+      "Geochemistry",
+      "Juvenile literature",
+      "Geology",
+      "Mineralogy",
+      "Geochemistry.",
+      "Geology -- Juvenile literature."
+    ]
+  },
+  {
+    "id": "ol-ol6399906w",
+    "title": "Собаки на работе",
+    "author": "Н. Жбанкова",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL6399906W"
+    ],
+    "sourceSubjects": [
+      "Juvenile literature",
+      "Working dogs",
+      "Working dogs -- Juvenile literature."
+    ]
+  },
+  {
+    "id": "ol-ol1897324w",
+    "title": "Про вке на свете",
+    "author": "Самуил Маршак",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL1897324W"
+    ],
+    "sourceSubjects": [
+      "Alphabet books",
+      "Russian language",
+      "Alphabet",
+      "Cyrillic alphabet",
+      "Juvenile literature",
+      "Children's literature, Russian",
+      "Russian language -- Alphabet -- Juvenile literature"
+    ]
+  },
+  {
+    "id": "ol-ol26452571w",
+    "title": "Азбука",
+    "author": "Е. К. Леднёва",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL26452571W"
+    ],
+    "sourceSubjects": [
+      "Russian language",
+      "Juvenile literature",
+      "Alphabet",
+      "Russian language materials"
+    ]
+  },
+  {
+    "id": "ol-ol10401547w",
+    "title": "Слово о словах",
+    "author": "Л. В. Успенский",
+    "reason": "informational_or_educational_nonfiction",
+    "determinedType": "informational_or_educational_nonfiction",
+    "confidence": 0.96,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "subjects:explicit_nonfiction"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL10401547W"
+    ],
+    "sourceSubjects": [
+      "Juvenile literature",
+      "Language and languages",
+      "Geographical Names",
+      "Language and languages -- Juvenile literature"
+    ]
+  },
+  {
+    "id": "ol-ol12338378w",
+    "title": "Заглянем в завтра",
+    "author": "Владимир Дмитриевич Елагин",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL12338378W"
+    ],
+    "sourceSubjects": [
+      "Agriculture",
+      "Juvenile literature",
+      "Agriculture -- Juvenile literature"
+    ]
+  },
+  {
+    "id": "ol-ol20043976w",
+    "title": "Я мартышка",
+    "author": "Борис Грачевский",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL20043976W"
+    ],
+    "sourceSubjects": [
+      "Cercopithecus",
+      "Juvenile literature",
+      "Behavior",
+      "Geographical distribution"
+    ]
+  },
+  {
+    "id": "ol-ol13711204w",
+    "title": "Буковка за буковкой",
+    "author": "Евгений Шабельник",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL13711204W"
+    ],
+    "sourceSubjects": [
+      "Alphabet",
+      "Russian language",
+      "Juvenile literature",
+      "Picture books",
+      "Russian language -- Alphabet -- Picture books.",
+      "Russian language -- Alphabet -- Juvenile literature."
+    ]
+  },
+  {
+    "id": "ol-ol20043956w",
+    "title": "Я белый медведь",
+    "author": "Александр Архангельский",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL20043956W"
+    ],
+    "sourceSubjects": [
+      "Polar bear",
+      "Juvenile literature"
+    ]
+  },
+  {
+    "id": "ol-ol22418625w",
+    "title": "Красная книга Беларуси для детей",
+    "author": "В. К. Ризевский",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL22418625W"
+    ],
+    "sourceSubjects": [
+      "Fishes",
+      "Juvenile literature"
+    ]
+  },
+  {
+    "id": "ol-ol22457459w",
+    "title": "Лесные диковины",
+    "author": "А. Лаптев",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL22457459W"
+    ],
+    "sourceSubjects": [
+      "Forest ecology",
+      "Juvenile literature"
+    ]
+  },
+  {
+    "id": "ol-ol6410632w",
+    "title": "Друзья Карацупы",
+    "author": "Василий Николаевич Сорокин",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL6410632W"
+    ],
+    "sourceSubjects": [
+      "Dogs",
+      "Juvenile literature",
+      "War use",
+      "Dogs -- War use -- Juvenile literature."
+    ]
+  },
+  {
+    "id": "ol-ol36953013w",
+    "title": "Они жили и творили в Ленинграде",
+    "author": "Государственная публичная библиотека имени М.Е. Салтыкова-Щедрина",
+    "reason": "biography_or_documentary",
+    "determinedType": "biography_or_documentary",
+    "confidence": 0.97,
+    "evidence": [
+      "genre:биография",
+      "subjects:explicit_nonfiction",
+      "subjects:biographical_or_documentary"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL36953013W"
+    ],
+    "sourceSubjects": [
+      "Biography",
+      "Bibliography",
+      "Children's literature, Russian"
+    ]
+  },
+  {
+    "id": "ol-ol13727628w",
+    "title": "Домовенок",
+    "author": "И. Балинская",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL13727628W"
+    ],
+    "sourceSubjects": [
+      "Juvenile literature",
+      "Home economics",
+      "Maintenance and repair",
+      "Dwellings",
+      "Life skills",
+      "Home economics.",
+      "Home economics -- Juvenile literature.",
+      "Life skills -- Juvenile literature.",
+      "Dwellings -- Maintenance and repair -- Juvenile literature."
+    ]
+  },
+  {
+    "id": "ol-ol40846915w",
+    "title": "Книга Шемот",
+    "author": "А. Е. Бродоцкая",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL40846915W"
+    ],
+    "sourceSubjects": [
+      "Juvenile literature",
+      "Jewish religious schools",
+      "Curricula",
+      "Bible"
+    ]
+  },
+  {
+    "id": "ol-ol6529744w",
+    "title": "Величайшие реки мира",
+    "author": "Александр Павлович Муранов",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL6529744W"
+    ],
+    "sourceSubjects": [
+      "Juvenile literature",
+      "Rivers",
+      "Rivers -- Juvenile literature."
+    ]
+  },
+  {
+    "id": "ol-ol13736073w",
+    "title": "Прокофьев",
+    "author": "Галина Соловьева",
+    "reason": "biography_or_documentary",
+    "determinedType": "biography_or_documentary",
+    "confidence": 0.97,
+    "evidence": [
+      "genre:биография",
+      "subjects:biographical_or_documentary"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL13736073W"
+    ],
+    "sourceSubjects": [
+      "Composers",
+      "Juvenile literature",
+      "Biography",
+      "Prokofiev, Sergey, -- 1891-1953.",
+      "Composers -- Soviet Union -- Biography -- Juvenile literature."
+    ]
+  },
+  {
+    "id": "ol-ol33444270w",
+    "title": "Изучаем балкарский язык",
+    "author": "С. Ш Бечелова",
+    "reason": "manual_semantic_nonfiction_review",
+    "determinedType": "manual_semantic_nonfiction_review",
+    "confidence": 0.98,
+    "evidence": [
+      "genre:поэзия",
+      "subjects:explicit_fiction",
+      "subjects:explicit_nonfiction",
+      "manual:title_author_subjects"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL33444270W"
+    ],
+    "sourceSubjects": [
+      "Karachay-Balkar language",
+      "Readers",
+      "Children's literature, Balkar",
+      "Children's poetry, Balkar",
+      "Balkar literature",
+      "Balkar poetry",
+      "Karachay-Balkar literature"
+    ]
+  },
+  {
+    "id": "ol-ol45043658w",
+    "title": "Все вместе, и душа на месте",
+    "author": "В. А. Чижиков",
+    "reason": "biography_or_documentary",
+    "determinedType": "biography_or_documentary",
+    "confidence": 0.97,
+    "evidence": [
+      "genre:биография",
+      "subjects:biographical_or_documentary"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL45043658W"
+    ],
+    "sourceSubjects": [
+      "Illustrators",
+      "Biography",
+      "Illustration of books",
+      "Children's literature, Russian",
+      "Illustrations"
+    ]
+  },
+  {
+    "id": "ol-ol2785957w",
+    "title": "Русские князья и цари",
+    "author": "С. А. Максимова",
+    "reason": "informational_or_educational_nonfiction",
+    "determinedType": "informational_or_educational_nonfiction",
+    "confidence": 0.96,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "subjects:explicit_nonfiction"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL2785957W"
+    ],
+    "sourceSubjects": [
+      "Juvenile literature",
+      "Bibliography",
+      "Kings and rulers",
+      "Rurik, House of -- Juvenile literature -- Bibliography.",
+      "Russia -- Kings and rulers -- Juvenile literature -- Bibliography."
+    ]
+  },
+  {
+    "id": "ol-ol5333580w",
+    "title": "Хранить вечно",
+    "author": "Шамил Ракыйпов",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL5333580W"
+    ],
+    "sourceSubjects": [
+      "Campaigns",
+      "Juvenile literature",
+      "World War, 1939-1945",
+      "World War, 1939-1945 -- Campaigns -- Eastern Front -- Juvenile literature."
+    ]
+  },
+  {
+    "id": "ol-ol6521494w",
+    "title": "Звонкий колокол России",
+    "author": "Роберт Александрович Штильмарк",
+    "reason": "biography_or_documentary",
+    "determinedType": "biography_or_documentary",
+    "confidence": 0.97,
+    "evidence": [
+      "genre:биография",
+      "subjects:biographical_or_documentary"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL6521494W"
+    ],
+    "sourceSubjects": [
+      "Biography",
+      "Juvenile literature",
+      "Kolokol",
+      "Revolutionaries",
+      "Revolutionary literature",
+      "Herzen, Aleksandr, 1812-1870 -- Juvenile literature.",
+      "Kolokol -- Juvenile literature.",
+      "Revolutionary literature -- Soviet Union -- Juvenile literature.",
+      "Revolutionaries -- Soviet Union -- Biography -- Juvenile literature."
+    ]
+  },
+  {
+    "id": "ol-ol20044025w",
+    "title": "Удивительные животные",
+    "author": "Е. С. Гусева",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL20044025W"
+    ],
+    "sourceSubjects": [
+      "Animals",
+      "Juvenile literature",
+      "Board books",
+      "Specimens"
+    ]
+  },
+  {
+    "id": "ol-ol20132318w",
+    "title": "Что такое театр",
+    "author": "Н. Н. Евреинов",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL20132318W"
+    ],
+    "sourceSubjects": [
+      "Theater",
+      "Juvenile literature"
+    ]
+  },
+  {
+    "id": "ol-ol13749469w",
+    "title": "Первая книга малыша",
+    "author": "Юлия Соколова",
+    "reason": "early_learning_educational_book",
+    "determinedType": "early_learning_educational_book",
+    "confidence": 0.99,
+    "evidence": [
+      "genre:реалистическая проза",
+      "subjects:explicit_fiction",
+      "manual:final_catalog_title_author_bibliography"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL13749469W"
+    ],
+    "sourceSubjects": [
+      "Alphabet",
+      "Juvenile fiction",
+      "Russian language",
+      "Alphabet.",
+      "Alphabet -- Juvenile fiction.",
+      "Russian language -- Alphabet -- Juvenile fiction."
+    ]
+  },
+  {
+    "id": "ol-ol32427229w",
+    "title": "Следы на земле",
+    "author": "Семен Гаврилов",
+    "reason": "adult_literary_collection",
+    "determinedType": "adult_literary_collection",
+    "confidence": 0.99,
+    "evidence": [
+      "genre:реалистическая проза",
+      "subjects:explicit_fiction",
+      "manual:final_catalog_title_author_bibliography"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL32427229W"
+    ],
+    "sourceSubjects": [
+      "Mountain Jews",
+      "Russian Jews",
+      "Russian Short stories",
+      "Children's stories, Russian",
+      "Russian fiction",
+      "Russian essays",
+      "Israeli literature (Russian)"
+    ]
+  },
+  {
+    "id": "ol-ol10401545w",
+    "title": "Почему не иначе?",
+    "author": "Л. В. Успенский",
+    "reason": "informational_or_educational_nonfiction",
+    "determinedType": "informational_or_educational_nonfiction",
+    "confidence": 0.96,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "subjects:explicit_nonfiction"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL10401545W"
+    ],
+    "sourceSubjects": [
+      "Etymology",
+      "Russian language",
+      "Juvenile literature",
+      "Dictionaries",
+      "Russian language -- Etymology -- Juvenile literature."
+    ]
+  },
+  {
+    "id": "ol-ol40732775w",
+    "title": "Путь Магеллана",
+    "author": "М. Бойцов",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL40732775W"
+    ],
+    "sourceSubjects": [
+      "Juvenile literature",
+      "Explorers",
+      "Voyages around the world"
+    ]
+  },
+  {
+    "id": "ol-ol26451908w",
+    "title": "Почему так бывает?",
+    "author": "Марта Гумилевская",
+    "reason": "informational_or_educational_nonfiction",
+    "determinedType": "informational_or_educational_nonfiction",
+    "confidence": 0.96,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "format:энциклопедия,иллюстрированный нон-фикшн",
+      "subjects:explicit_nonfiction"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL26451908W"
+    ],
+    "sourceSubjects": [
+      "Illustrated children's books",
+      "Specimens",
+      "Children's encyclopedias and dictionaries, Russian",
+      "Russian language materials"
+    ]
+  },
+  {
+    "id": "ol-ol19870045w",
+    "title": "Головоломки для детей и взрослых",
+    "author": "И. Н. Кириченко",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL19870045W"
+    ],
+    "sourceSubjects": [
+      "Puzzles",
+      "Juvenile literature",
+      "Mathematical recreations"
+    ]
+  },
+  {
+    "id": "ol-ol41696456w",
+    "title": "Змей, потоп и два ковчега",
+    "author": "Меир Шалев",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL41696456W"
+    ],
+    "sourceSubjects": [
+      "Juvenile literature",
+      "Hebrew Bible stories",
+      "Translations into Russian",
+      "Bible"
+    ]
+  },
+  {
+    "id": "ol-ol1306128w",
+    "title": "На великом морском пути",
+    "author": "Виталий Бянки",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL1306128W"
+    ],
+    "sourceSubjects": [
+      "Juvenile literature",
+      "Birds",
+      "Migration",
+      "Birds -- Migration -- Juvenile literature.",
+      "Birds -- Soviet Union -- Juvenile literature."
+    ]
+  },
+  {
+    "id": "ol-ol15196444w",
+    "title": "Вредные и полезные насекомые",
+    "author": "Тамара Греен",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL15196444W"
+    ],
+    "sourceSubjects": [
+      "Insects",
+      "Juvenile literature",
+      "Behavior",
+      "Habits and behavior",
+      "Insects.",
+      "Insects -- Habits and behavior.",
+      "Insects -- Juvenile literature.",
+      "Insects -- Behavior -- Juvenile literature."
+    ]
+  },
+  {
+    "id": "ol-ol783684w",
+    "title": "Что такое язык",
+    "author": "Алексей Алексеевич Леонтьев",
+    "reason": "informational_or_educational_nonfiction",
+    "determinedType": "informational_or_educational_nonfiction",
+    "confidence": 0.96,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "subjects:explicit_nonfiction"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL783684W"
+    ],
+    "sourceSubjects": [
+      "Juvenile literature",
+      "Language and languages",
+      "Linguistics",
+      "Language and languages -- Juvenile literature.",
+      "Linguistics -- Juvenile literature."
+    ]
+  },
+  {
+    "id": "ol-ol7332642w",
+    "title": "Слово о словах",
+    "author": "Лев Васильевич Успенский",
+    "reason": "informational_or_educational_nonfiction",
+    "determinedType": "informational_or_educational_nonfiction",
+    "confidence": 0.96,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "subjects:explicit_nonfiction"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL7332642W"
+    ],
+    "sourceSubjects": [
+      "Juvenile literature",
+      "Language and languages",
+      "Language and languages -- Juvenile literature."
+    ]
+  },
+  {
+    "id": "ol-ol24097878w",
+    "title": "Два века русского детства, XVIII-начало XX века",
+    "author": "Елена Васютинская",
+    "reason": "informational_or_educational_nonfiction",
+    "determinedType": "informational_or_educational_nonfiction",
+    "confidence": 0.96,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "format:иллюстрированный нон-фикшн",
+      "subjects:explicit_nonfiction"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL24097878W"
+    ],
+    "sourceSubjects": [
+      "Children",
+      "Pictorial works",
+      "History",
+      "Children in art",
+      "Children's books",
+      "Toys",
+      "Portraits",
+      "Social life and customs",
+      "Social conditions"
+    ]
+  },
+  {
+    "id": "ol-ol32916826w",
+    "title": "Собеседники поезии и сказки",
+    "author": "Л. С. Кудрявцева",
+    "reason": "manual_semantic_nonfiction_review",
+    "determinedType": "manual_semantic_nonfiction_review",
+    "confidence": 0.98,
+    "evidence": [
+      "genre:сказка",
+      "format:иллюстрированный нон-фикшн",
+      "manual:title_author_subjects"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL32916826W"
+    ],
+    "sourceSubjects": [
+      "Illustrated children's books",
+      "History",
+      "Illustration of books",
+      "Children's books"
+    ]
+  },
+  {
+    "id": "ol-ol13739030w",
+    "title": "Букварь для малышей от двух до пяти",
+    "author": "Елена Николаевна Бахтина",
+    "reason": "educational_reference_or_atlas",
+    "determinedType": "educational_reference_or_atlas",
+    "confidence": 0.99,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "subjects:explicit_nonfiction",
+      "title:explicit_nonfiction"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL13739030W"
+    ],
+    "sourceSubjects": [
+      "Russian language",
+      "Juvenile literature",
+      "Readers",
+      "Alphabet",
+      "Cyrillic alphabet",
+      "Russian language -- Alphabet -- Juvenile literature.",
+      "Russian language -- Readers -- Juvenile literature.",
+      "Cyrillic alphabet."
+    ]
+  },
+  {
+    "id": "ol-ol20044015w",
+    "title": "Насекомые",
+    "author": "Е. С. Тищенко",
+    "reason": "informational_or_educational_nonfiction",
+    "determinedType": "informational_or_educational_nonfiction",
+    "confidence": 0.96,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "subjects:explicit_nonfiction"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL20044015W"
+    ],
+    "sourceSubjects": [
+      "Insects",
+      "Juvenile literature",
+      "Identification",
+      "Board books",
+      "Specimens"
+    ]
+  },
+  {
+    "id": "ol-ol33348114w",
+    "title": "Что пережил наш народ",
+    "author": "Батшева Даган",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL33348114W"
+    ],
+    "sourceSubjects": [
+      "Holocaust, Jewish (1939-1945)",
+      "Juvenile literature"
+    ]
+  },
+  {
+    "id": "ol-ol23946216w",
+    "title": "Детская писательница А. Н. Толиверова (Якобий)",
+    "author": "И. И. Щиголев",
+    "reason": "biography_or_documentary",
+    "determinedType": "biography_or_documentary",
+    "confidence": 0.97,
+    "evidence": [
+      "genre:биография",
+      "subjects:explicit_nonfiction",
+      "subjects:biographical_or_documentary"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL23946216W"
+    ],
+    "sourceSubjects": [
+      "Russian Authors",
+      "Biography",
+      "Children",
+      "Books and reading",
+      "Children's literature",
+      "Authorship"
+    ]
+  },
+  {
+    "id": "ol-ol11770489w",
+    "title": "О притяжении",
+    "author": "Владимир Петрович Карцев",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL11770489W"
+    ],
+    "sourceSubjects": [
+      "Magnetism",
+      "Juvenile literature",
+      "Magnetism -- Juvenile literature"
+    ]
+  },
+  {
+    "id": "ol-ol42663025w",
+    "title": "В питомнике Мичурина",
+    "author": "Петр Митурич",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL42663025W"
+    ],
+    "sourceSubjects": [
+      "Juvenile literature",
+      "Horticulturists",
+      "Illustrated books, Children's",
+      "Nurseries (Horticulture)"
+    ]
+  },
+  {
+    "id": "ol-ol40750282w",
+    "title": "В хороводе",
+    "author": "М. Миронова",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL40750282W"
+    ],
+    "sourceSubjects": [
+      "Latvian Folk songs",
+      "Juvenile literature",
+      "Lithuanian Folk songs",
+      "Estonian Folk songs"
+    ]
+  },
+  {
+    "id": "ol-ol2266692w",
+    "title": "Чтобы всегда по справедливости",
+    "author": "Юрий Сальников",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL2266692W"
+    ],
+    "sourceSubjects": [
+      "Communist ethics",
+      "Juvenile literature",
+      "Communist ethics -- Juvenile literature."
+    ]
+  },
+  {
+    "id": "ol-ol22474626w",
+    "title": "Занимательно об електронике",
+    "author": "Е. А. Седов",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL22474626W"
+    ],
+    "sourceSubjects": [
+      "Electronics",
+      "Juvenile literature"
+    ]
+  },
+  {
+    "id": "ol-ol32101242w",
+    "title": "Диететика юношества, или наука сохранят здравие диетей при воспитании",
+    "author": "Елеазар Смыельскы",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL32101242W"
+    ],
+    "sourceSubjects": [
+      "Children",
+      "Nutrition"
+    ]
+  },
+  {
+    "id": "ol-ol2897118w",
+    "title": "Заботы космического архитектора",
+    "author": "Анатолий Шибанов",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL2897118W"
+    ],
+    "sourceSubjects": [
+      "Juvenile literature",
+      "Civilian use",
+      "Outer space -- Civilian use -- Juvenile literature."
+    ]
+  },
+  {
+    "id": "ol-ol5775527w",
+    "title": "Тарханская пора",
+    "author": "Сергей Алексеевич Андреев-Кривич",
+    "reason": "biography_or_documentary",
+    "determinedType": "biography_or_documentary",
+    "confidence": 0.96,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "subjects:biographical_or_documentary"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL5775527W"
+    ],
+    "sourceSubjects": [
+      "Homes and haunts",
+      "Intellectual life",
+      "Juvenile literature",
+      "Lermontov, Mikhail I͡U︡rʹevich, 1814-1841 -- Homes and haunts -- Russia (Federation) -- Lermontovo -- Juvenile literature.",
+      "Russia -- Intellectual life -- 1801-1917 -- Juvenile literature."
+    ]
+  },
+  {
+    "id": "ol-ol11579748w",
+    "title": "Загадка Чудского озера",
+    "author": "Георгий Николаевич Караев",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL11579748W"
+    ],
+    "sourceSubjects": [
+      "Juvenile literature",
+      "Peipus, Lake, Battle of, 1242",
+      "Peipus, Lake, Battle of, 1242 -- Juvenile literature."
+    ]
+  },
+  {
+    "id": "ol-ol12174957w",
+    "title": "Последние годы Багрова-внука",
+    "author": "Ник. М. Яновскии-Максимов",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL12174957W"
+    ],
+    "sourceSubjects": [
+      "Juvenile literature",
+      "Muzei-usadb́a \"Abramtsevo\"",
+      "Aksakov, S. T. -- 1791-1859 -- Juvenile literature.",
+      "Muzei-usadb́a \"Abramtsevo\" -- Juvenile literature.",
+      "Muzeĭ-usadʹba \"Abramt︠s︡evo\"",
+      "Aksakov, S. T. 1791-1859 -- Juvenile literature.",
+      "Muzeĭ-usadʹba \"Abramt͡sevo\" -- Juvenile literature."
+    ]
+  },
+  {
+    "id": "ol-ol33054294w",
+    "title": "Почему земля-магнит?",
+    "author": "Майлен Константиновский",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL33054294W"
+    ],
+    "sourceSubjects": [
+      "Geomagnetism",
+      "Juvenile literature"
+    ]
+  },
+  {
+    "id": "ol-ol20043992w",
+    "title": "Я муравей",
+    "author": "Ксения Лученко",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL20043992W"
+    ],
+    "sourceSubjects": [
+      "Juvenile literature",
+      "Ants"
+    ]
+  },
+  {
+    "id": "ol-ol20043995w",
+    "title": "Я лев",
+    "author": "Андрей Максимов",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL20043995W"
+    ],
+    "sourceSubjects": [
+      "Juvenile literature",
+      "Lion",
+      "Lions"
+    ]
+  },
+  {
+    "id": "ol-ol20043988w",
+    "title": "Я пингвин",
+    "author": "Дмитрий Крылов",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL20043988W"
+    ],
+    "sourceSubjects": [
+      "Penguins",
+      "Juvenile literature"
+    ]
+  },
+  {
+    "id": "ol-ol22447652w",
+    "title": "Мандривка по електролампи",
+    "author": "Н. П. Булатов",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL22447652W"
+    ],
+    "sourceSubjects": [
+      "Electricity",
+      "Juvenile literature",
+      "Electric lamps"
+    ]
+  },
+  {
+    "id": "ol-ol38541579w",
+    "title": "О вас, ребята",
+    "author": "А. Власов",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL38541579W"
+    ],
+    "sourceSubjects": [
+      "Children's literature, Russian",
+      "Vsesoi︠u︡znai︠a︡ pionerskai︠a︡ organizat︠s︡ii︠a︡ imeni V.I. Lenina"
+    ]
+  },
+  {
+    "id": "ol-ol36924767w",
+    "title": "Иван Вазов",
+    "author": "А. Собкович",
+    "reason": "manual_semantic_nonfiction_review",
+    "determinedType": "manual_semantic_nonfiction_review",
+    "confidence": 0.98,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "manual:title_author_subjects"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL36924767W"
+    ],
+    "sourceSubjects": [
+      "Children's literature, Russian"
+    ]
+  },
+  {
+    "id": "ol-ol2123023w",
+    "title": "О Чехове",
+    "author": "Корней Иванович Чуковский",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL2123023W"
+    ],
+    "sourceSubjects": [
+      "Juvenile literature",
+      "Chekhov, Anton Pavlovich, 1860-1904 -- Juvenile literature."
+    ]
+  },
+  {
+    "id": "ol-ol19727942w",
+    "title": "Твой дом",
+    "author": "Е. С. Гусева",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL19727942W"
+    ],
+    "sourceSubjects": [
+      "House furnishings",
+      "Juvenile literature",
+      "Board books",
+      "Dwellings"
+    ]
+  },
+  {
+    "id": "ol-ol38674487w",
+    "title": "Образ детства-образ времени",
+    "author": "Надежда Павлова",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL38674487W"
+    ],
+    "sourceSubjects": [
+      "Children's literature, Russian",
+      "Authors in literature"
+    ]
+  },
+  {
+    "id": "ol-ol33232626w",
+    "title": "Путешествие в семилетки",
+    "author": "Государственная публичная библиотека имени М.Е. Салтыкова-Щедрина. Отдел детской и юношеской литературы",
+    "reason": "informational_or_educational_nonfiction",
+    "determinedType": "informational_or_educational_nonfiction",
+    "confidence": 0.96,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "subjects:explicit_nonfiction"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL33232626W"
+    ],
+    "sourceSubjects": [
+      "Children's literature, Russian",
+      "Bibliography"
+    ]
+  },
+  {
+    "id": "ol-ol5129801w",
+    "title": "Отдать швартовы",
+    "author": "Б. Багрянцев",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL5129801W"
+    ],
+    "sourceSubjects": [
+      "Juvenile literature",
+      "Navigation",
+      "Seamanship",
+      "Navigation -- Juvenile literature.",
+      "Seamanship -- Juvenile literature."
+    ]
+  },
+  {
+    "id": "ol-ol19978357w",
+    "title": "Первые знания",
+    "author": "Е. А. Малевич",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL19978357W"
+    ],
+    "sourceSubjects": [
+      "Dinosaurs",
+      "Juvenile literature"
+    ]
+  },
+  {
+    "id": "ol-ol37173011w",
+    "title": "И вкусно и просто",
+    "author": "Н. Извекова",
+    "reason": "informational_or_educational_nonfiction",
+    "determinedType": "informational_or_educational_nonfiction",
+    "confidence": 0.96,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "subjects:explicit_nonfiction"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL37173011W"
+    ],
+    "sourceSubjects": [
+      "Russian Cooking",
+      "Cooking",
+      "Juvenile literature"
+    ]
+  },
+  {
+    "id": "ol-ol4715673w",
+    "title": "Судьбы вещей",
+    "author": "М. Г. Рабинович",
+    "reason": "historical_material_culture_nonfiction",
+    "determinedType": "historical_material_culture_nonfiction",
+    "confidence": 0.99,
+    "evidence": [
+      "genre:реалистическая проза",
+      "subjects:explicit_fiction",
+      "manual:final_catalog_title_author_bibliography"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL4715673W"
+    ],
+    "sourceSubjects": [
+      "Children's stories, Russian"
+    ]
+  },
+  {
+    "id": "ol-ol4678805w",
+    "title": "Атомные выходят на орбиту",
+    "author": "Виктор Устьянцев",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL4678805W"
+    ],
+    "sourceSubjects": [
+      "Juvenile literature",
+      "Nuclear submarines",
+      "Soviet Union",
+      "Soviet Union. Voenno-Morskoĭ Flot",
+      "Submarine forces",
+      "Soviet Union. Voenno-Morskoĭ Flot -- Submarine forces -- Juvenile literature.",
+      "Nuclear submarines -- Soviet Union -- Juvenile literature."
+    ]
+  },
+  {
+    "id": "ol-ol7202056w",
+    "title": "Олга Корбут",
+    "author": "Мичаел Супонев",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL7202056W"
+    ],
+    "sourceSubjects": [
+      "Gymnastics for women",
+      "Gymnasts",
+      "Juvenile literature",
+      "Korbut, Olga, 1955- -- Juvenile literature.",
+      "Korbut, Olga, 1955-",
+      "Gymnastics for women -- Juvenile literature.",
+      "Gymnasts."
+    ]
+  },
+  {
+    "id": "ol-ol33054835w",
+    "title": "Почему вода мокрая",
+    "author": "Майлен Константиновский",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL33054835W"
+    ],
+    "sourceSubjects": [
+      "Water",
+      "Juvenile literature",
+      "Atomic theory",
+      "Molecular theory"
+    ]
+  },
+  {
+    "id": "ol-ol36954608w",
+    "title": "Новые детские книги",
+    "author": "Москов. Отдел детского чтения Институт методов внешкольнои работы",
+    "reason": "manual_semantic_nonfiction_review",
+    "determinedType": "manual_semantic_nonfiction_review",
+    "confidence": 0.98,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "manual:title_author_subjects"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL36954608W"
+    ],
+    "sourceSubjects": [
+      "Children's literature, Russian"
+    ]
+  },
+  {
+    "id": "ol-ol5211452w",
+    "title": "Етажи на Ангаре",
+    "author": "Виктор Савельевич Арсирий",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL5211452W"
+    ],
+    "sourceSubjects": [
+      "Construction industry",
+      "Economic conditions",
+      "Economic development projects",
+      "Juvenile literature",
+      "Economic development projects -- Russia (Federation) -- Siberia, Eastern -- Juvenile literature.",
+      "Construction industry -- Russia (Federation) -- Siberia, Eastern -- Juvenile literature.",
+      "Siberia, Eastern (Russia) -- Economic conditions -- Juvenile literature."
+    ]
+  },
+  {
+    "id": "ol-ol24260000w",
+    "title": "Дело в шляпе",
+    "author": "Наталья Кончаловская",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL24260000W"
+    ],
+    "sourceSubjects": [
+      "Hats",
+      "Juvenile literature"
+    ]
+  },
+  {
+    "id": "ol-ol13727629w",
+    "title": "Поваренок",
+    "author": "И. Балинская",
+    "reason": "informational_or_educational_nonfiction",
+    "determinedType": "informational_or_educational_nonfiction",
+    "confidence": 0.96,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "subjects:explicit_nonfiction"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL13727629W"
+    ],
+    "sourceSubjects": [
+      "Cookery",
+      "Cookery, Russian",
+      "Juvenile literature",
+      "Russian Cookery",
+      "Russian Cooking",
+      "Cookery -- Juvenile literature.",
+      "Cookery, Russian.",
+      "Cookery, Russian -- Juvenile literature."
+    ]
+  },
+  {
+    "id": "ol-ol38582199w",
+    "title": "Детство и юность Владимира Маяковского",
+    "author": "А. А. Маяковская",
+    "reason": "biography_or_documentary",
+    "determinedType": "biography_or_documentary",
+    "confidence": 0.96,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "subjects:biographical_or_documentary"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL38582199W"
+    ],
+    "sourceSubjects": [
+      "Children's literature, Russian",
+      "Childhood and youth"
+    ]
+  },
+  {
+    "id": "ol-ol19966487w",
+    "title": "Какие бывают формы",
+    "author": "Марина Дружинина",
+    "reason": "manual_semantic_nonfiction_review",
+    "determinedType": "manual_semantic_nonfiction_review",
+    "confidence": 0.98,
+    "evidence": [
+      "genre:поэзия",
+      "subjects:explicit_fiction",
+      "subjects:explicit_nonfiction",
+      "manual:title_author_subjects"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL19966487W"
+    ],
+    "sourceSubjects": [
+      "Shapes",
+      "Juvenile poetry",
+      "Children's poetry, Russian",
+      "Juvenile literature",
+      "Board books",
+      "Study and teaching (Early childhood)"
+    ]
+  },
+  {
+    "id": "ol-ol11573218w",
+    "title": "Страна нашего детства",
+    "author": "Бенедикт Михайлович Сарнов",
+    "reason": "manual_semantic_nonfiction_review",
+    "determinedType": "manual_semantic_nonfiction_review",
+    "confidence": 0.98,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "manual:title_author_subjects"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL11573218W"
+    ],
+    "sourceSubjects": [
+      "Children's literature, Russian"
+    ]
+  },
+  {
+    "id": "ol-ol5634348w",
+    "title": "Памятник русского зодчества в Кадашах",
+    "author": "Гали Владимировна Алферова",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL5634348W"
+    ],
+    "sourceSubjects": [
+      "Church architecture",
+      "Conservation and restoration",
+      "Juvenile literature",
+      "T︠S︡erkovʹ Voskresenii︠a︡ v Kadashakh",
+      "T͡Serkovʹ Voskresenii͡a v Kadashakh",
+      "T͡S︡erkovʹ Voskresenii͡a︡ v Kadashakh -- Juvenile literature.",
+      "Church architecture -- Conservation and restoration -- Russia (Federation) -- Moscow -- Juvenile literature."
+    ]
+  },
+  {
+    "id": "ol-ol12812988w",
+    "title": "Азбука балета",
+    "author": "Юлия Яковлева",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL12812988W"
+    ],
+    "sourceSubjects": [
+      "Juvenile literature",
+      "Ballet",
+      "Ballet dancing",
+      "Ballet dancers",
+      "Anecdotes",
+      "Balelt dancers",
+      "Ballet -- Juvenile literature.",
+      "Ballet dancers -- Juvenile literature.",
+      "Ballet dancing -- Juvenile literature.",
+      "Ballet.",
+      "Balelt dancers.",
+      "Ballet dancing.",
+      "Ballet -- Anecdotes -- Juvenile literature."
+    ]
+  },
+  {
+    "id": "ol-ol20043985w",
+    "title": "Я бабочка",
+    "author": "Елизавета Александрова-Зорина",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL20043985W"
+    ],
+    "sourceSubjects": [
+      "Butterflies",
+      "Juvenile literature"
+    ]
+  },
+  {
+    "id": "ol-ol33089509w",
+    "title": "Первое мая",
+    "author": "Вера Владимировна Зенькович",
+    "reason": "informational_or_educational_nonfiction",
+    "determinedType": "informational_or_educational_nonfiction",
+    "confidence": 0.96,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "subjects:explicit_nonfiction"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL33089509W"
+    ],
+    "sourceSubjects": [
+      "May Day (Labor holiday)",
+      "Pictorial works",
+      "Juvenile literature",
+      "Parades"
+    ]
+  },
+  {
+    "id": "ol-ol13277132w",
+    "title": "Книга об оркестре",
+    "author": "Инна Алексеевна Барсова",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL13277132W"
+    ],
+    "sourceSubjects": [
+      "Orchestra",
+      "Juvenile literature",
+      "Orchestra -- Juvenile literature"
+    ]
+  },
+  {
+    "id": "ol-ol29235515w",
+    "title": "Без капризов и обид",
+    "author": "В. В. Гербова",
+    "reason": "informational_or_educational_nonfiction",
+    "determinedType": "informational_or_educational_nonfiction",
+    "confidence": 0.96,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "subjects:explicit_nonfiction"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL29235515W"
+    ],
+    "sourceSubjects": [
+      "Parenting",
+      "Juvenile literature",
+      "Rôle parental",
+      "Ouvrages pour la jeunesse"
+    ]
+  },
+  {
+    "id": "ol-ol33089302w",
+    "title": "Что мы строим?",
+    "author": "Л. Савельев",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL33089302W"
+    ],
+    "sourceSubjects": [
+      "Industrialization",
+      "Juvenile literature",
+      "Building"
+    ]
+  },
+  {
+    "id": "ol-ol42257986w",
+    "title": "Очерки диетской литературы",
+    "author": "В. Родников",
+    "reason": "informational_or_educational_nonfiction",
+    "determinedType": "informational_or_educational_nonfiction",
+    "confidence": 0.96,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "subjects:explicit_nonfiction"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL42257986W"
+    ],
+    "sourceSubjects": [
+      "Children's literature",
+      "Children's literature, Russian",
+      "Bibliography"
+    ]
+  },
+  {
+    "id": "ol-ol22466841w",
+    "title": "Тайны выцветших строк",
+    "author": "Р. Пересветов",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL22466841W"
+    ],
+    "sourceSubjects": [
+      "Manuscripts",
+      "Juvenile literature",
+      "Archives",
+      "Manuscripts -- Soviet Union -- Juvenile literature.",
+      "Archives -- Soviet Union -- Juvenile literature."
+    ]
+  },
+  {
+    "id": "ol-ol44081625w",
+    "title": "Русский израильтёнок",
+    "author": "Инна Белитская",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL44081625W"
+    ],
+    "sourceSubjects": [
+      "Children's literature, Russian",
+      "Israel"
+    ]
+  },
+  {
+    "id": "ol-ol16461107w",
+    "title": "Немецкоязычная литература для детей и юношества в русских переводах",
+    "author": "Агата Бочарова",
+    "reason": "informational_or_educational_nonfiction",
+    "determinedType": "informational_or_educational_nonfiction",
+    "confidence": 0.96,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "subjects:explicit_nonfiction"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL16461107W"
+    ],
+    "sourceSubjects": [
+      "Bibliography",
+      "German Young adult literature",
+      "Translations into Russian",
+      "Children's literature, German"
+    ]
+  },
+  {
+    "id": "ol-ol32500290w",
+    "title": "Из истории дома в Логу",
+    "author": "Татьяна Степанова",
+    "reason": "biography_or_documentary",
+    "determinedType": "biography_or_documentary",
+    "confidence": 0.96,
+    "evidence": [
+      "genre:научно-популярная литература",
+      "subjects:biographical_or_documentary"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL32500290W"
+    ],
+    "sourceSubjects": [
+      "Literary museums",
+      "Historical museums",
+      "Children's literature, Russian",
+      "Russian Authors",
+      "Homes and haunts",
+      "Russian literature",
+      "Women authors",
+      "Russian Women authors",
+      "Country homes",
+      "Anniversaries",
+      "Literaturno-memorialʹnyĭ muzeĭ Al. Ataeva"
+    ]
+  },
+  {
+    "id": "ol-ol3168499w",
+    "title": "Новая первинка",
+    "author": "И. Деркачев",
+    "reason": "informational_nonfiction",
+    "determinedType": "informational_nonfiction",
+    "confidence": 0.92,
+    "evidence": [
+      "genre:научно-популярная литература"
+    ],
+    "bibliographicSources": [
+      "https://openlibrary.org/works/OL3168499W"
+    ],
+    "sourceSubjects": [
+      "Children's literature, Russian",
+      "Russian literature",
+      "Children's literature, Russian.",
+      "Russian literature -- 19th century."
+    ]
+  }
+]

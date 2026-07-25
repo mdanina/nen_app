@@ -1,0 +1,133 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://nen.ru/schemas/unified-bibliography.schema.json",
+  "title": "NEN source-neutral bibliographic import model",
+  "type": "object",
+  "required": ["authors", "works", "editions", "bookCandidates", "editorialRecords"],
+  "properties": {
+    "authors": { "type": "array", "items": { "$ref": "#/$defs/author" } },
+    "works": { "type": "array", "items": { "$ref": "#/$defs/work" } },
+    "editions": { "type": "array", "items": { "$ref": "#/$defs/edition" } },
+    "bookCandidates": { "type": "array", "items": { "$ref": "#/$defs/bookCandidate" } },
+    "editorialRecords": { "type": "array", "items": { "$ref": "#/$defs/editorial" } }
+  },
+  "$defs": {
+    "provenance": {
+      "type": "object",
+      "required": ["source", "sourceRecordId", "retrievedAt", "license", "entityLevel", "rawValue", "normalizedValue", "verificationStatus"],
+      "properties": {
+        "source": { "type": "string" },
+        "sourceRecordId": { "type": "string" },
+        "retrievedAt": { "type": "string", "format": "date-time" },
+        "license": { "type": "object" },
+        "entityLevel": { "enum": ["author", "work", "edition"] },
+        "rawValue": {},
+        "normalizedValue": {},
+        "verificationStatus": { "enum": ["unreviewed", "machine-validated", "manually-verified", "rejected"] }
+      }
+    },
+    "sourced": {
+      "type": "object",
+      "required": ["value", "provenance"],
+      "properties": {
+        "value": {},
+        "provenance": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/provenance" } }
+      }
+    },
+    "identifier": {
+      "type": "object",
+      "required": ["source", "entityLevel", "value", "sourceRecordId"],
+      "properties": {
+        "source": { "type": "string" },
+        "entityLevel": { "enum": ["author", "work", "edition"] },
+        "value": { "type": "string" },
+        "sourceRecordId": { "type": "string" }
+      }
+    },
+    "annotation": {
+      "type": "object",
+      "required": ["id", "text", "source", "sourceRecordId", "retrievedAt", "licenseStatus", "publicUse", "textWasModified"],
+      "properties": {
+        "id": { "type": "string" },
+        "text": { "type": "string" },
+        "source": { "type": "string" },
+        "sourceRecordId": { "type": "string" },
+        "retrievedAt": { "type": "string", "format": "date-time" },
+        "licenseStatus": { "type": "object" },
+        "origin": { "type": ["string", "null"] },
+        "publicUse": { "enum": ["allowed", "not-allowed", "unknown"] },
+        "textWasModified": { "const": false }
+      }
+    },
+    "cover": {
+      "type": "object",
+      "required": ["id", "source", "sourceRecordId", "retrievedAt", "licenseStatus", "publicUse", "locallyStored"],
+      "properties": {
+        "id": { "type": "string" },
+        "sourceCoverId": { "type": "string" },
+        "url": { "type": "string" },
+        "source": { "type": "string" },
+        "sourceRecordId": { "type": "string" },
+        "retrievedAt": { "type": "string", "format": "date-time" },
+        "licenseStatus": { "type": "object" },
+        "origin": { "type": ["string", "null"] },
+        "publicUse": { "enum": ["allowed", "not-allowed", "unknown"] },
+        "locallyStored": { "const": false }
+      }
+    },
+    "author": {
+      "type": "object",
+      "required": ["id", "entityLevel", "identifiers", "preferredName", "alternateNames"],
+      "properties": {
+        "id": { "type": "string" }, "entityLevel": { "const": "author" },
+        "identifiers": { "type": "array", "items": { "$ref": "#/$defs/identifier" } },
+        "preferredName": { "$ref": "#/$defs/sourced" }, "alternateNames": { "$ref": "#/$defs/sourced" }
+      }
+    },
+    "work": {
+      "type": "object",
+      "required": ["id", "entityLevel", "identifiers", "title", "originalTitle", "authorRefs", "importedSubjects", "annotations", "covers"],
+      "properties": {
+        "id": { "type": "string" }, "entityLevel": { "const": "work" },
+        "identifiers": { "type": "array", "items": { "$ref": "#/$defs/identifier" } },
+        "title": { "$ref": "#/$defs/sourced" }, "originalTitle": { "$ref": "#/$defs/sourced" },
+        "authorRefs": { "$ref": "#/$defs/sourced" }, "importedSubjects": { "$ref": "#/$defs/sourced" },
+        "annotations": { "type": "array", "items": { "$ref": "#/$defs/annotation" } },
+        "covers": { "type": "array", "items": { "$ref": "#/$defs/cover" } }
+      }
+    },
+    "edition": {
+      "type": "object",
+      "required": ["id", "entityLevel", "identifiers", "workRefs", "title", "authorRefs", "isbns", "publishers", "languages", "publicationYear", "pages", "translationOf", "annotations", "covers"],
+      "properties": {
+        "id": { "type": "string" }, "entityLevel": { "const": "edition" },
+        "identifiers": { "type": "array", "items": { "$ref": "#/$defs/identifier" } },
+        "workRefs": { "$ref": "#/$defs/sourced" }, "title": { "$ref": "#/$defs/sourced" },
+        "authorRefs": { "$ref": "#/$defs/sourced" }, "isbns": { "$ref": "#/$defs/sourced" },
+        "publishers": { "$ref": "#/$defs/sourced" }, "languages": { "$ref": "#/$defs/sourced" },
+        "publicationYear": { "$ref": "#/$defs/sourced" }, "pages": { "$ref": "#/$defs/sourced" },
+        "translationOf": { "$ref": "#/$defs/sourced" },
+        "annotations": { "type": "array", "items": { "$ref": "#/$defs/annotation" } },
+        "covers": { "type": "array", "items": { "$ref": "#/$defs/cover" } }
+      }
+    },
+    "bookCandidate": {
+      "type": "object",
+      "required": ["id", "workId", "editionIds", "bibliographicStatus", "editorialRecordId", "productionStatus"],
+      "properties": {
+        "id": { "type": "string" }, "workId": { "type": "string" }, "editionIds": { "type": "array", "items": { "type": "string" } },
+        "bibliographicStatus": { "const": "candidate" }, "editorialRecordId": { "const": null }, "productionStatus": { "const": "not-connected" }
+      }
+    },
+    "editorial": {
+      "type": "object",
+      "required": ["id", "workId", "themes", "moods", "lifeSituations", "collectionIds", "createdBy", "reviewStatus"],
+      "properties": {
+        "id": { "type": "string" }, "workId": { "type": "string" },
+        "themes": { "type": "array" }, "moods": { "type": "array" }, "lifeSituations": { "type": "array" }, "collectionIds": { "type": "array" },
+        "createdBy": { "const": "nen-editorial" }, "reviewStatus": { "enum": ["draft", "review", "approved"] }
+      }
+    }
+  }
+}
+

@@ -5,3 +5,14 @@ dist/
 .vite/
 .env.local
 .vercel/
+
+# Local bibliographic import outputs
+data/import/bnf/staging/
+data/import/openlibrary/large-pilot/
+data/import/openlibrary/large-pilot-repeat/
+data/import/openlibrary/pilot/
+data/import/openlibrary/prepared-catalog/
+data/import/openlibrary/publish-ready-catalog/
+data/import/openlibrary/russian-children-staging/
+data/import/openlibrary/state/
+data/import/staging/

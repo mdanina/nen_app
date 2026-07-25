@@ -14,6 +14,8 @@ export interface CopyMethods {
   legacyCopy: (text: string) => boolean;
 }
 
+export type ShareResult = "shared" | "copied" | "failed";
+
 export function getBookPermalink(slug: string, origin = window.location.origin) {
   return new URL(`/books/${encodeURIComponent(slug)}`, origin).href;
 }
@@ -59,4 +61,9 @@ export async function copyTextWithFallback(text: string, methods: CopyMethods) {
     }
   }
   return methods.legacyCopy(text);
+}
+
+export async function shareWithCopyFallback(data: ShareData, capabilities: ShareCapabilities, methods: CopyMethods): Promise<ShareResult> {
+  if (await tryNativeShare(data, capabilities)) return "shared";
+  return await copyTextWithFallback(data.url, methods) ? "copied" : "failed";
 }

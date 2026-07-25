@@ -1,0 +1,3503 @@
+{
+  "generatedAt": "2026-07-24T07:37:43.115Z",
+  "source": "BnF Catalogue général SRU",
+  "sourceDocumentation": "https://api.bnf.fr/fr/api-sru-catalogue-general",
+  "licence": {
+    "code": "etalab-open-licence-2.0",
+    "label": "Licence ouverte de l'État 2.0",
+    "url": "https://www.etalab.gouv.fr/licence-ouverte-open-licence/",
+    "documentation": "https://api.bnf.fr/fr/api-sru-catalogue-general"
+  },
+  "candidates": 384,
+  "matched": 0,
+  "notFound": 384,
+  "items": [
+    {
+      "id": "ol-ol13727592w",
+      "title": "Трям! Здравствуйте!",
+      "author": "Сергей Козлов",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol20015186w",
+      "title": "Все сказки К. Чуковского",
+      "author": "Корней Иванович Чуковский",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol6841991w",
+      "title": "На заре Руси",
+      "author": "Александр Владимирович Костин",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "На заре Руси | Александр Владимирович Костин"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol24260394w",
+      "title": "Детки в клетке",
+      "author": "Самуил Маршак",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol19742114w",
+      "title": "Повторение пройденного",
+      "author": "Тамара Крюкова",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol27732268w",
+      "title": "Сказочные истории",
+      "author": "Андрей Усачёв",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol12473514w",
+      "title": "Задание особой важности",
+      "author": "Петр Прокофьевич Шамшур",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Задание особой важности | Петр Прокофьевич Шамшур"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol19944754w",
+      "title": "Сказки и картинки",
+      "author": "Владимир Сутеев",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol27058688w",
+      "title": "Подарок для Снегурочки",
+      "author": "Софья Прокофьева",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol2784137w",
+      "title": "Цыплёнок вечером",
+      "author": "Сергей Козлов",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol27683206w",
+      "title": "Мои первые сказки",
+      "author": "Юлия Габазова",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol13647786w",
+      "title": "Мой дом на колёсах",
+      "author": "Наталья Дурова",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol13682722w",
+      "title": "Друзья моего детства",
+      "author": "Г. Скребицкий",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol1306145w",
+      "title": "Лесные домишки",
+      "author": "Виталий Бянки",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol4689213w",
+      "title": "Последний месяц года",
+      "author": "Л. Либединская",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Последний месяц года | Л. Либединская"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol19970109w",
+      "title": "Сказки Чудо-дерева",
+      "author": "Валерий Кастрючин",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol19931441w",
+      "title": "Про зверей",
+      "author": "Константин Дмитриевич Ушинский",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol19987356w",
+      "title": "Мешок яблок",
+      "author": "Владимир Сутеев",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol19940404w",
+      "title": "Волшебное слово",
+      "author": "В. Осеева",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol20030843w",
+      "title": "Как Ёжик с Медвежонком протирали звезды",
+      "author": "С. Г. Козлов",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol5731430w",
+      "title": "Детская книга",
+      "author": "Борис Акунин",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol19978387w",
+      "title": "Загадочные истории",
+      "author": "Владимир Сутеев",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol12623265w",
+      "title": "Сказки про драконов",
+      "author": "Владимир Бояринов",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol26452135w",
+      "title": "Сказки",
+      "author": "Сергей Владимирович Михалков",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol27690143w",
+      "title": "Еняи еля олимпяда в волшебном лесу",
+      "author": "Анна Гончарова",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol4360095w",
+      "title": "Бюро лесных услуг",
+      "author": "Н. Сладков",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol4721004w",
+      "title": "Владимир красное солнышко",
+      "author": "Ф. В. Домбровский",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol7078546w",
+      "title": "Я видел Сусанина",
+      "author": "Алексей Федорович Румянцев",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Я видел Сусанина | Алексей Федорович Румянцев"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol24304521w",
+      "title": "Трое из Простоквашино",
+      "author": "Едуард Успенский",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol754911w",
+      "title": "История про кота Игнасия, трубочиста Федю и Одинокую Мышь",
+      "author": "Людмила Улицкая",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol19978383w",
+      "title": "Охотничьи истории",
+      "author": "Геннадий Снегирёв",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol19936377w",
+      "title": "Добрый волк",
+      "author": "Марк Тарловский",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol55524w",
+      "title": "Каштанка",
+      "author": "Антон Павлович Чехов",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol19935962w",
+      "title": "Тигр в клеточку",
+      "author": "Андрей Усачёв",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol4350082w",
+      "title": "Понгвиффы",
+      "author": "Каые Уманскы",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol42666756w",
+      "title": "Поезд в Казакстан",
+      "author": "И. Полянская; К. Козлова",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Поезд в Казакстан | И. Полянская; К. Козлова"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol11388697w",
+      "title": "Морской охотник",
+      "author": "Николай Чуковский",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol13727588w",
+      "title": "Как Львёнок и Черепаха пели песню",
+      "author": "Сергей Козлов",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol29237286w",
+      "title": "Русские детские сказки",
+      "author": "Евгений Антоненков",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol28167918w",
+      "title": "Лесные детёныши",
+      "author": "Виталий Бянки",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol4248290w",
+      "title": "Повести",
+      "author": "Валерий Алексеев",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol13715036w",
+      "title": "Друг детства",
+      "author": "В. Драгунский",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol13727593w",
+      "title": "Ёжик в тумане",
+      "author": "Сергей Козлов",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol29238560w",
+      "title": "Про козленка, который умел считать до 10",
+      "author": "Владимир Сутеев",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol19952256w",
+      "title": "На нашем дворе",
+      "author": "Евгений Иванович Чарушин",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol20043983w",
+      "title": "Беспризорная кошка",
+      "author": "Борис Житков",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol26450738w",
+      "title": "Сказки волшебнои полянки",
+      "author": "Валерий Кастрючин",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol20043979w",
+      "title": "Жизнь Ивана Семёнова, второклассника и второгодника",
+      "author": "Лев Иванович Давыдычев",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol22418629w",
+      "title": "Некогда не забудем",
+      "author": "Борис Бурьян; В. А. Жиженко",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol5130923w",
+      "title": "География Курганской области",
+      "author": "М. В. Лаврентьев",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "География Курганской области | М. В. Лаврентьев"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol27036921w",
+      "title": "Новый год в волшебном лесу",
+      "author": "Екатерина Александровна Лопатина-Неволина",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol13853930w",
+      "title": "Сказка о волшебном озере",
+      "author": "Вера Сидорова",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Сказка о волшебном озере | Вера Сидорова"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol32513596w",
+      "title": "Ленинградские сказки",
+      "author": "Юлия Яковлева",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol19936380w",
+      "title": "Буквы, азбука, щиталки",
+      "author": "Владимир Степанов",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol19978399w",
+      "title": "Все сказочные истории про Чебурашку",
+      "author": "Едуард Успенский",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol19931764w",
+      "title": "Всё о больших и маленьких приключениях",
+      "author": "Борис Житков",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol19978419w",
+      "title": "Большая собачья книга",
+      "author": "В. Н. Белоусов; М. В. Белоусова",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol27060058w",
+      "title": "За Лесами, За горами",
+      "author": "Надежда Притулина",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol7598211w",
+      "title": "Мои звери",
+      "author": "Владимир Дуров",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol43308391w",
+      "title": "Недопесок",
+      "author": "Юрий Коваль; Илья Бернштейн; Р. Лейбов; О. А. Лекманов; Евгения Двоскина",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol20043973w",
+      "title": "Скок-поскок",
+      "author": "Ю Васнецов",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol32966487w",
+      "title": "Первая охота",
+      "author": "Виталий Бянки",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Первая охота | Виталий Бянки"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol12719103w",
+      "title": "История одного поросенка",
+      "author": "Юрий Выннычук",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol26436413w",
+      "title": "Пес Лопух идет по следу",
+      "author": "Наталья Егорова",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol27956537w",
+      "title": "Озорные друзья Хома и Суслик",
+      "author": "Альберт Иванов",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol4263283w",
+      "title": "Терем-теремок и другие сказки",
+      "author": "Владимир Сутеев",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol2300595w",
+      "title": "Открытие Сибири",
+      "author": "Д. М. Утенков",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol13710818w",
+      "title": "Весёлые истории",
+      "author": "Г. Цыферов",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol19935959w",
+      "title": "Сказки-малютки",
+      "author": "Г. Цыферов",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol29316911w",
+      "title": "Большая книга сказок",
+      "author": "Виталий Бянки",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol19935924w",
+      "title": "\"Как стать большим\" и другие истории",
+      "author": "Г. Цыферов",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol31195113w",
+      "title": "Любимые сказки и сказочные истории",
+      "author": "Григорий Остер",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol3803771w",
+      "title": "Хор охотников",
+      "author": "Г. Скребицкий",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol26194182w",
+      "title": "А ты постарайся!",
+      "author": "Виктор Голявкин",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol20004004w",
+      "title": "Сказки",
+      "author": "Константин Дмитриевич Ушинский",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol19952225w",
+      "title": "Сказки про малышей",
+      "author": "Владимир Сутеев",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol19970111w",
+      "title": "Сказки лесных друзей",
+      "author": "Валерий Кастрючин",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol20004001w",
+      "title": "Остров везения",
+      "author": "Миша Самарский",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol4504115w",
+      "title": "Вот она, наша Сибирь!",
+      "author": "Георгий Иванович Кублицкий",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Вот она, наша Сибирь! | Георгий Иванович Кублицкий"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol1306122w",
+      "title": "Лесной колобок",
+      "author": "Виталий Бянки",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol19970113w",
+      "title": "Загадай желание",
+      "author": "Александр Костинский",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol44377549w",
+      "title": "Наверно, я еще маленький",
+      "author": "Ася Петрова",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol27057369w",
+      "title": "Пришла зима-проказнитса",
+      "author": "Р. Данкова",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol20043982w",
+      "title": "Папа, мама, и я",
+      "author": "В. Драгунский",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol28589215w",
+      "title": "Все самые знаменитые сказки и вредные советы",
+      "author": "Григорий Остер",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol24299231w",
+      "title": "Собачий вальс",
+      "author": "Светлана Гуиняшвили",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol7337767w",
+      "title": "На берегах полярного океана",
+      "author": "В. Н. Болдырев",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "На берегах полярного океана | В. Н. Болдырев"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol19734604w",
+      "title": "Кот в сапогах",
+      "author": "Н. И. Котятова; Т. В. Баринова",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol23852447w",
+      "title": "Сказка в русской живописи",
+      "author": "Марина Казиева",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol3398755w",
+      "title": "Дельфиний остров",
+      "author": "С. Сахарнов",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol27962006w",
+      "title": "Домик у перехода",
+      "author": "А. Усачёв",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol27683025w",
+      "title": "Дневник Пети Васина и Васи Петина",
+      "author": "Тамара Ломбина",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol4263274w",
+      "title": "Самые любимые сказки",
+      "author": "Владимир Сутеев",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol44294375w",
+      "title": "Приключения дяди Лёвы в румынских степях",
+      "author": "Янец Леви; Янив Шимони",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol27961483w",
+      "title": "Щенок, который очень любил щитать",
+      "author": "Г. П. Шалаева",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol19938773w",
+      "title": "Рассказы о животных",
+      "author": "Михаил Михайлович Пришвин",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol12849951w",
+      "title": "Визгкультура, или, семейная качалка",
+      "author": "Григорий Остер",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol782040w",
+      "title": "Сказания о земле Русской",
+      "author": "Сергей Голицын",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol1306134w",
+      "title": "Рассказы",
+      "author": "Виталий Бянки",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol19938770w",
+      "title": "Весёлая семейка",
+      "author": "Николай Носов",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol20025742w",
+      "title": "Во-первых и во-вторых",
+      "author": "Даниил Хармс",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol42201958w",
+      "title": "Ёжик в тумане",
+      "author": "Юрий Норштейн",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol4409959w",
+      "title": "Сто рассказов русской истории",
+      "author": "Сергей Алексеев",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Сто рассказов русской истории | Сергей Алексеев"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol5531021w",
+      "title": "\"Сверре\" зовет на помощь",
+      "author": "Николай Внуков",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": " Сверре  зовет на помощь | Николай Внуков"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol19978370w",
+      "title": "Все сказочные истории в одной книге",
+      "author": "Григорий Остер",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol19734610w",
+      "title": "Заюшкина избушка",
+      "author": "Н. И. Котятова; Т. В. Баринова",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol23178263w",
+      "title": "Однажды звери всех мастей",
+      "author": "Михаил Бельчиков",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol1306140w",
+      "title": "Тайна ночного леса",
+      "author": "Виталий Бянки",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol33100014w",
+      "title": "Кот Васька",
+      "author": "Борис Александрович Смирнов",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Кот Васька | Борис Александрович Смирнов"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol20003986w",
+      "title": "Миллион приключений",
+      "author": "К. Булычев",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol19978791w",
+      "title": "Прогулки по детскому Петербургу",
+      "author": "Ольга Феофанова",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol43721004w",
+      "title": "Тайна поповскаго сына",
+      "author": "Федор Зарин",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Тайна поповскаго сына | Федор Зарин"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol13727598w",
+      "title": "Кто как одет",
+      "author": "Акулина Каракулова",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol38929339w",
+      "title": "Позавчера была война",
+      "author": "Юрий Яковлев",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Позавчера была война | Юрий Яковлев"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol43489248w",
+      "title": "Кошачья санаторія",
+      "author": "Саша Черный; Федор Рожанковский",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Кошачья санаторія | Саша Черный; Федор Рожанковский"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol23679291w",
+      "title": "Рассказы о юных героях",
+      "author": "Б. Р. Акбулатов",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Рассказы о юных героях | Б. Р. Акбулатов"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol62648w",
+      "title": "Белеет парус одинокий",
+      "author": "Валентин Петрович Катаев",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol19978384w",
+      "title": "100 сказок",
+      "author": "Владимир Сутеев",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol27957754w",
+      "title": "Добрые Сказки",
+      "author": "Г. Цыферов",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol24174231w",
+      "title": "Заморские сказки",
+      "author": "Леонид Яхнин",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol27059814w",
+      "title": "Все лучшие стихи и сказки",
+      "author": "Самуил Маршак",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol29256095w",
+      "title": "Болшая книга стихов и сказок",
+      "author": "Владимир Степанов",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol40732659w",
+      "title": "Козлятки и волк",
+      "author": "К. Д. Ушинский",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Козлятки и волк | К. Д. Ушинский"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol23925164w",
+      "title": "Сказки про хитрую-хитрую рыбу Любу и ведьму Наташу",
+      "author": "Владимир Снарков",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Сказки про хитрую-хитрую рыбу Любу и ведьму Наташу | Владимир Снарков"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol10337735w",
+      "title": "Сказки",
+      "author": "Корней Иванович Чуковский",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol3972293w",
+      "title": "Волшебник Изумрудного города; Урфин Джюс и его деревянные солдаты; Семь подземных королей",
+      "author": "А. Волков",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol19931578w",
+      "title": "В стране вечных каникул",
+      "author": "Анатолий Георгиевич Алексин",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol10337729w",
+      "title": "Приключения Бибигона",
+      "author": "Корней Иванович Чуковский",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol27061853w",
+      "title": "Приключения Петрушки",
+      "author": "Маргарита Андреевна Фадеева",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol27956799w",
+      "title": "Стихи и сказки",
+      "author": "Самуил Маршак",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol19734609w",
+      "title": "Волк и козлята",
+      "author": "Н. И. Котятова; Т. В. Баринова",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol11483415w",
+      "title": "История про воробья Антверпена, кота Михеева, столетника Васю и сороконожку Марью Семеновну с семьей",
+      "author": "Людмила Улицкая",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol27027713w",
+      "title": "Шахматный учебник-сказка",
+      "author": "Антонина Трофимова",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol623471w",
+      "title": "Сказка о золотом петушке",
+      "author": "Александр Сергеевич Пушкин",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Сказка о золотом петушке | Александр Сергеевич Пушкин"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol12866329w",
+      "title": "Воздушные рыбки",
+      "author": "Марина Дяченко",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol45421072w",
+      "title": "Сказки старого Тыма",
+      "author": "В. Пухначев",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Сказки старого Тыма | В. Пухначев"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol623358w",
+      "title": "Сказка о царе Салтане, о сыне его славном и могучем богатере князе Гвидоне Салтановиче и о прекрасной царевне Лебеди",
+      "author": "Александр Сергеевич Пушкин",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol26451550w",
+      "title": "Славянские сказания",
+      "author": "Светлана Лаврова",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol4263287w",
+      "title": "Волшебный магазин",
+      "author": "Владимир Сутеев",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol39000655w",
+      "title": "Письмо от гнома Сказкина",
+      "author": "Това Хершковитз",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Письмо от гнома Сказкина | Това Хершковитз"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol20016950w",
+      "title": "Сказки-мультфильмы Г. Остера",
+      "author": "Григорий Остер",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol23311994w",
+      "title": "Солнечный зайчик",
+      "author": "Ирина Белая",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Солнечный зайчик | Ирина Белая"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol31578033w",
+      "title": "Домовёнок Фока и его друзья",
+      "author": "Андрей Васильевич Растворцев",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol21271027w",
+      "title": "Сказки со всего света",
+      "author": "М. Мельниченко",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol33083556w",
+      "title": "Сказка о золотом пиетушкие",
+      "author": "Александр Сергеевич Пушкин",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Сказка о золотом пиетушкие | Александр Сергеевич Пушкин"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol13736457w",
+      "title": "Новая сказка",
+      "author": "Дмитрий Цветков",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol21379294w",
+      "title": "Волшебные сказки девчонкам и мальчишкам",
+      "author": "Михаил Пыльцын",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol45039050w",
+      "title": "Сказки, песни, загадки",
+      "author": "Самуил Маршак; Владимир Васильевич Лебедев",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Сказки, песни, загадки | Самуил Маршак; Владимир Васильевич Лебедев"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol19952284w",
+      "title": "Любимые стихи и сказки",
+      "author": "Борис Акимович Акулиничев",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol24163393w",
+      "title": "Сказки белорусских писателей",
+      "author": "И. С. Чепловодская",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol40061322w",
+      "title": "Новогодняя сказка",
+      "author": "Наталья Александровна Васильева",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol2140895w",
+      "title": "Стихи и сказки",
+      "author": "Борис Владимирович Заходер",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol20044016w",
+      "title": "Песенки, стихи, загадки",
+      "author": "Л. М. Карпенко",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol19862287w",
+      "title": "Сказки-мультфильмы для девчонок и мальчишек",
+      "author": "А. Савченко",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol20058937w",
+      "title": "Русская пленница французского кота",
+      "author": "Игорь Жуков",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol19973701w",
+      "title": "Приключения Васи Куролесова",
+      "author": "Юрий Коваль",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol1249149w",
+      "title": "Уральские сказы",
+      "author": "Павел Бажов",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol29317511w",
+      "title": "Волшебная книга русских народных сказок с живыми картинками",
+      "author": "Николай Поклад",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol13727589w",
+      "title": "Поросёнок в колючей шубке и другие сказки",
+      "author": "Сергей Козлов",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol29318247w",
+      "title": "Рыжая сказка",
+      "author": "С. Г. Козлов",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol29230428w",
+      "title": "Возвращение блудного попугая и другие истории",
+      "author": "А. Курляндский",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol27957124w",
+      "title": "Сказки от капризов",
+      "author": "Анастасия Столбова",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol29238566w",
+      "title": "Золотая коллекция волшебных сказок",
+      "author": "Ю. Н. Устинов; Е. Ю Шурлапов",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol43411200w",
+      "title": "Волшебная дверца",
+      "author": "Ася Тепловодская; Ирина Явчуновская",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Волшебная дверца | Ася Тепловодская; Ирина Явчуновская"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol13682862w",
+      "title": "Детский музыкальный фольклор Рязанской области",
+      "author": "Н. Н. Гилярова",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Детский музыкальный фольклор Рязанской области | Н. Н. Гилярова"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol11130081w",
+      "title": "Волшебное кольцо",
+      "author": "Андрей Платонович Платонов",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol19940727w",
+      "title": "Ничуть не страшно и другие сказки",
+      "author": "Л. Кириллов; Мария Рудаченко",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol13736861w",
+      "title": "Самый большой друг и другие сказки",
+      "author": "Софья Прокофьева",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol33559636w",
+      "title": "Веселый вечер",
+      "author": "С. Колосова; С. Садомская",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Веселый вечер | С. Колосова; С. Садомская"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol6080944w",
+      "title": "Похищение продавца приключений",
+      "author": "Г. М. Садовников",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol19935840w",
+      "title": "Хрестоматия детской классики",
+      "author": "В. Рябченко",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol27057405w",
+      "title": "Сонные Сказки",
+      "author": "Илья Славицкий",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol19938743w",
+      "title": "Петр Чайковский, или, Волшебное перо",
+      "author": "Борис Евсеев",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol21485716w",
+      "title": "Русские народные сказки",
+      "author": "Елена Зарби-Гальчук",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol11630364w",
+      "title": "Необыкновенные приключения школьника Бобки, который изобрёл летающий стул",
+      "author": "Сергей Макаров",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol40061324w",
+      "title": "Зайкина семья",
+      "author": "Л. А. Васильева",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol29230337w",
+      "title": "Веселии щет",
+      "author": "Оксана Иванова",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol33286452w",
+      "title": "Сказки",
+      "author": "Александр Сергеевич Пушкин",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol20030854w",
+      "title": "Волк и козлята",
+      "author": "А. Н. Афанасьев",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol2577056w",
+      "title": "Приключения Одиссея",
+      "author": "Е. А. Тудоровская",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Приключения Одиссея | Е. А. Тудоровская"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol19987358w",
+      "title": "Сказки про Крокодила Гену, Чебурашку и их друзей",
+      "author": "Едуард Успенский",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol24010186w",
+      "title": "Легенды, были и сказки Крыма для детей",
+      "author": "Е. В. Белоусов",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol18162861w",
+      "title": "Марья Моревна",
+      "author": "Иван Яковлевич Билибин",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Марья Моревна | Иван Яковлевич Билибин"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol19970124w",
+      "title": "Стихи и сказки для самых маленьких",
+      "author": "Самуил Маршак",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol13710817w",
+      "title": "Сказки старинного города",
+      "author": "Г. Цыферов",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol19978369w",
+      "title": "Синие листья",
+      "author": "В. Осеева",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol38428812w",
+      "title": "За волшебным словом",
+      "author": "С. Липеровская",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "За волшебным словом | С. Липеровская"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol20003999w",
+      "title": "Приключения желтого чемоданчика",
+      "author": "Софья Прокофьева",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol12917933w",
+      "title": "Поющее дерево",
+      "author": "Леонид Яхнин",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol1897363w",
+      "title": "Весёлое путешествие от А до Я",
+      "author": "Самуил Маршак",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol11764672w",
+      "title": "Волшебная Ханукия",
+      "author": "Хава-Броха Корзакова",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol24641048w",
+      "title": "Кошка по имени Мышка",
+      "author": "Андрей Сен-Сеньков",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol45531935w",
+      "title": "Тихая сказка",
+      "author": "Самуил Маршак; Владимир Васильевич Лебедев",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Тихая сказка | Самуил Маршак; Владимир Васильевич Лебедев"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol19742113w",
+      "title": "Весёлый двоечник",
+      "author": "Валентин Постников",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol20044018w",
+      "title": "Русские загадки и сказки о животных",
+      "author": "М. Ф. Коршунова",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol19931589w",
+      "title": "Сказки о Ёжике и Медвежонке",
+      "author": "Сергей Козлов",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol19734608w",
+      "title": "Три медведя",
+      "author": "Н. И. Котятова; Т. В. Баринова",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol10339221w",
+      "title": "Три поросёнка; Трусохвостик; Одноглазый дрозд; Праздник непослушаня; Лесная Академия",
+      "author": "Сергей Владимирович Михалков",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol27961556w",
+      "title": "Лесной переполох",
+      "author": "Е. Н. Агинская",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol33563571w",
+      "title": "Под удиельною властью",
+      "author": "Г. Т. Полилов-Сиеверцев",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Под удиельною властью | Г. Т. Полилов-Сиеверцев"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol623482w",
+      "title": "Сказка о рыбаке и рыбке",
+      "author": "Александр Сергеевич Пушкин",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Сказка о рыбаке и рыбке | Александр Сергеевич Пушкин"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol33497304w",
+      "title": "Сказка о царе Салтане",
+      "author": "Александр Сергеевич Пушкин",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Сказка о царе Салтане | Александр Сергеевич Пушкин"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol5787637w",
+      "title": "Тайна зловещего сговора",
+      "author": "Антон Иванов",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol27689693w",
+      "title": "Весёлая зоология",
+      "author": "Андрей Усачёв",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol4263277w",
+      "title": "Сказки про карандаши и краски",
+      "author": "Владимир Сутеев",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol2439920w",
+      "title": "Сказка о солнечных братьях",
+      "author": "Иван Костыря",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol26451582w",
+      "title": "Котофей Иванович",
+      "author": "Виктор Чайчук; Алиса Чайчук; Сергей Кузьмин",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol27683336w",
+      "title": "Русские народные сказки для малышей",
+      "author": "Иля Савченков",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol32094509w",
+      "title": "Фейныя сказки",
+      "author": "Константин Дмитриевич Бальмонт",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Фейныя сказки | Константин Дмитриевич Бальмонт"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol27057363w",
+      "title": "Весельчаки",
+      "author": "Виктор Голявкин",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol19747024w",
+      "title": "Все сказки и стихи для детского сада",
+      "author": "З. Александрова; Александр Сергеевич Пушкин",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol24990110w",
+      "title": "Добрые сказки и стихи малышам",
+      "author": "Владимир Сутеев",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol1897365w",
+      "title": "Кошкин дом",
+      "author": "Самуил Маршак",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol44383671w",
+      "title": "Приключения носорога Солнышко",
+      "author": "Татьяна Соловьева",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol27059846w",
+      "title": "Волшебная иголочка",
+      "author": "В. Осеева",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol7248302w",
+      "title": "Рассказы о русских художниках",
+      "author": "Надежда Сергеевна Шер",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Рассказы о русских художниках | Надежда Сергеевна Шер"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol2189766w",
+      "title": "Рассказы, сказки, повести",
+      "author": "Николай Носов",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol19927903w",
+      "title": "Золотая коллекция волшебных сказок",
+      "author": "Владимир Конкин",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol19940427w",
+      "title": "Котёнок по имени Гав",
+      "author": "Григорий Остер",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol19978428w",
+      "title": "Лучшие сказки на ночь",
+      "author": "Л. Сидорова",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol27960261w",
+      "title": "Таина вещих снов",
+      "author": "Алексеи Биргер",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol42821653w",
+      "title": "Сказки, легенды, предания",
+      "author": "Е. И. Фадеева",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol26451498w",
+      "title": "Богатырские русские сказки",
+      "author": "Игорь Егунов",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol669163w",
+      "title": "Королева пиратов на планете сказок",
+      "author": "К. Булычев",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol27684257w",
+      "title": "Сказка с подробностями",
+      "author": "Григорий Остер",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol4392595w",
+      "title": "Полынные сказки",
+      "author": "Юрий Коваль",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Полынные сказки | Юрий Коваль"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol27963690w",
+      "title": "Немецкие народные сказки",
+      "author": "Е. Иванова; А. Ратновский",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol19978405w",
+      "title": "Тайна заброшенного замка",
+      "author": "А. Волков",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol43971155w",
+      "title": "Сказки Матушки Гусыни",
+      "author": "Ирина Явчуновская",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol2256574w",
+      "title": "Волшебное кольцо",
+      "author": "Борис Шергин",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol5997389w",
+      "title": "Блохнесское чудовище, или, Жизнь и приключения милиционера Караваева",
+      "author": "Марина Москвина",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol20043968w",
+      "title": "Заповедник сказок",
+      "author": "К. Булычев",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol13748004w",
+      "title": "Новые приключения Незнайки",
+      "author": "Игорь Носов",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol13363741w",
+      "title": "Мореплавание Солнышкина",
+      "author": "Виталий Коржиков",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol33089855w",
+      "title": "Веселая пчелка",
+      "author": "Надежда Павлович",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Веселая пчелка | Надежда Павлович"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol32843984w",
+      "title": "Сказки Ф. Гауфа, Р. Густафсона, повести В. Гауфа, басни И. Хемницера, баллады В. А. Жуковского, стихи М. Ю. Лермонтова в иллюстрациях Дмитрия Митрохина",
+      "author": "Дмитрий Исидорович Митрохин",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol865257w",
+      "title": "Стихи, сказки, занимательные истории",
+      "author": "Даниил Хармс",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol19972711w",
+      "title": "Где папа?",
+      "author": "юлия Кузнецова",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol19944755w",
+      "title": "Русские сказки и потешки",
+      "author": "Ирина Петелина",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol20025743w",
+      "title": "Садко и другие русские былины",
+      "author": "И. В. Карнаухова",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol44820250w",
+      "title": "Чеченские и ингушские народные сказки",
+      "author": "Мусбек Кибиев; А. О. Мальсагов",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Чеченские и ингушские народные сказки | Мусбек Кибиев; А. О. Мальсагов"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol6007209w",
+      "title": "Повествование о чувашах",
+      "author": "Елена Енькка",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol12951162w",
+      "title": "Приключения Старого Башмака, рассказанные им самим",
+      "author": "Георгий Балл",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol4990210w",
+      "title": "Живая азбука",
+      "author": "Владимир Степанов",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol24685033w",
+      "title": "Вежливые слова",
+      "author": "Марина Дружинина",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol10339227w",
+      "title": "Три поросёнка",
+      "author": "Сергей Владимирович Михалков",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol39493108w",
+      "title": "История про Мишу, Даню и бумажного змея",
+      "author": "Светлана Шенбрунн",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol13735521w",
+      "title": "Легенды Средневековья",
+      "author": "Н. Гарская",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol43509234w",
+      "title": "Мартин не плачет",
+      "author": "Линор Горалик",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol20015192w",
+      "title": "Три поросенка",
+      "author": "Е. Смирнова",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol27683207w",
+      "title": "Моя улица",
+      "author": "Марина Дружинина",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol13714296w",
+      "title": "Петя и Потап",
+      "author": "В. Чижиков",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol11225343w",
+      "title": "Поросёнок Пётр едет в гости",
+      "author": "Людмила Стефановна Петрушевская",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol26439170w",
+      "title": "Стихи детям обо всем на свете",
+      "author": "Татьяна Викторовна Бокова",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol754910w",
+      "title": "История о старике Кулебякине, плаксивой кобыле Миле и жеребенке Равкине",
+      "author": "Людмила Улицкая",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol19978346w",
+      "title": "1500 загадок",
+      "author": "В. Г. Дмитриева",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol35588586w",
+      "title": "Мифы Древнего Казахстана",
+      "author": "Орынбай Жанайдаров",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol26451365w",
+      "title": "Как жираф в прятки играл",
+      "author": "Виктор Лунин",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol1249152w",
+      "title": "Малахитовая шкатулка",
+      "author": "Павел Бажов",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol26452833w",
+      "title": "Подвиги Геракла",
+      "author": "Екатерина Неволина",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol27059553w",
+      "title": "Занимательная азбука",
+      "author": "Александр Александрович Шибаев",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol19978354w",
+      "title": "Книга для чтения детям до трех лет",
+      "author": "Юрий Кравец",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol42476842w",
+      "title": "Евреи в поле",
+      "author": "Виктор Григорьевич Финк",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Евреи в поле | Виктор Григорьевич Финк"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol29232680w",
+      "title": "Тётя дяди Фёдора, или, побег из простоквашино",
+      "author": "Е. Успенский",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol19952239w",
+      "title": "Журавлиные перья",
+      "author": "Вера Н. Маркова",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol27687565w",
+      "title": "Рассказы о белочке и тамарочке",
+      "author": "Л. Пантелеев",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol4042450w",
+      "title": "Домашнее тепло",
+      "author": "Алексей Логунов",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol13749469w",
+      "title": "Первая книга малыша",
+      "author": "Юлия Соколова",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol32427229w",
+      "title": "Следы на земле",
+      "author": "Семен Гаврилов",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Следы на земле | Семен Гаврилов"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol35580781w",
+      "title": "Яшь дулкын",
+      "author": "Галимйан Гыйльманов",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol21270454w",
+      "title": "Не буду просить прощения",
+      "author": "Софья Прокофьева",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol28758462w",
+      "title": "Три поросёнка",
+      "author": "Ерик Булатов",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol12432535w",
+      "title": "Острее шпаги",
+      "author": "Александр Петрович Казанцев",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol13713537w",
+      "title": "Поучительные рассказы про мальчика Яшу",
+      "author": "Едуард Успенский",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol32668464w",
+      "title": "Где раки зимуют",
+      "author": "Виталий Бянки",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Где раки зимуют | Виталий Бянки"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol38601554w",
+      "title": "Моя Россия",
+      "author": "Н. Н. Михайлов",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Моя Россия | Н. Н. Михайлов"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol6273359w",
+      "title": "Пассажир без билета",
+      "author": "Александр Борисович Аронов",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Пассажир без билета | Александр Борисович Аронов"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol16987836w",
+      "title": "Колобок против Дебиленко",
+      "author": "Е дуард Николаевич Успенскии",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol13715038w",
+      "title": "Профессор кислых щей",
+      "author": "В. Драгунский",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol6253399w",
+      "title": "Берилловое ожерелье",
+      "author": "Л. Семенов-Спасский",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Берилловое ожерелье | Л. Семенов-Спасский"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol12171715w",
+      "title": "Солнце всходит и заходит",
+      "author": "Даниил Маркович Руднев",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Солнце всходит и заходит | Даниил Маркович Руднев"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol4409950w",
+      "title": "Грозный всадник",
+      "author": "Сергей Алексеев",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Грозный всадник | Сергей Алексеев"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol13663633w",
+      "title": "Вы не были на Таити?",
+      "author": "Александр Ефимович Курляндский",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol44868793w",
+      "title": "Собственные рассказы детей",
+      "author": "Алексей Елисеевич Крученых; Н. Нагорская",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Собственные рассказы детей | Алексей Елисеевич Крученых; Н. Нагорская"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol12822140w",
+      "title": "Солнышко на память",
+      "author": "Михаил Спартакович Пляцковский",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol24300702w",
+      "title": "Страшная история",
+      "author": "Альберт Иванов",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol12849946w",
+      "title": "38 попугаев",
+      "author": "Григорий Остер",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol38513598w",
+      "title": "Безумство храбрых",
+      "author": "Василий Ардаматский",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Безумство храбрых | Василий Ардаматский"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol19978404w",
+      "title": "Огненный бог Марранов",
+      "author": "А. Волков",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol37141565w",
+      "title": "Час рассказа в еврейской библиотеке",
+      "author": "Аркадий Красильщиков",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Час рассказа в еврейской библиотеке | Аркадий Красильщиков"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol43826833w",
+      "title": "Даймохк-Нана",
+      "author": "Едуард Арбиевич Мамакаев",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol33497265w",
+      "title": "Кто сеет ветер-",
+      "author": "Валерий Пушков",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Кто сеет ветер- | Валерий Пушков"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol13736359w",
+      "title": "Как Кузька домовят помирил",
+      "author": "Г. Александрова",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol13746366w",
+      "title": "Ну, погоди!",
+      "author": "Федор Камов",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol19987346w",
+      "title": "Хорошо быть оптимистом!",
+      "author": "Марина Дружинина",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol2189783w",
+      "title": "Незнайка на Луне",
+      "author": "Николай Носов",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol55522w",
+      "title": "Избранные произведения",
+      "author": "Антон Павлович Чехов",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Избранные произведения | Антон Павлович Чехов"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol13736860w",
+      "title": "Маша и Ойка",
+      "author": "Софья Прокофьева",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol12382574w",
+      "title": "Валдайские колокольцы",
+      "author": "М. Ефетов",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Валдайские колокольцы | М. Ефетов"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol12822142w",
+      "title": "Я на облаке летал",
+      "author": "Михаил Спартакович Пляцковский",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol20043999w",
+      "title": "Вежливое слово",
+      "author": "Е. Мошковская",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol19951423w",
+      "title": "Васюткино озеро",
+      "author": "Виктор Петрович Астафьев",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol19970129w",
+      "title": "Принцесса Белоножка, или Кто любит, носит на руках",
+      "author": "Людмила Стефановна Петрушевская",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol667419w",
+      "title": "Вредные советы 2",
+      "author": "Григорий Остер",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol38539262w",
+      "title": "Один, два, три",
+      "author": "Виктор Голявкин",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Один, два, три | Виктор Голявкин"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol11037508w",
+      "title": "Кыш, Два портфеля и целая неделя; Кыш и я в Крыму",
+      "author": "Юз Алешковский",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol13749472w",
+      "title": "Бюро находок",
+      "author": "Сергей Иванов",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol669185w",
+      "title": "Война с лилипутами",
+      "author": "К. Булычев",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol27958552w",
+      "title": "Геракл, 12 великих подвигов",
+      "author": "Сергей Седов",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol2223798w",
+      "title": "Учитель вранья",
+      "author": "Марк Харитонов",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol12525630w",
+      "title": "О смелом всаднике",
+      "author": "Борис Емельянов",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "О смелом всаднике | Борис Емельянов"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol19978347w",
+      "title": "Все Денискины рассказы в одной книге",
+      "author": "В. Драгунский",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol40738595w",
+      "title": "Загадки",
+      "author": "Корней Чуковский",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Загадки | Корней Чуковский"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol19931868w",
+      "title": "Басни",
+      "author": "Сергей Владимирович Михалков",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol22116633w",
+      "title": "Первая книжка для малюток",
+      "author": "Н. Гудков",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Первая книжка для малюток | Н. Гудков"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol28170377w",
+      "title": "Стихи и поемы",
+      "author": "Михаил Юрьевич Лермонтов",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol12689689w",
+      "title": "Тетрадки под дождём",
+      "author": "Виктор Голявкин",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol2189778w",
+      "title": "Затейники",
+      "author": "Николай Носов",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol6959476w",
+      "title": "Морской орленок",
+      "author": "Венямин Васильевич Тихомиров",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Морской орленок | Венямин Васильевич Тихомиров"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol19970141w",
+      "title": "Правдивая история колобка",
+      "author": "Андрей Усачёв",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol19970128w",
+      "title": "Чижик-пыжик",
+      "author": "Евгений Пермяк",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol5186967w",
+      "title": "Лилипут-сын великана",
+      "author": "Альберт Иванов",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Лилипут-сын великана | Альберт Иванов"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol32503442w",
+      "title": "Владыка джунглей",
+      "author": "Майя Будзинская",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol23852449w",
+      "title": "Лучшие детские анекдоты",
+      "author": "Лев Яковлев; Игор Новиков",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol32668434w",
+      "title": "Про оленей",
+      "author": "Геннадий Снегирёв",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Про оленей | Геннадий Снегирёв"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol39293439w",
+      "title": "Отпусти народ мой!",
+      "author": "Юля Гукова; Светлана Шенбрунн",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol869549w",
+      "title": "Солнце на потолке",
+      "author": "Олег Кургузов",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol20016949w",
+      "title": "Русские богатери",
+      "author": "И. В. Карнаухова",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol24254704w",
+      "title": "Чудеса в Дедморозовке",
+      "author": "Андрей Усачёв",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol4715673w",
+      "title": "Судьбы вещей",
+      "author": "М. Г. Рабинович",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Судьбы вещей | М. Г. Рабинович"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol13713534w",
+      "title": "Истории про Веру и Анфису",
+      "author": "Едуард Успенский",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol33098425w",
+      "title": "Усатый полосатый",
+      "author": "Самуил Маршак",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Усатый полосатый | Самуил Маршак"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol33137652w",
+      "title": "Операция \"Океан\"",
+      "author": "Александр Свирин",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Операция  Океан  | Александр Свирин"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol22116625w",
+      "title": "Детство Пушкина",
+      "author": "А. Л. Слонимский",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Детство Пушкина | А. Л. Слонимский"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol20020633w",
+      "title": "Как меня спасали",
+      "author": "Юрий Сотник",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol6274480w",
+      "title": "Рассказы о первых русских комедянтах",
+      "author": "Кира Федоровна Куликова",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Рассказы о первых русских комедянтах | Кира Федоровна Куликова"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol13738508w",
+      "title": "Карандаш и Самоделкин на острове необычайных приклюхений",
+      "author": "В. Постников",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol19978398w",
+      "title": "Старые и новые истории о Простоквашино",
+      "author": "Едуард Успенский",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol5235855w",
+      "title": "Вместе почитаем, вместе поиграем",
+      "author": "Ирина Токмакова",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol38508810w",
+      "title": "Верхом",
+      "author": "Владимир Васильевич Лебедев",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Верхом | Владимир Васильевич Лебедев"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol13663632w",
+      "title": "Все истории про попугая Кешу",
+      "author": "Александр Ефимович Курляндский",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol26451735w",
+      "title": "Загадка почтового голубя",
+      "author": "Антон Иванов",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol24287044w",
+      "title": "Мошенник на поле чудес",
+      "author": "Владимир Сотников",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol40061329w",
+      "title": "Хранители очага",
+      "author": "Андрей Васильевич Растворцев",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol26194671w",
+      "title": "Растрёпанный воробей",
+      "author": "Константин Паустовский",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol19940710w",
+      "title": "я на солнышке лежу",
+      "author": "Сергей Козлов",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol38533455w",
+      "title": "Кто раньше всех встаёт?",
+      "author": "Аркадий Минчковский",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Кто раньше всех встаёт? | Аркадий Минчковский"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol44264846w",
+      "title": "Первое испутание",
+      "author": "В. Ясенев; В. Ясенев",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Первое испутание | В. Ясенев; В. Ясенев"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol865246w",
+      "title": "Очень страшная история",
+      "author": "Даниил Хармс",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol13713540w",
+      "title": "Про Веру и Анфису",
+      "author": "Едуард Успенский",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol19952281w",
+      "title": "Мы встречаем Новыи год!",
+      "author": "Илья Григорьевич Савченко",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol31434681w",
+      "title": "Русские дети",
+      "author": "Павел Крусанов; Александр Етоев",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol19952245w",
+      "title": "Сорочинская ярмарка",
+      "author": "Николай Васильевич Гоголь",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol44466703w",
+      "title": "Книга забавной фантазии",
+      "author": "Андрей Брук",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Книга забавной фантазии | Андрей Брук"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol43943169w",
+      "title": "Волные птицы",
+      "author": "Евгений Иванович Чарушин",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Волные птицы | Евгений Иванович Чарушин"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol11557042w",
+      "title": "Повесть о русской актрисе",
+      "author": "Л. Н. Тынянова",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Повесть о русской актрисе | Л. Н. Тынянова"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol45311343w",
+      "title": "Три повести о Васе Куролесове",
+      "author": "Юрий Коваль",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol38553160w",
+      "title": "Наш огород",
+      "author": "Евгений Шварц",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Наш огород | Евгений Шварц"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol19962766w",
+      "title": "Азбука для Буки",
+      "author": "Андрей Усачёв",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol13713536w",
+      "title": "Отпуск крокодила Гены",
+      "author": "Едуард Успенский",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol1678184w",
+      "title": "Хождение встречь солнцу",
+      "author": "Владислав Бахревский",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Хождение встречь солнцу | Владислав Бахревский"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol13710814w",
+      "title": "История про поросёнка",
+      "author": "Г. Цыферов",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol13736862w",
+      "title": "Сыщик в одном башмаке",
+      "author": "Софья Прокофьева",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol44458456w",
+      "title": "Подвиги Святослава",
+      "author": "Георгий Шторм; В Стекольщиков",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Подвиги Святослава | Георгий Шторм; В Стекольщиков"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol19970117w",
+      "title": "Как Маша поссорилась с подушкой",
+      "author": "Галина Лебедева",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol19940648w",
+      "title": "Рассказы для детей",
+      "author": "Борис Житков",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol38427291w",
+      "title": "Рыцари нашего времени",
+      "author": "Л. Давыдов",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Рыцари нашего времени | Л. Давыдов"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol6521518w",
+      "title": "Солнце всходит и заходит",
+      "author": "Д. Руднев",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Солнце всходит и заходит | Д. Руднев"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol13713535w",
+      "title": "Общее собрание героев повестей, рассказов, стихотворений и пьес",
+      "author": "Едуард Успенский",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol38509253w",
+      "title": "Огород",
+      "author": "Сергей Михалков",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Огород | Сергей Михалков"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol19936571w",
+      "title": "Поемы",
+      "author": "Александр Сергеевич Пушкин",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol19940429w",
+      "title": "Басни",
+      "author": "Иван Андреевич Крылов",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol623484w",
+      "title": "Избранные произведения",
+      "author": "Александр Сергеевич Пушкин",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Избранные произведения | Александр Сергеевич Пушкин"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol11585139w",
+      "title": "Повесть о декабристе Петре Муханове",
+      "author": "Т. Медведкова",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Повесть о декабристе Петре Муханове | Т. Медведкова"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol10358155w",
+      "title": "Любимые друзья",
+      "author": "Клавдия Лукашевич",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Любимые друзья | Клавдия Лукашевич"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol22792562w",
+      "title": "Хантыйские загадки",
+      "author": "Е. А. Нёмысова",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol38427409w",
+      "title": "Семья Жигулевых",
+      "author": "К. Рождественская",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Семья Жигулевых | К. Рождественская"
+        }
+      ],
+      "matches": []
+    },
+    {
+      "id": "ol-ol12849949w",
+      "title": "Обезьянки младшего возраста",
+      "author": "Григорий Остер",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol44948165w",
+      "title": "Три твоих имени",
+      "author": "Дина Сабитова",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol20015184w",
+      "title": "Чебурашка, Крокодил Гена, Шапокляк и все-все-все",
+      "author": "Едуард Успенский",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol19970140w",
+      "title": "Большая книга стихов и рассказов",
+      "author": "Андрей Усачёв",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol23834945w",
+      "title": "Смиренный воин",
+      "author": "Георгий Юдин",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol32525747w",
+      "title": "Цезарь Великолепный",
+      "author": "Алёна Спиридонова",
+      "status": "not_found",
+      "queries": [],
+      "matches": []
+    },
+    {
+      "id": "ol-ol38419438w",
+      "title": "Рассказы о сильных и отважных",
+      "author": "Н. М. Беркова",
+      "status": "not_found",
+      "queries": [
+        {
+          "kind": "title_author",
+          "value": "Рассказы о сильных и отважных | Н. М. Беркова"
+        }
+      ],
+      "matches": []
+    }
+  ]
+}

@@ -23,9 +23,10 @@ export function validateBooks(input: unknown): ValidatedData<Book> {
     if (!value || typeof value !== "object") { issues.push({ index, field: "record", message: "Запись должна быть объектом" }); return; }
     const item = value as Partial<Book>;
     const recordIssues: ValidationIssue[] = [];
-    for (const field of ["id", "slug", "title", "author", "shortDescription", "whyRecommended"] as const) {
+    for (const field of ["id", "slug", "title", "author", "whyRecommended"] as const) {
       if (typeof item[field] !== "string" || !item[field]?.trim()) recordIssues.push({ index, field, message: "Обязательное непустое поле" });
     }
+    if (typeof item.shortDescription !== "string") recordIssues.push({ index, field: "shortDescription", message: "Описание должно быть строкой" });
     if (!Number.isFinite(item.ageMin) || !Number.isFinite(item.ageMax) || Number(item.ageMin) > Number(item.ageMax)) recordIssues.push({ index, field: "age", message: "Некорректный возрастной диапазон" });
     if (!item.readingMode || !readings.has(item.readingMode)) recordIssues.push({ index, field: "readingMode", message: "Неизвестный формат чтения" });
     if (item.lengthCategory && !lengths.has(item.lengthCategory)) recordIssues.push({ index, field: "lengthCategory", message: "Неизвестная категория объёма" });

@@ -112,5 +112,156 @@
       "Subject: Lenin, Vladimir Ilʹich -- Juvenile literature"
     ],
     "confidence": 0.96
+  },
+  {
+    "id": "ol-ol4736387w",
+    "title": "Какого цвета радуга",
+    "author": "Е. Каменева",
+    "reason": "reference_material",
+    "explanation": "Словарно-справочное издание об искусстве, а не книга для художественного или семейного чтения.",
+    "evidence": [
+      "Subjects: Dictionaries",
+      "Subjects: Juvenile Dictionaries",
+      "Subject: Art -- Dictionaries -- Russian -- Juvenile literature"
+    ],
+    "confidence": 0.97
+  },
+  {
+    "id": "ol-ol32774626w",
+    "title": "История",
+    "author": "А. А. Данилов",
+    "reason": "school_textbook",
+    "explanation": "Школьный учебник истории.",
+    "evidence": [
+      "Subject: Textbooks",
+      "Subject: History"
+    ],
+    "confidence": 0.99
+  },
+  {
+    "id": "ol-ol31852657w",
+    "title": "Картинный словарь русского языка",
+    "author": "Н. В. Чехов",
+    "reason": "reference_material",
+    "explanation": "Картинный словарь русского языка относится к справочным, а не рекомендательным читательским изданиям.",
+    "evidence": [
+      "Subject: Picture dictionaries",
+      "Subject: Russian language"
+    ],
+    "confidence": 0.99
+  },
+  {
+    "id": "ol-ol16683172w",
+    "title": "Изучаем чеченский язык",
+    "author": "З. Х Хамидова",
+    "reason": "language_learning_material",
+    "explanation": "Учебное издание для изучения языка.",
+    "evidence": [
+      "Subject: Study and teaching (Elementary)",
+      "Subject: Grammar",
+      "Subjects: Picture dictionaries"
+    ],
+    "confidence": 0.99
+  },
+  {
+    "id": "ol-ol10643195w",
+    "title": "Русский язык",
+    "author": "Т. Г. Рамзаева",
+    "reason": "school_textbook",
+    "explanation": "Учебник русского языка для начальной школы.",
+    "evidence": [
+      "Subject: Textbooks",
+      "Subject: Study and teaching (Primary)",
+      "Subject: Grammar"
+    ],
+    "confidence": 0.99
+  },
+  {
+    "id": "ol-ol11980685w",
+    "title": "Русская грамматика в картинках для начинающих",
+    "author": "Геннадий Геннадьевич Малышев",
+    "reason": "language_learning_material",
+    "explanation": "Учебное пособие по русской грамматике.",
+    "evidence": [
+      "Subject: Study and teaching",
+      "Subject: Grammar"
+    ],
+    "confidence": 0.99
+  },
+  {
+    "id": "ol-ol787600w",
+    "title": "Русские фамилии",
+    "author": "Юрий Федосюк",
+    "reason": "reference_material",
+    "explanation": "Этимологический словарь русских фамилий.",
+    "evidence": [
+      "Subject: Dictionaries",
+      "Subject: Etymology",
+      "Subject: Personal Names"
+    ],
+    "confidence": 0.98
+  },
+  {
+    "id": "ol-ol11766464w",
+    "title": "Картинный словар русского языка",
+    "author": "Николай Владимирович Чехов",
+    "reason": "reference_material",
+    "explanation": "Картинный словарь русского языка относится к справочным изданиям.",
+    "evidence": [
+      "Subject: Picture dictionaries",
+      "Subject: Russian language"
+    ],
+    "confidence": 0.99
+  },
+  {
+    "id": "ol-ol43818433w",
+    "title": "Русский язык и литература",
+    "author": "Т. Ф. Курдюмова",
+    "reason": "school_textbook",
+    "explanation": "Школьный учебник для одиннадцатого класса.",
+    "evidence": [
+      "Subject: Textbooks",
+      "Subject: Study and teaching (Secondary)",
+      "Subject: Eleventh grade"
+    ],
+    "confidence": 0.99
+  },
+  {
+    "id": "ol-ol20003994w",
+    "title": "Английский язык",
+    "author": "Т. В. Крижановская",
+    "reason": "language_learning_material",
+    "explanation": "Учебное издание для изучения английского языка.",
+    "evidence": [
+      "Subject: Study and teaching",
+      "Subject: English language",
+      "Subject: Russian speakers"
+    ],
+    "confidence": 0.98
+  },
+  {
+    "id": "ol-ol19864324w",
+    "title": "1000 вопросов и ответов о Гарри Поттере",
+    "author": "Анна Юрьевна Бирюкова",
+    "reason": "reference_material",
+    "explanation": "Справочник по персонажам и миру произведения, а не самостоятельная книга для рекомендательного чтения.",
+    "evidence": [
+      "Subject: Handbooks, manuals",
+      "Subject: Miscellanea"
+    ],
+    "confidence": 0.97
+  },
+  {
+    "id": "ol-ol43440940w",
+    "title": "Живые лица",
+    "author": "Т. В. Говенько",
+    "reason": "methodical_material",
+    "explanation": "Методическое руководство по авторству и детской литературе.",
+    "evidence": [
+      "Subject: Handbooks, manuals",
+      "Subject: Authorship",
+      "Subject: Children's literature, Russian"
+    ],
+    "confidence": 0.96
   }
 ]

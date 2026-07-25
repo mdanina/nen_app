@@ -25,6 +25,14 @@ export interface Book {
   author: string;
   shortDescription: string;
   fullDescription?: string;
+  annotationProvenance?: {
+    source: string | null;
+    sourceUrl?: string;
+    method: string;
+    evidenceField?: string;
+    verifiedAt: string;
+    copiedVerbatim: boolean;
+  };
   whyRecommended: string;
   editorialReason?: string;
   coverUrl?: string;

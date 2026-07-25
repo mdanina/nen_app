@@ -60,6 +60,8 @@ importers:
         specifier: latest
         version: 7.0.2
 
+  packages/import-core: {}
+
   packages/search:
     devDependencies:
       typescript:

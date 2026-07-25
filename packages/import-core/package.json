@@ -1,0 +1,12 @@
+{
+  "name": "@nen/import-core",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": "./src/index.mjs",
+  "types": "./src/types.d.ts",
+  "scripts": {
+    "test": "node --test src/import-core.test.mjs"
+  }
+}
+

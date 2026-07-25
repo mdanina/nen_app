@@ -1,0 +1,53 @@
+[
+  {
+    "id": "openlibrary",
+    "role": "bibliographic-import",
+    "adapterStatus": "implemented",
+    "homepage": "https://openlibrary.org/",
+    "licenseDocumentation": "https://openlibrary.org/developers/licensing",
+    "metadataReuse": "unknown-third-party-rights-may-remain",
+    "annotations": "store-verbatim-public-use-unknown",
+    "covers": "external-reference-only-public-use-unknown"
+  },
+  {
+    "id": "dnb",
+    "role": "bibliographic-import-and-enrichment",
+    "adapterStatus": "planned",
+    "homepage": "https://www.dnb.de/",
+    "licenseDocumentation": "https://www.dnb.de/EN/Professionell/Metadatendienste/metadatendienste_node.html",
+    "metadataReuse": "cc0",
+    "annotations": "determine-per-field",
+    "covers": "determine-per-object"
+  },
+  {
+    "id": "bnf",
+    "role": "bibliographic-import-and-enrichment",
+    "adapterStatus": "planned",
+    "homepage": "https://www.bnf.fr/",
+    "licenseDocumentation": "https://data.bnf.fr/en/licence",
+    "metadataReuse": "open-licence-attribution-required",
+    "annotations": "determine-per-field",
+    "covers": "determine-per-object"
+  },
+  {
+    "id": "loc",
+    "role": "verification-only",
+    "adapterStatus": "planned",
+    "homepage": "https://www.loc.gov/",
+    "licenseDocumentation": "https://www.loc.gov/legal/",
+    "metadataReuse": "determine-per-dataset",
+    "annotations": "determine-per-record",
+    "covers": "determine-per-object"
+  },
+  {
+    "id": "publisher",
+    "role": "contract-specific-import",
+    "adapterStatus": "template",
+    "homepage": null,
+    "licenseDocumentation": null,
+    "metadataReuse": "defined-by-agreement",
+    "annotations": "defined-by-agreement",
+    "covers": "defined-by-agreement"
+  }
+]
+

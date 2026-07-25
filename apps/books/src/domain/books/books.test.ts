@@ -4,7 +4,7 @@ import { collections } from "../../data/collections";
 import { emptyFilters, searchBooks } from "./filters";
 import { getPublicOfficialAgeRating } from "./ageRating";
 import { getSimilarBooks } from "./similarity";
-import { canUseNativeShare, copyTextWithFallback, getBookPermalink, getShareActionLabel, tryNativeShare } from "./share";
+import { canUseNativeShare, copyTextWithFallback, getBookPermalink, getShareActionLabel, shareWithCopyFallback, tryNativeShare } from "./share";
 import type { Book } from "./types";
 import { validateBooks } from "./validation";
 
@@ -18,6 +18,7 @@ describe("validateBooks", () => {
   it("отклоняет дубль произведения даже с другим id и slug", () => { const result = validateBooks([book(), book({ id: "2", slug: "two" })]); expect(result.items).toHaveLength(1); expect(result.issues.some((issue) => issue.field === "title")).toBe(true); });
   it("не принимает identified без ISBN", () => { const result = validateBooks([book({ identificationStatus: "identified", bookFormats: ["повесть"], lifeSituations: [], emotionalStates: [] })]); expect(result.items).toHaveLength(0); expect(result.issues.some((issue) => issue.field === "identificationStatus")).toBe(true); });
   it("не показывает внешнюю обложку без совпадающего ISBN", () => { const result = validateBooks([book({ identificationStatus: "identified", isbn13: "9785000000001", bookFormats: ["повесть"], lifeSituations: [], emotionalStates: [], sensitiveTopicsReviewed: true, cover: { kind: "external", url: "https://covers.openlibrary.org/b/isbn/9785000000002-L.jpg", rightsStatus: "external-display-only", isbn13: "9785000000002", temporary: true } })]); expect(result.items).toHaveLength(0); expect(result.issues.some((issue) => issue.field === "cover")).toBe(true); });
+  it("разрешает пустую аннотацию, если достоверного источника нет", () => { const result = validateBooks([book({ shortDescription: "" })]); expect(result.issues).toEqual([]); expect(result.items).toHaveLength(1); });
 });
 
 describe("searchBooks", () => {
@@ -85,6 +86,27 @@ describe("book sharing compatibility", () => {
 
   it("переходит к копированию, если webview отклоняет Web Share", async () => {
     expect(await tryNativeShare(data, { secure: true, share: async () => { throw new Error("blocked"); } })).toBe(false);
+  });
+
+  it("копирует ссылку тем же первым кликом, если desktop Chrome не поддерживает Web Share", async () => {
+    let copied = "";
+    expect(await shareWithCopyFallback(data, { secure: true }, {
+      clipboardWrite: async (text) => { copied = text; },
+      legacyCopy: () => false,
+    })).toBe("copied");
+    expect(copied).toBe(data.url);
+  });
+
+  it("копирует ссылку тем же первым кликом, если desktop Safari отклоняет Web Share", async () => {
+    let copied = "";
+    expect(await shareWithCopyFallback(data, {
+      secure: true,
+      share: async () => { throw new Error("not supported in this context"); },
+    }, {
+      clipboardWrite: async (text) => { copied = text; },
+      legacyCopy: () => false,
+    })).toBe("copied");
+    expect(copied).toBe(data.url);
   });
 
   it("использует DOM-fallback, если Clipboard API отклоняет запись", async () => {

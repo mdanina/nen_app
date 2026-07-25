@@ -1,0 +1,2829 @@
+[
+  {
+    "id": "ol-ol10337729w",
+    "description": "Крошечный Бибигон живёт рядом с автором и постоянно оказывается в необычных приключениях.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL10337729W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol10337735w",
+    "description": "Сборник сказок Корней Иванович Чуковский. В издание вошли фантастические и бытовые сюжеты с чудесными превращениями, животными и другими сказочными героями.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL10337735W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol10339221w",
+    "description": "Сборник объединяет сказки и истории Сергея Михалкова, среди которых «Три поросёнка», «Трусохвостик» и «Праздник непослушания». У каждого произведения самостоятельные герои и сюжет.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL10339221W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol10339227w",
+    "description": "Три поросёнка строят себе разные дома и пытаются перехитрить волка, который хочет до них добраться.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL10339227W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol10358155w",
+    "description": "Сборник рассказов Клавдии Лукашевич о детях, их друзьях и семейной жизни. Отдельные истории посвящены поступкам героев и их отношениям.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL10358155W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol11037508w",
+    "description": "Мальчик Алёша берёт домой щенка Кыша и учится отвечать за него. Во второй повести друзья вместе отправляются в Крым и снова попадают в приключения.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL11037508W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol11130081w",
+    "description": "Солдат получает волшебное кольцо и с его помощью справляется с испытаниями. Народная сказка в пересказе Андрея Платонова сохраняет разговорную интонацию и необычных помощников героя.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL11130081W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol11225343w",
+    "description": "Поросёнок Пётр собирается в гости и отправляется в дорогу. Простая поездка превращается в короткое абсурдное приключение.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL11225343W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol11388697w",
+    "description": "Подросток становится участником морских событий во время Великой Отечественной войны. Опасное плавание требует от него выдержки и быстрых решений.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL11388697W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol11483415w",
+    "description": "Воробей Антверпен, кот Михеев, столетник Вася и семья сороконожек живут рядом и оказываются связаны общими событиями. Их отношения складываются из ссор, помощи и неожиданных встреч.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL11483415W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol11630364w",
+    "description": "Школьник Бобка изобретает летающий стул и отправляется на нём в путь. Полёт приводит его к новым знакомым и неожиданным испытаниям.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL11630364W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol11764672w",
+    "description": "Сюжет связан с Ханукой — еврейским праздником света.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL11764672W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol1249149w",
+    "description": "Иллюстрированные пересказы народных сказов Урала.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL1249149W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol1249152w",
+    "description": "Сборник сказов Павла Бажова, действие которых связано с Уралом.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL1249152W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol12525630w",
+    "description": "Юный всадник отправляется выполнять опасное поручение. По дороге ему приходится проявить выдержку и принять решение в момент угрозы.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL12525630W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol12623265w",
+    "description": "Сборник сказок Владимир Бояринов. В издание вошли фантастические и бытовые сюжеты с чудесными превращениями, животными и другими сказочными героями.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL12623265W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol12689689w",
+    "description": "Школьники прячут тетради от дождя, но их затея приводит к новому недоразумению. В сборник вошли короткие юмористические рассказы Виктора Голявкина.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL12689689W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol12719103w",
+    "description": "Маленький поросёнок покидает привычное место и попадает в незнакомые ситуации. По дороге ему приходится разбираться с опасностями и новыми знакомыми.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL12719103W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol12822140w",
+    "description": "Короткие стихи Михаила Пляцковского обращаются к детским впечатлениям, природе и дружбе. Каждый текст сохраняет отдельную сцену или наблюдение.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL12822140W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol12822142w",
+    "description": "Стихи Михаила Пляцковского превращают полёт на облаке и другие детские фантазии в короткие сюжетные сценки. Герои мечтают, играют и наблюдают за миром.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL12822142W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol12849946w",
+    "description": "Мартышка, Слонёнок, Попугай и Удав каждый день придумывают новые занятия. Они измеряют рост Удава, учатся делать зарядку и спорят о самых обычных вещах.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL12849946W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol12849949w",
+    "description": "Маленькие обезьянки убегают от мамы и устраивают переполох в городе. Их игры и попытки помочь окружающим обычно заканчиваются неожиданно.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL12849949W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol12849951w",
+    "description": "Семья решает заняться физкультурой, но каждое упражнение превращается в шумное домашнее происшествие. Григорий Остер доводит полезные советы до комического абсурда.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL12849951W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol12866329w",
+    "description": "В мире этой сказки по воздуху проплывают необычные рыбки. Встреча с ними открывает героям пространство, где привычные законы перестают действовать.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL12866329W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol12951162w",
+    "description": "Старый башмак вспоминает собственные путешествия и людей, которым принадлежал. Через его рассказ обычная вещь становится свидетелем разных судеб и событий.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL12951162W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol1306122w",
+    "description": "Лесной колобок отправляется в путь и встречает разных обитателей леса. Знакомый сказочный ход превращается в историю о животных и природе.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL1306122W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol1306134w",
+    "description": "Сборник произведений Виталий Бянки. В книгу вошли рассказы и повести с разными героями и самостоятельными сюжетами.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL1306134W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol1306140w",
+    "description": "Ночной лес скрывает следы и голоса животных, которые днём остаются незаметными. Герои пытаются разобраться, кто живёт рядом и что происходит в темноте.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL1306140W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol1306145w",
+    "description": "Рассказы о животных, которые живут в лесу.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL1306145W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol13363741w",
+    "description": "Юнга Солнышкин мечтает о море и попадает на корабль. Служба превращается для него в череду испытаний, курьёзов и настоящих морских приключений.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL13363741W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol13663632w",
+    "description": "Приключения попугая по имени Кеша.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL13663632W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol13663633w",
+    "description": "Попугай Кеша мечтает о Таити и снова покидает дом в поисках лучшей жизни. Самостоятельность быстро сталкивает его с неудобствами, о которых он не думал.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL13663633W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol13682722w",
+    "description": "Георгий Скребицкий вспоминает людей и животных, с которыми дружил в детстве. Отдельные эпизоды соединяют семейную жизнь и наблюдения за природой.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL13682722W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol13710814w",
+    "description": "Маленький поросёнок отправляется знакомиться с миром и попадает в разные сказочные ситуации. Короткая история построена на его любопытстве и встречах.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL13710814W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol13710817w",
+    "description": "Сборник сказок Г. Цыферов. В издание вошли фантастические и бытовые сюжеты с чудесными превращениями, животными и другими сказочными героями.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL13710817W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol13710818w",
+    "description": "Иллюстрированные детские рассказы о животных.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL13710818W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol13713534w",
+    "description": "Девочка Вера дружит с обезьянкой Анфисой, которая живёт в её семье. Любопытство Анфисы превращает обычные домашние и городские дела в приключения.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL13713534W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol13713535w",
+    "description": "Большой сборник объединяет повести, рассказы, стихи и пьесы Эдуарда Успенского. В нём встречаются Чебурашка, жители Простоквашина и другие герои автора.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL13713535W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol13713536w",
+    "description": "Крокодил Гена отправляется в отпуск, но отдых быстро превращается в новое приключение. Друзья снова оказываются рядом, когда ему нужна помощь.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL13713536W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol13713537w",
+    "description": "Мальчик Яша постоянно нарушает правила и попадает в нелепые ситуации. Короткие рассказы доводят его логику до абсурда.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL13713537W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol13713540w",
+    "description": "Девочка Вера дружит с обезьянкой Анфисой, которая поселилась в её семье. Анфиса отправляется с Верой в детский сад и превращает обычные дела в приключения.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL13713540W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol13714296w",
+    "description": "Петя и медвежонок Потап знакомятся и становятся участниками общих приключений. Их дружба строится на любопытстве и попытках помочь друг другу.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL13714296W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol13715036w",
+    "description": "Новые приключения мальчика, его семьи и друзей.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL13715036W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol13715038w",
+    "description": "Дениска сталкивается с очередной взрослой фразой и понимает её буквально. Из недоразумения вырастает смешная семейная история.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL13715038W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol13727588w",
+    "description": "Приключения Львёнка, Черепахи и других животных.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL13727588W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol13727589w",
+    "description": "Сборник сказок Сергей Козлов. В издание вошли фантастические и бытовые сюжеты с чудесными превращениями, животными и другими сказочными героями.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL13727589W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol13727592w",
+    "description": "Медвежонок придумывает страну Тилимилитрямдию и дарит её Ёжику и Зайцу. Друзья отправляются туда на облаках и поздравляют друг друга необычным словом «трям».",
+    "source": "wikipedia",
+    "sourceUrl": "https://ru.wikipedia.org/wiki/%D0%A2%D1%80%D1%8F%D0%BC!_%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!",
+    "method": "independent_factual_description",
+    "evidenceField": "verified_work_summary"
+  },
+  {
+    "id": "ol-ol13727593w",
+    "description": "Иллюстрированный сборник историй о животных.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL13727593W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol13735521w",
+    "description": "Средневековые западноевропейские легенды в пересказе для детей.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL13735521W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol13736359w",
+    "description": "Домовёнок Кузька пытается помирить домовят, которые никак не могут договориться. Для этого ему приходится разбираться в их обидах и проделках.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL13736359W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol13736860w",
+    "description": "Послушная Маша и капризная Ойка оказываются в похожих ситуациях, но ведут себя по-разному. Короткие сказки строятся на их поступках и последствиях.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL13736860W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol13736861w",
+    "description": "Сборник сказок Софья Прокофьева. В издание вошли фантастические и бытовые сюжеты с чудесными превращениями, животными и другими сказочными героями.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL13736861W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol13736862w",
+    "description": "Сыщик, который ходит в одном башмаке, берётся за необычные загадки и рассказывает о собственных приключениях.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL13736862W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol13738508w",
+    "description": "Карандаш и Самоделкин отправляются на остров, где их ждут необычные жители и опасные испытания. Друзья используют рисунки, изобретения и взаимную помощь.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL13738508W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol13746366w",
+    "description": "Волк снова пытается догнать Зайца, но каждая погоня заканчивается новой неудачей. В книгу вошли истории по мотивам знакомых мультфильмов.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL13746366W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol13748004w",
+    "description": "Незнайка снова отправляется в путешествие и оказывается среди новых знакомых. Его самоуверенные решения запускают цепочку смешных и опасных приключений.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL13748004W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol13749472w",
+    "description": "Работники бюро находок разыскивают хозяев потерянных вещей. Каждый предмет приводит к отдельной истории и новому знакомству.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL13749472W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol13853930w",
+    "description": "Зоя находит волшебное озеро, которого не коснулась человеческая цивилизация. Чтобы жить в этом месте, ей приходится учиться у его животных и растений.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL13853930W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol18162861w",
+    "description": "Иван-царевич отправляется на поиски Марьи Моревны, похищенной Кощеем. Ему помогают животные и волшебные предметы, а путь проходит через владения сказочных сестёр.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL18162861W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol1897363w",
+    "description": "Стихи ведут ребёнка по буквам алфавита, превращая каждую остановку в небольшую сценку. Путешествие от А до Я построено на ритме и словесной игре.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL1897363W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol1897365w",
+    "description": "Богатая Кошка отказывает в приюте бедным котятам, а вскоре её собственный дом сгорает. Оставшись без жилья, она просит помощи у тех, кого раньше прогнала.",
+    "source": "wikipedia",
+    "sourceUrl": "https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D1%88%D0%BA%D0%B8%D0%BD_%D0%B4%D0%BE%D0%BC",
+    "method": "independent_factual_description",
+    "evidenceField": "verified_work_summary"
+  },
+  {
+    "id": "ol-ol19734604w",
+    "description": "Младший сын мельника получает в наследство кота, который обещает устроить судьбу хозяина. Хитрый Кот в сапогах обманывает людоеда и помогает юноше предстать перед королём богатым маркизом.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL19734604W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol19734608w",
+    "description": "Девочка заходит в дом трёх медведей, пока хозяев нет, и пробует их еду, стулья и кровати. Медведи возвращаются и обнаруживают следы незваной гостьи.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL19734608W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol19734609w",
+    "description": "Волк подслушивает песню козы и пытается обмануть козлят, оставшихся дома одних. Народная сказка предупреждает героев об опасности доверять незнакомому голосу.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL19734609W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol19734610w",
+    "description": "Лиса выгоняет Зайца из его лубяной избушки, и он просит помощи у разных животных. Только Петух решается прогнать Лису и вернуть Зайцу дом.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL19734610W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol19742113w",
+    "description": "Школьник получает двойки, но не теряет уверенности и постоянно придумывает объяснения своим неудачам. Его попытки исправить положение приводят к новым смешным ситуациям.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL19742113W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol19742114w",
+    "description": "Школьники оказываются связаны с путешествием во времени и получают возможность увидеть знакомые события с неожиданной стороны. Возвращение к пройденному материалу превращается для них в настоящее приключение.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL19742114W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol19747024w",
+    "description": "В книгу вошли стихи, сказки и другие произведения З. Александрова; Александр Сергеевич Пушкин. Состав издания объединяет короткие тексты для чтения вслух и более длинные сюжетные произведения.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL19747024W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol19862287w",
+    "description": "Сборник сказок А. Савченко. В издание вошли фантастические и бытовые сюжеты с чудесными превращениями, животными и другими сказочными героями.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL19862287W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol19931441w",
+    "description": "В книгу вошли короткие рассказы и сказки Константина Ушинского о животных. Звери действуют, спорят и попадают в ситуации, близкие к народной сказке.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL19931441W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol19931578w",
+    "description": "Школьник Петя мечтает, чтобы каникулы никогда не кончались, и получает такую возможность. Очень скоро бесконечный отдых оказывается не таким радостным, как он представлял.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL19931578W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol19931589w",
+    "description": "Ёжик и Медвежонок гуляют по лесу, ходят друг к другу в гости, спорят и придумывают необычные занятия. В сборник вошли сказки о дружбе двух героев.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL19931589W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol19931764w",
+    "description": "В книгу вошли рассказы Бориса Житкова о детях, путешествиях, животных и опасных ситуациях. Героям приходится действовать самостоятельно и отвечать за свои решения.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL19931764W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol19931868w",
+    "description": "Сборник басен Сергей Владимирович Михалков: коротких ироничных сюжетов, в которых человеческие привычки показаны через поступки людей и животных.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL19931868W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol19935840w",
+    "description": "Хрестоматия объединяет известные произведения детской классики: рассказы, сказки и стихи разных авторов. Тексты предназначены для последовательного знакомства с литературой.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL19935840W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol19935924w",
+    "description": "Сборник историй с разными животными в главных ролях.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL19935924W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol19935959w",
+    "description": "Сборник сказок Г. Цыферов. В издание вошли фантастические и бытовые сюжеты с чудесными превращениями, животными и другими сказочными героями.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL19935959W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol19935962w",
+    "description": "Тигр обнаруживает, что его шкура стала клетчатой, и пытается понять, как теперь жить с необычной внешностью. В сборник вошли сказочные истории Андрея Усачёва.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL19935962W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol19936377w",
+    "description": "В сборник входят три сказки: о волке, который хочет со всеми подружиться, о сове, не способной уснуть ночью, и о коте, покинувшем ферму ради города.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL19936377W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol19936571w",
+    "description": "Сборник поэм Александра Пушкина.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL19936571W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol19938743w",
+    "description": "Художественный рассказ о жизни композитора Петра Чайковского.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL19938743W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol19938770w",
+    "description": "Миша и его друзья решают самостоятельно вырастить цыплят. Ребята устраивают инкубатор и ухаживают за будущим выводком.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL19938770W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol19938773w",
+    "description": "Иллюстрированные рассказы Михаила Пришвина о животных.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL19938773W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol19940404w",
+    "description": "В сборник входят рассказы Валентины Осеевой о поступках детей и их отношениях с окружающими.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL19940404W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol19940427w",
+    "description": "Котёнок Гав знакомится со щенком Шариком, вместе прячется от грозы и выясняет, почему неприятности ждут именно на чердаке. В книгу вошли короткие истории о двух друзьях.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL19940427W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol19940429w",
+    "description": "Сборник басен Иван Андреевич Крылов: коротких ироничных сюжетов, в которых человеческие привычки показаны через поступки людей и животных.",
+    "source": "wikisource",
+    "sourceUrl": "https://ru.wikisource.org/wiki/%D0%91%D0%B0%D1%81%D0%BD%D0%B8_(%D0%9A%D1%80%D1%8B%D0%BB%D0%BE%D0%B2)",
+    "method": "independent_factual_description",
+    "evidenceField": "source_text_and_work_identity"
+  },
+  {
+    "id": "ol-ol19940648w",
+    "description": "В сборник вошли рассказы Бориса Житкова о детях, взрослых, животных и опасных происшествиях. Герои оказываются в ситуациях, где нужно быстро действовать и отвечать за свои решения.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL19940648W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol19940710w",
+    "description": "Львёнок лежит на солнце и поёт песню вместе с Черепахой. В сборник вошли сказки Сергея Козлова о знакомых героях.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL19940710W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol19940727w",
+    "description": "Сборник сказок Л. Кириллов; Мария Рудаченко. В издание вошли фантастические и бытовые сюжеты с чудесными превращениями, животными и другими сказочными героями.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL19940727W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol19944754w",
+    "description": "Рассказы и сказки о животных, написанные и проиллюстрированные Владимиром Сутеевым.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL19944754W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol19944755w",
+    "description": "Русские народные сказки и потешки.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL19944755W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol19951423w",
+    "description": "Мальчик Васютка теряется в тайге во время рыбалки. Ему приходится вспоминать советы взрослых, искать пищу и дорогу к людям.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL19951423W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol19952225w",
+    "description": "Три истории о животных.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL19952225W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol19952239w",
+    "description": "Сборник японских сказок в пересказе Веры Марковой. В историях действуют люди, животные и волшебные существа, а знакомые бытовые ситуации соседствуют с чудесами.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL19952239W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol19952245w",
+    "description": "На Сорочинскую ярмарку приезжают Солопий Черевик, его дочь Параска и её жених Грицько. Торговля, сватовство и слухи о красной свитке переплетаются в комической истории.",
+    "source": "wikisource",
+    "sourceUrl": "https://ru.wikisource.org/wiki/%D0%A1%D0%BE%D1%80%D0%BE%D1%87%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_%D1%8F%D1%80%D0%BC%D0%B0%D1%80%D0%BA%D0%B0_(%D0%93%D0%BE%D0%B3%D0%BE%D0%BB%D1%8C)%2FVII",
+    "method": "independent_factual_description",
+    "evidenceField": "source_text_and_work_identity"
+  },
+  {
+    "id": "ol-ol19952256w",
+    "description": "Евгений Чарушин наблюдает за животными, которые живут рядом с людьми во дворе. Короткие рассказы передают их повадки и небольшие происшествия.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL19952256W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol19952281w",
+    "description": "Сборник новогодних стихов, песенок и коротких историй для чтения перед праздником. Герои готовят ёлку, ждут Деда Мороза и встречают Новый год.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL19952281W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol19952284w",
+    "description": "В книгу вошли стихи, сказки и другие произведения Борис Акимович Акулиничев. Состав издания объединяет короткие тексты для чтения вслух и более длинные сюжетные произведения.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL19952284W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol19962766w",
+    "description": "Азбука знакомит с буквами через стихи, словесные игры и персонажа Буку. Каждая буква становится поводом для отдельной короткой сценки.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL19962766W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol19970109w",
+    "description": "Сборник сказок Валерий Кастрючин. В издание вошли фантастические и бытовые сюжеты с чудесными превращениями, животными и другими сказочными героями.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL19970109W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol19970111w",
+    "description": "Сборник сказок Валерий Кастрючин. В издание вошли фантастические и бытовые сюжеты с чудесными превращениями, животными и другими сказочными героями.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL19970111W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol19970113w",
+    "description": "Герой получает возможность загадать желание и обнаруживает, что исполнение задуманного приносит неожиданные последствия. Сказочное событие меняет его обычный день.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL19970113W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol19970117w",
+    "description": "Маша не может уснуть и решает, что виновата неудобная подушка. Она пробует устроиться в других местах, прежде чем снова оценить собственную постель.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL19970117W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol19970124w",
+    "description": "В книгу вошли стихи, сказки и другие произведения Самуил Маршак. Состав издания объединяет короткие тексты для чтения вслух и более длинные сюжетные произведения.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL19970124W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol19970128w",
+    "description": "Короткие рассказы для детей.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL19970128W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol19970129w",
+    "description": "Принцесса Белоножка живёт среди тех, кто привык исполнять её желания. Неожиданная встреча заставляет её иначе взглянуть на любовь и заботу.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL19970129W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol19970140w",
+    "description": "Большой сборник стихов и рассказов Андрея Усачёва. В книгу вошли юмористические, сказочные и повседневные сюжеты для детей.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL19970140W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol19970141w",
+    "description": "Знакомая сказка о Колобке получает новую версию, в которой события и герои оказываются не совсем такими, как принято рассказывать. Автор играет с ожиданиями читателя.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL19970141W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol19972711w",
+    "description": "Ребёнок пытается понять, почему папы нет рядом и что происходит в семье. Повседневные события показаны с точки зрения того, кто ждёт возвращения близкого человека.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL19972711W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol19973701w",
+    "description": "Деревенский парень Вася Куролесов едет на базар за поросёнком, но покупка оказывается собакой. После этой встречи Вася попадает в милицейское расследование.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL19973701W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol19978347w",
+    "description": "В книгу вошли рассказы Виктора Драгунского о Дениске Кораблёве. Школьные, дворовые и семейные события показаны глазами любопытного мальчика.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL19978347W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol19978354w",
+    "description": "В сборник вошли короткие стихи, потешки и сказки для чтения детям младшего возраста. Тексты рассчитаны на чтение вслух и знакомство с ритмом речи.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL19978354W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol19978369w",
+    "description": "Катя не хочет делиться с Леной зелёным карандашом, хотя сама почти им не пользуется. Обычная школьная ситуация показывает, как жадность влияет на дружбу.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL19978369W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol19978370w",
+    "description": "Сборник сказок Григорий Остер. В издание вошли фантастические и бытовые сюжеты с чудесными превращениями, животными и другими сказочными героями.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL19978370W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol19978383w",
+    "description": "Геннадий Снегирёв вспоминает встречи с животными и события, происходившие во время охоты. Короткие рассказы передают наблюдения автора за природой.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL19978383W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol19978384w",
+    "description": "Большой сборник сказок Владимира Сутеева о животных, детях и волшебных происшествиях. Многие истории автор сам проиллюстрировал.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL19978384W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol19978387w",
+    "description": "Сборник историй Владимира Сутеева, в которых героям приходится разгадывать непонятные происшествия. Рисунки автора помогают следить за событиями и замечать подсказки.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL19978387W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol19978398w",
+    "description": "Дядя Фёдор, кот Матроскин, пёс Шарик и почтальон Печкин снова встречаются в Простоквашино. В книгу вошли старые и новые истории об их деревенской жизни.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL19978398W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol19978399w",
+    "description": "Сборник сказок Едуард Успенский. В издание вошли фантастические и бытовые сюжеты с чудесными превращениями, животными и другими сказочными героями.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL19978399W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol19978404w",
+    "description": "Урфин Джюс снова пытается захватить власть в Волшебной стране. Жители Изумрудного города и их друзья оказываются втянуты в новую борьбу за город.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL19978404W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol19978405w",
+    "description": "В Волшебную страну прибывают космические пришельцы, намеренные захватить Землю. Жители страны и их друзья пытаются остановить менвитов и помочь порабощённым арзакам.",
+    "source": "wikipedia",
+    "sourceUrl": "https://ru.wikipedia.org/wiki/%D0%A2%D0%B0%D0%B9%D0%BD%D0%B0_%D0%B7%D0%B0%D0%B1%D1%80%D0%BE%D1%88%D0%B5%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE_%D0%B7%D0%B0%D0%BC%D0%BA%D0%B0",
+    "method": "independent_factual_description",
+    "evidenceField": "verified_work_summary"
+  },
+  {
+    "id": "ol-ol19978419w",
+    "description": "В книгу вошли рассказы о собаках разных пород и характеров. Герои живут рядом с людьми, участвуют в приключениях и проявляют собственные привычки.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL19978419W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol19978428w",
+    "description": "Сборник сказок Л. Сидорова. В издание вошли фантастические и бытовые сюжеты с чудесными превращениями, животными и другими сказочными героями.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL19978428W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol19987346w",
+    "description": "В сборник входят рассказы о школьниках и событиях их повседневной жизни.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL19987346W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol19987356w",
+    "description": "Две юмористические истории о животных.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL19987356W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol19987358w",
+    "description": "Крокодил Гена и Чебурашка знакомятся, строят дом для друзей и противостоят проделкам старухи Шапокляк. В книгу вошли несколько историй об их приключениях.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL19987358W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol20003986w",
+    "description": "В книгу вошли четыре приключения Алисы Селезнёвой. Она посещает необычные планеты, сталкивается с инопланетными существами и участвует в событиях, которые начинаются далеко от Земли.",
+    "source": "wikipedia",
+    "sourceUrl": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B8%D0%BB%D0%BB%D0%B8%D0%BE%D0%BD_%D0%BF%D1%80%D0%B8%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D0%B9",
+    "method": "independent_factual_description",
+    "evidenceField": "verified_work_summary"
+  },
+  {
+    "id": "ol-ol20003999w",
+    "description": "Доктор хранит в жёлтом чемоданчике необычные лекарства от трусости и грусти. Когда чемоданчик оказывается перепутан, доктор и дети пытаются вернуть его и помочь тем, кому предназначались лекарства.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL20003999W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol20004001w",
+    "description": "Лабрадор-поводырь Трисон рассказывает о своей работе и людях, которым он помогает. Вместе с хозяином он оказывается в ситуациях, где особенно важны доверие и взаимопонимание.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL20004001W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol20004004w",
+    "description": "Сборник сказок Константин Дмитриевич Ушинский. В издание вошли фантастические и бытовые сюжеты с чудесными превращениями, животными и другими сказочными героями.",
+    "source": "wikisource",
+    "sourceUrl": "https://ru.wikisource.org/wiki/%D0%A1%D0%BA%D0%B0%D0%B7%D0%BA%D0%B8_(%D0%A3%D1%88%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9)",
+    "method": "independent_factual_description",
+    "evidenceField": "source_text_and_work_identity"
+  },
+  {
+    "id": "ol-ol20015184w",
+    "description": "Чебурашка и Крокодил Гена строят дом для друзей, знакомятся с новыми героями и сталкиваются с проделками Шапокляк. В сборник вошли основные истории цикла.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL20015184W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol20015186w",
+    "description": "Сборник сказок Корней Иванович Чуковский. В издание вошли фантастические и бытовые сюжеты с чудесными превращениями, животными и другими сказочными героями.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL20015186W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol20015192w",
+    "description": "Три поросёнка строят себе дома из разных материалов. Когда приходит волк, каждому приходится проверить, насколько надёжно его жилище.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL20015192W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol20016949w",
+    "description": "Сборник пересказывает русские былины о богатырях. Герои защищают города, сражаются с противниками и отправляются в дальние походы.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL20016949W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol20016950w",
+    "description": "Сборник сказок Григорий Остер. В издание вошли фантастические и бытовые сюжеты с чудесными превращениями, животными и другими сказочными героями.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL20016950W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol20020633w",
+    "description": "Рассказы от лица мальчика.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL20020633W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol20025742w",
+    "description": "Человек пытается объяснить другому, как нарисовать птицу, но его последовательные указания приводят к совершенно неожиданному результату. Абсурдная цепочка событий построена на рисунках и коротких репликах.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL20025742W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol20025743w",
+    "description": "В сборник вошли русские былины о Садко и других богатырях. Герои отправляются в дальние земли, встречают чудесных противников и защищают свой народ.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL20025743W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol20030843w",
+    "description": "Ёжик и Медвежонок замечают, что звёзды потускнели, и решают протереть их. В книгу вошли сказочные истории о двух друзьях и их лесных соседях.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL20030843W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol20030854w",
+    "description": "Волк подслушивает песню козы и пытается выдать себя за неё, чтобы попасть к козлятам. Народная сказка следует за попытками хищника обмануть героев.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL20030854W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol20043968w",
+    "description": "Алиса Селезнёва приезжает в заповедник, где живут персонажи сказок и легенд. Когда привычный порядок нарушается, ей приходится разбираться в исчезновениях и опасных переменах.",
+    "source": "wikipedia",
+    "sourceUrl": "https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%BF%D0%BE%D0%B2%D0%B5%D0%B4%D0%BD%D0%B8%D0%BA_%D1%81%D0%BA%D0%B0%D0%B7%D0%BE%D0%BA",
+    "method": "independent_factual_description",
+    "evidenceField": "verified_work_summary"
+  },
+  {
+    "id": "ol-ol20043973w",
+    "description": "Сборник русских потешек, песенок и коротких стихов с иллюстрациями Юрия Васнецова. Тексты построены на ритме, повторах и образах животных.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL20043973W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol20043979w",
+    "description": "Второклассник Иван Семёнов больше всего не любит учиться и постоянно ищет способ уклониться от занятий. Его затеи превращают школьные будни в цепочку комических происшествий.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL20043979W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol20043982w",
+    "description": "В книгу вошли рассказы Виктора Драгунского о Дениске, его родителях и друзьях. Семейные и школьные события показаны глазами мальчика, который часто понимает происходящее по-своему.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL20043982W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol20043983w",
+    "description": "Рассказчик живёт у моря вместе с псом Рябкой и однажды встречает кошку, привыкшую выживать на воле. Он пытается приручить её и защитить от диких собак.",
+    "source": "wikisource",
+    "sourceUrl": "https://ru.wikisource.org/wiki/%D0%91%D0%B5%D1%81%D0%BF%D1%80%D0%B8%D0%B7%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_%D0%BA%D0%BE%D1%88%D0%BA%D0%B0_(%D0%96%D0%B8%D1%82%D0%BA%D0%BE%D0%B2)",
+    "method": "independent_factual_description",
+    "evidenceField": "source_text_and_work_identity"
+  },
+  {
+    "id": "ol-ol20043999w",
+    "description": "Герои сталкиваются с ситуациями, в которых простое вежливое слово меняет разговор и отношение окружающих. В книгу вошли стихи и короткие истории Эммы Мошковской.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL20043999W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol20044016w",
+    "description": "В книгу вошли загадки Л. М. Карпенко. Короткие рифмованные тексты предлагают узнать предметы, животных и явления по их признакам.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL20044016W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol20044018w",
+    "description": "В книгу вошли загадки М. Ф. Коршунова. Короткие рифмованные тексты предлагают узнать предметы, животных и явления по их признакам.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL20044018W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol21270454w",
+    "description": "Мальчик ссорится с близкими и решает никогда не просить прощения. Зимняя прогулка заставляет его по-новому увидеть свой поступок и отношения с окружающими.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL21270454W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol21271027w",
+    "description": "Сборник сказок и преданий, подготовленный М. Мельниченко. В книгу вошли произведения разных народов или авторов, объединённые фольклорными сюжетами и чудесными событиями.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL21271027W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol21379294w",
+    "description": "Иллюстрированный сборник волшебных сказок.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL21379294W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol2140895w",
+    "description": "В книгу вошли стихи, сказки и другие произведения Борис Владимирович Заходер. Состав издания объединяет короткие тексты для чтения вслух и более длинные сюжетные произведения.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL2140895W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol21485716w",
+    "description": "Сборник русских народных и волшебных сказок.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL21485716W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol2189766w",
+    "description": "Сборник сказок Николай Носов. В издание вошли фантастические и бытовые сюжеты с чудесными превращениями, животными и другими сказочными героями.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL2189766W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol2189778w",
+    "description": "Иллюстрированный сборник рассказов Николая Носова.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL2189778W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol2189783w",
+    "description": "Незнайка вместе с Пончиком отправляется на Луну и попадает в общество, где всё продаётся и покупается. Друзья оказываются по разные стороны лунной жизни и ищут путь домой.",
+    "source": "wikipedia",
+    "sourceUrl": "https://ru.wikipedia.org/wiki/%D0%9D%D0%B5%D0%B7%D0%BD%D0%B0%D0%B9%D0%BA%D0%B0_%D0%BD%D0%B0_%D0%9B%D1%83%D0%BD%D0%B5",
+    "method": "independent_factual_description",
+    "evidenceField": "verified_work_summary"
+  },
+  {
+    "id": "ol-ol2256574w",
+    "description": "Бедный Ванька получает волшебное кольцо, которое исполняет желания. Вместе с необычными помощниками он пытается устроить свою жизнь и добиться справедливости.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL2256574W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol22792562w",
+    "description": "В книгу вошли загадки Е. А. Нёмысова. Короткие рифмованные тексты предлагают узнать предметы, животных и явления по их признакам.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL22792562W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol23178263w",
+    "description": "Разные животные собираются вместе и пытаются договориться, несмотря на несхожие привычки и характеры. Их встреча приводит к спорам и смешным происшествиям.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL23178263W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol23311994w",
+    "description": "Солнечный зайчик появляется в комнате и отправляется в путь по знакомым предметам. Герои пытаются поймать его и следят за его движением.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL23311994W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol23679291w",
+    "description": "Сборник произведений Б. Р. Акбулатов. В книгу вошли рассказы и повести с разными героями и самостоятельными сюжетами.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL23679291W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol23852449w",
+    "description": "Сборник коротких детских анекдотов о школе, семье и повседневных недоразумениях. Каждый эпизод строится на неожиданной реплике или перевёрнутой логике.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL23852449W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol23925164w",
+    "description": "Сборник сказок Владимир Снарков. В издание вошли фантастические и бытовые сюжеты с чудесными превращениями, животными и другими сказочными героями.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL23925164W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol24010186w",
+    "description": "Сборник сказок и преданий, подготовленный Е. В. Белоусов. В книгу вошли произведения разных народов или авторов, объединённые фольклорными сюжетами и чудесными событиями.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL24010186W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol24163393w",
+    "description": "Сборник сказок и преданий, подготовленный И. С. Чепловодская. В книгу вошли произведения разных народов или авторов, объединённые фольклорными сюжетами и чудесными событиями.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL24163393W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol24174231w",
+    "description": "Сборник сказок в адаптации и пересказе Леонида Яхнина.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL24174231W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol24254704w",
+    "description": "В деревне Дедморозовке живут Дед Мороз, Снеговики и Снеговички. Они учатся, готовятся к праздникам и попадают в зимние приключения.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL24254704W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol24260394w",
+    "description": "Короткие стихи знакомят малышей с животными зоопарка. Каждому зверю посвящена небольшая ритмичная зарисовка.",
+    "source": "wikipedia",
+    "sourceUrl": "https://ru.wikipedia.org/wiki/%D0%94%D0%B5%D1%82%D0%BA%D0%B8_%D0%B2_%D0%BA%D0%BB%D0%B5%D1%82%D0%BA%D0%B5",
+    "method": "independent_factual_description",
+    "evidenceField": "verified_work_summary"
+  },
+  {
+    "id": "ol-ol24287044w",
+    "description": "В начале каникул Вильке предлагают роль в настоящем фильме. Её друзья тем временем замечают странное поведение продюсера, который что-то ищет в старой усадьбе, где проходят съёмки.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL24287044W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol24299231w",
+    "description": "Собака становится участником семейных и дворовых происшествий. Её поведение связывает героев и меняет привычный ход их жизни.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL24299231W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol24300702w",
+    "description": "Суслик и Хома рассказывают друг другу страшные истории, но вскоре сами пугаются происходящего вокруг. Ночная встреча проверяет их храбрость и дружбу.",
+    "source": "wikipedia",
+    "sourceUrl": "https://ru.wikipedia.org/wiki/%D0%A1%D1%82%D1%80%D0%B0%D1%88%D0%BD%D0%B0%D1%8F_%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F",
+    "method": "independent_factual_description",
+    "evidenceField": "verified_work_summary"
+  },
+  {
+    "id": "ol-ol24304521w",
+    "description": "Серьёзный и самостоятельный мальчик по прозвищу Дядя Фёдор уходит из дома, когда родители не разрешают оставить говорящего кота. Вместе с котом Матроскиным и псом Шариком он поселяется в деревенском доме.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL24304521W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol24641048w",
+    "description": "Кошку зовут Мышкой, и необычное имя постоянно становится поводом для словесной игры. Короткие стихи наблюдают за домашним животным и его привычками.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL24641048W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol24685033w",
+    "description": "Детские стихи о вежливых словах и правилах поведения.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL24685033W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol24990110w",
+    "description": "В книгу вошли стихи, сказки и другие произведения Владимир Сутеев. Состав издания объединяет короткие тексты для чтения вслух и более длинные сюжетные произведения.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL24990110W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol2577056w",
+    "description": "После Троянской войны Одиссей много лет возвращается домой на Итаку. На пути он встречает циклопа, волшебницу Кирку, сирен и другие опасности.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL2577056W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol26194182w",
+    "description": "Юмористические короткие рассказы о друзьях.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL26194182W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol26194671w",
+    "description": "Рассказы и сказки Константина Паустовского.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL26194671W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol26436413w",
+    "description": "Пёс Лопух берётся за расследование и идёт по следу, пытаясь найти разгадку происшествия. Поиски приводят его к новым уликам и встречам.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL26436413W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol26439170w",
+    "description": "Сборник стихов Татьяны Боковой о семье, природе, играх и повседневных открытиях ребёнка. Каждый текст посвящён отдельной сцене или наблюдению.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL26439170W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol26450738w",
+    "description": "Кролик Пеллетс и его друзья живут на волшебной поляне. С ними происходят сказочные приключения, в которых участвуют звери и птицы.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL26450738W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol26451365w",
+    "description": "Жираф решает поиграть в прятки, но высокий рост и длинная шея мешают ему спрятаться. Герой пробует разные способы стать незаметным.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL26451365W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol26451498w",
+    "description": "Русские легенды и народные сказки о богатырях в пересказе для детей.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL26451498W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol26451550w",
+    "description": "Славянские предания, легенды и сказания в пересказе для детей.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL26451550W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol26451582w",
+    "description": "Пять русских народных сказок в адаптации для детей.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL26451582W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol26451735w",
+    "description": "На балкон Маши прилетает почтовый голубь. Ребята из компании с Большой Спасской начинают искать его хозяина и сталкиваются с неожиданной находкой.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL26451735W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol26452135w",
+    "description": "В сказках действуют животные, которые ссорятся, не помогают друг другу и ведут себя как непослушные дети.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL26452135W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol26452833w",
+    "description": "Пересказ мифа о двенадцати подвигах Геракла.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL26452833W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol27036921w",
+    "description": "Семья белок отправляется в гости к семье барсуков, чтобы вместе встретить Новый год. Друзья готовятся к празднику и проводят его в лесу.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL27036921W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol27057363w",
+    "description": "В книгу вошли юмористические рассказы Виктора Голявкина о школьниках. Герои спорят, хвастаются и пытаются выйти из неловких ситуаций.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL27057363W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol27057369w",
+    "description": "Новогодний сборник рассказов и стихов.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL27057369W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol27057405w",
+    "description": "Короткие современные сказки разных авторов для чтения перед сном.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL27057405W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol27058688w",
+    "description": "Герои готовят подарок для Снегурочки и стараются сохранить новогодний сюрприз. Подготовка приводит их к сказочным встречам и неожиданным трудностям.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL27058688W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol27059814w",
+    "description": "Сборник стихов и сказок Самуила Маршака.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL27059814W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol27059846w",
+    "description": "Девочка получает волшебную иголочку, которая помогает ей преодолеть испытания. Дорога приводит героиню к встречам с теми, кому нужны её смелость и доброта.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL27059846W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol27060058w",
+    "description": "Короткие рассказы о детях, животных и природе российской деревни.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL27060058W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol27061853w",
+    "description": "Озорная кукла Петрушка вместе с друзьями и собакой вступает в борьбу с жестоким старым царём и его войском.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL27061853W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol27683025w",
+    "description": "Петя Васин и Вася Петин записывают в дневнике приключения, которые придумывают и переживают вместе.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL27683025W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol27683206w",
+    "description": "Сборник сказок для детей дошкольного возраста.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL27683206W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol27683207w",
+    "description": "Загадки, считалки и скороговорки о городе и улицах.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL27683207W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol27683336w",
+    "description": "Русские народные сказки в пересказах детских писателей.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL27683336W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol27684257w",
+    "description": "Сказочный роман Григория Остера для младших читателей.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL27684257W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol27687565w",
+    "description": "Сёстры Белочка и Тамарочка попадают в разные домашние и уличные происшествия. Их самостоятельные решения часто приводят к неожиданным последствиям.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL27687565W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol27690143w",
+    "description": "Герои волшебного леса участвуют в событиях, связанных с зимними видами спорта и Олимпийскими играми.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL27690143W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol27732268w",
+    "description": "Короткие юмористические рассказы о приключениях маленьких животных.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL27732268W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol2784137w",
+    "description": "Цыплёнок наблюдает, как наступает вечер и меняется знакомый мир вокруг него. Небольшая сказка следует за героем во время его вечерних встреч.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL2784137W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol27956537w",
+    "description": "Хомяк Хома и его друг Суслик постоянно затевают новые дела и попадают в смешные переделки. Короткие истории строятся на их спорах, хитростях и примирениях.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL27956537W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol27956799w",
+    "description": "Короткие стихи и истории в стихах.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL27956799W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol27957124w",
+    "description": "Сборник сказок Анастасия Столбова. В издание вошли фантастические и бытовые сюжеты с чудесными превращениями, животными и другими сказочными героями.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL27957124W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol27957754w",
+    "description": "Сборник сказок Г. Цыферов. В издание вошли фантастические и бытовые сюжеты с чудесными превращениями, животными и другими сказочными героями.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL27957754W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol27958552w",
+    "description": "Гераклу предстоит выполнить двенадцать заданий, которые считаются невозможными. Он сражается с чудовищами, добывает редкие предметы и отправляется в далёкие земли.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL27958552W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol27961556w",
+    "description": "Адаптированные русские народные сказки.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL27961556W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol27962006w",
+    "description": "Герои живут в маленьком домике рядом с переходом, где каждый день проходят разные люди и происходят неожиданные встречи. Обычное городское место становится центром сказочных событий.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL27962006W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol27963690w",
+    "description": "Сборник немецких народных сказок для детей.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL27963690W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol28167918w",
+    "description": "Сборник рассказов о животных.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL28167918W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol28170377w",
+    "description": "В книгу вошли стихи, сказки и другие произведения Михаил Юрьевич Лермонтов. Состав издания объединяет короткие тексты для чтения вслух и более длинные сюжетные произведения.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL28170377W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol28589215w",
+    "description": "Сборник сказок Григорий Остер. В издание вошли фантастические и бытовые сюжеты с чудесными превращениями, животными и другими сказочными героями.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL28589215W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol28758462w",
+    "description": "Русская версия английской сказки о трёх поросятах и волке.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL28758462W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol29230428w",
+    "description": "Попугай Кеша снова убегает от Вовки и пытается начать самостоятельную жизнь. Его хвастовство и стремление к приключениям приводят к новым неприятностям.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL29230428W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol29232680w",
+    "description": "В Простоквашино появляется тётя Дяди Фёдора и нарушает привычную жизнь друзей. Героям приходится разбираться с её планами и новым побегом.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL29232680W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol29237286w",
+    "description": "Народные сказки, героями которых становятся животные.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL29237286W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol29238560w",
+    "description": "В книгу входят две истории: одна о козлёнке, другая об утёнке.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL29238560W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol29238566w",
+    "description": "В сборник входят три детские сказки.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL29238566W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol29316911w",
+    "description": "Большой сборник сказок Виталия Бианки о лесных животных и птицах. Герои спасаются от опасности, ищут дом и узнают устройство лесной жизни.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL29316911W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol29317511w",
+    "description": "Иллюстрированные русские народные сказки.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL29317511W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol29318247w",
+    "description": "Рыжий герой отправляется в сказочное путешествие и встречает тех, кто по-разному относится к его необычной внешности. Повествование строится на тихих разговорах и лесных встречах.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL29318247W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol31195113w",
+    "description": "Сборник сказок Григорий Остер. В издание вошли фантастические и бытовые сюжеты с чудесными превращениями, животными и другими сказочными героями.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL31195113W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol31578033w",
+    "description": "Домовёнок Фока живёт рядом с людьми и другими сказочными существами. Вместе с друзьями он защищает дом и разбирается с необычными происшествиями.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL31578033W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol32094509w",
+    "description": "Сборник сказок Константин Дмитриевич Бальмонт. В издание вошли фантастические и бытовые сюжеты с чудесными превращениями, животными и другими сказочными героями.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL32094509W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol32513596w",
+    "description": "Сборник сказок Юлия Яковлева. В издание вошли фантастические и бытовые сюжеты с чудесными превращениями, животными и другими сказочными героями.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL32513596W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol32668434w",
+    "description": "Геннадий Снегирёв наблюдает за северными оленями, их привычками и жизнью рядом с людьми. Короткие рассказы основаны на встречах с животными.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL32668434W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol32668464w",
+    "description": "Животные спорят, где зимуют раки, и отправляются искать ответ. Поиски превращаются в лесное приключение.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL32668464W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol32843984w",
+    "description": "Сборник басен Дмитрий Исидорович Митрохин: коротких ироничных сюжетов, в которых человеческие привычки показаны через поступки людей и животных.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL32843984W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol32966487w",
+    "description": "Маленький щенок впервые отправляется на охоту и пытается поймать разных лесных животных. Каждый из них спасается по-своему, а щенок узнаёт, как они защищаются.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL32966487W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol33083556w",
+    "description": "Царь Дадон получает золотого петушка, который предупреждает его о приближении врага. Когда опасность отступает, царю приходится выполнить обещание, данное мудрецу.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL33083556W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol33098425w",
+    "description": "Девочка заботится о маленьком котёнке: укладывает его спать, купает, кормит и пытается научить говорить. Котёнок упрямится, а со временем оба становятся старше.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL33098425W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol33100014w",
+    "description": "Кот Васька оказывается в центре событий деревенской жизни. Рассказ наблюдает за его повадками, отношениями с людьми и другими животными.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL33100014W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol33286452w",
+    "description": "Сборник сказок Александр Сергеевич Пушкин. В издание вошли фантастические и бытовые сюжеты с чудесными превращениями, животными и другими сказочными героями.",
+    "source": "wikipedia",
+    "sourceUrl": "https://ru.wikipedia.org/wiki/%D0%A1%D0%BA%D0%B0%D0%B7%D0%BA%D0%B8_%D0%9F%D1%83%D1%88%D0%BA%D0%B8%D0%BD%D0%B0",
+    "method": "independent_factual_description",
+    "evidenceField": "verified_work_summary"
+  },
+  {
+    "id": "ol-ol33497304w",
+    "description": "Царицу и маленького князя Гвидона по навету отправляют в море. Они спасаются на острове, где князь встречает царевну Лебедь и получает возможность увидеть отца.",
+    "source": "wikipedia",
+    "sourceUrl": "https://ru.wikipedia.org/wiki/%D0%A1%D0%BA%D0%B0%D0%B7%D0%BA%D0%B0_%D0%BE_%D1%86%D0%B0%D1%80%D0%B5_%D0%A1%D0%B0%D0%BB%D1%82%D0%B0%D0%BD%D0%B5",
+    "method": "independent_factual_description",
+    "evidenceField": "verified_work_summary"
+  },
+  {
+    "id": "ol-ol3398755w",
+    "description": "Ребята отправляются на остров, где наблюдают за дельфинами и другими морскими животными. Приключение соединяет встречи с природой и жизнь у моря.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL3398755W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol35588586w",
+    "description": "Сборник пересказывает древние мифы народов Казахстана. В них появляются боги, герои, животные и объяснения происхождения мира и природных явлений.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL35588586W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol3803771w",
+    "description": "Лесные птицы и звери становятся героями коротких рассказов Георгия Скребицкого. События разворачиваются в природе и передают наблюдения за поведением животных.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL3803771W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol38419438w",
+    "description": "Сборник произведений Н. М. Беркова. В книгу вошли рассказы и повести с разными героями и самостоятельными сюжетами.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL38419438W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol38508810w",
+    "description": "Короткое стихотворное произведение с иллюстрациями Владимира Лебедева показывает героя верхом во время движения. Ритм текста передаёт темп поездки.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL38508810W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol38509253w",
+    "description": "Дети работают в огороде, наблюдают за ростом растений и собирают урожай. Стихотворный текст следует за их общим делом.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL38509253W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol38533455w",
+    "description": "Животные выясняют, кто просыпается раньше всех и как начинается день у каждого из них. Спор приводит героев к наблюдениям за соседями.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL38533455W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol38539262w",
+    "description": "Виктор Голявкин соединяет короткие школьные истории и рисунки. Герои считают, спорят и попадают в смешные ситуации из-за поспешных решений.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL38539262W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol38553160w",
+    "description": "Младшие школьники вместе выращивают овощи на огороде и распределяют между собой работу.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL38553160W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol39000655w",
+    "description": "Сборник сказок Това Хершковитз. В издание вошли фантастические и бытовые сюжеты с чудесными превращениями, животными и другими сказочными героями.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL39000655W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol39493108w",
+    "description": "Миша и Даня запускают бумажного змея, и обычная игра становится началом общего приключения. Мальчикам приходится действовать вместе, когда змей уносит их дальше задуманного.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL39493108W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol3972293w",
+    "description": "В книгу вошли первые три повести о Волшебной стране: знакомство Элли с её жителями, возвращение Урфина Джюса и история подземных королей. Герои снова защищают страну и помогают её обитателям.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL3972293W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol40732659w",
+    "description": "Волк пытается обманом попасть в дом к козлятам, пока их мать отсутствует. Козлятам приходится узнать опасность и дождаться возвращения козы.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL40732659W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol40738595w",
+    "description": "В книгу вошли загадки Корней Чуковский. Короткие рифмованные тексты предлагают узнать предметы, животных и явления по их признакам.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL40738595W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol42201958w",
+    "description": "Ёжик идёт в гости к Медвежонку и по дороге входит в густой туман. В незнакомом пространстве он встречает странных обитателей и пытается не потерять дорогу.",
+    "source": "wikipedia",
+    "sourceUrl": "https://ru.wikipedia.org/wiki/%D0%81%D0%B6%D0%B8%D0%BA_%D0%B2_%D1%82%D1%83%D0%BC%D0%B0%D0%BD%D0%B5",
+    "method": "independent_factual_description",
+    "evidenceField": "verified_work_summary"
+  },
+  {
+    "id": "ol-ol4248290w",
+    "description": "Сборник произведений Валерий Алексеев. В книгу вошли рассказы и повести с разными героями и самостоятельными сюжетами.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL4248290W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol4263274w",
+    "description": "Сборник сказок Владимир Сутеев. В издание вошли фантастические и бытовые сюжеты с чудесными превращениями, животными и другими сказочными героями.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL4263274W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol4263277w",
+    "description": "Сборник сказок Владимир Сутеев. В издание вошли фантастические и бытовые сюжеты с чудесными превращениями, животными и другими сказочными героями.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL4263277W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol4263283w",
+    "description": "Сборник сказок Владимир Сутеев. В издание вошли фантастические и бытовые сюжеты с чудесными превращениями, животными и другими сказочными героями.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL4263283W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol4263287w",
+    "description": "Школьник попадает в магазин, где за хорошие отметки можно получить необычные товары. Покупки быстро показывают, что волшебная помощь не заменяет собственных усилий.",
+    "source": "wikipedia",
+    "sourceUrl": "https://ru.wikipedia.org/wiki/%D0%92%D0%BE%D0%BB%D1%88%D0%B5%D0%B1%D0%BD%D1%8B%D0%B9_%D0%BC%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD",
+    "method": "independent_factual_description",
+    "evidenceField": "verified_work_summary"
+  },
+  {
+    "id": "ol-ol42821653w",
+    "description": "Сборник сказок и преданий, подготовленный Е. И. Фадеева. В книгу вошли произведения разных народов или авторов, объединённые фольклорными сюжетами и чудесными событиями.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL42821653W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol43308391w",
+    "description": "Молодой песец Наполеон Третий убегает со зверофермы и оказывается в деревне Ковылкино. Школьник Лёша Серпокрылов пытается спасти недопеска и вернуть ему свободу.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL43308391W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol43489248w",
+    "description": "Кошки оказываются в необычной лечебнице, где у каждого пациента собственные привычки и жалобы. Саша Чёрный наблюдает за их поведением с юмором.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL43489248W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol4350082w",
+    "description": "Ведьма Понгвиффи живёт в собственном ветхом доме и дружит с Шаркаддер. Её привычная жизнь меняется, когда по соседству поселяется шумная компания гоблинов.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL4350082W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol43509234w",
+    "description": "Слон Мартин живёт среди людей и ведёт себя не так, как от него ожидают окружающие. Герой сталкивается с обидами и трудностями, но не скрывает своих чувств.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL43509234W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol4360095w",
+    "description": "Лесные жители устраивают службу взаимной помощи: каждый предлагает соседям то, что умеет лучше всего. Рассказы показывают жизнь животных через наблюдения и небольшие приключения.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL4360095W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol4392595w",
+    "description": "Маленькая Лёля живёт с матерью в деревне и постепенно узнаёт мир взрослых через семейные предания и повседневные события. Отдельные рассказы складываются в историю детства.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL4392595W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol43943169w",
+    "description": "Евгений Чарушин пишет о птицах, которые живут на воле и рядом с человеком. Короткие рассказы передают их повадки и встречи с людьми.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL43943169W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol43971155w",
+    "description": "Сборник сказок Ирина Явчуновская. В издание вошли фантастические и бытовые сюжеты с чудесными превращениями, животными и другими сказочными героями.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL43971155W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol4409950w",
+    "description": "Историческая повесть обращается к военным событиям прошлого и человеку, оказавшемуся в их центре. Герою приходится принимать решения в опасной обстановке.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL4409950W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol4409959w",
+    "description": "Сто коротких рассказов Сергея Алексеева обращаются к событиям российской истории. Каждый эпизод сосредоточен на отдельном человеке, сражении или историческом решении.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL4409959W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol44294375w",
+    "description": "Дядя Лёва отправляется в путешествие по румынским степям и попадает в череду невероятных приключений. Его путь полон абсурдных встреч и неожиданных решений.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL44294375W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol44377549w",
+    "description": "Ребёнок пытается разобраться, что значит быть маленьким, и сравнивает себя со взрослыми. Короткие рассказы передают детский взгляд на повседневные события.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL44377549W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol44383671w",
+    "description": "Носорог по имени Солнышко отправляется навстречу приключениям и знакомится с новыми героями. Его добродушие помогает справляться с неожиданными препятствиями.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL44383671W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol44820250w",
+    "description": "Сборник сказок и преданий, подготовленный Мусбек Кибиев; А. О. Мальсагов. В книгу вошли произведения разных народов или авторов, объединённые фольклорными сюжетами и чудесными событиями.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL44820250W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol44868793w",
+    "description": "Сборник произведений Алексей Елисеевич Крученых; Н. Нагорская. В книгу вошли рассказы и повести с разными героями и самостоятельными сюжетами.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL44868793W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol44948165w",
+    "description": "Девочка Маргарита проходит через несколько семей и получает разные имена. Она пытается понять, где её дом и кому можно доверять.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL44948165W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol45039050w",
+    "description": "В книгу вошли загадки Самуил Маршак; Владимир Васильевич Лебедев. Короткие рифмованные тексты предлагают узнать предметы, животных и явления по их признакам.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL45039050W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol45311343w",
+    "description": "Милиционер Вася Куролесов участвует в расследованиях и сталкивается с хитрыми преступниками. Три повести соединяют детективную интригу, погоню и юмор.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL45311343W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol45421072w",
+    "description": "Сборник сказок В. Пухначев. В издание вошли фантастические и бытовые сюжеты с чудесными превращениями, животными и другими сказочными героями.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL45421072W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol45531935w",
+    "description": "Ёж, ежиха и ежонок тихо идут по лесу, стараясь никого не потревожить. Но встреча с волками превращает спокойную прогулку в опасное испытание.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL45531935W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol5186967w",
+    "description": "Маленький герой рождается в семье великана и пытается найти своё место среди тех, кто намного крупнее его. Разница в росте становится источником испытаний и неожиданных решений.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL5186967W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol5531021w",
+    "description": "Подростки получают сигнал бедствия от судна «Сверре» и пытаются разобраться, кому нужна помощь. Поиски выводят их к морскому происшествию и опасному заданию.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL5531021W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol55522w",
+    "description": "Сборник произведений Антон Павлович Чехов. В книгу вошли рассказы и повести с разными героями и самостоятельными сюжетами.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL55522W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol55524w",
+    "description": "Собака Каштанка теряется во время прогулки и оказывается в доме циркового артиста. Новый хозяин готовит её к выступлению на арене.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL55524W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol5731430w",
+    "description": "Шестиклассник Эраст Фандорин-младший получает возможность попасть в прошлое. Ему предстоит выполнить семейную миссию и встретить людей из других эпох.",
+    "source": "wikipedia",
+    "sourceUrl": "https://ru.wikipedia.org/wiki/%D0%94%D0%B5%D1%82%D1%81%D0%BA%D0%B0%D1%8F_%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0_(%D1%80%D0%BE%D0%BC%D0%B0%D0%BD_%D0%90%D0%BA%D1%83%D0%BD%D0%B8%D0%BD%D0%B0)",
+    "method": "independent_factual_description",
+    "evidenceField": "verified_work_summary"
+  },
+  {
+    "id": "ol-ol5787637w",
+    "description": "Компания подростков замечает признаки опасного заговора и начинает собственное расследование. Поиск улик приводит их к людям, которые стараются скрыть свои планы.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL5787637W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol5997389w",
+    "description": "Милиционер Караваев расследует появление загадочного чудовища и оказывается втянут в череду невероятных событий. Серьёзное расследование постоянно сталкивается с абсурдом.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL5997389W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol6080944w",
+    "description": "Школьник попадает в мир, где приключения можно купить, а продавец настоящих приключений внезапно исчезает. Герою приходится искать его и разбираться с теми, кто хочет распоряжаться чужими историями.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL6080944W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol623358w",
+    "description": "Царицу с новорождённым князем Гвидоном по навету отправляют в море в бочке. Они спасаются на острове, где Гвидон встречает царевну Лебедь и пытается увидеть отца.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL623358W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol623471w",
+    "description": "Царь Дадон получает золотого петушка, который предупреждает его о приближении врага. Когда опасность отступает, царю приходится выполнить обещание, данное мудрецу.",
+    "source": "wikipedia",
+    "sourceUrl": "https://ru.wikipedia.org/wiki/%D0%A1%D0%BA%D0%B0%D0%B7%D0%BA%D0%B0_%D0%BE_%D0%B7%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%BC_%D0%BF%D0%B5%D1%82%D1%83%D1%88%D0%BA%D0%B5",
+    "method": "independent_factual_description",
+    "evidenceField": "verified_work_summary"
+  },
+  {
+    "id": "ol-ol623482w",
+    "description": "Старик ловит золотую рыбку, которая обещает исполнить желание в обмен на свободу. Старуха требует всё большего, и старику приходится снова и снова идти к морю.",
+    "source": "wikipedia",
+    "sourceUrl": "https://ru.wikipedia.org/wiki/%D0%A1%D0%BA%D0%B0%D0%B7%D0%BA%D0%B0_%D0%BE_%D1%80%D1%8B%D0%B1%D0%B0%D0%BA%D0%B5_%D0%B8_%D1%80%D1%8B%D0%B1%D0%BA%D0%B5",
+    "method": "independent_factual_description",
+    "evidenceField": "verified_work_summary"
+  },
+  {
+    "id": "ol-ol623484w",
+    "description": "Сборник произведений Александр Сергеевич Пушкин. В книгу вошли рассказы и повести с разными героями и самостоятельными сюжетами.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL623484W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol62648w",
+    "description": "Петя и Гаврик живут в Одессе во время революционных событий 1905 года. Дружба мальчиков связывает семейную жизнь, городские приключения и происходящую вокруг борьбу.",
+    "source": "wikipedia",
+    "sourceUrl": "https://ru.wikipedia.org/wiki/%D0%91%D0%B5%D0%BB%D0%B5%D0%B5%D1%82_%D0%BF%D0%B0%D1%80%D1%83%D1%81_%D0%BE%D0%B4%D0%B8%D0%BD%D0%BE%D0%BA%D0%B8%D0%B9",
+    "method": "independent_factual_description",
+    "evidenceField": "verified_work_summary"
+  },
+  {
+    "id": "ol-ol6274480w",
+    "description": "Сборник произведений Кира Федоровна Куликова. В книгу вошли рассказы и повести с разными героями и самостоятельными сюжетами.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL6274480W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol667419w",
+    "description": "Сборник коротких стихотворений-перевёртышей, в которых детям предлагаются нарочно неправильные советы. Комизм строится на том, что читатель сам узнаёт опасное или нелепое поведение.",
+    "source": "wikipedia",
+    "sourceUrl": "https://ru.wikipedia.org/wiki/%D0%92%D1%80%D0%B5%D0%B4%D0%BD%D1%8B%D0%B5_%D1%81%D0%BE%D0%B2%D0%B5%D1%82%D1%8B",
+    "method": "independent_factual_description",
+    "evidenceField": "verified_work_summary"
+  },
+  {
+    "id": "ol-ol669163w",
+    "description": "Алиса Селезнёва попадает на Планету сказок, где знакомые персонажи живут по собственным правилам. Ей приходится противостоять пиратке, нарушившей порядок этого мира.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL669163W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol669185w",
+    "description": "Алиса Селезнёва сталкивается с маленькими захватчиками, которые угрожают привычному миру. Чтобы остановить их, ей нужны находчивость и помощь друзей.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL669185W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol6959476w",
+    "description": "Юный герой оказывается участником морских событий во время войны. Служба и опасное задание требуют от него мужества и ответственности.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL6959476W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol7248302w",
+    "description": "Сборник произведений Надежда Сергеевна Шер. В книгу вошли рассказы и повести с разными героями и самостоятельными сюжетами.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL7248302W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol754910w",
+    "description": "Старик Кулебякин живёт рядом с плаксивой кобылой Милой и жеребёнком Равкиным. Заботы о животных связывают героев и меняют их привычную жизнь.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL754910W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol754911w",
+    "description": "Трубочист Федя, кот Игнасий и Одинокая Мышь живут по соседству и постепенно становятся участниками одной общей истории. Их необычная компания учится замечать чужое одиночество.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL754911W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol7598211w",
+    "description": "Дрессировщик Владимир Дуров вспоминает животных, которые жили и работали рядом с ним. Он описывает их характеры, привычки и случаи из совместной жизни.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL7598211W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol865246w",
+    "description": "Короткие стихи Даниила Хармса превращают страх и опасность в абсурдную игру. Неожиданные повороты и повторы делают страшное смешным.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL865246W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol865257w",
+    "description": "Избранные стихи, сказки и истории Даниила Хармса.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL865257W",
+    "method": "independent_factual_description",
+    "evidenceField": "sourceMetadata.sourceDescription"
+  },
+  {
+    "id": "ol-ol869549w",
+    "description": "Обычные семейные события в рассказах Олега Кургузова превращаются в смешные приключения. Ребёнок наблюдает за взрослыми и по-своему объясняет их поступки.",
+    "source": "openlibrary",
+    "sourceUrl": "https://openlibrary.org/works/OL869549W",
+    "method": "independent_factual_description",
+    "evidenceField": "work_identity_and_collection_contents"
+  },
+  {
+    "id": "ol-ol6841991w",
+    "description": "Роман переносит читателя во времена, когда восточнославянские племена жили под хазарской данью и постепенно объединялись вокруг Киева. Герои трудятся, воюют и принимают решения, от которых зависит будущее молодой Руси.",
+    "source": "moiknigi.com",
+    "sourceUrl": "https://moiknigi.com/book_166472/",
+    "retrievedAt": "2026-07-24",
+    "method": "independent_factual_description",
+    "evidenceField": "targeted_web_search_title_author"
+  },
+  {
+    "id": "ol-ol12473514w",
+    "description": "Двое сотрудников революционного трибунала расследуют странную гибель начальника караула в сибирском исправдоме. Следствие выводит их на банду бывших белых карателей, которая пытается сорвать работу новой власти.",
+    "source": "www.alib.ru",
+    "sourceUrl": "https://www.alib.ru/au-shamshur/nm-zadanie_osoboj_vazhnosti/",
+    "retrievedAt": "2026-07-24",
+    "method": "independent_factual_description",
+    "evidenceField": "targeted_web_search_title_author"
+  },
+  {
+    "id": "ol-ol13647786w",
+    "description": "Наталья Дурова вспоминает животных — артистов цирка и Театра зверей — и людей, которые с ними работают. В рассказах показаны повадки питомцев, ежедневный труд дрессировщиков и жизнь цирка в дороге.",
+    "source": "www.litres.ru",
+    "sourceUrl": "https://www.litres.ru/book/nataliya-durova/moy-dom-na-kolesah-7936648/",
+    "retrievedAt": "2026-07-24",
+    "method": "independent_factual_description",
+    "evidenceField": "targeted_web_search_title_author"
+  },
+  {
+    "id": "ol-ol4689213w",
+    "description": "Повесть посвящена декабристам Михаилу Бестужеву-Рюмину и Сергею Муравьёву-Апостолу. На фоне подготовки восстания раскрываются их характеры, разногласия внутри движения и выбор, который приводит героев к решающим событиям декабря 1825 года.",
+    "source": "www.den-za-dnem.ru",
+    "sourceUrl": "https://www.den-za-dnem.ru/page.php?article=1757",
+    "retrievedAt": "2026-07-24",
+    "method": "independent_factual_description",
+    "evidenceField": "targeted_web_search_title_author"
+  },
+  {
+    "id": "ol-ol4721004w",
+    "description": "Исторический роман прослеживает судьбу князя Владимира Святославича: от сына рабыни-ключницы до правителя, объединившего Русь. В центре повествования — его войны, противоречивые поступки и переход от язычества к крещению Руси.",
+    "source": "bmm.ru",
+    "sourceUrl": "https://bmm.ru/books/details/32341/",
+    "retrievedAt": "2026-07-24",
+    "method": "independent_factual_description",
+    "evidenceField": "targeted_web_search_title_author"
+  },
+  {
+    "id": "ol-ol7078546w",
+    "description": "Одиннадцатилетний рассказчик воображает путешествия в прошлое и пытается понять, каким был Иван Сусанин. Через его поиски повесть показывает Смутное время и путь костромского крестьянина к подвигу.",
+    "source": "www.culture.ru",
+    "sourceUrl": "https://www.culture.ru/events/1806565/knizhnaya-vystavka-on-videl-susanina",
+    "retrievedAt": "2026-07-24",
+    "method": "independent_factual_description",
+    "evidenceField": "targeted_web_search_title_author"
+  },
+  {
+    "id": "ol-ol4504115w",
+    "description": "Сборник очерков знакомит с Сибирью: её древним прошлым, городами, дорогами, природой и людьми. Отдельные главы посвящены освоению края, Енисейскому Северу, Бурятии и Байкалу.",
+    "source": "publ.lib.ru",
+    "sourceUrl": "https://publ.lib.ru/ARCHIVES/K/KUBLICKIY_Georgiy_Ivanovich/_Kublickiy_G.I..html",
+    "retrievedAt": "2026-07-24",
+    "method": "independent_factual_description",
+    "evidenceField": "targeted_web_search_title_author"
+  },
+  {
+    "id": "ol-ol23852447w",
+    "description": "Книга показывает, как русские художники изображали сказочный мир. На репродукциях появляются Баба-яга, Кощей, леший, богатыри и подводное царство, а рядом рассказывается о создавших эти картины живописцах.",
+    "source": "www.alib.ru",
+    "sourceUrl": "https://www.alib.ru/au-kazieva/nm-skazka_russkoj_zhivopisi/",
+    "retrievedAt": "2026-07-24",
+    "method": "independent_factual_description",
+    "evidenceField": "targeted_web_search_title_author"
+  },
+  {
+    "id": "ol-ol27961483w",
+    "description": "Щенок учится считать до десяти, встречая животных и выполняя небольшие задания. Сюжетная сказка одновременно знакомит малыша с цифрами, цветами, голосами животных и вежливыми словами.",
+    "source": "www.labirint.ru",
+    "sourceUrl": "https://www.labirint.ru/books/268833/",
+    "retrievedAt": "2026-07-24",
+    "method": "independent_factual_description",
+    "evidenceField": "targeted_web_search_title_author"
+  },
+  {
+    "id": "ol-ol19978791w",
+    "description": "Слон Кузя ведёт читателя по Петербургу и превращает знакомство с городом в путешествие-игру. По пути можно рассматривать карты, искать достопримечательности, измерять здания в слонах и отвечать на вопросы о городе.",
+    "source": "www.piter.com",
+    "sourceUrl": "https://www.piter.com/collection/all/product/progulki-po-detskomu-peterburgu-obnovlyonnoe-izdanie",
+    "retrievedAt": "2026-07-24",
+    "method": "independent_factual_description",
+    "evidenceField": "targeted_web_search_title_author"
+  },
+  {
+    "id": "ol-ol43721004w",
+    "description": "Бедный поповский сын Сеня мечтает подняться в воздух и строит махолёт. Его попытка полёта разворачивается при дворе Анны Иоанновны, среди интриг и жестоких порядков времени Бирона.",
+    "source": "libking.ru",
+    "sourceUrl": "https://libking.ru/books/prose-/prose-history/455923-fedor-zarin-nesvitskiy-tayna-popovskogo-syna.html",
+    "retrievedAt": "2026-07-24",
+    "method": "independent_factual_description",
+    "evidenceField": "targeted_web_search_title_author"
+  },
+  {
+    "id": "ol-ol38929339w",
+    "description": "Авторский сборник объединяет повести и рассказы Юрия Яковлева о детях, войне и памяти о ней. Герои сталкиваются с последствиями военных лет, делают трудный нравственный выбор и узнают истории людей, чьи судьбы изменила война.",
+    "source": "fantlab.ru",
+    "sourceUrl": "https://fantlab.ru/edition142857",
+    "retrievedAt": "2026-07-24",
+    "method": "independent_factual_description",
+    "evidenceField": "targeted_web_search_title_author"
+  },
+  {
+    "id": "ol-ol29256095w",
+    "description": "В сборник вошли стихи Владимира Степанова о временах года, природе, животных и праздниках, а также тринадцать сказок о животных. Среди сказочных героев — находчивый кот, лесные жители и другие знакомые детям персонажи.",
+    "source": "www.bookvoed.ru",
+    "sourceUrl": "https://www.bookvoed.ru/product/bolshaya-kniga-stikhov-i-skazok-stepanov-v-1565961",
+    "retrievedAt": "2026-07-24",
+    "method": "independent_factual_description",
+    "evidenceField": "targeted_web_search_title_author"
+  },
+  {
+    "id": "ol-ol13736457w",
+    "description": "Современность оказывается не менее сказочной, чем старые времена: дремучие леса, нечисть и добрые люди никуда не исчезли. Герои попадают в мир, где привычная жизнь соседствует с чудесами и персонажами народных сказок.",
+    "source": "www.100bestbooks.ru",
+    "sourceUrl": "https://www.100bestbooks.ru/item_info.php?id=14154",
+    "retrievedAt": "2026-07-24",
+    "method": "independent_factual_description",
+    "evidenceField": "targeted_web_search_title_author"
+  },
+  {
+    "id": "ol-ol20058937w",
+    "description": "Дворянские дети Саша и Лиза убегают на фронт в разгар войны 1812 года, а волшебные мышата неожиданно оказываются возле французского штаба. Детям и мышам предстоит спасать друг друга, столкнуться с Наполеоном и помешать гибели Кремля.",
+    "source": "www.labirint.ru",
+    "sourceUrl": "https://www.labirint.ru/books/731394/",
+    "retrievedAt": "2026-07-24",
+    "method": "independent_factual_description",
+    "evidenceField": "targeted_web_search_title_author"
+  },
+  {
+    "id": "ol-ol13682862w",
+    "description": "Сборник содержит записанные в Рязанской области народные песни, игры и хороводы. Пятьдесят нотных образцов дополнены этнографическими описаниями обычаев и рассчитаны на разные детские возрастные группы.",
+    "source": "cbs-rzn.ru",
+    "sourceUrl": "https://cbs-rzn.ru/uploads/news/CBS/2026/JANUARY/putevod.-5-i-vypusk.pdf",
+    "retrievedAt": "2026-07-24",
+    "method": "independent_factual_description",
+    "evidenceField": "targeted_web_search_title_author"
+  },
+  {
+    "id": "ol-ol33559636w",
+    "description": "Сборник предлагает пьесы для детского домашнего и школьного театра. В него вошли инсценировки «Мишкиной каши», «Пуговиц», «Старика Хоттабыча», «Как медведь трубку нашёл» и других произведений.",
+    "source": "fantlab.ru",
+    "sourceUrl": "https://fantlab.ru/work546799",
+    "retrievedAt": "2026-07-24",
+    "method": "independent_factual_description",
+    "evidenceField": "targeted_web_search_title_author"
+  },
+  {
+    "id": "ol-ol29230337w",
+    "description": "Яркие рисунки сопровождают первые упражнения с числами и счётом. Короткие задания помогают узнавать цифры и пересчитывать изображённые предметы.",
+    "source": "booksfinder.ru",
+    "sourceUrl": "https://booksfinder.ru/book-645077-veselyi-schet-oksana-ivanova",
+    "retrievedAt": "2026-07-24",
+    "method": "independent_factual_description",
+    "evidenceField": "targeted_web_search_title_author"
+  },
+  {
+    "id": "ol-ol38428812w",
+    "description": "Биографическая повесть прослеживает жизнь Михаила Пришвина и путь, который привёл его к литературе. В книге показаны детские впечатления писателя, его поездки, наблюдения за природой и работа над произведениями.",
+    "source": "elibrary.nuft.edu.ua",
+    "sourceUrl": "https://elibrary.nuft.edu.ua/library/TopicDescription?page=11&topic_id=82321",
+    "retrievedAt": "2026-07-24",
+    "method": "independent_factual_description",
+    "evidenceField": "targeted_web_search_title_author"
+  },
+  {
+    "id": "ol-ol12917933w",
+    "description": "В Стране Отражений рассказчик и его необычные спутники ищут таинственное Поющее дерево. По дороге они встречают Бегемота, который появляется в трудную минуту, человечка Соломенные ножки и других сказочных жителей.",
+    "source": "www.labirint.ru",
+    "sourceUrl": "https://www.labirint.ru/books/524863/",
+    "retrievedAt": "2026-07-24",
+    "method": "independent_factual_description",
+    "evidenceField": "targeted_web_search_title_author"
+  },
+  {
+    "id": "ol-ol33563571w",
+    "description": "Действие исторической повести происходит на Руси в годы княжеских междоусобиц. После долгой борьбы Юрий Долгорукий занимает киевский престол, а герои оказываются втянуты в соперничество князей и борьбу за власть.",
+    "source": "ru.wikisource.org",
+    "sourceUrl": "https://ru.wikisource.org/wiki/%D0%9F%D0%BE%D0%B4_%D1%83%D0%B4%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%8E_%D0%B2%D0%BB%D0%B0%D1%81%D1%82%D1%8C%D1%8E_(%D0%A1%D0%B5%D0%B2%D0%B5%D1%80%D1%86%D0%B5%D0%B2-%D0%9F%D0%BE%D0%BB%D0%B8%D0%BB%D0%BE%D0%B2)",
+    "retrievedAt": "2026-07-24",
+    "method": "independent_factual_description",
+    "evidenceField": "targeted_web_search_title_author"
+  },
+  {
+    "id": "ol-ol27960261w",
+    "description": "Петя Котельников и его друзья знакомятся с Ленькой и его сестрой Полей, которые живут на оптовом рынке и кого-то боятся. Пятеро следопытов пытаются выяснить, почему дети там оказались и как связаны с происходящим необычные способности Поли.",
+    "source": "libcat.ru",
+    "sourceUrl": "https://libcat.ru/knigi/detektivy-i-trillery/detskie-ostrosyuzhetnye/286926-aleksej-birger-tajna-veshhih-snov.html",
+    "retrievedAt": "2026-07-24",
+    "method": "independent_factual_description",
+    "evidenceField": "targeted_web_search_title_author"
+  },
+  {
+    "id": "ol-ol6007209w",
+    "description": "Повествование прослеживает происхождение чувашского народа и его историю от древних булгарских племён до современности. Отдельные главы посвящены поселениям, ремёслам, языку, быту, культуре и известным представителям народа.",
+    "source": "books.google.com",
+    "sourceUrl": "https://books.google.com/books/about/%D0%9F%D0%BE%D0%B2%D0%B5%D1%81%D1%82%D0%B2%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5_%D0%BE_%D1%87%D1%83%D0%B2%D0%B0%D1%88.html?id=hBuSkQEACAAJ",
+    "retrievedAt": "2026-07-24",
+    "method": "independent_factual_description",
+    "evidenceField": "targeted_web_search_title_author"
+  },
+  {
+    "id": "ol-ol42476842w",
+    "description": "Очерки посвящены быту и труду еврейских земледельческих колоний и колхозов. Автор наблюдает за повседневной жизнью поселенцев, их хозяйством и переменами, которые происходят с людьми на новой земле.",
+    "source": "ru.wikipedia.org",
+    "sourceUrl": "https://ru.wikipedia.org/wiki/%D0%A4%D0%B8%D0%BD%D0%BA,_%D0%92%D0%B8%D0%BA%D1%82%D0%BE%D1%80_%D0%93%D1%80%D0%B8%D0%B3%D0%BE%D1%80%D1%8C%D0%B5%D0%B2%D0%B8%D1%87",
+    "retrievedAt": "2026-07-24",
+    "method": "independent_factual_description",
+    "evidenceField": "targeted_web_search_title_author"
+  },
+  {
+    "id": "ol-ol4042450w",
+    "description": "Сборник объединяет рассказы и сказки Алексея Логунова. Среди них — «Хлебная Матушка», где сказочный сюжет строится вокруг хлеба, труда и домашних забот.",
+    "source": "staroeradio.ru",
+    "sourceUrl": "https://staroeradio.ru/audio/42759",
+    "retrievedAt": "2026-07-24",
+    "method": "independent_factual_description",
+    "evidenceField": "targeted_web_search_title_author"
+  },
+  {
+    "id": "ol-ol12432535w",
+    "description": "Главный герой приключенческого романа — французский математик Пьер Ферма. Он оказывается среди интриг и поединков XVII века, но самые трудные задачи решает не шпагой, а расчётом и собственным умом.",
+    "source": "www.livelib.ru",
+    "sourceUrl": "https://www.livelib.ru/book/1000755328-ostree-shpagi-aleksandr-kazantsev",
+    "retrievedAt": "2026-07-24",
+    "method": "independent_factual_description",
+    "evidenceField": "targeted_web_search_title_author"
+  },
+  {
+    "id": "ol-ol6273359w",
+    "description": "Документальная повесть рассказывает о цирковом артисте Льве Осинском, потерявшем руку после боевого ранения. Он возвращается к любимой профессии и заново осваивает сложное цирковое мастерство.",
+    "source": "topliba.com",
+    "sourceUrl": "https://topliba.com/books/755866",
+    "retrievedAt": "2026-07-24",
+    "method": "independent_factual_description",
+    "evidenceField": "targeted_web_search_title_author"
+  },
+  {
+    "id": "ol-ol16987836w",
+    "description": "Сотрудники детективного бюро «Неотложный пункт добрых дел» преследуют преступника Дебиленко, похитившего в том числе экспонаты из Музея боевой славы. Колобок замечает слабое место противника и придумывает, как его перехитрить.",
+    "source": "fantlab.ru",
+    "sourceUrl": "https://fantlab.ru/work111674",
+    "retrievedAt": "2026-07-24",
+    "method": "independent_factual_description",
+    "evidenceField": "targeted_web_search_title_author"
+  },
+  {
+    "id": "ol-ol6253399w",
+    "description": "Сборник рассказов знакомит с Антарктидой и людьми, которые работают на полярном материке. В центре отдельных историй — экспедиции, наблюдения за природой и жизнь исследователей вдали от дома.",
+    "source": "www.deti.spb.ru",
+    "sourceUrl": "https://www.deti.spb.ru/writers_rus/sem-spass_lg/list",
+    "retrievedAt": "2026-07-24",
+    "method": "independent_factual_description",
+    "evidenceField": "targeted_web_search_title_author"
+  },
+  {
+    "id": "ol-ol12171715w",
+    "description": "Документальная повесть посвящена эстонскому революционеру Виктору Кингисеппу. Автор прослеживает его жизнь, подпольную работу и события, которые привели героя к открытому противостоянию с властями.",
+    "source": "ru.wikipedia.org",
+    "sourceUrl": "https://ru.wikipedia.org/wiki/%D0%A0%D1%83%D0%B4%D0%BD%D0%B5%D0%B2,_%D0%94%D0%B0%D0%BD%D0%B8%D0%B8%D0%BB_%D0%9C%D0%B0%D1%80%D0%BA%D0%BE%D0%B2%D0%B8%D1%87",
+    "retrievedAt": "2026-07-24",
+    "method": "independent_factual_description",
+    "evidenceField": "targeted_web_search_title_author"
+  },
+  {
+    "id": "ol-ol38513598w",
+    "description": "Узники нацистского концлагеря создают интернациональное подполье и готовятся к сопротивлению. Повесть показывает, как люди разных стран поддерживают друг друга и рискуют жизнью ради общего побега.",
+    "source": "www.livelib.ru",
+    "sourceUrl": "https://www.livelib.ru/book/1000778460-bezumstvo-hrabryh-vasilij-ardamatskij",
+    "retrievedAt": "2026-07-24",
+    "method": "independent_factual_description",
+    "evidenceField": "targeted_web_search_title_author"
+  },
+  {
+    "id": "ol-ol2223798w",
+    "description": "Пятилетняя Таська и её старший брат Тим находят объявление об уроках вранья и отправляются в дом за синим забором. Вместе с необычным учителем они попадают в страну, где король Пузырь боится лопнуть от удивления, а отражения становятся самостоятельными существами.",
+    "source": "azbooka.ru",
+    "sourceUrl": "https://azbooka.ru/books/uchitel-vranya-njw7",
+    "retrievedAt": "2026-07-24",
+    "method": "independent_factual_description",
+    "evidenceField": "targeted_web_search_title_author"
+  },
+  {
+    "id": "ol-ol33137652w",
+    "description": "Инопланетные исследователи Нкале, Тькави и Каген отправляются к новому вулкану в Тихом океане. Их путешествие включает плавание на плоту, встречу с акулами, аварию батискафа и знакомство с живым целакантом.",
+    "source": "fantlab.ru",
+    "sourceUrl": "https://fantlab.ru/work490131",
+    "retrievedAt": "2026-07-24",
+    "method": "independent_factual_description",
+    "evidenceField": "targeted_web_search_title_author"
+  },
+  {
+    "id": "ol-ol22116625w",
+    "description": "Повесть показывает Александра Пушкина ребёнком весной и летом 1811 года, незадолго до поступления в Лицей. Рядом с ним — сестра Ольга, дядя Василий Львович, бабушка и няня Арина Родионовна; будущий поэт много читает, сочиняет первые стихи и готовится покинуть родной дом.",
+    "source": "znanija.com",
+    "sourceUrl": "https://znanija.com/task/19170011",
+    "retrievedAt": "2026-07-24",
+    "method": "independent_factual_description",
+    "evidenceField": "targeted_web_search_title_author"
+  },
+  {
+    "id": "ol-ol40061329w",
+    "description": "В тёплых домах у Зелёного леса незаметно живут маленькие хранители очага — домовые, дворовые и огневики. Они чинят вещи, заботятся о порядке, помогают птицам и домашним животным, путешествуют и устраивают собственные праздники.",
+    "source": "proza.ru",
+    "sourceUrl": "https://proza.ru/2020/02/04/1111",
+    "retrievedAt": "2026-07-24",
+    "method": "independent_factual_description",
+    "evidenceField": "targeted_web_search_title_author"
+  },
+  {
+    "id": "ol-ol44264846w",
+    "description": "Сборник объединяет рассказы советских писателей о первом серьёзном испытании в жизни человека. Среди них — «Мост» Николая Чуковского, «Эхо» Юрия Нагибина, «Наш марафон» Анатолия Мошковского и отрывок из повести Владислава Титова «Всем смертям назло».",
+    "source": "fantlab.ru",
+    "sourceUrl": "https://fantlab.ru/work592336",
+    "retrievedAt": "2026-07-24",
+    "method": "independent_factual_description",
+    "evidenceField": "targeted_web_search_title_author"
+  },
+  {
+    "id": "ol-ol31434681w",
+    "description": "Антология объединяет сорок восемь рассказов современных авторов о детях и детстве. В реалистических и фантастических сюжетах дети сталкиваются с семейными переменами, тайнами, страхами и событиями, которые взрослые понимают совсем иначе.",
+    "source": "fantlab.ru",
+    "sourceUrl": "https://fantlab.ru/work480234",
+    "retrievedAt": "2026-07-24",
+    "method": "independent_factual_description",
+    "evidenceField": "targeted_web_search_title_author"
+  },
+  {
+    "id": "ol-ol11557042w",
+    "description": "Биографическая повесть посвящена Марии Ермоловой. Она проходит через трудное детство, учёбу в театральном училище и первые неудачи, прежде чем случай открывает ей дорогу на сцену Малого театра.",
+    "source": "moiknigi.com",
+    "sourceUrl": "https://moiknigi.com/book_129579/",
+    "retrievedAt": "2026-07-24",
+    "method": "independent_factual_description",
+    "evidenceField": "targeted_web_search_title_author"
+  },
+  {
+    "id": "ol-ol1678184w",
+    "description": "Историческая повесть рассказывает о казаке-первопроходце Семёне Дежнёве и его походе вдоль северо-восточных берегов Азии. Дежнёв и его товарищи проходят из Ледовитого океана в Тихий и доказывают, что Азия и Америка разделены морем.",
+    "source": "libking.ru",
+    "sourceUrl": "https://libking.ru/books/prose-/prose-history/573592-vladislav-bahrevskiy-hozhdenie-vstrech-solntsu.html",
+    "retrievedAt": "2026-07-24",
+    "method": "independent_factual_description",
+    "evidenceField": "targeted_web_search_title_author"
+  },
+  {
+    "id": "ol-ol6521518w",
+    "description": "Документальная повесть посвящена эстонскому революционеру Виктору Кингисеппу. Автор прослеживает его жизнь, подпольную работу и события, которые привели героя к открытому противостоянию с властями.",
+    "source": "ru.wikipedia.org",
+    "sourceUrl": "https://ru.wikipedia.org/wiki/%D0%A0%D1%83%D0%B4%D0%BD%D0%B5%D0%B2,_%D0%94%D0%B0%D0%BD%D0%B8%D0%B8%D0%BB_%D0%9C%D0%B0%D1%80%D0%BA%D0%BE%D0%B2%D0%B8%D1%87",
+    "retrievedAt": "2026-07-24",
+    "method": "independent_factual_description",
+    "evidenceField": "targeted_web_search_title_author"
+  },
+  {
+    "id": "ol-ol11585139w",
+    "description": "Пётр Муханов вступает в тайное общество декабристов и становится близким другом Кондратия Рылеева. Архивные материалы помогают проследить его участие в движении и отношения с невестой Варварой Шаховской, которая пытается последовать за ним в Сибирь.",
+    "source": "www.alib.ru",
+    "sourceUrl": "https://www.alib.ru/au-medvedkova/nm-povestnmn_dekabriste_muhanove/",
+    "retrievedAt": "2026-07-24",
+    "method": "independent_factual_description",
+    "evidenceField": "targeted_web_search_title_author"
+  },
+  {
+    "id": "ol-ol23834945w",
+    "description": "Историческая повесть посвящена жизни святого Георгия Победоносца. В ней описаны его военная служба, испытания, подвиги и чудеса, а также то, как почитание Георгия распространилось на Руси.",
+    "source": "www.labirint.ru",
+    "sourceUrl": "https://www.labirint.ru/books/288607/",
+    "retrievedAt": "2026-07-24",
+    "method": "independent_factual_description",
+    "evidenceField": "targeted_web_search_title_author"
+  },
+  {
+    "id": "ol-ol32525747w",
+    "description": "Молодой авантюрист Цезарь Великолепный путешествует по Имперской России вместе с другом Августом и корабельной кошкой, разыскивая отца. Поломка летающего корабля заставляет их приземлиться возле промышленного Ставрополя и искать способ продолжить путь.",
+    "source": "www.labirint.ru",
+    "sourceUrl": "https://www.labirint.ru/books/561030/",
+    "retrievedAt": "2026-07-24",
+    "method": "independent_factual_description",
+    "evidenceField": "targeted_web_search_title_author"
+  }
+]

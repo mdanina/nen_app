@@ -1,17 +1,23 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
+import { classifyCatalogBook } from "./books/fiction-classifier.mjs";
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const legacyPath = resolve(root, "data/source/catalog-full.json");
 const v2Path = resolve(root, "data/source/books-v2.json");
 const importedPath = resolve(root, "data/source/openlibrary-books.json");
 const importedExclusionsPath = resolve(root, "data/source/openlibrary-books-excluded.json");
+const annotationOverridesPath = resolve(root, "data/source/book-annotation-overrides.json");
 const targetPath = resolve(root, "data/generated/books.json");
+const fictionExcludedReportPath = resolve(root, "data/reports/fiction-catalog-excluded.json");
+const fictionAmbiguousReportPath = resolve(root, "data/reports/ambiguous-review.json");
 const legacySource = JSON.parse(await readFile(legacyPath, "utf8"));
 const v2Source = JSON.parse(await readFile(v2Path, "utf8"));
 const importedSource = JSON.parse(await readFile(importedPath, "utf8"));
 const importedExclusions = JSON.parse(await readFile(importedExclusionsPath, "utf8"));
+const annotationOverrides = JSON.parse(await readFile(annotationOverridesPath, "utf8"));
+const annotationById = new Map(annotationOverrides.map((item) => [item.id, item]));
 
 const allowed = {
   readingMode: new Set(["independent", "together", "both"]),
@@ -115,7 +121,7 @@ function normalized(value) {
 }
 
 function importedBook(item, index) {
-  for (const field of ["id", "slug", "title", "author", "shortDescription", "whyRecommended"]) {
+  for (const field of ["id", "slug", "title", "author", "whyRecommended"]) {
     if (typeof item[field] !== "string" || !item[field].trim()) throw new Error(`Импортированная запись ${index + 1}: отсутствует ${field}`);
   }
   if (!Number.isFinite(item.ageMin) || !Number.isFinite(item.ageMax) || item.ageMin > item.ageMax) throw new Error(`Импортированная запись ${item.id}: некорректный возраст`);
@@ -123,7 +129,25 @@ function importedBook(item, index) {
   for (const field of ["genres", "themes"]) assertVocabulary(item, field);
   if (!Array.isArray(item.moods) || item.moods.some((value) => !allowed.moods.has(value))) throw new Error(`Импортированная запись ${item.id}: неизвестное настроение`);
   if (item.status !== "published") throw new Error(`Импортированная запись ${item.id}: разрешены только опубликованные карточки`);
-  return item;
+  const annotation = annotationById.get(item.id);
+  return {
+    ...item,
+    shortDescription: annotation?.description ?? "",
+    fullDescription: annotation?.description ?? "",
+    annotationProvenance: annotation ? {
+      source: annotation.source,
+      sourceUrl: annotation.sourceUrl,
+      method: annotation.method,
+      evidenceField: annotation.evidenceField,
+      verifiedAt: "2026-07-24",
+      copiedVerbatim: false,
+    } : {
+      source: null,
+      method: "no_reliable_plot_description_found",
+      verifiedAt: "2026-07-24",
+      copiedVerbatim: false,
+    },
+  };
 }
 
 const legacyBooks = legacySource.filter((item) => item.contentType === "book" || item.contentType === "fairy-tale").map((item, index) => {
@@ -141,7 +165,77 @@ for (const exclusion of importedExclusions) {
   excludedImportedIds.add(exclusion.id);
 }
 const importedBooks = importedSource.filter((item) => !excludedImportedIds.has(item.id)).map(importedBook);
-const books = [...legacyBooks, ...publishedV2, ...importedBooks];
+const candidateBooks = [...legacyBooks, ...publishedV2, ...importedBooks];
+const fictionExcluded = candidateBooks
+  .map((book) => ({ book, classification: classifyCatalogBook(book) }))
+  .filter(({ classification }) => classification.decision === "exclude");
+const fictionAmbiguous = candidateBooks
+  .map((book) => ({ book, classification: classifyCatalogBook(book) }))
+  .filter(({ classification }) => classification.decision === "ambiguous");
+
+const nonFictionPublicGenres = new Set([
+  "биография",
+  "документальная литература",
+  "научно-популярная литература",
+  "научно-популярная книга",
+  "познавательная книга",
+  "познавательная история",
+  "иллюстрированная энциклопедия",
+]);
+const reviewedFictionGenreOverrides = new Map([
+  ["ol-ol19938743w", ["историческая проза"]],
+  ["ol-ol12432535w", ["историческая проза"]],
+  ["ol-ol38513598w", ["историческая проза"]],
+  ["ol-ol33497265w", ["реалистическая проза"]],
+  ["ol-ol55522w", ["реалистическая проза"]],
+  ["ol-ol667419w", ["поэзия", "юмор"]],
+  ["ol-ol38539262w", ["реалистическая проза"]],
+  ["ol-ol27958552w", ["сказка"]],
+  ["ol-ol23852449w", ["юмор"]],
+  ["ol-ol33098425w", ["поэзия"]],
+  ["ol-ol33137652w", ["приключения"]],
+  ["ol-ol38508810w", ["реалистическая проза"]],
+  ["ol-ol38533455w", ["реалистическая проза"]],
+  ["ol-ol865246w", ["поэзия", "юмор"]],
+  ["ol-ol44466703w", ["фэнтези"]],
+  ["ol-ol43943169w", ["реалистическая проза"]],
+  ["ol-ol38509253w", ["поэзия"]],
+  ["ol-ol10358155w", ["реалистическая проза"]],
+]);
+
+function fictionOnlyGenres(book) {
+  const publicGenres = (book.genres ?? []).filter((genre) => !nonFictionPublicGenres.has(genre));
+  if (publicGenres.length) return publicGenres;
+  const subjects = (book.sourceMetadata?.subjects ?? []).join(" ");
+  if (/\b(?:poetry|poems?|riddles)\b/iu.test(subjects)) return ["поэзия"];
+  if (/\b(?:fairy tales?|folklore|legends?|myths?)\b/iu.test(subjects)) return ["сказка"];
+  if (/\b(?:biographical fiction|historical fiction)\b/iu.test(subjects)) return ["историческая проза"];
+  if (/\b(?:juvenile fiction|fiction|short stories|novels?)\b/iu.test(subjects)) return ["реалистическая проза"];
+  return reviewedFictionGenreOverrides.get(book.id) ?? [];
+}
+
+const books = candidateBooks
+  .filter((book) => classifyCatalogBook(book).decision === "keep")
+  .map((book) => ({ ...book, genres: fictionOnlyGenres(book) }));
+
+const missingFictionGenres = books.filter((book) => !book.genres.length);
+if (missingFictionGenres.length) {
+  throw new Error(`После удаления non-fiction жанров остались книги без подтверждённого художественного жанра: ${missingFictionGenres.map((book) => book.id).join(", ")}`);
+}
+
+function classificationReportRecord({ book, classification }) {
+  return {
+    id: book.id,
+    title: book.title,
+    author: book.author,
+    reason: classification.type,
+    determinedType: classification.type,
+    confidence: classification.confidence,
+    evidence: classification.evidence,
+    bibliographicSources: book.bibliographicSources ?? [],
+    sourceSubjects: book.sourceMetadata?.subjects ?? [],
+  };
+}
 
 for (const [label, key] of [["id", (book) => book.id], ["slug", (book) => book.slug], ["ISBN", (book) => book.isbn13], ["название и автор", (book) => `${normalized(book.title)}|${normalized(book.author)}`]]) {
   const seen = new Map();
@@ -154,5 +248,10 @@ for (const [label, key] of [["id", (book) => book.id], ["slug", (book) => book.s
 }
 
 await mkdir(dirname(targetPath), { recursive: true });
-await writeFile(targetPath, `${JSON.stringify(books, null, 2)}\n`, "utf8");
-console.log(`Сформировано книг: ${books.length} (${legacyBooks.length} legacy + ${publishedV2.length} v2 + ${importedBooks.length} импортированных; исключено ${excludedImportedIds.size})`);
+await mkdir(dirname(fictionExcludedReportPath), { recursive: true });
+await Promise.all([
+  writeFile(targetPath, `${JSON.stringify(books, null, 2)}\n`, "utf8"),
+  writeFile(fictionExcludedReportPath, `${JSON.stringify(fictionExcluded.map(classificationReportRecord), null, 2)}\n`, "utf8"),
+  writeFile(fictionAmbiguousReportPath, `${JSON.stringify(fictionAmbiguous.map(classificationReportRecord), null, 2)}\n`, "utf8"),
+]);
+console.log(`Сформировано книг: ${books.length} (кандидатов ${candidateBooks.length}; исключено ранее ${excludedImportedIds.size}, по типу издания ${fictionExcluded.length}, на ручной проверке ${fictionAmbiguous.length})`);
