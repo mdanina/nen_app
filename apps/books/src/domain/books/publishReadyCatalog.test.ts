@@ -2,6 +2,7 @@ import { describe, expect, it } from "vitest";
 import productionBooks from "../../../../../data/generated/books.json";
 import curatedPublisherSource from "../../../../../data/source/curated-publisher-books.json";
 import curatedMultiPublisherSource from "../../../../../data/source/curated-multi-publisher-books.json";
+import curatedPriorityPublisherSource from "../../../../../data/source/curated-priority-publisher-books.json";
 import nenCollectionSource from "../../../../../data/source/nen-collection-books.json";
 import importedExclusions from "../../../../../data/source/openlibrary-books-excluded.json";
 import ambiguousReview from "../../../../../data/reports/ambiguous-review.json";
@@ -21,6 +22,7 @@ describe("connected Open Library catalog", () => {
       529
       + curatedPublisherSource.books.length
       + curatedMultiPublisherSource.books.length
+      + curatedPriorityPublisherSource.books.length
       + nenCollectionSource.books.length,
     );
     expect(productionBooks.some((book) => excludedIds.has(book.id))).toBe(false);
@@ -28,6 +30,24 @@ describe("connected Open Library catalog", () => {
     expect(importedExclusions.every((item) => item.reason && item.explanation)).toBe(true);
     expect(fictionExclusions.every((item) => item.reason && item.evidence.length > 0)).toBe(true);
     expect(ambiguousReview.every((item) => !productionBooks.some((book) => book.id === item.id))).toBe(true);
+  });
+
+  it("includes complete priority-publisher cards without duplicate routes", () => {
+    const priorityIds = new Set(curatedPriorityPublisherSource.books.map((book) => book.id));
+    const published = productionBooks.filter((book) => priorityIds.has(book.id));
+
+    expect(published).toHaveLength(curatedPriorityPublisherSource.books.length);
+    expect(published.every((book) => (
+      Boolean(book.title)
+      && Boolean(book.author)
+      && Boolean(book.publisher)
+      && Boolean(book.shortDescription)
+      && Boolean(book.whyRecommended)
+      && Boolean(book.cover?.url)
+      && book.genres.length > 0
+      && book.themes.length > 0
+    ))).toBe(true);
+    expect(new Set(published.map((book) => book.slug)).size).toBe(published.length);
   });
 
   it("passes the current runtime validator", () => {

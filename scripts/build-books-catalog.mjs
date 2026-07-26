@@ -12,6 +12,7 @@ const importedPath = resolve(root, "data/source/openlibrary-books.json");
 const importedExclusionsPath = resolve(root, "data/source/openlibrary-books-excluded.json");
 const curatedPublisherPath = resolve(root, "data/source/curated-publisher-books.json");
 const curatedMultiPublisherPath = resolve(root, "data/source/curated-multi-publisher-books.json");
+const curatedPriorityPublisherPath = resolve(root, "data/source/curated-priority-publisher-books.json");
 const nenCollectionBooksPath = resolve(root, "data/source/nen-collection-books.json");
 const annotationOverridesPath = resolve(root, "data/source/book-annotation-overrides.json");
 const targetPath = resolve(root, "data/generated/books.json");
@@ -23,6 +24,7 @@ const importedSource = JSON.parse(await readFile(importedPath, "utf8"));
 const importedExclusions = JSON.parse(await readFile(importedExclusionsPath, "utf8"));
 const curatedPublisherSource = JSON.parse(await readFile(curatedPublisherPath, "utf8"));
 const curatedMultiPublisherSource = JSON.parse(await readFile(curatedMultiPublisherPath, "utf8"));
+const curatedPriorityPublisherSource = JSON.parse(await readFile(curatedPriorityPublisherPath, "utf8"));
 const nenCollectionSource = JSON.parse(await readFile(nenCollectionBooksPath, "utf8"));
 const annotationOverrides = JSON.parse(await readFile(annotationOverridesPath, "utf8"));
 const annotationById = new Map(annotationOverrides.map((item) => [item.id, item]));
@@ -163,7 +165,7 @@ function normalizePublisher(value) {
 }
 
 function curatedPublisherBook(item, index) {
-  for (const field of ["id", "slug", "title", "shortDescription", "whyRecommended", "publisher", "isbn13"]) {
+  for (const field of ["id", "slug", "title", "shortDescription", "publisher", "isbn13"]) {
     if (typeof item[field] !== "string" || !item[field].trim()) throw new Error(`Издательская запись ${index + 1}: отсутствует ${field}`);
   }
   if (!Array.isArray(item.authors) || !item.authors.length) throw new Error(`Издательская запись ${item.id}: отсутствует автор`);
@@ -246,11 +248,13 @@ const importedBooks = importedSource.filter((item) => !excludedImportedIds.has(i
 const curatedPublisherBooks = [
   ...curatedPublisherSource.books,
   ...curatedMultiPublisherSource.books,
+  ...curatedPriorityPublisherSource.books,
 ].map(curatedPublisherBook);
 const nenCollectionBooks = nenCollectionSource.books.map(nenCollectionBook);
 const enrichmentById = new Map([
   ...curatedPublisherSource.enrichments,
   ...curatedMultiPublisherSource.enrichments,
+  ...curatedPriorityPublisherSource.enrichments,
 ].map((item) => [item.id, item]));
 function applyPublisherEnrichment(book) {
   const enrichment = enrichmentById.get(book.id);
@@ -324,7 +328,7 @@ const books = candidateBooks
     publisher: normalizePublisher(book.publisher),
     shortDescription: fixGeneratedAuthorCases(book.shortDescription, book.author),
     fullDescription: fixGeneratedAuthorCases(book.fullDescription, book.author),
-    whyRecommended: buildBookRecommendation(book),
+    whyRecommended: buildBookRecommendation(book, { force: true }),
   }));
 
 const refreshedRecommendations = books.filter((book) => {
