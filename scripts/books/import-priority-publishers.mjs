@@ -4,7 +4,7 @@ import { resolve } from "node:path";
 const root = resolve(import.meta.dirname, "../..");
 const catalogPath = resolve(root, "data/generated/books.json");
 const outputPath = resolve(root, "data/source/curated-priority-publisher-books.json");
-const target = Number(process.argv.find((value) => value.startsWith("--target="))?.split("=")[1] ?? 210);
+const target = Number(process.argv.find((value) => value.startsWith("--target="))?.split("=")[1] ?? 510);
 const checkedAt = new Date().toISOString().slice(0, 10);
 
 const sources = {
@@ -174,7 +174,7 @@ function themes(value, mappedGenres) {
 
 function makeBook({ publisher, sourceUrl, title, authors, description, coverUrl, isbn13, ageMin, ageMax, pages, seriesName, sourceGenre }) {
   const evidence = `${title} ${sourceGenre} ${description}`;
-  if (!title || !authors.length || description.length < 100 || !coverUrl || !isbn13 || prohibited.test(`${title} ${sourceGenre}`)) return null;
+  if (!title || !authors.length || description.length < 60 || !coverUrl || !isbn13 || prohibited.test(`${title} ${sourceGenre}`)) return null;
   if (!fictionSignal.test(evidence) && !/художественная литература/iu.test(sourceGenre)) return null;
   const mappedGenres = genres(evidence);
   const mappedThemes = themes(evidence, mappedGenres);

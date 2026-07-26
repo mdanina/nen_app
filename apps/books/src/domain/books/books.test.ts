@@ -28,6 +28,10 @@ describe("searchBooks", () => {
   it("возвращает один точный результат", () => expect(searchBooks(books, { ...emptyFilters, age: 7, themes: ["животные"] }).exact).toHaveLength(1));
   it("не ослабляет возраст", () => { const result = searchBooks(books, { ...emptyFilters, age: 11, themes: ["несуществующая"] }); expect(result.exact).toHaveLength(0); expect(result.nearby.every((item) => item.book.ageMin <= 11 && item.book.ageMax >= 11)).toBe(true); });
   it("объясняет неизвестную тему", () => expect(searchBooks(books, { ...emptyFilters, age: 7, themes: ["космос"] }).nearby[0].relaxed.some((reason) => reason.includes("темы"))).toBe(true));
+  it("фильтрует по новым понятным темам", () => {
+    const themed = [book({ themes: ["братья и сёстры", "эмоции"] }), book({ id: "2", slug: "two", themes: ["животные"] })];
+    expect(searchBooks(themed, { ...emptyFilters, age: 7, themes: ["эмоции"] }).exact.map(({ book: item }) => item.id)).toEqual(["1"]);
+  });
   it("предпочитает соседнюю длительность", () => expect(searchBooks(books, { ...emptyFilters, age: 7, lengths: ["very-short"], themes: ["нет"] }).nearby[0].book.lengthCategory).toBe("short"));
   it("выбирает максимальное число совпадений", () => expect(searchBooks(books, { ...emptyFilters, age: 7, themes: ["дружба", "животные"], moods: ["спокойное"] }).nearby[0].book.id).toBe("1"));
   it("понимает запрос перед сном", () => expect(searchBooks(books, { ...emptyFilters, age: 7, search: "почитать перед сном" }).exact[0].book.id).toBe("1"));

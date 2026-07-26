@@ -35,7 +35,7 @@ const allowed = {
   languageDifficulty: new Set(["easy", "medium", "advanced"]),
   bookFormats: new Set(["картонная книга", "книжка-картинка", "первое самостоятельное чтение", "книга с короткими главами", "повесть", "роман", "графический роман", "комикс", "сборник", "поэзия", "иллюстрированный нон-фикшн", "энциклопедия", "книга-игра"]),
   genres: new Set(["сказка", "реалистическая проза", "семейная история", "приключения", "детектив", "юмор", "фэнтези", "научная фантастика", "историческая проза", "биография", "научно-популярная литература", "документальная литература", "поэзия"]),
-  themes: new Set(["дружба", "семья", "школа", "детский сад", "животные", "природа", "наука", "техника", "история", "искусство", "путешествия", "взросление", "самооценка", "отношения", "тело", "безопасность", "культурное разнообразие", "юмор", "волшебство", "приключения", "космос", "экология", "мифология", "музыка", "театр", "спорт", "морские приключения", "изобретения"]),
+  themes: new Set(["дружба", "семья", "братья и сёстры", "развод родителей", "школа", "буллинг", "первая любовь", "детский сад", "животные", "природа", "наука", "техника", "история", "искусство", "путешествия", "взросление", "самооценка", "эмоции", "страх", "смерть", "война", "инклюзия", "принятие себя", "ответственность", "смелость", "доброта", "отношения", "тело", "безопасность", "культурное разнообразие", "юмор", "волшебство", "приключения", "детектив", "фантастика", "динозавры", "творчество", "космос", "экология", "мифология", "музыка", "театр", "спорт", "морские приключения", "изобретения"]),
   lifeSituations: new Set(["перед сном", "начало детского сада", "начало школы", "смена школы", "первое самостоятельное чтение", "ребёнок не любит читать", "переезд", "эмиграция", "развод родителей", "рождение брата или сестры", "семейный конфликт", "разлука с близким", "болезнь или больница", "утрата", "буллинг", "трудности с дружбой", "важные перемены", "разговор о безопасности", "совместное семейное обсуждение"]),
   emotionalStates: new Set(["тревожится", "боится", "грустит", "злится", "ревнует", "чувствует себя одиноко", "устал или перегружен", "стесняется", "не уверен в себе", "переживает перемены", "нуждается в поддержке", "хочет успокоиться", "хочет посмеяться", "скучает", "хочет узнать новое"]),
   moods: new Set(["захватывающее", "смешное", "спокойное", "таинственное", "трогательное", "уютное", "напряжённое", "познавательное"]),
@@ -309,6 +309,35 @@ const reviewedFictionGenreOverrides = new Map([
   ["ol-ol10358155w", ["реалистическая проза"]],
 ]);
 
+const additionalThemeRules = [
+  ["братья и сёстры", /(?:брат|сестр)[а-яё]*/iu],
+  ["развод родителей", /развод|развед[её]нн|родители разошлись/iu],
+  ["буллинг", /буллинг|травл[яеи]|школьн\w+ издев/iu],
+  ["первая любовь", /первая любовь|влюб[а-яё]*/iu],
+  ["эмоции", /эмоци|чувств[а-яё]*/iu],
+  ["страх", /страх|боится|бояться|испуг/iu],
+  ["смерть", /смерт|умира|погиб/iu],
+  ["война", /войн|блокад|фронт/iu],
+  ["инклюзия", /инклюз|инвалид|коляск|незряч|глух/iu],
+  ["принятие себя", /приня(?:ть|тие) себя|быть собой|самопринят/iu],
+  ["ответственность", /ответствен/iu],
+  ["смелость", /смелост|храброст/iu],
+  ["доброта", /доброта|добрые поступки/iu],
+  ["творчество", /творчеств|рисован|сочиня|мастерит/iu],
+  ["детектив", /детектив|расследован|сыщик/iu],
+  ["фантастика", /фантастик|инопланет|космическ\w+ приключ/iu],
+  ["динозавры", /динозавр/iu],
+];
+
+function enrichedThemes(book) {
+  const evidence = [book.title, book.shortDescription, book.fullDescription].filter(Boolean).join(" ");
+  const normalizedExisting = (book.themes ?? []).map((theme) => theme === "детективы" ? "детектив" : theme);
+  return compact([
+    ...normalizedExisting,
+    ...additionalThemeRules.filter(([, pattern]) => pattern.test(evidence)).map(([theme]) => theme),
+  ]);
+}
+
 function fictionOnlyGenres(book) {
   const publicGenres = (book.genres ?? []).filter((genre) => !nonFictionPublicGenres.has(genre));
   if (publicGenres.length) return publicGenres;
@@ -322,14 +351,20 @@ function fictionOnlyGenres(book) {
 
 const books = candidateBooks
   .filter((book) => isNenCollectionBook(book) || classifyCatalogBook(book).decision === "keep")
-  .map((book) => ({
-    ...book,
-    genres: isNenCollectionBook(book) ? compact(book.genres) : fictionOnlyGenres(book),
-    publisher: normalizePublisher(book.publisher),
-    shortDescription: fixGeneratedAuthorCases(book.shortDescription, book.author),
-    fullDescription: fixGeneratedAuthorCases(book.fullDescription, book.author),
-    whyRecommended: buildBookRecommendation(book, { force: true }),
-  }));
+  .map((book) => {
+    const normalized = {
+      ...book,
+      genres: isNenCollectionBook(book) ? compact(book.genres) : fictionOnlyGenres(book),
+      themes: enrichedThemes(book),
+      publisher: normalizePublisher(book.publisher),
+      shortDescription: fixGeneratedAuthorCases(book.shortDescription, book.author),
+      fullDescription: fixGeneratedAuthorCases(book.fullDescription, book.author),
+    };
+    return {
+      ...normalized,
+      whyRecommended: buildBookRecommendation(normalized, { force: true }),
+    };
+  });
 
 const refreshedRecommendations = books.filter((book) => {
   const original = candidateBooks.find((candidate) => candidate.id === book.id)?.whyRecommended ?? "";

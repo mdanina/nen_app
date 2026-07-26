@@ -26,6 +26,17 @@ test("склоняет жанры и темы в рекомендации", () =
   assert.ok(new Set(values).size >= 3);
 });
 
+test("грамотно использует новые тематические фильтры", () => {
+  const values = Array.from({ length: 30 }, (_, index) => buildBookRecommendation({
+    ...base,
+    id: `new-themes-${index}`,
+    themes: ["братья и сёстры", "первая любовь", "эмоции"],
+  }, { force: true }));
+  assert.ok(values.some((value) => value.includes("о братьях и сёстрах, первой любви и эмоциях")));
+  assert.ok(values.some((value) => value.includes("темы братьев и сестёр, первой любви и эмоций")));
+  assert.ok(values.every((value) => !value.includes("о братья и сёстры")));
+});
+
 test("не заменяет редакционный текст", () => {
   const editorial = "Редакционная рекомендация о конкретной книге.";
   assert.equal(buildBookRecommendation({ ...base, whyRecommended: editorial }), editorial);
