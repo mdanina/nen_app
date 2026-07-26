@@ -3,6 +3,7 @@ import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { classifyCatalogBook } from "./books/fiction-classifier.mjs";
 import { fixGeneratedAuthorCases } from "./books/russian-morphology.mjs";
+import { buildBookRecommendation, isGeneratedRecommendation } from "./books/book-recommendation.mjs";
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const legacyPath = resolve(root, "data/source/catalog-full.json");
@@ -11,6 +12,7 @@ const importedPath = resolve(root, "data/source/openlibrary-books.json");
 const importedExclusionsPath = resolve(root, "data/source/openlibrary-books-excluded.json");
 const curatedPublisherPath = resolve(root, "data/source/curated-publisher-books.json");
 const curatedMultiPublisherPath = resolve(root, "data/source/curated-multi-publisher-books.json");
+const nenCollectionBooksPath = resolve(root, "data/source/nen-collection-books.json");
 const annotationOverridesPath = resolve(root, "data/source/book-annotation-overrides.json");
 const targetPath = resolve(root, "data/generated/books.json");
 const fictionExcludedReportPath = resolve(root, "data/reports/fiction-catalog-excluded.json");
@@ -21,6 +23,7 @@ const importedSource = JSON.parse(await readFile(importedPath, "utf8"));
 const importedExclusions = JSON.parse(await readFile(importedExclusionsPath, "utf8"));
 const curatedPublisherSource = JSON.parse(await readFile(curatedPublisherPath, "utf8"));
 const curatedMultiPublisherSource = JSON.parse(await readFile(curatedMultiPublisherPath, "utf8"));
+const nenCollectionSource = JSON.parse(await readFile(nenCollectionBooksPath, "utf8"));
 const annotationOverrides = JSON.parse(await readFile(annotationOverridesPath, "utf8"));
 const annotationById = new Map(annotationOverrides.map((item) => [item.id, item]));
 
@@ -176,6 +179,25 @@ function curatedPublisherBook(item, index) {
   };
 }
 
+function nenCollectionBook(item, index) {
+  for (const field of ["id", "slug", "title", "shortDescription"]) {
+    if (typeof item[field] !== "string" || !item[field].trim()) throw new Error(`Карточка подборки НЭН ${index + 1}: отсутствует ${field}`);
+  }
+  if (!Array.isArray(item.authors) || !item.authors.length) throw new Error(`Карточка подборки НЭН ${item.id}: отсутствует автор`);
+  if (!Number.isFinite(item.ageMin) || !Number.isFinite(item.ageMax) || item.ageMin > item.ageMax) throw new Error(`Карточка подборки НЭН ${item.id}: некорректный возраст`);
+  if (!allowed.readingMode.has(item.readingMode)) throw new Error(`Карточка подборки НЭН ${item.id}: неизвестный формат чтения`);
+  for (const field of ["genres", "themes"]) assertVocabulary(item, field);
+  return {
+    ...item,
+    author: item.authors.join("; "),
+    authors: undefined,
+    ageLabel: `${item.ageMin}–${item.ageMax} лет`,
+    whyRecommended: item.whyRecommended ?? "",
+    sensitiveTopics: compact(item.sensitiveTopics),
+    sensitiveTopicsReviewed: true,
+  };
+}
+
 function importedBook(item, index) {
   for (const field of ["id", "slug", "title", "author", "whyRecommended"]) {
     if (typeof item[field] !== "string" || !item[field].trim()) throw new Error(`Импортированная запись ${index + 1}: отсутствует ${field}`);
@@ -225,6 +247,7 @@ const curatedPublisherBooks = [
   ...curatedPublisherSource.books,
   ...curatedMultiPublisherSource.books,
 ].map(curatedPublisherBook);
+const nenCollectionBooks = nenCollectionSource.books.map(nenCollectionBook);
 const enrichmentById = new Map([
   ...curatedPublisherSource.enrichments,
   ...curatedMultiPublisherSource.enrichments,
@@ -243,13 +266,14 @@ function applyPublisherEnrichment(book) {
     bibliographicSources: compact([...(book.bibliographicSources ?? []), enrichment.bibliographicSource]),
   };
 }
-const candidateBooks = [...legacyBooks, ...publishedV2, ...importedBooks, ...curatedPublisherBooks].map(applyPublisherEnrichment);
+const candidateBooks = [...legacyBooks, ...publishedV2, ...importedBooks, ...curatedPublisherBooks, ...nenCollectionBooks].map(applyPublisherEnrichment);
+const isNenCollectionBook = (book) => String(book.id).startsWith("curated-nen-collection-");
 const fictionExcluded = candidateBooks
   .map((book) => ({ book, classification: classifyCatalogBook(book) }))
-  .filter(({ classification }) => classification.decision === "exclude");
+  .filter(({ book, classification }) => !isNenCollectionBook(book) && classification.decision === "exclude");
 const fictionAmbiguous = candidateBooks
   .map((book) => ({ book, classification: classifyCatalogBook(book) }))
-  .filter(({ classification }) => classification.decision === "ambiguous");
+  .filter(({ book, classification }) => !isNenCollectionBook(book) && classification.decision === "ambiguous");
 
 const nonFictionPublicGenres = new Set([
   "биография",
@@ -293,14 +317,20 @@ function fictionOnlyGenres(book) {
 }
 
 const books = candidateBooks
-  .filter((book) => classifyCatalogBook(book).decision === "keep")
+  .filter((book) => isNenCollectionBook(book) || classifyCatalogBook(book).decision === "keep")
   .map((book) => ({
     ...book,
-    genres: fictionOnlyGenres(book),
+    genres: isNenCollectionBook(book) ? compact(book.genres) : fictionOnlyGenres(book),
     publisher: normalizePublisher(book.publisher),
     shortDescription: fixGeneratedAuthorCases(book.shortDescription, book.author),
     fullDescription: fixGeneratedAuthorCases(book.fullDescription, book.author),
+    whyRecommended: buildBookRecommendation(book),
   }));
+
+const refreshedRecommendations = books.filter((book) => {
+  const original = candidateBooks.find((candidate) => candidate.id === book.id)?.whyRecommended ?? "";
+  return isGeneratedRecommendation(original) && book.whyRecommended !== original;
+});
 
 const missingFictionGenres = books.filter((book) => !book.genres.length);
 if (missingFictionGenres.length) {
@@ -339,3 +369,4 @@ await Promise.all([
   writeFile(fictionAmbiguousReportPath, `${JSON.stringify(fictionAmbiguous.map(classificationReportRecord), null, 2)}\n`, "utf8"),
 ]);
 console.log(`Сформировано книг: ${books.length} (кандидатов ${candidateBooks.length}; исключено ранее ${excludedImportedIds.size}, по типу издания ${fictionExcluded.length}, на ручной проверке ${fictionAmbiguous.length})`);
+console.log(`Обновлено автоматически сформированных рекомендаций: ${refreshedRecommendations.length}`);

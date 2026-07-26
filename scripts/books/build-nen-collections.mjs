@@ -53,7 +53,12 @@ const collections = source.collections.map((collection) => {
     updatedAt: source.updatedAt,
     sourceUrl: collection.sourceUrl,
   };
-}).filter((collection) => collection.bookIds.length);
+});
+
+const incompleteCollections = report.filter((collection) => collection.missing.length);
+if (incompleteCollections.length) {
+  throw new Error(`Подборки НЭН восстановлены не полностью: ${incompleteCollections.map((item) => `${item.slug} (${item.matchedCount}/${item.sourceTitleCount})`).join(", ")}`);
+}
 
 const serialized = JSON.stringify(collections, null, 2)
   .replace(/"([^"]+)":/g, "$1:")

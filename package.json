@@ -8,6 +8,8 @@
     "dev": "pnpm --filter @nen/books dev",
     "dev:books": "pnpm --filter @nen/books dev",
     "catalog:build": "node scripts/build-books-catalog.mjs",
+    "collections:import:nen": "node scripts/books/import-nen-collection-books.mjs",
+    "collections:build": "node scripts/books/build-nen-collections.mjs",
     "import:openlibrary": "node scripts/openlibrary/import-pilot.mjs",
     "import:openlibrary:fixture": "node scripts/openlibrary/import-pilot.mjs --input data/import/openlibrary/fixtures/pilot-fragment.txt --output data/import/openlibrary/pilot --dump-date 2026-07-01 --limit 1000 --seed 20260721 --fixture",
     "import:universal:fixture": "node scripts/openlibrary/import-universal.mjs --input data/import/openlibrary/fixtures/pilot-fragment.txt --output data/import/staging/openlibrary-pilot --retrieved-at 2026-07-21T00:00:00.000Z --batch-id openlibrary-pilot-20260721",
@@ -23,7 +25,7 @@
     "build": "pnpm catalog:build && pnpm --filter @nen/books build",
     "typecheck": "pnpm -r --if-present typecheck",
     "lint": "pnpm -r --if-present lint",
-    "test": "pnpm -r --if-present test"
+    "test": "node --test scripts/books/book-recommendation.test.mjs scripts/books/nen-collections.test.mjs && pnpm -r --if-present test"
   },
   "devDependencies": {
     "typescript": "latest"

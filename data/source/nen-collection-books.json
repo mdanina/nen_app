@@ -1,0 +1,3387 @@
+{
+  "generatedAt": "2026-07-26T07:40:57.158Z",
+  "sourcePolicy": "Карточки восстановлены из редакционных книжных подборок НЭН; отсутствующие сведения не выдумываются.",
+  "books": [
+    {
+      "id": "curated-nen-collection-pro-lisa-i-porosenka-bern-rervik",
+      "slug": "nen-collection-pro-lisa-i-porosenka-bern-rervik",
+      "title": "Про Лиса и Поросенка",
+      "authors": [
+        "Бьёрн Рёрвик"
+      ],
+      "publisher": "Самокат",
+      "shortDescription": "Сейчас в серии всего четыре книги — самая первая называется «Акулиска — враг редиски», но у нас первой появилась «Кафе \"Птичий хвост\"».\n\nЛис и Поросенок живут в лесу, дружат, играют и попадают во всякие переделки — например, однажды Поросенка укусил комар, и чтобы спастись от укусов, друзья решили сделать мазь из всего самого вонючего, что смогли найти в доме Лиса. Получилось эффективно, но еще оказалось, что запах привлекает местного страшного хищника — Акулиску (это смесь из слов «акула» и «редиска»).",
+      "fullDescription": "Сейчас в серии всего четыре книги — самая первая называется «Акулиска — враг редиски», но у нас первой появилась «Кафе \"Птичий хвост\"».\n\nЛис и Поросенок живут в лесу, дружат, играют и попадают во всякие переделки — например, однажды Поросенка укусил комар, и чтобы спастись от укусов, друзья решили сделать мазь из всего самого вонючего, что смогли найти в доме Лиса. Получилось эффективно, но еще оказалось, что запах привлекает местного страшного хищника — Акулиску (это смесь из слов «акула» и «редиска»).",
+      "ageMin": 4,
+      "ageMax": 8,
+      "readingMode": "both",
+      "genres": [
+        "реалистическая проза"
+      ],
+      "themes": [
+        "дружба",
+        "животные",
+        "природа",
+        "приключения"
+      ],
+      "moods": [],
+      "languageDifficulty": "easy",
+      "lengthCategory": "medium",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2025-11-12/69147102ed4ee_1040x720.jpg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/thebestbooksforchildren2020/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
+        "collectionSlugs": [
+          "vybor-redaktsii-nen-2020"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-stihi-mashi-rupasovoy-masha-rupasova",
+      "slug": "nen-collection-stihi-mashi-rupasovoy-masha-rupasova",
+      "title": "Стихи Маши Рупасовой",
+      "authors": [
+        "Маша Рупасова"
+      ],
+      "shortDescription": "Тут сложно выбрать один сборник, сын читает их (точнее, просит ему их читать) сразу пачками. Из любимых сразу назвал сборники «Дедушка, ты гдедушка», «Извините, каша дома» и новенький про Мартына и Барсика.\n\nСлушает с упоением, разобрал на цитаты, радостно декламирует отдельные строфы и целые стихи. И хотя некоторые стихи там, конечно, совсем для малышей, все остальное — сплошной восторг.",
+      "fullDescription": "Тут сложно выбрать один сборник, сын читает их (точнее, просит ему их читать) сразу пачками. Из любимых сразу назвал сборники «Дедушка, ты гдедушка», «Извините, каша дома» и новенький про Мартына и Барсика.\n\nСлушает с упоением, разобрал на цитаты, радостно декламирует отдельные строфы и целые стихи. И хотя некоторые стихи там, конечно, совсем для малышей, все остальное — сплошной восторг.",
+      "ageMin": 3,
+      "ageMax": 12,
+      "readingMode": "both",
+      "genres": [
+        "поэзия"
+      ],
+      "themes": [
+        "семья",
+        "животные"
+      ],
+      "moods": [],
+      "languageDifficulty": "easy",
+      "lengthCategory": "medium",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2020-12-28/5fe9e14d270e0_0x0.jpg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/thebestbooksforchildren2020/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
+        "collectionSlugs": [
+          "vybor-redaktsii-nen-2020"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-semeynyy-albom-tirannozavra-toni-mayk-benton",
+      "slug": "nen-collection-semeynyy-albom-tirannozavra-toni-mayk-benton",
+      "title": "Семейный альбом тираннозавра Тони",
+      "authors": [
+        "Майк Бентон"
+      ],
+      "shortDescription": "Мише нравятся динозавры, а мне не нравятся энциклопедии, так что эта книга стала настоящей находкой — там рассказывается про динозавров, но в форме монолога от первого лица, с шутками-прибаутками и без обилия лишних фактов.\n\nОтдельно хочу отметить иллюстрации — они тоже очень интересные. Мультяшные, яркие, при этом довольно подробные и узнаваемые. Это не единственная книга о динозаврах, но точно самая любимая.",
+      "fullDescription": "Мише нравятся динозавры, а мне не нравятся энциклопедии, так что эта книга стала настоящей находкой — там рассказывается про динозавров, но в форме монолога от первого лица, с шутками-прибаутками и без обилия лишних фактов.\n\nОтдельно хочу отметить иллюстрации — они тоже очень интересные. Мультяшные, яркие, при этом довольно подробные и узнаваемые. Это не единственная книга о динозаврах, но точно самая любимая.",
+      "ageMin": 3,
+      "ageMax": 12,
+      "readingMode": "both",
+      "genres": [
+        "научно-популярная литература"
+      ],
+      "themes": [
+        "наука"
+      ],
+      "moods": [],
+      "languageDifficulty": "easy",
+      "lengthCategory": "medium",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2020-12-28/5fe9e1a394de7_0x0.jpg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/thebestbooksforchildren2020/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
+        "collectionSlugs": [
+          "vybor-redaktsii-nen-2020"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-chelovetkin-dzhuliya-donaldson",
+      "slug": "nen-collection-chelovetkin-dzhuliya-donaldson",
+      "title": "Человеткин",
+      "authors": [
+        "Джулия Дональдсон"
+      ],
+      "publisher": "Машины творения",
+      "shortDescription": "Леню точно можно назвать фанатом Дональдсон. Практически все книги этой писательницы становились хитами нашей домашней библиотеки (только история про рыбку Тюльку почему-то не зашла). Но главный фаворит — это, конечно, Человеткин.\n\nИстория про человекоподобную палочку, которая чуть не угодила в камин под Рождество, вот уже несколько месяцев подряд лидирует на всех позициях (и именно этой книжке мы обязаны коллекции веток в нашей прихожей).",
+      "fullDescription": "Леню точно можно назвать фанатом Дональдсон. Практически все книги этой писательницы становились хитами нашей домашней библиотеки (только история про рыбку Тюльку почему-то не зашла). Но главный фаворит — это, конечно, Человеткин.\n\nИстория про человекоподобную палочку, которая чуть не угодила в камин под Рождество, вот уже несколько месяцев подряд лидирует на всех позициях (и именно этой книжке мы обязаны коллекции веток в нашей прихожей).",
+      "ageMin": 3,
+      "ageMax": 12,
+      "readingMode": "both",
+      "genres": [
+        "реалистическая проза"
+      ],
+      "themes": [
+        "животные"
+      ],
+      "moods": [],
+      "languageDifficulty": "easy",
+      "lengthCategory": "medium",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2020-12-28/5fe9e2531e746_0x0.jpg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/thebestbooksforchildren2020/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
+        "collectionSlugs": [
+          "vybor-redaktsii-nen-2020"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-meydelin-finn-i-sobaka-iz-priyuta-liza-papp",
+      "slug": "nen-collection-meydelin-finn-i-sobaka-iz-priyuta-liza-papp",
+      "title": "Мейделин Финн и собака из приюта",
+      "authors": [
+        "Лиза Папп"
+      ],
+      "publisher": "Поляндрия",
+      "shortDescription": "В этом году я старалась объяснить ребенку, кто такие бездомные животные. Дело в том, что мы взяли собаку из приюта и появилось много вопросов. Так в наш дом пришла книга, ставшая любимой. «Мейделин Финн и собака из приюта» — добрая история об одной девочке, которая через связь со своим новым питомцем узнала о несправедливости мира и решила это исправить. Отличная книга, чтобы начать диалог о бездомных животных и помощи приютам.",
+      "fullDescription": "В этом году я старалась объяснить ребенку, кто такие бездомные животные. Дело в том, что мы взяли собаку из приюта и появилось много вопросов. Так в наш дом пришла книга, ставшая любимой. «Мейделин Финн и собака из приюта» — добрая история об одной девочке, которая через связь со своим новым питомцем узнала о несправедливости мира и решила это исправить. Отличная книга, чтобы начать диалог о бездомных животных и помощи приютам.",
+      "ageMin": 3,
+      "ageMax": 12,
+      "readingMode": "both",
+      "genres": [
+        "реалистическая проза"
+      ],
+      "themes": [
+        "животные"
+      ],
+      "moods": [],
+      "languageDifficulty": "easy",
+      "lengthCategory": "medium",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2020-12-28/5fe9e566b95b5_0x0.jpg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/thebestbooksforchildren2020/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
+        "collectionSlugs": [
+          "vybor-redaktsii-nen-2020"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-martyn-i-barsik-masha-rupasova",
+      "slug": "nen-collection-martyn-i-barsik-masha-rupasova",
+      "title": "Мартын и Барсик",
+      "authors": [
+        "Маша Рупасова"
+      ],
+      "publisher": "Альпина.Дети",
+      "shortDescription": "Вторая любимая книга в этом году — это, конечно, новый хит Маши Рупасовой «Мартын и Барсик». Мы хохочем всей семьей. Стихи, которые заставляют улыбаться и взрослых и детей. Любовь навсегда!",
+      "fullDescription": "Вторая любимая книга в этом году — это, конечно, новый хит Маши Рупасовой «Мартын и Барсик». Мы хохочем всей семьей. Стихи, которые заставляют улыбаться и взрослых и детей. Любовь навсегда!",
+      "ageMin": 3,
+      "ageMax": 12,
+      "readingMode": "both",
+      "genres": [
+        "поэзия"
+      ],
+      "themes": [
+        "семья",
+        "животные",
+        "взросление",
+        "отношения"
+      ],
+      "moods": [],
+      "languageDifficulty": "easy",
+      "lengthCategory": "short",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2020-12-28/5fe9e5bac6507_0x0.jpg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/thebestbooksforchildren2020/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
+        "collectionSlugs": [
+          "vybor-redaktsii-nen-2020"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-odin-za-vseh-i-vse-za-odnogo-brigit-veninger",
+      "slug": "nen-collection-odin-za-vseh-i-vse-za-odnogo-brigit-veninger",
+      "title": "Один за всех и все за одного",
+      "authors": [
+        "Бригит Венингер"
+      ],
+      "publisher": "Нигма",
+      "shortDescription": "И третья в моем списке даже не книга, а серия книг от Бригит Венингер. «Один за всех и все за одного» — о мышонке, который несмотря на хромоту и короткие усики, пошел узнавать мир и искать друзей. И нашел!\n\nУ каждого из них свои особенности, но вместе они могут справиться с чем угодно. «Дети есть дети» о лягушатах-сиротках, которым стала мамой мышь. «Учиться — это весело» — о том, что если ты очень хочешь, то учиться можно даже в лесу на пеньке. В общем, очень рекомендую всю серию от издательства «Нигма». Иллюстрации Эвы Тарлет — трогательные и просто любимые.",
+      "fullDescription": "И третья в моем списке даже не книга, а серия книг от Бригит Венингер. «Один за всех и все за одного» — о мышонке, который несмотря на хромоту и короткие усики, пошел узнавать мир и искать друзей. И нашел!\n\nУ каждого из них свои особенности, но вместе они могут справиться с чем угодно. «Дети есть дети» о лягушатах-сиротках, которым стала мамой мышь. «Учиться — это весело» — о том, что если ты очень хочешь, то учиться можно даже в лесу на пеньке. В общем, очень рекомендую всю серию от издательства «Нигма». Иллюстрации Эвы Тарлет — трогательные и просто любимые.",
+      "ageMin": 3,
+      "ageMax": 12,
+      "readingMode": "both",
+      "genres": [
+        "юмор"
+      ],
+      "themes": [
+        "дружба",
+        "семья",
+        "животные",
+        "природа",
+        "юмор"
+      ],
+      "moods": [],
+      "languageDifficulty": "easy",
+      "lengthCategory": "medium",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2020-12-28/5fe9e619d35f6_0x0.jpg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/thebestbooksforchildren2020/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
+        "collectionSlugs": [
+          "vybor-redaktsii-nen-2020"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-korolevstvo-krivyh-zerkal-vitaliy-gubarev",
+      "slug": "nen-collection-korolevstvo-krivyh-zerkal-vitaliy-gubarev",
+      "title": "Королевство кривых зеркал",
+      "authors": [
+        "Виталий Губарев"
+      ],
+      "shortDescription": "Я не знаю, поняла ли Ева все политическую подоплеку книги (думаю, немножко поняла), но так, как Оля осознала, что вела себя грубо с другими — точно поняла.",
+      "fullDescription": "Я не знаю, поняла ли Ева все политическую подоплеку книги (думаю, немножко поняла), но так, как Оля осознала, что вела себя грубо с другими — точно поняла.",
+      "ageMin": 3,
+      "ageMax": 12,
+      "readingMode": "both",
+      "genres": [
+        "реалистическая проза"
+      ],
+      "themes": [
+        "отношения"
+      ],
+      "moods": [],
+      "languageDifficulty": "easy",
+      "lengthCategory": "short",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2020-12-28/5fe9e81cdf86d_0x0.jpg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/thebestbooksforchildren2020/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
+        "collectionSlugs": [
+          "vybor-redaktsii-nen-2020"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-piter-pen-dzheyms-barri",
+      "slug": "nen-collection-piter-pen-dzheyms-barri",
+      "title": "Питер Пэн",
+      "authors": [
+        "Джеймс Барри"
+      ],
+      "shortDescription": "Тут ей понравился волшебный остров Нетинебудет и то, что дети в конце все-таки возвращаются к маме и папе.",
+      "fullDescription": "Тут ей понравился волшебный остров Нетинебудет и то, что дети в конце все-таки возвращаются к маме и папе.",
+      "ageMin": 3,
+      "ageMax": 12,
+      "readingMode": "both",
+      "genres": [
+        "фэнтези"
+      ],
+      "themes": [
+        "семья",
+        "волшебство"
+      ],
+      "moods": [],
+      "languageDifficulty": "easy",
+      "lengthCategory": "short",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2020-12-28/5fe9e9bb8a49f_0x0.jpg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/thebestbooksforchildren2020/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
+        "collectionSlugs": [
+          "vybor-redaktsii-nen-2020"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-vse-o-mumi-trollyah-tuve-yansson",
+      "slug": "nen-collection-vse-o-mumi-trollyah-tuve-yansson",
+      "title": "Все о Муми-троллях",
+      "authors": [
+        "Туве Янссон"
+      ],
+      "shortDescription": "Мы раньше все как-то не доходили до этих героев Туве Янссон, а сейчас ей очень понравились необычные персонажи, имена (лидер тут — Снусмумрик), юмор и всякие детали, наподобие рецептов блюд.",
+      "fullDescription": "Мы раньше все как-то не доходили до этих героев Туве Янссон, а сейчас ей очень понравились необычные персонажи, имена (лидер тут — Снусмумрик), юмор и всякие детали, наподобие рецептов блюд.",
+      "ageMin": 3,
+      "ageMax": 12,
+      "readingMode": "both",
+      "genres": [
+        "юмор"
+      ],
+      "themes": [
+        "животные",
+        "юмор"
+      ],
+      "moods": [],
+      "languageDifficulty": "easy",
+      "lengthCategory": "short",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2020-12-28/5fe9e9bb8a49f_0x0.jpg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/thebestbooksforchildren2020/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
+        "collectionSlugs": [
+          "vybor-redaktsii-nen-2020"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-myshonok-kotoryy-tam-anastasiya-kovalenkova",
+      "slug": "nen-collection-myshonok-kotoryy-tam-anastasiya-kovalenkova",
+      "title": "Мышонок, который там",
+      "authors": [
+        "Анастасия Коваленкова"
+      ],
+      "shortDescription": "Эту сказку мы начали читать как раз уже ближе к концу года — и она нас покорила. Амелия очень любит мышат, поэтому тема зашла на ура.\n\nНу а мне понравились сказочный дух (вот как в детстве прямо!), слог, простые и при этом классные иллюстрации. Главные герои сказки — братья-мышата Там и Никанор — очень отличаются, но при этом трогательно любят друг друга (для детей, у которых есть сиблинги, думаю, это вызовет определенные эмоции), по-детски шалят и наслаждаются своими приключениями — очень приятный вайб у этой книги, читаешь ее и как будто совершаешь путешествие в свое детство, на дачу к прабабушке.",
+      "fullDescription": "Эту сказку мы начали читать как раз уже ближе к концу года — и она нас покорила. Амелия очень любит мышат, поэтому тема зашла на ура.\n\nНу а мне понравились сказочный дух (вот как в детстве прямо!), слог, простые и при этом классные иллюстрации. Главные герои сказки — братья-мышата Там и Никанор — очень отличаются, но при этом трогательно любят друг друга (для детей, у которых есть сиблинги, думаю, это вызовет определенные эмоции), по-детски шалят и наслаждаются своими приключениями — очень приятный вайб у этой книги, читаешь ее и как будто совершаешь путешествие в свое детство, на дачу к прабабушке.",
+      "ageMin": 3,
+      "ageMax": 12,
+      "readingMode": "both",
+      "genres": [
+        "сказка",
+        "приключения"
+      ],
+      "themes": [
+        "семья",
+        "школа",
+        "животные",
+        "путешествия",
+        "приключения"
+      ],
+      "moods": [],
+      "languageDifficulty": "easy",
+      "lengthCategory": "medium",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2020-12-28/5fe9eab80b7f2_0x0.jpg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/thebestbooksforchildren2020/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
+        "collectionSlugs": [
+          "vybor-redaktsii-nen-2020"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-kto-uteshit-knyutta-tuve-yansson",
+      "slug": "nen-collection-kto-uteshit-knyutta-tuve-yansson",
+      "title": "Кто утешит Кнютта",
+      "authors": [
+        "Туве Янссон"
+      ],
+      "shortDescription": "К своему стыду, я узнала об этой сказке только в этом году, хотя я очень люблю Янссон и читала ее много с самого детства. Но я рада, что «Кнютт» поселился в нашей библиотеке!\n\nЯ совершенно случайно выцепила издание в переводе Натальи Шаховской — с маскирующимся под рукописный текстом, яркими иллюстрациями и плотными страницами. Книга — восторг! И история ужасно трогательная и милая.",
+      "fullDescription": "К своему стыду, я узнала об этой сказке только в этом году, хотя я очень люблю Янссон и читала ее много с самого детства. Но я рада, что «Кнютт» поселился в нашей библиотеке!\n\nЯ совершенно случайно выцепила издание в переводе Натальи Шаховской — с маскирующимся под рукописный текстом, яркими иллюстрациями и плотными страницами. Книга — восторг! И история ужасно трогательная и милая.",
+      "ageMin": 3,
+      "ageMax": 12,
+      "readingMode": "both",
+      "genres": [
+        "сказка"
+      ],
+      "themes": [
+        "волшебство"
+      ],
+      "moods": [],
+      "languageDifficulty": "easy",
+      "lengthCategory": "medium",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2020-12-28/5fe9eb3f21a92_0x0.jpg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/thebestbooksforchildren2020/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
+        "collectionSlugs": [
+          "vybor-redaktsii-nen-2020"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-kartofelnaya-sobaka-yuriy-koval",
+      "slug": "nen-collection-kartofelnaya-sobaka-yuriy-koval",
+      "title": "Картофельная собака",
+      "authors": [
+        "Юрий Коваль"
+      ],
+      "publisher": "Самокат",
+      "shortDescription": "Когда меня спрашивают о любимых писателях, первым я называю всегда Коваля. «Картофельная собака» вышла в «Самокате» в первый год моей работы в «Подписных», с нее и началась моя взрослая любовь к детской литературе, из которой потом и вырос наш такой большой детский отдел и ОПГ «Ясельки».\n\nСпасибо собакам: если бы Юрий Коваль дал своей картофельной повести другое название, вряд ли бы я тогда обратила на нее внимание. Но к счастью, Коваль очень любил собак (и много о них написал!), так мы и повстречались.",
+      "fullDescription": "Когда меня спрашивают о любимых писателях, первым я называю всегда Коваля. «Картофельная собака» вышла в «Самокате» в первый год моей работы в «Подписных», с нее и началась моя взрослая любовь к детской литературе, из которой потом и вырос наш такой большой детский отдел и ОПГ «Ясельки».\n\nСпасибо собакам: если бы Юрий Коваль дал своей картофельной повести другое название, вряд ли бы я тогда обратила на нее внимание. Но к счастью, Коваль очень любил собак (и много о них написал!), так мы и повстречались.",
+      "ageMin": 5,
+      "ageMax": 15,
+      "readingMode": "both",
+      "genres": [
+        "реалистическая проза"
+      ],
+      "themes": [
+        "семья",
+        "животные",
+        "взросление",
+        "отношения",
+        "приключения"
+      ],
+      "moods": [],
+      "languageDifficulty": "easy",
+      "lengthCategory": "medium",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2022-09-13/632056704e863_0x0.jpg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/10-glavnih-detskih-knig/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/10-glavnih-detskih-knig/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/10-glavnih-detskih-knig/",
+        "collectionSlugs": [
+          "desyat-glavnyh-detskih-knig"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-medved-v-svoem-repertuare-gubert-shirnek",
+      "slug": "nen-collection-medved-v-svoem-repertuare-gubert-shirnek",
+      "title": "Медведь в своем репертуаре",
+      "authors": [
+        "Губерт Ширнек"
+      ],
+      "publisher": "Поляндрия",
+      "shortDescription": "Жил да был медведь, но не простой, а очковый — редкого вида! Медведь этот был неуклюжий, забывчивый и в целом очень потешный. Например, записывая услышанные по радио пословицы — такое хобби, — он непременно путал слова и получалось, например, «Не все то золото, что свистит!» Всерьез этого зверя воспринимал только Лев, его лучший друг. Все остальные обитатели окрестного леса считали его зверьком с приветом: «Ну, медведь в своем репертуаре!» А мы в «Подписных» этого медведя обожаем, мы сами порой — как этот медведь!\n\nСемь лет назад эта книжка вышла, и не было дня, чтобы мы ее кому-нибудь не посоветовали. Она хороша для детей предшкольного возраста и для взрослых, которые хотят почитать доброго и смешного. А еще эта книга прямо-таки создана, чтобы читать ее вслух друзьям!",
+      "fullDescription": "Жил да был медведь, но не простой, а очковый — редкого вида! Медведь этот был неуклюжий, забывчивый и в целом очень потешный. Например, записывая услышанные по радио пословицы — такое хобби, — он непременно путал слова и получалось, например, «Не все то золото, что свистит!» Всерьез этого зверя воспринимал только Лев, его лучший друг. Все остальные обитатели окрестного леса считали его зверьком с приветом: «Ну, медведь в своем репертуаре!» А мы в «Подписных» этого медведя обожаем, мы сами порой — как этот медведь!\n\nСемь лет назад эта книжка вышла, и не было дня, чтобы мы ее кому-нибудь не посоветовали. Она хороша для детей предшкольного возраста и для взрослых, которые хотят почитать доброго и смешного. А еще эта книга прямо-таки создана, чтобы читать ее вслух друзьям!",
+      "ageMin": 5,
+      "ageMax": 15,
+      "readingMode": "both",
+      "genres": [
+        "юмор"
+      ],
+      "themes": [
+        "дружба",
+        "семья",
+        "школа",
+        "животные",
+        "природа"
+      ],
+      "moods": [],
+      "languageDifficulty": "easy",
+      "lengthCategory": "medium",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2022-09-13/6320568d157aa_0x0.jpg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/10-glavnih-detskih-knig/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/10-glavnih-detskih-knig/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/10-glavnih-detskih-knig/",
+        "collectionSlugs": [
+          "desyat-glavnyh-detskih-knig"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-shtora-nyanyushki-lagton-virdzhiniya-vulf",
+      "slug": "nen-collection-shtora-nyanyushki-lagton-virdzhiniya-vulf",
+      "title": "Штора нянюшки Лагтон",
+      "authors": [
+        "Вирджиния Вулф"
+      ],
+      "shortDescription": "Первая книжка с картинками, выпущенная нашим издательством! У нас в коллективе хватает поклонников Вирджинии Вулф, а главным всегда был Арсений. Не так давно Арсений стал редактором нашего издательства, и, конечно, выход сказки Вулф не заставил себя ждать! Тем более что на русском ее до этого не издавали, а у нас на примете уже был художник Иван Сергеев, чьи иллюстрации перевернули текст с ног на голову: вот она, сила искусства!\n\nА история такая: шила нянюшка Лагтон штору, да так устала, что уснула. И тут вдруг ожили звери, а синяя ткань превратилась в небо. Пока звери шагали к водопою, штора вся поросла травой.",
+      "fullDescription": "Первая книжка с картинками, выпущенная нашим издательством! У нас в коллективе хватает поклонников Вирджинии Вулф, а главным всегда был Арсений. Не так давно Арсений стал редактором нашего издательства, и, конечно, выход сказки Вулф не заставил себя ждать! Тем более что на русском ее до этого не издавали, а у нас на примете уже был художник Иван Сергеев, чьи иллюстрации перевернули текст с ног на голову: вот она, сила искусства!\n\nА история такая: шила нянюшка Лагтон штору, да так устала, что уснула. И тут вдруг ожили звери, а синяя ткань превратилась в небо. Пока звери шагали к водопою, штора вся поросла травой.",
+      "ageMin": 5,
+      "ageMax": 15,
+      "readingMode": "both",
+      "genres": [
+        "сказка"
+      ],
+      "themes": [
+        "животные",
+        "искусство"
+      ],
+      "moods": [],
+      "languageDifficulty": "easy",
+      "lengthCategory": "medium",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2022-09-13/63205791c5a73_0x0.jpg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/10-glavnih-detskih-knig/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/10-glavnih-detskih-knig/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/10-glavnih-detskih-knig/",
+        "collectionSlugs": [
+          "desyat-glavnyh-detskih-knig"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-ne-vse-umeyut-padat-toon-tellegen",
+      "slug": "nen-collection-ne-vse-umeyut-padat-toon-tellegen",
+      "title": "Не все умеют падать",
+      "authors": [
+        "Тоон Теллеген"
+      ],
+      "shortDescription": "Тоон Теллеген гений. Его истории про зверей одновременно и смешные, и грустные, абсурдные и философские. Белка учит слона падать, потому что иначе ему не выбраться с облака, на которое он как-то залез; жук-доктор припрятал веселые мысли сверчка — самому пригодятся; кузнечик держит магазин, где можно найти все что угодно для счастья…\n\nЧетыре года назад «Поляндрия» начала переиздавать тексты Теллегена, добавив к ним иллюстрации знаменитого Игоря Олейникова. Тогда же Теллеген приехал в Петербург, пришел в «Подписные издания», рассказывал мне, что вообще-то он врач, несколько лет даже работал в Африке, и самое красивое зрелище в его жизни — стадо жирафов, убегающих в закат. Из-за их длинных ног зрителю может показаться, что жирафы бегут медленно, как-бы в полёте, но на самом деле они очень быстрые!",
+      "fullDescription": "Тоон Теллеген гений. Его истории про зверей одновременно и смешные, и грустные, абсурдные и философские. Белка учит слона падать, потому что иначе ему не выбраться с облака, на которое он как-то залез; жук-доктор припрятал веселые мысли сверчка — самому пригодятся; кузнечик держит магазин, где можно найти все что угодно для счастья…\n\nЧетыре года назад «Поляндрия» начала переиздавать тексты Теллегена, добавив к ним иллюстрации знаменитого Игоря Олейникова. Тогда же Теллеген приехал в Петербург, пришел в «Подписные издания», рассказывал мне, что вообще-то он врач, несколько лет даже работал в Африке, и самое красивое зрелище в его жизни — стадо жирафов, убегающих в закат. Из-за их длинных ног зрителю может показаться, что жирафы бегут медленно, как-бы в полёте, но на самом деле они очень быстрые!",
+      "ageMin": 5,
+      "ageMax": 15,
+      "readingMode": "both",
+      "genres": [
+        "юмор"
+      ],
+      "themes": [
+        "семья",
+        "животные",
+        "юмор",
+        "волшебство"
+      ],
+      "moods": [],
+      "languageDifficulty": "easy",
+      "lengthCategory": "long",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2022-09-13/6320810bca7d5_0x0.jpg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/10-glavnih-detskih-knig/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/10-glavnih-detskih-knig/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/10-glavnih-detskih-knig/",
+        "collectionSlugs": [
+          "desyat-glavnyh-detskih-knig"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-reka-tekuschaya-vspyat-klod-murleva",
+      "slug": "nen-collection-reka-tekuschaya-vspyat-klod-murleva",
+      "title": "Река, текущая вспять",
+      "authors": [
+        "Жан-Клод Мурлева"
+      ],
+      "shortDescription": "История про истории, сказка про сказки. Она и взрослая, и детская. И про мальчика, и про девочку. И про любовь, и про горе. В ней есть абсолютно все. Мальчик Томек вслед за девочкой Ханной отправляется в далекое и опасное путешествие на поиски волшебной реки, вода в которой дает бессмертие. У каждого из героев свой путь и свои испытания, и им придется принять много решений и от многого отказаться, прежде чем они приобретут настоящих друзей, найдут свою любовь и поймут, что смерть — не больше и не меньше, чем часть жизни.",
+      "fullDescription": "История про истории, сказка про сказки. Она и взрослая, и детская. И про мальчика, и про девочку. И про любовь, и про горе. В ней есть абсолютно все. Мальчик Томек вслед за девочкой Ханной отправляется в далекое и опасное путешествие на поиски волшебной реки, вода в которой дает бессмертие. У каждого из героев свой путь и свои испытания, и им придется принять много решений и от многого отказаться, прежде чем они приобретут настоящих друзей, найдут свою любовь и поймут, что смерть — не больше и не меньше, чем часть жизни.",
+      "ageMin": 10,
+      "ageMax": 16,
+      "readingMode": "independent",
+      "genres": [
+        "сказка",
+        "фэнтези"
+      ],
+      "themes": [
+        "дружба",
+        "животные",
+        "природа",
+        "путешествия",
+        "взросление"
+      ],
+      "moods": [],
+      "languageDifficulty": "medium",
+      "lengthCategory": "medium",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2025-07-31/688b4abab97c0_0x0.jpg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/knigi-pro-pervuyu-lyubov/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/knigi-pro-pervuyu-lyubov/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/knigi-pro-pervuyu-lyubov/",
+        "collectionSlugs": [
+          "knigi-pro-pervuyu-lyubov"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-ya-ne-ya-zhanna-zaytseva-aleksandra",
+      "slug": "nen-collection-ya-ne-ya-zhanna-zaytseva-aleksandra",
+      "title": "Я, не я, Жанна",
+      "authors": [
+        "Зайцева Александра"
+      ],
+      "shortDescription": "Книга о взрослении и актуальных детско-родительских отношениях в такой непростой подростковый период. Вокруг и так проблем достаточно, учеба, друзья, чувства, а тут еще и родители… Представьте себе, что мама решила, что она — «инфлюенсер»! С одной стороны, это конечно классно, что мама современная, ведет свой блог, общается с подписчиками и зарабатывает на обзорах. Но это совсем не круто, когда мама решает вести блог про своего ребенка-подростка. И удалять не соглашается. Стыд то какой. Ведь все одноклассники знают про него. Остатется только одно, завести свой блог в ответ.",
+      "fullDescription": "Книга о взрослении и актуальных детско-родительских отношениях в такой непростой подростковый период. Вокруг и так проблем достаточно, учеба, друзья, чувства, а тут еще и родители… Представьте себе, что мама решила, что она — «инфлюенсер»! С одной стороны, это конечно классно, что мама современная, ведет свой блог, общается с подписчиками и зарабатывает на обзорах. Но это совсем не круто, когда мама решает вести блог про своего ребенка-подростка. И удалять не соглашается. Стыд то какой. Ведь все одноклассники знают про него. Остатется только одно, завести свой блог в ответ.",
+      "ageMin": 10,
+      "ageMax": 16,
+      "readingMode": "independent",
+      "genres": [
+        "реалистическая проза"
+      ],
+      "themes": [
+        "дружба",
+        "семья",
+        "школа",
+        "взросление",
+        "отношения"
+      ],
+      "moods": [],
+      "languageDifficulty": "medium",
+      "lengthCategory": "medium",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2025-07-31/688b4b0620de8_0x0.jpg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/knigi-pro-pervuyu-lyubov/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/knigi-pro-pervuyu-lyubov/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/knigi-pro-pervuyu-lyubov/",
+        "collectionSlugs": [
+          "knigi-pro-pervuyu-lyubov"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-chto-nuzhno-malenkoy-koshke-natalya-shaloshvili",
+      "slug": "nen-collection-chto-nuzhno-malenkoy-koshke-natalya-shaloshvili",
+      "title": "Что нужно маленькой кошке",
+      "authors": [
+        "Наталья Шалошвили"
+      ],
+      "shortDescription": "Что нужно маленькой серенькой кошке? Сосиска, миска сметаны или пушистый коврик? А может важнее всего теплые объятия, чтобы согреваться холодными длинными вечерами? Я/мы — маленькая серенькая кошка!",
+      "fullDescription": "Что нужно маленькой серенькой кошке? Сосиска, миска сметаны или пушистый коврик? А может важнее всего теплые объятия, чтобы согреваться холодными длинными вечерами? Я/мы — маленькая серенькая кошка!",
+      "ageMin": 1,
+      "ageMax": 10,
+      "readingMode": "both",
+      "genres": [
+        "реалистическая проза"
+      ],
+      "themes": [
+        "животные"
+      ],
+      "moods": [],
+      "languageDifficulty": "easy",
+      "lengthCategory": "short",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2021-10-07/615ede5ada5ef_0x0.jpg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/tenbestbooksforchildren/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
+        "collectionSlugs": [
+          "desyat-knig-dlya-malyshey"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-vernye-druzya-mariam-kordes",
+      "slug": "nen-collection-vernye-druzya-mariam-kordes",
+      "title": "Верные друзья",
+      "authors": [
+        "Мариам Кордес"
+      ],
+      "shortDescription": "Медведь жил на морском берегу. Больше всего на свете он хотел встретить друга. И однажды его мечта исполнилась. Он увидел необычную белую птицу. Встретившись раз, они больше не расставались.\n\nОчень красивая и понятная даже малышам книга о доброте, заботе и нежности двух непохожих друзей. Самым маленьким читателям она послужит красочным пособием по окружающему миру. А ребятам постарше — примером теплых отношений и дружбе, которой не страшны ни расстояния и время.",
+      "fullDescription": "Медведь жил на морском берегу. Больше всего на свете он хотел встретить друга. И однажды его мечта исполнилась. Он увидел необычную белую птицу. Встретившись раз, они больше не расставались.\n\nОчень красивая и понятная даже малышам книга о доброте, заботе и нежности двух непохожих друзей. Самым маленьким читателям она послужит красочным пособием по окружающему миру. А ребятам постарше — примером теплых отношений и дружбе, которой не страшны ни расстояния и время.",
+      "ageMin": 1,
+      "ageMax": 10,
+      "readingMode": "both",
+      "genres": [
+        "реалистическая проза"
+      ],
+      "themes": [
+        "дружба",
+        "животные",
+        "отношения"
+      ],
+      "moods": [],
+      "languageDifficulty": "easy",
+      "lengthCategory": "medium",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2021-10-07/615ede5ada5ef_0x0.jpg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/tenbestbooksforchildren/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
+        "collectionSlugs": [
+          "desyat-knig-dlya-malyshey"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-spat-kak-tigr-masha-lukashkina",
+      "slug": "nen-collection-spat-kak-tigr-masha-lukashkina",
+      "title": "Спать, как тигр",
+      "authors": [
+        "Маша Лукашкина"
+      ],
+      "shortDescription": "Больше всего на свете маленькая девочка по имени Принцесса не любила ложиться спать. Она гуляла на улице до позднего вечера. И ничто и никто не могли убедить Принцессу улечься в кроватку. И тогда родители придумали для своей дочки одну потрясающую историю!\n\nПрекрасная засыпательная книжка-картинка с оригинальными иллюстрациями Памелы Загаренски обязательно станет любимой у мальчиков и девочек в возрасте двух-шести лет.",
+      "fullDescription": "Больше всего на свете маленькая девочка по имени Принцесса не любила ложиться спать. Она гуляла на улице до позднего вечера. И ничто и никто не могли убедить Принцессу улечься в кроватку. И тогда родители придумали для своей дочки одну потрясающую историю!\n\nПрекрасная засыпательная книжка-картинка с оригинальными иллюстрациями Памелы Загаренски обязательно станет любимой у мальчиков и девочек в возрасте двух-шести лет.",
+      "ageMin": 1,
+      "ageMax": 10,
+      "readingMode": "both",
+      "genres": [
+        "реалистическая проза"
+      ],
+      "themes": [
+        "семья",
+        "искусство"
+      ],
+      "moods": [],
+      "languageDifficulty": "easy",
+      "lengthCategory": "medium",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2021-10-07/615edef47bcbf_0x0.jpg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/tenbestbooksforchildren/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
+        "collectionSlugs": [
+          "desyat-knig-dlya-malyshey"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-moya-sestrenka-olkozavra-dina-gerbek",
+      "slug": "nen-collection-moya-sestrenka-olkozavra-dina-gerbek",
+      "title": "Моя сестренка Олькозавра",
+      "authors": [
+        "Дина Гербек"
+      ],
+      "shortDescription": "Олькозавра — это Олька, младшая сестра Вадьки. Олька была совсем маленькой и частенько доставала Вадьку своими малышковыми выходками. И вот однажды Вадька загадал желание: чтобы вместо Ольки дома появилась настоящая собака!\n\nОчаровательная история, рассказанная от имени маленького героя, подойдет, как для совместного чтения с малышами, так и для самостоятельного чтения младшими школьниками.",
+      "fullDescription": "Олькозавра — это Олька, младшая сестра Вадьки. Олька была совсем маленькой и частенько доставала Вадьку своими малышковыми выходками. И вот однажды Вадька загадал желание: чтобы вместо Ольки дома появилась настоящая собака!\n\nОчаровательная история, рассказанная от имени маленького героя, подойдет, как для совместного чтения с малышами, так и для самостоятельного чтения младшими школьниками.",
+      "ageMin": 1,
+      "ageMax": 10,
+      "readingMode": "both",
+      "genres": [
+        "реалистическая проза"
+      ],
+      "themes": [
+        "семья",
+        "школа",
+        "животные",
+        "взросление"
+      ],
+      "moods": [],
+      "languageDifficulty": "easy",
+      "lengthCategory": "medium",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2021-10-07/615f1a2d5f390_0x0.png",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/tenbestbooksforchildren/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
+        "collectionSlugs": [
+          "desyat-knig-dlya-malyshey"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-kak-flip-zatopil-ves-mir-adam-stouer",
+      "slug": "nen-collection-kak-flip-zatopil-ves-mir-adam-stouer",
+      "title": "Как Флип затопил весь мир",
+      "authors": [
+        "Адам Стоуэр"
+      ],
+      "shortDescription": "Флип был очень рассеянным мальчиком. По утрам он забывал заправлять свою кроватку, уходил в школу без завтрака и даже порой возвращался без штанишек! И вот однажды он забыл закрыть кран в ванной. Открытая вода затопила всю его комнату, дом и даже улицу. Малыш Флип устроил настоящий всемирный потоп! И не понятно, чем бы все это закончилось, если бы он наконец не понял, почему так важно не забывать важное!\n\nЯркая и поучительная книга. Красочное чтение для вечно все забывающих и рассеянных малышей.",
+      "fullDescription": "Флип был очень рассеянным мальчиком. По утрам он забывал заправлять свою кроватку, уходил в школу без завтрака и даже порой возвращался без штанишек! И вот однажды он забыл закрыть кран в ванной. Открытая вода затопила всю его комнату, дом и даже улицу. Малыш Флип устроил настоящий всемирный потоп! И не понятно, чем бы все это закончилось, если бы он наконец не понял, почему так важно не забывать важное!\n\nЯркая и поучительная книга. Красочное чтение для вечно все забывающих и рассеянных малышей.",
+      "ageMin": 1,
+      "ageMax": 10,
+      "readingMode": "both",
+      "genres": [
+        "реалистическая проза"
+      ],
+      "themes": [
+        "школа"
+      ],
+      "moods": [],
+      "languageDifficulty": "easy",
+      "lengthCategory": "medium",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2021-10-07/615edf8a3be1a_0x0.jpg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/tenbestbooksforchildren/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
+        "collectionSlugs": [
+          "desyat-knig-dlya-malyshey"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-molli-i-shtormovoe-more-doyl-malahiya",
+      "slug": "nen-collection-molli-i-shtormovoe-more-doyl-malahiya",
+      "title": "Молли и штормовое море",
+      "authors": [
+        "Дойл Малахия"
+      ],
+      "shortDescription": "Молли живет на самом берегу моря. Ее отец каждый день уходит в высокие волны. И каждый раз он привозит дочке какой-нибудь подарок. Но однажды отец не вернулся. Бушующее море поглотило его корабль. Малышка Молли решает отдать морю все самое дорогое, что у нее есть. Взамен оно должно отдать ее папу обратно.\n\nТрогательная история про девочку и ее папу не оставит равнодушным ни одного читателя. Прочитав эту книгу, ребята поймут, что вера в добро всегда обращается хорошим и светлым. А взрослые лишний раз вспомнят, что детские великодушие и наивность обязательно спасут мир!",
+      "fullDescription": "Молли живет на самом берегу моря. Ее отец каждый день уходит в высокие волны. И каждый раз он привозит дочке какой-нибудь подарок. Но однажды отец не вернулся. Бушующее море поглотило его корабль. Малышка Молли решает отдать морю все самое дорогое, что у нее есть. Взамен оно должно отдать ее папу обратно.\n\nТрогательная история про девочку и ее папу не оставит равнодушным ни одного читателя. Прочитав эту книгу, ребята поймут, что вера в добро всегда обращается хорошим и светлым. А взрослые лишний раз вспомнят, что детские великодушие и наивность обязательно спасут мир!",
+      "ageMin": 1,
+      "ageMax": 10,
+      "readingMode": "both",
+      "genres": [
+        "реалистическая проза"
+      ],
+      "themes": [
+        "семья",
+        "природа",
+        "путешествия",
+        "взросление",
+        "приключения"
+      ],
+      "moods": [],
+      "languageDifficulty": "easy",
+      "lengthCategory": "medium",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2021-10-07/615edf8a3be1a_0x0.jpg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/tenbestbooksforchildren/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
+        "collectionSlugs": [
+          "desyat-knig-dlya-malyshey"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-idi-poigray-s-tem-malchikom-klementina-bove",
+      "slug": "nen-collection-idi-poigray-s-tem-malchikom-klementina-bove",
+      "title": "Иди поиграй с тем мальчиком!",
+      "authors": [
+        "Клементина Бове"
+      ],
+      "shortDescription": "Классная книжка-картинка известной французской писательницы объяснит юным читателям, что желание быть одному абсолютно нормальное. А взрослым напомнит о том, что богатая детская фантазия не позволяет им заскучать ни на минуточку!",
+      "fullDescription": "Классная книжка-картинка известной французской писательницы объяснит юным читателям, что желание быть одному абсолютно нормальное. А взрослым напомнит о том, что богатая детская фантазия не позволяет им заскучать ни на минуточку!",
+      "ageMin": 1,
+      "ageMax": 10,
+      "readingMode": "both",
+      "genres": [
+        "реалистическая проза"
+      ],
+      "themes": [
+        "школа",
+        "искусство",
+        "взросление"
+      ],
+      "moods": [],
+      "languageDifficulty": "easy",
+      "lengthCategory": "short",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2021-10-07/615ee02e22ecc_0x0.jpg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/tenbestbooksforchildren/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
+        "collectionSlugs": [
+          "desyat-knig-dlya-malyshey"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-god-polnyy-chudes-b-klyayn",
+      "slug": "nen-collection-god-polnyy-chudes-b-klyayn",
+      "title": "Год, полный чудес",
+      "authors": [
+        "Шерил Б.Кляйн"
+      ],
+      "shortDescription": "Что такое детство? Беззаботность и искренняя радость, мороженное ложками и спелые ягоды прямо с куста? А может, это верные друзья или прыжки через лужи? Вместе с героями этой книги читатели пробегутся по самым запоминающимся моментам детского возраста. Ребята получат удовольствие от иллюстраций и вдохновятся необычным сюжетом, а взрослые с радостью вспомнят свое собственное взросление.\n\nКнижка-картинка и художественный календарь важных событий. Отличное чтение для всей семьи.",
+      "fullDescription": "Что такое детство? Беззаботность и искренняя радость, мороженное ложками и спелые ягоды прямо с куста? А может, это верные друзья или прыжки через лужи? Вместе с героями этой книги читатели пробегутся по самым запоминающимся моментам детского возраста. Ребята получат удовольствие от иллюстраций и вдохновятся необычным сюжетом, а взрослые с радостью вспомнят свое собственное взросление.\n\nКнижка-картинка и художественный календарь важных событий. Отличное чтение для всей семьи.",
+      "ageMin": 1,
+      "ageMax": 10,
+      "readingMode": "both",
+      "genres": [
+        "реалистическая проза"
+      ],
+      "themes": [
+        "дружба",
+        "семья",
+        "искусство",
+        "взросление"
+      ],
+      "moods": [],
+      "languageDifficulty": "easy",
+      "lengthCategory": "medium",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2021-10-07/615ee02e22ecc_0x0.jpg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/tenbestbooksforchildren/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
+        "collectionSlugs": [
+          "desyat-knig-dlya-malyshey"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-lev-petrushka-i-ego-druzya-maykl-bond",
+      "slug": "nen-collection-lev-petrushka-i-ego-druzya-maykl-bond",
+      "title": "Лев Петрушка и его друзья",
+      "authors": [
+        "Майкл Бонд"
+      ],
+      "shortDescription": "Лев Петрушка и его верный друг пес Укропчик живут в самом необычном лесу мира! Правда Сад трав и приправ вы не отыщите ни на одной карте. Но это ни капельки не огорчает его обитателей. Ведь каждый их день полон приключений и новых открытий!\n\nВеселые истории Майкла Бонда о льве Петрушке, впервые опубликованные пятьдесят лет назад, оживают для нового поколения читателей в цветном подарочном издании, оформленном современным гением иллюстрации — Робом Биддальфом.",
+      "fullDescription": "Лев Петрушка и его верный друг пес Укропчик живут в самом необычном лесу мира! Правда Сад трав и приправ вы не отыщите ни на одной карте. Но это ни капельки не огорчает его обитателей. Ведь каждый их день полон приключений и новых открытий!\n\nВеселые истории Майкла Бонда о льве Петрушке, впервые опубликованные пятьдесят лет назад, оживают для нового поколения читателей в цветном подарочном издании, оформленном современным гением иллюстрации — Робом Биддальфом.",
+      "ageMin": 1,
+      "ageMax": 10,
+      "readingMode": "both",
+      "genres": [
+        "приключения",
+        "юмор"
+      ],
+      "themes": [
+        "дружба",
+        "животные",
+        "природа",
+        "юмор",
+        "приключения"
+      ],
+      "moods": [],
+      "languageDifficulty": "easy",
+      "lengthCategory": "medium",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2021-10-07/615ee05f2ff74_0x0.jpg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/tenbestbooksforchildren/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
+        "collectionSlugs": [
+          "desyat-knig-dlya-malyshey"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-pingvikingi-anton-soya",
+      "slug": "nen-collection-pingvikingi-anton-soya",
+      "title": "Пингвикинги",
+      "authors": [
+        "Антон Соя"
+      ],
+      "shortDescription": "Однажды молодой пингвин Пиня очутился на полярной станции. Полярник, с которым он там познакомился, рассказал ему о викингах. Пиня тут же решил стать воином — грозой морей, акул и тупиков, и отправиться в великие путешествия на поиски приключений. Но очень скоро пингвин понял, что настоящим викингом можно стать, лишь помогая тем, кому нужна опора и защита.\n\nНевероятные приключения, непредсказуемые сюжеты и неповторимые ощущения под одной обложкой. Отличный вариант чтения для ребят в возрасте от шести до 11 лет.",
+      "fullDescription": "Однажды молодой пингвин Пиня очутился на полярной станции. Полярник, с которым он там познакомился, рассказал ему о викингах. Пиня тут же решил стать воином — грозой морей, акул и тупиков, и отправиться в великие путешествия на поиски приключений. Но очень скоро пингвин понял, что настоящим викингом можно стать, лишь помогая тем, кому нужна опора и защита.\n\nНевероятные приключения, непредсказуемые сюжеты и неповторимые ощущения под одной обложкой. Отличный вариант чтения для ребят в возрасте от шести до 11 лет.",
+      "ageMin": 1,
+      "ageMax": 10,
+      "readingMode": "both",
+      "genres": [
+        "приключения"
+      ],
+      "themes": [
+        "животные",
+        "природа",
+        "путешествия",
+        "приключения"
+      ],
+      "moods": [],
+      "languageDifficulty": "easy",
+      "lengthCategory": "medium",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2021-10-07/615ee05f2ff74_0x0.jpg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/tenbestbooksforchildren/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
+        "collectionSlugs": [
+          "desyat-knig-dlya-malyshey"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-shkola-v-karmartene-anna-korosteleva",
+      "slug": "nen-collection-shkola-v-karmartene-anna-korosteleva",
+      "title": "Школа в Кармартене",
+      "authors": [
+        "Анна Коростелева"
+      ],
+      "shortDescription": "Книга для тех, кто уже выучил наизусть все закоулки Хогвартса, но мечтает еще раз погрузиться в мир, полный магии. Это история о волшебной школе в Кармартене, где живут как обычные люди, так и мифические создания. Чтобы туда поступить, достаточно лишь после 16-летия найти директора Мерлина и сдать ему экзамен. При этом врожденные магические способности необязательны — в учебном заведении все покажут и обо всем расскажут. Причем и о простых человеческих науках вроде химии и физики там тоже не забывают… Это невероятно позитивная книга с побочным эффектом: она всерьез способна заразить тягой к знаниям!",
+      "fullDescription": "Книга для тех, кто уже выучил наизусть все закоулки Хогвартса, но мечтает еще раз погрузиться в мир, полный магии. Это история о волшебной школе в Кармартене, где живут как обычные люди, так и мифические создания. Чтобы туда поступить, достаточно лишь после 16-летия найти директора Мерлина и сдать ему экзамен. При этом врожденные магические способности необязательны — в учебном заведении все покажут и обо всем расскажут. Причем и о простых человеческих науках вроде химии и физики там тоже не забывают… Это невероятно позитивная книга с побочным эффектом: она всерьез способна заразить тягой к знаниям!",
+      "ageMin": 12,
+      "ageMax": 17,
+      "readingMode": "independent",
+      "genres": [
+        "сказка",
+        "фэнтези"
+      ],
+      "themes": [
+        "школа",
+        "наука",
+        "волшебство"
+      ],
+      "moods": [],
+      "languageDifficulty": "advanced",
+      "lengthCategory": "medium",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2024-11-15/67372ab17bdbc_0x0.jpg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/knigi-dlya-podrostkov/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+        "collectionSlugs": [
+          "knigi-dlya-podrostkov"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-zakoldovannaya-zhizn-uinn-dzhons",
+      "slug": "nen-collection-zakoldovannaya-zhizn-uinn-dzhons",
+      "title": "Заколдованная жизнь",
+      "authors": [
+        "Диана Уинн Джонс"
+      ],
+      "shortDescription": "Это еще один бестселлер от автора культового «Ходячего замка». У героев романа — тихого, застенчивого Мура и яркой Гвендолен — гибнут родители. На воспитание они отправляются, как водится, к дальнему родственнику. Вот только он оказывается не простым дядюшкой, а могущественным волшебником Крестоманси, который присматривает за использованием магии во Вселенной. Вскоре выясняется, что у Гвендолен невероятные способности. Ей прочат блестящее будущее, однако Крестоманси придерживается совсем иного мнения о талантах девочки. А чуть позднее в центре событий оказывается и вовсе совсем не готовый к этому робкий Мур.",
+      "fullDescription": "Это еще один бестселлер от автора культового «Ходячего замка». У героев романа — тихого, застенчивого Мура и яркой Гвендолен — гибнут родители. На воспитание они отправляются, как водится, к дальнему родственнику. Вот только он оказывается не простым дядюшкой, а могущественным волшебником Крестоманси, который присматривает за использованием магии во Вселенной. Вскоре выясняется, что у Гвендолен невероятные способности. Ей прочат блестящее будущее, однако Крестоманси придерживается совсем иного мнения о талантах девочки. А чуть позднее в центре событий оказывается и вовсе совсем не готовый к этому робкий Мур.",
+      "ageMin": 12,
+      "ageMax": 17,
+      "readingMode": "independent",
+      "genres": [
+        "фэнтези"
+      ],
+      "themes": [
+        "семья",
+        "животные",
+        "природа",
+        "волшебство"
+      ],
+      "moods": [],
+      "languageDifficulty": "advanced",
+      "lengthCategory": "medium",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2024-11-15/67372ab6517b5_0x0.jpg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/knigi-dlya-podrostkov/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+        "collectionSlugs": [
+          "knigi-dlya-podrostkov"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-muley-erlend-lu",
+      "slug": "nen-collection-muley-erlend-lu",
+      "title": "Мулей",
+      "authors": [
+        "Эрленд Лу"
+      ],
+      "shortDescription": "Одна из самых пронзительных и сильных книг норвежского писателя. Она же — самая человечная. Юлии было всего 18, когда вся ее семья погибла в авиакатастрофе над Африкой, успев послать ей прощальное SMS. Жизнь девушки была разрушена, а сама она попыталась покончить с собой. После неудачной попытки самоубийства Юлия решает попытаться дать себе второй шанс и отправляется в путешествие по миру. Она увидит Брюссель и Бангкок, Париж и Канары, Лондон и Мадрид, сядет за штурвал самолета и наконец поймет: жизнь всегда имеет смысл и даже в самые черные моменты надо двигаться вперед.",
+      "fullDescription": "Одна из самых пронзительных и сильных книг норвежского писателя. Она же — самая человечная. Юлии было всего 18, когда вся ее семья погибла в авиакатастрофе над Африкой, успев послать ей прощальное SMS. Жизнь девушки была разрушена, а сама она попыталась покончить с собой. После неудачной попытки самоубийства Юлия решает попытаться дать себе второй шанс и отправляется в путешествие по миру. Она увидит Брюссель и Бангкок, Париж и Канары, Лондон и Мадрид, сядет за штурвал самолета и наконец поймет: жизнь всегда имеет смысл и даже в самые черные моменты надо двигаться вперед.",
+      "ageMin": 12,
+      "ageMax": 17,
+      "readingMode": "independent",
+      "genres": [
+        "реалистическая проза"
+      ],
+      "themes": [
+        "семья",
+        "путешествия",
+        "приключения"
+      ],
+      "moods": [],
+      "languageDifficulty": "advanced",
+      "lengthCategory": "medium",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2024-11-15/67372ad32d6e7_0x0.jpg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/knigi-dlya-podrostkov/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+        "collectionSlugs": [
+          "knigi-dlya-podrostkov"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-zhutko-gromko-i-zapredelno-blizko-safran-foer",
+      "slug": "nen-collection-zhutko-gromko-i-zapredelno-blizko-safran-foer",
+      "title": "Жутко громко и запредельно близко",
+      "authors": [
+        "Джонатан Сафран Фоер"
+      ],
+      "shortDescription": "Знаковая для целого поколения книга появилась на свет случайно. Идея пришла Фоеру в голову во время работы над другим произведением, но постепенно перетянула все внимание писателя на себя.\n\nТрагедия 11.09.2001 года поразила и шокировала весь мир. Но девятилетнего Оскара она коснулась лично: мальчик потерял отца в одной из башен-близнецов. Он пытается смириться с трагедией и заодно разгадать загадку — что открывает ключ, оставленный папой. Это настоящая психотерапевтическая история о взрослении, преодолении горя и умении находить и удерживать связь с самыми близкими. По ней тоже был снят фильм с Томом Хэнксом и Сандрой Буллок в главных ролях.",
+      "fullDescription": "Знаковая для целого поколения книга появилась на свет случайно. Идея пришла Фоеру в голову во время работы над другим произведением, но постепенно перетянула все внимание писателя на себя.\n\nТрагедия 11.09.2001 года поразила и шокировала весь мир. Но девятилетнего Оскара она коснулась лично: мальчик потерял отца в одной из башен-близнецов. Он пытается смириться с трагедией и заодно разгадать загадку — что открывает ключ, оставленный папой. Это настоящая психотерапевтическая история о взрослении, преодолении горя и умении находить и удерживать связь с самыми близкими. По ней тоже был снят фильм с Томом Хэнксом и Сандрой Буллок в главных ролях.",
+      "ageMin": 12,
+      "ageMax": 17,
+      "readingMode": "independent",
+      "genres": [
+        "реалистическая проза"
+      ],
+      "themes": [
+        "семья",
+        "взросление"
+      ],
+      "moods": [],
+      "languageDifficulty": "advanced",
+      "lengthCategory": "medium",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2024-11-15/67372ae8bb144_0x0.jpg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/knigi-dlya-podrostkov/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+        "collectionSlugs": [
+          "knigi-dlya-podrostkov"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-milye-kosti-elis-sibold",
+      "slug": "nen-collection-milye-kosti-elis-sibold",
+      "title": "Милые кости",
+      "authors": [
+        "Элис Сиболд"
+      ],
+      "shortDescription": "Это еще одна книжная история, позже «переехавшая» на большие экраны. Она рассказана от лица 14-летней девушки, которую убили. Теперь Сюзи Сэлмон пытается приспособиться к жизни на небесах и наблюдает сверху за тем, как ее семья старается смириться с потерей, а убийца — замести следы…",
+      "fullDescription": "Это еще одна книжная история, позже «переехавшая» на большие экраны. Она рассказана от лица 14-летней девушки, которую убили. Теперь Сюзи Сэлмон пытается приспособиться к жизни на небесах и наблюдает сверху за тем, как ее семья старается смириться с потерей, а убийца — замести следы…",
+      "ageMin": 12,
+      "ageMax": 17,
+      "readingMode": "independent",
+      "genres": [
+        "реалистическая проза"
+      ],
+      "themes": [
+        "семья",
+        "животные"
+      ],
+      "moods": [],
+      "languageDifficulty": "advanced",
+      "lengthCategory": "short",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2024-11-15/67372af19968a_0x0.jpg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/knigi-dlya-podrostkov/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+        "collectionSlugs": [
+          "knigi-dlya-podrostkov"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-kogda-my-vstretimsya-rebekka-sted",
+      "slug": "nen-collection-kogda-my-vstretimsya-rebekka-sted",
+      "title": "Когда мы встретимся",
+      "authors": [
+        "Ребекка Стед"
+      ],
+      "shortDescription": "В 12 лет проблем навалом! Лучший друг больше не хочет быть другом. Мама странно одевается и не готовит завтраки. Одноклассники начинают непредсказуемо себя вести. А тут еще появляются непонятные записки с сообщениями о том, что произойдет в будущем, и инструкциями, как это исполнить или, наоборот, избежать предсказания. Читается на одном дыхании!",
+      "fullDescription": "В 12 лет проблем навалом! Лучший друг больше не хочет быть другом. Мама странно одевается и не готовит завтраки. Одноклассники начинают непредсказуемо себя вести. А тут еще появляются непонятные записки с сообщениями о том, что произойдет в будущем, и инструкциями, как это исполнить или, наоборот, избежать предсказания. Читается на одном дыхании!",
+      "ageMin": 12,
+      "ageMax": 17,
+      "readingMode": "independent",
+      "genres": [
+        "реалистическая проза"
+      ],
+      "themes": [
+        "семья",
+        "школа"
+      ],
+      "moods": [],
+      "languageDifficulty": "advanced",
+      "lengthCategory": "short",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2024-11-15/67372af5652cf_0x0.jpg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/knigi-dlya-podrostkov/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+        "collectionSlugs": [
+          "knigi-dlya-podrostkov"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-trinadtsataya-skazka-diana-setterfild",
+      "slug": "nen-collection-trinadtsataya-skazka-diana-setterfild",
+      "title": "Тринадцатая сказка",
+      "authors": [
+        "Диана Сеттерфилд"
+      ],
+      "shortDescription": "Дебютный роман британской писательницы понравится подросткам, воспитанным на классической прозе. «Сказка» нетороплива, наполнена мистикой и загадками и идеально подходит для того, чтобы читать ее зимой, завернувшись в теплый плед.\n\nГлавная героиня, Маргарет, лучше ладит с книгами, чем с людьми. Она работает в книжном магазине и иногда публикует литературоведческие работы. Однажды она получает предложение от легендарной писательницы Виды Винтер стать ее биографом. Маргарет не понимает, почему честь выпала именно ей, — ничем особенным девушка не отличается. Однако она садится изучать творчество Виды и выясняет, что в их семье хранится редкий экземпляр первой книги Винтер, где содержатся двенадцать сказочных историй. Вот только книга называется «Тринадцать сказок», а тринадцатой в ней нет…",
+      "fullDescription": "Дебютный роман британской писательницы понравится подросткам, воспитанным на классической прозе. «Сказка» нетороплива, наполнена мистикой и загадками и идеально подходит для того, чтобы читать ее зимой, завернувшись в теплый плед.\n\nГлавная героиня, Маргарет, лучше ладит с книгами, чем с людьми. Она работает в книжном магазине и иногда публикует литературоведческие работы. Однажды она получает предложение от легендарной писательницы Виды Винтер стать ее биографом. Маргарет не понимает, почему честь выпала именно ей, — ничем особенным девушка не отличается. Однако она садится изучать творчество Виды и выясняет, что в их семье хранится редкий экземпляр первой книги Винтер, где содержатся двенадцать сказочных историй. Вот только книга называется «Тринадцать сказок», а тринадцатой в ней нет…",
+      "ageMin": 12,
+      "ageMax": 17,
+      "readingMode": "independent",
+      "genres": [
+        "сказка"
+      ],
+      "themes": [
+        "семья",
+        "школа",
+        "взросление",
+        "волшебство"
+      ],
+      "moods": [],
+      "languageDifficulty": "advanced",
+      "lengthCategory": "medium",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2024-11-15/67372af5652cf_0x0.jpg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/knigi-dlya-podrostkov/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+        "collectionSlugs": [
+          "knigi-dlya-podrostkov"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-bezdna-chellendzhera-nil-shusterman",
+      "slug": "nen-collection-bezdna-chellendzhera-nil-shusterman",
+      "title": "Бездна Челленджера",
+      "authors": [
+        "Нил Шустерман"
+      ],
+      "shortDescription": "Эта история удостоилась премий National Book Award, Golden Kite Award, The Boston Globe-Horn Book Awards. Читая ее, невозможно оставаться равнодушным и не сопереживать главному герою.\n\nКейден Босх — отличник. А еще талантливый художник и прекрасный друг. Ему всего 15, и кажется, что вся жизнь впереди. Вот только все чаще он уходит в себя, рисует что-то непонятное, срывается на уроках в школе. К тому же Кейден уверен: одноклассник хочет его убить.",
+      "fullDescription": "Эта история удостоилась премий National Book Award, Golden Kite Award, The Boston Globe-Horn Book Awards. Читая ее, невозможно оставаться равнодушным и не сопереживать главному герою.\n\nКейден Босх — отличник. А еще талантливый художник и прекрасный друг. Ему всего 15, и кажется, что вся жизнь впереди. Вот только все чаще он уходит в себя, рисует что-то непонятное, срывается на уроках в школе. К тому же Кейден уверен: одноклассник хочет его убить.",
+      "ageMin": 12,
+      "ageMax": 17,
+      "readingMode": "independent",
+      "genres": [
+        "реалистическая проза"
+      ],
+      "themes": [
+        "школа",
+        "искусство"
+      ],
+      "moods": [],
+      "languageDifficulty": "advanced",
+      "lengthCategory": "medium",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2024-11-15/67372b02c74ed_0x0.jpg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/knigi-dlya-podrostkov/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+        "collectionSlugs": [
+          "knigi-dlya-podrostkov"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-devyatnadtsat-minut-dzhodi-pikolt",
+      "slug": "nen-collection-devyatnadtsat-minut-dzhodi-pikolt",
+      "title": "Девятнадцать минут",
+      "authors": [
+        "Джоди Пиколт"
+      ],
+      "shortDescription": "«Бездна Челленджера» — невероятно личная книга о том, что значит столкнуться с душевной болезнью, погрузиться в нее и вопреки всему побороться и попытаться сохранить свое «я».\n\nЧто можно успеть за девятнадцать минут? Покрасить волосы, приготовить завтрак, постричь газон перед домом… А можно получить отмщение.",
+      "fullDescription": "«Бездна Челленджера» — невероятно личная книга о том, что значит столкнуться с душевной болезнью, погрузиться в нее и вопреки всему побороться и попытаться сохранить свое «я».\n\nЧто можно успеть за девятнадцать минут? Покрасить волосы, приготовить завтрак, постричь газон перед домом… А можно получить отмщение.",
+      "ageMin": 12,
+      "ageMax": 17,
+      "readingMode": "independent",
+      "genres": [
+        "реалистическая проза"
+      ],
+      "themes": [
+        "отношения"
+      ],
+      "moods": [],
+      "languageDifficulty": "advanced",
+      "lengthCategory": "short",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2024-11-15/67372b02c74ed_0x0.jpg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/knigi-dlya-podrostkov/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+        "collectionSlugs": [
+          "knigi-dlya-podrostkov"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-ptitsa-v-kletke-robin-rou",
+      "slug": "nen-collection-ptitsa-v-kletke-robin-rou",
+      "title": "Птица в клетке",
+      "authors": [
+        "Робин Роу"
+      ],
+      "shortDescription": "Семнадцатилетний Адам и четырнадцатилетний Джулиан становятся друзьями. И это при том, что они совсем не похожи. Адам — энергичный, жизнерадостный, популярный. Джулиан — необщительный, робкий и к тому же любит читать детские книжки с картинками. В школе над ним постоянно смеются. Но ведь можно не обращать на это внимание, если рядом есть надежное плечо! Однако, чем больше подростки общаются, тем больше Адам начинает подозревать, что, возможно, с характером Джулиана не все так просто, и друг отчаянно нуждается в помощи…",
+      "fullDescription": "Семнадцатилетний Адам и четырнадцатилетний Джулиан становятся друзьями. И это при том, что они совсем не похожи. Адам — энергичный, жизнерадостный, популярный. Джулиан — необщительный, робкий и к тому же любит читать детские книжки с картинками. В школе над ним постоянно смеются. Но ведь можно не обращать на это внимание, если рядом есть надежное плечо! Однако, чем больше подростки общаются, тем больше Адам начинает подозревать, что, возможно, с характером Джулиана не все так просто, и друг отчаянно нуждается в помощи…",
+      "ageMin": 12,
+      "ageMax": 17,
+      "readingMode": "independent",
+      "genres": [
+        "реалистическая проза"
+      ],
+      "themes": [
+        "дружба",
+        "школа",
+        "животные",
+        "искусство",
+        "взросление"
+      ],
+      "moods": [],
+      "languageDifficulty": "advanced",
+      "lengthCategory": "medium",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2024-11-15/67372b10b866d_0x0.jpg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/knigi-dlya-podrostkov/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+        "collectionSlugs": [
+          "knigi-dlya-podrostkov"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-ulichnyy-kot-po-imeni-bob-dzheyms-bouen",
+      "slug": "nen-collection-ulichnyy-kot-po-imeni-bob-dzheyms-bouen",
+      "title": "Уличный кот по имени Боб",
+      "authors": [
+        "Джеймс Боуэн"
+      ],
+      "shortDescription": "Эта история про то, как человек спас кота, а кот — человека, случилась на самом деле! Джеймс Боуэн был одиноким и практически бездомным уличным музыкантом, плотно сидевшим на запрещенных веществах. В его жизни не было никакого смысла, пока в ней не появился Боб, роскошный рыжий кот, ставший ангелом-хранителем парня. Эта парочка вскоре прославилась далеко за пределами Лондона благодаря соцсетям. Ну, а своему усатому компаньону Боуэн посвятил даже не одну, а целую серию книг, читать которые одно удовольствие.",
+      "fullDescription": "Эта история про то, как человек спас кота, а кот — человека, случилась на самом деле! Джеймс Боуэн был одиноким и практически бездомным уличным музыкантом, плотно сидевшим на запрещенных веществах. В его жизни не было никакого смысла, пока в ней не появился Боб, роскошный рыжий кот, ставший ангелом-хранителем парня. Эта парочка вскоре прославилась далеко за пределами Лондона благодаря соцсетям. Ну, а своему усатому компаньону Боуэн посвятил даже не одну, а целую серию книг, читать которые одно удовольствие.",
+      "ageMin": 12,
+      "ageMax": 17,
+      "readingMode": "independent",
+      "genres": [
+        "реалистическая проза"
+      ],
+      "themes": [
+        "животные",
+        "музыка"
+      ],
+      "moods": [],
+      "languageDifficulty": "advanced",
+      "lengthCategory": "medium",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2024-11-15/67372b17076e6_0x0.jpg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/knigi-dlya-podrostkov/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+        "collectionSlugs": [
+          "knigi-dlya-podrostkov"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-spletni-i-k-pop-aleksandra-yang",
+      "slug": "nen-collection-spletni-i-k-pop-aleksandra-yang",
+      "title": "Сплетни и K-pop",
+      "authors": [
+        "Александра Янг"
+      ],
+      "shortDescription": "Обязательно к прочтению всем фанатам южнокорейской поп-культуры и музыки, в целом! Элис 17, она недавно переехала с семьей в Сеул и пока толком не адаптировалась на новом месте. Зато каждую пятницу она ходит в караоке-салон, где с удовольствием поет песни обожаемой Леди Гаги. Однажды таинственная женщина вручает ей визитку, и Элис выпадает редкий шанс пройти прослушивание в одном из крупнейших в мире K-pop агентств. Вот только будет ли путь к славе приятным и легким?",
+      "fullDescription": "Обязательно к прочтению всем фанатам южнокорейской поп-культуры и музыки, в целом! Элис 17, она недавно переехала с семьей в Сеул и пока толком не адаптировалась на новом месте. Зато каждую пятницу она ходит в караоке-салон, где с удовольствием поет песни обожаемой Леди Гаги. Однажды таинственная женщина вручает ей визитку, и Элис выпадает редкий шанс пройти прослушивание в одном из крупнейших в мире K-pop агентств. Вот только будет ли путь к славе приятным и легким?",
+      "ageMin": 12,
+      "ageMax": 17,
+      "readingMode": "independent",
+      "genres": [
+        "реалистическая проза"
+      ],
+      "themes": [
+        "семья",
+        "животные",
+        "музыка"
+      ],
+      "moods": [],
+      "languageDifficulty": "advanced",
+      "lengthCategory": "medium",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2024-11-15/67372b1f21ad2_0x0.jpg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/knigi-dlya-podrostkov/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+        "collectionSlugs": [
+          "knigi-dlya-podrostkov"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-heytery-dzhessi-endryus",
+      "slug": "nen-collection-heytery-dzhessi-endryus",
+      "title": "Хейтеры",
+      "authors": [
+        "Джесси Эндрюс"
+      ],
+      "shortDescription": "Когда совершать веселые безумства, как не в подростковом возрасте? Уэс и его лучший друг Кори безумно скучают в джазовом лагере. Какой же это джаз, когда толком не дают даже поимпровизировать? Однако в один из дней ребята случайно устраивают джем-сейшн с Эш. И ее виртуозная игра на гитаре поражает Уэса и Кори. Троица понимает: из этого может вырасти нечто большее, например, группа! Так, вместо того чтобы торчать все лето в лагере, друзья отправляются в сумасшедшее музыкальное турне по всей Америке…\n\nПодборки\nКто украл поросят и куда исчезли все родители? 10 аудиодетективов для юных сыщиков",
+      "fullDescription": "Когда совершать веселые безумства, как не в подростковом возрасте? Уэс и его лучший друг Кори безумно скучают в джазовом лагере. Какой же это джаз, когда толком не дают даже поимпровизировать? Однако в один из дней ребята случайно устраивают джем-сейшн с Эш. И ее виртуозная игра на гитаре поражает Уэса и Кори. Троица понимает: из этого может вырасти нечто большее, например, группа! Так, вместо того чтобы торчать все лето в лагере, друзья отправляются в сумасшедшее музыкальное турне по всей Америке…\n\nПодборки\nКто украл поросят и куда исчезли все родители? 10 аудиодетективов для юных сыщиков",
+      "ageMin": 12,
+      "ageMax": 17,
+      "readingMode": "independent",
+      "genres": [
+        "детектив",
+        "юмор"
+      ],
+      "themes": [
+        "дружба",
+        "семья",
+        "взросление",
+        "юмор",
+        "музыка"
+      ],
+      "moods": [],
+      "languageDifficulty": "advanced",
+      "lengthCategory": "medium",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2024-11-15/67372b1f21ad2_0x0.jpg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/knigi-dlya-podrostkov/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+        "collectionSlugs": [
+          "knigi-dlya-podrostkov"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-schepotka-magii-mishel-harrison",
+      "slug": "nen-collection-schepotka-magii-mishel-harrison",
+      "title": "Щепотка магии",
+      "authors": [
+        "Мишель Харрисон"
+      ],
+      "shortDescription": "Эта книга больше подойдет девочкам — яркие образы главных героинь обязательно придутся по душе юным читательницам. Смелая, независимая и находчивая Бетти, добрая и обаятельная Флисс, умная и отважная Чарли — все они выписаны достоверно и вызывают симпатию с первых страниц.\n\nСемейное проклятье ставит под угрозу мечты главных героинь и вынуждает пройти до конца по дороге, на которой их секретным оружием являются дружба, смелость и, конечно же, магия.",
+      "fullDescription": "Эта книга больше подойдет девочкам — яркие образы главных героинь обязательно придутся по душе юным читательницам. Смелая, независимая и находчивая Бетти, добрая и обаятельная Флисс, умная и отважная Чарли — все они выписаны достоверно и вызывают симпатию с первых страниц.\n\nСемейное проклятье ставит под угрозу мечты главных героинь и вынуждает пройти до конца по дороге, на которой их секретным оружием являются дружба, смелость и, конечно же, магия.",
+      "ageMin": 9,
+      "ageMax": 16,
+      "readingMode": "independent",
+      "genres": [
+        "фэнтези"
+      ],
+      "themes": [
+        "дружба",
+        "животные",
+        "путешествия",
+        "волшебство"
+      ],
+      "moods": [],
+      "languageDifficulty": "medium",
+      "lengthCategory": "medium",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2022-12-26/63a978b78c91a_0x0.jpeg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/8-knig/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/8-knig/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/8-knig/",
+        "collectionSlugs": [
+          "knigi-na-kanikuly"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-gorstka-volshebstva-mishel-harrison",
+      "slug": "nen-collection-gorstka-volshebstva-mishel-harrison",
+      "title": "Горстка волшебства",
+      "authors": [
+        "Мишель Харрисон"
+      ],
+      "shortDescription": "Эта книга больше подойдет девочкам — яркие образы главных героинь обязательно придутся по душе юным читательницам. Смелая, независимая и находчивая Бетти, добрая и обаятельная Флисс, умная и отважная Чарли — все они выписаны достоверно и вызывают симпатию с первых страниц.\n\nСемейное проклятье ставит под угрозу мечты главных героинь и вынуждает пройти до конца по дороге, на которой их секретным оружием являются дружба, смелость и, конечно же, магия.",
+      "fullDescription": "Эта книга больше подойдет девочкам — яркие образы главных героинь обязательно придутся по душе юным читательницам. Смелая, независимая и находчивая Бетти, добрая и обаятельная Флисс, умная и отважная Чарли — все они выписаны достоверно и вызывают симпатию с первых страниц.\n\nСемейное проклятье ставит под угрозу мечты главных героинь и вынуждает пройти до конца по дороге, на которой их секретным оружием являются дружба, смелость и, конечно же, магия.",
+      "ageMin": 9,
+      "ageMax": 16,
+      "readingMode": "independent",
+      "genres": [
+        "фэнтези"
+      ],
+      "themes": [
+        "дружба",
+        "животные",
+        "путешествия",
+        "волшебство"
+      ],
+      "moods": [],
+      "languageDifficulty": "medium",
+      "lengthCategory": "medium",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2022-12-26/63a978b78c91a_0x0.jpeg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/8-knig/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/8-knig/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/8-knig/",
+        "collectionSlugs": [
+          "knigi-na-kanikuly"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-klubok-zaklinaniy-mishel-harrison",
+      "slug": "nen-collection-klubok-zaklinaniy-mishel-harrison",
+      "title": "Клубок заклинаний",
+      "authors": [
+        "Мишель Харрисон"
+      ],
+      "shortDescription": "Эта книга больше подойдет девочкам — яркие образы главных героинь обязательно придутся по душе юным читательницам. Смелая, независимая и находчивая Бетти, добрая и обаятельная Флисс, умная и отважная Чарли — все они выписаны достоверно и вызывают симпатию с первых страниц.\n\nСемейное проклятье ставит под угрозу мечты главных героинь и вынуждает пройти до конца по дороге, на которой их секретным оружием являются дружба, смелость и, конечно же, магия.",
+      "fullDescription": "Эта книга больше подойдет девочкам — яркие образы главных героинь обязательно придутся по душе юным читательницам. Смелая, независимая и находчивая Бетти, добрая и обаятельная Флисс, умная и отважная Чарли — все они выписаны достоверно и вызывают симпатию с первых страниц.\n\nСемейное проклятье ставит под угрозу мечты главных героинь и вынуждает пройти до конца по дороге, на которой их секретным оружием являются дружба, смелость и, конечно же, магия.",
+      "ageMin": 9,
+      "ageMax": 16,
+      "readingMode": "independent",
+      "genres": [
+        "фэнтези"
+      ],
+      "themes": [
+        "дружба",
+        "животные",
+        "путешествия",
+        "волшебство"
+      ],
+      "moods": [],
+      "languageDifficulty": "medium",
+      "lengthCategory": "medium",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2022-12-26/63a978b78c91a_0x0.jpeg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/8-knig/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/8-knig/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/8-knig/",
+        "collectionSlugs": [
+          "knigi-na-kanikuly"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-malenkaya-vsemirnaya-istoriya-ernst-gombrih",
+      "slug": "nen-collection-malenkaya-vsemirnaya-istoriya-ernst-gombrih",
+      "title": "Маленькая всемирная история",
+      "authors": [
+        "Эрнст Гомбрих"
+      ],
+      "shortDescription": "Эрнст Гомбрих — всемирно известный искусствовед, автор серьезных исследований западного искусства, но эту книгу он написал для детей, практически на спор. Однажды издатель предложил ему перевести одну английскую книжку. Но Гомбриху она не понравилась, и тот сказал, что может написать лучше. Тогда издатель предложил ему прислать пробную главу. Она оказалась настолько удачной, что Эрнст Гомбрих получил предложение написать полноценную книгу за два месяца.\n\nВ итоге получилось увлекательное повествование, в котором великий искусствовед легко, доступно и занимательно рассказывает о самых важных событиях мировой истории.",
+      "fullDescription": "Эрнст Гомбрих — всемирно известный искусствовед, автор серьезных исследований западного искусства, но эту книгу он написал для детей, практически на спор. Однажды издатель предложил ему перевести одну английскую книжку. Но Гомбриху она не понравилась, и тот сказал, что может написать лучше. Тогда издатель предложил ему прислать пробную главу. Она оказалась настолько удачной, что Эрнст Гомбрих получил предложение написать полноценную книгу за два месяца.\n\nВ итоге получилось увлекательное повествование, в котором великий искусствовед легко, доступно и занимательно рассказывает о самых важных событиях мировой истории.",
+      "ageMin": 9,
+      "ageMax": 16,
+      "readingMode": "independent",
+      "genres": [
+        "реалистическая проза"
+      ],
+      "themes": [
+        "животные",
+        "наука",
+        "искусство"
+      ],
+      "moods": [],
+      "languageDifficulty": "medium",
+      "lengthCategory": "medium",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2022-12-26/63a97ac868108_0x0.jpg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/8-knig/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/8-knig/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/8-knig/",
+        "collectionSlugs": [
+          "knigi-na-kanikuly"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-sekrety-koshek-sasha-raush",
+      "slug": "nen-collection-sekrety-koshek-sasha-raush",
+      "title": "Секреты кошек",
+      "authors": [
+        "Саша Рауш"
+      ],
+      "shortDescription": "Кошки — это не только любимые всеми животные, но еще и символ нового года. Поэтому книга зоопсихолога и специалистки по поведению собак и кошек Саши Рауш будет отличным тематическим подарком, который обязательно заинтересует ребенка.\n\nВ книге особое внимание уделено психологии кошек, и если вы прочитаете эту книгу, то узнаете, как понять настроение кошки, умеют ли они мстить, почему не могут устоять перед открытой коробкой или чемоданом, зачем трутся о наши ноги и почему не стоит играть с ними лазерной указкой.",
+      "fullDescription": "Кошки — это не только любимые всеми животные, но еще и символ нового года. Поэтому книга зоопсихолога и специалистки по поведению собак и кошек Саши Рауш будет отличным тематическим подарком, который обязательно заинтересует ребенка.\n\nВ книге особое внимание уделено психологии кошек, и если вы прочитаете эту книгу, то узнаете, как понять настроение кошки, умеют ли они мстить, почему не могут устоять перед открытой коробкой или чемоданом, зачем трутся о наши ноги и почему не стоит играть с ними лазерной указкой.",
+      "ageMin": 9,
+      "ageMax": 16,
+      "readingMode": "independent",
+      "genres": [
+        "реалистическая проза"
+      ],
+      "themes": [
+        "животные"
+      ],
+      "moods": [],
+      "languageDifficulty": "medium",
+      "lengthCategory": "medium",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2022-12-26/63a97b20aaecf_0x0.jpg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/8-knig/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/8-knig/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/8-knig/",
+        "collectionSlugs": [
+          "knigi-na-kanikuly"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-brat-drakona-larisa-romanovskaya",
+      "slug": "nen-collection-brat-drakona-larisa-romanovskaya",
+      "title": "Брат дракона",
+      "authors": [
+        "Лариса Романовская"
+      ],
+      "shortDescription": "Главным героем детской писательницы Ларисы Романовской стал мальчик Аркаша. Он считает себя зомборыцарем и братом дракона, учится в пятом классе и живет яркой и увлекательной жизнью. Но всё меняется в день, когда герой внезапно начинает терять слух.\n\nЭто прекрасная, светлая история о принятии себя, которая не оставит ребенка равнодушным и научит внимательно и уважительно относиться к людям с особенностями.",
+      "fullDescription": "Главным героем детской писательницы Ларисы Романовской стал мальчик Аркаша. Он считает себя зомборыцарем и братом дракона, учится в пятом классе и живет яркой и увлекательной жизнью. Но всё меняется в день, когда герой внезапно начинает терять слух.\n\nЭто прекрасная, светлая история о принятии себя, которая не оставит ребенка равнодушным и научит внимательно и уважительно относиться к людям с особенностями.",
+      "ageMin": 9,
+      "ageMax": 16,
+      "readingMode": "independent",
+      "genres": [
+        "реалистическая проза"
+      ],
+      "themes": [
+        "семья",
+        "школа",
+        "животные"
+      ],
+      "moods": [],
+      "languageDifficulty": "medium",
+      "lengthCategory": "medium",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2022-12-26/63a97b6f4467a_0x0.jpg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/8-knig/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/8-knig/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/8-knig/",
+        "collectionSlugs": [
+          "knigi-na-kanikuly"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-zatonuvshiy-les-lloyd-dzhons",
+      "slug": "nen-collection-zatonuvshiy-les-lloyd-dzhons",
+      "title": "Затонувший лес",
+      "authors": [
+        "Эмили Ллойд-Джонс"
+      ],
+      "shortDescription": "Главная героиня романа Эмили Ллойд-Джонс — восемнадцатилетняя Меририт. Она — последняя волшебница, которой подвластна стихия воды. Но за девушкой охотятся наемники злого правителя княжества Гвелод. Тиран желает заполучить ее волшебную силу, чтобы использовать в корыстных целях. И волшебница пускается в бега…\n\nРоман «Затонувший лес» пронизан образами из валлийской мифологии, на его страницах читателям встретится много мифических существ и волшебных созданий. Но эта история не только о магии и чародействе — главной героине предстоит выбор, который может возникнуть на пути любого человека.",
+      "fullDescription": "Главная героиня романа Эмили Ллойд-Джонс — восемнадцатилетняя Меририт. Она — последняя волшебница, которой подвластна стихия воды. Но за девушкой охотятся наемники злого правителя княжества Гвелод. Тиран желает заполучить ее волшебную силу, чтобы использовать в корыстных целях. И волшебница пускается в бега…\n\nРоман «Затонувший лес» пронизан образами из валлийской мифологии, на его страницах читателям встретится много мифических существ и волшебных созданий. Но эта история не только о магии и чародействе — главной героине предстоит выбор, который может возникнуть на пути любого человека.",
+      "ageMin": 9,
+      "ageMax": 16,
+      "readingMode": "independent",
+      "genres": [
+        "сказка",
+        "фэнтези",
+        "поэзия"
+      ],
+      "themes": [
+        "животные",
+        "природа",
+        "волшебство"
+      ],
+      "moods": [],
+      "languageDifficulty": "medium",
+      "lengthCategory": "medium",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2022-12-26/63a97ba1cdf97_0x0.jpg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/8-knig/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/8-knig/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/8-knig/",
+        "collectionSlugs": [
+          "knigi-na-kanikuly"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-6-minut-dlya-detey-dominik-spenst",
+      "slug": "nen-collection-6-minut-dlya-detey-dominik-spenst",
+      "title": "6 минут для детей",
+      "authors": [
+        "Доминик Спенст"
+      ],
+      "shortDescription": "Взрослые уже привыкли использовать ежедневники письменных практик для саморазвития, отслеживания прогресса на пути к целям и лучшего понимания самих себя.\n\nС ежедневниками «6 минут для детей», можно начать внедрять в свою жизнь полезные практики и упражнения с самого детства.",
+      "fullDescription": "Взрослые уже привыкли использовать ежедневники письменных практик для саморазвития, отслеживания прогресса на пути к целям и лучшего понимания самих себя.\n\nС ежедневниками «6 минут для детей», можно начать внедрять в свою жизнь полезные практики и упражнения с самого детства.",
+      "ageMin": 9,
+      "ageMax": 16,
+      "readingMode": "independent",
+      "genres": [
+        "реалистическая проза"
+      ],
+      "themes": [
+        "взросление"
+      ],
+      "moods": [],
+      "languageDifficulty": "medium",
+      "lengthCategory": "short",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2022-12-26/63a97beaa054b_0x0.jpg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/8-knig/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/8-knig/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/8-knig/",
+        "collectionSlugs": [
+          "knigi-na-kanikuly"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-drugaya-elis-mishel-harrison",
+      "slug": "nen-collection-drugaya-elis-mishel-harrison",
+      "title": "Другая Элис",
+      "authors": [
+        "Мишель Харрисон"
+      ],
+      "shortDescription": "Элис — юная писательница. Она днями и ночами трудится над рассказами и читает их младшему брату. Писательство нравится ей больше всего на свете, но существует правило — произведение обязательно должно быть закончено. И вот однажды Элис не смогла придумать финал. Внезапно ее персонажи оказываются в реальности и начинают влиять на жизнь, а сама девочка пропадает…\n\nНа первый взгляд, это мистическая история о том, как шестнадцатилетняя девушка оказалась жертвой проклятия, а младший брат пытается ее спасти.",
+      "fullDescription": "Элис — юная писательница. Она днями и ночами трудится над рассказами и читает их младшему брату. Писательство нравится ей больше всего на свете, но существует правило — произведение обязательно должно быть закончено. И вот однажды Элис не смогла придумать финал. Внезапно ее персонажи оказываются в реальности и начинают влиять на жизнь, а сама девочка пропадает…\n\nНа первый взгляд, это мистическая история о том, как шестнадцатилетняя девушка оказалась жертвой проклятия, а младший брат пытается ее спасти.",
+      "ageMin": 9,
+      "ageMax": 16,
+      "readingMode": "independent",
+      "genres": [
+        "реалистическая проза"
+      ],
+      "themes": [
+        "семья",
+        "приключения"
+      ],
+      "moods": [],
+      "languageDifficulty": "medium",
+      "lengthCategory": "medium",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2022-12-26/63a97c19aeb6a_0x0.jpg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/8-knig/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/8-knig/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/8-knig/",
+        "collectionSlugs": [
+          "knigi-na-kanikuly"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-neveroyatno-opasnaya-sliz-ledyanye-myshki-sedobnye-kamni-i-esche-95-istoriy-o-mire-vokrug-nas-nastya-tr",
+      "slug": "nen-collection-neveroyatno-opasnaya-sliz-ledyanye-myshki-sedobnye-kamni-i-esche-95-istoriy-o-mire-vokrug-nas-nastya-tr",
+      "title": "Невероятно! Опасная слизь, ледяные мышки, съедобные камни и еще 95 историй о мире вокруг нас",
+      "authors": [
+        "Ася Ванякина, Настя Троян"
+      ],
+      "shortDescription": "Это сборник научных фактов об окружающем мире, который сделали Ася Ванякина и редакторка Настя Троян. В книге рассказывается о открытиях последних лет, про которые обычно пишут в серьезных научных статьях, но никак не в детских книжках.\n\nНапример, маленькие читатели узнают о живых ровесниках динозавров, о том, что приятный запах после дождя возникает благодаря бактериям, а у петухов есть «беруши», которые не дают им оглохнуть во время оглушительного кукареканья. Если вы, взрослый читатель, тоже впервые об этом слышите, почитайте вместе с ребенком — будет интересно!",
+      "fullDescription": "Это сборник научных фактов об окружающем мире, который сделали Ася Ванякина и редакторка Настя Троян. В книге рассказывается о открытиях последних лет, про которые обычно пишут в серьезных научных статьях, но никак не в детских книжках.\n\nНапример, маленькие читатели узнают о живых ровесниках динозавров, о том, что приятный запах после дождя возникает благодаря бактериям, а у петухов есть «беруши», которые не дают им оглохнуть во время оглушительного кукареканья. Если вы, взрослый читатель, тоже впервые об этом слышите, почитайте вместе с ребенком — будет интересно!",
+      "ageMin": 3,
+      "ageMax": 14,
+      "readingMode": "both",
+      "genres": [
+        "научно-популярная литература"
+      ],
+      "themes": [
+        "животные",
+        "природа",
+        "наука",
+        "взросление"
+      ],
+      "moods": [],
+      "languageDifficulty": "easy",
+      "lengthCategory": "medium",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2023-06-09/6482f5aac11dd_0x0.jpeg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/5-knig-alpina/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/5-knig-alpina/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/5-knig-alpina/",
+        "collectionSlugs": [
+          "lyubimye-knigi-alpina-deti"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-druzhba-posle-ssory-novye-priklyucheniya-emo-i-chiki-dzhoshua-vays",
+      "slug": "nen-collection-druzhba-posle-ssory-novye-priklyucheniya-emo-i-chiki-dzhoshua-vays",
+      "title": "Дружба после ссоры… Новые приключения Эмо и Чики",
+      "authors": [
+        "Грегг Релье, Джошуа Вайс"
+      ],
+      "shortDescription": "Понимать и выражать свои эмоции тоже нужно учиться. Умение замечать, что тебе обидно, говорить об этом и находить возможность помириться называется эмоциональным интеллектом, а развить его у ребенка поможет эта книга.\n\nПтичка Чики опубликовала в «Цветограме» фотографию, на которой медвежонок Эмо поскользнулся и упал. Чики было смешно, а вот мишка по-настоящему расстроился. Друзья поссорились, но в конце концов нашли способ примириться. Из этой небольшой книги с очаровательными иллюстрациями дети узнают, как разрешать конфликты, защищать личные границы и безопасно пользоваться социальными сетями.",
+      "fullDescription": "Понимать и выражать свои эмоции тоже нужно учиться. Умение замечать, что тебе обидно, говорить об этом и находить возможность помириться называется эмоциональным интеллектом, а развить его у ребенка поможет эта книга.\n\nПтичка Чики опубликовала в «Цветограме» фотографию, на которой медвежонок Эмо поскользнулся и упал. Чики было смешно, а вот мишка по-настоящему расстроился. Друзья поссорились, но в конце концов нашли способ примириться. Из этой небольшой книги с очаровательными иллюстрациями дети узнают, как разрешать конфликты, защищать личные границы и безопасно пользоваться социальными сетями.",
+      "ageMin": 3,
+      "ageMax": 14,
+      "readingMode": "both",
+      "genres": [
+        "приключения",
+        "юмор"
+      ],
+      "themes": [
+        "дружба",
+        "животные",
+        "отношения",
+        "юмор",
+        "приключения"
+      ],
+      "moods": [],
+      "languageDifficulty": "easy",
+      "lengthCategory": "medium",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2023-06-09/6482f5b8ccc40_0x0.jpeg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/5-knig-alpina/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/5-knig-alpina/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/5-knig-alpina/",
+        "collectionSlugs": [
+          "lyubimye-knigi-alpina-deti"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-ya-idu-iskat-v-sankt-peterburge-svetlana-shahverdova",
+      "slug": "nen-collection-ya-idu-iskat-v-sankt-peterburge-svetlana-shahverdova",
+      "title": "Я иду искать в Санкт-Петербурге",
+      "authors": [
+        "Светлана Шахвердова"
+      ],
+      "shortDescription": "Графическая дизайнерка Светлана Шахвердова сделала виммельбух про Северную столицу. Виммельбух — это такая детская развивающая книжка крупного формата с яркими, детализированными иллюстрациями. Вы наверняка помните такие: весь разворот усеян яркими и забавными персонажами и предметами.\n\nВот люди гуляют по Невскому, бегут на обед в кофейню офисные служащие, продавец в ларьке с шавермой о чем-то разговаривает с покупательницей, две собаки весело играют в парке, по каналу плывет лодка с туристами… Светлане удалось создать настоящее путешествие по Санкт-Петербургу. Вместе с многочисленными героями читатели посетят достопримечательности и узнают множество любопытных фактов о городе на Неве.",
+      "fullDescription": "Графическая дизайнерка Светлана Шахвердова сделала виммельбух про Северную столицу. Виммельбух — это такая детская развивающая книжка крупного формата с яркими, детализированными иллюстрациями. Вы наверняка помните такие: весь разворот усеян яркими и забавными персонажами и предметами.\n\nВот люди гуляют по Невскому, бегут на обед в кофейню офисные служащие, продавец в ларьке с шавермой о чем-то разговаривает с покупательницей, две собаки весело играют в парке, по каналу плывет лодка с туристами… Светлане удалось создать настоящее путешествие по Санкт-Петербургу. Вместе с многочисленными героями читатели посетят достопримечательности и узнают множество любопытных фактов о городе на Неве.",
+      "ageMin": 3,
+      "ageMax": 14,
+      "readingMode": "both",
+      "genres": [
+        "юмор",
+        "научно-популярная литература"
+      ],
+      "themes": [
+        "животные",
+        "наука",
+        "путешествия",
+        "юмор",
+        "приключения"
+      ],
+      "moods": [],
+      "languageDifficulty": "easy",
+      "lengthCategory": "medium",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2023-06-09/6482f5c5f0b27_0x0.jpeg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/5-knig-alpina/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/5-knig-alpina/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/5-knig-alpina/",
+        "collectionSlugs": [
+          "lyubimye-knigi-alpina-deti"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-konni-i-druzya-novaya-shkola-yuliya-beme",
+      "slug": "nen-collection-konni-i-druzya-novaya-shkola-yuliya-beme",
+      "title": "Конни и друзья: Новая школа",
+      "authors": [
+        "Юлия Беме"
+      ],
+      "shortDescription": "Эта история не только понравится детям, но и вызовет приятное чувство ностальгии у многих родителей. «Наверняка у вас в классе была та самая популярная девочка с кучей подружек, „любимая“ учительница, которая постоянно чего-то требовала, и бесконечные разборки между мальчиками и девочками. Так вот, главной героине, девочке Конни, в новом учебном году достался целый комплект всех этих персонажей и проблем», — рассказала Дарья Михайлова, руководительница проектов редакции.\n\nНа примере Конни ребята научатся осознавать свои чувства и справляться со сложными переживаниями. У всех случаются плохие дни в школе, возникают разногласия с учителями и одноклассниками, и начинает казаться, что школа — это тяжелое испытание и проверка на прочность.",
+      "fullDescription": "Эта история не только понравится детям, но и вызовет приятное чувство ностальгии у многих родителей. «Наверняка у вас в классе была та самая популярная девочка с кучей подружек, „любимая“ учительница, которая постоянно чего-то требовала, и бесконечные разборки между мальчиками и девочками. Так вот, главной героине, девочке Конни, в новом учебном году достался целый комплект всех этих персонажей и проблем», — рассказала Дарья Михайлова, руководительница проектов редакции.\n\nНа примере Конни ребята научатся осознавать свои чувства и справляться со сложными переживаниями. У всех случаются плохие дни в школе, возникают разногласия с учителями и одноклассниками, и начинает казаться, что школа — это тяжелое испытание и проверка на прочность.",
+      "ageMin": 3,
+      "ageMax": 14,
+      "readingMode": "both",
+      "genres": [
+        "реалистическая проза"
+      ],
+      "themes": [
+        "дружба",
+        "семья",
+        "школа",
+        "животные"
+      ],
+      "moods": [],
+      "languageDifficulty": "easy",
+      "lengthCategory": "medium",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2023-06-09/6482f5d23eeca_0x0.jpeg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/5-knig-alpina/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/5-knig-alpina/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/5-knig-alpina/",
+        "collectionSlugs": [
+          "lyubimye-knigi-alpina-deti"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-istorii-pro-pyarta-anti-saar",
+      "slug": "nen-collection-istorii-pro-pyarta-anti-saar",
+      "title": "Истории про Пярта",
+      "authors": [
+        "Анти Саар"
+      ],
+      "shortDescription": "Серия «Истории про Пярта» — реалистичные рассказы про неловкие ситуации, в которых оказывается обычный мальчик Пярт, его родители и друзья. Их написал эстонский писатель и геймдизайнер Анти Саар, который не только хорошо понимает, что чувствует ребенок, который проехал свою остановку на автобусе или потерял папу в супермаркете, но и прекрасно разбирается в том, как грамотно оформить книгу, чтобы ее было удобно, приятно и интересно читать.\n\n«Истории Пярта помогают родителям вернуться в детство и лучше понять переживания своих детей. Читая вместе книгу, они могут обсудить ситуации и чувства, с которыми столкнулись герои, помочь детям лучше понять себя и найти выход из сложной ситуации. А еще — эмоционально подготовить ребенка к самостоятельной жизни, к ситуациям, когда родителей нет рядом, а делать выбор необходимо», — рассказала главред издательства «Альпина.Дети» Лана Богомаз.",
+      "fullDescription": "Серия «Истории про Пярта» — реалистичные рассказы про неловкие ситуации, в которых оказывается обычный мальчик Пярт, его родители и друзья. Их написал эстонский писатель и геймдизайнер Анти Саар, который не только хорошо понимает, что чувствует ребенок, который проехал свою остановку на автобусе или потерял папу в супермаркете, но и прекрасно разбирается в том, как грамотно оформить книгу, чтобы ее было удобно, приятно и интересно читать.\n\n«Истории Пярта помогают родителям вернуться в детство и лучше понять переживания своих детей. Читая вместе книгу, они могут обсудить ситуации и чувства, с которыми столкнулись герои, помочь детям лучше понять себя и найти выход из сложной ситуации. А еще — эмоционально подготовить ребенка к самостоятельной жизни, к ситуациям, когда родителей нет рядом, а делать выбор необходимо», — рассказала главред издательства «Альпина.Дети» Лана Богомаз.",
+      "ageMin": 3,
+      "ageMax": 14,
+      "readingMode": "both",
+      "genres": [
+        "реалистическая проза"
+      ],
+      "themes": [
+        "дружба",
+        "семья",
+        "животные",
+        "взросление"
+      ],
+      "moods": [],
+      "languageDifficulty": "easy",
+      "lengthCategory": "long",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2023-06-09/6482f5dd512ed_0x0.jpeg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/5-knig-alpina/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/5-knig-alpina/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/5-knig-alpina/",
+        "collectionSlugs": [
+          "lyubimye-knigi-alpina-deti"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-poigray-s-mimi-anna-permyakova",
+      "slug": "nen-collection-poigray-s-mimi-anna-permyakova",
+      "title": "Поиграй с Мими",
+      "authors": [
+        "Анна Пермякова"
+      ],
+      "publisher": "Самокат",
+      "shortDescription": "Трогательная история о малышке, которая хочет поиграть со своим старшим братом. Брат уже взрослый и у него то ли учеба, то ли работа, и времени в обрез. Сестра превращается в мохнатого монстра, краски темнеют, буквы становятся больше и путаются, и вот уже брат тоже начинает превращаться в монстра.\n\nПогромив все вокруг, ребята успокаиваются и вспоминают, как сильно они любят друг друга, и садятся поиграть.",
+      "fullDescription": "Трогательная история о малышке, которая хочет поиграть со своим старшим братом. Брат уже взрослый и у него то ли учеба, то ли работа, и времени в обрез. Сестра превращается в мохнатого монстра, краски темнеют, буквы становятся больше и путаются, и вот уже брат тоже начинает превращаться в монстра.\n\nПогромив все вокруг, ребята успокаиваются и вспоминают, как сильно они любят друг друга, и садятся поиграть.",
+      "ageMin": 2,
+      "ageMax": 6,
+      "readingMode": "both",
+      "genres": [
+        "реалистическая проза"
+      ],
+      "themes": [
+        "семья",
+        "животные",
+        "взросление"
+      ],
+      "moods": [],
+      "languageDifficulty": "easy",
+      "lengthCategory": "medium",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2023-04-28/644b936639747_0x0.jpeg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/goroshek/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/goroshek/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/goroshek/",
+        "collectionSlugs": [
+          "goroshek-tsikada-i-volshebstvo"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-shkola-risovaniya-goroshka-david-kali",
+      "slug": "nen-collection-shkola-risovaniya-goroshka-david-kali",
+      "title": "Школа рисования Горошка",
+      "authors": [
+        "Давид Кали"
+      ],
+      "publisher": "Самокат",
+      "shortDescription": "Третья книга в серии про маленького художника Горошка. Он такой маленький, что рисует почтовые марки как большие полотна. Горошек стал профессионалом своего дела, и к нему часто обращаются за советом. Поэтому Горошек решает открыть собственную школу, и в нее сразу выстраивается очередь из учеников.\n\nКаждый рисует что-то свое, вот только что творит Тарантул, никому не понятно. Горошек даже подумывает сказать Тарантулу, что ничего не получится, не стать тому художником. Но в конце года на выставке работ Тарантул всех удивляет. «Большого художника не всегда видно с первого взгляда!»",
+      "fullDescription": "Третья книга в серии про маленького художника Горошка. Он такой маленький, что рисует почтовые марки как большие полотна. Горошек стал профессионалом своего дела, и к нему часто обращаются за советом. Поэтому Горошек решает открыть собственную школу, и в нее сразу выстраивается очередь из учеников.\n\nКаждый рисует что-то свое, вот только что творит Тарантул, никому не понятно. Горошек даже подумывает сказать Тарантулу, что ничего не получится, не стать тому художником. Но в конце года на выставке работ Тарантул всех удивляет. «Большого художника не всегда видно с первого взгляда!»",
+      "ageMin": 2,
+      "ageMax": 6,
+      "readingMode": "both",
+      "genres": [
+        "реалистическая проза"
+      ],
+      "themes": [
+        "школа",
+        "наука",
+        "искусство"
+      ],
+      "moods": [],
+      "languageDifficulty": "easy",
+      "lengthCategory": "medium",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2023-04-28/644ba0486e7ff_0x0.jpeg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/goroshek/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/goroshek/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/goroshek/",
+        "collectionSlugs": [
+          "goroshek-tsikada-i-volshebstvo"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-i-kto-to-skazal-privet-nihan-temiz",
+      "slug": "nen-collection-i-kto-to-skazal-privet-nihan-temiz",
+      "title": "И кто-то сказал «Привет»",
+      "authors": [
+        "Нихан Темиз"
+      ],
+      "publisher": "Поляндрия",
+      "shortDescription": "Как-то в зеленой долине появился незнакомец. Звери наблюдали издалека, им очень хотелось подружиться, но они не знали — как. Они пробовали и повторять движения, и находить что-то общее у себя с незнакомцем, но дружба не появлялась. Пока маленькая цикада не сказала: «Привет!».",
+      "fullDescription": "Как-то в зеленой долине появился незнакомец. Звери наблюдали издалека, им очень хотелось подружиться, но они не знали — как. Они пробовали и повторять движения, и находить что-то общее у себя с незнакомцем, но дружба не появлялась. Пока маленькая цикада не сказала: «Привет!».",
+      "ageMin": 2,
+      "ageMax": 6,
+      "readingMode": "both",
+      "genres": [
+        "реалистическая проза"
+      ],
+      "themes": [
+        "дружба",
+        "животные"
+      ],
+      "moods": [],
+      "languageDifficulty": "easy",
+      "lengthCategory": "short",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2023-04-28/644ba0535ac64_0x0.jpg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/goroshek/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/goroshek/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/goroshek/",
+        "collectionSlugs": [
+          "goroshek-tsikada-i-volshebstvo"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-frederik-leo-lionni",
+      "slug": "nen-collection-frederik-leo-lionni",
+      "title": "Фредерик",
+      "authors": [
+        "Лео Лионни"
+      ],
+      "publisher": "Самокат",
+      "shortDescription": "Все мышки готовятся к зиме — и только Фредерик, на первый взгляд, ничего не делает. Все суетятся и нервничают, а он копит солнечный свет, яркие краски и важные слова, которые обязательно понадобятся холодной и долгой зимой.",
+      "fullDescription": "Все мышки готовятся к зиме — и только Фредерик, на первый взгляд, ничего не делает. Все суетятся и нервничают, а он копит солнечный свет, яркие краски и важные слова, которые обязательно понадобятся холодной и долгой зимой.",
+      "ageMin": 3,
+      "ageMax": 6,
+      "readingMode": "both",
+      "genres": [
+        "реалистическая проза"
+      ],
+      "themes": [
+        "животные"
+      ],
+      "moods": [],
+      "languageDifficulty": "easy",
+      "lengthCategory": "short",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2022-10-11/634524192ba2c_0x0.jpg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/novinki-dlya-shkolnikov/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/novinki-dlya-shkolnikov/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/novinki-dlya-shkolnikov/",
+        "collectionSlugs": [
+          "novinki-dlya-doshkolnikov"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-letniy-den-s-druzyami-filip-vehter",
+      "slug": "nen-collection-letniy-den-s-druzyami-filip-vehter",
+      "title": "Летний день с друзьями",
+      "authors": [
+        "Филип Вехтер"
+      ],
+      "publisher": "Мелик-Пашаев",
+      "shortDescription": "Обычный летний день. Немного ленивый, но Енот знает, что стоит делать с таким настроением: он почитает книжку, немного попрыгает, но если и это не поможет, будет готовить яблочный пирог. Только вот для пирога не хватает яиц, надо зайти к другу Лису, тот точно сможет одолжить парочку.\n\nТак Енот пойдет к Лису, вместе они отправятся к Барсуку, захватив того, дойдут до Медведя, и проведут отличный обычный летний денек вместе.",
+      "fullDescription": "Обычный летний день. Немного ленивый, но Енот знает, что стоит делать с таким настроением: он почитает книжку, немного попрыгает, но если и это не поможет, будет готовить яблочный пирог. Только вот для пирога не хватает яиц, надо зайти к другу Лису, тот точно сможет одолжить парочку.\n\nТак Енот пойдет к Лису, вместе они отправятся к Барсуку, захватив того, дойдут до Медведя, и проведут отличный обычный летний денек вместе.",
+      "ageMin": 3,
+      "ageMax": 6,
+      "readingMode": "both",
+      "genres": [
+        "реалистическая проза"
+      ],
+      "themes": [
+        "дружба",
+        "животные"
+      ],
+      "moods": [],
+      "languageDifficulty": "easy",
+      "lengthCategory": "medium",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2022-10-11/63452598e4d5f_0x0.jpg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/novinki-dlya-shkolnikov/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/novinki-dlya-shkolnikov/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/novinki-dlya-shkolnikov/",
+        "collectionSlugs": [
+          "novinki-dlya-doshkolnikov"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-moya-bolshaya-sibiy-delakrua",
+      "slug": "nen-collection-moya-bolshaya-sibiy-delakrua",
+      "title": "Моя большая",
+      "authors": [
+        "Сибий Делакруа"
+      ],
+      "publisher": "Поляндрия",
+      "shortDescription": "Элиза — очень большая. У нее все большое: руки, ноги, ступни и сердце. Если она падает, то с большой высоты. Она часто сгибается, чтоб быть как все, и очень хочет хоть немного почувствовать, каково это — быть маленькой.",
+      "fullDescription": "Элиза — очень большая. У нее все большое: руки, ноги, ступни и сердце. Если она падает, то с большой высоты. Она часто сгибается, чтоб быть как все, и очень хочет хоть немного почувствовать, каково это — быть маленькой.",
+      "ageMin": 3,
+      "ageMax": 6,
+      "readingMode": "both",
+      "genres": [
+        "реалистическая проза"
+      ],
+      "themes": [
+        "отношения"
+      ],
+      "moods": [],
+      "languageDifficulty": "easy",
+      "lengthCategory": "short",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2022-10-11/6345242916f46_0x0.jpg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/novinki-dlya-shkolnikov/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/novinki-dlya-shkolnikov/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/novinki-dlya-shkolnikov/",
+        "collectionSlugs": [
+          "novinki-dlya-doshkolnikov"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-dobraya-akula-elena-repetur",
+      "slug": "nen-collection-dobraya-akula-elena-repetur",
+      "title": "Добрая акула",
+      "authors": [
+        "Елена Репетур"
+      ],
+      "publisher": "Белая ворона",
+      "shortDescription": "В семье обычных кровожадных акул появляется малышка-акуленок, которой претит питаться обычной акульей едой.\n\nМама-папа не знают, что делать, они отправляют ее и в школу, и к психологу, но все без толку. И тогда малышка узнает из книги, что есть разные акулы: акула-молот, акула-бык, тигровая акула, зебровая, лисья, плащеносная и даже акула-гоблин.",
+      "fullDescription": "В семье обычных кровожадных акул появляется малышка-акуленок, которой претит питаться обычной акульей едой.\n\nМама-папа не знают, что делать, они отправляют ее и в школу, и к психологу, но все без толку. И тогда малышка узнает из книги, что есть разные акулы: акула-молот, акула-бык, тигровая акула, зебровая, лисья, плащеносная и даже акула-гоблин.",
+      "ageMin": 3,
+      "ageMax": 6,
+      "readingMode": "both",
+      "genres": [
+        "реалистическая проза"
+      ],
+      "themes": [
+        "семья",
+        "школа",
+        "животные"
+      ],
+      "moods": [],
+      "languageDifficulty": "easy",
+      "lengthCategory": "short",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2022-10-11/6345243076e60_0x0.jpg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/novinki-dlya-shkolnikov/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/novinki-dlya-shkolnikov/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/novinki-dlya-shkolnikov/",
+        "collectionSlugs": [
+          "novinki-dlya-doshkolnikov"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-sup-sinora-leprona-dzhovanna-dzoboli",
+      "slug": "nen-collection-sup-sinora-leprona-dzhovanna-dzoboli",
+      "title": "Суп синьора Лепрона",
+      "authors": [
+        "Джованна Дзоболи"
+      ],
+      "publisher": "Городец",
+      "shortDescription": "Синьор Лепрон, заяц-красавец и глава большого семейства, умеет готовить самый вкусный в мире суп. Он использует те же овощи, что и крестьяне близлежащей деревни, но только у него получается суп изумительного вкуса, и с этим согласится каждый, кто попробует. Вскоре суп становится так знаменит, что люди приезжают попробовать его с разных концов света.\n\nИ тогда синьор Лепрон открывает фабрику, а суп в банках наводняет полки в магазинах. Все идет прекрасно, пока не появляются первые жалобы, а злые языки начинают утверждать, что «суп уже не тот».",
+      "fullDescription": "Синьор Лепрон, заяц-красавец и глава большого семейства, умеет готовить самый вкусный в мире суп. Он использует те же овощи, что и крестьяне близлежащей деревни, но только у него получается суп изумительного вкуса, и с этим согласится каждый, кто попробует. Вскоре суп становится так знаменит, что люди приезжают попробовать его с разных концов света.\n\nИ тогда синьор Лепрон открывает фабрику, а суп в банках наводняет полки в магазинах. Все идет прекрасно, пока не появляются первые жалобы, а злые языки начинают утверждать, что «суп уже не тот».",
+      "ageMin": 3,
+      "ageMax": 6,
+      "readingMode": "both",
+      "genres": [
+        "реалистическая проза"
+      ],
+      "themes": [
+        "природа",
+        "волшебство"
+      ],
+      "moods": [],
+      "languageDifficulty": "easy",
+      "lengthCategory": "medium",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2022-10-11/6345249bc0ad9_0x0.jpg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/novinki-dlya-shkolnikov/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/novinki-dlya-shkolnikov/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/novinki-dlya-shkolnikov/",
+        "collectionSlugs": [
+          "novinki-dlya-doshkolnikov"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-silviya-i-ptichka-ketrin-reyner",
+      "slug": "nen-collection-silviya-i-ptichka-ketrin-reyner",
+      "title": "Сильвия и Птичка",
+      "authors": [
+        "Кэтрин Рейнер"
+      ],
+      "publisher": "Поляндрия",
+      "shortDescription": "Изумительной красоты книга о дружбе очень разных существ — маленькой птички и одинокого изумрудного дракона.",
+      "fullDescription": "Изумительной красоты книга о дружбе очень разных существ — маленькой птички и одинокого изумрудного дракона.",
+      "ageMin": 3,
+      "ageMax": 6,
+      "readingMode": "both",
+      "genres": [
+        "реалистическая проза"
+      ],
+      "themes": [
+        "дружба"
+      ],
+      "moods": [],
+      "languageDifficulty": "easy",
+      "lengthCategory": "short",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2022-10-11/63452443c2320_0x0.jpg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/novinki-dlya-shkolnikov/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/novinki-dlya-shkolnikov/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/novinki-dlya-shkolnikov/",
+        "collectionSlugs": [
+          "novinki-dlya-doshkolnikov"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-ochki-dlya-selesty-mariya-kolker",
+      "slug": "nen-collection-ochki-dlya-selesty-mariya-kolker",
+      "title": "Очки для Селесты",
+      "authors": [
+        "Мария Колкер"
+      ],
+      "publisher": "Альпина.Дети",
+      "shortDescription": "Селеста очень любит космос, правда, звезды она видела пока только в книжках. Однажды мама принесла странный подарок — очки.\n\nВ них сначала немного странно, и недалекий мальчик в школе обозвал Селесту старым профессором. Зато с очками Селеста впервые увидела, какая же Луна красивая, и даже Млечный путь рассмотрела. А ее любимую книгу про космос написал настоящий профессор, и теперь Селеста совсем не переживает из-за очков.",
+      "fullDescription": "Селеста очень любит космос, правда, звезды она видела пока только в книжках. Однажды мама принесла странный подарок — очки.\n\nВ них сначала немного странно, и недалекий мальчик в школе обозвал Селесту старым профессором. Зато с очками Селеста впервые увидела, какая же Луна красивая, и даже Млечный путь рассмотрела. А ее любимую книгу про космос написал настоящий профессор, и теперь Селеста совсем не переживает из-за очков.",
+      "ageMin": 3,
+      "ageMax": 6,
+      "readingMode": "both",
+      "genres": [
+        "реалистическая проза"
+      ],
+      "themes": [
+        "семья",
+        "школа",
+        "природа",
+        "отношения"
+      ],
+      "moods": [],
+      "languageDifficulty": "easy",
+      "lengthCategory": "medium",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2022-10-11/6345244ab9fe3_0x0.jpg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/novinki-dlya-shkolnikov/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/novinki-dlya-shkolnikov/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/novinki-dlya-shkolnikov/",
+        "collectionSlugs": [
+          "novinki-dlya-doshkolnikov"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-vasilkovaya-zima-hegyum-kim",
+      "slug": "nen-collection-vasilkovaya-zima-hegyum-kim",
+      "title": "Васильковая зима",
+      "authors": [
+        "Хегюм Ким"
+      ],
+      "publisher": ": «Поляндрия",
+      "shortDescription": "Это по-настоящему васильковая книга (иллюстрации в ней сделаны в сине-белой гамме) о медвежонке Васильке, который совсем было собрался впасть в зимнюю спячку в своем уютном домике. Все было просто идеально — на плите закипал чайник, в камине уютно потрескивали дрова. Но медвежонка ждало ужасное открытие — у него закончился черничный пирог. Книга, конечно, детская, но ситуация, когда приходится покинуть зону комфорта и решать свои проблемы, знакома любому взрослому. Делать нечего, герой вынужден выйти на мороз и отправиться в кондитерскую. С этого и начинаются его удивительные приключения.",
+      "fullDescription": "Это по-настоящему васильковая книга (иллюстрации в ней сделаны в сине-белой гамме) о медвежонке Васильке, который совсем было собрался впасть в зимнюю спячку в своем уютном домике. Все было просто идеально — на плите закипал чайник, в камине уютно потрескивали дрова. Но медвежонка ждало ужасное открытие — у него закончился черничный пирог. Книга, конечно, детская, но ситуация, когда приходится покинуть зону комфорта и решать свои проблемы, знакома любому взрослому. Делать нечего, герой вынужден выйти на мороз и отправиться в кондитерскую. С этого и начинаются его удивительные приключения.",
+      "ageMin": 2,
+      "ageMax": 7,
+      "readingMode": "both",
+      "genres": [
+        "приключения"
+      ],
+      "themes": [
+        "животные",
+        "взросление",
+        "приключения"
+      ],
+      "moods": [],
+      "languageDifficulty": "easy",
+      "lengthCategory": "medium",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2025-11-12/69147102ed4ee_1040x720.jpg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/",
+        "collectionSlugs": [
+          "volshebnye-zimnie-knigi"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-gde-to-v-snegu-linde-faas",
+      "slug": "nen-collection-gde-to-v-snegu-linde-faas",
+      "title": "Где-то в снегу",
+      "authors": [
+        "Линде Фаас"
+      ],
+      "publisher": ": «Поляндрия",
+      "shortDescription": "Книга о том, как за взрослыми проблемами порой не видно детского одиночества. О силе воображения, о стремлении найти волшебство и о магии доброты. О том, как важно, когда рядом друзья, которые помогут преодолеть трудные моменты. И конечно же, о том, как важно все же сделать усилие и найти контакт со своим ребенком.\n\nГероине сказки Софи в праздники не слишком весело. Ее отец всегда занят и не хочет готовиться к Рождеству. Чтобы перестать грустить, Софи отправляется на прогулку в лес и встречает там лося, а затем и других лесных обитателей. Все вместе они выбирают и наряжают самую красивую елку в лесу. Все готово, но без папы слишком грустно. И когда кажется, что праздник не получится, раздаются шаги…",
+      "fullDescription": "Книга о том, как за взрослыми проблемами порой не видно детского одиночества. О силе воображения, о стремлении найти волшебство и о магии доброты. О том, как важно, когда рядом друзья, которые помогут преодолеть трудные моменты. И конечно же, о том, как важно все же сделать усилие и найти контакт со своим ребенком.\n\nГероине сказки Софи в праздники не слишком весело. Ее отец всегда занят и не хочет готовиться к Рождеству. Чтобы перестать грустить, Софи отправляется на прогулку в лес и встречает там лося, а затем и других лесных обитателей. Все вместе они выбирают и наряжают самую красивую елку в лесу. Все готово, но без папы слишком грустно. И когда кажется, что праздник не получится, раздаются шаги…",
+      "ageMin": 2,
+      "ageMax": 7,
+      "readingMode": "both",
+      "genres": [
+        "сказка",
+        "фэнтези",
+        "юмор"
+      ],
+      "themes": [
+        "дружба",
+        "семья",
+        "животные",
+        "природа",
+        "взросление"
+      ],
+      "moods": [],
+      "languageDifficulty": "easy",
+      "lengthCategory": "medium",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2025-11-12/69147102ed4ee_1040x720.jpg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/",
+        "collectionSlugs": [
+          "volshebnye-zimnie-knigi"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-zavetnoe-zhelanie-krotika-sangyn-kim",
+      "slug": "nen-collection-zavetnoe-zhelanie-krotika-sangyn-kim",
+      "title": "Заветное желание кротика",
+      "authors": [
+        "Сангын Ким"
+      ],
+      "publisher": ": «Поляндрия",
+      "shortDescription": "Трогательная книга о том, как сила воображения маленького ребенка может вдохнуть жизнь даже в холодное создание из снега. А еще о том, что каждая бабушка способна стать настоящей волшебницей, если это нужно ее любимому внуку. Первая книга о кротике корейского автора Сангын Кима вышла еще в 2015 году и сразу стала хитом: чистые и легкие, как облачко пара, иллюстрации, добрые истории завоевали сердца детей и их родителей.\n\nОднажды маленький крот нашел снежный ком и вылепил из него медведя. Увидев падающую звезду, загадал желание, чтобы снежный мишка стал его другом. По дороге домой в теплом автобусе он уснул, а проснувшись, обнаружил, что медведь исчез. И тогда на помощь пришла любимая бабушка…",
+      "fullDescription": "Трогательная книга о том, как сила воображения маленького ребенка может вдохнуть жизнь даже в холодное создание из снега. А еще о том, что каждая бабушка способна стать настоящей волшебницей, если это нужно ее любимому внуку. Первая книга о кротике корейского автора Сангын Кима вышла еще в 2015 году и сразу стала хитом: чистые и легкие, как облачко пара, иллюстрации, добрые истории завоевали сердца детей и их родителей.\n\nОднажды маленький крот нашел снежный ком и вылепил из него медведя. Увидев падающую звезду, загадал желание, чтобы снежный мишка стал его другом. По дороге домой в теплом автобусе он уснул, а проснувшись, обнаружил, что медведь исчез. И тогда на помощь пришла любимая бабушка…",
+      "ageMin": 2,
+      "ageMax": 7,
+      "readingMode": "both",
+      "genres": [
+        "фэнтези"
+      ],
+      "themes": [
+        "семья",
+        "животные",
+        "путешествия",
+        "волшебство"
+      ],
+      "moods": [],
+      "languageDifficulty": "easy",
+      "lengthCategory": "medium",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2025-11-12/69147102ed4ee_1040x720.jpg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/",
+        "collectionSlugs": [
+          "volshebnye-zimnie-knigi"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-elka-yulka-olive-tallek",
+      "slug": "nen-collection-elka-yulka-olive-tallek",
+      "title": "Елка Юлька",
+      "authors": [
+        "Оливье Таллек"
+      ],
+      "publisher": "Самокат",
+      "shortDescription": "Такие книги должны быть в библиотеке у каждого маленького ребенка. Во-первых, потому что это новогодняя сказка о мечтах, о надежде, о том, что не надо бояться самому сделать шаг навстречу своей судьбе. А во-вторых, из-за волшебных иллюстраций Оливье Таллека. Теплые, добрые и немного философские. Достаточно полистать эту книгу, чтобы настроение стало чуть более новогодним.\n\nГлавной героине, елке с милым именем Юлька, выпало родиться в питомнике на краю автотрассы. Бесконечные ряды почти одинаковых елочек, у которых одна цель — вырасти и попасть на мебельную фабрику. Но Юлька мечтала об огнях и фейерверках. Ей снилось, как ее ветки гнутся под тяжестью шаров и гирлянд, а на верхушке светится огромная звезда. Она хотела стать новогодней елкой. Удастся ли ей это?",
+      "fullDescription": "Такие книги должны быть в библиотеке у каждого маленького ребенка. Во-первых, потому что это новогодняя сказка о мечтах, о надежде, о том, что не надо бояться самому сделать шаг навстречу своей судьбе. А во-вторых, из-за волшебных иллюстраций Оливье Таллека. Теплые, добрые и немного философские. Достаточно полистать эту книгу, чтобы настроение стало чуть более новогодним.\n\nГлавной героине, елке с милым именем Юлька, выпало родиться в питомнике на краю автотрассы. Бесконечные ряды почти одинаковых елочек, у которых одна цель — вырасти и попасть на мебельную фабрику. Но Юлька мечтала об огнях и фейерверках. Ей снилось, как ее ветки гнутся под тяжестью шаров и гирлянд, а на верхушке светится огромная звезда. Она хотела стать новогодней елкой. Удастся ли ей это?",
+      "ageMin": 2,
+      "ageMax": 7,
+      "readingMode": "both",
+      "genres": [
+        "сказка",
+        "фэнтези"
+      ],
+      "themes": [
+        "животные",
+        "волшебство"
+      ],
+      "moods": [],
+      "languageDifficulty": "easy",
+      "lengthCategory": "medium",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2025-11-12/69147102ed4ee_1040x720.jpg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/",
+        "collectionSlugs": [
+          "volshebnye-zimnie-knigi"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-v-poiskah-deda-moroza-ann-montel",
+      "slug": "nen-collection-v-poiskah-deda-moroza-ann-montel",
+      "title": "В поисках Деда Мороза",
+      "authors": [
+        "Лоик Клеман",
+        "Анн Монтель"
+      ],
+      "publisher": "Самокат",
+      "shortDescription": "Одна из самых волшебных книг, которые попали нам в руки в этом году. Новогоднее настроение в ней на каждой странице, в каждом рисунке, которых здесь очень много — ведь это виммельбух, или попросту книжка-искалка. Французские иллюстраторы Лоик Клеман и Анн Монтель вместе уже выпустили с десяток книг и получили всевозможные награды. И это неудивительно, ведь получается у них действительно здорово. Вам точно не придется убеждать ребенка взять эту книгу в руки.\n\nПрофессору Лису необходимо найти работу, ведь у него жена и двое маленьких детей. И вот он отправляется на замену пропавшего Деда Мороза. Работа всего на одну ночь, но выбирать не приходится! В книге есть задания и загадки разного уровня, а некоторые слова выделены специально для начинающих читателей, чтобы можно было искать не только персонажей, но и буквы.",
+      "fullDescription": "Одна из самых волшебных книг, которые попали нам в руки в этом году. Новогоднее настроение в ней на каждой странице, в каждом рисунке, которых здесь очень много — ведь это виммельбух, или попросту книжка-искалка. Французские иллюстраторы Лоик Клеман и Анн Монтель вместе уже выпустили с десяток книг и получили всевозможные награды. И это неудивительно, ведь получается у них действительно здорово. Вам точно не придется убеждать ребенка взять эту книгу в руки.\n\nПрофессору Лису необходимо найти работу, ведь у него жена и двое маленьких детей. И вот он отправляется на замену пропавшего Деда Мороза. Работа всего на одну ночь, но выбирать не приходится! В книге есть задания и загадки разного уровня, а некоторые слова выделены специально для начинающих читателей, чтобы можно было искать не только персонажей, но и буквы.",
+      "ageMin": 2,
+      "ageMax": 7,
+      "readingMode": "both",
+      "genres": [
+        "фэнтези"
+      ],
+      "themes": [
+        "животные",
+        "отношения",
+        "волшебство"
+      ],
+      "moods": [],
+      "languageDifficulty": "easy",
+      "lengthCategory": "long",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2025-11-12/69147102ed4ee_1040x720.jpg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/",
+        "collectionSlugs": [
+          "volshebnye-zimnie-knigi"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-samoe-pervoe-novogodnee-derevo-ovila-fonten",
+      "slug": "nen-collection-samoe-pervoe-novogodnee-derevo-ovila-fonten",
+      "title": "Самое первое новогоднее дерево",
+      "authors": [
+        "Овила Фонтен"
+      ],
+      "publisher": "Белая ворона",
+      "shortDescription": "Умиротворение — именно это чувство возникает во время путешествия по страницам книги. Иллюстрации, одновременно живые и спокойные, завораживают. Кажется, когда-то в древности люди владели особым искусством жить медленно, размышлять и искать смысл во всем, что происходит. Так и рождались сказки и легенды. Одна из них рассказывает о том, откуда к нам пришла новогодняя елка. Великий Манту, верховное божество канадских индейцев инну, решил помочь им пережить суровую зиму и порадовать, подарив новогоднее дерево. Он обратился с просьбой ко всем деревьям в лесу, но ни одно из них не согласилось, пока очередь не дошла до скромной пихты…",
+      "fullDescription": "Умиротворение — именно это чувство возникает во время путешествия по страницам книги. Иллюстрации, одновременно живые и спокойные, завораживают. Кажется, когда-то в древности люди владели особым искусством жить медленно, размышлять и искать смысл во всем, что происходит. Так и рождались сказки и легенды. Одна из них рассказывает о том, откуда к нам пришла новогодняя елка. Великий Манту, верховное божество канадских индейцев инну, решил помочь им пережить суровую зиму и порадовать, подарив новогоднее дерево. Он обратился с просьбой ко всем деревьям в лесу, но ни одно из них не согласилось, пока очередь не дошла до скромной пихты…",
+      "ageMin": 2,
+      "ageMax": 7,
+      "readingMode": "both",
+      "genres": [
+        "сказка"
+      ],
+      "themes": [
+        "семья",
+        "животные",
+        "природа",
+        "история",
+        "искусство"
+      ],
+      "moods": [],
+      "languageDifficulty": "easy",
+      "lengthCategory": "medium",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/",
+        "collectionSlugs": [
+          "volshebnye-zimnie-knigi"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-gnom-i-lis-astrid-lindgren",
+      "slug": "nen-collection-gnom-i-lis-astrid-lindgren",
+      "title": "Гном и Лис",
+      "authors": [
+        "Астрид Линдгрен"
+      ],
+      "publisher": "Белая ворона",
+      "shortDescription": "Однажды морозной ночью Лис отправляется на хутор, чтобы раздобыть себе ужин. Но в этот раз он встречает там Гнома, который не собирается давать обитателей хутора в обиду.",
+      "fullDescription": "Однажды морозной ночью Лис отправляется на хутор, чтобы раздобыть себе ужин. Но в этот раз он встречает там Гнома, который не собирается давать обитателей хутора в обиду.",
+      "ageMin": 2,
+      "ageMax": 7,
+      "readingMode": "both",
+      "genres": [
+        "реалистическая проза"
+      ],
+      "themes": [
+        "животные"
+      ],
+      "moods": [],
+      "languageDifficulty": "easy",
+      "lengthCategory": "short",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/",
+        "collectionSlugs": [
+          "volshebnye-zimnie-knigi"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-vyuzhik-i-upavshaya-zvezda-anna-mohovaya",
+      "slug": "nen-collection-vyuzhik-i-upavshaya-zvezda-anna-mohovaya",
+      "title": "Вьюжик и упавшая звезда",
+      "authors": [
+        "Анна Моховая"
+      ],
+      "publisher": "Феникс",
+      "shortDescription": "Снежище Фирн сидел на крыше пятиэтажного дома и болтал в воздухе лапами, закидывая удочку прямо в небо. На крючке поблескивал кусочек новогодней мишуры, а рядом прыгал от нетерпения малыш Вьюжик. Как только по небу промчалась падающая звезда, снежище ловко дернул удочку и… Оп! — звезда уже на крючке! А потом и в мохнатых лапах! Немедля снежища отправляются на очень важное дело. Тайком, через балкон, они проникают в одну из квартир дома, чтобы сотворить настоящее чудо! Ведь правду говорят, что если поместить настоящую звезду на новогоднюю елку, то в доме поселится свет, добро и тепло, а еще… шустрые ельчата! Хотите узнать, что произошло с героями дальше?\n\nЧитайте сказку и не забудьте прихватить имбирное печенье! Добрая приключенческая история о настоящем волшебстве, дружбе, исполнении желаний и о снежных монстрах.",
+      "fullDescription": "Снежище Фирн сидел на крыше пятиэтажного дома и болтал в воздухе лапами, закидывая удочку прямо в небо. На крючке поблескивал кусочек новогодней мишуры, а рядом прыгал от нетерпения малыш Вьюжик. Как только по небу промчалась падающая звезда, снежище ловко дернул удочку и… Оп! — звезда уже на крючке! А потом и в мохнатых лапах! Немедля снежища отправляются на очень важное дело. Тайком, через балкон, они проникают в одну из квартир дома, чтобы сотворить настоящее чудо! Ведь правду говорят, что если поместить настоящую звезду на новогоднюю елку, то в доме поселится свет, добро и тепло, а еще… шустрые ельчата! Хотите узнать, что произошло с героями дальше?\n\nЧитайте сказку и не забудьте прихватить имбирное печенье! Добрая приключенческая история о настоящем волшебстве, дружбе, исполнении желаний и о снежных монстрах.",
+      "ageMin": 2,
+      "ageMax": 7,
+      "readingMode": "both",
+      "genres": [
+        "сказка",
+        "фэнтези",
+        "приключения"
+      ],
+      "themes": [
+        "дружба",
+        "природа",
+        "волшебство",
+        "приключения"
+      ],
+      "moods": [],
+      "languageDifficulty": "easy",
+      "lengthCategory": "long",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/",
+        "collectionSlugs": [
+          "volshebnye-zimnie-knigi"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-peschernyy-chelovek-terri-pratchett",
+      "slug": "nen-collection-peschernyy-chelovek-terri-pratchett",
+      "title": "Пещерный человек",
+      "authors": [
+        "Терри Пратчетт"
+      ],
+      "publisher": "Поляндрия",
+      "shortDescription": "Хорошо известный седой и бородатый автор сатирического фэнтези когда-то в юности писал небольшие рассказы для газет «Бакс фри пресс» и «Вестерн дейли пресс». Спустя много лет эти рассказы нашли, отобрали и выпустили сборником для детей. Они приоткрывают современным детям границу возможного и заставляют безудержно фантазировать о том, как построить в сарае ракету и отправиться на Марс или — как усадить пещерного человека в кресло стоматолога.\n\nИдеальна для ленивых читателей — истории небольшие и щедро сдобренные забавными иллюстрациями.",
+      "fullDescription": "Хорошо известный седой и бородатый автор сатирического фэнтези когда-то в юности писал небольшие рассказы для газет «Бакс фри пресс» и «Вестерн дейли пресс». Спустя много лет эти рассказы нашли, отобрали и выпустили сборником для детей. Они приоткрывают современным детям границу возможного и заставляют безудержно фантазировать о том, как построить в сарае ракету и отправиться на Марс или — как усадить пещерного человека в кресло стоматолога.\n\nИдеальна для ленивых читателей — истории небольшие и щедро сдобренные забавными иллюстрациями.",
+      "ageMin": 7,
+      "ageMax": 12,
+      "readingMode": "both",
+      "genres": [
+        "фэнтези"
+      ],
+      "themes": [
+        "волшебство"
+      ],
+      "moods": [],
+      "languageDifficulty": "medium",
+      "lengthCategory": "medium",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2022-12-06/638f6b5945d66_0x0.jpg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/sohraniai-svobody-v-golove/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/sohraniai-svobody-v-golove/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/sohraniai-svobody-v-golove/",
+        "collectionSlugs": [
+          "novye-fantasticheskie-istorii"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-shlyapniki-tamzin-merchant",
+      "slug": "nen-collection-shlyapniki-tamzin-merchant",
+      "title": "Шляпники",
+      "authors": [
+        "Тамзин Мерчант"
+      ],
+      "publisher": "АСТ, Вилли Винки",
+      "shortDescription": "Что, если наши характер, поведение, самоощущение, можно подправить с помощью специальных предметов гардероба? Например, в шляпу добавить сияние звезд для ясного ума? Или паучий шелк, сплетенный Коричневым Глубокораздумным Пауком, для концентрации и усидчивости?\n\nКрошка Шляпник — Корделия — начинает обучаться секретам своей семьи Творцов и даже сама уже может создавать шляпы, хотя пока еще относится к процессу достаточно беспечно.",
+      "fullDescription": "Что, если наши характер, поведение, самоощущение, можно подправить с помощью специальных предметов гардероба? Например, в шляпу добавить сияние звезд для ясного ума? Или паучий шелк, сплетенный Коричневым Глубокораздумным Пауком, для концентрации и усидчивости?\n\nКрошка Шляпник — Корделия — начинает обучаться секретам своей семьи Творцов и даже сама уже может создавать шляпы, хотя пока еще относится к процессу достаточно беспечно.",
+      "ageMin": 8,
+      "ageMax": 13,
+      "readingMode": "independent",
+      "genres": [
+        "реалистическая проза"
+      ],
+      "themes": [
+        "семья"
+      ],
+      "moods": [],
+      "languageDifficulty": "medium",
+      "lengthCategory": "medium",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2022-12-06/638f6be76143d_0x0.jpg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/sohraniai-svobody-v-golove/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/sohraniai-svobody-v-golove/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/sohraniai-svobody-v-golove/",
+        "collectionSlugs": [
+          "novye-fantasticheskie-istorii"
+        ]
+      },
+      "status": "published"
+    },
+    {
+      "id": "curated-nen-collection-magazin-dikovinnyh-sladostey-schaste-za-monetku-reyko-hirosima",
+      "slug": "nen-collection-magazin-dikovinnyh-sladostey-schaste-za-monetku-reyko-hirosima",
+      "title": "Магазин диковинных сладостей «Счастье за монетку»",
+      "authors": [
+        "Рэйко Хиросима"
+      ],
+      "publisher": "Поляндрия",
+      "shortDescription": "В переулке, вдали от торговой улицы, время от времени появляется Лавка Сладостей «Счастье за монетку». В день она обслуживает только одного покупателя — счастливчик найдет именно то, что ему нужно сейчас и то, что изменит его жизнь, а в кармане у него будет ровно та монетка, что нужна хранительнице лавки госпоже Бэнико. Главное — дочитать инструкцию к сладости до конца, а не то.\n\nНа русский язык переведена первая книга из японской серии, насчитывающей аж 15 наименований.",
+      "fullDescription": "В переулке, вдали от торговой улицы, время от времени появляется Лавка Сладостей «Счастье за монетку». В день она обслуживает только одного покупателя — счастливчик найдет именно то, что ему нужно сейчас и то, что изменит его жизнь, а в кармане у него будет ровно та монетка, что нужна хранительнице лавки госпоже Бэнико. Главное — дочитать инструкцию к сладости до конца, а не то.\n\nНа русский язык переведена первая книга из японской серии, насчитывающей аж 15 наименований.",
+      "ageMin": 8,
+      "ageMax": 13,
+      "readingMode": "independent",
+      "genres": [
+        "реалистическая проза"
+      ],
+      "themes": [
+        "волшебство"
+      ],
+      "moods": [],
+      "languageDifficulty": "medium",
+      "lengthCategory": "medium",
+      "sensitiveTopics": [],
+      "sensitiveTopicsReviewed": false,
+      "coverUrl": "https://n-e-n.ru/images/2022-12-06/638f6c414b2cb_0x0.jpg",
+      "annotationProvenance": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/sohraniai-svobody-v-golove/",
+        "method": "nen_editorial_description",
+        "verifiedAt": "2026-07-26",
+        "copiedVerbatim": true
+      },
+      "bibliographicSources": [
+        "https://n-e-n.ru/sohraniai-svobody-v-golove/"
+      ],
+      "sourceMetadata": {
+        "sourceUrl": "https://n-e-n.ru/sohraniai-svobody-v-golove/",
+        "collectionSlugs": [
+          "novye-fantasticheskie-istorii"
+        ]
+      },
+      "status": "published"
+    }
+  ],
+  "unresolved": []
+}

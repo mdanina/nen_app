@@ -1,12 +1,28 @@
 {
-  "generatedAt": "2026-07-25T15:07:34.044Z",
+  "generatedAt": "2026-07-26T07:41:13.492Z",
   "collections": [
     {
       "slug": "vybor-redaktsii-nen-2020",
       "sourceUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
       "sourceTitleCount": 17,
-      "matchedCount": 5,
+      "matchedCount": 17,
       "matched": [
+        {
+          "id": "curated-nen-collection-pro-lisa-i-porosenka-bern-rervik",
+          "title": "Про Лиса и Поросенка"
+        },
+        {
+          "id": "curated-nen-collection-stihi-mashi-rupasovoy-masha-rupasova",
+          "title": "Стихи Маши Рупасовой"
+        },
+        {
+          "id": "curated-nen-collection-semeynyy-albom-tirannozavra-toni-mayk-benton",
+          "title": "Семейный альбом тираннозавра Тони"
+        },
+        {
+          "id": "curated-nen-collection-chelovetkin-dzhuliya-donaldson",
+          "title": "Человеткин"
+        },
         {
           "id": "nen-bv2-081",
           "title": "Сказки по телефону"
@@ -14,6 +30,18 @@
         {
           "id": "nen-002",
           "title": "Красная Шапочка"
+        },
+        {
+          "id": "curated-nen-collection-meydelin-finn-i-sobaka-iz-priyuta-liza-papp",
+          "title": "Мейделин Финн и собака из приюта"
+        },
+        {
+          "id": "curated-nen-collection-martyn-i-barsik-masha-rupasova",
+          "title": "Мартын и Барсик"
+        },
+        {
+          "id": "curated-nen-collection-odin-za-vseh-i-vse-za-odnogo-brigit-veninger",
+          "title": "Один за всех и все за одного"
         },
         {
           "id": "nen-bv2-056",
@@ -26,29 +54,44 @@
         {
           "id": "ol-ol29230428w",
           "title": "Возвращение блудного попугая и другие истории"
+        },
+        {
+          "id": "curated-nen-collection-korolevstvo-krivyh-zerkal-vitaliy-gubarev",
+          "title": "Королевство кривых зеркал"
+        },
+        {
+          "id": "curated-nen-collection-piter-pen-dzheyms-barri",
+          "title": "Питер Пэн"
+        },
+        {
+          "id": "curated-nen-collection-vse-o-mumi-trollyah-tuve-yansson",
+          "title": "Все о Муми-троллях"
+        },
+        {
+          "id": "curated-nen-collection-myshonok-kotoryy-tam-anastasiya-kovalenkova",
+          "title": "Мышонок, который там"
+        },
+        {
+          "id": "curated-nen-collection-kto-uteshit-knyutta-tuve-yansson",
+          "title": "Кто утешит Кнютта"
         }
       ],
-      "missing": [
-        "Про Лиса и Поросенка",
-        "Стихи Маши Рупасовой",
-        "Семейный альбом тираннозавра Тони",
-        "Человеткин",
-        "Мейделин Финн и собака из приюта",
-        "Мартын и Барсик",
-        "Один за всех и все за одного",
-        "Королевство кривых зеркал",
-        "Питер Пэн",
-        "Все о Муми-троллях",
-        "Мышонок, который там",
-        "Кто утешит Кнютта"
-      ]
+      "missing": []
     },
     {
       "slug": "desyat-glavnyh-detskih-knig",
       "sourceUrl": "https://n-e-n.ru/10-glavnih-detskih-knig/",
       "sourceTitleCount": 10,
-      "matchedCount": 6,
+      "matchedCount": 10,
       "matched": [
+        {
+          "id": "curated-nen-collection-kartofelnaya-sobaka-yuriy-koval",
+          "title": "Картофельная собака"
+        },
+        {
+          "id": "curated-nen-collection-medved-v-svoem-repertuare-gubert-shirnek",
+          "title": "Медведь в своем репертуаре"
+        },
         {
           "id": "nen-024",
           "title": "Настоящая жизнь Жакомина Гейнсборо"
@@ -62,6 +105,10 @@
           "title": "Навозный жук летает в сумерках"
         },
         {
+          "id": "curated-nen-collection-shtora-nyanyushki-lagton-virdzhiniya-vulf",
+          "title": "Штора нянюшки Лагтон"
+        },
+        {
           "id": "curated-samokat-miss-cheriti-miss-cheriti",
           "title": "Мисс Черити"
         },
@@ -72,21 +119,28 @@
         {
           "id": "curated-samokat-den-chisla-pi-den-chisla-pi",
           "title": "День числа Пи"
+        },
+        {
+          "id": "curated-nen-collection-ne-vse-umeyut-padat-toon-tellegen",
+          "title": "Не все умеют падать"
         }
       ],
-      "missing": [
-        "Картофельная собака",
-        "Медведь в своем репертуаре",
-        "Штора нянюшки Лагтон",
-        "Не все умеют падать"
-      ]
+      "missing": []
     },
     {
       "slug": "knigi-pro-pervuyu-lyubov",
       "sourceUrl": "https://n-e-n.ru/knigi-pro-pervuyu-lyubov/",
       "sourceTitleCount": 4,
-      "matchedCount": 2,
+      "matchedCount": 4,
       "matched": [
+        {
+          "id": "curated-nen-collection-reka-tekuschaya-vspyat-klod-murleva",
+          "title": "Река, текущая вспять"
+        },
+        {
+          "id": "curated-nen-collection-ya-ne-ya-zhanna-zaytseva-aleksandra",
+          "title": "Я, не я, Жанна"
+        },
         {
           "id": "curated-samokat-otel-bolshaya-l-otel-bolshaya-l",
           "title": "Отель «Большая Л»"
@@ -96,104 +150,222 @@
           "title": "Гипс"
         }
       ],
-      "missing": [
-        "Река, текущая вспять",
-        "Я, не я, Жанна"
-      ]
+      "missing": []
     },
     {
       "slug": "desyat-knig-dlya-malyshey",
       "sourceUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
       "sourceTitleCount": 10,
-      "matchedCount": 0,
-      "matched": [],
-      "missing": [
-        "Что нужно маленькой кошке",
-        "Верные друзья",
-        "Спать, как тигр",
-        "Моя сестренка Олькозавра",
-        "Как Флип затопил весь мир",
-        "Молли и штормовое море",
-        "Иди поиграй с тем мальчиком!",
-        "Год, полный чудес",
-        "Лев Петрушка и его друзья",
-        "Пингвикинги"
-      ]
+      "matchedCount": 10,
+      "matched": [
+        {
+          "id": "curated-nen-collection-chto-nuzhno-malenkoy-koshke-natalya-shaloshvili",
+          "title": "Что нужно маленькой кошке"
+        },
+        {
+          "id": "curated-nen-collection-vernye-druzya-mariam-kordes",
+          "title": "Верные друзья"
+        },
+        {
+          "id": "curated-nen-collection-spat-kak-tigr-masha-lukashkina",
+          "title": "Спать, как тигр"
+        },
+        {
+          "id": "curated-nen-collection-moya-sestrenka-olkozavra-dina-gerbek",
+          "title": "Моя сестренка Олькозавра"
+        },
+        {
+          "id": "curated-nen-collection-kak-flip-zatopil-ves-mir-adam-stouer",
+          "title": "Как Флип затопил весь мир"
+        },
+        {
+          "id": "curated-nen-collection-molli-i-shtormovoe-more-doyl-malahiya",
+          "title": "Молли и штормовое море"
+        },
+        {
+          "id": "curated-nen-collection-idi-poigray-s-tem-malchikom-klementina-bove",
+          "title": "Иди поиграй с тем мальчиком!"
+        },
+        {
+          "id": "curated-nen-collection-god-polnyy-chudes-b-klyayn",
+          "title": "Год, полный чудес"
+        },
+        {
+          "id": "curated-nen-collection-lev-petrushka-i-ego-druzya-maykl-bond",
+          "title": "Лев Петрушка и его друзья"
+        },
+        {
+          "id": "curated-nen-collection-pingvikingi-anton-soya",
+          "title": "Пингвикинги"
+        }
+      ],
+      "missing": []
     },
     {
       "slug": "knigi-dlya-podrostkov",
       "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
       "sourceTitleCount": 15,
-      "matchedCount": 2,
+      "matchedCount": 15,
       "matched": [
+        {
+          "id": "curated-nen-collection-shkola-v-karmartene-anna-korosteleva",
+          "title": "Школа в Кармартене"
+        },
+        {
+          "id": "curated-nen-collection-zakoldovannaya-zhizn-uinn-dzhons",
+          "title": "Заколдованная жизнь"
+        },
         {
           "id": "nen-bv2-140",
           "title": "Дом, в котором…"
         },
         {
+          "id": "curated-nen-collection-muley-erlend-lu",
+          "title": "Мулей"
+        },
+        {
           "id": "nen-bv2-137",
           "title": "Книжный вор"
+        },
+        {
+          "id": "curated-nen-collection-zhutko-gromko-i-zapredelno-blizko-safran-foer",
+          "title": "Жутко громко и запредельно близко"
+        },
+        {
+          "id": "curated-nen-collection-milye-kosti-elis-sibold",
+          "title": "Милые кости"
+        },
+        {
+          "id": "curated-nen-collection-kogda-my-vstretimsya-rebekka-sted",
+          "title": "Когда мы встретимся"
+        },
+        {
+          "id": "curated-nen-collection-trinadtsataya-skazka-diana-setterfild",
+          "title": "Тринадцатая сказка"
+        },
+        {
+          "id": "curated-nen-collection-bezdna-chellendzhera-nil-shusterman",
+          "title": "Бездна Челленджера"
+        },
+        {
+          "id": "curated-nen-collection-devyatnadtsat-minut-dzhodi-pikolt",
+          "title": "Девятнадцать минут"
+        },
+        {
+          "id": "curated-nen-collection-ptitsa-v-kletke-robin-rou",
+          "title": "Птица в клетке"
+        },
+        {
+          "id": "curated-nen-collection-ulichnyy-kot-po-imeni-bob-dzheyms-bouen",
+          "title": "Уличный кот по имени Боб"
+        },
+        {
+          "id": "curated-nen-collection-spletni-i-k-pop-aleksandra-yang",
+          "title": "Сплетни и K-pop"
+        },
+        {
+          "id": "curated-nen-collection-heytery-dzhessi-endryus",
+          "title": "Хейтеры"
         }
       ],
-      "missing": [
-        "Школа в Кармартене",
-        "Заколдованная жизнь",
-        "Мулей",
-        "Жутко громко и запредельно близко",
-        "Милые кости",
-        "Когда мы встретимся",
-        "Тринадцатая сказка",
-        "Бездна Челленджера",
-        "Девятнадцать минут",
-        "Птица в клетке",
-        "Уличный кот по имени Боб",
-        "Сплетни и K-pop",
-        "Хейтеры"
-      ]
+      "missing": []
     },
     {
       "slug": "knigi-na-kanikuly",
       "sourceUrl": "https://n-e-n.ru/8-knig/",
       "sourceTitleCount": 10,
-      "matchedCount": 1,
+      "matchedCount": 10,
       "matched": [
+        {
+          "id": "curated-nen-collection-schepotka-magii-mishel-harrison",
+          "title": "Щепотка магии"
+        },
+        {
+          "id": "curated-nen-collection-gorstka-volshebstva-mishel-harrison",
+          "title": "Горстка волшебства"
+        },
+        {
+          "id": "curated-nen-collection-klubok-zaklinaniy-mishel-harrison",
+          "title": "Клубок заклинаний"
+        },
         {
           "id": "curated-samokat-neveroyatnoe-nashestvie-medvedey-na-sitsiliyu-neveroyatnoe-nashestvie-medvedey-na-sitsiliyu",
           "title": "Невероятное нашествие медведей на Сицилию"
+        },
+        {
+          "id": "curated-nen-collection-malenkaya-vsemirnaya-istoriya-ernst-gombrih",
+          "title": "Маленькая всемирная история"
+        },
+        {
+          "id": "curated-nen-collection-sekrety-koshek-sasha-raush",
+          "title": "Секреты кошек"
+        },
+        {
+          "id": "curated-nen-collection-brat-drakona-larisa-romanovskaya",
+          "title": "Брат дракона"
+        },
+        {
+          "id": "curated-nen-collection-zatonuvshiy-les-lloyd-dzhons",
+          "title": "Затонувший лес"
+        },
+        {
+          "id": "curated-nen-collection-6-minut-dlya-detey-dominik-spenst",
+          "title": "6 минут для детей"
+        },
+        {
+          "id": "curated-nen-collection-drugaya-elis-mishel-harrison",
+          "title": "Другая Элис"
         }
       ],
-      "missing": [
-        "Щепотка магии",
-        "Горстка волшебства",
-        "Клубок заклинаний",
-        "Маленькая всемирная история",
-        "Секреты кошек",
-        "Брат дракона",
-        "Затонувший лес",
-        "6 минут для детей",
-        "Другая Элис"
-      ]
+      "missing": []
     },
     {
       "slug": "lyubimye-knigi-alpina-deti",
       "sourceUrl": "https://n-e-n.ru/5-knig-alpina/",
       "sourceTitleCount": 5,
-      "matchedCount": 0,
-      "matched": [],
-      "missing": [
-        "Невероятно! Опасная слизь, ледяные мышки, съедобные камни и еще 95 историй о мире вокруг нас",
-        "Дружба после ссоры… Новые приключения Эмо и Чики",
-        "Я иду искать в Санкт-Петербурге",
-        "Конни и друзья: Новая школа",
-        "Истории про Пярта"
-      ]
+      "matchedCount": 5,
+      "matched": [
+        {
+          "id": "curated-nen-collection-neveroyatno-opasnaya-sliz-ledyanye-myshki-sedobnye-kamni-i-esche-95-istoriy-o-mire-vokrug-nas-nastya-tr",
+          "title": "Невероятно! Опасная слизь, ледяные мышки, съедобные камни и еще 95 историй о мире вокруг нас"
+        },
+        {
+          "id": "curated-nen-collection-druzhba-posle-ssory-novye-priklyucheniya-emo-i-chiki-dzhoshua-vays",
+          "title": "Дружба после ссоры… Новые приключения Эмо и Чики"
+        },
+        {
+          "id": "curated-nen-collection-ya-idu-iskat-v-sankt-peterburge-svetlana-shahverdova",
+          "title": "Я иду искать в Санкт-Петербурге"
+        },
+        {
+          "id": "curated-nen-collection-konni-i-druzya-novaya-shkola-yuliya-beme",
+          "title": "Конни и друзья: Новая школа"
+        },
+        {
+          "id": "curated-nen-collection-istorii-pro-pyarta-anti-saar",
+          "title": "Истории про Пярта"
+        }
+      ],
+      "missing": []
     },
     {
       "slug": "goroshek-tsikada-i-volshebstvo",
       "sourceUrl": "https://n-e-n.ru/goroshek/",
       "sourceTitleCount": 5,
-      "matchedCount": 2,
+      "matchedCount": 5,
       "matched": [
+        {
+          "id": "curated-nen-collection-poigray-s-mimi-anna-permyakova",
+          "title": "Поиграй с Мими"
+        },
+        {
+          "id": "curated-nen-collection-shkola-risovaniya-goroshka-david-kali",
+          "title": "Школа рисования Горошка"
+        },
+        {
+          "id": "curated-nen-collection-i-kto-to-skazal-privet-nihan-temiz",
+          "title": "И кто-то сказал «Привет»"
+        },
         {
           "id": "ol-ol26452135w",
           "title": "Сказки"
@@ -203,50 +375,91 @@
           "title": "Лучшие сказки на ночь"
         }
       ],
-      "missing": [
-        "Поиграй с Мими",
-        "Школа рисования Горошка",
-        "И кто-то сказал «Привет»"
-      ]
+      "missing": []
     },
     {
       "slug": "novinki-dlya-doshkolnikov",
       "sourceUrl": "https://n-e-n.ru/novinki-dlya-shkolnikov/",
       "sourceTitleCount": 7,
-      "matchedCount": 0,
-      "matched": [],
-      "missing": [
-        "Фредерик",
-        "Летний день с друзьями",
-        "Моя большая",
-        "Добрая акула",
-        "Суп синьора Лепрона",
-        "Сильвия и Птичка",
-        "Очки для Селесты"
-      ]
+      "matchedCount": 7,
+      "matched": [
+        {
+          "id": "curated-nen-collection-frederik-leo-lionni",
+          "title": "Фредерик"
+        },
+        {
+          "id": "curated-nen-collection-letniy-den-s-druzyami-filip-vehter",
+          "title": "Летний день с друзьями"
+        },
+        {
+          "id": "curated-nen-collection-moya-bolshaya-sibiy-delakrua",
+          "title": "Моя большая"
+        },
+        {
+          "id": "curated-nen-collection-dobraya-akula-elena-repetur",
+          "title": "Добрая акула"
+        },
+        {
+          "id": "curated-nen-collection-sup-sinora-leprona-dzhovanna-dzoboli",
+          "title": "Суп синьора Лепрона"
+        },
+        {
+          "id": "curated-nen-collection-silviya-i-ptichka-ketrin-reyner",
+          "title": "Сильвия и Птичка"
+        },
+        {
+          "id": "curated-nen-collection-ochki-dlya-selesty-mariya-kolker",
+          "title": "Очки для Селесты"
+        }
+      ],
+      "missing": []
     },
     {
       "slug": "volshebnye-zimnie-knigi",
       "sourceUrl": "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/",
       "sourceTitleCount": 8,
-      "matchedCount": 0,
-      "matched": [],
-      "missing": [
-        "Васильковая зима",
-        "Где-то в снегу",
-        "Заветное желание кротика",
-        "Елка Юлька",
-        "В поисках Деда Мороза",
-        "Самое первое новогоднее дерево",
-        "Гном и Лис",
-        "Вьюжик и упавшая звезда"
-      ]
+      "matchedCount": 8,
+      "matched": [
+        {
+          "id": "curated-nen-collection-vasilkovaya-zima-hegyum-kim",
+          "title": "Васильковая зима"
+        },
+        {
+          "id": "curated-nen-collection-gde-to-v-snegu-linde-faas",
+          "title": "Где-то в снегу"
+        },
+        {
+          "id": "curated-nen-collection-zavetnoe-zhelanie-krotika-sangyn-kim",
+          "title": "Заветное желание кротика"
+        },
+        {
+          "id": "curated-nen-collection-elka-yulka-olive-tallek",
+          "title": "Елка Юлька"
+        },
+        {
+          "id": "curated-nen-collection-v-poiskah-deda-moroza-ann-montel",
+          "title": "В поисках Деда Мороза"
+        },
+        {
+          "id": "curated-nen-collection-samoe-pervoe-novogodnee-derevo-ovila-fonten",
+          "title": "Самое первое новогоднее дерево"
+        },
+        {
+          "id": "curated-nen-collection-gnom-i-lis-astrid-lindgren",
+          "title": "Гном и Лис"
+        },
+        {
+          "id": "curated-nen-collection-vyuzhik-i-upavshaya-zvezda-anna-mohovaya",
+          "title": "Вьюжик и упавшая звезда"
+        }
+      ],
+      "missing": []
     },
     {
       "slug": "novye-fantasticheskie-istorii",
       "sourceUrl": "https://n-e-n.ru/sohraniai-svobody-v-golove/",
       "sourceTitleCount": 5,
-      "matchedCount": 2,
+      "matchedCount": 5,
       "matched": [
         {
           "id": "curated-samokat-slon-v-polnom-smysle-etogo-slova-skazki-slon-v-polnom-smysle-etogo-slova-skazki",
@@ -255,13 +468,21 @@
         {
           "id": "curated-samokat-kvartetnye-skazki-kvartetnye-skazki",
           "title": "Квартетные сказки"
+        },
+        {
+          "id": "curated-nen-collection-peschernyy-chelovek-terri-pratchett",
+          "title": "Пещерный человек"
+        },
+        {
+          "id": "curated-nen-collection-shlyapniki-tamzin-merchant",
+          "title": "Шляпники"
+        },
+        {
+          "id": "curated-nen-collection-magazin-dikovinnyh-sladostey-schaste-za-monetku-reyko-hirosima",
+          "title": "Магазин диковинных сладостей «Счастье за монетку»"
         }
       ],
-      "missing": [
-        "Пещерный человек",
-        "Шляпники",
-        "Магазин диковинных сладостей «Счастье за монетку»"
-      ]
+      "missing": []
     }
   ]
 }
