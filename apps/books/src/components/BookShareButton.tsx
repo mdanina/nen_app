@@ -1,10 +1,9 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useId, useRef, useState } from "react";
 import {
   canUseNativeShare,
+  copyTextWithFallback,
   getBookPermalink,
   getBrowserShareCapabilities,
-  getShareActionLabel,
-  shareWithCopyFallback,
 } from "../domain/books/share";
 
 function legacyCopy(text: string) {
@@ -27,36 +26,88 @@ function legacyCopy(text: string) {
 }
 
 export function BookShareButton({ slug, title }: { slug: string; title: string }) {
+  const [open, setOpen] = useState(false);
+  const [toast, setToast] = useState("");
+  const rootRef = useRef<HTMLDivElement>(null);
+  const firstActionRef = useRef<HTMLButtonElement>(null);
+  const timer = useRef<number | undefined>(undefined);
+  const menuId = useId();
   const url = getBookPermalink(slug);
   const shareData = { title, url };
-  const [copyMode, setCopyMode] = useState(() => !canUseNativeShare(shareData, getBrowserShareCapabilities()));
-  const [copied, setCopied] = useState(false);
-  const [copyFailed, setCopyFailed] = useState(false);
-  const timer = useRef<number | undefined>(undefined);
+  const capabilities = getBrowserShareCapabilities();
+  const canShare = canUseNativeShare(shareData, capabilities);
+
+  useEffect(() => {
+    if (open) firstActionRef.current?.focus();
+    const closeOnOutsideClick = (event: PointerEvent) => {
+      if (!rootRef.current?.contains(event.target as Node)) setOpen(false);
+    };
+    const closeOnEscape = (event: KeyboardEvent) => {
+      if (event.key === "Escape") setOpen(false);
+    };
+    document.addEventListener("pointerdown", closeOnOutsideClick);
+    document.addEventListener("keydown", closeOnEscape);
+    return () => {
+      document.removeEventListener("pointerdown", closeOnOutsideClick);
+      document.removeEventListener("keydown", closeOnEscape);
+    };
+  }, [open]);
 
   useEffect(() => () => window.clearTimeout(timer.current), []);
 
-  const showCopied = () => {
-    setCopied(true);
+  const showToast = (message: string) => {
+    setToast(message);
     window.clearTimeout(timer.current);
-    timer.current = window.setTimeout(() => setCopied(false), 2200);
+    timer.current = window.setTimeout(() => setToast(""), 2200);
   };
 
-  const handleShare = async () => {
-    setCopyFailed(false);
-    const capabilities = copyMode ? { secure: false } : getBrowserShareCapabilities();
-    const result = await shareWithCopyFallback(shareData, capabilities, {
+  const copyLink = async () => {
+    setOpen(false);
+    const copied = await copyTextWithFallback(url, {
       clipboardWrite: navigator.clipboard?.writeText ? (text) => navigator.clipboard.writeText(text) : undefined,
       legacyCopy,
     });
-    if (result === "shared") return;
-    setCopyMode(true);
-    if (result === "copied") showCopied();
-    else setCopyFailed(true);
+    showToast(copied ? "Ссылка скопирована" : "Не удалось скопировать ссылку");
   };
 
-  return <div>
-    <button className="save-large" type="button" onClick={handleShare}>{getShareActionLabel(!copyMode)}</button>
-    <p className="similar-reason" role="status" aria-live="polite">{copied ? "Ссылка скопирована" : copyFailed ? "Не удалось скопировать ссылку" : ""}</p>
-  </div>;
+  const shareLink = async () => {
+    if (!canShare || !capabilities.share) return;
+    try {
+      await capabilities.share(shareData);
+      setOpen(false);
+    } catch (error) {
+      if (error instanceof DOMException && error.name === "AbortError") return;
+      await copyLink();
+    }
+  };
+
+  return (
+    <div className="book-share" ref={rootRef}>
+      <button
+        className="book-share__trigger"
+        type="button"
+        aria-haspopup="menu"
+        aria-expanded={open}
+        aria-controls={menuId}
+        onClick={() => setOpen((value) => !value)}
+      >
+        Поделиться
+      </button>
+      {open && (
+        <div className="book-share__menu" id={menuId} role="menu">
+          <button ref={firstActionRef} type="button" role="menuitem" onClick={() => void copyLink()}>
+            <span aria-hidden="true">📋</span>
+            Скопировать ссылку
+          </button>
+          {canShare && (
+            <button type="button" role="menuitem" onClick={() => void shareLink()}>
+              <span aria-hidden="true">↗️</span>
+              Поделиться…
+            </button>
+          )}
+        </div>
+      )}
+      {toast && <div className="book-share__toast" role="status" aria-live="polite">{toast}</div>}
+    </div>
+  );
 }
