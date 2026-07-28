@@ -15,6 +15,7 @@ const curatedMultiPublisherPath = resolve(root, "data/source/curated-multi-publi
 const curatedPriorityPublisherPath = resolve(root, "data/source/curated-priority-publisher-books.json");
 const nenCollectionBooksPath = resolve(root, "data/source/nen-collection-books.json");
 const annotationOverridesPath = resolve(root, "data/source/book-annotation-overrides.json");
+const officialCoverOverridesPath = resolve(root, "data/source/official-cover-overrides.json");
 const targetPath = resolve(root, "data/generated/books.json");
 const fictionExcludedReportPath = resolve(root, "data/reports/fiction-catalog-excluded.json");
 const fictionAmbiguousReportPath = resolve(root, "data/reports/ambiguous-review.json");
@@ -27,7 +28,9 @@ const curatedMultiPublisherSource = JSON.parse(await readFile(curatedMultiPublis
 const curatedPriorityPublisherSource = JSON.parse(await readFile(curatedPriorityPublisherPath, "utf8"));
 const nenCollectionSource = JSON.parse(await readFile(nenCollectionBooksPath, "utf8"));
 const annotationOverrides = JSON.parse(await readFile(annotationOverridesPath, "utf8"));
+const officialCoverOverrides = JSON.parse(await readFile(officialCoverOverridesPath, "utf8"));
 const annotationById = new Map(annotationOverrides.map((item) => [item.id, item]));
+const officialCoverById = new Map(officialCoverOverrides.map((item) => [item.id, item.cover]));
 
 const allowed = {
   readingMode: new Set(["independent", "together", "both"]),
@@ -267,10 +270,13 @@ function applyPublisherEnrichment(book) {
     seriesName: book.seriesName || enrichment.seriesName || undefined,
     translator: book.translator || enrichment.translator || undefined,
     isbn13: book.isbn13 || enrichment.isbn13 || undefined,
+    cover: book.cover?.url || book.coverUrl ? book.cover : enrichment.cover || undefined,
     bibliographicSources: compact([...(book.bibliographicSources ?? []), enrichment.bibliographicSource]),
   };
 }
-const candidateBooks = [...legacyBooks, ...publishedV2, ...importedBooks, ...curatedPublisherBooks, ...nenCollectionBooks].map(applyPublisherEnrichment);
+const candidateBooks = [...legacyBooks, ...publishedV2, ...importedBooks, ...curatedPublisherBooks, ...nenCollectionBooks]
+  .map(applyPublisherEnrichment)
+  .map((book) => officialCoverById.has(book.id) ? { ...book, cover: officialCoverById.get(book.id), coverUrl: undefined } : book);
 const isNenCollectionBook = (book) => String(book.id).startsWith("curated-nen-collection-");
 const fictionExcluded = candidateBooks
   .map((book) => ({ book, classification: classifyCatalogBook(book) }))

@@ -1,0 +1,86 @@
+[
+  {
+    "id": "nen-bv2-001",
+    "cover": {
+      "kind": "external",
+      "url": "https://samokatbook.ru/upload/resize_cache/iblock/659/1024_1024_1/syujlxgta48rw8soremicrnxyf5m9q76.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Самокат»",
+      "sourcePageUrl": "https://samokatbook.ru/book/v-dobryy-put-malysh/",
+      "isbn13": "9785001676010",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-27"
+    }
+  },
+  {
+    "id": "nen-bv2-004",
+    "cover": {
+      "kind": "external",
+      "url": "https://api.azbooka.ru/upload/iblock/686/686a866d423236627c04ee1089e003f7.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательская группа «Азбука-Аттикус»",
+      "sourcePageUrl": "https://azbooka.ru/books/gav-o3ut",
+      "isbn13": "9785389064348",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-27"
+    }
+  },
+  {
+    "id": "nen-bv2-006",
+    "cover": {
+      "kind": "external",
+      "url": "https://eksmo.ru/upload/books_sn_images/ITD000000000624021-fb.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Эксмо»",
+      "sourcePageUrl": "https://eksmo.ru/amp/book/priklyucheniya-mishki-ushastika-per-s-svyatskogo-ITD624021/",
+      "isbn13": "9785699821167",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-27"
+    }
+  },
+  {
+    "id": "nen-bv2-008",
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2015/04/social-fb-book-007.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/findus-pereezzhaet/",
+      "isbn13": "9785001145592",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-27"
+    }
+  },
+  {
+    "id": "nen-bv2-009",
+    "cover": {
+      "kind": "external",
+      "url": "https://api.azbooka.ru/upload/iblock/ad2/ad2da0069c0690dd093c29c4472f179c.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательская группа «Азбука-Аттикус»",
+      "sourcePageUrl": "https://azbooka.ru/books/ule-aleksandr-pereezzhaet",
+      "isbn13": "9785389182141",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-27"
+    }
+  },
+  {
+    "id": "nen-bv2-011",
+    "cover": {
+      "kind": "external",
+      "url": "https://polyandria.ru/upload/iblock/6fc/6fc750f4f4e4494b23c50989d989e6cd.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Поляндрия»",
+      "sourcePageUrl": "https://polyandria.ru/catalog/3-7/chyernyy-pyes/",
+      "isbn13": "9785604259993",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-27"
+    }
+  }
+]

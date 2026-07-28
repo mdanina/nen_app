@@ -220,6 +220,7 @@ function makeBook({ source, sourceUrl, title, authors, annotation, coverUrl, isb
       sourcePageUrl: sourceUrl,
       isbn13,
       temporary: true,
+      attribution: "Обложка предоставлена издательством.",
       verifiedAt: checkedAt,
     },
     annotationProvenance: {
@@ -338,6 +339,7 @@ async function collect(label, links, parser, target) {
 
 const current = JSON.parse(await readFile(currentCatalogPath, "utf8"))
   .filter((book) => !/^curated-(?:whitecrow|kompasgid|alpina-deti)-/u.test(String(book.id)));
+const previousSource = JSON.parse(await readFile(outputPath, "utf8"));
 const existingKeys = new Set(current.map((book) => titleAuthorKey(book.title, String(book.author).split(/\s*;\s*/u))));
 const existingIsbn = new Set(current.map((book) => book.isbn13).filter(Boolean));
 
@@ -356,8 +358,15 @@ const alpina = await collect("Альпина.Дети", alpinaLinks, alpinaBook,
 
 const selected = [];
 const rejectedDuplicates = [];
+for (const book of previousSource.books ?? []) {
+  const key = titleAuthorKey(book.title, book.authors);
+  if (existingKeys.has(key) || existingIsbn.has(book.isbn13)) continue;
+  existingKeys.add(key);
+  existingIsbn.add(book.isbn13);
+  selected.push(book);
+}
 for (const group of [whiteCrow.books, kompas.books, alpina.books]) {
-  let acceptedForPublisher = 0;
+  let acceptedForPublisher = selected.filter((book) => book.publisher === group[0]?.publisher).length;
   for (const book of group) {
     if (acceptedForPublisher >= perPublisherTarget + 20) break;
     const key = titleAuthorKey(book.title, book.authors);

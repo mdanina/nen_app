@@ -11,4 +11,5 @@
 .book-cover--placeholder::after{content:"";position:absolute;width:75%;aspect-ratio:1;right:-28%;bottom:-22%;border:1px solid rgb(31 28 24 / .18);border-radius:50%;z-index:-1}
 .book-cover--placeholder strong{display:-webkit-box;overflow:hidden;-webkit-box-orient:vertical;-webkit-line-clamp:5;overflow-wrap:anywhere;text-wrap:balance}
 .book-cover--placeholder span{display:-webkit-box;overflow:hidden;-webkit-box-orient:vertical;-webkit-line-clamp:2}
+.cover-attribution{margin:8px 0 0;color:var(--nen-muted);font-size:11px;text-align:center}
 .tone-5{background:#e7bfa1}

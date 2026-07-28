@@ -210,6 +210,7 @@ function makeBook({ publisher, sourceUrl, title, authors, description, coverUrl,
       sourcePageUrl: sourceUrl,
       isbn13,
       temporary: true,
+      attribution: "Обложка предоставлена издательством.",
       verifiedAt: checkedAt,
     },
     annotationProvenance: {

@@ -259,6 +259,7 @@ function parseProduct(html, sourceUrl) {
       sourcePageUrl: sourceUrl,
       isbn13,
       temporary: true,
+      attribution: "Обложка предоставлена издательством.",
       verifiedAt: checkedAt,
     },
     annotationProvenance: {
@@ -320,6 +321,7 @@ for (let offset = 0; offset < links.length && books.length < target; offset += 8
           seriesName: book.seriesName,
           translator: book.translator,
           isbn13: book.isbn13,
+          cover: book.cover,
           bibliographicSource: book.bibliographicSources[0],
         });
       }
