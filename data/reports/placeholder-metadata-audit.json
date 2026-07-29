@@ -1,0 +1,2705 @@
+{
+  "generatedAt": "2026-07-28T10:10:27.378Z",
+  "source": "Национальная электронная библиотека",
+  "inputPlaceholders": 383,
+  "searchedRecords": 1013,
+  "matchedThisRun": 0,
+  "matchedTotal": 39,
+  "matchStrategies": {
+    "exact_isbn": 0,
+    "title_author": 0
+  },
+  "fieldFill": {
+    "publisher": 0,
+    "publicationYear": 0,
+    "pages": 0,
+    "seriesName": 0,
+    "isbn13": 0,
+    "language": 0
+  },
+  "accepted": [],
+  "duplicateCandidates": [],
+  "unmatched": [
+    {
+      "id": "nen-008",
+      "title": "Аладдин и волшебная лампа",
+      "author": "Сказитель Ханна Дияб; публикация Антуана Галлана",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%90%D0%BB%D0%B0%D0%B4%D0%B4%D0%B8%D0%BD%20%D0%B8%20%D0%B2%D0%BE%D0%BB%D1%88%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F%20%D0%BB%D0%B0%D0%BC%D0%BF%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-009",
+      "title": "Момотаро",
+      "author": "Японская народная сказка",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9C%D0%BE%D0%BC%D0%BE%D1%82%D0%B0%D1%80%D0%BE",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-010",
+      "title": "Волшебная кисть Ма Ляна",
+      "author": "Хун Сюньтао",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%92%D0%BE%D0%BB%D1%88%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F%20%D0%BA%D0%B8%D1%81%D1%82%D1%8C%20%D0%9C%D0%B0%20%D0%9B%D1%8F%D0%BD%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-011",
+      "title": "Груффало",
+      "author": "Джулия Дональдсон",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%93%D1%80%D1%83%D1%84%D1%84%D0%B0%D0%BB%D0%BE",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-012",
+      "title": "Именинный пирог",
+      "author": "Свен Нурдквист",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%98%D0%BC%D0%B5%D0%BD%D0%B8%D0%BD%D0%BD%D1%8B%D0%B9%20%D0%BF%D0%B8%D1%80%D0%BE%D0%B3",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-017",
+      "title": "Джейн, лиса и я",
+      "author": "Фанни Бритт",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%94%D0%B6%D0%B5%D0%B9%D0%BD%2C%20%D0%BB%D0%B8%D1%81%D0%B0%20%D0%B8%20%D1%8F",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-018",
+      "title": "Две половинки сердца",
+      "author": "Русе Лагеркранц",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%94%D0%B2%D0%B5%20%D0%BF%D0%BE%D0%BB%D0%BE%D0%B2%D0%B8%D0%BD%D0%BA%D0%B8%20%D1%81%D0%B5%D1%80%D0%B4%D1%86%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-020",
+      "title": "Большая маленькая девочка. Как приручить город",
+      "author": "Мария Бершадская",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%91%D0%BE%D0%BB%D1%8C%D1%88%D0%B0%D1%8F%20%D0%BC%D0%B0%D0%BB%D0%B5%D0%BD%D1%8C%D0%BA%D0%B0%D1%8F%20%D0%B4%D0%B5%D0%B2%D0%BE%D1%87%D0%BA%D0%B0.%20%D0%9A%D0%B0%D0%BA%20%D0%BF%D1%80%D0%B8%D1%80%D1%83%D1%87%D0%B8%D1%82%D1%8C%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-021",
+      "title": "Календарь ма(й)я",
+      "author": "Виктория Ледерман",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9A%D0%B0%D0%BB%D0%B5%D0%BD%D0%B4%D0%B0%D1%80%D1%8C%20%D0%BC%D0%B0(%D0%B9)%D1%8F",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-023",
+      "title": "Давай поедем в Уналашку",
+      "author": "Анна Красильщик",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%94%D0%B0%D0%B2%D0%B0%D0%B9%20%D0%BF%D0%BE%D0%B5%D0%B4%D0%B5%D0%BC%20%D0%B2%20%D0%A3%D0%BD%D0%B0%D0%BB%D0%B0%D1%88%D0%BA%D1%83",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-024",
+      "title": "Настоящая жизнь Жакомина Гейнсборо",
+      "author": "Ребекка Дотремер",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9D%D0%B0%D1%81%D1%82%D0%BE%D1%8F%D1%89%D0%B0%D1%8F%20%D0%B6%D0%B8%D0%B7%D0%BD%D1%8C%20%D0%96%D0%B0%D0%BA%D0%BE%D0%BC%D0%B8%D0%BD%D0%B0%20%D0%93%D0%B5%D0%B9%D0%BD%D1%81%D0%B1%D0%BE%D1%80%D0%BE",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-051",
+      "title": "Очень голодная гусеница",
+      "author": "Эрик Карл",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9E%D1%87%D0%B5%D0%BD%D1%8C%20%D0%B3%D0%BE%D0%BB%D0%BE%D0%B4%D0%BD%D0%B0%D1%8F%20%D0%B3%D1%83%D1%81%D0%B5%D0%BD%D0%B8%D1%86%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-052",
+      "title": "Спокойной ночи, Луна",
+      "author": "Маргарет Уайз Браун",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A1%D0%BF%D0%BE%D0%BA%D0%BE%D0%B9%D0%BD%D0%BE%D0%B9%20%D0%BD%D0%BE%D1%87%D0%B8%2C%20%D0%9B%D1%83%D0%BD%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-053",
+      "title": "Совята",
+      "author": "Мартин Уодделл",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A1%D0%BE%D0%B2%D1%8F%D1%82%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-054",
+      "title": "Тихая книга",
+      "author": "Дебора Андервуд",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A2%D0%B8%D1%85%D0%B0%D1%8F%20%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-055",
+      "title": "Дочурка Груффало",
+      "author": "Джулия Дональдсон",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%94%D0%BE%D1%87%D1%83%D1%80%D0%BA%D0%B0%20%D0%93%D1%80%D1%83%D1%84%D1%84%D0%B0%D0%BB%D0%BE",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-057",
+      "title": "Джордж и тайны Вселенной",
+      "author": "Люси Хокинг; Стивен Хокинг",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%94%D0%B6%D0%BE%D1%80%D0%B4%D0%B6%20%D0%B8%20%D1%82%D0%B0%D0%B9%D0%BD%D1%8B%20%D0%92%D1%81%D0%B5%D0%BB%D0%B5%D0%BD%D0%BD%D0%BE%D0%B9",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-058",
+      "title": "Детектив Пьер распутывает дело. В поисках похищенного лабиринта",
+      "author": "Хиро Камигаки; IC4DESIGN",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%94%D0%B5%D1%82%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%20%D0%9F%D1%8C%D0%B5%D1%80%20%D1%80%D0%B0%D1%81%D0%BF%D1%83%D1%82%D1%8B%D0%B2%D0%B0%D0%B5%D1%82%20%D0%B4%D0%B5%D0%BB%D0%BE.%20%D0%92%20%D0%BF%D0%BE%D0%B8%D1%81%D0%BA%D0%B0%D1%85%20%D0%BF%D0%BE%D1%85%D0%B8%D1%89%D0%B5%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%BB%D0%B0%D0%B1%D0%B8%D1%80%D0%B8%D0%BD%D1%82%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-059",
+      "title": "Детектив Самсон",
+      "author": "Катерина Горелик",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%94%D0%B5%D1%82%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%20%D0%A1%D0%B0%D0%BC%D1%81%D0%BE%D0%BD",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-060",
+      "title": "Комиссар Гордон. Первый случай",
+      "author": "Ульф Нильсон",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9A%D0%BE%D0%BC%D0%B8%D1%81%D1%81%D0%B0%D1%80%20%D0%93%D0%BE%D1%80%D0%B4%D0%BE%D0%BD.%20%D0%9F%D0%B5%D1%80%D0%B2%D1%8B%D0%B9%20%D1%81%D0%BB%D1%83%D1%87%D0%B0%D0%B9",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-061",
+      "title": "Универмаг динозавров",
+      "author": "Лили Мюррей",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D0%BC%D0%B0%D0%B3%20%D0%B4%D0%B8%D0%BD%D0%BE%D0%B7%D0%B0%D0%B2%D1%80%D0%BE%D0%B2",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-063",
+      "title": "Эмиль и сыщики",
+      "author": "Эрих Кестнер",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%AD%D0%BC%D0%B8%D0%BB%D1%8C%20%D0%B8%20%D1%81%D1%8B%D1%89%D0%B8%D0%BA%D0%B8",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-064",
+      "title": "Калле Блумквист — сыщик",
+      "author": "Астрид Линдгрен",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9A%D0%B0%D0%BB%D0%BB%D0%B5%20%D0%91%D0%BB%D1%83%D0%BC%D0%BA%D0%B2%D0%B8%D1%81%D1%82%20%E2%80%94%20%D1%81%D1%8B%D1%89%D0%B8%D0%BA",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-bv2-013",
+      "title": "Чудо",
+      "author": "Р. Дж. Паласио",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A7%D1%83%D0%B4%D0%BE",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-bv2-015",
+      "title": "Утка, Смерть и тюльпан",
+      "author": "Вольф Эрльбрух",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A3%D1%82%D0%BA%D0%B0%2C%20%D0%A1%D0%BC%D0%B5%D1%80%D1%82%D1%8C%20%D0%B8%20%D1%82%D1%8E%D0%BB%D1%8C%D0%BF%D0%B0%D0%BD",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-bv2-016",
+      "title": "Мой дедушка был вишней",
+      "author": "Анджела Нанетти",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9C%D0%BE%D0%B9%20%D0%B4%D0%B5%D0%B4%D1%83%D1%88%D0%BA%D0%B0%20%D0%B1%D1%8B%D0%BB%20%D0%B2%D0%B8%D1%88%D0%BD%D0%B5%D0%B9",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-bv2-017",
+      "title": "Сахарный ребёнок",
+      "author": "Ольга Громова",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A1%D0%B0%D1%85%D0%B0%D1%80%D0%BD%D1%8B%D0%B9%20%D1%80%D0%B5%D0%B1%D1%91%D0%BD%D0%BE%D0%BA",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-bv2-018",
+      "title": "Дающий",
+      "author": "Лоис Лоури",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%94%D0%B0%D1%8E%D1%89%D0%B8%D0%B9",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-bv2-021",
+      "title": "Мишка, бурый мишка, кто там впереди?",
+      "author": "Билл Мартин — младший",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9C%D0%B8%D1%88%D0%BA%D0%B0%2C%20%D0%B1%D1%83%D1%80%D1%8B%D0%B9%20%D0%BC%D0%B8%D1%88%D0%BA%D0%B0%2C%20%D0%BA%D1%82%D0%BE%20%D1%82%D0%B0%D0%BC%20%D0%B2%D0%BF%D0%B5%D1%80%D0%B5%D0%B4%D0%B8%3F",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-bv2-022",
+      "title": "Мы идём охотиться на медведя",
+      "author": "Майкл Розен",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9C%D1%8B%20%D0%B8%D0%B4%D1%91%D0%BC%20%D0%BE%D1%85%D0%BE%D1%82%D0%B8%D1%82%D1%8C%D1%81%D1%8F%20%D0%BD%D0%B0%20%D0%BC%D0%B5%D0%B4%D0%B2%D0%B5%D0%B4%D1%8F",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-bv2-024",
+      "title": "Фердинанд",
+      "author": "Манро Лиф",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A4%D0%B5%D1%80%D0%B4%D0%B8%D0%BD%D0%B0%D0%BD%D0%B4",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-bv2-025",
+      "title": "Кордурой",
+      "author": "Дон Фриман",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9A%D0%BE%D1%80%D0%B4%D1%83%D1%80%D0%BE%D0%B9",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-bv2-026",
+      "title": "Снежный день",
+      "author": "Эзра Джек Китс",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A1%D0%BD%D0%B5%D0%B6%D0%BD%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-bv2-028",
+      "title": "Вельветовый Кролик",
+      "author": "Марджери Уильямс",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%92%D0%B5%D0%BB%D1%8C%D0%B2%D0%B5%D1%82%D0%BE%D0%B2%D1%8B%D0%B9%20%D0%9A%D1%80%D0%BE%D0%BB%D0%B8%D0%BA",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-bv2-029",
+      "title": "Знаешь, как я тебя люблю?",
+      "author": "Сэм Макбратни",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%97%D0%BD%D0%B0%D0%B5%D1%88%D1%8C%2C%20%D0%BA%D0%B0%D0%BA%20%D1%8F%20%D1%82%D0%B5%D0%B1%D1%8F%20%D0%BB%D1%8E%D0%B1%D0%BB%D1%8E%3F",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-bv2-030",
+      "title": "Оливия",
+      "author": "Иэн Фалконер",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9E%D0%BB%D0%B8%D0%B2%D0%B8%D1%8F",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-bv2-031",
+      "title": "Кротик, который хотел знать, кто наделал ему на голову",
+      "author": "Вернер Хольцварт",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9A%D1%80%D0%BE%D1%82%D0%B8%D0%BA%2C%20%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D1%8B%D0%B9%20%D1%85%D0%BE%D1%82%D0%B5%D0%BB%20%D0%B7%D0%BD%D0%B0%D1%82%D1%8C%2C%20%D0%BA%D1%82%D0%BE%20%D0%BD%D0%B0%D0%B4%D0%B5%D0%BB%D0%B0%D0%BB%20%D0%B5%D0%BC%D1%83%20%D0%BD%D0%B0%20%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D1%83",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-bv2-032",
+      "title": "Где моя мама?",
+      "author": "Джулия Дональдсон",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%93%D0%B4%D0%B5%20%D0%BC%D0%BE%D1%8F%20%D0%BC%D0%B0%D0%BC%D0%B0%3F",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-bv2-033",
+      "title": "Улитка и кит",
+      "author": "Джулия Дональдсон",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A3%D0%BB%D0%B8%D1%82%D0%BA%D0%B0%20%D0%B8%20%D0%BA%D0%B8%D1%82",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-bv2-034",
+      "title": "Тюлька",
+      "author": "Джулия Дональдсон",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A2%D1%8E%D0%BB%D1%8C%D0%BA%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-bv2-035",
+      "title": "День, когда я встретил кита",
+      "author": "Бенджи Дэвис",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%94%D0%B5%D0%BD%D1%8C%2C%20%D0%BA%D0%BE%D0%B3%D0%B4%D0%B0%20%D1%8F%20%D0%B2%D1%81%D1%82%D1%80%D0%B5%D1%82%D0%B8%D0%BB%20%D0%BA%D0%B8%D1%82%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-bv2-037",
+      "title": "Квак и Жаб вместе",
+      "author": "Арнольд Лобел",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9A%D0%B2%D0%B0%D0%BA%20%D0%B8%20%D0%96%D0%B0%D0%B1%20%D0%B2%D0%BC%D0%B5%D1%81%D1%82%D0%B5",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-bv2-065",
+      "title": "Мэри Поппинс",
+      "author": "Памела Трэверс",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9C%D1%8D%D1%80%D0%B8%20%D0%9F%D0%BE%D0%BF%D0%BF%D0%B8%D0%BD%D1%81",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-bv2-066",
+      "title": "Стюарт Литл",
+      "author": "Элвин Брукс Уайт",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A1%D1%82%D1%8E%D0%B0%D1%80%D1%82%20%D0%9B%D0%B8%D1%82%D0%BB",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-bv2-067",
+      "title": "Паутина Шарлотты",
+      "author": "Элвин Брукс Уайт",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9F%D0%B0%D1%83%D1%82%D0%B8%D0%BD%D0%B0%20%D0%A8%D0%B0%D1%80%D0%BB%D0%BE%D1%82%D1%82%D1%8B",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-bv2-077",
+      "title": "Дневник Кота-убийцы",
+      "author": "Энн Файн",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%94%D0%BD%D0%B5%D0%B2%D0%BD%D0%B8%D0%BA%20%D0%9A%D0%BE%D1%82%D0%B0-%D1%83%D0%B1%D0%B8%D0%B9%D1%86%D1%8B",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-bv2-081",
+      "title": "Сказки по телефону",
+      "author": "Джанни Родари",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A1%D0%BA%D0%B0%D0%B7%D0%BA%D0%B8%20%D0%BF%D0%BE%20%D1%82%D0%B5%D0%BB%D0%B5%D1%84%D0%BE%D0%BD%D1%83",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-bv2-084",
+      "title": "Голубая бусинка",
+      "author": "Мария Крюгер",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%93%D0%BE%D0%BB%D1%83%D0%B1%D0%B0%D1%8F%20%D0%B1%D1%83%D1%81%D0%B8%D0%BD%D0%BA%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-bv2-086",
+      "title": "Лев, колдунья и платяной шкаф",
+      "author": "Клайв Стейплз Льюис",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9B%D0%B5%D0%B2%2C%20%D0%BA%D0%BE%D0%BB%D0%B4%D1%83%D0%BD%D1%8C%D1%8F%20%D0%B8%20%D0%BF%D0%BB%D0%B0%D1%82%D1%8F%D0%BD%D0%BE%D0%B9%20%D1%88%D0%BA%D0%B0%D1%84",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-bv2-088",
+      "title": "Перси Джексон и Похититель молний",
+      "author": "Рик Риордан",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9F%D0%B5%D1%80%D1%81%D0%B8%20%D0%94%D0%B6%D0%B5%D0%BA%D1%81%D0%BE%D0%BD%20%D0%B8%20%D0%9F%D0%BE%D1%85%D0%B8%D1%82%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%20%D0%BC%D0%BE%D0%BB%D0%BD%D0%B8%D0%B9",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-bv2-090",
+      "title": "История с кладбищем",
+      "author": "Нил Гейман",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F%20%D1%81%20%D0%BA%D0%BB%D0%B0%D0%B4%D0%B1%D0%B8%D1%89%D0%B5%D0%BC",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-bv2-092",
+      "title": "БДВ, или Большой и Добрый Великан",
+      "author": "Роальд Даль",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%91%D0%94%D0%92%2C%20%D0%B8%D0%BB%D0%B8%20%D0%91%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B8%20%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%B0%D0%BD",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-bv2-101",
+      "title": "Бесконечная история",
+      "author": "Михаэль Энде",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%91%D0%B5%D1%81%D0%BA%D0%BE%D0%BD%D0%B5%D1%87%D0%BD%D0%B0%D1%8F%20%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-bv2-105",
+      "title": "Тоби Лолнесс",
+      "author": "Тимоте де Фомбель",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A2%D0%BE%D0%B1%D0%B8%20%D0%9B%D0%BE%D0%BB%D0%BD%D0%B5%D1%81%D1%81",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-bv2-116",
+      "title": "Мальчик со шпагой",
+      "author": "Владислав Крапивин",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9C%D0%B0%D0%BB%D1%8C%D1%87%D0%B8%D0%BA%20%D1%81%D0%BE%20%D1%88%D0%BF%D0%B0%D0%B3%D0%BE%D0%B9",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-bv2-123",
+      "title": "Излом времени",
+      "author": "Мадлен Ленгл",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%98%D0%B7%D0%BB%D0%BE%D0%BC%20%D0%B2%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%B8",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-bv2-125",
+      "title": "Ямы",
+      "author": "Луис Сашар",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%AF%D0%BC%D1%8B",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-bv2-126",
+      "title": "Спасибо Уинн-Дикси",
+      "author": "Кейт ДиКамилло",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A1%D0%BF%D0%B0%D1%81%D0%B8%D0%B1%D0%BE%20%D0%A3%D0%B8%D0%BD%D0%BD-%D0%94%D0%B8%D0%BA%D1%81%D0%B8",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-bv2-127",
+      "title": "Дикий робот",
+      "author": "Питер Браун",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%94%D0%B8%D0%BA%D0%B8%D0%B9%20%D1%80%D0%BE%D0%B1%D0%BE%D1%82",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-bv2-139",
+      "title": "Говори",
+      "author": "Лори Холс Андерсон",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%93%D0%BE%D0%B2%D0%BE%D1%80%D0%B8",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-bv2-140",
+      "title": "Дом, в котором…",
+      "author": "Мариам Петросян",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%94%D0%BE%D0%BC%2C%20%D0%B2%20%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D0%BE%D0%BC%E2%80%A6",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-bv2-141",
+      "title": "Время всегда хорошее",
+      "author": "Андрей Жвалевский; Евгения Пастернак",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%92%D1%80%D0%B5%D0%BC%D1%8F%20%D0%B2%D1%81%D0%B5%D0%B3%D0%B4%D0%B0%20%D1%85%D0%BE%D1%80%D0%BE%D1%88%D0%B5%D0%B5",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-bv2-142",
+      "title": "Я хочу в школу!",
+      "author": "Андрей Жвалевский; Евгения Пастернак",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%AF%20%D1%85%D0%BE%D1%87%D1%83%20%D0%B2%20%D1%88%D0%BA%D0%BE%D0%BB%D1%83!",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-bv2-146",
+      "title": "Поступь хаоса. Нож, которого нет",
+      "author": "Патрик Несс",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9F%D0%BE%D1%81%D1%82%D1%83%D0%BF%D1%8C%20%D1%85%D0%B0%D0%BE%D1%81%D0%B0.%20%D0%9D%D0%BE%D0%B6%2C%20%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D0%BE%D0%B3%D0%BE%20%D0%BD%D0%B5%D1%82",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-bv2-147",
+      "title": "Элеанор и Парк",
+      "author": "Рейнбоу Рауэлл",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%AD%D0%BB%D0%B5%D0%B0%D0%BD%D0%BE%D1%80%20%D0%B8%20%D0%9F%D0%B0%D1%80%D0%BA",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-bv2-148",
+      "title": "Саймон и программа Homo sapiens",
+      "author": "Бекки Алберталли",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A1%D0%B0%D0%B9%D0%BC%D0%BE%D0%BD%20%D0%B8%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0%20Homo%20sapiens",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-bv2-149",
+      "title": "Аристотель и Данте открывают тайны Вселенной",
+      "author": "Бенджамин Алире Саэнс",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%90%D1%80%D0%B8%D1%81%D1%82%D0%BE%D1%82%D0%B5%D0%BB%D1%8C%20%D0%B8%20%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D0%B2%D0%B0%D1%8E%D1%82%20%D1%82%D0%B0%D0%B9%D0%BD%D1%8B%20%D0%92%D1%81%D0%B5%D0%BB%D0%B5%D0%BD%D0%BD%D0%BE%D0%B9",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-bv2-150",
+      "title": "Вся ваша ненависть",
+      "author": "Энджи Томас",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%92%D1%81%D1%8F%20%D0%B2%D0%B0%D1%88%D0%B0%20%D0%BD%D0%B5%D0%BD%D0%B0%D0%B2%D0%B8%D1%81%D1%82%D1%8C",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-bv2-151",
+      "title": "Долгий путь вниз",
+      "author": "Джейсон Рейнольдс",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%94%D0%BE%D0%BB%D0%B3%D0%B8%D0%B9%20%D0%BF%D1%83%D1%82%D1%8C%20%D0%B2%D0%BD%D0%B8%D0%B7",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-bv2-153",
+      "title": "Нимона",
+      "author": "Н. Д. Стивенсон",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9D%D0%B8%D0%BC%D0%BE%D0%BD%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-bv2-156",
+      "title": "Американец китайского происхождения",
+      "author": "Джин Луэн Ян",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%90%D0%BC%D0%B5%D1%80%D0%B8%D0%BA%D0%B0%D0%BD%D0%B5%D1%86%20%D0%BA%D0%B8%D1%82%D0%B0%D0%B9%D1%81%D0%BA%D0%BE%D0%B3%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B8%D1%81%D1%85%D0%BE%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-bv2-159",
+      "title": "Амулет. Хранительница камня",
+      "author": "Кадзу Кибуиси",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%90%D0%BC%D1%83%D0%BB%D0%B5%D1%82.%20%D0%A5%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%B8%D1%86%D0%B0%20%D0%BA%D0%B0%D0%BC%D0%BD%D1%8F",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "nen-bv2-161",
+      "title": "Когда отдыхают ангелы",
+      "author": "Марина Аромштам",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9A%D0%BE%D0%B3%D0%B4%D0%B0%20%D0%BE%D1%82%D0%B4%D1%8B%D1%85%D0%B0%D1%8E%D1%82%20%D0%B0%D0%BD%D0%B3%D0%B5%D0%BB%D1%8B",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol13727592w",
+      "title": "Трям! Здравствуйте!",
+      "author": "Сергей Козлов",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A2%D1%80%D1%8F%D0%BC!%20%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol20015186w",
+      "title": "Все сказки К. Чуковского",
+      "author": "Корней Иванович Чуковский",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%92%D1%81%D0%B5%20%D1%81%D0%BA%D0%B0%D0%B7%D0%BA%D0%B8%20%D0%9A.%20%D0%A7%D1%83%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B3%D0%BE",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol6841991w",
+      "title": "На заре Руси",
+      "author": "Александр Владимирович Костин",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9D%D0%B0%20%D0%B7%D0%B0%D1%80%D0%B5%20%D0%A0%D1%83%D1%81%D0%B8",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol24260394w",
+      "title": "Детки в клетке",
+      "author": "Самуил Маршак",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%94%D0%B5%D1%82%D0%BA%D0%B8%20%D0%B2%20%D0%BA%D0%BB%D0%B5%D1%82%D0%BA%D0%B5",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol19742114w",
+      "title": "Повторение пройденного",
+      "author": "Тамара Крюкова",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9F%D0%BE%D0%B2%D1%82%D0%BE%D1%80%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BF%D1%80%D0%BE%D0%B9%D0%B4%D0%B5%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol12473514w",
+      "title": "Задание особой важности",
+      "author": "Петр Прокофьевич Шамшур",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%BE%D1%81%D0%BE%D0%B1%D0%BE%D0%B9%20%D0%B2%D0%B0%D0%B6%D0%BD%D0%BE%D1%81%D1%82%D0%B8",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol2784137w",
+      "title": "Цыплёнок вечером",
+      "author": "Сергей Козлов",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A6%D1%8B%D0%BF%D0%BB%D1%91%D0%BD%D0%BE%D0%BA%20%D0%B2%D0%B5%D1%87%D0%B5%D1%80%D0%BE%D0%BC",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol13647786w",
+      "title": "Мой дом на колёсах",
+      "author": "Наталья Дурова",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9C%D0%BE%D0%B9%20%D0%B4%D0%BE%D0%BC%20%D0%BD%D0%B0%20%D0%BA%D0%BE%D0%BB%D1%91%D1%81%D0%B0%D1%85",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol13682722w",
+      "title": "Друзья моего детства",
+      "author": "Г. Скребицкий",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%94%D1%80%D1%83%D0%B7%D1%8C%D1%8F%20%D0%BC%D0%BE%D0%B5%D0%B3%D0%BE%20%D0%B4%D0%B5%D1%82%D1%81%D1%82%D0%B2%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol1306145w",
+      "title": "Лесные домишки",
+      "author": "Виталий Бянки",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9B%D0%B5%D1%81%D0%BD%D1%8B%D0%B5%20%D0%B4%D0%BE%D0%BC%D0%B8%D1%88%D0%BA%D0%B8",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol4689213w",
+      "title": "Последний месяц года",
+      "author": "Л. Либединская",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9F%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BD%D0%B8%D0%B9%20%D0%BC%D0%B5%D1%81%D1%8F%D1%86%20%D0%B3%D0%BE%D0%B4%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol19970109w",
+      "title": "Сказки Чудо-дерева",
+      "author": "Валерий Кастрючин",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A1%D0%BA%D0%B0%D0%B7%D0%BA%D0%B8%20%D0%A7%D1%83%D0%B4%D0%BE-%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol19931441w",
+      "title": "Про зверей",
+      "author": "Константин Дмитриевич Ушинский",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9F%D1%80%D0%BE%20%D0%B7%D0%B2%D0%B5%D1%80%D0%B5%D0%B9",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol20030843w",
+      "title": "Как Ёжик с Медвежонком протирали звезды",
+      "author": "С. Г. Козлов",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9A%D0%B0%D0%BA%20%D0%81%D0%B6%D0%B8%D0%BA%20%D1%81%20%D0%9C%D0%B5%D0%B4%D0%B2%D0%B5%D0%B6%D0%BE%D0%BD%D0%BA%D0%BE%D0%BC%20%D0%BF%D1%80%D0%BE%D1%82%D0%B8%D1%80%D0%B0%D0%BB%D0%B8%20%D0%B7%D0%B2%D0%B5%D0%B7%D0%B4%D1%8B",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol12623265w",
+      "title": "Сказки про драконов",
+      "author": "Владимир Бояринов",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A1%D0%BA%D0%B0%D0%B7%D0%BA%D0%B8%20%D0%BF%D1%80%D0%BE%20%D0%B4%D1%80%D0%B0%D0%BA%D0%BE%D0%BD%D0%BE%D0%B2",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol4360095w",
+      "title": "Бюро лесных услуг",
+      "author": "Н. Сладков",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%91%D1%8E%D1%80%D0%BE%20%D0%BB%D0%B5%D1%81%D0%BD%D1%8B%D1%85%20%D1%83%D1%81%D0%BB%D1%83%D0%B3",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol4721004w",
+      "title": "Владимир красное солнышко",
+      "author": "Ф. В. Домбровский",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%20%D0%BA%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D0%B5%20%D1%81%D0%BE%D0%BB%D0%BD%D1%8B%D1%88%D0%BA%D0%BE",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol7078546w",
+      "title": "Я видел Сусанина",
+      "author": "Алексей Федорович Румянцев",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%AF%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BB%20%D0%A1%D1%83%D1%81%D0%B0%D0%BD%D0%B8%D0%BD%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol754911w",
+      "title": "История про кота Игнасия, трубочиста Федю и Одинокую Мышь",
+      "author": "Людмила Улицкая",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F%20%D0%BF%D1%80%D0%BE%20%D0%BA%D0%BE%D1%82%D0%B0%20%D0%98%D0%B3%D0%BD%D0%B0%D1%81%D0%B8%D1%8F%2C%20%D1%82%D1%80%D1%83%D0%B1%D0%BE%D1%87%D0%B8%D1%81%D1%82%D0%B0%20%D0%A4%D0%B5%D0%B4%D1%8E%20%D0%B8%20%D0%9E%D0%B4%D0%B8%D0%BD%D0%BE%D0%BA%D1%83%D1%8E%20%D0%9C%D1%8B%D1%88%D1%8C",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol19978383w",
+      "title": "Охотничьи истории",
+      "author": "Геннадий Снегирёв",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9E%D1%85%D0%BE%D1%82%D0%BD%D0%B8%D1%87%D1%8C%D0%B8%20%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B8",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol19936377w",
+      "title": "Добрый волк",
+      "author": "Марк Тарловский",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B2%D0%BE%D0%BB%D0%BA",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol19935962w",
+      "title": "Тигр в клеточку",
+      "author": "Андрей Усачёв",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A2%D0%B8%D0%B3%D1%80%20%D0%B2%20%D0%BA%D0%BB%D0%B5%D1%82%D0%BE%D1%87%D0%BA%D1%83",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol11388697w",
+      "title": "Морской охотник",
+      "author": "Николай Чуковский",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9C%D0%BE%D1%80%D1%81%D0%BA%D0%BE%D0%B9%20%D0%BE%D1%85%D0%BE%D1%82%D0%BD%D0%B8%D0%BA",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol13727588w",
+      "title": "Как Львёнок и Черепаха пели песню",
+      "author": "Сергей Козлов",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9A%D0%B0%D0%BA%20%D0%9B%D1%8C%D0%B2%D1%91%D0%BD%D0%BE%D0%BA%20%D0%B8%20%D0%A7%D0%B5%D1%80%D0%B5%D0%BF%D0%B0%D1%85%D0%B0%20%D0%BF%D0%B5%D0%BB%D0%B8%20%D0%BF%D0%B5%D1%81%D0%BD%D1%8E",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol4248290w",
+      "title": "Повести",
+      "author": "Валерий Алексеев",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9F%D0%BE%D0%B2%D0%B5%D1%81%D1%82%D0%B8",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol13715036w",
+      "title": "Друг детства",
+      "author": "В. Драгунский",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%94%D1%80%D1%83%D0%B3%20%D0%B4%D0%B5%D1%82%D1%81%D1%82%D0%B2%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol13727593w",
+      "title": "Ёжик в тумане",
+      "author": "Сергей Козлов",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%81%D0%B6%D0%B8%D0%BA%20%D0%B2%20%D1%82%D1%83%D0%BC%D0%B0%D0%BD%D0%B5",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol19952256w",
+      "title": "На нашем дворе",
+      "author": "Евгений Иванович Чарушин",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9D%D0%B0%20%D0%BD%D0%B0%D1%88%D0%B5%D0%BC%20%D0%B4%D0%B2%D0%BE%D1%80%D0%B5",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol20043983w",
+      "title": "Беспризорная кошка",
+      "author": "Борис Житков",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%91%D0%B5%D1%81%D0%BF%D1%80%D0%B8%D0%B7%D0%BE%D1%80%D0%BD%D0%B0%D1%8F%20%D0%BA%D0%BE%D1%88%D0%BA%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol13853930w",
+      "title": "Сказка о волшебном озере",
+      "author": "Вера Сидорова",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A1%D0%BA%D0%B0%D0%B7%D0%BA%D0%B0%20%D0%BE%20%D0%B2%D0%BE%D0%BB%D1%88%D0%B5%D0%B1%D0%BD%D0%BE%D0%BC%20%D0%BE%D0%B7%D0%B5%D1%80%D0%B5",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol32513596w",
+      "title": "Ленинградские сказки",
+      "author": "Юлия Яковлева",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9B%D0%B5%D0%BD%D0%B8%D0%BD%D0%B3%D1%80%D0%B0%D0%B4%D1%81%D0%BA%D0%B8%D0%B5%20%D1%81%D0%BA%D0%B0%D0%B7%D0%BA%D0%B8",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol19978399w",
+      "title": "Все сказочные истории про Чебурашку",
+      "author": "Едуард Успенский",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%92%D1%81%D0%B5%20%D1%81%D0%BA%D0%B0%D0%B7%D0%BE%D1%87%D0%BD%D1%8B%D0%B5%20%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B8%20%D0%BF%D1%80%D0%BE%20%D0%A7%D0%B5%D0%B1%D1%83%D1%80%D0%B0%D1%88%D0%BA%D1%83",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol19931764w",
+      "title": "Всё о больших и маленьких приключениях",
+      "author": "Борис Житков",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%92%D1%81%D1%91%20%D0%BE%20%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%B8%D1%85%20%D0%B8%20%D0%BC%D0%B0%D0%BB%D0%B5%D0%BD%D1%8C%D0%BA%D0%B8%D1%85%20%D0%BF%D1%80%D0%B8%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D1%8F%D1%85",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol19978419w",
+      "title": "Большая собачья книга",
+      "author": "В. Н. Белоусов; М. В. Белоусова",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%91%D0%BE%D0%BB%D1%8C%D1%88%D0%B0%D1%8F%20%D1%81%D0%BE%D0%B1%D0%B0%D1%87%D1%8C%D1%8F%20%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol43308391w",
+      "title": "Недопесок",
+      "author": "Юрий Коваль; Илья Бернштейн; Р. Лейбов; О. А. Лекманов; Евгения Двоскина",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9D%D0%B5%D0%B4%D0%BE%D0%BF%D0%B5%D1%81%D0%BE%D0%BA",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol20043973w",
+      "title": "Скок-поскок",
+      "author": "Ю Васнецов",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A1%D0%BA%D0%BE%D0%BA-%D0%BF%D0%BE%D1%81%D0%BA%D0%BE%D0%BA",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol32966487w",
+      "title": "Первая охота",
+      "author": "Виталий Бянки",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9F%D0%B5%D1%80%D0%B2%D0%B0%D1%8F%20%D0%BE%D1%85%D0%BE%D1%82%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol12719103w",
+      "title": "История одного поросенка",
+      "author": "Юрий Выннычук",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F%20%D0%BE%D0%B4%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%BF%D0%BE%D1%80%D0%BE%D1%81%D0%B5%D0%BD%D0%BA%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol4263283w",
+      "title": "Терем-теремок и другие сказки",
+      "author": "Владимир Сутеев",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A2%D0%B5%D1%80%D0%B5%D0%BC-%D1%82%D0%B5%D1%80%D0%B5%D0%BC%D0%BE%D0%BA%20%D0%B8%20%D0%B4%D1%80%D1%83%D0%B3%D0%B8%D0%B5%20%D1%81%D0%BA%D0%B0%D0%B7%D0%BA%D0%B8",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol13710818w",
+      "title": "Весёлые истории",
+      "author": "Г. Цыферов",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%92%D0%B5%D1%81%D1%91%D0%BB%D1%8B%D0%B5%20%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B8",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol19935924w",
+      "title": "\"Как стать большим\" и другие истории",
+      "author": "Г. Цыферов",
+      "searchUrl": "https://rusneb.ru/search/?q=%22%D0%9A%D0%B0%D0%BA%20%D1%81%D1%82%D0%B0%D1%82%D1%8C%20%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%B8%D0%BC%22%20%D0%B8%20%D0%B4%D1%80%D1%83%D0%B3%D0%B8%D0%B5%20%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B8",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol3803771w",
+      "title": "Хор охотников",
+      "author": "Г. Скребицкий",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A5%D0%BE%D1%80%20%D0%BE%D1%85%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol20004004w",
+      "title": "Сказки",
+      "author": "Константин Дмитриевич Ушинский",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A1%D0%BA%D0%B0%D0%B7%D0%BA%D0%B8",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol4504115w",
+      "title": "Вот она, наша Сибирь!",
+      "author": "Георгий Иванович Кублицкий",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%92%D0%BE%D1%82%20%D0%BE%D0%BD%D0%B0%2C%20%D0%BD%D0%B0%D1%88%D0%B0%20%D0%A1%D0%B8%D0%B1%D0%B8%D1%80%D1%8C!",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol19970113w",
+      "title": "Загадай желание",
+      "author": "Александр Костинский",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%97%D0%B0%D0%B3%D0%B0%D0%B4%D0%B0%D0%B9%20%D0%B6%D0%B5%D0%BB%D0%B0%D0%BD%D0%B8%D0%B5",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol44377549w",
+      "title": "Наверно, я еще маленький",
+      "author": "Ася Петрова",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9D%D0%B0%D0%B2%D0%B5%D1%80%D0%BD%D0%BE%2C%20%D1%8F%20%D0%B5%D1%89%D0%B5%20%D0%BC%D0%B0%D0%BB%D0%B5%D0%BD%D1%8C%D0%BA%D0%B8%D0%B9",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol20043982w",
+      "title": "Папа, мама, и я",
+      "author": "В. Драгунский",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9F%D0%B0%D0%BF%D0%B0%2C%20%D0%BC%D0%B0%D0%BC%D0%B0%2C%20%D0%B8%20%D1%8F",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol19734604w",
+      "title": "Кот в сапогах",
+      "author": "Н. И. Котятова; Т. В. Баринова",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9A%D0%BE%D1%82%20%D0%B2%20%D1%81%D0%B0%D0%BF%D0%BE%D0%B3%D0%B0%D1%85",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol23852447w",
+      "title": "Сказка в русской живописи",
+      "author": "Марина Казиева",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A1%D0%BA%D0%B0%D0%B7%D0%BA%D0%B0%20%D0%B2%20%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%B9%20%D0%B6%D0%B8%D0%B2%D0%BE%D0%BF%D0%B8%D1%81%D0%B8",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol3398755w",
+      "title": "Дельфиний остров",
+      "author": "С. Сахарнов",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%94%D0%B5%D0%BB%D1%8C%D1%84%D0%B8%D0%BD%D0%B8%D0%B9%20%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B2",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol4263274w",
+      "title": "Самые любимые сказки",
+      "author": "Владимир Сутеев",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A1%D0%B0%D0%BC%D1%8B%D0%B5%20%D0%BB%D1%8E%D0%B1%D0%B8%D0%BC%D1%8B%D0%B5%20%D1%81%D0%BA%D0%B0%D0%B7%D0%BA%D0%B8",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol44294375w",
+      "title": "Приключения дяди Лёвы в румынских степях",
+      "author": "Янец Леви; Янив Шимони",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9F%D1%80%D0%B8%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%B4%D1%8F%D0%B4%D0%B8%20%D0%9B%D1%91%D0%B2%D1%8B%20%D0%B2%20%D1%80%D1%83%D0%BC%D1%8B%D0%BD%D1%81%D0%BA%D0%B8%D1%85%20%D1%81%D1%82%D0%B5%D0%BF%D1%8F%D1%85",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol19938773w",
+      "title": "Рассказы о животных",
+      "author": "Михаил Михайлович Пришвин",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A0%D0%B0%D1%81%D1%81%D0%BA%D0%B0%D0%B7%D1%8B%20%D0%BE%20%D0%B6%D0%B8%D0%B2%D0%BE%D1%82%D0%BD%D1%8B%D1%85",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol12849951w",
+      "title": "Визгкультура, или, семейная качалка",
+      "author": "Григорий Остер",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%92%D0%B8%D0%B7%D0%B3%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D1%83%D1%80%D0%B0%2C%20%D0%B8%D0%BB%D0%B8%2C%20%D1%81%D0%B5%D0%BC%D0%B5%D0%B9%D0%BD%D0%B0%D1%8F%20%D0%BA%D0%B0%D1%87%D0%B0%D0%BB%D0%BA%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol1306134w",
+      "title": "Рассказы",
+      "author": "Виталий Бянки",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A0%D0%B0%D1%81%D1%81%D0%BA%D0%B0%D0%B7%D1%8B",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol19938770w",
+      "title": "Весёлая семейка",
+      "author": "Николай Носов",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%92%D0%B5%D1%81%D1%91%D0%BB%D0%B0%D1%8F%20%D1%81%D0%B5%D0%BC%D0%B5%D0%B9%D0%BA%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol20025742w",
+      "title": "Во-первых и во-вторых",
+      "author": "Даниил Хармс",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%92%D0%BE-%D0%BF%D0%B5%D1%80%D0%B2%D1%8B%D1%85%20%D0%B8%20%D0%B2%D0%BE-%D0%B2%D1%82%D0%BE%D1%80%D1%8B%D1%85",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol42201958w",
+      "title": "Ёжик в тумане",
+      "author": "Юрий Норштейн",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%81%D0%B6%D0%B8%D0%BA%20%D0%B2%20%D1%82%D1%83%D0%BC%D0%B0%D0%BD%D0%B5",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol4409959w",
+      "title": "Сто рассказов русской истории",
+      "author": "Сергей Алексеев",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A1%D1%82%D0%BE%20%D1%80%D0%B0%D1%81%D1%81%D0%BA%D0%B0%D0%B7%D0%BE%D0%B2%20%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%B9%20%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B8",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol5531021w",
+      "title": "\"Сверре\" зовет на помощь",
+      "author": "Николай Внуков",
+      "searchUrl": "https://rusneb.ru/search/?q=%22%D0%A1%D0%B2%D0%B5%D1%80%D1%80%D0%B5%22%20%D0%B7%D0%BE%D0%B2%D0%B5%D1%82%20%D0%BD%D0%B0%20%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D1%8C",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol19734610w",
+      "title": "Заюшкина избушка",
+      "author": "Н. И. Котятова; Т. В. Баринова",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%97%D0%B0%D1%8E%D1%88%D0%BA%D0%B8%D0%BD%D0%B0%20%D0%B8%D0%B7%D0%B1%D1%83%D1%88%D0%BA%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol23178263w",
+      "title": "Однажды звери всех мастей",
+      "author": "Михаил Бельчиков",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9E%D0%B4%D0%BD%D0%B0%D0%B6%D0%B4%D1%8B%20%D0%B7%D0%B2%D0%B5%D1%80%D0%B8%20%D0%B2%D1%81%D0%B5%D1%85%20%D0%BC%D0%B0%D1%81%D1%82%D0%B5%D0%B9",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol1306140w",
+      "title": "Тайна ночного леса",
+      "author": "Виталий Бянки",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A2%D0%B0%D0%B9%D0%BD%D0%B0%20%D0%BD%D0%BE%D1%87%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%BB%D0%B5%D1%81%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol33100014w",
+      "title": "Кот Васька",
+      "author": "Борис Александрович Смирнов",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9A%D0%BE%D1%82%20%D0%92%D0%B0%D1%81%D1%8C%D0%BA%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol19978791w",
+      "title": "Прогулки по детскому Петербургу",
+      "author": "Ольга Феофанова",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9F%D1%80%D0%BE%D0%B3%D1%83%D0%BB%D0%BA%D0%B8%20%D0%BF%D0%BE%20%D0%B4%D0%B5%D1%82%D1%81%D0%BA%D0%BE%D0%BC%D1%83%20%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3%D1%83",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol43721004w",
+      "title": "Тайна поповскаго сына",
+      "author": "Федор Зарин",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A2%D0%B0%D0%B9%D0%BD%D0%B0%20%D0%BF%D0%BE%D0%BF%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D0%B3%D0%BE%20%D1%81%D1%8B%D0%BD%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol38929339w",
+      "title": "Позавчера была война",
+      "author": "Юрий Яковлев",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9F%D0%BE%D0%B7%D0%B0%D0%B2%D1%87%D0%B5%D1%80%D0%B0%20%D0%B1%D1%8B%D0%BB%D0%B0%20%D0%B2%D0%BE%D0%B9%D0%BD%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol43489248w",
+      "title": "Кошачья санаторія",
+      "author": "Саша Черный; Федор Рожанковский",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9A%D0%BE%D1%88%D0%B0%D1%87%D1%8C%D1%8F%20%D1%81%D0%B0%D0%BD%D0%B0%D1%82%D0%BE%D1%80%D1%96%D1%8F",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol23679291w",
+      "title": "Рассказы о юных героях",
+      "author": "Б. Р. Акбулатов",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A0%D0%B0%D1%81%D1%81%D0%BA%D0%B0%D0%B7%D1%8B%20%D0%BE%20%D1%8E%D0%BD%D1%8B%D1%85%20%D0%B3%D0%B5%D1%80%D0%BE%D1%8F%D1%85",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol62648w",
+      "title": "Белеет парус одинокий",
+      "author": "Валентин Петрович Катаев",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%91%D0%B5%D0%BB%D0%B5%D0%B5%D1%82%20%D0%BF%D0%B0%D1%80%D1%83%D1%81%20%D0%BE%D0%B4%D0%B8%D0%BD%D0%BE%D0%BA%D0%B8%D0%B9",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol40732659w",
+      "title": "Козлятки и волк",
+      "author": "К. Д. Ушинский",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9A%D0%BE%D0%B7%D0%BB%D1%8F%D1%82%D0%BA%D0%B8%20%D0%B8%20%D0%B2%D0%BE%D0%BB%D0%BA",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol23925164w",
+      "title": "Сказки про хитрую-хитрую рыбу Любу и ведьму Наташу",
+      "author": "Владимир Снарков",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A1%D0%BA%D0%B0%D0%B7%D0%BA%D0%B8%20%D0%BF%D1%80%D0%BE%20%D1%85%D0%B8%D1%82%D1%80%D1%83%D1%8E-%D1%85%D0%B8%D1%82%D1%80%D1%83%D1%8E%20%D1%80%D1%8B%D0%B1%D1%83%20%D0%9B%D1%8E%D0%B1%D1%83%20%D0%B8%20%D0%B2%D0%B5%D0%B4%D1%8C%D0%BC%D1%83%20%D0%9D%D0%B0%D1%82%D0%B0%D1%88%D1%83",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol10337735w",
+      "title": "Сказки",
+      "author": "Корней Иванович Чуковский",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A1%D0%BA%D0%B0%D0%B7%D0%BA%D0%B8",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol10337729w",
+      "title": "Приключения Бибигона",
+      "author": "Корней Иванович Чуковский",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9F%D1%80%D0%B8%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%91%D0%B8%D0%B1%D0%B8%D0%B3%D0%BE%D0%BD%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol19734609w",
+      "title": "Волк и козлята",
+      "author": "Н. И. Котятова; Т. В. Баринова",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%92%D0%BE%D0%BB%D0%BA%20%D0%B8%20%D0%BA%D0%BE%D0%B7%D0%BB%D1%8F%D1%82%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol11483415w",
+      "title": "История про воробья Антверпена, кота Михеева, столетника Васю и сороконожку Марью Семеновну с семьей",
+      "author": "Людмила Улицкая",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F%20%D0%BF%D1%80%D0%BE%20%D0%B2%D0%BE%D1%80%D0%BE%D0%B1%D1%8C%D1%8F%20%D0%90%D0%BD%D1%82%D0%B2%D0%B5%D1%80%D0%BF%D0%B5%D0%BD%D0%B0%2C%20%D0%BA%D0%BE%D1%82%D0%B0%20%D0%9C%D0%B8%D1%85%D0%B5%D0%B5%D0%B2%D0%B0%2C%20%D1%81%D1%82%D0%BE%D0%BB%D0%B5%D1%82%D0%BD%D0%B8%D0%BA%D0%B0%20%D0%92%D0%B0%D1%81%D1%8E%20%D0%B8%20%D1%81%D0%BE%D1%80%D0%BE%D0%BA%D0%BE%D0%BD%D0%BE%D0%B6%D0%BA%D1%83%20%D0%9C%D0%B0%D1%80%D1%8C%D1%8E%20%D0%A1%D0%B5%D0%BC%D0%B5%D0%BD%D0%BE%D0%B2%D0%BD%D1%83%20%D1%81%20%D1%81%D0%B5%D0%BC%D1%8C%D0%B5%D0%B9",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol623471w",
+      "title": "Сказка о золотом петушке",
+      "author": "Александр Сергеевич Пушкин",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A1%D0%BA%D0%B0%D0%B7%D0%BA%D0%B0%20%D0%BE%20%D0%B7%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%BC%20%D0%BF%D0%B5%D1%82%D1%83%D1%88%D0%BA%D0%B5",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol12866329w",
+      "title": "Воздушные рыбки",
+      "author": "Марина Дяченко",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%92%D0%BE%D0%B7%D0%B4%D1%83%D1%88%D0%BD%D1%8B%D0%B5%20%D1%80%D1%8B%D0%B1%D0%BA%D0%B8",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol45421072w",
+      "title": "Сказки старого Тыма",
+      "author": "В. Пухначев",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A1%D0%BA%D0%B0%D0%B7%D0%BA%D0%B8%20%D1%81%D1%82%D0%B0%D1%80%D0%BE%D0%B3%D0%BE%20%D0%A2%D1%8B%D0%BC%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol623358w",
+      "title": "Сказка о царе Салтане, о сыне его славном и могучем богатере князе Гвидоне Салтановиче и о прекрасной царевне Лебеди",
+      "author": "Александр Сергеевич Пушкин",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A1%D0%BA%D0%B0%D0%B7%D0%BA%D0%B0%20%D0%BE%20%D1%86%D0%B0%D1%80%D0%B5%20%D0%A1%D0%B0%D0%BB%D1%82%D0%B0%D0%BD%D0%B5%2C%20%D0%BE%20%D1%81%D1%8B%D0%BD%D0%B5%20%D0%B5%D0%B3%D0%BE%20%D1%81%D0%BB%D0%B0%D0%B2%D0%BD%D0%BE%D0%BC%20%D0%B8%20%D0%BC%D0%BE%D0%B3%D1%83%D1%87%D0%B5%D0%BC%20%D0%B1%D0%BE%D0%B3%D0%B0%D1%82%D0%B5%D1%80%D0%B5%20%D0%BA%D0%BD%D1%8F%D0%B7%D0%B5%20%D0%93%D0%B2%D0%B8%D0%B4%D0%BE%D0%BD%D0%B5%20%D0%A1%D0%B0%D0%BB%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87%D0%B5%20%D0%B8%20%D0%BE%20%D0%BF%D1%80%D0%B5%D0%BA%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D0%B9%20%D1%86%D0%B0%D1%80%D0%B5%D0%B2%D0%BD%D0%B5%20%D0%9B%D0%B5%D0%B1%D0%B5%D0%B4%D0%B8",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol39000655w",
+      "title": "Письмо от гнома Сказкина",
+      "author": "Това Хершковитз",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9F%D0%B8%D1%81%D1%8C%D0%BC%D0%BE%20%D0%BE%D1%82%20%D0%B3%D0%BD%D0%BE%D0%BC%D0%B0%20%D0%A1%D0%BA%D0%B0%D0%B7%D0%BA%D0%B8%D0%BD%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol23311994w",
+      "title": "Солнечный зайчик",
+      "author": "Ирина Белая",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A1%D0%BE%D0%BB%D0%BD%D0%B5%D1%87%D0%BD%D1%8B%D0%B9%20%D0%B7%D0%B0%D0%B9%D1%87%D0%B8%D0%BA",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol31578033w",
+      "title": "Домовёнок Фока и его друзья",
+      "author": "Андрей Васильевич Растворцев",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%94%D0%BE%D0%BC%D0%BE%D0%B2%D1%91%D0%BD%D0%BE%D0%BA%20%D0%A4%D0%BE%D0%BA%D0%B0%20%D0%B8%20%D0%B5%D0%B3%D0%BE%20%D0%B4%D1%80%D1%83%D0%B7%D1%8C%D1%8F",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol33083556w",
+      "title": "Сказка о золотом пиетушкие",
+      "author": "Александр Сергеевич Пушкин",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A1%D0%BA%D0%B0%D0%B7%D0%BA%D0%B0%20%D0%BE%20%D0%B7%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%BC%20%D0%BF%D0%B8%D0%B5%D1%82%D1%83%D1%88%D0%BA%D0%B8%D0%B5",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol13736457w",
+      "title": "Новая сказка",
+      "author": "Дмитрий Цветков",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9D%D0%BE%D0%B2%D0%B0%D1%8F%20%D1%81%D0%BA%D0%B0%D0%B7%D0%BA%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol45039050w",
+      "title": "Сказки, песни, загадки",
+      "author": "Самуил Маршак; Владимир Васильевич Лебедев",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A1%D0%BA%D0%B0%D0%B7%D0%BA%D0%B8%2C%20%D0%BF%D0%B5%D1%81%D0%BD%D0%B8%2C%20%D0%B7%D0%B0%D0%B3%D0%B0%D0%B4%D0%BA%D0%B8",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol19952284w",
+      "title": "Любимые стихи и сказки",
+      "author": "Борис Акимович Акулиничев",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9B%D1%8E%D0%B1%D0%B8%D0%BC%D1%8B%D0%B5%20%D1%81%D1%82%D0%B8%D1%85%D0%B8%20%D0%B8%20%D1%81%D0%BA%D0%B0%D0%B7%D0%BA%D0%B8",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol2140895w",
+      "title": "Стихи и сказки",
+      "author": "Борис Владимирович Заходер",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A1%D1%82%D0%B8%D1%85%D0%B8%20%D0%B8%20%D1%81%D0%BA%D0%B0%D0%B7%D0%BA%D0%B8",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol20044016w",
+      "title": "Песенки, стихи, загадки",
+      "author": "Л. М. Карпенко",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9F%D0%B5%D1%81%D0%B5%D0%BD%D0%BA%D0%B8%2C%20%D1%81%D1%82%D0%B8%D1%85%D0%B8%2C%20%D0%B7%D0%B0%D0%B3%D0%B0%D0%B4%D0%BA%D0%B8",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol20058937w",
+      "title": "Русская пленница французского кота",
+      "author": "Игорь Жуков",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B0%D1%8F%20%D0%BF%D0%BB%D0%B5%D0%BD%D0%BD%D0%B8%D1%86%D0%B0%20%D1%84%D1%80%D0%B0%D0%BD%D1%86%D1%83%D0%B7%D1%81%D0%BA%D0%BE%D0%B3%D0%BE%20%D0%BA%D0%BE%D1%82%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol19973701w",
+      "title": "Приключения Васи Куролесова",
+      "author": "Юрий Коваль",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9F%D1%80%D0%B8%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%92%D0%B0%D1%81%D0%B8%20%D0%9A%D1%83%D1%80%D0%BE%D0%BB%D0%B5%D1%81%D0%BE%D0%B2%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol13682862w",
+      "title": "Детский музыкальный фольклор Рязанской области",
+      "author": "Н. Н. Гилярова",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%94%D0%B5%D1%82%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BC%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D1%84%D0%BE%D0%BB%D1%8C%D0%BA%D0%BB%D0%BE%D1%80%20%D0%A0%D1%8F%D0%B7%D0%B0%D0%BD%D1%81%D0%BA%D0%BE%D0%B9%20%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D0%B8",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol11130081w",
+      "title": "Волшебное кольцо",
+      "author": "Андрей Платонович Платонов",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%92%D0%BE%D0%BB%D1%88%D0%B5%D0%B1%D0%BD%D0%BE%D0%B5%20%D0%BA%D0%BE%D0%BB%D1%8C%D1%86%D0%BE",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol19940727w",
+      "title": "Ничуть не страшно и другие сказки",
+      "author": "Л. Кириллов; Мария Рудаченко",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9D%D0%B8%D1%87%D1%83%D1%82%D1%8C%20%D0%BD%D0%B5%20%D1%81%D1%82%D1%80%D0%B0%D1%88%D0%BD%D0%BE%20%D0%B8%20%D0%B4%D1%80%D1%83%D0%B3%D0%B8%D0%B5%20%D1%81%D0%BA%D0%B0%D0%B7%D0%BA%D0%B8",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol33559636w",
+      "title": "Веселый вечер",
+      "author": "С. Колосова; С. Садомская",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%92%D0%B5%D1%81%D0%B5%D0%BB%D1%8B%D0%B9%20%D0%B2%D0%B5%D1%87%D0%B5%D1%80",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol6080944w",
+      "title": "Похищение продавца приключений",
+      "author": "Г. М. Садовников",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9F%D0%BE%D1%85%D0%B8%D1%89%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B2%D1%86%D0%B0%20%D0%BF%D1%80%D0%B8%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D0%B9",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol19935840w",
+      "title": "Хрестоматия детской классики",
+      "author": "В. Рябченко",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A5%D1%80%D0%B5%D1%81%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D1%8F%20%D0%B4%D0%B5%D1%82%D1%81%D0%BA%D0%BE%D0%B9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA%D0%B8",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol19938743w",
+      "title": "Петр Чайковский, или, Волшебное перо",
+      "author": "Борис Евсеев",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9F%D0%B5%D1%82%D1%80%20%D0%A7%D0%B0%D0%B9%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9%2C%20%D0%B8%D0%BB%D0%B8%2C%20%D0%92%D0%BE%D0%BB%D1%88%D0%B5%D0%B1%D0%BD%D0%BE%D0%B5%20%D0%BF%D0%B5%D1%80%D0%BE",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol11630364w",
+      "title": "Необыкновенные приключения школьника Бобки, который изобрёл летающий стул",
+      "author": "Сергей Макаров",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9D%D0%B5%D0%BE%D0%B1%D1%8B%D0%BA%D0%BD%D0%BE%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%BF%D1%80%D0%B8%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D1%8F%20%D1%88%D0%BA%D0%BE%D0%BB%D1%8C%D0%BD%D0%B8%D0%BA%D0%B0%20%D0%91%D0%BE%D0%B1%D0%BA%D0%B8%2C%20%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D1%8B%D0%B9%20%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D1%91%D0%BB%20%D0%BB%D0%B5%D1%82%D0%B0%D1%8E%D1%89%D0%B8%D0%B9%20%D1%81%D1%82%D1%83%D0%BB",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol33286452w",
+      "title": "Сказки",
+      "author": "Александр Сергеевич Пушкин",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A1%D0%BA%D0%B0%D0%B7%D0%BA%D0%B8",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol20030854w",
+      "title": "Волк и козлята",
+      "author": "А. Н. Афанасьев",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%92%D0%BE%D0%BB%D0%BA%20%D0%B8%20%D0%BA%D0%BE%D0%B7%D0%BB%D1%8F%D1%82%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol19987358w",
+      "title": "Сказки про Крокодила Гену, Чебурашку и их друзей",
+      "author": "Едуард Успенский",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A1%D0%BA%D0%B0%D0%B7%D0%BA%D0%B8%20%D0%BF%D1%80%D0%BE%20%D0%9A%D1%80%D0%BE%D0%BA%D0%BE%D0%B4%D0%B8%D0%BB%D0%B0%20%D0%93%D0%B5%D0%BD%D1%83%2C%20%D0%A7%D0%B5%D0%B1%D1%83%D1%80%D0%B0%D1%88%D0%BA%D1%83%20%D0%B8%20%D0%B8%D1%85%20%D0%B4%D1%80%D1%83%D0%B7%D0%B5%D0%B9",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol24010186w",
+      "title": "Легенды, были и сказки Крыма для детей",
+      "author": "Е. В. Белоусов",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9B%D0%B5%D0%B3%D0%B5%D0%BD%D0%B4%D1%8B%2C%20%D0%B1%D1%8B%D0%BB%D0%B8%20%D0%B8%20%D1%81%D0%BA%D0%B0%D0%B7%D0%BA%D0%B8%20%D0%9A%D1%80%D1%8B%D0%BC%D0%B0%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%B5%D1%82%D0%B5%D0%B9",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol18162861w",
+      "title": "Марья Моревна",
+      "author": "Иван Яковлевич Билибин",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9C%D0%B0%D1%80%D1%8C%D1%8F%20%D0%9C%D0%BE%D1%80%D0%B5%D0%B2%D0%BD%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol13710817w",
+      "title": "Сказки старинного города",
+      "author": "Г. Цыферов",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A1%D0%BA%D0%B0%D0%B7%D0%BA%D0%B8%20%D1%81%D1%82%D0%B0%D1%80%D0%B8%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol38428812w",
+      "title": "За волшебным словом",
+      "author": "С. Липеровская",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%97%D0%B0%20%D0%B2%D0%BE%D0%BB%D1%88%D0%B5%D0%B1%D0%BD%D1%8B%D0%BC%20%D1%81%D0%BB%D0%BE%D0%B2%D0%BE%D0%BC",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol12917933w",
+      "title": "Поющее дерево",
+      "author": "Леонид Яхнин",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9F%D0%BE%D1%8E%D1%89%D0%B5%D0%B5%20%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BE",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol1897363w",
+      "title": "Весёлое путешествие от А до Я",
+      "author": "Самуил Маршак",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%92%D0%B5%D1%81%D1%91%D0%BB%D0%BE%D0%B5%20%D0%BF%D1%83%D1%82%D0%B5%D1%88%D0%B5%D1%81%D1%82%D0%B2%D0%B8%D0%B5%20%D0%BE%D1%82%20%D0%90%20%D0%B4%D0%BE%20%D0%AF",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol11764672w",
+      "title": "Волшебная Ханукия",
+      "author": "Хава-Броха Корзакова",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%92%D0%BE%D0%BB%D1%88%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F%20%D0%A5%D0%B0%D0%BD%D1%83%D0%BA%D0%B8%D1%8F",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol45531935w",
+      "title": "Тихая сказка",
+      "author": "Самуил Маршак; Владимир Васильевич Лебедев",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A2%D0%B8%D1%85%D0%B0%D1%8F%20%D1%81%D0%BA%D0%B0%D0%B7%D0%BA%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol19742113w",
+      "title": "Весёлый двоечник",
+      "author": "Валентин Постников",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%92%D0%B5%D1%81%D1%91%D0%BB%D1%8B%D0%B9%20%D0%B4%D0%B2%D0%BE%D0%B5%D1%87%D0%BD%D0%B8%D0%BA",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol20044018w",
+      "title": "Русские загадки и сказки о животных",
+      "author": "М. Ф. Коршунова",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B5%20%D0%B7%D0%B0%D0%B3%D0%B0%D0%B4%D0%BA%D0%B8%20%D0%B8%20%D1%81%D0%BA%D0%B0%D0%B7%D0%BA%D0%B8%20%D0%BE%20%D0%B6%D0%B8%D0%B2%D0%BE%D1%82%D0%BD%D1%8B%D1%85",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol19931589w",
+      "title": "Сказки о Ёжике и Медвежонке",
+      "author": "Сергей Козлов",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A1%D0%BA%D0%B0%D0%B7%D0%BA%D0%B8%20%D0%BE%20%D0%81%D0%B6%D0%B8%D0%BA%D0%B5%20%D0%B8%20%D0%9C%D0%B5%D0%B4%D0%B2%D0%B5%D0%B6%D0%BE%D0%BD%D0%BA%D0%B5",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol19734608w",
+      "title": "Три медведя",
+      "author": "Н. И. Котятова; Т. В. Баринова",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A2%D1%80%D0%B8%20%D0%BC%D0%B5%D0%B4%D0%B2%D0%B5%D0%B4%D1%8F",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol10339221w",
+      "title": "Три поросёнка; Трусохвостик; Одноглазый дрозд; Праздник непослушаня; Лесная Академия",
+      "author": "Сергей Владимирович Михалков",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A2%D1%80%D0%B8%20%D0%BF%D0%BE%D1%80%D0%BE%D1%81%D1%91%D0%BD%D0%BA%D0%B0%3B%20%D0%A2%D1%80%D1%83%D1%81%D0%BE%D1%85%D0%B2%D0%BE%D1%81%D1%82%D0%B8%D0%BA%3B%20%D0%9E%D0%B4%D0%BD%D0%BE%D0%B3%D0%BB%D0%B0%D0%B7%D1%8B%D0%B9%20%D0%B4%D1%80%D0%BE%D0%B7%D0%B4%3B%20%D0%9F%D1%80%D0%B0%D0%B7%D0%B4%D0%BD%D0%B8%D0%BA%20%D0%BD%D0%B5%D0%BF%D0%BE%D1%81%D0%BB%D1%83%D1%88%D0%B0%D0%BD%D1%8F%3B%20%D0%9B%D0%B5%D1%81%D0%BD%D0%B0%D1%8F%20%D0%90%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D0%B8%D1%8F",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol33563571w",
+      "title": "Под удиельною властью",
+      "author": "Г. Т. Полилов-Сиеверцев",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9F%D0%BE%D0%B4%20%D1%83%D0%B4%D0%B8%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%8E%20%D0%B2%D0%BB%D0%B0%D1%81%D1%82%D1%8C%D1%8E",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol623482w",
+      "title": "Сказка о рыбаке и рыбке",
+      "author": "Александр Сергеевич Пушкин",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A1%D0%BA%D0%B0%D0%B7%D0%BA%D0%B0%20%D0%BE%20%D1%80%D1%8B%D0%B1%D0%B0%D0%BA%D0%B5%20%D0%B8%20%D1%80%D1%8B%D0%B1%D0%BA%D0%B5",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol33497304w",
+      "title": "Сказка о царе Салтане",
+      "author": "Александр Сергеевич Пушкин",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A1%D0%BA%D0%B0%D0%B7%D0%BA%D0%B0%20%D0%BE%20%D1%86%D0%B0%D1%80%D0%B5%20%D0%A1%D0%B0%D0%BB%D1%82%D0%B0%D0%BD%D0%B5",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol5787637w",
+      "title": "Тайна зловещего сговора",
+      "author": "Антон Иванов",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A2%D0%B0%D0%B9%D0%BD%D0%B0%20%D0%B7%D0%BB%D0%BE%D0%B2%D0%B5%D1%89%D0%B5%D0%B3%D0%BE%20%D1%81%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol32094509w",
+      "title": "Фейныя сказки",
+      "author": "Константин Дмитриевич Бальмонт",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A4%D0%B5%D0%B9%D0%BD%D1%8B%D1%8F%20%D1%81%D0%BA%D0%B0%D0%B7%D0%BA%D0%B8",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol19747024w",
+      "title": "Все сказки и стихи для детского сада",
+      "author": "З. Александрова; Александр Сергеевич Пушкин",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%92%D1%81%D0%B5%20%D1%81%D0%BA%D0%B0%D0%B7%D0%BA%D0%B8%20%D0%B8%20%D1%81%D1%82%D0%B8%D1%85%D0%B8%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%B5%D1%82%D1%81%D0%BA%D0%BE%D0%B3%D0%BE%20%D1%81%D0%B0%D0%B4%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol44383671w",
+      "title": "Приключения носорога Солнышко",
+      "author": "Татьяна Соловьева",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9F%D1%80%D0%B8%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%BD%D0%BE%D1%81%D0%BE%D1%80%D0%BE%D0%B3%D0%B0%20%D0%A1%D0%BE%D0%BB%D0%BD%D1%8B%D1%88%D0%BA%D0%BE",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol7248302w",
+      "title": "Рассказы о русских художниках",
+      "author": "Надежда Сергеевна Шер",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A0%D0%B0%D1%81%D1%81%D0%BA%D0%B0%D0%B7%D1%8B%20%D0%BE%20%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D1%85%20%D1%85%D1%83%D0%B4%D0%BE%D0%B6%D0%BD%D0%B8%D0%BA%D0%B0%D1%85",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol2189766w",
+      "title": "Рассказы, сказки, повести",
+      "author": "Николай Носов",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A0%D0%B0%D1%81%D1%81%D0%BA%D0%B0%D0%B7%D1%8B%2C%20%D1%81%D0%BA%D0%B0%D0%B7%D0%BA%D0%B8%2C%20%D0%BF%D0%BE%D0%B2%D0%B5%D1%81%D1%82%D0%B8",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol19940427w",
+      "title": "Котёнок по имени Гав",
+      "author": "Григорий Остер",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9A%D0%BE%D1%82%D1%91%D0%BD%D0%BE%D0%BA%20%D0%BF%D0%BE%20%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8%20%D0%93%D0%B0%D0%B2",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol19978428w",
+      "title": "Лучшие сказки на ночь",
+      "author": "Л. Сидорова",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9B%D1%83%D1%87%D1%88%D0%B8%D0%B5%20%D1%81%D0%BA%D0%B0%D0%B7%D0%BA%D0%B8%20%D0%BD%D0%B0%20%D0%BD%D0%BE%D1%87%D1%8C",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol42821653w",
+      "title": "Сказки, легенды, предания",
+      "author": "Е. И. Фадеева",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A1%D0%BA%D0%B0%D0%B7%D0%BA%D0%B8%2C%20%D0%BB%D0%B5%D0%B3%D0%B5%D0%BD%D0%B4%D1%8B%2C%20%D0%BF%D1%80%D0%B5%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol669163w",
+      "title": "Королева пиратов на планете сказок",
+      "author": "К. Булычев",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9A%D0%BE%D1%80%D0%BE%D0%BB%D0%B5%D0%B2%D0%B0%20%D0%BF%D0%B8%D1%80%D0%B0%D1%82%D0%BE%D0%B2%20%D0%BD%D0%B0%20%D0%BF%D0%BB%D0%B0%D0%BD%D0%B5%D1%82%D0%B5%20%D1%81%D0%BA%D0%B0%D0%B7%D0%BE%D0%BA",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol4392595w",
+      "title": "Полынные сказки",
+      "author": "Юрий Коваль",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9F%D0%BE%D0%BB%D1%8B%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D0%BA%D0%B0%D0%B7%D0%BA%D0%B8",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol43971155w",
+      "title": "Сказки Матушки Гусыни",
+      "author": "Ирина Явчуновская",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A1%D0%BA%D0%B0%D0%B7%D0%BA%D0%B8%20%D0%9C%D0%B0%D1%82%D1%83%D1%88%D0%BA%D0%B8%20%D0%93%D1%83%D1%81%D1%8B%D0%BD%D0%B8",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol2256574w",
+      "title": "Волшебное кольцо",
+      "author": "Борис Шергин",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%92%D0%BE%D0%BB%D1%88%D0%B5%D0%B1%D0%BD%D0%BE%D0%B5%20%D0%BA%D0%BE%D0%BB%D1%8C%D1%86%D0%BE",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol5997389w",
+      "title": "Блохнесское чудовище, или, Жизнь и приключения милиционера Караваева",
+      "author": "Марина Москвина",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%91%D0%BB%D0%BE%D1%85%D0%BD%D0%B5%D1%81%D1%81%D0%BA%D0%BE%D0%B5%20%D1%87%D1%83%D0%B4%D0%BE%D0%B2%D0%B8%D1%89%D0%B5%2C%20%D0%B8%D0%BB%D0%B8%2C%20%D0%96%D0%B8%D0%B7%D0%BD%D1%8C%20%D0%B8%20%D0%BF%D1%80%D0%B8%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%BC%D0%B8%D0%BB%D0%B8%D1%86%D0%B8%D0%BE%D0%BD%D0%B5%D1%80%D0%B0%20%D0%9A%D0%B0%D1%80%D0%B0%D0%B2%D0%B0%D0%B5%D0%B2%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol13748004w",
+      "title": "Новые приключения Незнайки",
+      "author": "Игорь Носов",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9D%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%BF%D1%80%D0%B8%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%9D%D0%B5%D0%B7%D0%BD%D0%B0%D0%B9%D0%BA%D0%B8",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol13363741w",
+      "title": "Мореплавание Солнышкина",
+      "author": "Виталий Коржиков",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9C%D0%BE%D1%80%D0%B5%D0%BF%D0%BB%D0%B0%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%A1%D0%BE%D0%BB%D0%BD%D1%8B%D1%88%D0%BA%D0%B8%D0%BD%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol32843984w",
+      "title": "Сказки Ф. Гауфа, Р. Густафсона, повести В. Гауфа, басни И. Хемницера, баллады В. А. Жуковского, стихи М. Ю. Лермонтова в иллюстрациях Дмитрия Митрохина",
+      "author": "Дмитрий Исидорович Митрохин",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A1%D0%BA%D0%B0%D0%B7%D0%BA%D0%B8%20%D0%A4.%20%D0%93%D0%B0%D1%83%D1%84%D0%B0%2C%20%D0%A0.%20%D0%93%D1%83%D1%81%D1%82%D0%B0%D1%84%D1%81%D0%BE%D0%BD%D0%B0%2C%20%D0%BF%D0%BE%D0%B2%D0%B5%D1%81%D1%82%D0%B8%20%D0%92.%20%D0%93%D0%B0%D1%83%D1%84%D0%B0%2C%20%D0%B1%D0%B0%D1%81%D0%BD%D0%B8%20%D0%98.%20%D0%A5%D0%B5%D0%BC%D0%BD%D0%B8%D1%86%D0%B5%D1%80%D0%B0%2C%20%D0%B1%D0%B0%D0%BB%D0%BB%D0%B0%D0%B4%D1%8B%20%D0%92.%20%D0%90.%20%D0%96%D1%83%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B3%D0%BE%2C%20%D1%81%D1%82%D0%B8%D1%85%D0%B8%20%D0%9C.%20%D0%AE.%20%D0%9B%D0%B5%D1%80%D0%BC%D0%BE%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%20%D0%B2%20%D0%B8%D0%BB%D0%BB%D1%8E%D1%81%D1%82%D1%80%D0%B0%D1%86%D0%B8%D1%8F%D1%85%20%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D1%8F%20%D0%9C%D0%B8%D1%82%D1%80%D0%BE%D1%85%D0%B8%D0%BD%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol865257w",
+      "title": "Стихи, сказки, занимательные истории",
+      "author": "Даниил Хармс",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A1%D1%82%D0%B8%D1%85%D0%B8%2C%20%D1%81%D0%BA%D0%B0%D0%B7%D0%BA%D0%B8%2C%20%D0%B7%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5%20%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B8",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol19972711w",
+      "title": "Где папа?",
+      "author": "юлия Кузнецова",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%93%D0%B4%D0%B5%20%D0%BF%D0%B0%D0%BF%D0%B0%3F",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol19944755w",
+      "title": "Русские сказки и потешки",
+      "author": "Ирина Петелина",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B5%20%D1%81%D0%BA%D0%B0%D0%B7%D0%BA%D0%B8%20%D0%B8%20%D0%BF%D0%BE%D1%82%D0%B5%D1%88%D0%BA%D0%B8",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol44820250w",
+      "title": "Чеченские и ингушские народные сказки",
+      "author": "Мусбек Кибиев; А. О. Мальсагов",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A7%D0%B5%D1%87%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B5%20%D0%B8%20%D0%B8%D0%BD%D0%B3%D1%83%D1%88%D1%81%D0%BA%D0%B8%D0%B5%20%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D1%8B%D0%B5%20%D1%81%D0%BA%D0%B0%D0%B7%D0%BA%D0%B8",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol6007209w",
+      "title": "Повествование о чувашах",
+      "author": "Елена Енькка",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9F%D0%BE%D0%B2%D0%B5%D1%81%D1%82%D0%B2%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%BE%20%D1%87%D1%83%D0%B2%D0%B0%D1%88%D0%B0%D1%85",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol12951162w",
+      "title": "Приключения Старого Башмака, рассказанные им самим",
+      "author": "Георгий Балл",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9F%D1%80%D0%B8%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%A1%D1%82%D0%B0%D1%80%D0%BE%D0%B3%D0%BE%20%D0%91%D0%B0%D1%88%D0%BC%D0%B0%D0%BA%D0%B0%2C%20%D1%80%D0%B0%D1%81%D1%81%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%B8%D0%BC%20%D1%81%D0%B0%D0%BC%D0%B8%D0%BC",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol10339227w",
+      "title": "Три поросёнка",
+      "author": "Сергей Владимирович Михалков",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A2%D1%80%D0%B8%20%D0%BF%D0%BE%D1%80%D0%BE%D1%81%D1%91%D0%BD%D0%BA%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol39493108w",
+      "title": "История про Мишу, Даню и бумажного змея",
+      "author": "Светлана Шенбрунн",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F%20%D0%BF%D1%80%D0%BE%20%D0%9C%D0%B8%D1%88%D1%83%2C%20%D0%94%D0%B0%D0%BD%D1%8E%20%D0%B8%20%D0%B1%D1%83%D0%BC%D0%B0%D0%B6%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%B7%D0%BC%D0%B5%D1%8F",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol13735521w",
+      "title": "Легенды Средневековья",
+      "author": "Н. Гарская",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9B%D0%B5%D0%B3%D0%B5%D0%BD%D0%B4%D1%8B%20%D0%A1%D1%80%D0%B5%D0%B4%D0%BD%D0%B5%D0%B2%D0%B5%D0%BA%D0%BE%D0%B2%D1%8C%D1%8F",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol43509234w",
+      "title": "Мартин не плачет",
+      "author": "Линор Горалик",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9C%D0%B0%D1%80%D1%82%D0%B8%D0%BD%20%D0%BD%D0%B5%20%D0%BF%D0%BB%D0%B0%D1%87%D0%B5%D1%82",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol20015192w",
+      "title": "Три поросенка",
+      "author": "Е. Смирнова",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A2%D1%80%D0%B8%20%D0%BF%D0%BE%D1%80%D0%BE%D1%81%D0%B5%D0%BD%D0%BA%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol13714296w",
+      "title": "Петя и Потап",
+      "author": "В. Чижиков",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9F%D0%B5%D1%82%D1%8F%20%D0%B8%20%D0%9F%D0%BE%D1%82%D0%B0%D0%BF",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol11225343w",
+      "title": "Поросёнок Пётр едет в гости",
+      "author": "Людмила Стефановна Петрушевская",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9F%D0%BE%D1%80%D0%BE%D1%81%D1%91%D0%BD%D0%BE%D0%BA%20%D0%9F%D1%91%D1%82%D1%80%20%D0%B5%D0%B4%D0%B5%D1%82%20%D0%B2%20%D0%B3%D0%BE%D1%81%D1%82%D0%B8",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol754910w",
+      "title": "История о старике Кулебякине, плаксивой кобыле Миле и жеребенке Равкине",
+      "author": "Людмила Улицкая",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F%20%D0%BE%20%D1%81%D1%82%D0%B0%D1%80%D0%B8%D0%BA%D0%B5%20%D0%9A%D1%83%D0%BB%D0%B5%D0%B1%D1%8F%D0%BA%D0%B8%D0%BD%D0%B5%2C%20%D0%BF%D0%BB%D0%B0%D0%BA%D1%81%D0%B8%D0%B2%D0%BE%D0%B9%20%D0%BA%D0%BE%D0%B1%D1%8B%D0%BB%D0%B5%20%D0%9C%D0%B8%D0%BB%D0%B5%20%D0%B8%20%D0%B6%D0%B5%D1%80%D0%B5%D0%B1%D0%B5%D0%BD%D0%BA%D0%B5%20%D0%A0%D0%B0%D0%B2%D0%BA%D0%B8%D0%BD%D0%B5",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol35588586w",
+      "title": "Мифы Древнего Казахстана",
+      "author": "Орынбай Жанайдаров",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9C%D0%B8%D1%84%D1%8B%20%D0%94%D1%80%D0%B5%D0%B2%D0%BD%D0%B5%D0%B3%D0%BE%20%D0%9A%D0%B0%D0%B7%D0%B0%D1%85%D1%81%D1%82%D0%B0%D0%BD%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol1249152w",
+      "title": "Малахитовая шкатулка",
+      "author": "Павел Бажов",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9C%D0%B0%D0%BB%D0%B0%D1%85%D0%B8%D1%82%D0%BE%D0%B2%D0%B0%D1%8F%20%D1%88%D0%BA%D0%B0%D1%82%D1%83%D0%BB%D0%BA%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol19978354w",
+      "title": "Книга для чтения детям до трех лет",
+      "author": "Юрий Кравец",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0%20%D0%B4%D0%BB%D1%8F%20%D1%87%D1%82%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%B4%D0%B5%D1%82%D1%8F%D0%BC%20%D0%B4%D0%BE%20%D1%82%D1%80%D0%B5%D1%85%20%D0%BB%D0%B5%D1%82",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol42476842w",
+      "title": "Евреи в поле",
+      "author": "Виктор Григорьевич Финк",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%95%D0%B2%D1%80%D0%B5%D0%B8%20%D0%B2%20%D0%BF%D0%BE%D0%BB%D0%B5",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol19952239w",
+      "title": "Журавлиные перья",
+      "author": "Вера Н. Маркова",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%96%D1%83%D1%80%D0%B0%D0%B2%D0%BB%D0%B8%D0%BD%D1%8B%D0%B5%20%D0%BF%D0%B5%D1%80%D1%8C%D1%8F",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol4042450w",
+      "title": "Домашнее тепло",
+      "author": "Алексей Логунов",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%94%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D0%B5%D0%B5%20%D1%82%D0%B5%D0%BF%D0%BB%D0%BE",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol12432535w",
+      "title": "Острее шпаги",
+      "author": "Александр Петрович Казанцев",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9E%D1%81%D1%82%D1%80%D0%B5%D0%B5%20%D1%88%D0%BF%D0%B0%D0%B3%D0%B8",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol13713537w",
+      "title": "Поучительные рассказы про мальчика Яшу",
+      "author": "Едуард Успенский",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9F%D0%BE%D1%83%D1%87%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5%20%D1%80%D0%B0%D1%81%D1%81%D0%BA%D0%B0%D0%B7%D1%8B%20%D0%BF%D1%80%D0%BE%20%D0%BC%D0%B0%D0%BB%D1%8C%D1%87%D0%B8%D0%BA%D0%B0%20%D0%AF%D1%88%D1%83",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol32668464w",
+      "title": "Где раки зимуют",
+      "author": "Виталий Бянки",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%93%D0%B4%D0%B5%20%D1%80%D0%B0%D0%BA%D0%B8%20%D0%B7%D0%B8%D0%BC%D1%83%D1%8E%D1%82",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol6273359w",
+      "title": "Пассажир без билета",
+      "author": "Александр Борисович Аронов",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9F%D0%B0%D1%81%D1%81%D0%B0%D0%B6%D0%B8%D1%80%20%D0%B1%D0%B5%D0%B7%20%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol13715038w",
+      "title": "Профессор кислых щей",
+      "author": "В. Драгунский",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9F%D1%80%D0%BE%D1%84%D0%B5%D1%81%D1%81%D0%BE%D1%80%20%D0%BA%D0%B8%D1%81%D0%BB%D1%8B%D1%85%20%D1%89%D0%B5%D0%B9",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol6253399w",
+      "title": "Берилловое ожерелье",
+      "author": "Л. Семенов-Спасский",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%91%D0%B5%D1%80%D0%B8%D0%BB%D0%BB%D0%BE%D0%B2%D0%BE%D0%B5%20%D0%BE%D0%B6%D0%B5%D1%80%D0%B5%D0%BB%D1%8C%D0%B5",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol12171715w",
+      "title": "Солнце всходит и заходит",
+      "author": "Даниил Маркович Руднев",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A1%D0%BE%D0%BB%D0%BD%D1%86%D0%B5%20%D0%B2%D1%81%D1%85%D0%BE%D0%B4%D0%B8%D1%82%20%D0%B8%20%D0%B7%D0%B0%D1%85%D0%BE%D0%B4%D0%B8%D1%82",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol4409950w",
+      "title": "Грозный всадник",
+      "author": "Сергей Алексеев",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%93%D1%80%D0%BE%D0%B7%D0%BD%D1%8B%D0%B9%20%D0%B2%D1%81%D0%B0%D0%B4%D0%BD%D0%B8%D0%BA",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol13663633w",
+      "title": "Вы не были на Таити?",
+      "author": "Александр Ефимович Курляндский",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%92%D1%8B%20%D0%BD%D0%B5%20%D0%B1%D1%8B%D0%BB%D0%B8%20%D0%BD%D0%B0%20%D0%A2%D0%B0%D0%B8%D1%82%D0%B8%3F",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol44868793w",
+      "title": "Собственные рассказы детей",
+      "author": "Алексей Елисеевич Крученых; Н. Нагорская",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A1%D0%BE%D0%B1%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%80%D0%B0%D1%81%D1%81%D0%BA%D0%B0%D0%B7%D1%8B%20%D0%B4%D0%B5%D1%82%D0%B5%D0%B9",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol12822140w",
+      "title": "Солнышко на память",
+      "author": "Михаил Спартакович Пляцковский",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A1%D0%BE%D0%BB%D0%BD%D1%8B%D1%88%D0%BA%D0%BE%20%D0%BD%D0%B0%20%D0%BF%D0%B0%D0%BC%D1%8F%D1%82%D1%8C",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol38513598w",
+      "title": "Безумство храбрых",
+      "author": "Василий Ардаматский",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%91%D0%B5%D0%B7%D1%83%D0%BC%D1%81%D1%82%D0%B2%D0%BE%20%D1%85%D1%80%D0%B0%D0%B1%D1%80%D1%8B%D1%85",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol19978404w",
+      "title": "Огненный бог Марранов",
+      "author": "А. Волков",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9E%D0%B3%D0%BD%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9%20%D0%B1%D0%BE%D0%B3%20%D0%9C%D0%B0%D1%80%D1%80%D0%B0%D0%BD%D0%BE%D0%B2",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol13736359w",
+      "title": "Как Кузька домовят помирил",
+      "author": "Г. Александрова",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9A%D0%B0%D0%BA%20%D0%9A%D1%83%D0%B7%D1%8C%D0%BA%D0%B0%20%D0%B4%D0%BE%D0%BC%D0%BE%D0%B2%D1%8F%D1%82%20%D0%BF%D0%BE%D0%BC%D0%B8%D1%80%D0%B8%D0%BB",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol13746366w",
+      "title": "Ну, погоди!",
+      "author": "Федор Камов",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9D%D1%83%2C%20%D0%BF%D0%BE%D0%B3%D0%BE%D0%B4%D0%B8!",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol19987346w",
+      "title": "Хорошо быть оптимистом!",
+      "author": "Марина Дружинина",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A5%D0%BE%D1%80%D0%BE%D1%88%D0%BE%20%D0%B1%D1%8B%D1%82%D1%8C%20%D0%BE%D0%BF%D1%82%D0%B8%D0%BC%D0%B8%D1%81%D1%82%D0%BE%D0%BC!",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol2189783w",
+      "title": "Незнайка на Луне",
+      "author": "Николай Носов",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9D%D0%B5%D0%B7%D0%BD%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BD%D0%B0%20%D0%9B%D1%83%D0%BD%D0%B5",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol55522w",
+      "title": "Избранные произведения",
+      "author": "Антон Павлович Чехов",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%98%D0%B7%D0%B1%D1%80%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol12822142w",
+      "title": "Я на облаке летал",
+      "author": "Михаил Спартакович Пляцковский",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%AF%20%D0%BD%D0%B0%20%D0%BE%D0%B1%D0%BB%D0%B0%D0%BA%D0%B5%20%D0%BB%D0%B5%D1%82%D0%B0%D0%BB",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol20043999w",
+      "title": "Вежливое слово",
+      "author": "Е. Мошковская",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%92%D0%B5%D0%B6%D0%BB%D0%B8%D0%B2%D0%BE%D0%B5%20%D1%81%D0%BB%D0%BE%D0%B2%D0%BE",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol667419w",
+      "title": "Вредные советы 2",
+      "author": "Григорий Остер",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%92%D1%80%D0%B5%D0%B4%D0%BD%D1%8B%D0%B5%20%D1%81%D0%BE%D0%B2%D0%B5%D1%82%D1%8B%202",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol38539262w",
+      "title": "Один, два, три",
+      "author": "Виктор Голявкин",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9E%D0%B4%D0%B8%D0%BD%2C%20%D0%B4%D0%B2%D0%B0%2C%20%D1%82%D1%80%D0%B8",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol11037508w",
+      "title": "Кыш, Два портфеля и целая неделя; Кыш и я в Крыму",
+      "author": "Юз Алешковский",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9A%D1%8B%D1%88%2C%20%D0%94%D0%B2%D0%B0%20%D0%BF%D0%BE%D1%80%D1%82%D1%84%D0%B5%D0%BB%D1%8F%20%D0%B8%20%D1%86%D0%B5%D0%BB%D0%B0%D1%8F%20%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D1%8F%3B%20%D0%9A%D1%8B%D1%88%20%D0%B8%20%D1%8F%20%D0%B2%20%D0%9A%D1%80%D1%8B%D0%BC%D1%83",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol13749472w",
+      "title": "Бюро находок",
+      "author": "Сергей Иванов",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%91%D1%8E%D1%80%D0%BE%20%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%BE%D0%BA",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol669185w",
+      "title": "Война с лилипутами",
+      "author": "К. Булычев",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%92%D0%BE%D0%B9%D0%BD%D0%B0%20%D1%81%20%D0%BB%D0%B8%D0%BB%D0%B8%D0%BF%D1%83%D1%82%D0%B0%D0%BC%D0%B8",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol2223798w",
+      "title": "Учитель вранья",
+      "author": "Марк Харитонов",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A3%D1%87%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%20%D0%B2%D1%80%D0%B0%D0%BD%D1%8C%D1%8F",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol12525630w",
+      "title": "О смелом всаднике",
+      "author": "Борис Емельянов",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9E%20%D1%81%D0%BC%D0%B5%D0%BB%D0%BE%D0%BC%20%D0%B2%D1%81%D0%B0%D0%B4%D0%BD%D0%B8%D0%BA%D0%B5",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol19978347w",
+      "title": "Все Денискины рассказы в одной книге",
+      "author": "В. Драгунский",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%92%D1%81%D0%B5%20%D0%94%D0%B5%D0%BD%D0%B8%D1%81%D0%BA%D0%B8%D0%BD%D1%8B%20%D1%80%D0%B0%D1%81%D1%81%D0%BA%D0%B0%D0%B7%D1%8B%20%D0%B2%20%D0%BE%D0%B4%D0%BD%D0%BE%D0%B9%20%D0%BA%D0%BD%D0%B8%D0%B3%D0%B5",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol40738595w",
+      "title": "Загадки",
+      "author": "Корней Чуковский",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%97%D0%B0%D0%B3%D0%B0%D0%B4%D0%BA%D0%B8",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol19931868w",
+      "title": "Басни",
+      "author": "Сергей Владимирович Михалков",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%91%D0%B0%D1%81%D0%BD%D0%B8",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol12689689w",
+      "title": "Тетрадки под дождём",
+      "author": "Виктор Голявкин",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A2%D0%B5%D1%82%D1%80%D0%B0%D0%B4%D0%BA%D0%B8%20%D0%BF%D0%BE%D0%B4%20%D0%B4%D0%BE%D0%B6%D0%B4%D1%91%D0%BC",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol2189778w",
+      "title": "Затейники",
+      "author": "Николай Носов",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%97%D0%B0%D1%82%D0%B5%D0%B9%D0%BD%D0%B8%D0%BA%D0%B8",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol6959476w",
+      "title": "Морской орленок",
+      "author": "Венямин Васильевич Тихомиров",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9C%D0%BE%D1%80%D1%81%D0%BA%D0%BE%D0%B9%20%D0%BE%D1%80%D0%BB%D0%B5%D0%BD%D0%BE%D0%BA",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol19970141w",
+      "title": "Правдивая история колобка",
+      "author": "Андрей Усачёв",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9F%D1%80%D0%B0%D0%B2%D0%B4%D0%B8%D0%B2%D0%B0%D1%8F%20%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F%20%D0%BA%D0%BE%D0%BB%D0%BE%D0%B1%D0%BA%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol5186967w",
+      "title": "Лилипут-сын великана",
+      "author": "Альберт Иванов",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9B%D0%B8%D0%BB%D0%B8%D0%BF%D1%83%D1%82-%D1%81%D1%8B%D0%BD%20%D0%B2%D0%B5%D0%BB%D0%B8%D0%BA%D0%B0%D0%BD%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol23852449w",
+      "title": "Лучшие детские анекдоты",
+      "author": "Лев Яковлев; Игор Новиков",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9B%D1%83%D1%87%D1%88%D0%B8%D0%B5%20%D0%B4%D0%B5%D1%82%D1%81%D0%BA%D0%B8%D0%B5%20%D0%B0%D0%BD%D0%B5%D0%BA%D0%B4%D0%BE%D1%82%D1%8B",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol32668434w",
+      "title": "Про оленей",
+      "author": "Геннадий Снегирёв",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9F%D1%80%D0%BE%20%D0%BE%D0%BB%D0%B5%D0%BD%D0%B5%D0%B9",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol869549w",
+      "title": "Солнце на потолке",
+      "author": "Олег Кургузов",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A1%D0%BE%D0%BB%D0%BD%D1%86%D0%B5%20%D0%BD%D0%B0%20%D0%BF%D0%BE%D1%82%D0%BE%D0%BB%D0%BA%D0%B5",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol20016949w",
+      "title": "Русские богатери",
+      "author": "И. В. Карнаухова",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B5%20%D0%B1%D0%BE%D0%B3%D0%B0%D1%82%D0%B5%D1%80%D0%B8",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol13713534w",
+      "title": "Истории про Веру и Анфису",
+      "author": "Едуард Успенский",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B8%20%D0%BF%D1%80%D0%BE%20%D0%92%D0%B5%D1%80%D1%83%20%D0%B8%20%D0%90%D0%BD%D1%84%D0%B8%D1%81%D1%83",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol33098425w",
+      "title": "Усатый полосатый",
+      "author": "Самуил Маршак",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A3%D1%81%D0%B0%D1%82%D1%8B%D0%B9%20%D0%BF%D0%BE%D0%BB%D0%BE%D1%81%D0%B0%D1%82%D1%8B%D0%B9",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol33137652w",
+      "title": "Операция \"Океан\"",
+      "author": "Александр Свирин",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9E%D0%BF%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D1%8F%20%22%D0%9E%D0%BA%D0%B5%D0%B0%D0%BD%22",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol22116625w",
+      "title": "Детство Пушкина",
+      "author": "А. Л. Слонимский",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%94%D0%B5%D1%82%D1%81%D1%82%D0%B2%D0%BE%20%D0%9F%D1%83%D1%88%D0%BA%D0%B8%D0%BD%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol20020633w",
+      "title": "Как меня спасали",
+      "author": "Юрий Сотник",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9A%D0%B0%D0%BA%20%D0%BC%D0%B5%D0%BD%D1%8F%20%D1%81%D0%BF%D0%B0%D1%81%D0%B0%D0%BB%D0%B8",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol6274480w",
+      "title": "Рассказы о первых русских комедянтах",
+      "author": "Кира Федоровна Куликова",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A0%D0%B0%D1%81%D1%81%D0%BA%D0%B0%D0%B7%D1%8B%20%D0%BE%20%D0%BF%D0%B5%D1%80%D0%B2%D1%8B%D1%85%20%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D1%85%20%D0%BA%D0%BE%D0%BC%D0%B5%D0%B4%D1%8F%D0%BD%D1%82%D0%B0%D1%85",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol13738508w",
+      "title": "Карандаш и Самоделкин на острове необычайных приклюхений",
+      "author": "В. Постников",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9A%D0%B0%D1%80%D0%B0%D0%BD%D0%B4%D0%B0%D1%88%20%D0%B8%20%D0%A1%D0%B0%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D0%BA%D0%B8%D0%BD%20%D0%BD%D0%B0%20%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B2%D0%B5%20%D0%BD%D0%B5%D0%BE%D0%B1%D1%8B%D1%87%D0%B0%D0%B9%D0%BD%D1%8B%D1%85%20%D0%BF%D1%80%D0%B8%D0%BA%D0%BB%D1%8E%D1%85%D0%B5%D0%BD%D0%B8%D0%B9",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol19978398w",
+      "title": "Старые и новые истории о Простоквашино",
+      "author": "Едуард Успенский",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A1%D1%82%D0%B0%D1%80%D1%8B%D0%B5%20%D0%B8%20%D0%BD%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B8%20%D0%BE%20%D0%9F%D1%80%D0%BE%D1%81%D1%82%D0%BE%D0%BA%D0%B2%D0%B0%D1%88%D0%B8%D0%BD%D0%BE",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol38508810w",
+      "title": "Верхом",
+      "author": "Владимир Васильевич Лебедев",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%92%D0%B5%D1%80%D1%85%D0%BE%D0%BC",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol13663632w",
+      "title": "Все истории про попугая Кешу",
+      "author": "Александр Ефимович Курляндский",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%92%D1%81%D0%B5%20%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B8%20%D0%BF%D1%80%D0%BE%20%D0%BF%D0%BE%D0%BF%D1%83%D0%B3%D0%B0%D1%8F%20%D0%9A%D0%B5%D1%88%D1%83",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol40061329w",
+      "title": "Хранители очага",
+      "author": "Андрей Васильевич Растворцев",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A5%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D0%B5%D0%BB%D0%B8%20%D0%BE%D1%87%D0%B0%D0%B3%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol38533455w",
+      "title": "Кто раньше всех встаёт?",
+      "author": "Аркадий Минчковский",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9A%D1%82%D0%BE%20%D1%80%D0%B0%D0%BD%D1%8C%D1%88%D0%B5%20%D0%B2%D1%81%D0%B5%D1%85%20%D0%B2%D1%81%D1%82%D0%B0%D1%91%D1%82%3F",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol44264846w",
+      "title": "Первое испутание",
+      "author": "В. Ясенев; В. Ясенев",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9F%D0%B5%D1%80%D0%B2%D0%BE%D0%B5%20%D0%B8%D1%81%D0%BF%D1%83%D1%82%D0%B0%D0%BD%D0%B8%D0%B5",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol865246w",
+      "title": "Очень страшная история",
+      "author": "Даниил Хармс",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9E%D1%87%D0%B5%D0%BD%D1%8C%20%D1%81%D1%82%D1%80%D0%B0%D1%88%D0%BD%D0%B0%D1%8F%20%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol13713540w",
+      "title": "Про Веру и Анфису",
+      "author": "Едуард Успенский",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9F%D1%80%D0%BE%20%D0%92%D0%B5%D1%80%D1%83%20%D0%B8%20%D0%90%D0%BD%D1%84%D0%B8%D1%81%D1%83",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol19952281w",
+      "title": "Мы встречаем Новыи год!",
+      "author": "Илья Григорьевич Савченко",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9C%D1%8B%20%D0%B2%D1%81%D1%82%D1%80%D0%B5%D1%87%D0%B0%D0%B5%D0%BC%20%D0%9D%D0%BE%D0%B2%D1%8B%D0%B8%20%D0%B3%D0%BE%D0%B4!",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol31434681w",
+      "title": "Русские дети",
+      "author": "Павел Крусанов; Александр Етоев",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B5%20%D0%B4%D0%B5%D1%82%D0%B8",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol19952245w",
+      "title": "Сорочинская ярмарка",
+      "author": "Николай Васильевич Гоголь",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A1%D0%BE%D1%80%D0%BE%D1%87%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F%20%D1%8F%D1%80%D0%BC%D0%B0%D1%80%D0%BA%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol43943169w",
+      "title": "Волные птицы",
+      "author": "Евгений Иванович Чарушин",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%92%D0%BE%D0%BB%D0%BD%D1%8B%D0%B5%20%D0%BF%D1%82%D0%B8%D1%86%D1%8B",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol11557042w",
+      "title": "Повесть о русской актрисе",
+      "author": "Л. Н. Тынянова",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9F%D0%BE%D0%B2%D0%B5%D1%81%D1%82%D1%8C%20%D0%BE%20%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%B9%20%D0%B0%D0%BA%D1%82%D1%80%D0%B8%D1%81%D0%B5",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol45311343w",
+      "title": "Три повести о Васе Куролесове",
+      "author": "Юрий Коваль",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A2%D1%80%D0%B8%20%D0%BF%D0%BE%D0%B2%D0%B5%D1%81%D1%82%D0%B8%20%D0%BE%20%D0%92%D0%B0%D1%81%D0%B5%20%D0%9A%D1%83%D1%80%D0%BE%D0%BB%D0%B5%D1%81%D0%BE%D0%B2%D0%B5",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol38553160w",
+      "title": "Наш огород",
+      "author": "Евгений Шварц",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9D%D0%B0%D1%88%20%D0%BE%D0%B3%D0%BE%D1%80%D0%BE%D0%B4",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol19962766w",
+      "title": "Азбука для Буки",
+      "author": "Андрей Усачёв",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%90%D0%B7%D0%B1%D1%83%D0%BA%D0%B0%20%D0%B4%D0%BB%D1%8F%20%D0%91%D1%83%D0%BA%D0%B8",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol13713536w",
+      "title": "Отпуск крокодила Гены",
+      "author": "Едуард Успенский",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9E%D1%82%D0%BF%D1%83%D1%81%D0%BA%20%D0%BA%D1%80%D0%BE%D0%BA%D0%BE%D0%B4%D0%B8%D0%BB%D0%B0%20%D0%93%D0%B5%D0%BD%D1%8B",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol1678184w",
+      "title": "Хождение встречь солнцу",
+      "author": "Владислав Бахревский",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A5%D0%BE%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B2%D1%81%D1%82%D1%80%D0%B5%D1%87%D1%8C%20%D1%81%D0%BE%D0%BB%D0%BD%D1%86%D1%83",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol19940648w",
+      "title": "Рассказы для детей",
+      "author": "Борис Житков",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A0%D0%B0%D1%81%D1%81%D0%BA%D0%B0%D0%B7%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%B5%D1%82%D0%B5%D0%B9",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol6521518w",
+      "title": "Солнце всходит и заходит",
+      "author": "Д. Руднев",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A1%D0%BE%D0%BB%D0%BD%D1%86%D0%B5%20%D0%B2%D1%81%D1%85%D0%BE%D0%B4%D0%B8%D1%82%20%D0%B8%20%D0%B7%D0%B0%D1%85%D0%BE%D0%B4%D0%B8%D1%82",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol13713535w",
+      "title": "Общее собрание героев повестей, рассказов, стихотворений и пьес",
+      "author": "Едуард Успенский",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9E%D0%B1%D1%89%D0%B5%D0%B5%20%D1%81%D0%BE%D0%B1%D1%80%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%B3%D0%B5%D1%80%D0%BE%D0%B5%D0%B2%20%D0%BF%D0%BE%D0%B2%D0%B5%D1%81%D1%82%D0%B5%D0%B9%2C%20%D1%80%D0%B0%D1%81%D1%81%D0%BA%D0%B0%D0%B7%D0%BE%D0%B2%2C%20%D1%81%D1%82%D0%B8%D1%85%D0%BE%D1%82%D0%B2%D0%BE%D1%80%D0%B5%D0%BD%D0%B8%D0%B9%20%D0%B8%20%D0%BF%D1%8C%D0%B5%D1%81",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol38509253w",
+      "title": "Огород",
+      "author": "Сергей Михалков",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9E%D0%B3%D0%BE%D1%80%D0%BE%D0%B4",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol19936571w",
+      "title": "Поемы",
+      "author": "Александр Сергеевич Пушкин",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9F%D0%BE%D0%B5%D0%BC%D1%8B",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol623484w",
+      "title": "Избранные произведения",
+      "author": "Александр Сергеевич Пушкин",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%98%D0%B7%D0%B1%D1%80%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol11585139w",
+      "title": "Повесть о декабристе Петре Муханове",
+      "author": "Т. Медведкова",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9F%D0%BE%D0%B2%D0%B5%D1%81%D1%82%D1%8C%20%D0%BE%20%D0%B4%D0%B5%D0%BA%D0%B0%D0%B1%D1%80%D0%B8%D1%81%D1%82%D0%B5%20%D0%9F%D0%B5%D1%82%D1%80%D0%B5%20%D0%9C%D1%83%D1%85%D0%B0%D0%BD%D0%BE%D0%B2%D0%B5",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol10358155w",
+      "title": "Любимые друзья",
+      "author": "Клавдия Лукашевич",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9B%D1%8E%D0%B1%D0%B8%D0%BC%D1%8B%D0%B5%20%D0%B4%D1%80%D1%83%D0%B7%D1%8C%D1%8F",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol22792562w",
+      "title": "Хантыйские загадки",
+      "author": "Е. А. Нёмысова",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A5%D0%B0%D0%BD%D1%82%D1%8B%D0%B9%D1%81%D0%BA%D0%B8%D0%B5%20%D0%B7%D0%B0%D0%B3%D0%B0%D0%B4%D0%BA%D0%B8",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol12849949w",
+      "title": "Обезьянки младшего возраста",
+      "author": "Григорий Остер",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9E%D0%B1%D0%B5%D0%B7%D1%8C%D1%8F%D0%BD%D0%BA%D0%B8%20%D0%BC%D0%BB%D0%B0%D0%B4%D1%88%D0%B5%D0%B3%D0%BE%20%D0%B2%D0%BE%D0%B7%D1%80%D0%B0%D1%81%D1%82%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol44948165w",
+      "title": "Три твоих имени",
+      "author": "Дина Сабитова",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A2%D1%80%D0%B8%20%D1%82%D0%B2%D0%BE%D0%B8%D1%85%20%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol19970140w",
+      "title": "Большая книга стихов и рассказов",
+      "author": "Андрей Усачёв",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%91%D0%BE%D0%BB%D1%8C%D1%88%D0%B0%D1%8F%20%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0%20%D1%81%D1%82%D0%B8%D1%85%D0%BE%D0%B2%20%D0%B8%20%D1%80%D0%B0%D1%81%D1%81%D0%BA%D0%B0%D0%B7%D0%BE%D0%B2",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol23834945w",
+      "title": "Смиренный воин",
+      "author": "Георгий Юдин",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A1%D0%BC%D0%B8%D1%80%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9%20%D0%B2%D0%BE%D0%B8%D0%BD",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol32525747w",
+      "title": "Цезарь Великолепный",
+      "author": "Алёна Спиридонова",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A6%D0%B5%D0%B7%D0%B0%D1%80%D1%8C%20%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%BE%D0%BB%D0%B5%D0%BF%D0%BD%D1%8B%D0%B9",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "ol-ol38419438w",
+      "title": "Рассказы о сильных и отважных",
+      "author": "Н. М. Беркова",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A0%D0%B0%D1%81%D1%81%D0%BA%D0%B0%D0%B7%D1%8B%20%D0%BE%20%D1%81%D0%B8%D0%BB%D1%8C%D0%BD%D1%8B%D1%85%20%D0%B8%20%D0%BE%D1%82%D0%B2%D0%B0%D0%B6%D0%BD%D1%8B%D1%85",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-pro-lisa-i-porosenka-bern-rervik",
+      "title": "Про Лиса и Поросенка",
+      "author": "Бьёрн Рёрвик",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9F%D1%80%D0%BE%20%D0%9B%D0%B8%D1%81%D0%B0%20%D0%B8%20%D0%9F%D0%BE%D1%80%D0%BE%D1%81%D0%B5%D0%BD%D0%BA%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-stihi-mashi-rupasovoy-masha-rupasova",
+      "title": "Стихи Маши Рупасовой",
+      "author": "Маша Рупасова",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A1%D1%82%D0%B8%D1%85%D0%B8%20%D0%9C%D0%B0%D1%88%D0%B8%20%D0%A0%D1%83%D0%BF%D0%B0%D1%81%D0%BE%D0%B2%D0%BE%D0%B9",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-semeynyy-albom-tirannozavra-toni-mayk-benton",
+      "title": "Семейный альбом тираннозавра Тони",
+      "author": "Майк Бентон",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A1%D0%B5%D0%BC%D0%B5%D0%B9%D0%BD%D1%8B%D0%B9%20%D0%B0%D0%BB%D1%8C%D0%B1%D0%BE%D0%BC%20%D1%82%D0%B8%D1%80%D0%B0%D0%BD%D0%BD%D0%BE%D0%B7%D0%B0%D0%B2%D1%80%D0%B0%20%D0%A2%D0%BE%D0%BD%D0%B8",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-chelovetkin-dzhuliya-donaldson",
+      "title": "Человеткин",
+      "author": "Джулия Дональдсон",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A7%D0%B5%D0%BB%D0%BE%D0%B2%D0%B5%D1%82%D0%BA%D0%B8%D0%BD",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-meydelin-finn-i-sobaka-iz-priyuta-liza-papp",
+      "title": "Мейделин Финн и собака из приюта",
+      "author": "Лиза Папп",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9C%D0%B5%D0%B9%D0%B4%D0%B5%D0%BB%D0%B8%D0%BD%20%D0%A4%D0%B8%D0%BD%D0%BD%20%D0%B8%20%D1%81%D0%BE%D0%B1%D0%B0%D0%BA%D0%B0%20%D0%B8%D0%B7%20%D0%BF%D1%80%D0%B8%D1%8E%D1%82%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-martyn-i-barsik-masha-rupasova",
+      "title": "Мартын и Барсик",
+      "author": "Маша Рупасова",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9C%D0%B0%D1%80%D1%82%D1%8B%D0%BD%20%D0%B8%20%D0%91%D0%B0%D1%80%D1%81%D0%B8%D0%BA",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-odin-za-vseh-i-vse-za-odnogo-brigit-veninger",
+      "title": "Один за всех и все за одного",
+      "author": "Бригит Венингер",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9E%D0%B4%D0%B8%D0%BD%20%D0%B7%D0%B0%20%D0%B2%D1%81%D0%B5%D1%85%20%D0%B8%20%D0%B2%D1%81%D0%B5%20%D0%B7%D0%B0%20%D0%BE%D0%B4%D0%BD%D0%BE%D0%B3%D0%BE",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-korolevstvo-krivyh-zerkal-vitaliy-gubarev",
+      "title": "Королевство кривых зеркал",
+      "author": "Виталий Губарев",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9A%D0%BE%D1%80%D0%BE%D0%BB%D0%B5%D0%B2%D1%81%D1%82%D0%B2%D0%BE%20%D0%BA%D1%80%D0%B8%D0%B2%D1%8B%D1%85%20%D0%B7%D0%B5%D1%80%D0%BA%D0%B0%D0%BB",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-piter-pen-dzheyms-barri",
+      "title": "Питер Пэн",
+      "author": "Джеймс Барри",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9F%D0%B8%D1%82%D0%B5%D1%80%20%D0%9F%D1%8D%D0%BD",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-vse-o-mumi-trollyah-tuve-yansson",
+      "title": "Все о Муми-троллях",
+      "author": "Туве Янссон",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%92%D1%81%D0%B5%20%D0%BE%20%D0%9C%D1%83%D0%BC%D0%B8-%D1%82%D1%80%D0%BE%D0%BB%D0%BB%D1%8F%D1%85",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-myshonok-kotoryy-tam-anastasiya-kovalenkova",
+      "title": "Мышонок, который там",
+      "author": "Анастасия Коваленкова",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9C%D1%8B%D1%88%D0%BE%D0%BD%D0%BE%D0%BA%2C%20%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D1%8B%D0%B9%20%D1%82%D0%B0%D0%BC",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-kto-uteshit-knyutta-tuve-yansson",
+      "title": "Кто утешит Кнютта",
+      "author": "Туве Янссон",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9A%D1%82%D0%BE%20%D1%83%D1%82%D0%B5%D1%88%D0%B8%D1%82%20%D0%9A%D0%BD%D1%8E%D1%82%D1%82%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-kartofelnaya-sobaka-yuriy-koval",
+      "title": "Картофельная собака",
+      "author": "Юрий Коваль",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9A%D0%B0%D1%80%D1%82%D0%BE%D1%84%D0%B5%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F%20%D1%81%D0%BE%D0%B1%D0%B0%D0%BA%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-medved-v-svoem-repertuare-gubert-shirnek",
+      "title": "Медведь в своем репертуаре",
+      "author": "Губерт Ширнек",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9C%D0%B5%D0%B4%D0%B2%D0%B5%D0%B4%D1%8C%20%D0%B2%20%D1%81%D0%B2%D0%BE%D0%B5%D0%BC%20%D1%80%D0%B5%D0%BF%D0%B5%D1%80%D1%82%D1%83%D0%B0%D1%80%D0%B5",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-shtora-nyanyushki-lagton-virdzhiniya-vulf",
+      "title": "Штора нянюшки Лагтон",
+      "author": "Вирджиния Вулф",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A8%D1%82%D0%BE%D1%80%D0%B0%20%D0%BD%D1%8F%D0%BD%D1%8E%D1%88%D0%BA%D0%B8%20%D0%9B%D0%B0%D0%B3%D1%82%D0%BE%D0%BD",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-ne-vse-umeyut-padat-toon-tellegen",
+      "title": "Не все умеют падать",
+      "author": "Тоон Теллеген",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9D%D0%B5%20%D0%B2%D1%81%D0%B5%20%D1%83%D0%BC%D0%B5%D1%8E%D1%82%20%D0%BF%D0%B0%D0%B4%D0%B0%D1%82%D1%8C",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-reka-tekuschaya-vspyat-klod-murleva",
+      "title": "Река, текущая вспять",
+      "author": "Жан-Клод Мурлева",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A0%D0%B5%D0%BA%D0%B0%2C%20%D1%82%D0%B5%D0%BA%D1%83%D1%89%D0%B0%D1%8F%20%D0%B2%D1%81%D0%BF%D1%8F%D1%82%D1%8C",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-ya-ne-ya-zhanna-zaytseva-aleksandra",
+      "title": "Я, не я, Жанна",
+      "author": "Зайцева Александра",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%AF%2C%20%D0%BD%D0%B5%20%D1%8F%2C%20%D0%96%D0%B0%D0%BD%D0%BD%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-chto-nuzhno-malenkoy-koshke-natalya-shaloshvili",
+      "title": "Что нужно маленькой кошке",
+      "author": "Наталья Шалошвили",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A7%D1%82%D0%BE%20%D0%BD%D1%83%D0%B6%D0%BD%D0%BE%20%D0%BC%D0%B0%D0%BB%D0%B5%D0%BD%D1%8C%D0%BA%D0%BE%D0%B9%20%D0%BA%D0%BE%D1%88%D0%BA%D0%B5",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-vernye-druzya-mariam-kordes",
+      "title": "Верные друзья",
+      "author": "Мариам Кордес",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%92%D0%B5%D1%80%D0%BD%D1%8B%D0%B5%20%D0%B4%D1%80%D1%83%D0%B7%D1%8C%D1%8F",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-spat-kak-tigr-masha-lukashkina",
+      "title": "Спать, как тигр",
+      "author": "Маша Лукашкина",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A1%D0%BF%D0%B0%D1%82%D1%8C%2C%20%D0%BA%D0%B0%D0%BA%20%D1%82%D0%B8%D0%B3%D1%80",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-moya-sestrenka-olkozavra-dina-gerbek",
+      "title": "Моя сестренка Олькозавра",
+      "author": "Дина Гербек",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9C%D0%BE%D1%8F%20%D1%81%D0%B5%D1%81%D1%82%D1%80%D0%B5%D0%BD%D0%BA%D0%B0%20%D0%9E%D0%BB%D1%8C%D0%BA%D0%BE%D0%B7%D0%B0%D0%B2%D1%80%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-kak-flip-zatopil-ves-mir-adam-stouer",
+      "title": "Как Флип затопил весь мир",
+      "author": "Адам Стоуэр",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9A%D0%B0%D0%BA%20%D0%A4%D0%BB%D0%B8%D0%BF%20%D0%B7%D0%B0%D1%82%D0%BE%D0%BF%D0%B8%D0%BB%20%D0%B2%D0%B5%D1%81%D1%8C%20%D0%BC%D0%B8%D1%80",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-molli-i-shtormovoe-more-doyl-malahiya",
+      "title": "Молли и штормовое море",
+      "author": "Дойл Малахия",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9C%D0%BE%D0%BB%D0%BB%D0%B8%20%D0%B8%20%D1%88%D1%82%D0%BE%D1%80%D0%BC%D0%BE%D0%B2%D0%BE%D0%B5%20%D0%BC%D0%BE%D1%80%D0%B5",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-idi-poigray-s-tem-malchikom-klementina-bove",
+      "title": "Иди поиграй с тем мальчиком!",
+      "author": "Клементина Бове",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%98%D0%B4%D0%B8%20%D0%BF%D0%BE%D0%B8%D0%B3%D1%80%D0%B0%D0%B9%20%D1%81%20%D1%82%D0%B5%D0%BC%20%D0%BC%D0%B0%D0%BB%D1%8C%D1%87%D0%B8%D0%BA%D0%BE%D0%BC!",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-god-polnyy-chudes-b-klyayn",
+      "title": "Год, полный чудес",
+      "author": "Шерил Б.Кляйн",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%93%D0%BE%D0%B4%2C%20%D0%BF%D0%BE%D0%BB%D0%BD%D1%8B%D0%B9%20%D1%87%D1%83%D0%B4%D0%B5%D1%81",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-lev-petrushka-i-ego-druzya-maykl-bond",
+      "title": "Лев Петрушка и его друзья",
+      "author": "Майкл Бонд",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9B%D0%B5%D0%B2%20%D0%9F%D0%B5%D1%82%D1%80%D1%83%D1%88%D0%BA%D0%B0%20%D0%B8%20%D0%B5%D0%B3%D0%BE%20%D0%B4%D1%80%D1%83%D0%B7%D1%8C%D1%8F",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-pingvikingi-anton-soya",
+      "title": "Пингвикинги",
+      "author": "Антон Соя",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9F%D0%B8%D0%BD%D0%B3%D0%B2%D0%B8%D0%BA%D0%B8%D0%BD%D0%B3%D0%B8",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-shkola-v-karmartene-anna-korosteleva",
+      "title": "Школа в Кармартене",
+      "author": "Анна Коростелева",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A8%D0%BA%D0%BE%D0%BB%D0%B0%20%D0%B2%20%D0%9A%D0%B0%D1%80%D0%BC%D0%B0%D1%80%D1%82%D0%B5%D0%BD%D0%B5",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-zakoldovannaya-zhizn-uinn-dzhons",
+      "title": "Заколдованная жизнь",
+      "author": "Диана Уинн Джонс",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%97%D0%B0%D0%BA%D0%BE%D0%BB%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%B0%D1%8F%20%D0%B6%D0%B8%D0%B7%D0%BD%D1%8C",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-muley-erlend-lu",
+      "title": "Мулей",
+      "author": "Эрленд Лу",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9C%D1%83%D0%BB%D0%B5%D0%B9",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-zhutko-gromko-i-zapredelno-blizko-safran-foer",
+      "title": "Жутко громко и запредельно близко",
+      "author": "Джонатан Сафран Фоер",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%96%D1%83%D1%82%D0%BA%D0%BE%20%D0%B3%D1%80%D0%BE%D0%BC%D0%BA%D0%BE%20%D0%B8%20%D0%B7%D0%B0%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%20%D0%B1%D0%BB%D0%B8%D0%B7%D0%BA%D0%BE",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-milye-kosti-elis-sibold",
+      "title": "Милые кости",
+      "author": "Элис Сиболд",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9C%D0%B8%D0%BB%D1%8B%D0%B5%20%D0%BA%D0%BE%D1%81%D1%82%D0%B8",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-kogda-my-vstretimsya-rebekka-sted",
+      "title": "Когда мы встретимся",
+      "author": "Ребекка Стед",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9A%D0%BE%D0%B3%D0%B4%D0%B0%20%D0%BC%D1%8B%20%D0%B2%D1%81%D1%82%D1%80%D0%B5%D1%82%D0%B8%D0%BC%D1%81%D1%8F",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-trinadtsataya-skazka-diana-setterfild",
+      "title": "Тринадцатая сказка",
+      "author": "Диана Сеттерфилд",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A2%D1%80%D0%B8%D0%BD%D0%B0%D0%B4%D1%86%D0%B0%D1%82%D0%B0%D1%8F%20%D1%81%D0%BA%D0%B0%D0%B7%D0%BA%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-bezdna-chellendzhera-nil-shusterman",
+      "title": "Бездна Челленджера",
+      "author": "Нил Шустерман",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%91%D0%B5%D0%B7%D0%B4%D0%BD%D0%B0%20%D0%A7%D0%B5%D0%BB%D0%BB%D0%B5%D0%BD%D0%B4%D0%B6%D0%B5%D1%80%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-devyatnadtsat-minut-dzhodi-pikolt",
+      "title": "Девятнадцать минут",
+      "author": "Джоди Пиколт",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%94%D0%B5%D0%B2%D1%8F%D1%82%D0%BD%D0%B0%D0%B4%D1%86%D0%B0%D1%82%D1%8C%20%D0%BC%D0%B8%D0%BD%D1%83%D1%82",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-ptitsa-v-kletke-robin-rou",
+      "title": "Птица в клетке",
+      "author": "Робин Роу",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9F%D1%82%D0%B8%D1%86%D0%B0%20%D0%B2%20%D0%BA%D0%BB%D0%B5%D1%82%D0%BA%D0%B5",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-ulichnyy-kot-po-imeni-bob-dzheyms-bouen",
+      "title": "Уличный кот по имени Боб",
+      "author": "Джеймс Боуэн",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A3%D0%BB%D0%B8%D1%87%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%BE%D1%82%20%D0%BF%D0%BE%20%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8%20%D0%91%D0%BE%D0%B1",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-spletni-i-k-pop-aleksandra-yang",
+      "title": "Сплетни и K-pop",
+      "author": "Александра Янг",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A1%D0%BF%D0%BB%D0%B5%D1%82%D0%BD%D0%B8%20%D0%B8%20K-pop",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-heytery-dzhessi-endryus",
+      "title": "Хейтеры",
+      "author": "Джесси Эндрюс",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A5%D0%B5%D0%B9%D1%82%D0%B5%D1%80%D1%8B",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-schepotka-magii-mishel-harrison",
+      "title": "Щепотка магии",
+      "author": "Мишель Харрисон",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A9%D0%B5%D0%BF%D0%BE%D1%82%D0%BA%D0%B0%20%D0%BC%D0%B0%D0%B3%D0%B8%D0%B8",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-gorstka-volshebstva-mishel-harrison",
+      "title": "Горстка волшебства",
+      "author": "Мишель Харрисон",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%93%D0%BE%D1%80%D1%81%D1%82%D0%BA%D0%B0%20%D0%B2%D0%BE%D0%BB%D1%88%D0%B5%D0%B1%D1%81%D1%82%D0%B2%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-klubok-zaklinaniy-mishel-harrison",
+      "title": "Клубок заклинаний",
+      "author": "Мишель Харрисон",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9A%D0%BB%D1%83%D0%B1%D0%BE%D0%BA%20%D0%B7%D0%B0%D0%BA%D0%BB%D0%B8%D0%BD%D0%B0%D0%BD%D0%B8%D0%B9",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-malenkaya-vsemirnaya-istoriya-ernst-gombrih",
+      "title": "Маленькая всемирная история",
+      "author": "Эрнст Гомбрих",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9C%D0%B0%D0%BB%D0%B5%D0%BD%D1%8C%D0%BA%D0%B0%D1%8F%20%D0%B2%D1%81%D0%B5%D0%BC%D0%B8%D1%80%D0%BD%D0%B0%D1%8F%20%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-sekrety-koshek-sasha-raush",
+      "title": "Секреты кошек",
+      "author": "Саша Рауш",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A1%D0%B5%D0%BA%D1%80%D0%B5%D1%82%D1%8B%20%D0%BA%D0%BE%D1%88%D0%B5%D0%BA",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-brat-drakona-larisa-romanovskaya",
+      "title": "Брат дракона",
+      "author": "Лариса Романовская",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%91%D1%80%D0%B0%D1%82%20%D0%B4%D1%80%D0%B0%D0%BA%D0%BE%D0%BD%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-zatonuvshiy-les-lloyd-dzhons",
+      "title": "Затонувший лес",
+      "author": "Эмили Ллойд-Джонс",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%97%D0%B0%D1%82%D0%BE%D0%BD%D1%83%D0%B2%D1%88%D0%B8%D0%B9%20%D0%BB%D0%B5%D1%81",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-6-minut-dlya-detey-dominik-spenst",
+      "title": "6 минут для детей",
+      "author": "Доминик Спенст",
+      "searchUrl": "https://rusneb.ru/search/?q=6%20%D0%BC%D0%B8%D0%BD%D1%83%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%B5%D1%82%D0%B5%D0%B9",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-drugaya-elis-mishel-harrison",
+      "title": "Другая Элис",
+      "author": "Мишель Харрисон",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%94%D1%80%D1%83%D0%B3%D0%B0%D1%8F%20%D0%AD%D0%BB%D0%B8%D1%81",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-neveroyatno-opasnaya-sliz-ledyanye-myshki-sedobnye-kamni-i-esche-95-istoriy-o-mire-vokrug-nas-nastya-tr",
+      "title": "Невероятно! Опасная слизь, ледяные мышки, съедобные камни и еще 95 историй о мире вокруг нас",
+      "author": "Ася Ванякина, Настя Троян",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9D%D0%B5%D0%B2%D0%B5%D1%80%D0%BE%D1%8F%D1%82%D0%BD%D0%BE!%20%D0%9E%D0%BF%D0%B0%D1%81%D0%BD%D0%B0%D1%8F%20%D1%81%D0%BB%D0%B8%D0%B7%D1%8C%2C%20%D0%BB%D0%B5%D0%B4%D1%8F%D0%BD%D1%8B%D0%B5%20%D0%BC%D1%8B%D1%88%D0%BA%D0%B8%2C%20%D1%81%D1%8A%D0%B5%D0%B4%D0%BE%D0%B1%D0%BD%D1%8B%D0%B5%20%D0%BA%D0%B0%D0%BC%D0%BD%D0%B8%20%D0%B8%20%D0%B5%D1%89%D0%B5%2095%20%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B9%20%D0%BE%20%D0%BC%D0%B8%D1%80%D0%B5%20%D0%B2%D0%BE%D0%BA%D1%80%D1%83%D0%B3%20%D0%BD%D0%B0%D1%81",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-druzhba-posle-ssory-novye-priklyucheniya-emo-i-chiki-dzhoshua-vays",
+      "title": "Дружба после ссоры… Новые приключения Эмо и Чики",
+      "author": "Грегг Релье, Джошуа Вайс",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%94%D1%80%D1%83%D0%B6%D0%B1%D0%B0%20%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%20%D1%81%D1%81%D0%BE%D1%80%D1%8B%E2%80%A6%20%D0%9D%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%BF%D1%80%D0%B8%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%AD%D0%BC%D0%BE%20%D0%B8%20%D0%A7%D0%B8%D0%BA%D0%B8",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-ya-idu-iskat-v-sankt-peterburge-svetlana-shahverdova",
+      "title": "Я иду искать в Санкт-Петербурге",
+      "author": "Светлана Шахвердова",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%AF%20%D0%B8%D0%B4%D1%83%20%D0%B8%D1%81%D0%BA%D0%B0%D1%82%D1%8C%20%D0%B2%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3%D0%B5",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-konni-i-druzya-novaya-shkola-yuliya-beme",
+      "title": "Конни и друзья: Новая школа",
+      "author": "Юлия Беме",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9A%D0%BE%D0%BD%D0%BD%D0%B8%20%D0%B8%20%D0%B4%D1%80%D1%83%D0%B7%D1%8C%D1%8F%3A%20%D0%9D%D0%BE%D0%B2%D0%B0%D1%8F%20%D1%88%D0%BA%D0%BE%D0%BB%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-istorii-pro-pyarta-anti-saar",
+      "title": "Истории про Пярта",
+      "author": "Анти Саар",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B8%20%D0%BF%D1%80%D0%BE%20%D0%9F%D1%8F%D1%80%D1%82%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-poigray-s-mimi-anna-permyakova",
+      "title": "Поиграй с Мими",
+      "author": "Анна Пермякова",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9F%D0%BE%D0%B8%D0%B3%D1%80%D0%B0%D0%B9%20%D1%81%20%D0%9C%D0%B8%D0%BC%D0%B8",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-shkola-risovaniya-goroshka-david-kali",
+      "title": "Школа рисования Горошка",
+      "author": "Давид Кали",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A8%D0%BA%D0%BE%D0%BB%D0%B0%20%D1%80%D0%B8%D1%81%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%20%D0%93%D0%BE%D1%80%D0%BE%D1%88%D0%BA%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-i-kto-to-skazal-privet-nihan-temiz",
+      "title": "И кто-то сказал «Привет»",
+      "author": "Нихан Темиз",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%98%20%D0%BA%D1%82%D0%BE-%D1%82%D0%BE%20%D1%81%D0%BA%D0%B0%D0%B7%D0%B0%D0%BB%20%C2%AB%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82%C2%BB",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-frederik-leo-lionni",
+      "title": "Фредерик",
+      "author": "Лео Лионни",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A4%D1%80%D0%B5%D0%B4%D0%B5%D1%80%D0%B8%D0%BA",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-letniy-den-s-druzyami-filip-vehter",
+      "title": "Летний день с друзьями",
+      "author": "Филип Вехтер",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9B%D0%B5%D1%82%D0%BD%D0%B8%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C%20%D1%81%20%D0%B4%D1%80%D1%83%D0%B7%D1%8C%D1%8F%D0%BC%D0%B8",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-moya-bolshaya-sibiy-delakrua",
+      "title": "Моя большая",
+      "author": "Сибий Делакруа",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9C%D0%BE%D1%8F%20%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%B0%D1%8F",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-dobraya-akula-elena-repetur",
+      "title": "Добрая акула",
+      "author": "Елена Репетур",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%94%D0%BE%D0%B1%D1%80%D0%B0%D1%8F%20%D0%B0%D0%BA%D1%83%D0%BB%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-sup-sinora-leprona-dzhovanna-dzoboli",
+      "title": "Суп синьора Лепрона",
+      "author": "Джованна Дзоболи",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A1%D1%83%D0%BF%20%D1%81%D0%B8%D0%BD%D1%8C%D0%BE%D1%80%D0%B0%20%D0%9B%D0%B5%D0%BF%D1%80%D0%BE%D0%BD%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-silviya-i-ptichka-ketrin-reyner",
+      "title": "Сильвия и Птичка",
+      "author": "Кэтрин Рейнер",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A1%D0%B8%D0%BB%D1%8C%D0%B2%D0%B8%D1%8F%20%D0%B8%20%D0%9F%D1%82%D0%B8%D1%87%D0%BA%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-ochki-dlya-selesty-mariya-kolker",
+      "title": "Очки для Селесты",
+      "author": "Мария Колкер",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9E%D1%87%D0%BA%D0%B8%20%D0%B4%D0%BB%D1%8F%20%D0%A1%D0%B5%D0%BB%D0%B5%D1%81%D1%82%D1%8B",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-vasilkovaya-zima-hegyum-kim",
+      "title": "Васильковая зима",
+      "author": "Хегюм Ким",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D1%8C%D0%BA%D0%BE%D0%B2%D0%B0%D1%8F%20%D0%B7%D0%B8%D0%BC%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-gde-to-v-snegu-linde-faas",
+      "title": "Где-то в снегу",
+      "author": "Линде Фаас",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%93%D0%B4%D0%B5-%D1%82%D0%BE%20%D0%B2%20%D1%81%D0%BD%D0%B5%D0%B3%D1%83",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-zavetnoe-zhelanie-krotika-sangyn-kim",
+      "title": "Заветное желание кротика",
+      "author": "Сангын Ким",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%97%D0%B0%D0%B2%D0%B5%D1%82%D0%BD%D0%BE%D0%B5%20%D0%B6%D0%B5%D0%BB%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%BA%D1%80%D0%BE%D1%82%D0%B8%D0%BA%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-elka-yulka-olive-tallek",
+      "title": "Елка Юлька",
+      "author": "Оливье Таллек",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%95%D0%BB%D0%BA%D0%B0%20%D0%AE%D0%BB%D1%8C%D0%BA%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-v-poiskah-deda-moroza-ann-montel",
+      "title": "В поисках Деда Мороза",
+      "author": "Лоик Клеман; Анн Монтель",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%92%20%D0%BF%D0%BE%D0%B8%D1%81%D0%BA%D0%B0%D1%85%20%D0%94%D0%B5%D0%B4%D0%B0%20%D0%9C%D0%BE%D1%80%D0%BE%D0%B7%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-samoe-pervoe-novogodnee-derevo-ovila-fonten",
+      "title": "Самое первое новогоднее дерево",
+      "author": "Овила Фонтен",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A1%D0%B0%D0%BC%D0%BE%D0%B5%20%D0%BF%D0%B5%D1%80%D0%B2%D0%BE%D0%B5%20%D0%BD%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%D0%B4%D0%BD%D0%B5%D0%B5%20%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BE",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-gnom-i-lis-astrid-lindgren",
+      "title": "Гном и Лис",
+      "author": "Астрид Линдгрен",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%93%D0%BD%D0%BE%D0%BC%20%D0%B8%20%D0%9B%D0%B8%D1%81",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-vyuzhik-i-upavshaya-zvezda-anna-mohovaya",
+      "title": "Вьюжик и упавшая звезда",
+      "author": "Анна Моховая",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%92%D1%8C%D1%8E%D0%B6%D0%B8%D0%BA%20%D0%B8%20%D1%83%D0%BF%D0%B0%D0%B2%D1%88%D0%B0%D1%8F%20%D0%B7%D0%B2%D0%B5%D0%B7%D0%B4%D0%B0",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-peschernyy-chelovek-terri-pratchett",
+      "title": "Пещерный человек",
+      "author": "Терри Пратчетт",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9F%D0%B5%D1%89%D0%B5%D1%80%D0%BD%D1%8B%D0%B9%20%D1%87%D0%B5%D0%BB%D0%BE%D0%B2%D0%B5%D0%BA",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-shlyapniki-tamzin-merchant",
+      "title": "Шляпники",
+      "author": "Тамзин Мерчант",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%A8%D0%BB%D1%8F%D0%BF%D0%BD%D0%B8%D0%BA%D0%B8",
+      "reason": "no_confident_official_match"
+    },
+    {
+      "id": "curated-nen-collection-magazin-dikovinnyh-sladostey-schaste-za-monetku-reyko-hirosima",
+      "title": "Магазин диковинных сладостей «Счастье за монетку»",
+      "author": "Рэйко Хиросима",
+      "searchUrl": "https://rusneb.ru/search/?q=%D0%9C%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD%20%D0%B4%D0%B8%D0%BA%D0%BE%D0%B2%D0%B8%D0%BD%D0%BD%D1%8B%D1%85%20%D1%81%D0%BB%D0%B0%D0%B4%D0%BE%D1%81%D1%82%D0%B5%D0%B9%20%C2%AB%D0%A1%D1%87%D0%B0%D1%81%D1%82%D1%8C%D0%B5%20%D0%B7%D0%B0%20%D0%BC%D0%BE%D0%BD%D0%B5%D1%82%D0%BA%D1%83%C2%BB",
+      "reason": "no_confident_official_match"
+    }
+  ]
+}

@@ -11,34 +11,6 @@ export interface BookCollection {
 
 export const collections: BookCollection[] = [
     {
-      slug: "vybor-redaktsii-nen-2020",
-      title: "Лучшие книги для детей: выбор редакции НЭН",
-      description: "Книги, которые дети редакции НЭН особенно полюбили за год: смешные, волшебные, приключенческие и уютные истории для семейного чтения.",
-      introduction: "В этой подборке разные читательские характеры и возрасты встречаются на одной книжной полке — от стихов и сказок до больших приключенческих историй.",
-      bookIds: [
-        "curated-nen-collection-pro-lisa-i-porosenka-bern-rervik",
-        "curated-nen-collection-stihi-mashi-rupasovoy-masha-rupasova",
-        "curated-nen-collection-semeynyy-albom-tirannozavra-toni-mayk-benton",
-        "curated-nen-collection-chelovetkin-dzhuliya-donaldson",
-        "nen-bv2-081",
-        "nen-002",
-        "curated-nen-collection-meydelin-finn-i-sobaka-iz-priyuta-liza-papp",
-        "curated-nen-collection-martyn-i-barsik-masha-rupasova",
-        "curated-nen-collection-odin-za-vseh-i-vse-za-odnogo-brigit-veninger",
-        "nen-bv2-056",
-        "nen-bv2-079",
-        "ol-ol29230428w",
-        "curated-nen-collection-korolevstvo-krivyh-zerkal-vitaliy-gubarev",
-        "curated-nen-collection-piter-pen-dzheyms-barri",
-        "curated-nen-collection-vse-o-mumi-trollyah-tuve-yansson",
-        "curated-nen-collection-myshonok-kotoryy-tam-anastasiya-kovalenkova",
-        "curated-nen-collection-kto-uteshit-knyutta-tuve-yansson"
-      ],
-      ageLabel: "3–12 лет",
-      updatedAt: "2026-07-25",
-      sourceUrl: "https://n-e-n.ru/thebestbooksforchildren2020/"
-    },
-    {
       slug: "desyat-glavnyh-detskih-knig",
       title: "10 главных детских книг за 10 лет",
       description: "Десять заметных детских книг последнего десятилетия — от озорных стихов и сказок до серьёзных историй о взрослении и поиске своего места.",

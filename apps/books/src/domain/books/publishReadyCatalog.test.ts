@@ -71,8 +71,24 @@ describe("connected Open Library catalog", () => {
   it("uses only exact permanent book paths and safe cover URLs", () => {
     expect(productionBooks.every((book) => `/books/${book.slug}`.split("?").length === 1)).toBe(true);
     const external = includedImports.filter((book) => book.cover?.kind === "external");
-    expect(external.every((book) => /^https:\/\/covers\.openlibrary\.org\/b\/id\/\d+-L\.jpg$/.test(book.cover?.url ?? ""))).toBe(true);
-    expect(external.every((book) => book.cover?.isbn13 === book.isbn13)).toBe(true);
+    const verifiedCoverSourceHosts = /(?:^|\.)(azbooka\.ru|eksmo\.ru|ast\.ru|rosman\.ru|detlit\.ru|strecoza\.ru|samokatbook\.ru|polyandria\.ru|albuscorvus\.ru|kompasgid\.ru|clever-media\.ru|archipelag-publishing\.ru|alpinabook\.ru|books\.ru|book24\.ru|chitai-gorod\.ru|labirint\.ru|moscowbooks\.ru|search\.rsl\.ru|rusneb\.ru|books\.google\.com)$/;
+    expect(external.every((book) => {
+      const coverUrl = book.cover?.url ?? "";
+      if (/^https:\/\/covers\.openlibrary\.org\/b\/id\/\d+-L\.jpg$/.test(coverUrl)) {
+        return book.cover?.isbn13 === book.isbn13;
+      }
+      const sourcePageUrl = book.cover?.sourcePageUrl;
+      if (!sourcePageUrl || !coverUrl.startsWith("https://")) return false;
+      const sourceHost = new URL(sourcePageUrl).hostname;
+      return (
+        verifiedCoverSourceHosts.test(sourceHost)
+        && book.cover?.rightsStatus === "external-display-only"
+        && [
+          "Обложка предоставлена издательством.",
+          "Обложка опубликована в карточке современного издания.",
+        ].includes(book.cover?.attribution ?? "")
+      );
+    })).toBe(true);
   });
 
   it("includes imported books in search and every primary filter", () => {

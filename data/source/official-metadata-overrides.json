@@ -1,0 +1,2699 @@
+[
+  {
+    "id": "nen-011",
+    "source": "books.ru",
+    "sourceUrl": "https://www.books.ru/books/gruffalo-5202736/",
+    "sourceRecordId": "/books/gruffalo-5202736/",
+    "officialTitle": "Груффало",
+    "officialAuthors": [
+      "Джулия Дональдсон"
+    ],
+    "publisher": "Алгоритм",
+    "pages": 2020,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "exact_isbn",
+      "confidence": 1,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": true,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "nen-012",
+    "source": "books.ru",
+    "sourceUrl": "https://www.books.ru/books/sven-nurdkvist-imeninnyi-pirog-5401439/",
+    "sourceRecordId": "/books/sven-nurdkvist-imeninnyi-pirog-5401439/",
+    "officialTitle": "Свен Нурдквист: Именинный пирог",
+    "officialAuthors": [
+      "Свен Нурдквист"
+    ],
+    "publisher": "Белая ворона",
+    "pages": 2022,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "exact_isbn",
+      "confidence": 1,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": true,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "nen-017",
+    "source": "Издательство «Белая ворона»",
+    "sourceUrl": "https://albuscorvus.ru/product/jane-lisa-i-ya/",
+    "sourceRecordId": "/product/jane-lisa-i-ya/",
+    "officialTitle": "Джейн, лиса и&nbsp;я",
+    "officialAuthors": [
+      "Фанни Бритт"
+    ],
+    "publisher": "Белая ворона",
+    "pages": 98,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false,
+      "currentPublisherMatch": true
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "nen-018",
+    "source": "Издательство «КомпасГид»",
+    "sourceUrl": "https://kompasgid.ru/product/dve-polovinki-serdtsa-4-e-izd-2/",
+    "sourceRecordId": "/product/dve-polovinki-serdtsa-4-e-izd-2/",
+    "officialTitle": "Лагеркранц Русе | Две половинки сердца (4-е изд)",
+    "officialAuthors": [
+      "Русе Лагеркранц"
+    ],
+    "publisher": "КомпасГид",
+    "isbn13": "9785000836859",
+    "match": {
+      "strategy": "title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "nen-020",
+    "source": "Издательство «КомпасГид»",
+    "sourceUrl": "https://kompasgid.ru/product/bolshaya-malenkaya-devochka-kniga-2-istorii-7-12-avt-mariya-bershadskaya-kompasgid-978-5-00083-748-1/",
+    "sourceRecordId": "/product/bolshaya-malenkaya-devochka-kniga-2-istorii-7-12-avt-mariya-bershadskaya-kompasgid-978-5-00083-748-1/",
+    "officialTitle": "Бершадская Мария | Большая маленькая девочка. Книга 2 (истории 7-12) (2-е изд.)",
+    "officialAuthors": [
+      "Мария Бершадская"
+    ],
+    "publisher": "КомпасГид",
+    "match": {
+      "strategy": "title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "nen-021",
+    "source": "Издательство «КомпасГид»",
+    "sourceUrl": "https://kompasgid.ru/product/kalendar-ma-j-ya-9-e-izd-kompasgid-avt-lederman-2024-g/",
+    "sourceRecordId": "/product/kalendar-ma-j-ya-9-e-izd-kompasgid-avt-lederman-2024-g/",
+    "officialTitle": "Ледерман Виктория | Календарь ма(й)я (9-е изд)",
+    "officialAuthors": [
+      "Виктория Ледерман"
+    ],
+    "publisher": "КомпасГид",
+    "match": {
+      "strategy": "title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "nen-024",
+    "source": "books.ru",
+    "sourceUrl": "https://www.books.ru/books/rebekka-dotremer-nastoyashchaya-zhizn-zhakomina-geinsboro-5081259/",
+    "sourceRecordId": "/books/rebekka-dotremer-nastoyashchaya-zhizn-zhakomina-geinsboro-5081259/",
+    "officialTitle": "Ребекка Дотремер: Настоящая жизнь Жакомина Гейнсборо",
+    "officialAuthors": [
+      "Ребекка Дотремер"
+    ],
+    "publisher": "Манн, Иванов и Фербер",
+    "pages": 2019,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "exact_isbn",
+      "confidence": 1,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": true,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "nen-051",
+    "source": "books.ru",
+    "sourceUrl": "https://www.books.ru/books/ochen-golodnaya-gusenitsa-1532020/",
+    "sourceRecordId": "/books/ochen-golodnaya-gusenitsa-1532020/",
+    "officialTitle": "Очень голодная гусеница",
+    "officialAuthors": [
+      "Эрик Карл"
+    ],
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "exact_isbn",
+      "confidence": 1,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": true,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "nen-054",
+    "source": "Национальная электронная библиотека",
+    "sourceUrl": "https://rusneb.ru/catalog/000200_000018_RU_NLR_bibl_1997410/",
+    "sourceRecordId": "000200_000018_RU_NLR_bibl_1997410",
+    "officialTitle": "Тихая книга",
+    "officialAuthors": [
+      "написала Дебора Андервуд"
+    ],
+    "publisher": "Розовый жираф",
+    "publicationYear": 2012,
+    "pages": 30,
+    "isbn13": "9785437000175",
+    "language": "ru",
+    "match": {
+      "accepted": true,
+      "strategy": "title_author",
+      "confidence": 0.9899999999999999,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "nen-055",
+    "source": "books.ru",
+    "sourceUrl": "https://www.books.ru/books/dochurka-gruffalo-5203113/",
+    "sourceRecordId": "/books/dochurka-gruffalo-5203113/",
+    "officialTitle": "Дочурка Груффало",
+    "officialAuthors": [
+      "Джулия Дональдсон"
+    ],
+    "publisher": "Машины Творения",
+    "pages": 2020,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "exact_isbn",
+      "confidence": 1,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": true,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "nen-057",
+    "source": "books.ru",
+    "sourceUrl": "https://www.books.ru/books/dzhordzh-i-tainy-vselennoi-5232455/",
+    "sourceRecordId": "/books/dzhordzh-i-tainy-vselennoi-5232455/",
+    "officialTitle": "Джордж и тайны Вселенной",
+    "officialAuthors": [
+      "Люси Хокинг",
+      "Стивен Хокинг"
+    ],
+    "publisher": "Розовый жираф",
+    "isbn13": "9785903497133",
+    "pages": 2021,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "exact_isbn",
+      "confidence": 1,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": true,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "nen-058",
+    "source": "books.ru",
+    "sourceUrl": "https://www.books.ru/books/detektiv-per-rasputyvaet-delo-v-poiskakh-pokhishchennogo-labirinta-5209129/",
+    "sourceRecordId": "/books/detektiv-per-rasputyvaet-delo-v-poiskakh-pokhishchennogo-labirinta-5209129/",
+    "officialTitle": "Детектив Пьер распутывает дело. В поисках похищенного лабиринта",
+    "officialAuthors": [
+      "Хиро Камигаки",
+      "IC4DESIGN"
+    ],
+    "publisher": "Манн, Иванов и Фербер",
+    "isbn13": "9785001000877",
+    "pages": 2020,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "exact_isbn",
+      "confidence": 1,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": true,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "nen-059",
+    "source": "Национальная электронная библиотека",
+    "sourceUrl": "https://rusneb.ru/catalog/000200_000018_RU_NLR_BIBL_A_021943721/",
+    "sourceRecordId": "000200_000018_RU_NLR_BIBL_A_021943721",
+    "officialTitle": "Детектив Самсон",
+    "officialAuthors": [
+      "Катерина Горелик"
+    ],
+    "pages": 34,
+    "language": "ru",
+    "match": {
+      "accepted": true,
+      "strategy": "title_author",
+      "confidence": 0.9899999999999999,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "nen-063",
+    "source": "Издательская группа «Азбука-Аттикус»",
+    "sourceUrl": "https://azbooka.ru/books/emil-i-syshchiki-ezfm",
+    "sourceRecordId": "/books/emil-i-syshchiki-ezfm",
+    "officialTitle": "Эмиль и сыщики",
+    "officialAuthors": [
+      "Эрих Кестнер"
+    ],
+    "publisher": "Азбука-Аттикус",
+    "isbn13": "9785389015050",
+    "pages": 128,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "nen-bv2-013",
+    "source": "moscowbooks.ru",
+    "sourceUrl": "https://www.moscowbooks.ru/book/1142191/",
+    "sourceRecordId": "/book/1142191/",
+    "officialTitle": "Чудо. Паласио Р. Дж.",
+    "officialAuthors": [
+      "Р. Дж. Паласио"
+    ],
+    "isbn13": "9785437003428",
+    "publicationYear": 2022,
+    "pages": 408,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "exact_isbn",
+      "confidence": 1,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": true,
+      "currentPublisherMatch": false,
+      "selectedEditionYear": 2022
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "nen-bv2-016",
+    "source": "books.ru",
+    "sourceUrl": "https://www.books.ru/books/moi-dedushka-byl-vishnei-5187002/",
+    "sourceRecordId": "/books/moi-dedushka-byl-vishnei-5187002/",
+    "officialTitle": "Мой дедушка был вишней",
+    "officialAuthors": [
+      "Анджела Нанетти"
+    ],
+    "publisher": "Самокат",
+    "isbn13": "9785917594149",
+    "pages": 2020,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "exact_isbn",
+      "confidence": 1,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": true,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "nen-bv2-017",
+    "source": "books.ru",
+    "sourceUrl": "https://www.books.ru/books/sakharnyi-rebenok-lyudi-sobytiya-fakty-5232211/",
+    "sourceRecordId": "/books/sakharnyi-rebenok-lyudi-sobytiya-fakty-5232211/",
+    "officialTitle": "Сахарный ребёнок. Люди. События. Факты",
+    "officialAuthors": [
+      "Ольга Громова"
+    ],
+    "publisher": "КомпасГид",
+    "pages": 2020,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "exact_isbn",
+      "confidence": 1,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": true,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "nen-bv2-018",
+    "source": "Издательская группа «Азбука-Аттикус»",
+    "sourceUrl": "https://azbooka.ru/books/dauschiy",
+    "sourceRecordId": "/books/dauschiy",
+    "officialTitle": "Дающий",
+    "officialAuthors": [
+      "Лоис Лоури"
+    ],
+    "publisher": "Азбука-Аттикус",
+    "isbn13": "9785389238220",
+    "pages": 256,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "nen-bv2-024",
+    "source": "books.ru",
+    "sourceUrl": "https://www.books.ru/books/ferdinand-4807236/",
+    "sourceRecordId": "/books/ferdinand-4807236/",
+    "officialTitle": "Фердинанд",
+    "officialAuthors": [
+      "Манро Лиф"
+    ],
+    "publisher": "Владос",
+    "pages": 2018,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "exact_isbn",
+      "confidence": 1,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": true,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "nen-bv2-029",
+    "source": "books.ru",
+    "sourceUrl": "https://www.books.ru/books/znaesh-kak-ya-tebya-lyublyu-414006/",
+    "sourceRecordId": "/books/znaesh-kak-ya-tebya-lyublyu-414006/",
+    "officialTitle": "Знаешь, как я тебя люблю?",
+    "officialAuthors": [
+      "Сэм Макбратни"
+    ],
+    "publisher": "Объединенное гуманитарное издательство",
+    "pages": 2006,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "nen-bv2-030",
+    "source": "Национальная электронная библиотека",
+    "sourceUrl": "https://rusneb.ru/catalog/000207_000017_RU___%D0%A0%D0%93%D0%94%D0%91___EK___108734/",
+    "sourceRecordId": "000207_000017_RU___РГДБ___EK___108734",
+    "officialTitle": "Оливия и настоящий оркестр",
+    "officialAuthors": [
+      "Фалконер"
+    ],
+    "publisher": "Махаон",
+    "publicationYear": 2008,
+    "pages": 20,
+    "isbn13": "9785389002722",
+    "language": "ru",
+    "match": {
+      "accepted": true,
+      "strategy": "title_author",
+      "confidence": 0.9899999999999999,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "nen-bv2-033",
+    "source": "books.ru",
+    "sourceUrl": "https://www.books.ru/books/ulitka-i-kit-5209764/",
+    "sourceRecordId": "/books/ulitka-i-kit-5209764/",
+    "officialTitle": "Улитка и Кит",
+    "officialAuthors": [
+      "Джулия Дональдсон"
+    ],
+    "publisher": "Машины Творения",
+    "pages": 2020,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "exact_isbn",
+      "confidence": 1,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": true,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "nen-bv2-034",
+    "source": "books.ru",
+    "sourceUrl": "https://www.books.ru/books/tyulka-malenkaya-rybka-i-bolshaya-vydumshchitsa-stikhi-1537618/",
+    "sourceRecordId": "/books/tyulka-malenkaya-rybka-i-bolshaya-vydumshchitsa-stikhi-1537618/",
+    "officialTitle": "Тюлька. Маленькая рыбка и большая выдумщица: стихи",
+    "officialAuthors": [
+      "Джулия Дональдсон"
+    ],
+    "publisher": "Машины Творения",
+    "pages": 2011,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "exact_isbn",
+      "confidence": 1,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": true,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "nen-bv2-035",
+    "source": "Издательство «Поляндрия»",
+    "sourceUrl": "https://www.polyandria.ru/catalog/3-7/den-kogda-ya-vstretil-kita/",
+    "sourceRecordId": "/catalog/3-7/den-kogda-ya-vstretil-kita/",
+    "officialTitle": "День, когда я встретил кита",
+    "officialAuthors": [
+      "Бенджи Дэвис"
+    ],
+    "publisher": "Поляндрия",
+    "isbn13": "9785604148464",
+    "match": {
+      "strategy": "title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "nen-bv2-037",
+    "source": "Национальная электронная библиотека",
+    "sourceUrl": "https://rusneb.ru/catalog/000201_000064_742596/",
+    "sourceRecordId": "000201_000064_742596",
+    "officialTitle": "Квак и Жаб снова вместе",
+    "officialAuthors": [
+      "Лобел, Арнольд"
+    ],
+    "publisher": "Розовый жираф",
+    "publicationYear": 2009,
+    "pages": 64,
+    "seriesName": "Я читаю сам",
+    "isbn13": "9785903497102",
+    "language": "Лезгинский",
+    "match": {
+      "accepted": true,
+      "strategy": "title_author",
+      "confidence": 0.9899999999999999,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "nen-bv2-065",
+    "source": "Национальная электронная библиотека",
+    "sourceUrl": "https://rusneb.ru/catalog/000199_000009_001849443/",
+    "sourceRecordId": "000199_000009_001849443",
+    "officialTitle": "Мэри Поппинс Сказоч. повесть",
+    "officialAuthors": [
+      "Трэверс П.Л."
+    ],
+    "publisher": "АСТ, Астрель",
+    "publicationYear": 2003,
+    "pages": 350,
+    "seriesName": "Любимое чтение",
+    "language": "ru",
+    "match": {
+      "accepted": true,
+      "strategy": "title_author",
+      "confidence": 0.9899999999999999,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "nen-bv2-081",
+    "source": "Издательство «Эксмо»",
+    "sourceUrl": "https://eksmo.ru/book/skazki-po-telefonu-ITD185586/",
+    "sourceRecordId": "/book/skazki-po-telefonu-ITD185586/",
+    "officialTitle": "Сказки по телефону",
+    "officialAuthors": [
+      "Джанни Родари"
+    ],
+    "publisher": "Эксмо",
+    "isbn13": "9785699546909",
+    "match": {
+      "strategy": "title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "nen-bv2-084",
+    "source": "Национальная электронная библиотека",
+    "sourceUrl": "https://rusneb.ru/catalog/000199_000009_010530268/",
+    "sourceRecordId": "000199_000009_010530268",
+    "officialTitle": "Голубая бусинка : для детей младшего школьного возраста : 6+",
+    "officialAuthors": [
+      "Крюгер М.Л."
+    ],
+    "publisher": "Розовый жираф",
+    "publicationYear": 2021,
+    "pages": 181,
+    "isbn13": "9785437003053",
+    "language": "ru",
+    "match": {
+      "accepted": true,
+      "strategy": "title_author",
+      "confidence": 0.9899999999999999,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "nen-bv2-086",
+    "source": "Национальная электронная библиотека",
+    "sourceUrl": "https://rusneb.ru/catalog/000200_000018_RU_NLR_BIBL_A_012709145/",
+    "sourceRecordId": "000200_000018_RU_NLR_BIBL_A_012709145",
+    "officialTitle": "Лев, колдунья и платяной шкаф: для дошкольного возраста для чтения взрослыми детям",
+    "officialAuthors": [
+      "Клайв Стейплз Льюис"
+    ],
+    "publisher": "Эксмо",
+    "publicationYear": 2021,
+    "pages": 149,
+    "seriesName": "Коллекция сказок",
+    "language": "ru",
+    "match": {
+      "accepted": true,
+      "strategy": "title_author",
+      "confidence": 0.9899999999999999,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "nen-bv2-088",
+    "source": "Издательство «Эксмо»",
+    "sourceUrl": "https://eksmo.ru/book/persi-dzhekson-i-pokhititel-molniy-1-drugoe-oformlenie-ITD1265825/",
+    "sourceRecordId": "/book/persi-dzhekson-i-pokhititel-molniy-1-drugoe-oformlenie-ITD1265825/",
+    "officialTitle": "Перси Джексон и похититель молний (#1)",
+    "officialAuthors": [
+      "Рик Риордан"
+    ],
+    "publisher": "Эксмо",
+    "isbn13": "9785041662172",
+    "pages": 512,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "nen-bv2-090",
+    "source": "book24.ru",
+    "sourceUrl": "https://book24.ru/product/istoriya-s-kladbishchem-2927196/",
+    "sourceRecordId": "/product/istoriya-s-kladbishchem-2927196/",
+    "officialTitle": "Гейман Нил: История с кладбищем",
+    "officialAuthors": [
+      "Нил Гейман"
+    ],
+    "publisher": "СТ",
+    "pages": 288,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "exact_isbn",
+      "confidence": 1,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": true,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "nen-bv2-092",
+    "source": "Национальная электронная библиотека",
+    "sourceUrl": "https://rusneb.ru/catalog/004034_000032_PEGUB-RU_%D0%9F%D0%B5%D1%80%D0%BC%D1%81%D0%BA%D0%B0%D1%8F+%D0%93%D0%9E%D0%A3%D0%91_0000092339/",
+    "sourceRecordId": "004034_000032_PEGUB-RU_Пермская+ГОУБ_0000092339",
+    "officialTitle": "БДВ или Большой и Добрый ВЕЛИКАН / Роальд Даль ; [пер. с англ. И. Шишковой ; ил. Квентина Блейка]",
+    "officialAuthors": [
+      "Даль Р."
+    ],
+    "publicationYear": 2005,
+    "match": {
+      "accepted": true,
+      "strategy": "title_author",
+      "confidence": 0.9899999999999999,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "nen-bv2-101",
+    "source": "books.ru",
+    "sourceUrl": "https://www.books.ru/books/beskonechnaya-istoriya-720969/",
+    "sourceRecordId": "/books/beskonechnaya-istoriya-720969/",
+    "officialTitle": "Бесконечная История",
+    "officialAuthors": [
+      "Михаэль Энде"
+    ],
+    "isbn13": "9785367011869",
+    "pages": 2009,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "exact_isbn",
+      "confidence": 1,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": true,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "nen-bv2-105",
+    "source": "Национальная электронная библиотека",
+    "sourceUrl": "https://rusneb.ru/catalog/000199_000009_007500810/",
+    "sourceRecordId": "000199_000009_007500810",
+    "officialTitle": "Тоби Лолнесс [Текст] : [для среднего и старшего школьного возраста : в 2 кн. : 6+] / Тимоте де Фомбель ; [ил. Франсуа Пласа] ; пер. с фр. Екатерины Кожевниковой Кн. 2",
+    "officialAuthors": [
+      "Фомбель Тимоте де (1973-)"
+    ],
+    "publicationYear": 2014,
+    "pages": 329,
+    "isbn13": "9785905876851",
+    "language": "ru",
+    "match": {
+      "accepted": true,
+      "strategy": "title_author",
+      "confidence": 0.9899999999999999,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "nen-bv2-116",
+    "source": "Издательская группа «Азбука-Аттикус»",
+    "sourceUrl": "https://azbooka.ru/books/malchik-so-shpagoy",
+    "sourceRecordId": "/books/malchik-so-shpagoy",
+    "officialTitle": "Мальчик со шпагой",
+    "officialAuthors": [
+      "Владислав Крапивин"
+    ],
+    "publisher": "Азбука-Аттикус",
+    "isbn13": "9785389203952",
+    "pages": 448,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "nen-bv2-125",
+    "source": "Национальная электронная библиотека",
+    "sourceUrl": "https://rusneb.ru/catalog/000201_000010_BJVVV1211453/",
+    "sourceRecordId": "000201_000010_BJVVV1211453",
+    "officialTitle": "Мировой детский бестселлер Ямы: Роман: Для среднего и старшего школьного возраста",
+    "officialAuthors": [
+      "Сашар Луис"
+    ],
+    "publisher": "РОСМЭН",
+    "publicationYear": 2004,
+    "pages": 263,
+    "seriesName": "Мировой детский бестселлер",
+    "match": {
+      "accepted": true,
+      "strategy": "title_author",
+      "confidence": 0.9899999999999999,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "nen-bv2-126",
+    "source": "Издательская группа «Азбука-Аттикус»",
+    "sourceUrl": "https://azbooka.ru/books/spasibo-uinn-diksi-sbdy",
+    "sourceRecordId": "/books/spasibo-uinn-diksi-sbdy",
+    "officialTitle": "Спасибо Уинн-Дикси",
+    "officialAuthors": [
+      "Кейт ДиКамилло"
+    ],
+    "publisher": "Азбука-Аттикус",
+    "isbn13": "9785389036048",
+    "pages": 176,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false,
+      "currentPublisherMatch": true
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "nen-bv2-127",
+    "source": "Национальная электронная библиотека",
+    "sourceUrl": "https://rusneb.ru/catalog/000199_000009_014249136/",
+    "sourceRecordId": "000199_000009_014249136",
+    "officialTitle": "Дикий робот на острове [для чтения взрослыми детям : 0+]",
+    "officialAuthors": [
+      "Браун Питер Роберт Ламонт"
+    ],
+    "publisher": "МИФ",
+    "publicationYear": 2026,
+    "pages": 43,
+    "seriesName": "МИФ. Книги-события",
+    "isbn13": "9785002507672",
+    "language": "ru",
+    "match": {
+      "accepted": true,
+      "strategy": "title_author",
+      "confidence": 0.9899999999999999,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "nen-bv2-139",
+    "source": "Национальная электронная библиотека",
+    "sourceUrl": "https://rusneb.ru/catalog/000199_000009_011895755/",
+    "sourceRecordId": "000199_000009_011895755",
+    "officialTitle": "Говори : графический роман : 18+",
+    "officialAuthors": [
+      "Андерсон Л.Х."
+    ],
+    "publisher": "Popcorn books",
+    "publicationYear": 2023,
+    "pages": 384,
+    "seriesName": "Серия REBEL",
+    "isbn13": "9785604785911",
+    "language": "ru",
+    "match": {
+      "accepted": true,
+      "strategy": "title_author",
+      "confidence": 0.9899999999999999,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "nen-053",
+    "source": "Издательство «Поляндрия»",
+    "sourceUrl": "https://www.polyandria.ru/catalog/0-3/sovyata-zhdut-mamu/",
+    "sourceRecordId": "/catalog/0-3/sovyata-zhdut-mamu/",
+    "officialTitle": "Совята ждут маму",
+    "officialAuthors": [
+      "Мартин Уодделл"
+    ],
+    "publisher": "Поляндрия",
+    "isbn13": "9785604066232",
+    "match": {
+      "strategy": "title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "nen-060",
+    "source": "Издательство «Самокат»",
+    "sourceUrl": "https://samokatbook.ru/book/komissar-gordon-pervoe-delo/",
+    "sourceRecordId": "/book/komissar-gordon-pervoe-delo/",
+    "officialTitle": "Комиссар Гордон. Первое дело",
+    "officialAuthors": [
+      "Ульф Нильсон"
+    ],
+    "publisher": "Самокат",
+    "match": {
+      "strategy": "title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "nen-bv2-015",
+    "source": "Издательство «Самокат»",
+    "sourceUrl": "https://samokatbook.ru/book/utka-smert-i-tyulpan/",
+    "sourceRecordId": "/book/utka-smert-i-tyulpan/",
+    "officialTitle": "Утка, смерть и тюльпан",
+    "officialAuthors": [
+      "Вольф Эрльбрух"
+    ],
+    "publisher": "Самокат",
+    "isbn13": "9785001670469",
+    "match": {
+      "strategy": "exact_isbn",
+      "confidence": 1,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": true
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "curated-nen-collection-samoe-pervoe-novogodnee-derevo-ovila-fonten",
+    "source": "Издательство «Белая ворона»",
+    "sourceUrl": "https://albuscorvus.ru/product/samoe-pervoe-novogodnee-derevo/",
+    "sourceRecordId": "/product/samoe-pervoe-novogodnee-derevo/",
+    "officialTitle": "Самое первое новогоднее&nbsp;дерево",
+    "officialAuthors": [
+      "Овила Фонтен"
+    ],
+    "publisher": "Белая ворона",
+    "match": {
+      "strategy": "title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "curated-nen-collection-gnom-i-lis-astrid-lindgren",
+    "source": "Издательство «Белая ворона»",
+    "sourceUrl": "https://albuscorvus.ru/product/gnom-i-lis/",
+    "sourceRecordId": "/product/gnom-i-lis/",
+    "officialTitle": "Гном и&nbsp;лис",
+    "officialAuthors": [
+      "Астрид Линдгрен"
+    ],
+    "publisher": "Белая ворона",
+    "match": {
+      "strategy": "title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "ol-ol13727592w",
+    "source": "Издательство «АСТ»",
+    "sourceUrl": "https://ast.ru/book/tryam-zdravstvuyte-899585/",
+    "sourceRecordId": "/book/tryam-zdravstvuyte-899585/",
+    "officialTitle": "Трям! Здравствуйте!",
+    "officialAuthors": [
+      "Сергей Козлов"
+    ],
+    "publisher": "АСТ",
+    "isbn13": "9785171871567",
+    "pages": 64,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "ol-ol24260394w",
+    "source": "Издательство «АСТ»",
+    "sourceUrl": "https://ast.ru/book/detki-v-kletke-888585/",
+    "sourceRecordId": "/book/detki-v-kletke-888585/",
+    "officialTitle": "Детки в клетке",
+    "officialAuthors": [
+      "Самуил Маршак"
+    ],
+    "publisher": "АСТ",
+    "isbn13": "9785171735982",
+    "pages": 12,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "ol-ol4360095w",
+    "source": "Издательство «АСТ»",
+    "sourceUrl": "https://ast.ru/book/byuro-lesnykh-uslug-868110/",
+    "sourceRecordId": "/book/byuro-lesnykh-uslug-868110/",
+    "officialTitle": "Бюро лесных услуг",
+    "officialAuthors": [
+      "Н. Сладков"
+    ],
+    "publisher": "АСТ",
+    "isbn13": "9785171517809",
+    "pages": 112,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "ol-ol19935962w",
+    "source": "Издательство «АСТ»",
+    "sourceUrl": "https://ast.ru/book/tigr-v-kletochku-skazki-879072/",
+    "sourceRecordId": "/book/tigr-v-kletochku-skazki-879072/",
+    "officialTitle": "Тигр в клеточку. Сказки",
+    "officialAuthors": [
+      "Андрей Усачёв"
+    ],
+    "publisher": "АСТ",
+    "isbn13": "9785171623517",
+    "pages": 72,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "ol-ol13727588w",
+    "source": "Издательство «АСТ»",
+    "sourceUrl": "https://ast.ru/book/kak-lvyenok-i-cherepakha-peli-pesnyu-878431/",
+    "sourceRecordId": "/book/kak-lvyenok-i-cherepakha-peli-pesnyu-878431/",
+    "officialTitle": "Как Львёнок и Черепаха пели песню. Союзмультфильм",
+    "officialAuthors": [
+      "Сергей Козлов"
+    ],
+    "publisher": "АСТ",
+    "isbn13": "9785171618070",
+    "pages": 48,
+    "seriesName": "коллекция СОЮЗМУЛЬТФИЛЬМА",
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "ol-ol13727593w",
+    "source": "Издательство «Стрекоза»",
+    "sourceUrl": "https://strecoza.ru/product/ezhik-v-tumane-biblioteka-shkolnika/",
+    "sourceRecordId": "/product/ezhik-v-tumane-biblioteka-shkolnika/",
+    "officialTitle": "Ежик в тумане. Библиотека школьника",
+    "officialAuthors": [
+      "Сергей Козлов"
+    ],
+    "publisher": "Стрекоза",
+    "isbn13": "9785995158554",
+    "pages": 64,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "ol-ol20043983w",
+    "source": "Издательство «АСТ»",
+    "sourceUrl": "https://ast.ru/book/besprizornaya-koshka-724732/",
+    "sourceRecordId": "/book/besprizornaya-koshka-724732/",
+    "officialTitle": "Беспризорная кошка",
+    "officialAuthors": [
+      "Борис Житков"
+    ],
+    "publisher": "АСТ",
+    "isbn13": "9785170986385",
+    "pages": 192,
+    "seriesName": "ассказы о живой природе с вопросами и ответами для почемучек",
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "exact_isbn",
+      "confidence": 1,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": true,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "ol-ol43308391w",
+    "source": "Издательская группа «Азбука-Аттикус»",
+    "sourceUrl": "https://azbooka.ru/books/priklucheniya-vasi-kyrolesova-nedopesok-ill-g-kalinovskiy-iu-koval-r-varshamov",
+    "sourceRecordId": "/books/priklucheniya-vasi-kyrolesova-nedopesok-ill-g-kalinovskiy-iu-koval-r-varshamov",
+    "officialTitle": "Приключения Васи Куролесова. Недопёсок (илл. Г. Калиновского, Ю. Коваля, Р. Варшамова)",
+    "officialAuthors": [
+      "Юрий Коваль",
+      "Илья Бернштейн",
+      "Р. Лейбов",
+      "О. А. Лекманов",
+      "Евгения Двоскина"
+    ],
+    "publisher": "Азбука-Аттикус",
+    "isbn13": "9785389249011",
+    "pages": 832,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "ol-ol19938773w",
+    "source": "Издательство «АСТ»",
+    "sourceUrl": "https://ast.ru/book/vse-luchshie-rasskazy-o-zhivotnyh-897067/",
+    "sourceRecordId": "/book/vse-luchshie-rasskazy-o-zhivotnyh-897067/",
+    "officialTitle": "Все лучшие рассказы о животных",
+    "officialAuthors": [
+      "Михаил Михайлович Пришвин"
+    ],
+    "publisher": "АСТ",
+    "isbn13": "9785171840846",
+    "pages": 320,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "ol-ol19938770w",
+    "source": "Издательство «АСТ»",
+    "sourceUrl": "https://ast.ru/book/vesyelaya-semeyka-povest-i-rasskazy-827420/",
+    "sourceRecordId": "/book/vesyelaya-semeyka-povest-i-rasskazy-827420/",
+    "officialTitle": "Весёлая семейка. Повесть и рассказы",
+    "officialAuthors": [
+      "Николай Носов"
+    ],
+    "publisher": "АСТ",
+    "isbn13": "9785171009465",
+    "pages": 336,
+    "seriesName": "истории",
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "ol-ol42201958w",
+    "source": "Издательство «АСТ»",
+    "sourceUrl": "https://ast.ru/book/yezhik-v-tumane-skazki-863394/",
+    "sourceRecordId": "/book/yezhik-v-tumane-skazki-863394/",
+    "officialTitle": "Ёжик в тумане. Сказки",
+    "officialAuthors": [
+      "Юрий Норштейн"
+    ],
+    "publisher": "АСТ",
+    "isbn13": "9785171472498",
+    "pages": 144,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "ol-ol19734610w",
+    "source": "Издательство «Эксмо»",
+    "sourceUrl": "https://eksmo.ru/book/zayushkina-izbushka-panoramki-ITD826661/",
+    "sourceRecordId": "/book/zayushkina-izbushka-panoramki-ITD826661/",
+    "officialTitle": "Заюшкина избушка",
+    "officialAuthors": [
+      "Н. И. Котятова",
+      "Т. В. Баринова"
+    ],
+    "publisher": "Эксмо",
+    "isbn13": "9785699915538",
+    "publicationYear": 2017,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false,
+      "currentPublisherMatch": false,
+      "selectedEditionYear": 2017
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "ol-ol62648w",
+    "source": "Издательство «АСТ»",
+    "sourceUrl": "https://ast.ru/book/syn-polka-beleet-parus-odinokiy-862323/",
+    "sourceRecordId": "/book/syn-polka-beleet-parus-odinokiy-862323/",
+    "officialTitle": "Сын полка. Белеет парус одинокий",
+    "officialAuthors": [
+      "Валентин Петрович Катаев"
+    ],
+    "publisher": "АСТ",
+    "isbn13": "9785171462642",
+    "pages": 544,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "ol-ol10337735w",
+    "source": "Издательство «АСТ»",
+    "sourceUrl": "https://ast.ru/book/skazki-v-kartinkah-901095/",
+    "sourceRecordId": "/book/skazki-v-kartinkah-901095/",
+    "officialTitle": "Сказки в картинках",
+    "officialAuthors": [
+      "Корней Иванович Чуковский"
+    ],
+    "publisher": "АСТ",
+    "isbn13": "9785171889739",
+    "pages": 160,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "ol-ol45039050w",
+    "source": "Издательство «АСТ»",
+    "sourceUrl": "https://ast.ru/book/skazki-pesni-zagadki-171906/",
+    "sourceRecordId": "/book/skazki-pesni-zagadki-171906/",
+    "officialTitle": "Сказки. Песни. Загадки",
+    "officialAuthors": [
+      "Самуил Маршак",
+      "Владимир Васильевич Лебедев"
+    ],
+    "publisher": "АСТ",
+    "isbn13": "9785170870233",
+    "pages": 200,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "ol-ol2140895w",
+    "source": "Издательство «АСТ»",
+    "sourceUrl": "https://ast.ru/book/stikhi-i-skazki-833941/",
+    "sourceRecordId": "/book/stikhi-i-skazki-833941/",
+    "officialTitle": "Стихи и сказки",
+    "officialAuthors": [
+      "Борис Владимирович Заходер"
+    ],
+    "publisher": "АСТ",
+    "isbn13": "9785171061067",
+    "pages": 64,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "ol-ol19973701w",
+    "source": "Издательство «Эксмо»",
+    "sourceUrl": "https://eksmo.ru/book/priklyucheniya-vasi-kurolesova-st-kor-ITD192971/",
+    "sourceRecordId": "/book/priklyucheniya-vasi-kurolesova-st-kor-ITD192971/",
+    "officialTitle": "Приключения Васи Куролесова (ст. изд.)",
+    "officialAuthors": [
+      "Юрий Коваль"
+    ],
+    "publisher": "Эксмо",
+    "isbn13": "9785699564736",
+    "publicationYear": 2013,
+    "pages": 120,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false,
+      "currentPublisherMatch": false,
+      "selectedEditionYear": 2013
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "ol-ol11130081w",
+    "source": "Издательская группа «Азбука-Аттикус»",
+    "sourceUrl": "https://azbooka.ru/books/volshebnoe-koltso",
+    "sourceRecordId": "/books/volshebnoe-koltso",
+    "officialTitle": "Волшебное кольцо (илл)",
+    "officialAuthors": [
+      "Андрей Платонович Платонов"
+    ],
+    "publisher": "Азбука-Аттикус",
+    "isbn13": "9785389222052",
+    "pages": 160,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "ol-ol33286452w",
+    "source": "Издательство «АСТ»",
+    "sourceUrl": "https://ast.ru/book/skazki-a-s-pushkin-724475/",
+    "sourceRecordId": "/book/skazki-a-s-pushkin-724475/",
+    "officialTitle": "Сказки. А.С.Пушкин",
+    "officialAuthors": [
+      "Александр Сергеевич Пушкин"
+    ],
+    "publisher": "АСТ",
+    "isbn13": "9785170982899",
+    "pages": 96,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "ol-ol20030854w",
+    "source": "Издательство «Эксмо»",
+    "sourceUrl": "https://eksmo.ru/book/volk-i-kozlyata-ITD238697/",
+    "sourceRecordId": "/book/volk-i-kozlyata-ITD238697/",
+    "officialTitle": "Волк и козлята",
+    "officialAuthors": [
+      "А. Н. Афанасьев"
+    ],
+    "publisher": "Эксмо",
+    "isbn13": "9785699628490",
+    "publicationYear": 2013,
+    "pages": 10,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false,
+      "currentPublisherMatch": false,
+      "selectedEditionYear": 2013
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "ol-ol13710817w",
+    "source": "Издательство «АСТ»",
+    "sourceUrl": "https://ast.ru/book/skazki-starinnogo-goroda-168763/",
+    "sourceRecordId": "/book/skazki-starinnogo-goroda-168763/",
+    "officialTitle": "Сказки старинного города",
+    "officialAuthors": [
+      "Г. Цыферов"
+    ],
+    "publisher": "АСТ",
+    "isbn13": "9785170865437",
+    "pages": 88,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "ol-ol1897363w",
+    "source": "Издательство «АСТ»",
+    "sourceUrl": "https://ast.ru/book/vesyeloe-puteshestvie-ot-a-do-ya-stikhi-873315/",
+    "sourceRecordId": "/book/vesyeloe-puteshestvie-ot-a-do-ya-stikhi-873315/",
+    "officialTitle": "Весёлое путешествие от \"А\" до \"Я\". Стихи",
+    "officialAuthors": [
+      "Самуил Маршак"
+    ],
+    "publisher": "АСТ",
+    "isbn13": "9785171567439",
+    "pages": 192,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "ol-ol45531935w",
+    "source": "Издательство «АСТ»",
+    "sourceUrl": "https://ast.ru/book/tikhaya-skazka-873311/",
+    "sourceRecordId": "/book/tikhaya-skazka-873311/",
+    "officialTitle": "Тихая сказка",
+    "officialAuthors": [
+      "Самуил Маршак",
+      "Владимир Васильевич Лебедев"
+    ],
+    "publisher": "АСТ",
+    "isbn13": "9785171567392",
+    "pages": 24,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "ol-ol623482w",
+    "source": "Издательство «Эксмо»",
+    "sourceUrl": "https://eksmo.ru/book/skazka-o-rybake-i-rybke-ITD86660/",
+    "sourceRecordId": "/book/skazka-o-rybake-i-rybke-ITD86660/",
+    "officialTitle": "Сказка о рыбаке и рыбке",
+    "officialAuthors": [
+      "Александр Сергеевич Пушкин"
+    ],
+    "publisher": "Эксмо",
+    "isbn13": "9785699508303",
+    "publicationYear": 2011,
+    "pages": 41,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false,
+      "currentPublisherMatch": false,
+      "selectedEditionYear": 2011
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "ol-ol33497304w",
+    "source": "Издательская группа «Азбука-Аттикус»",
+    "sourceUrl": "https://azbooka.ru/books/skazka-o-tsare-saltane",
+    "sourceRecordId": "/books/skazka-o-tsare-saltane",
+    "officialTitle": "Сказка о царе Салтане",
+    "officialAuthors": [
+      "Александр Сергеевич Пушкин"
+    ],
+    "publisher": "Азбука-Аттикус",
+    "isbn13": "9785389327719",
+    "pages": 96,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "ol-ol19940427w",
+    "source": "Издательская группа «Азбука-Аттикус»",
+    "sourceUrl": "https://azbooka.ru/books/kotenok-po-imeni-gav-sxul",
+    "sourceRecordId": "/books/kotenok-po-imeni-gav-sxul",
+    "officialTitle": "Котенок по имени Гав (Люблю читать. Книги для первого самостоятельного чтения)",
+    "officialAuthors": [
+      "Григорий Остер"
+    ],
+    "publisher": "Азбука-Аттикус",
+    "isbn13": "9785389333949",
+    "pages": 80,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "ol-ol669163w",
+    "source": "Издательство «АСТ»",
+    "sourceUrl": "https://ast.ru/book/alisa-seleznyeva-i-koroleva-piratov-na-planete-skazok-847965/",
+    "sourceRecordId": "/book/alisa-seleznyeva-i-koroleva-piratov-na-planete-skazok-847965/",
+    "officialTitle": "Алиса Селезнёва и Королева пиратов на Планете сказок",
+    "officialAuthors": [
+      "К. Булычев"
+    ],
+    "publisher": "АСТ",
+    "isbn13": "9785171195687",
+    "pages": 64,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "ol-ol13363741w",
+    "source": "Издательство «Детская литература»",
+    "sourceUrl": "https://detlit.ru/veseloe-moreplavanie-solnyshkina-ru/",
+    "sourceRecordId": "/veseloe-moreplavanie-solnyshkina-ru/",
+    "officialTitle": "Коржиков В.Т. Весёлое мореплавание Солнышкина (эл. книга)",
+    "officialAuthors": [
+      "Виталий Коржиков"
+    ],
+    "publisher": "Детская литература",
+    "publicationYear": 2020,
+    "pages": 174,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false,
+      "currentPublisherMatch": false,
+      "selectedEditionYear": 2020
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "ol-ol10339227w",
+    "source": "Издательство «АСТ»",
+    "sourceUrl": "https://ast.ru/book/tri-porosyenka-skazki-866157/",
+    "sourceRecordId": "/book/tri-porosyenka-skazki-866157/",
+    "officialTitle": "Три поросёнка. Сказки",
+    "officialAuthors": [
+      "Сергей Владимирович Михалков"
+    ],
+    "publisher": "АСТ",
+    "isbn13": "9785171498214",
+    "pages": 96,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "ol-ol1249152w",
+    "source": "Издательство «АСТ»",
+    "sourceUrl": "https://ast.ru/book/malakhitovaya-shkatulka-711295/",
+    "sourceRecordId": "/book/malakhitovaya-shkatulka-711295/",
+    "officialTitle": "Малахитовая шкатулка",
+    "officialAuthors": [
+      "Павел Бажов"
+    ],
+    "publisher": "АСТ",
+    "isbn13": "9785170908134",
+    "pages": 320,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "ol-ol19978404w",
+    "source": "Издательство «АСТ»",
+    "sourceUrl": "https://ast.ru/book/ognennyy-bog-marranov-139492/",
+    "sourceRecordId": "/book/ognennyy-bog-marranov-139492/",
+    "officialTitle": "Огненный бог Марранов",
+    "officialAuthors": [
+      "А. Волков"
+    ],
+    "publisher": "АСТ",
+    "isbn13": "9785170814015",
+    "pages": 256,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "ol-ol2189783w",
+    "source": "Издательство «АСТ»",
+    "sourceUrl": "https://ast.ru/book/neznayka-na-lune-837886/",
+    "sourceRecordId": "/book/neznayka-na-lune-837886/",
+    "officialTitle": "Незнайка на Луне",
+    "officialAuthors": [
+      "Николай Носов"
+    ],
+    "publisher": "АСТ",
+    "isbn13": "9785171098254",
+    "pages": 512,
+    "seriesName": "детям",
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "ol-ol12822142w",
+    "source": "Издательство «Эксмо»",
+    "sourceUrl": "https://eksmo.ru/book/ya-na-oblake-letal-st-kor-ITD198756/",
+    "sourceRecordId": "/book/ya-na-oblake-letal-st-kor-ITD198756/",
+    "officialTitle": "Я на облаке летал (ст. изд.)",
+    "officialAuthors": [
+      "Михаил Спартакович Пляцковский"
+    ],
+    "publisher": "Эксмо",
+    "isbn13": "9785699571611",
+    "pages": 80,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "ol-ol667419w",
+    "source": "Издательская группа «Азбука-Аттикус»",
+    "sourceUrl": "https://azbooka.ru/books/vrednye-sovety",
+    "sourceRecordId": "/books/vrednye-sovety",
+    "officialTitle": "Вредные советы (твердый)",
+    "officialAuthors": [
+      "Григорий Остер"
+    ],
+    "publisher": "Азбука-Аттикус",
+    "isbn13": "9785389327771",
+    "pages": 80,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "ol-ol11037508w",
+    "source": "Издательство «АСТ»",
+    "sourceUrl": "https://ast.ru/book/kysh-dva-portfelya-i-tselaya-nedelya-865159/",
+    "sourceRecordId": "/book/kysh-dva-portfelya-i-tselaya-nedelya-865159/",
+    "officialTitle": "Кыш, Два портфеля и целая неделя",
+    "officialAuthors": [
+      "Юз Алешковский"
+    ],
+    "publisher": "АСТ",
+    "isbn13": "9785171489755",
+    "pages": 288,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "ol-ol13749472w",
+    "source": "Издательство «АСТ»",
+    "sourceUrl": "https://ast.ru/book/byuro-nakhodok-881072/",
+    "sourceRecordId": "/book/byuro-nakhodok-881072/",
+    "officialTitle": "Бюро находок",
+    "officialAuthors": [
+      "Сергей Иванов"
+    ],
+    "publisher": "АСТ",
+    "isbn13": "9785171639761",
+    "pages": 144,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "ol-ol669185w",
+    "source": "Издательство «АСТ»",
+    "sourceUrl": "https://ast.ru/book/voyna-s-liliputami-009620/",
+    "sourceRecordId": "/book/voyna-s-liliputami-009620/",
+    "officialTitle": "Война с лилипутами",
+    "officialAuthors": [
+      "К. Булычев"
+    ],
+    "publisher": "АСТ",
+    "isbn13": "9785170385867",
+    "pages": 432,
+    "seriesName": "ное чтение.",
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "ol-ol40738595w",
+    "source": "Издательство «АСТ»",
+    "sourceUrl": "https://ast.ru/book/zagadki-russkogo-naroda-892091/",
+    "sourceRecordId": "/book/zagadki-russkogo-naroda-892091/",
+    "officialTitle": "Загадки русского народа",
+    "officialAuthors": [
+      "Корней Чуковский"
+    ],
+    "publisher": "АСТ",
+    "isbn13": "9785171779245",
+    "pages": 448,
+    "seriesName": "контекст",
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "ol-ol19931868w",
+    "source": "Издательство «Детская литература»",
+    "sourceUrl": "https://detlit.ru/shb-tolstoy-l-basni-skazki-rasskazy/",
+    "sourceRecordId": "/shb-tolstoy-l-basni-skazki-rasskazy/",
+    "officialTitle": "ШБ Толстой Л. Басни, сказки, рассказы",
+    "officialAuthors": [
+      "Сергей Владимирович Михалков"
+    ],
+    "publisher": "Детская литература",
+    "isbn13": "9785080054150",
+    "publicationYear": 2026,
+    "pages": 158,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false,
+      "currentPublisherMatch": false,
+      "selectedEditionYear": 2026
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "ol-ol12689689w",
+    "source": "Издательство «АСТ»",
+    "sourceUrl": "https://ast.ru/book/tetradki-pod-dozhdem-043991/",
+    "sourceRecordId": "/book/tetradki-pod-dozhdem-043991/",
+    "officialTitle": "Тетрадки под дождем",
+    "officialAuthors": [
+      "Виктор Голявкин"
+    ],
+    "publisher": "АСТ",
+    "isbn13": "9785170261598",
+    "pages": 400,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "ol-ol33098425w",
+    "source": "Издательство «АСТ»",
+    "sourceUrl": "https://ast.ru/book/usatyy-polosatyy-risunki-v-lebedeva-890093/",
+    "sourceRecordId": "/book/usatyy-polosatyy-risunki-v-lebedeva-890093/",
+    "officialTitle": "Усатый-полосатый. Рисунки В. Лебедева",
+    "officialAuthors": [
+      "Самуил Маршак"
+    ],
+    "publisher": "АСТ",
+    "isbn13": "9785171755942",
+    "pages": 16,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "ol-ol13663632w",
+    "source": "Издательство «Эксмо»",
+    "sourceUrl": "https://eksmo.ru/book/pro-popugaya-keshu-i-drugie-istorii-43069159/",
+    "sourceRecordId": "/book/pro-popugaya-keshu-i-drugie-istorii-43069159/",
+    "officialTitle": "Про попугая Кешу и другие истории",
+    "officialAuthors": [
+      "Александр Ефимович Курляндский"
+    ],
+    "publisher": "Эксмо",
+    "isbn13": "9785699387243",
+    "publicationYear": 2006,
+    "pages": 608,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.95,
+      "titleScore": 0.8,
+      "authorMatch": true,
+      "isbnExact": false,
+      "currentPublisherMatch": false,
+      "selectedEditionYear": 2006
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "ol-ol13713540w",
+    "source": "Издательство «АСТ»",
+    "sourceUrl": "https://ast.ru/book/pro-devochku-veru-i-obezyanku-anfisu-830360/",
+    "sourceRecordId": "/book/pro-devochku-veru-i-obezyanku-anfisu-830360/",
+    "officialTitle": "Про девочку Веру и обезьянку Анфису",
+    "officialAuthors": [
+      "Едуард Успенский"
+    ],
+    "publisher": "АСТ",
+    "isbn13": "9785171037536",
+    "pages": 64,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "ol-ol19952245w",
+    "source": "Издательство «АСТ»",
+    "sourceUrl": "https://ast.ru/book/sorochinskaya-yarmarka-s-illyustratsiyami-gennadiya-spirina-857996/",
+    "sourceRecordId": "/book/sorochinskaya-yarmarka-s-illyustratsiyami-gennadiya-spirina-857996/",
+    "officialTitle": "Сорочинская ярмарка с иллюстрациями Геннадия Спирина",
+    "officialAuthors": [
+      "Николай Васильевич Гоголь"
+    ],
+    "publisher": "АСТ",
+    "isbn13": "9785171371265",
+    "pages": 40,
+    "seriesName": "отечественной иллюстрации",
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "ol-ol19940648w",
+    "source": "Издательство «АСТ»",
+    "sourceUrl": "https://ast.ru/book/luchshie-rasskazy-dlya-detey-875375/",
+    "sourceRecordId": "/book/luchshie-rasskazy-dlya-detey-875375/",
+    "officialTitle": "Лучшие рассказы для детей",
+    "officialAuthors": [
+      "Борис Житков"
+    ],
+    "publisher": "АСТ",
+    "isbn13": "9785171587567",
+    "pages": 64,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "nen-023",
+    "source": "Издательство «Белая ворона»",
+    "sourceUrl": "https://albuscorvus.ru/product/davaj-poedem-v-unalashku/",
+    "sourceRecordId": "/product/davaj-poedem-v-unalashku/",
+    "officialTitle": "Давай поедем в&nbsp;Уналашку",
+    "officialAuthors": [
+      "Анна Красильщик"
+    ],
+    "publisher": "Белая ворона",
+    "pages": 160,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "nen-bv2-066",
+    "source": "Издательская группа «Азбука-Аттикус»",
+    "sourceUrl": "https://azbooka.ru/books/styuart-litl-jov2",
+    "sourceRecordId": "/books/styuart-litl-jov2",
+    "officialTitle": "Стюарт Литл (илл. Евгений Подколзин и др.)",
+    "officialAuthors": [
+      "Элвин Брукс Уайт"
+    ],
+    "publisher": "Азбука-Аттикус",
+    "isbn13": "9785389106901",
+    "pages": 128,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "nen-bv2-077",
+    "source": "Издательство «Самокат»",
+    "sourceUrl": "https://samokatbook.ru/book/dnevnik-kota-ubiytsy-vse-istorii/",
+    "sourceRecordId": "/book/dnevnik-kota-ubiytsy-vse-istorii/",
+    "officialTitle": "Дневник кота-убийцы. Все истории",
+    "officialAuthors": [
+      "Энн Файн"
+    ],
+    "publisher": "Самокат",
+    "pages": 352,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "ol-ol19970113w",
+    "source": "Издательская группа «Азбука-Аттикус»",
+    "sourceUrl": "https://azbooka.ru/books/zagaday-zhelanie-eyqf",
+    "sourceRecordId": "/books/zagaday-zhelanie-eyqf",
+    "officialTitle": "Загадай желание",
+    "officialAuthors": [
+      "Александр Костинский"
+    ],
+    "publisher": "Азбука-Аттикус",
+    "isbn13": "9785389048065",
+    "pages": 48,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "exact_isbn",
+      "confidence": 1,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": true,
+      "currentPublisherMatch": true
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "ol-ol623471w",
+    "source": "Издательская группа «Азбука-Аттикус»",
+    "sourceUrl": "https://azbooka.ru/books/skazka-o-zolotom-petyshke",
+    "sourceRecordId": "/books/skazka-o-zolotom-petyshke",
+    "officialTitle": "Сказка о золотом петушке",
+    "officialAuthors": [
+      "Александр Сергеевич Пушкин"
+    ],
+    "publisher": "Азбука-Аттикус",
+    "isbn13": "9785389219304",
+    "pages": 56,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "ol-ol5787637w",
+    "source": "Издательство «Эксмо»",
+    "sourceUrl": "https://eksmo.ru/book/tayna-zloveshchego-sgovora-ITD239606/",
+    "sourceRecordId": "/book/tayna-zloveshchego-sgovora-ITD239606/",
+    "officialTitle": "Тайна зловещего сговора",
+    "officialAuthors": [
+      "Антон Иванов"
+    ],
+    "publisher": "Эксмо",
+    "isbn13": "9785699630301",
+    "pages": 224,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false,
+      "currentPublisherMatch": true
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "ol-ol2189766w",
+    "source": "Издательство «Эксмо»",
+    "sourceUrl": "https://eksmo.ru/book/rasskazy-skazki-povesti-nov-of--ITD850307/",
+    "sourceRecordId": "/book/rasskazy-skazki-povesti-nov-of--ITD850307/",
+    "officialTitle": "Рассказы. Сказки. Повести",
+    "officialAuthors": [
+      "Николай Носов"
+    ],
+    "publisher": "Эксмо",
+    "isbn13": "9785699958368",
+    "publicationYear": 2017,
+    "pages": 672,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false,
+      "currentPublisherMatch": false,
+      "selectedEditionYear": 2017
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "ol-ol13748004w",
+    "source": "Издательская группа «Азбука-Аттикус»",
+    "sourceUrl": "https://azbooka.ru/books/novye-priklyucheniya-neznayki-ncz1",
+    "sourceRecordId": "/books/novye-priklyucheniya-neznayki-ncz1",
+    "officialTitle": "Новые приключения Незнайки",
+    "officialAuthors": [
+      "Игорь Носов"
+    ],
+    "publisher": "Азбука-Аттикус",
+    "isbn13": "9785389035546",
+    "pages": 320,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "ol-ol13715038w",
+    "source": "Издательство «Эксмо»",
+    "sourceUrl": "https://eksmo.ru/book/professor-kislykh-shchey-il-v-kanivtsa-ITD626367/",
+    "sourceRecordId": "/book/professor-kislykh-shchey-il-v-kanivtsa-ITD626367/",
+    "officialTitle": "Профессор кислых щей (ил. В. Канивца)",
+    "officialAuthors": [
+      "В. Драгунский"
+    ],
+    "publisher": "Эксмо",
+    "isbn13": "9785699825264",
+    "pages": 112,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false,
+      "currentPublisherMatch": true
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "ol-ol13663633w",
+    "source": "Издательская группа «Азбука-Аттикус»",
+    "sourceUrl": "https://azbooka.ru/books/vy-ne-byli-na-taiti-ei1n",
+    "sourceRecordId": "/books/vy-ne-byli-na-taiti-ei1n",
+    "officialTitle": "Вы не были на Таити?",
+    "officialAuthors": [
+      "Александр Ефимович Курляндский"
+    ],
+    "publisher": "Азбука-Аттикус",
+    "isbn13": "9785389021914",
+    "pages": 144,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "ol-ol19987346w",
+    "source": "Издательская группа «Азбука-Аттикус»",
+    "sourceUrl": "https://azbooka.ru/books/khorosho-byt-optimistom",
+    "sourceRecordId": "/books/khorosho-byt-optimistom",
+    "officialTitle": "Хорошо быть оптимистом! (Чтение-лучшее учение)",
+    "officialAuthors": [
+      "Марина Дружинина"
+    ],
+    "publisher": "Азбука-Аттикус",
+    "isbn13": "9785389174993",
+    "pages": 128,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false,
+      "currentPublisherMatch": true
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "ol-ol2223798w",
+    "source": "Издательская группа «Азбука-Аттикус»",
+    "sourceUrl": "https://azbooka.ru/books/uchitel-vranya-njw7",
+    "sourceRecordId": "/books/uchitel-vranya-njw7",
+    "officialTitle": "Учитель вранья",
+    "officialAuthors": [
+      "Марк Харитонов"
+    ],
+    "publisher": "Азбука-Аттикус",
+    "isbn13": "9785389055537",
+    "pages": 224,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "ol-ol2189778w",
+    "source": "Издательская группа «Азбука-Аттикус»",
+    "sourceUrl": "https://azbooka.ru/books/zateyniki-vju9",
+    "sourceRecordId": "/books/zateyniki-vju9",
+    "officialTitle": "Затейники",
+    "officialAuthors": [
+      "Николай Носов"
+    ],
+    "publisher": "Азбука-Аттикус",
+    "isbn13": "9785389060371",
+    "pages": 16,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "ol-ol19970140w",
+    "source": "Издательская группа «Азбука-Аттикус»",
+    "sourceUrl": "https://azbooka.ru/books/bolshaya-kniga-stikhov-i-rasskazov-b9ru",
+    "sourceRecordId": "/books/bolshaya-kniga-stikhov-i-rasskazov-b9ru",
+    "officialTitle": "Большая книга стихов и рассказов (илл)",
+    "officialAuthors": [
+      "Андрей Усачёв"
+    ],
+    "publisher": "Азбука-Аттикус",
+    "isbn13": "9785389137684",
+    "pages": 192,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": false,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "nen-bv2-141",
+    "source": "books.google.com",
+    "sourceUrl": "https://books.google.com/books/about/%D0%92%D1%80%D0%B5%D0%BC%D1%8F_%D0%B2%D1%81%D0%B5%D0%B3%D0%B4%D0%B0_%D1%85%D0%BE%D1%80%D0%BE%D1%88%D0%B5%D0%B5.html?id=MNLBEAAAQBAJ",
+    "sourceRecordId": "/books/about/%D0%92%D1%80%D0%B5%D0%BC%D1%8F_%D0%B2%D1%81%D0%B5%D0%B3%D0%B4%D0%B0_%D1%85%D0%BE%D1%80%D0%BE%D1%88%D0%B5%D0%B5.html",
+    "officialTitle": "&#1042;&#1088;&#1077;&#1084;&#1103; &#1074;&#1089;&#1077;&#1075;&#1076;&#1072; &#1093;&#1086;&#1088;&#1086;&#1096;&#1077;&#1077; : &#1042;&#1088;&#1077;&#1084;&#1103; - &#1044;&#1077;&#1090;&#1089;&#1090;&#1074;&#1086;!",
+    "officialAuthors": [
+      "Андрей Жвалевский",
+      "Евгения Пастернак"
+    ],
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "exact_isbn",
+      "confidence": 1,
+      "titleScore": 0,
+      "authorMatch": false,
+      "isbnExact": true,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "ol-ol19978383w",
+    "source": "chitai-gorod.ru",
+    "sourceUrl": "https://www.chitai-gorod.ru/product/ohotnichi-istorii-2275445",
+    "sourceRecordId": "/product/ohotnichi-istorii-2275445",
+    "officialTitle": "Охотничьи истории",
+    "officialAuthors": [
+      "Геннадий Снегирёв"
+    ],
+    "isbn13": "9785699248148",
+    "publicationYear": 2017,
+    "pages": 96,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "exact_isbn",
+      "confidence": 1,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": true,
+      "currentPublisherMatch": false,
+      "selectedEditionYear": 2017
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "ol-ol44377549w",
+    "source": "chitai-gorod.ru",
+    "sourceUrl": "https://www.chitai-gorod.ru/product/naverno-ya-eshche-malenkiy-2716100",
+    "sourceRecordId": "/product/naverno-ya-eshche-malenkiy-2716100",
+    "officialTitle": "Наверно, я еще маленький",
+    "officialAuthors": [
+      "Ася Петрова"
+    ],
+    "isbn13": "9785386105211",
+    "publicationYear": 2019,
+    "pages": 107,
+    "seriesName": "ир Автор Ася Петрова Размер 1.1x15.1x21.7 ID товара 2716100",
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "exact_isbn",
+      "confidence": 1,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": true,
+      "currentPublisherMatch": false,
+      "selectedEditionYear": 2019
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "ol-ol3398755w",
+    "source": "books.ru",
+    "sourceUrl": "https://www.books.ru/books/delfinii-ostrov-4858750/",
+    "sourceRecordId": "/books/delfinii-ostrov-4858750/",
+    "officialTitle": "Дельфиний остров",
+    "officialAuthors": [
+      "С. Сахарнов"
+    ],
+    "publisher": "ИД Мещерякова",
+    "isbn13": null,
+    "pages": 2018,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "exact_isbn",
+      "confidence": 1,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": true,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "ol-ol19938743w",
+    "source": "books.ru",
+    "sourceUrl": "https://www.books.ru/books/petr-chaikovskii-ili-volshebnoe-pero-559630/",
+    "sourceRecordId": "/books/petr-chaikovskii-ili-volshebnoe-pero-559630/",
+    "officialTitle": "Петр Чайковский, или Волшебное Перо",
+    "officialAuthors": [
+      "Борис Евсеев"
+    ],
+    "publisher": "Белый город",
+    "isbn13": "9785779314237",
+    "pages": 2008,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "exact_isbn",
+      "confidence": 1,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": true,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "ol-ol19742113w",
+    "source": "books.ru",
+    "sourceUrl": "https://www.books.ru/books/veselyi-dvoechnik-690057/",
+    "sourceRecordId": "/books/veselyi-dvoechnik-690057/",
+    "officialTitle": "Весёлый двоечник",
+    "officialAuthors": [
+      "Валентин Постников"
+    ],
+    "isbn13": "9785906819321",
+    "pages": 2010,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "exact_isbn",
+      "confidence": 1,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": true,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "ol-ol19972711w",
+    "source": "labirint.ru",
+    "sourceUrl": "https://www.labirint.ru/books/381027/",
+    "sourceRecordId": "/books/381027/",
+    "officialTitle": "Где папа? : Юлия Кузнецова",
+    "officialAuthors": [
+      "юлия Кузнецова"
+    ],
+    "isbn13": "9785910455775",
+    "pages": 248,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "exact_isbn",
+      "confidence": 1,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": true,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "ol-ol13714296w",
+    "source": "moscowbooks.ru",
+    "sourceUrl": "https://www.moscowbooks.ru/book/1231420/",
+    "sourceRecordId": "/book/1231420/",
+    "officialTitle": "Петя и Потап. Чижиков В. А.",
+    "officialAuthors": [
+      "В. Чижиков"
+    ],
+    "isbn13": null,
+    "publicationYear": 2025,
+    "pages": 88,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "exact_isbn",
+      "confidence": 1,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": true,
+      "currentPublisherMatch": false,
+      "selectedEditionYear": 2025
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "ol-ol20020633w",
+    "source": "books.ru",
+    "sourceUrl": "https://www.books.ru/books/kak-menya-spasali-3542036/",
+    "sourceRecordId": "/books/kak-menya-spasali-3542036/",
+    "officialTitle": "Как меня спасали",
+    "officialAuthors": [
+      "Юрий Сотник"
+    ],
+    "publisher": "Азбука-Аттикус",
+    "isbn13": "9785389000599",
+    "pages": 2013,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "exact_isbn",
+      "confidence": 1,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": true,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "ol-ol865246w",
+    "source": "books.ru",
+    "sourceUrl": "https://www.books.ru/books/ochen-strashnaya-istoriya-504326/",
+    "sourceRecordId": "/books/ochen-strashnaya-istoriya-504326/",
+    "officialTitle": "Очень страшная история",
+    "officialAuthors": [
+      "Даниил Хармс"
+    ],
+    "isbn13": null,
+    "pages": 2007,
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "exact_isbn",
+      "confidence": 1,
+      "titleScore": 1,
+      "authorMatch": true,
+      "isbnExact": true,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  },
+  {
+    "id": "ol-ol31434681w",
+    "source": "books.google.com",
+    "sourceUrl": "https://books.google.com/books/about/%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B5_%D0%B4%D0%B5%D1%82%D0%B8.html?id=GeIIAgAAQBAJ",
+    "sourceRecordId": "/books/about/%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B5_%D0%B4%D0%B5%D1%82%D0%B8.html",
+    "officialTitle": "&#1056;&#1091;&#1089;&#1089;&#1082;&#1080;&#1077; &#1076;&#1077;&#1090;&#1080;",
+    "officialAuthors": [
+      "Павел Крусанов",
+      "Александр Етоев"
+    ],
+    "isbn13": "9785389057210",
+    "language": "ru",
+    "replaceEdition": true,
+    "match": {
+      "strategy": "exact_isbn",
+      "confidence": 1,
+      "titleScore": 0,
+      "authorMatch": false,
+      "isbnExact": true,
+      "currentPublisherMatch": false
+    },
+    "verifiedAt": "2026-07-28"
+  }
+]

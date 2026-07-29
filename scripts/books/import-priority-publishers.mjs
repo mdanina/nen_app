@@ -342,8 +342,16 @@ async function collectArchipelag(links) {
 
 const current = JSON.parse(await readFile(catalogPath, "utf8"))
   .filter((book) => !/^curated-(?:clever|archipelag)-/u.test(String(book.id)));
-const existingKeys = new Set(current.map((book) => titleAuthorKey(book.title, String(book.author).split(/\s*;\s*/u))));
+const existingKeys = new Set(current.flatMap((book) => {
+  const authors = String(book.author).split(/\s*;\s*/u);
+  return [book.title, book.originalTitle].filter(Boolean).map((title) => titleAuthorKey(title, authors));
+}));
 const existingIsbn = new Set(current.map((book) => book.isbn13).filter(Boolean));
+const existingByKey = new Map(current.flatMap((book) => {
+  const authors = String(book.author).split(/\s*;\s*/u);
+  return [book.title, book.originalTitle].filter(Boolean).map((title) => [titleAuthorKey(title, authors), book]);
+}));
+const existingByIsbn = new Map(current.filter((book) => book.isbn13).map((book) => [book.isbn13, book]));
 
 const [cleverXml, archipelagXml] = await Promise.all([
   fetchText(sources.clever.sitemap),
@@ -359,10 +367,21 @@ const [clever, archipelag] = await Promise.all([
 
 const selected = [];
 const duplicates = [];
+const enrichments = [];
 for (const book of [...archipelag.books, ...clever.books]) {
   if (selected.length >= target) break;
   const key = titleAuthorKey(book.title, book.authors);
   if (existingKeys.has(key) || existingIsbn.has(book.isbn13)) {
+    const existing = existingByKey.get(key) ?? existingByIsbn.get(book.isbn13);
+    if (existing && !enrichments.some((item) => item.id === existing.id)) {
+      enrichments.push({
+        id: existing.id,
+        publisher: book.publisher,
+        isbn13: book.isbn13,
+        cover: book.cover,
+        bibliographicSource: book.bibliographicSources[0],
+      });
+    }
     duplicates.push({ id: book.id, title: book.title, authors: book.authors, reason: "duplicate_existing_catalog" });
     continue;
   }
@@ -380,7 +399,7 @@ await writeFile(outputPath, `${JSON.stringify({
   sourcePolicy: "Официальные каталоги издательств; только полные карточки детской художественной литературы.",
   officialCatalogs: Object.values(sources).map(({ publisher, catalog }) => ({ publisher, url: catalog })),
   books: selected,
-  enrichments: [],
+  enrichments,
   report: {
     requested: target,
     accepted: selected.length,

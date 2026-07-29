@@ -82,5 +82,4528 @@
       "attribution": "Обложка предоставлена издательством.",
       "verifiedAt": "2026-07-27"
     }
+  },
+  {
+    "id": "nen-001",
+    "cover": {
+      "kind": "external",
+      "url": "https://api.azbooka.ru/upload/iblock/0fb/0fb6d3f5d4173402c0023ec627e48da7.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательская группа «Азбука-Аттикус»",
+      "sourcePageUrl": "https://azbooka.ru/books/kolobok-k0lm",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-003",
+    "cover": {
+      "kind": "external",
+      "url": "https://api.azbooka.ru/upload/iblock/d9e/d9e78310bee4006b49cfed5c34196e76.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательская группа «Азбука-Аттикус»",
+      "sourcePageUrl": "https://azbooka.ru/books/zolushka-nx1l",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-004",
+    "cover": {
+      "kind": "external",
+      "url": "https://api.azbooka.ru/upload/iblock/30f/30fb11c2d4356e81b74e0e4b52aff477.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательская группа «Азбука-Аттикус»",
+      "sourcePageUrl": "https://azbooka.ru/books/bremenskie-muzykanty-esyk",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-007",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.eksmo.ru/v2/ITD000000000167983/COVER/cover1__w820.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Эксмо»",
+      "sourcePageUrl": "https://eksmo.ru/book/priklyucheniya-pinokkio-ITD167983/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-015",
+    "cover": {
+      "kind": "external",
+      "url": "https://api.azbooka.ru/upload/iblock/587/58715e4a480096394c5657ea1c9567f3.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательская группа «Азбука-Аттикус»",
+      "sourcePageUrl": "https://azbooka.ru/books/udivitelnoe-puteshestvie-krolika-edvarda-ao7f",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-014",
+    "cover": {
+      "kind": "external",
+      "url": "https://api.azbooka.ru/upload/iblock/523/5236a44be7a765feab678b91931a761a.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательская группа «Азбука-Аттикус»",
+      "sourcePageUrl": "https://azbooka.ru/books/chuchelo-8vj1",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-023",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.eksmo.ru/v2/ITD000000001066637/COVER/cover1__w820.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Эксмо»",
+      "sourcePageUrl": "https://eksmo.ru/book/elmer-i-ego-druzya-2-ITD1066637/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-036",
+    "cover": {
+      "kind": "external",
+      "url": "https://api.azbooka.ru/upload/iblock/e17/e175615d823742a53345ecfa391e3727.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательская группа «Азбука-Аттикус»",
+      "sourcePageUrl": "https://azbooka.ru/books/medvezhonok-paddington-i-ego-druzya-kclx",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-040",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.eksmo.ru/v2/ITD000000000086521/COVER/cover1__w820.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Эксмо»",
+      "sourcePageUrl": "https://eksmo.ru/book/telefon-ITD86521/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-041",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.eksmo.ru/v2/ITD000000000086522/COVER/cover1__w820.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Эксмо»",
+      "sourcePageUrl": "https://eksmo.ru/book/kradenoe-solntse-ITD86522/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-049",
+    "cover": {
+      "kind": "external",
+      "url": "https://api.azbooka.ru/upload/iblock/338/gsrhu97xa0rgt7pcumprachqlmykyhqo.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательская группа «Азбука-Аттикус»",
+      "sourcePageUrl": "https://azbooka.ru/books/tsvetik-semitsvetik-rasskazy",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-050",
+    "cover": {
+      "kind": "external",
+      "url": "https://api.azbooka.ru/upload/iblock/e57/e572ee6baa6b51cbc7ef205778211331.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательская группа «Азбука-Аттикус»",
+      "sourcePageUrl": "https://azbooka.ru/books/deniskiny-rasskazy-gzod",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-051",
+    "cover": {
+      "kind": "external",
+      "url": "https://api.azbooka.ru/upload/iblock/1a2/ac5pvit3etjpszx6w86kxv17iqrn0em1.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательская группа «Азбука-Аттикус»",
+      "sourcePageUrl": "https://azbooka.ru/books/vitya-maleev-v-shkole-i-doma-ljdl",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-053",
+    "cover": {
+      "kind": "external",
+      "url": "https://api.azbooka.ru/upload/iblock/ed6/fbp64ek4ra1ru1zhu3wgunhgvnby0fik.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательская группа «Азбука-Аттикус»",
+      "sourcePageUrl": "https://azbooka.ru/books/fantazery",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-054",
+    "cover": {
+      "kind": "external",
+      "url": "https://api.azbooka.ru/upload/iblock/d0b/d0b8c607e856b5570462e90a54f87543.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательская группа «Азбука-Аттикус»",
+      "sourcePageUrl": "https://azbooka.ru/books/mishkina-kasha-8azo",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-055",
+    "cover": {
+      "kind": "external",
+      "url": "https://api.azbooka.ru/upload/iblock/f94/f94d46a707c507171c496b36e3fed9f7.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательская группа «Азбука-Аттикус»",
+      "sourcePageUrl": "https://azbooka.ru/books/zolotoy-klyuchik-ili-priklyucheniya-buratino",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-056",
+    "cover": {
+      "kind": "external",
+      "url": "https://api.azbooka.ru/upload/iblock/3a0/3a0fb2df1daef0cf3c522b3019c74b30.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательская группа «Азбука-Аттикус»",
+      "sourcePageUrl": "https://azbooka.ru/books/volshebnik-izumrudnogo-goroda-yvcf",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-059",
+    "cover": {
+      "kind": "external",
+      "url": "https://api.azbooka.ru/upload/iblock/d0c/74kygddz7erkfvq2xcrvqmrngv5jfgky.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательская группа «Азбука-Аттикус»",
+      "sourcePageUrl": "https://azbooka.ru/books/malysh-i-karlson-kotoryy-zhivet-na-kryshe-ill-a-savchenko",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-060",
+    "cover": {
+      "kind": "external",
+      "url": "https://api.azbooka.ru/upload/iblock/6b6/6b63a8d6184fa52f5a5a4b5b569be0a8.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательская группа «Азбука-Аттикус»",
+      "sourcePageUrl": "https://azbooka.ru/books/my-vse-iz-byullerbyu-clyb",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-070",
+    "cover": {
+      "kind": "external",
+      "url": "https://api.azbooka.ru/upload/iblock/2f4/hh8b8dphl73jm2yrzx2vmdj2ggk7l7ti.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательская группа «Азбука-Аттикус»",
+      "sourcePageUrl": "https://azbooka.ru/books/devochka-s-zemli-sto-let-tomy-vpered-priklucheniya-alisy",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-073",
+    "cover": {
+      "kind": "external",
+      "url": "https://api.azbooka.ru/upload/iblock/cfb/q93r53ieoq9nmccy76tomujla58esbgw.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательская группа «Азбука-Аттикус»",
+      "sourcePageUrl": "https://azbooka.ru/books/barankin-byd-chelovekom",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-074",
+    "cover": {
+      "kind": "external",
+      "url": "https://api.azbooka.ru/upload/iblock/014/0143d03ca05c38e0f91234f4ef140366.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательская группа «Азбука-Аттикус»",
+      "sourcePageUrl": "https://azbooka.ru/books/priklyucheniya-kapitana-vrungelya",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-078",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.eksmo.ru/v2/ITD000000000086646/COVER/cover1__w820.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Эксмо»",
+      "sourcePageUrl": "https://eksmo.ru/book/skazki-dyadyushki-rimusa-st-kor-ITD86646/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-079",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.eksmo.ru/v2/ITD000000000187735/COVER/cover1__w820.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Эксмо»",
+      "sourcePageUrl": "https://eksmo.ru/book/priklyucheniya-chipollino-il-m-mitrofanova-ITD187735/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-080",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.eksmo.ru/v2/ITD000000000178292/COVER/cover1__w820.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Эксмо»",
+      "sourcePageUrl": "https://eksmo.ru/book/dzhelsomino-v-strane-lzhetsov-il-l-tokmakova-st-kor-ITD178292/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-083",
+    "cover": {
+      "kind": "external",
+      "url": "https://api.azbooka.ru/upload/iblock/4dc/4dceebef7b05a34b42126710b9df0b7e.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательская группа «Азбука-Аттикус»",
+      "sourcePageUrl": "https://azbooka.ru/books/urfin-dzhyus-i-ego-derevyannye-soldaty-pitr",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-087",
+    "cover": {
+      "kind": "external",
+      "url": "https://api.azbooka.ru/upload/iblock/49c/49c77b6fe936e413535a054e859b3575.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательская группа «Азбука-Аттикус»",
+      "sourcePageUrl": "https://azbooka.ru/books/garri-potter-i-filosofskiy-kamen-zhgb",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-095",
+    "cover": {
+      "kind": "external",
+      "url": "https://api.azbooka.ru/upload/iblock/ce3/ce38c229e2a4d8051ff55a0a69a73660.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательская группа «Азбука-Аттикус»",
+      "sourcePageUrl": "https://azbooka.ru/books/pollianna-rb9s",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-098",
+    "cover": {
+      "kind": "external",
+      "url": "https://api.azbooka.ru/upload/iblock/ad2/ad2fd52b0653b829a084ea07a15eee43.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательская группа «Азбука-Аттикус»",
+      "sourcePageUrl": "https://azbooka.ru/books/malenkaya-printsessa-tfml",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-100",
+    "cover": {
+      "kind": "external",
+      "url": "https://api.azbooka.ru/upload/iblock/0a4/c3p6k54pl66agspmqt49va5nniaiqavv.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательская группа «Азбука-Аттикус»",
+      "sourcePageUrl": "https://azbooka.ru/books/chernilnoe-serdtse",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-103",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.eksmo.ru/v2/ITD000000000254735/COVER/cover1__w820.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Эксмо»",
+      "sourcePageUrl": "https://eksmo.ru/book/krabat-ili-legendy-staroy-melnitsy-ITD254735/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-104",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.eksmo.ru/v2/ITD000000000178450/COVER/cover1__w820.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Эксмо»",
+      "sourcePageUrl": "https://eksmo.ru/book/malenkaya-baba-yaga-per-yu-korintsa-il-n-golts-st-kor-ITD178450/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-107",
+    "cover": {
+      "kind": "external",
+      "url": "https://api.azbooka.ru/upload/iblock/cff/tfoa396ki3la3pjysxs1ng6ia5c1kzil.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательская группа «Азбука-Аттикус»",
+      "sourcePageUrl": "https://azbooka.ru/books/respublika-shkid-dom-veselykh-nishchikh",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-108",
+    "cover": {
+      "kind": "external",
+      "url": "https://api.azbooka.ru/upload/iblock/584/25q9f2ded4bx5xpt72g5b42b9ovxewnt.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательская группа «Азбука-Аттикус»",
+      "sourcePageUrl": "https://azbooka.ru/books/kortik-bronzovaya-ptitsa-vystrel",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-109",
+    "cover": {
+      "kind": "external",
+      "url": "https://api.azbooka.ru/upload/iblock/584/25q9f2ded4bx5xpt72g5b42b9ovxewnt.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательская группа «Азбука-Аттикус»",
+      "sourcePageUrl": "https://azbooka.ru/books/kortik-bronzovaya-ptitsa-vystrel",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-110",
+    "cover": {
+      "kind": "external",
+      "url": "https://api.azbooka.ru/upload/iblock/02b/02b7677bfada0d6b5f9ff54d871d2473.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательская группа «Азбука-Аттикус»",
+      "sourcePageUrl": "https://azbooka.ru/books/deti-kapitana-granta-zep7",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-111",
+    "cover": {
+      "kind": "external",
+      "url": "https://api.azbooka.ru/upload/iblock/b0c/kmotmb5hk5r8qaqq6bpkgy5909p8cj4w.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательская группа «Азбука-Аттикус»",
+      "sourcePageUrl": "https://azbooka.ru/books/ostrov-sokrovisch-hggr",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-112",
+    "cover": {
+      "kind": "external",
+      "url": "https://api.azbooka.ru/upload/iblock/22c/h7vxk5k354vvy9xcuc0p7udyvf88ovut.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательская группа «Азбука-Аттикус»",
+      "sourcePageUrl": "https://azbooka.ru/books/zov-predkov-belyy-klyk-skazaniya-o-dalnem-severe-s-ill",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-114",
+    "cover": {
+      "kind": "external",
+      "url": "https://api.azbooka.ru/upload/iblock/727/9hee1ag12sl1l0iry3q99yo1ndzen2f4.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательская группа «Азбука-Аттикус»",
+      "sourcePageUrl": "https://azbooka.ru/books/chernaya-kyritsa-ili-podzemnye-zhiteli",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-115",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.eksmo.ru/v2/ITD000000001306712/COVER/cover1__w820.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Эксмо»",
+      "sourcePageUrl": "https://eksmo.ru/book/priklyucheniya-elektronika-il-n-balandinoy-ITD1306712/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-117",
+    "cover": {
+      "kind": "external",
+      "url": "https://api.azbooka.ru/upload/iblock/25d/25dc8e05a58df6e9473468ff8826ef72.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательская группа «Азбука-Аттикус»",
+      "sourcePageUrl": "https://azbooka.ru/books/tri-tolstyaka-yoo1",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-118",
+    "cover": {
+      "kind": "external",
+      "url": "https://api.azbooka.ru/upload/iblock/0e5/0e527ab6c7cfeca5017caaaf3551d202.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательская группа «Азбука-Аттикус»",
+      "sourcePageUrl": "https://azbooka.ru/books/priklyucheniya-toma-soyera-i-geklberri-finna-jmbc",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-119",
+    "cover": {
+      "kind": "external",
+      "url": "https://api.azbooka.ru/upload/iblock/ef2/77c4npmezx42jdkm7evwiyywarmjyhcd.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательская группа «Азбука-Аттикус»",
+      "sourcePageUrl": "https://azbooka.ru/books/malenkie-zhenschiny-umlc",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-121",
+    "cover": {
+      "kind": "external",
+      "url": "https://api.azbooka.ru/upload/iblock/40c/40c73d0e6593234f281300faffa903d4.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательская группа «Азбука-Аттикус»",
+      "sourcePageUrl": "https://azbooka.ru/books/serebryanye-konki-broy",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-124",
+    "cover": {
+      "kind": "external",
+      "url": "https://api.azbooka.ru/upload/iblock/8ed/8edb6f954d978bc34f46fb41f2be0113.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательская группа «Азбука-Аттикус»",
+      "sourcePageUrl": "https://azbooka.ru/books/most-v-terabitiyu-fqwd",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-135",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.eksmo.ru/v2/ITD000000000181597/COVER/cover1__w820.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Эксмо»",
+      "sourcePageUrl": "https://eksmo.ru/book/nad-propastyu-vo-rzhi-ITD181597/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-144",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.eksmo.ru/v2/ITD000000000187729/COVER/cover1__w820.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Эксмо»",
+      "sourcePageUrl": "https://eksmo.ru/book/tsvety-dlya-eldzhernona-ITD187729/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-152",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.eksmo.ru/v2/ITD000000001152509/COVER/cover1__w820.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Эксмо»",
+      "sourcePageUrl": "https://eksmo.ru/book/golos-monstra-illyustrirovannoe-izdanie-ITD1152509/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-160",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.eksmo.ru/v2/ITD000000001223462/COVER/cover1__w820.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Эксмо»",
+      "sourcePageUrl": "https://eksmo.ru/book/boun-tom-1-izgnanniki-bounvilya-ITD1223462/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol20043979w",
+    "cover": {
+      "kind": "external",
+      "url": "https://api.azbooka.ru/upload/iblock/719/7193c005f28a44f6123464dcda480fd8.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательская группа «Азбука-Аттикус»",
+      "sourcePageUrl": "https://azbooka.ru/books/zhizn-ivana-semyenova-vtoroklassnika-i-vtorogodnika",
+      "isbn13": "9785170970278",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol19935959w",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.eksmo.ru/v2/ITD000000000087019/COVER/cover1__w820.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Эксмо»",
+      "sourcePageUrl": "https://eksmo.ru/book/skazki-malyutki-ITD87019/",
+      "isbn13": "9785699219261",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol19952225w",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000826453/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/skazki-826453/",
+      "isbn13": "9785170350339",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol20004001w",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.eksmo.ru/v2/ITD000000000303182/COVER/cover1__w820.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Эксмо»",
+      "sourcePageUrl": "https://eksmo.ru/book/ostrov-vezeniya-ITD303182/",
+      "isbn13": "9785699698776",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_exact_isbn",
+      "confidence": 1,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": true
+    }
+  },
+  {
+    "id": "ol-ol19978370w",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/AST000000000010569/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/vse-skazochnye-istorii-v-odnoy-knige-010569/",
+      "isbn13": "9785170760411",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_exact_isbn",
+      "confidence": 1,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": true
+    }
+  },
+  {
+    "id": "ol-ol19978384w",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000847009/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/100-lyubimykh-malenkikh-skazok-847009/",
+      "isbn13": "9785170833399",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol4263287w",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000868049/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/volshebnyy-magazin-868049/",
+      "isbn13": null,
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol20016950w",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/AST000000000148228/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/skazki-multfilmy-148228/",
+      "isbn13": "9785170432271",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol13727589w",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/AST000000000033022/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/porosenok-v-kolyuchey-shubke-i-drugie-skazki-033022/",
+      "isbn13": "9785170315864",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol13736861w",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000866156/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/skazki-866156/",
+      "isbn13": "9785170427062",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol19970124w",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/AST000000000084516/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/stikhi-i-skazki-dlya-samykh-malenkikh-084516/",
+      "isbn13": "9785271412196",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol19978369w",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.eksmo.ru/v2/ITD000000000087022/COVER/cover1__w820.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Эксмо»",
+      "sourcePageUrl": "https://eksmo.ru/book/sinie-listya-st-kor-ITD87022/",
+      "isbn13": "9785699398058",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol20003999w",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.eksmo.ru/v2/ITD000000000314268/COVER/cover1__w820.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Эксмо»",
+      "sourcePageUrl": "https://eksmo.ru/book/priklyucheniya-zheltogo-chemodanchika-il-v-kanivtsa-ITD314268/",
+      "isbn13": "9785699367030",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol4263277w",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000841834/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/dve-skazki-pro-karandash-i-kraski-841834/",
+      "isbn13": "9785170339662",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.94,
+      "titleMatch": 0.75,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol1897365w",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000839649/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/koshkin-dom-839649/",
+      "isbn13": null,
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol12849946w",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000830361/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/38-popugaev-830361/",
+      "isbn13": null,
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol19951423w",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000900943/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/vasyutkino-ozero-rasskazy-900943/",
+      "isbn13": "9785699487691",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol19970129w",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/AST000000000084132/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/printsessa-belonozhka-ili-kto-lyubit-nosit-na-rukakh-084132/",
+      "isbn13": "9785271451126",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_exact_isbn",
+      "confidence": 1,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": true
+    }
+  },
+  {
+    "id": "ol-ol19940710w",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000868111/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/ya-na-solnyshke-lezhu-skazki-868111/",
+      "isbn13": "9785170114658",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol13710814w",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000861656/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/istoriya-pro-porosyenka-861656/",
+      "isbn13": null,
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol13736862w",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/AST000000000041866/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/syshchik-v-odnom-bashmake-041866/",
+      "isbn13": "9785170453122",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_exact_isbn",
+      "confidence": 1,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": true
+    }
+  },
+  {
+    "id": "ol-ol20015184w",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000716167/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/cheburashka-krokodil-gena-shapoklyak-i-vse-vse-vse--716167/",
+      "isbn13": "9785170693719",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-002",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000893055/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/krasnaya-shapochka-893055/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-005",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000866157/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/tri-porosyenka-skazki-866157/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-006",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000858849/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/gadkiy-utyenok-skazki-858849/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-022",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000722201/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/manyunya-722201/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-007",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000878443/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/dyadya-fyedor-pyes-i-kot-878443/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-027",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000879263/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/skazki-pro-krolika-pitera-uroven-1-the-tale-of-peter-rabbit-879263/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-038",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000899488/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/moydodyr-i-drugie-skazki-899488/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-039",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000898457/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/muha-tsokotuha-898457/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-042",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000827818/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/vot-kakoy-rasseyannyy-i-drugie-lyubimye-stikhi-827818/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-043",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000860608/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/bagazh-i-drugie-stikhi-860608/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-044",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000832237/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/skazka-o-glupom-myshonke-skazka-ob-umnom-myshonke-832237/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-045",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000716521/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/dyadya-styepa-716521/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-046",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000876473/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/kto-skazal-myau-skazki-876473/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-047",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000892268/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/pod-gribom-892268/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-048",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000867609/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/yabloko-867609/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-052",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000832287/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/priklyucheniya-neznayki-i-ego-druzey-832287/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-057",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000849266/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/domovyenok-kuzka-849266/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-058",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/AST000000000031301/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/peppi-dlinnyychulok-sobiraetsya-v-put-031301/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-061",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/AST000000000023624/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/lotta-s-gorlastoy-ulitsy-023624/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-062",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/AST000000000024476/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/madiken-madiken-i-pims-iz-yunibakkena-024476/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-063",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000720998/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/vinni-pukh-i-vse-vse-vse-720998/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-064",
+    "cover": {
+      "kind": "external",
+      "url": "https://strecoza.ru/wp-content/uploads/2023/04/c11f40eb-e002-11ed-aeae-8c89a5dd96ef_da5065a4-0623-11ef-a2b4-8c89a5dd96ef.jpeg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Стрекоза»",
+      "sourcePageUrl": "https://strecoza.ru/product/shp-veter-v-ivah/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-068",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/AST000000000155217/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/krokodil-gena-i-ego-druzya-155217/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-069",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000868201/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/garantiynye-chelovechki-868201/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-071",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000897032/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/priklyucheniya-barona-myunhauzena-897032/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-072",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/AST000000000026659/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/mufta-polbotinka-i-mokhovaya-boroda-026659/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-075",
+    "cover": {
+      "kind": "external",
+      "url": "https://detlit.ru/images/detailed/12477/2a29429f158911e980cd00505684449c_e2088b62221b11eda97c005056ac6fe2.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Детская литература»",
+      "sourcePageUrl": "https://detlit.ru/nm-lagin-starik-hottabych/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-076",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/AST000000000052385/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/umnaya-sobachka-sonya-052385/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-082",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/AST000000000124562/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/sem-podzemnykh-koroley-124562/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-085",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000709886/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/khobbit-ili-tuda-i-obratno-709886/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-089",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000875398/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/koralina-875398/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-096",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000898405/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/tainstvennyy-sad-novyy-perevod-knvv-898405/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-097",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000877608/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/malenkiy-prints-planeta-lyudey-877608/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-099",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000866834/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/anne-of-green-gables-866834/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-106",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/AST000000000044290/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/tim-taler-ili-prodannyy-smekh-044290/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-113",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000901650/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/belyy-klyk-zov-predkov-901650/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-120",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000897173/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/haydi-ili-volshebnaya-dolina-897173/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-122",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000880393/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/priklyucheniya-toma-soyera-uroven-2-the-adventures-of-tom-sawyer-880393/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-134",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000710014/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/ubit-peresmeshnika-710014/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-138",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/AST000000000169813/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/vinovaty-zvezdy-169813/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-143",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/AST000000000087580/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/451-gradus-po-farengeytu-komiks-087580/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-145",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/AST000000000011695/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/golodnye-igry-i-vspykhnet-plamya-soyka-peresmeshnitsa-011695/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol19987356w",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000890086/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/meshok-yablok-risunki-avtora-890086/",
+      "isbn13": "9785170807147",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol19978387w",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/AST000000000130846/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/zagadochnye-istorii-130846/",
+      "isbn13": "9785170813872",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_exact_isbn",
+      "confidence": 1,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": true
+    }
+  },
+  {
+    "id": "ol-ol7598211w",
+    "cover": {
+      "kind": "external",
+      "url": "https://detlit.ru/images/detailed/12477/2a294289158911e980cd00505684449c_cfecb66864e611eda97d005056ac6fe2.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Детская литература»",
+      "sourcePageUrl": "https://detlit.ru/nm-durov-moi-zveri/",
+      "isbn13": null,
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol19931578w",
+    "cover": {
+      "kind": "external",
+      "url": "https://strecoza.ru/wp-content/uploads/2024/05/b8348795-f717-11ee-9c15-8c89a5dd96ef_cf135698-8567-11ef-a385-8c89a5dd96ef.jpeg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Стрекоза»",
+      "sourcePageUrl": "https://strecoza.ru/product/v-strane-vechnyh-kanikul-shkolnaja-programma/",
+      "isbn13": "9785995102526",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol2577056w",
+    "cover": {
+      "kind": "external",
+      "url": "https://detlit.ru/images/detailed/12477/181f15e7158911e980cd00505684449c_7de32926522711ea80df00505684449c.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Детская литература»",
+      "sourcePageUrl": "https://detlit.ru/shb-priklyucheniya-odisseya/",
+      "isbn13": null,
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-137",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.eksmo.ru/v2/ITD000000000639511/COVER/cover1__w820.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Эксмо»",
+      "sourcePageUrl": "https://eksmo.ru/book/knizhnyy-vor-the-book-thief-ITD639511/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-018",
+    "cover": {
+      "kind": "external",
+      "url": "https://kompasgid.ru/wp-content/uploads/2023/04/dve_polovinki_serdtsa.jpeg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «КомпасГид»",
+      "sourcePageUrl": "https://kompasgid.ru/product/dve-polovinki-serdtsa-4-e-izd-2/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-020",
+    "cover": {
+      "kind": "external",
+      "url": "https://kompasgid.ru/wp-content/uploads/2022/05/bmd-2-ebook-761x1024.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «КомпасГид»",
+      "sourcePageUrl": "https://kompasgid.ru/product/bolshaya-malenkaya-devochka-kniga-2-istorii-7-12-avt-mariya-bershadskaya-kompasgid-978-5-00083-748-1/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-021",
+    "cover": {
+      "kind": "external",
+      "url": "https://kompasgid.ru/wp-content/uploads/2023/12/screenshot_17.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «КомпасГид»",
+      "sourcePageUrl": "https://kompasgid.ru/product/kalendar-ma-j-ya-9-e-izd-kompasgid-avt-lederman-2024-g/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-053",
+    "cover": {
+      "kind": "external",
+      "url": "https://www.polyandria.ru/upload/iblock/6c0/6c02a6241ba029a5c62f0e179db5adc3.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Поляндрия»",
+      "sourcePageUrl": "https://www.polyandria.ru/catalog/0-3/sovyata-zhdut-mamu/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-060",
+    "cover": {
+      "kind": "external",
+      "url": "https://samokatbook.ru/upload/resize_cache/iblock/ccf/1024_1024_1/ccf39a01ed86f749441fe0e84a44d34e.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Самокат»",
+      "sourcePageUrl": "https://samokatbook.ru/book/komissar-gordon-pervoe-delo/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-015",
+    "cover": {
+      "kind": "external",
+      "url": "https://samokatbook.ru/upload/resize_cache/iblock/25c/1024_1024_1/25c4eb360ee5735497db30e0e8b0a86b.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Самокат»",
+      "sourcePageUrl": "https://samokatbook.ru/book/utka-smert-i-tyulpan/",
+      "isbn13": "9785001670469",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_exact_isbn",
+      "confidence": 1,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": true
+    }
+  },
+  {
+    "id": "nen-bv2-035",
+    "cover": {
+      "kind": "external",
+      "url": "https://www.polyandria.ru/upload/iblock/e92/e92e5d954aeb58f1ccf7cc90e8954550.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Поляндрия»",
+      "sourcePageUrl": "https://www.polyandria.ru/catalog/3-7/den-kogda-ya-vstretil-kita/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "curated-nen-collection-samoe-pervoe-novogodnee-derevo-ovila-fonten",
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2024/10/samoe-pervoe-novogodnee-derevo_ac-site-cower.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/samoe-pervoe-novogodnee-derevo/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "curated-nen-collection-gnom-i-lis-astrid-lindgren",
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2021/10/gnom_lis_background1.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/gnom-i-lis/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-081",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.eksmo.ru/v2/ITD000000000185586/COVER/cover1__w820.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Эксмо»",
+      "sourcePageUrl": "https://eksmo.ru/book/skazki-po-telefonu-ITD185586/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol13727592w",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000899585/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/tryam-zdravstvuyte-899585/",
+      "isbn13": "9785224053056",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_work_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol24260394w",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000888585/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/detki-v-kletke-888585/",
+      "isbn13": null,
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_work_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol4360095w",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000868110/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/byuro-lesnykh-uslug-868110/",
+      "isbn13": null,
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_work_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol19935962w",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000879072/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/tigr-v-kletochku-skazki-879072/",
+      "isbn13": "9785955511108",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_work_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol13727588w",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000878431/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/kak-lvyenok-i-cherepakha-peli-pesnyu-878431/",
+      "isbn13": null,
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_work_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol13727593w",
+    "cover": {
+      "kind": "external",
+      "url": "https://strecoza.ru/wp-content/uploads/2024/08/85e2aa3c-3aa2-11ef-a312-8c89a5dd96ef_cf1356ba-8567-11ef-a385-8c89a5dd96ef.jpeg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Стрекоза»",
+      "sourcePageUrl": "https://strecoza.ru/product/ezhik-v-tumane-biblioteka-shkolnika/",
+      "isbn13": "9785813807213",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_work_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol20043983w",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000724732/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/besprizornaya-koshka-724732/",
+      "isbn13": "9785170986385",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_exact_isbn",
+      "confidence": 1,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": true
+    }
+  },
+  {
+    "id": "ol-ol43308391w",
+    "cover": {
+      "kind": "external",
+      "url": "https://api.azbooka.ru/upload/iblock/f3d/zaj2n354a7zgk6kzxw6k88fiszkdkw48.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательская группа «Азбука-Аттикус»",
+      "sourcePageUrl": "https://azbooka.ru/books/priklucheniya-vasi-kyrolesova-nedopesok-ill-g-kalinovskiy-iu-koval-r-varshamov",
+      "isbn13": "9785990626218",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_work_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol19938773w",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000897067/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/vse-luchshie-rasskazy-o-zhivotnyh-897067/",
+      "isbn13": "9785699098347",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_work_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol19938770w",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000827420/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/vesyelaya-semeyka-povest-i-rasskazy-827420/",
+      "isbn13": "9785180008244",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_work_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol42201958w",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000863394/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/yezhik-v-tumane-skazki-863394/",
+      "isbn13": null,
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_work_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol19734610w",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.eksmo.ru/v2/ITD000000000826661/COVER/cover1__w820.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Эксмо»",
+      "sourcePageUrl": "https://eksmo.ru/book/zayushkina-izbushka-panoramki-ITD826661/",
+      "isbn13": "9785353082613",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_work_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol62648w",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000862323/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/syn-polka-beleet-parus-odinokiy-862323/",
+      "isbn13": null,
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_work_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol10337735w",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000901095/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/skazki-v-kartinkah-901095/",
+      "isbn13": null,
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_work_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol45039050w",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/AST000000000171906/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/skazki-pesni-zagadki-171906/",
+      "isbn13": null,
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_work_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol2140895w",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000833941/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/stikhi-i-skazki-833941/",
+      "isbn13": null,
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_work_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol19973701w",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.eksmo.ru/v2/ITD000000000192971/COVER/cover1__w820.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Эксмо»",
+      "sourcePageUrl": "https://eksmo.ru/book/priklyucheniya-vasi-kurolesova-st-kor-ITD192971/",
+      "isbn13": "9785386032913",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_work_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol11130081w",
+    "cover": {
+      "kind": "external",
+      "url": "https://api.azbooka.ru/upload/iblock/a28/fbm7jt6a8ud2k0cyg9kgtlc7abw9hzwn.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательская группа «Азбука-Аттикус»",
+      "sourcePageUrl": "https://azbooka.ru/books/volshebnoe-koltso",
+      "isbn13": null,
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_work_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol33286452w",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000724475/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/skazki-a-s-pushkin-724475/",
+      "isbn13": "9785767016693",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_work_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol20030854w",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.eksmo.ru/v2/ITD000000000238697/COVER/cover1__w820.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Эксмо»",
+      "sourcePageUrl": "https://eksmo.ru/book/volk-i-kozlyata-ITD238697/",
+      "isbn13": "9785353065227",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_work_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol13710817w",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/AST000000000168763/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/skazki-starinnogo-goroda-168763/",
+      "isbn13": null,
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_work_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol1897363w",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000873315/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/vesyeloe-puteshestvie-ot-a-do-ya-stikhi-873315/",
+      "isbn13": null,
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_work_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol45531935w",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000873311/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/tikhaya-skazka-873311/",
+      "isbn13": null,
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_work_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol623482w",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.eksmo.ru/v2/ITD000000000086660/COVER/cover1__w820.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Эксмо»",
+      "sourcePageUrl": "https://eksmo.ru/book/skazka-o-rybake-i-rybke-ITD86660/",
+      "isbn13": null,
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_work_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol33497304w",
+    "cover": {
+      "kind": "external",
+      "url": "https://api.azbooka.ru/upload/iblock/833/ubo2t4ip0lge2yozdq5i343m0kw3b8kg.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательская группа «Азбука-Аттикус»",
+      "sourcePageUrl": "https://azbooka.ru/books/skazka-o-tsare-saltane",
+      "isbn13": null,
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_work_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol19940427w",
+    "cover": {
+      "kind": "external",
+      "url": "https://api.azbooka.ru/upload/iblock/7fb/8o4pyn98mfmb8whsduu0qgwc1365pism.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательская группа «Азбука-Аттикус»",
+      "sourcePageUrl": "https://azbooka.ru/books/kotenok-po-imeni-gav-sxul",
+      "isbn13": "9785488017566",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_work_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol669163w",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000847965/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/alisa-seleznyeva-i-koroleva-piratov-na-planete-skazok-847965/",
+      "isbn13": null,
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_work_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol13363741w",
+    "cover": {
+      "kind": "external",
+      "url": "https://detlit.ru/images/detailed/12482/77b390c9d89011ea80df00505684449c_77b390cad89011ea80df00505684449c.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Детская литература»",
+      "sourcePageUrl": "https://detlit.ru/veseloe-moreplavanie-solnyshkina-ru/",
+      "isbn13": "9785479002083",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_work_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol10339227w",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000866157/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/tri-porosyenka-skazki-866157/",
+      "isbn13": "9785900440873",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_work_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol1249152w",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000711295/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/malakhitovaya-shkatulka-711295/",
+      "isbn13": null,
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_work_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol19978404w",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/AST000000000139492/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/ognennyy-bog-marranov-139492/",
+      "isbn13": "9785699415328",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_work_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol2189783w",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000837886/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/neznayka-na-lune-837886/",
+      "isbn13": null,
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_work_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol12822142w",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.eksmo.ru/v2/ITD000000000198756/COVER/cover1__w820.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Эксмо»",
+      "sourcePageUrl": "https://eksmo.ru/book/ya-na-oblake-letal-st-kor-ITD198756/",
+      "isbn13": null,
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_work_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol667419w",
+    "cover": {
+      "kind": "external",
+      "url": "https://api.azbooka.ru/upload/iblock/ab1/qa3b2063tbvcegqym6kxqaijg6l1f6iy.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательская группа «Азбука-Аттикус»",
+      "sourcePageUrl": "https://azbooka.ru/books/vrednye-sovety",
+      "isbn13": null,
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_work_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol11037508w",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000865159/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/kysh-dva-portfelya-i-tselaya-nedelya-865159/",
+      "isbn13": null,
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_work_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol13749472w",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000881072/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/byuro-nakhodok-881072/",
+      "isbn13": "9785479001611",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_work_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol669185w",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/AST000000000009620/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/voyna-s-liliputami-009620/",
+      "isbn13": null,
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_work_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol40738595w",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000892091/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/zagadki-russkogo-naroda-892091/",
+      "isbn13": null,
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_work_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol19931868w",
+    "cover": {
+      "kind": "external",
+      "url": "https://detlit.ru/images/detailed/12477/1e23440b158911e980cd00505684449c_4593711d523111ea80df00505684449c.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Детская литература»",
+      "sourcePageUrl": "https://detlit.ru/shb-tolstoy-l-basni-skazki-rasskazy/",
+      "isbn13": "9785699163090",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_work_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol12689689w",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/AST000000000043991/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/tetradki-pod-dozhdem-043991/",
+      "isbn13": null,
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_work_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol33098425w",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000890093/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/usatyy-polosatyy-risunki-v-lebedeva-890093/",
+      "isbn13": null,
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_work_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol13663632w",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.eksmo.ru/v2/430000000000069159/COVER/cover1__w820.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Эксмо»",
+      "sourcePageUrl": "https://eksmo.ru/book/pro-popugaya-keshu-i-drugie-istorii-43069159/",
+      "isbn13": "9785224023493",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_work_title_author",
+      "confidence": 0.95,
+      "titleMatch": 0.8,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol13713540w",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000830360/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/pro-devochku-veru-i-obezyanku-anfisu-830360/",
+      "isbn13": "9785893430134",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_work_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol19952245w",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000857996/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/sorochinskaya-yarmarka-s-illyustratsiyami-gennadiya-spirina-857996/",
+      "isbn13": "9785386023591",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_work_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol19940648w",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000875375/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/luchshie-rasskazy-dlya-detey-875375/",
+      "isbn13": "9785947435122",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_work_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-017",
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2015/10/social-fb-book-035-2.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/jane-lisa-i-ya/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_work_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-023",
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2020/11/FB-3.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/davaj-poedem-v-unalashku/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_work_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-063",
+    "cover": {
+      "kind": "external",
+      "url": "https://api.azbooka.ru/upload/iblock/724/724699debb3222c2cd33cb289e2b7498.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательская группа «Азбука-Аттикус»",
+      "sourcePageUrl": "https://azbooka.ru/books/emil-i-syshchiki-ezfm",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_work_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-018",
+    "cover": {
+      "kind": "external",
+      "url": "https://api.azbooka.ru/upload/iblock/959/5gq3jz805fkwl5vv1hhkxob08gjjuzyj.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательская группа «Азбука-Аттикус»",
+      "sourcePageUrl": "https://azbooka.ru/books/dauschiy",
+      "isbn13": "9785903497713",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_work_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-066",
+    "cover": {
+      "kind": "external",
+      "url": "https://api.azbooka.ru/upload/iblock/78a/78a0a487517d12126594bda1fe62a1ac.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательская группа «Азбука-Аттикус»",
+      "sourcePageUrl": "https://azbooka.ru/books/styuart-litl-jov2",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_work_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-077",
+    "cover": {
+      "kind": "external",
+      "url": "https://samokatbook.ru/upload/resize_cache/iblock/8b2/1024_1024_1/8b2853bf921080a642c01197fdf4099e.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Самокат»",
+      "sourcePageUrl": "https://samokatbook.ru/book/dnevnik-kota-ubiytsy-vse-istorii/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_work_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-088",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.eksmo.ru/v2/ITD000000001265825/COVER/cover1__w820.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Эксмо»",
+      "sourcePageUrl": "https://eksmo.ru/book/persi-dzhekson-i-pokhititel-molniy-1-drugoe-oformlenie-ITD1265825/",
+      "isbn13": "9785699334322",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_work_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-116",
+    "cover": {
+      "kind": "external",
+      "url": "https://api.azbooka.ru/upload/iblock/026/4gk6k235og0na86dzi9csdfmwf0yqk35.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательская группа «Азбука-Аттикус»",
+      "sourcePageUrl": "https://azbooka.ru/books/malchik-so-shpagoy",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_work_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-126",
+    "cover": {
+      "kind": "external",
+      "url": "https://api.azbooka.ru/upload/iblock/ada/adac9fda944ffec920749eed1ea5217e.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательская группа «Азбука-Аттикус»",
+      "sourcePageUrl": "https://azbooka.ru/books/spasibo-uinn-diksi-sbdy",
+      "isbn13": "9785180011923",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_work_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol19970113w",
+    "cover": {
+      "kind": "external",
+      "url": "https://api.azbooka.ru/upload/iblock/c02/c02c45e98836fb08e6ce00dee7c9f205.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательская группа «Азбука-Аттикус»",
+      "sourcePageUrl": "https://azbooka.ru/books/zagaday-zhelanie-eyqf",
+      "isbn13": "9785389048065",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_exact_isbn",
+      "confidence": 1,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": true
+    }
+  },
+  {
+    "id": "ol-ol623471w",
+    "cover": {
+      "kind": "external",
+      "url": "https://api.azbooka.ru/upload/iblock/3f9/426ynn6fqc6ilz5qq6kc8y29biyrynpv.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательская группа «Азбука-Аттикус»",
+      "sourcePageUrl": "https://azbooka.ru/books/skazka-o-zolotom-petyshke",
+      "isbn13": null,
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_work_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol5787637w",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.eksmo.ru/v2/ITD000000000239606/COVER/cover1__w820.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Эксмо»",
+      "sourcePageUrl": "https://eksmo.ru/book/tayna-zloveshchego-sgovora-ITD239606/",
+      "isbn13": null,
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_work_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol2189766w",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.eksmo.ru/v2/ITD000000000850307/COVER/cover1__w820.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Эксмо»",
+      "sourcePageUrl": "https://eksmo.ru/book/rasskazy-skazki-povesti-nov-of--ITD850307/",
+      "isbn13": "9785699133444",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_work_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol13748004w",
+    "cover": {
+      "kind": "external",
+      "url": "https://api.azbooka.ru/upload/iblock/e9c/e9cbc5691e4d18fef094e62bbf5c32e7.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательская группа «Азбука-Аттикус»",
+      "sourcePageUrl": "https://azbooka.ru/books/novye-priklyucheniya-neznayki-ncz1",
+      "isbn13": "9785955506807",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_work_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol13715038w",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.eksmo.ru/v2/ITD000000000626367/COVER/cover1__w820.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Эксмо»",
+      "sourcePageUrl": "https://eksmo.ru/book/professor-kislykh-shchey-il-v-kanivtsa-ITD626367/",
+      "isbn13": null,
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_work_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol13663633w",
+    "cover": {
+      "kind": "external",
+      "url": "https://api.azbooka.ru/upload/iblock/bc3/bc38cb3d5cd1f1a01ead669f7465ac47.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательская группа «Азбука-Аттикус»",
+      "sourcePageUrl": "https://azbooka.ru/books/vy-ne-byli-na-taiti-ei1n",
+      "isbn13": null,
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_work_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol19987346w",
+    "cover": {
+      "kind": "external",
+      "url": "https://api.azbooka.ru/upload/iblock/d63/d638d84c892ca0832b4d8a06fadee1c5.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательская группа «Азбука-Аттикус»",
+      "sourcePageUrl": "https://azbooka.ru/books/khorosho-byt-optimistom",
+      "isbn13": "9785389019980",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_work_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol2223798w",
+    "cover": {
+      "kind": "external",
+      "url": "https://api.azbooka.ru/upload/iblock/130/130d58b118ee1eb55be6c630072eb79e.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательская группа «Азбука-Аттикус»",
+      "sourcePageUrl": "https://azbooka.ru/books/uchitel-vranya-njw7",
+      "isbn13": null,
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_work_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol2189778w",
+    "cover": {
+      "kind": "external",
+      "url": "https://api.azbooka.ru/upload/iblock/fc2/fc286b41bf0af7485ab23f474aa0fcc9.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательская группа «Азбука-Аттикус»",
+      "sourcePageUrl": "https://azbooka.ru/books/zateyniki-vju9",
+      "isbn13": "9785955503516",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_work_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "ol-ol19970140w",
+    "cover": {
+      "kind": "external",
+      "url": "https://api.azbooka.ru/upload/iblock/b43/b43a330dcee1b69faabdf23d601ed6f0.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательская группа «Азбука-Аттикус»",
+      "sourcePageUrl": "https://azbooka.ru/books/bolshaya-kniga-stikhov-i-rasskazov-b9ru",
+      "isbn13": "9785389036284",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_work_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-011",
+    "cover": {
+      "kind": "external",
+      "url": "https://files.books.ru/pic/5202001-5203000/5202736/1228797636c.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "books.ru",
+      "sourcePageUrl": "https://www.books.ru/books/gruffalo-5202736/",
+      "temporary": true,
+      "attribution": "Обложка опубликована в карточке современного издания.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_exact_isbn",
+      "confidence": 1,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": true
+    }
+  },
+  {
+    "id": "nen-012",
+    "cover": {
+      "kind": "external",
+      "url": "https://files.books.ru/pic/5401001-5402000/5401439/005401439.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "books.ru",
+      "sourcePageUrl": "https://www.books.ru/books/sven-nurdkvist-imeninnyi-pirog-5401439/",
+      "temporary": true,
+      "attribution": "Обложка опубликована в карточке современного издания.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_exact_isbn",
+      "confidence": 1,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": true
+    }
+  },
+  {
+    "id": "nen-024",
+    "cover": {
+      "kind": "external",
+      "url": "https://files.books.ru/pic/5081001-5082000/5081259/005081259.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "books.ru",
+      "sourcePageUrl": "https://www.books.ru/books/rebekka-dotremer-nastoyashchaya-zhizn-zhakomina-geinsboro-5081259/",
+      "temporary": true,
+      "attribution": "Обложка опубликована в карточке современного издания.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_exact_isbn",
+      "confidence": 1,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": true
+    }
+  },
+  {
+    "id": "nen-051",
+    "cover": {
+      "kind": "external",
+      "url": "https://www.books.ru/static/images/item_no_cover.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "books.ru",
+      "sourcePageUrl": "https://www.books.ru/books/ochen-golodnaya-gusenitsa-1532020/",
+      "temporary": true,
+      "attribution": "Обложка опубликована в карточке современного издания.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_exact_isbn",
+      "confidence": 1,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": true
+    }
+  },
+  {
+    "id": "nen-055",
+    "cover": {
+      "kind": "external",
+      "url": "https://files.books.ru/pic/5203001-5204000/5203113/1739603017c.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "books.ru",
+      "sourcePageUrl": "https://www.books.ru/books/dochurka-gruffalo-5203113/",
+      "temporary": true,
+      "attribution": "Обложка опубликована в карточке современного издания.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_exact_isbn",
+      "confidence": 1,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": true
+    }
+  },
+  {
+    "id": "nen-057",
+    "cover": {
+      "kind": "external",
+      "url": "https://files.books.ru/pic/5232001-5233000/5232455/1495630213c.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "books.ru",
+      "sourcePageUrl": "https://www.books.ru/books/dzhordzh-i-tainy-vselennoi-5232455/",
+      "isbn13": "9785903497133",
+      "temporary": true,
+      "attribution": "Обложка опубликована в карточке современного издания.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_exact_isbn",
+      "confidence": 1,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": true
+    }
+  },
+  {
+    "id": "nen-058",
+    "cover": {
+      "kind": "external",
+      "url": "https://files.books.ru/pic/5209001-5210000/5209129/659218365c.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "books.ru",
+      "sourcePageUrl": "https://www.books.ru/books/detektiv-per-rasputyvaet-delo-v-poiskakh-pokhishchennogo-labirinta-5209129/",
+      "isbn13": "9785001000877",
+      "temporary": true,
+      "attribution": "Обложка опубликована в карточке современного издания.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_exact_isbn",
+      "confidence": 1,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": true
+    }
+  },
+  {
+    "id": "nen-bv2-013",
+    "cover": {
+      "kind": "external",
+      "url": "https://www.moscowbooks.ru/i/main-cover.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "moscowbooks.ru",
+      "sourcePageUrl": "https://www.moscowbooks.ru/book/1142191/",
+      "isbn13": "9785437003428",
+      "temporary": true,
+      "attribution": "Обложка опубликована в карточке современного издания.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_exact_isbn",
+      "confidence": 1,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": true
+    }
+  },
+  {
+    "id": "nen-bv2-016",
+    "cover": {
+      "kind": "external",
+      "url": "https://files.books.ru/pic/5187001-5188000/5187002/198340400c.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "books.ru",
+      "sourcePageUrl": "https://www.books.ru/books/moi-dedushka-byl-vishnei-5187002/",
+      "isbn13": "9785917594149",
+      "temporary": true,
+      "attribution": "Обложка опубликована в карточке современного издания.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_exact_isbn",
+      "confidence": 1,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": true
+    }
+  },
+  {
+    "id": "nen-bv2-017",
+    "cover": {
+      "kind": "external",
+      "url": "https://files.books.ru/pic/5232001-5233000/5232211/431260095c.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "books.ru",
+      "sourcePageUrl": "https://www.books.ru/books/sakharnyi-rebenok-lyudi-sobytiya-fakty-5232211/",
+      "temporary": true,
+      "attribution": "Обложка опубликована в карточке современного издания.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_exact_isbn",
+      "confidence": 1,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": true
+    }
+  },
+  {
+    "id": "nen-bv2-024",
+    "cover": {
+      "kind": "external",
+      "url": "https://files.books.ru/pic/4807001-4808000/4807236/004807236.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "books.ru",
+      "sourcePageUrl": "https://www.books.ru/books/ferdinand-4807236/",
+      "temporary": true,
+      "attribution": "Обложка опубликована в карточке современного издания.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_exact_isbn",
+      "confidence": 1,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": true
+    }
+  },
+  {
+    "id": "nen-bv2-029",
+    "cover": {
+      "kind": "external",
+      "url": "https://files.books.ru/pic/414001-415000/414006/414006.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "books.ru",
+      "sourcePageUrl": "https://www.books.ru/books/znaesh-kak-ya-tebya-lyublyu-414006/",
+      "isbn13": "9785437001622",
+      "temporary": true,
+      "attribution": "Обложка опубликована в карточке современного издания.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_work_title_author",
+      "confidence": 0.99,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": false
+    }
+  },
+  {
+    "id": "nen-bv2-033",
+    "cover": {
+      "kind": "external",
+      "url": "https://files.books.ru/pic/5209001-5210000/5209764/1703306469c.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "books.ru",
+      "sourcePageUrl": "https://www.books.ru/books/ulitka-i-kit-5209764/",
+      "temporary": true,
+      "attribution": "Обложка опубликована в карточке современного издания.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_exact_isbn",
+      "confidence": 1,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": true
+    }
+  },
+  {
+    "id": "nen-bv2-034",
+    "cover": {
+      "kind": "external",
+      "url": "https://files.books.ru/pic/1537001-1538000/1537618/001537618.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "books.ru",
+      "sourcePageUrl": "https://www.books.ru/books/tyulka-malenkaya-rybka-i-bolshaya-vydumshchitsa-stikhi-1537618/",
+      "temporary": true,
+      "attribution": "Обложка опубликована в карточке современного издания.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_exact_isbn",
+      "confidence": 1,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": true
+    }
+  },
+  {
+    "id": "nen-bv2-090",
+    "cover": {
+      "kind": "external",
+      "url": "https://ndc.book24.ru/resize/820x1180/pim/products/images/0e/f6/018fae75-7785-7876-94d1-b6a231dc0ef6.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "book24.ru",
+      "sourcePageUrl": "https://book24.ru/product/istoriya-s-kladbishchem-2927196/",
+      "temporary": true,
+      "attribution": "Обложка опубликована в карточке современного издания.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_exact_isbn",
+      "confidence": 1,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": true
+    }
+  },
+  {
+    "id": "nen-bv2-101",
+    "cover": {
+      "kind": "external",
+      "url": "https://files.books.ru/pic/720001-721000/720969/720969.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "books.ru",
+      "sourcePageUrl": "https://www.books.ru/books/beskonechnaya-istoriya-720969/",
+      "isbn13": "9785367011869",
+      "temporary": true,
+      "attribution": "Обложка опубликована в карточке современного издания.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_exact_isbn",
+      "confidence": 1,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": true
+    }
+  },
+  {
+    "id": "nen-bv2-141",
+    "cover": {
+      "kind": "external",
+      "url": "https://books.google.es/books/publisher/content?id=MNLBEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70o5KvaQzXvEV8vyEJnMKsKJ4Yy27UkfwLTSuBxdH4qXYTM42KBMhsSLrv1QdxdrtnboVB3Hf7nWL6mnvUO3hxH7Q6QDYhhTfri2Ava8Y9_7juXCTMcpk_FF2dgBVxZKMQQitOY",
+      "rightsStatus": "external-display-only",
+      "sourceName": "books.google.com",
+      "sourcePageUrl": "https://books.google.com/books/about/%D0%92%D1%80%D0%B5%D0%BC%D1%8F_%D0%B2%D1%81%D0%B5%D0%B3%D0%B4%D0%B0_%D1%85%D0%BE%D1%80%D0%BE%D1%88%D0%B5%D0%B5.html?id=MNLBEAAAQBAJ",
+      "temporary": true,
+      "attribution": "Обложка опубликована в карточке современного издания.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_exact_isbn",
+      "confidence": 1,
+      "titleMatch": 0,
+      "authorMatch": false,
+      "isbnExact": true
+    }
+  },
+  {
+    "id": "ol-ol19978383w",
+    "cover": {
+      "kind": "external",
+      "url": "https://content.img-gorod.ru/pim/products/images/a7/a9/01907d29-3b97-7082-a30a-48430276a7a9.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "chitai-gorod.ru",
+      "sourcePageUrl": "https://www.chitai-gorod.ru/product/ohotnichi-istorii-2275445",
+      "isbn13": "9785699248148",
+      "temporary": true,
+      "attribution": "Обложка опубликована в карточке современного издания.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_exact_isbn",
+      "confidence": 1,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": true
+    }
+  },
+  {
+    "id": "ol-ol44377549w",
+    "cover": {
+      "kind": "external",
+      "url": "https://content.img-gorod.ru/pim/products/images/56/79/018ee17d-725a-7565-a696-eeb06d115679.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "chitai-gorod.ru",
+      "sourcePageUrl": "https://www.chitai-gorod.ru/product/naverno-ya-eshche-malenkiy-2716100",
+      "isbn13": "9785386105211",
+      "temporary": true,
+      "attribution": "Обложка опубликована в карточке современного издания.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_exact_isbn",
+      "confidence": 1,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": true
+    }
+  },
+  {
+    "id": "ol-ol3398755w",
+    "cover": {
+      "kind": "external",
+      "url": "https://www.books.ru/static/images/item_no_cover.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "books.ru",
+      "sourcePageUrl": "https://www.books.ru/books/delfinii-ostrov-4858750/",
+      "isbn13": null,
+      "temporary": true,
+      "attribution": "Обложка опубликована в карточке современного издания.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_exact_isbn",
+      "confidence": 1,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": true
+    }
+  },
+  {
+    "id": "ol-ol19938743w",
+    "cover": {
+      "kind": "external",
+      "url": "https://files.books.ru/pic/559001-560000/559630/559630.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "books.ru",
+      "sourcePageUrl": "https://www.books.ru/books/petr-chaikovskii-ili-volshebnoe-pero-559630/",
+      "isbn13": "9785779314237",
+      "temporary": true,
+      "attribution": "Обложка опубликована в карточке современного издания.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_exact_isbn",
+      "confidence": 1,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": true
+    }
+  },
+  {
+    "id": "ol-ol19742113w",
+    "cover": {
+      "kind": "external",
+      "url": "https://files.books.ru/pic/730001-731000/730077/000730077.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "books.ru",
+      "sourcePageUrl": "https://www.books.ru/books/veselyi-dvoechnik-690057/",
+      "isbn13": "9785906819321",
+      "temporary": true,
+      "attribution": "Обложка опубликована в карточке современного издания.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_exact_isbn",
+      "confidence": 1,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": true
+    }
+  },
+  {
+    "id": "ol-ol19972711w",
+    "cover": {
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/381027/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "labirint.ru",
+      "sourcePageUrl": "https://www.labirint.ru/books/381027/",
+      "isbn13": "9785910455775",
+      "temporary": true,
+      "attribution": "Обложка опубликована в карточке современного издания.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_exact_isbn",
+      "confidence": 1,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": true
+    }
+  },
+  {
+    "id": "ol-ol13714296w",
+    "cover": {
+      "kind": "external",
+      "url": "https://www.moscowbooks.ru/i/main-cover.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "moscowbooks.ru",
+      "sourcePageUrl": "https://www.moscowbooks.ru/book/1231420/",
+      "isbn13": null,
+      "temporary": true,
+      "attribution": "Обложка опубликована в карточке современного издания.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_exact_isbn",
+      "confidence": 1,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": true
+    }
+  },
+  {
+    "id": "ol-ol20020633w",
+    "cover": {
+      "kind": "external",
+      "url": "https://files.books.ru/pic/3542001-3543000/3542036/003542036.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "books.ru",
+      "sourcePageUrl": "https://www.books.ru/books/kak-menya-spasali-3542036/",
+      "isbn13": "9785389000599",
+      "temporary": true,
+      "attribution": "Обложка опубликована в карточке современного издания.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_exact_isbn",
+      "confidence": 1,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": true
+    }
+  },
+  {
+    "id": "ol-ol865246w",
+    "cover": {
+      "kind": "external",
+      "url": "https://files.books.ru/pic/504001-505000/504326/504326.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "books.ru",
+      "sourcePageUrl": "https://www.books.ru/books/ochen-strashnaya-istoriya-504326/",
+      "isbn13": null,
+      "temporary": true,
+      "attribution": "Обложка опубликована в карточке современного издания.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_exact_isbn",
+      "confidence": 1,
+      "titleMatch": 1,
+      "authorMatch": true,
+      "isbnExact": true
+    }
+  },
+  {
+    "id": "ol-ol31434681w",
+    "cover": {
+      "kind": "external",
+      "url": "https://books.google.es/books/publisher/content?id=GeIIAgAAQBAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE73rBAESx4myUwv1-nMtyo_zlK8HmU6yL1_UdOfx0hRvQagxIB2qJ7n1n3CdyCiIHg48eKGMu7tjZdPbZNQ9E2ZRAD35hO1FUHinKpLAj8haoSc_JgB_nmUlzHe2NUcE0ueTy-MC",
+      "rightsStatus": "external-display-only",
+      "sourceName": "books.google.com",
+      "sourcePageUrl": "https://books.google.com/books/about/%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B5_%D0%B4%D0%B5%D1%82%D0%B8.html?id=GeIIAgAAQBAJ",
+      "isbn13": "9785389057210",
+      "temporary": true,
+      "attribution": "Обложка опубликована в карточке современного издания.",
+      "verifiedAt": "2026-07-28"
+    },
+    "match": {
+      "strategy": "official_page_exact_isbn",
+      "confidence": 1,
+      "titleMatch": 0,
+      "authorMatch": false,
+      "isbnExact": true
+    }
   }
 ]

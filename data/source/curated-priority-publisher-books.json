@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T04:56:03.949Z",
+  "generatedAt": "2026-07-28T08:54:28.186Z",
   "sourcePolicy": "Официальные каталоги издательств; только полные карточки детской художественной литературы.",
   "officialCatalogs": [
     {
@@ -41364,7 +41364,25 @@
       "status": "published"
     }
   ],
-  "enrichments": [],
+  "enrichments": [
+    {
+      "id": "nen-bv2-005",
+      "publisher": "Clever",
+      "isbn13": "9785919825524",
+      "cover": {
+        "kind": "external",
+        "url": "https://static.insales-cdn.com/images/products/1/1566/899524126/9785919825524.jpg",
+        "rightsStatus": "external-display-only",
+        "sourceName": "Издательство «Clever»",
+        "sourcePageUrl": "https://www.clever-media.ru/product/kotyonok-shmyak",
+        "isbn13": "9785919825524",
+        "temporary": true,
+        "attribution": "Обложка предоставлена издательством.",
+        "verifiedAt": "2026-07-28"
+      },
+      "bibliographicSource": "https://www.clever-media.ru/product/kotyonok-shmyak"
+    }
+  ],
   "report": {
     "requested": 820,
     "accepted": 697,

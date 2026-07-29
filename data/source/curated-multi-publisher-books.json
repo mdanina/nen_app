@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T07:25:05.052Z",
+  "generatedAt": "2026-07-28T08:56:50.369Z",
   "sourcePolicy": "Официальные каталоги издательств; только детская художественная литература с полной карточкой и аннотацией.",
   "officialCatalogs": [
     {
@@ -14786,7 +14786,28 @@
       "status": "published"
     }
   ],
-  "enrichments": [],
+  "enrichments": [
+    {
+      "id": "nen-019",
+      "publisher": "КомпасГид",
+      "publicationYear": 2023,
+      "pages": 56,
+      "seriesName": "Вне серий",
+      "isbn13": "9785907514478",
+      "cover": {
+        "kind": "external",
+        "url": "https://kompasgid.ru/wp-content/uploads/2022/11/babushka_slomala_internet_ebook.jpg",
+        "rightsStatus": "external-display-only",
+        "sourceName": "Издательство «КомпасГид»",
+        "sourcePageUrl": "https://kompasgid.ru/product/babushka-slomala-internet-978-5-907514-47-8-avt-kling-mark-uve-id-tinbuk/",
+        "isbn13": "9785907514478",
+        "temporary": true,
+        "attribution": "Обложка предоставлена издательством.",
+        "verifiedAt": "2026-07-28"
+      },
+      "bibliographicSource": "https://kompasgid.ru/product/babushka-slomala-internet-978-5-907514-47-8-avt-kling-mark-uve-id-tinbuk/"
+    }
+  ],
   "report": {
     "requestedPerPublisher": 105,
     "accepted": 249,
@@ -14797,10 +14818,754 @@
     },
     "duplicateRejections": [
       {
+        "id": "curated-whitecrow-mama-mu-i-snegokat-mama-mu-i-snegokat",
+        "title": "Мама Му и снегокат",
+        "authors": [
+          "Юя",
+          "Томас Висландер",
+          "Свен Нурдквист"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-whitecrow-skazka-na-rozhdestvo-skazka-na-rozhdestvo",
+        "title": "Сказка на Рождество",
+        "authors": [
+          "Джованнино Гуарески"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-whitecrow-ohota-na-snarka-ohota-na-snarka",
+        "title": "Охота на Снарка",
+        "authors": [
+          "Льюис Кэрролл"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-whitecrow-skazka-o-vetre-v-bezvetrennyy-den-skazka-o-vetre",
+        "title": "Сказка о ветре в безветренный день",
+        "authors": [
+          "Софья Прокофьева"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-whitecrow-belyy-aist-poslanets-neba-chernyy-aist-lesnoy-otshelnik-belyj-aist-chernyj-aist",
+        "title": "Белый аист. Посланец неба. Черный аист. Лесной отшельник",
+        "authors": [
+          "Николай Шпиленок"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-whitecrow-dzheyn-lisa-i-ya-jane-lisa-i-ya",
+        "title": "Джейн, лиса и я",
+        "authors": [
+          "Изабель Арсено",
+          "Фанни Бритт"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-whitecrow-maksi-pes-fik-priklyucheniya-prodolzhayutsya-maksi-pyos-fik-priklyucheniya-prodolzhayutsya",
+        "title": "Макси-пёс Фик. Приключения продолжаются",
+        "authors": [
+          "Рудольф Чехура",
+          "Иржи Шаламоун"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-whitecrow-kum-korolyu-kum-korolyu",
+        "title": "Кум Королю",
+        "authors": [
+          "Станислав Востоков",
+          "Вера Цепилова"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-whitecrow-vverh-po-lestnitse-veduschey-vniz-vverh-po-lestnitse-vedushhej-vniz",
+        "title": "Вверх по лестнице, ведущей вниз",
+        "authors": [
+          "Бел Кауфман"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-whitecrow-navoznyy-zhuk-letaet-v-sumerkah-navoznyj-zhuk-letaet-v-sumerkah",
+        "title": "Навозный жук летает в сумерках",
+        "authors": [
+          "Мария Грипе"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-whitecrow-ogorod-na-podokonnike-ogorod-na-podokonnike",
+        "title": "Огород на подоконнике",
+        "authors": [
+          "Клара Лидстрём",
+          "Аннакарин Нюберг"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-whitecrow-v-pogone-za-shlyapoy-v-pogone-za-shlyapoj",
+        "title": "В погоне за шляпой",
+        "authors": [
+          "Свен Нурдквист"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-whitecrow-gde-moya-sestra-gde-moya-sestra",
+        "title": "Где моя сестра?",
+        "authors": [
+          "Свен Нурдквист"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-whitecrow-zagadki-detektiva-schuki-zagadki-detektiva-shhuki",
+        "title": "Загадки детектива Щуки",
+        "authors": [
+          "Иржи Калоусек",
+          "Иржи Лапачек"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-whitecrow-pohozhdeniya-memeka-muzykanta-memek-muzykant",
+        "title": "Похождения Мемека-музыканта",
+        "authors": [
+          "Жан-Клод Мурлева"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-whitecrow-kak-gitler-ukral-rozovogo-krolika-2-e-izdanie-pink-rabbit",
+        "title": "Как Гитлер украл розового кролика, 2-е издание",
+        "authors": [
+          "Джудит Керр"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-whitecrow-chto-my-prazdnuem-8-marta-8marta",
+        "title": "Что мы празднуем 8 марта",
+        "authors": [
+          "Сасса Бурегрен",
+          "Элин Линделл"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-whitecrow-brat-yunnat-brat-unnat",
+        "title": "Брат-юннат",
+        "authors": [
+          "Станислав Востоков"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-whitecrow-mister-kleghorn-i-ego-tyulenenok-mister-kleghorn-i-ego-tyulenenok",
+        "title": "Мистер Клегхорн и его тюлененок",
+        "authors": [
+          "Джудит Керр"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-whitecrow-karius-i-bakterius-karius-i-bakterius",
+        "title": "Кариус и Бактериус",
+        "authors": [
+          "Турбьёрн Эгнер"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-whitecrow-kak-ya-teper-zhivu-meg-rosoff-kak-ya-teper-zhivu",
+        "title": "Как я теперь живу",
+        "authors": [
+          "Мег Розофф"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-whitecrow-lui-sredi-prizrakov-lui-sredi-prizrakov",
+        "title": "Луи среди призраков",
+        "authors": [
+          "Изабель Арсено",
+          "Фанни Бритт"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-whitecrow-i-belye-teni-v-lesu-i-belye-teni-v-lesu",
+        "title": "И белые тени в лесу",
+        "authors": [
+          "Мария Грипе"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-whitecrow-myshinaya-kniga-myshinaya-kniga",
+        "title": "Мышиная книга",
+        "authors": [
+          "Стефан Каста",
+          "Стаффан Ульстрём"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-whitecrow-vyshel-lev-iz-za-gory-vyshel-lev-iz-za-gory",
+        "title": "Вышел лев из-за горы",
+        "authors": [
+          "Григорий Кружков"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-whitecrow-vse-druzya-naperechet-vse-druzya-naperechet",
+        "title": "Все друзья наперечёт",
+        "authors": [
+          "Лена Андерсон"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-whitecrow-tayna-hvoinki-tajna-hvoinki",
+        "title": "Тайна Хвоинки",
+        "authors": [
+          "Лена Андерсон"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-whitecrow-hvoinka-svinofufik-i-nosik-rozochkoy-hvoinka-svinofufik-i-nosik-rozochkoj",
+        "title": "Хвоинка, Свинофуфик и Носик-Розочкой",
+        "authors": [
+          "Лена Андерсон"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-whitecrow-korabl-noya-korabl-noya",
+        "title": "Корабль Ноя",
+        "authors": [
+          "Салли Альтшулер",
+          "Свен Нурдквист"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-whitecrow-myach-v-igre-myach-v-igre",
+        "title": "Мяч в игре!",
+        "authors": [
+          "Алексей Дурново"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-whitecrow-kak-ya-nechayanno-napisala-knigu-kak-ya-nechayanno-napisala-knigu",
+        "title": "Как я нечаянно написала книгу",
+        "authors": [
+          "Аннет Хёйзинг"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-whitecrow-malyutka-laban-priklyucheniya-v-zamke-malyutka-laban-priklyucheniya-v-zamke",
+        "title": "Малютка Лабан. Приключения в замке",
+        "authors": [
+          "Ингер",
+          "Лассе Сандберг"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-whitecrow-progulka-sven-nordqvist-progulka",
+        "title": "Прогулка",
+        "authors": [
+          "Свен Нурдквист"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-whitecrow-petson-i-findus-semeynyy-kalendar-na-2019-god-kalendar-petson-i-findus-2019",
+        "title": "Петсон и Финдус. Семейный календарь на 2019 год",
+        "authors": [
+          "Свен Нурдквист"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-whitecrow-malenkiy-stark-mal-stark",
+        "title": "Маленький Старк",
+        "authors": [
+          "Ульф Старк"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-whitecrow-legenda-o-salli-dzhons-salli-legenda",
+        "title": "Легенда о Салли Джонс",
+        "authors": [
+          "Якоб Вегелиус"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-whitecrow-kogda-idesh-po-mostu-mosty",
+        "title": "Когда идешь по мосту",
+        "authors": [
+          "Эрна Усланд"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-whitecrow-charlz-darvin-revolyutsiya-charles-darwin",
+        "title": "Чарлз Дарвин. Революция",
+        "authors": [
+          "Аннабель Кремер"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-whitecrow-lui-paster-uchenyy-detektiv-louis-pasteur",
+        "title": "Луи Пастер. Ученый-детектив",
+        "authors": [
+          "Флоранс Пино"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-whitecrow-teatr-dzhanni-rodari-teatr-dzhanni-rodari",
+        "title": "Театр Джанни Родари",
+        "authors": [
+          "Джанни Родари"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-whitecrow-sonya-iz-7-buee-sonya-iz-sedmogo-buee",
+        "title": "Соня из 7„Буээ“",
+        "authors": [
+          "Алексей Олейников",
+          "Тимофей Яржомбек"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-whitecrow-nalle-lapson-nalle-lapson",
+        "title": "Налле Лапсон",
+        "authors": [
+          "Йоста Кнутсон"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-whitecrow-nalle-lapson-beretsya-za-delo-nalle-lapson-beretsya-za-delo",
+        "title": "Налле Лапсон берется за дело",
+        "authors": [
+          "Йоста Кнутсон"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-whitecrow-cherez-granitsu-maja-lunde-cherez-granicu",
+        "title": "Через границу",
+        "authors": [
+          "Майя Лунде"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-whitecrow-begletsy-ulf-stark-beglecy",
+        "title": "Беглецы",
+        "authors": [
+          "Ульф Старк"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-whitecrow-puteshestvie-k-tsentru-zemli-po-proizvedeniyu-zhyulya-verna-puteshestvie-k-centru-zemli",
+        "title": "Путешествие к центру Земли. По произведению Жюля Верна",
+        "authors": [
+          "Маттео Бертон"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-whitecrow-malenkaya-povest-o-lyubvi-malenkaya-povest-o-lyubvi",
+        "title": "Маленькая повесть о любви",
+        "authors": [
+          "Ульф Старк"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-whitecrow-nalle-lapson-i-tyapka-nalle-lapson-i-tyapka",
+        "title": "Налле Лапсон и Тяпка",
+        "authors": [
+          "Йоста Кнутсон"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-whitecrow-petson-i-findus-semeynyy-kalendar-na-2020-god-kalendar-petson-i-findus-2020",
+        "title": "Петсон и Финдус. Семейный календарь на 2020 год",
+        "authors": [
+          "Свен Нурдквист"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-whitecrow-parko-parco",
+        "title": "Парко",
+        "authors": [
+          "Алекс Ногес",
+          "Гуриди"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-whitecrow-istoriya-o-kroshke-ele-i-kosmonavte-layke-istoriya-o-kroshke-ele-i-kosmonavte-layke",
+        "title": "История о Крошке Эле и космонавте Лайке",
+        "authors": [
+          "Хелен Рундгрен",
+          "Кеннет Андерссон"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-whitecrow-gorodskie-legendy-gorodskie-legendy",
+        "title": "Городские легенды",
+        "authors": [
+          "Иржи Линхарт"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-whitecrow-eh-istoriya-o-malenkom-geparde-kotoryy-ne-umel-begat-eh-istoriya-o-malenkom-geparde-kotoryj-ne-umel-begat",
+        "title": "Эх! История о маленьком гепарде, который не умел бегать",
+        "authors": [
+          "Ольга Василькова"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-whitecrow-politika-to-o-chem-vzroslye-tebe-ne-rasskazyvayut-politika-to-o-chem-vzroslye-tebe-ne-rasskazyvayut",
+        "title": "Политика. То, о чем взрослые тебе не рассказывают*",
+        "authors": [
+          "Богусь Янишевский"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-pochtovaya-stantsiya-ratshof-kniga-1-labirint-mertvetsa-pochtovaya-stantsiya-ratshof-kn-1-labirint-mertvetsa-a",
+        "title": "Почтовая станция Ратсхоф: Книга 1. Лабиринт мертвеца",
+        "authors": [
+          "Евгений Рудашевский"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-adel-blan-sek-neobyknovennye-priklyucheniya-t-2-kn-4-6-adel-blan-sek-neobyknovennye-priklyucheniya-t-2-kn-4-6",
+        "title": "Адель Блан-Сек. Необыкновенные приключения. Т.2 кн. 4-6",
+        "authors": [
+          "Тарди"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-pro-malenkogo-porosenka-plyuha-pro-malenkogo-porosenka-plyuha",
+        "title": "Про маленького поросенка Плюха",
+        "authors": [
+          "Баллод И.",
+          "Румянцева И."
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-novoe-chernoe-palto-s-avtografom-novoe-chernoe-palto-s-avtografom",
+        "title": "Новое черное пальто (с автографом)",
+        "authors": [
+          "Мария Ботева"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-bolshaya-malenkaya-devochka-kniga-2-istorii-7-12-2-e-izd-bolshaya-malenkaya-devochka-kniga-2-istorii-7-12-avt",
+        "title": "Большая маленькая девочка. Книга 2 (истории 7-12) (2-е изд.)",
+        "authors": [
+          "Мария Бершадская"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-kak-poymat-tishinu-i-drugie-istorii-pro-ulku-2-e-izd-kak-pojmat-tishinu-i-drugie-istorii-pro-ulku-avt-evgeniya",
+        "title": "Как поймать тишину и другие истории про Ульку (2-е изд.)",
+        "authors": [
+          "Чернышова Евгения"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-lichnoe-delo-saveliya-puzikova-lichnoe-delo-saveliya-puzikova-avt-anna-zenkova-id-kompasgid-2022",
+        "title": "Личное дело Савелия Пузикова",
+        "authors": [
+          "Анна Зенькова"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-bolshaya-malenkaya-devochka-kniga-1-istorii-1-6-2-e-izd-bolshaya-malenkaya-devochka-kniga-1-istorii-1-6",
+        "title": "Большая маленькая девочка. Книга 1 (истории 1-6) (2-е изд.)",
+        "authors": [
+          "Мария Бершадская"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-malchik-i-devochka-iz-spichechnoy-korobki-malchik-i-devochka-iz-spichechnoj-korobki-avt-erih-kestner-id-kompas",
+        "title": "Мальчик и девочка из спичечной коробки",
+        "authors": [
+          "Эрих Кестнер"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-medvezhonok-pompon-v-tsirke-medvezhonok-pompon-v-tsirke-avt-benzhamen-sho-kompaskid-2018-g-26-s",
+        "title": "Медвежонок Помпон в цирке",
+        "authors": [
+          "Бенжамен Шо"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-dzhek-desh-i-letnyaya-vyuga-dzhek-desh-i-letnyaya-vyuga-avt-sofi-plauden-id-tinbuk-2021-g-208-str",
+        "title": "Джек Дэш и летняя вьюга",
+        "authors": [
+          "Софи Плауден"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-tayna-propavshey-ekspeditsii-tajna-propavshej-ekspeditsii",
+        "title": "Тайна пропавшей экспедиции",
+        "authors": [
+          "Евгений Рудашевский"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-okolo-muzyki-i-drugie-rasskazy-2-e-izd-okolo-muzyki-i-drugie-rasskazy",
+        "title": "Около музыки и другие рассказы (2-е изд.)",
+        "authors": [
+          "Нина Дашевская"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-udar-skorpiona-udar-skorpiona-zenkova-anna-id-kompasgid-2021-g-392-str-isbn-978-5-00083-743-6",
+        "title": "Удар Скорпиона",
+        "authors": [
+          "Анна Зенькова"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-angel-s-chertova-ostrova-angel-s-chertova-ostrova-avt-levi-henriksen-id-kompasgid-2019-g-216-s",
+        "title": "Ангел с Чертова острова",
+        "authors": [
+          "Леви Хенриксен"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-banda-iz-leyptsiga-banda-iz-lejptsiga-avt-hervig-i-id-kompasgid-312-s-2022-g",
+        "title": "Банда из Лейпцига",
+        "authors": [
+          "Иоганнес Хервиг"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-bereg-mertvyh-nezabudok-bereg-mertvyh-nezabudok-avt-ekaterina-zvontsova-360-s-isbn-978-5-00083-853-2-id-kompas",
+        "title": "Берег мертвых незабудок",
+        "authors": [
+          "Звонцова Екатерина"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
         "id": "curated-kompasgid-bereg-mertvyh-nezabudok-s-avtografom-bereg-mertvyh-nezabudok-s-avtografom",
         "title": "Берег мертвых незабудок (с автографом)",
         "authors": [
           "Звонцова Екатерина"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-bogi-kak-lyudi-kniga-1-krugi-na-vode-bogi-kak-lyudi-kn-1-krugi-na-vode",
+        "title": "Боги как люди. Книга 1. Круги на воде",
+        "authors": [
+          "Ткачева Яна"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-dremery-kn-1-izgnanniki-zennona-dremery-kn-1-izgnanniki-zennona",
+        "title": "Дремеры. Кн. 1. Изгнанники Зеннона",
+        "authors": [
+          "Брюс Алина"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-i-pro-tebya-tam-napisano-i-pro-tebya-tam-napisano-avt-alina-bronski-id-kompasgid-2019-g-200-s",
+        "title": "И про тебя там написано",
+        "authors": [
+          "Алина Бронски"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-kofe-bez-moloka-kofe-bez-moloka-ferrari-andrea-136-str-id-tinbuk-2021g-isbn-978-5-907178-21-2",
+        "title": "Кофе без молока",
+        "authors": [
+          "Андреа Феррари"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-krasnaya-karma-krasnaya-karma-simon-eddi-id-tinbuk-120-str-2021g-isbn-978-5-907178-37-3",
+        "title": "Красная карма",
+        "authors": [
+          "Эдди Симон"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-moy-drug-otto-moj-drug-otto-lambek-zilke-id-tinbuk-176-str-2021g-isbn-978-5-907178-63-2",
+        "title": "Мой друг Отто",
+        "authors": [
+          "Ламбек Зильке"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-mila-hant-mila-hant-avt-eli-anderson-id-tinbuk-2021-g-440-str",
+        "title": "Мила Хант",
+        "authors": [
+          "Эли Андерсон"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-norman-2-e-izd-norman-2-e-izd-avt-kamel-benauda-id-tinbuk-2021-g-320-s-norman-avt-kamel-benauda-id-tinbuk-2021",
+        "title": "Норман (2-е изд.)",
+        "authors": [
+          "Камель Бенауда"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-oduvanchiki-dlya-mamy-rasskazy-pro-liku-i-mityu-oduvanchiki-dlya-mamy-rasskazy-pro-liku-i-mityu-avt-natalya-ev",
+        "title": "Одуванчики для мамы. Рассказы про Лику и Митю",
+        "authors": [
+          "Наталья Евдокимова"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-pochti-polnoch-pochti-polnoch-avt-antoni-ino-kombreksel-id-tinbuk-2019-g-288-s",
+        "title": "Почти полночь",
+        "authors": [
+          "Комбрексель Антони Ино"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-pyatoe-poslanie-pyatoe-poslanie",
+        "title": "Пятое послание",
+        "authors": [
+          "Чарли Пайк"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-ragana-vedmina-doroga-ragana-avt-anita-fevers-344-s-isbn-978-5-00083-779-5-id-kompasgid",
+        "title": "Рагана (Ведьмина дорога)",
+        "authors": [
+          "Феверс Анита"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-serdtse-na-brayle-serdtse-na-brajle-ryuter-paskal-id-tinbuk-240-str-2021g-isbn-978-5-907178-64-9",
+        "title": "Сердце на Брайле",
+        "authors": [
+          "Паскаль Рютер"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-teni-radovara-teni-radovara-avt-marlus-morshyojs-id-tinbuk-2020-g-344-s",
+        "title": "Тени Радовара",
+        "authors": [
+          "Марлус Морсхёйс"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-teoriya-aysberga-teoriya-ajsberga-avt-kristofer-buiks-id-tinbuk-216-s-978-5-907178-88-5",
+        "title": "Теория Айсберга",
+        "authors": [
+          "Буикс Кристофер"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-tomas-drimm-kniga-2-voyna-s-derevyami-nachnetsya-trinadtsatogo-tomas-drimm-kniga-2-vojna-s-derevyami-nachnetsy",
+        "title": "Томас Дримм. Книга 2. Война с деревьями начнется тринадцатого",
+        "authors": [
+          "Ковеларт Дидье ван"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-tomas-drimm-kniga-3-vremya-ostanovitsya-v-12-05-tomas-drimm-kniga-3-vremya-ostanovitsya-v-12-05-avt-dide-van-k",
+        "title": "Томас Дримм. Книга 3. Время остановится в 12:05",
+        "authors": [
+          "Ковеларт Дидье ван"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-uznik-dvenadtsati-provintsiy-uznik-dvenadtsati-provintsij-avt-fransua-plas-id-kompasgid-2019-272-s",
+        "title": "Узник Двенадцати провинций",
+        "authors": [
+          "Франсуа Плас"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-emili-laym-i-pohititeli-knig-emili-lajm-i-pohititeli-knig-avt-dejv-shelton-id-tinbuk-2019-g-296-s",
+        "title": "Эмили Лайм и похитители книг",
+        "authors": [
+          "Дейв Шелтон"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-zoom-karantinnaya-istoriya-s-avtografom-zoom-karantinnaya-istoriya-s-avtografom",
+        "title": "Zoom. Карантинная история (с автографом)",
+        "authors": [
+          "Елена Борода"
         ],
         "reason": "duplicate_existing_catalog"
       },
@@ -14813,10 +15578,197 @@
         "reason": "duplicate_existing_catalog"
       },
       {
+        "id": "curated-kompasgid-amneziya-dnevnik-poteryavshego-pamyat-amneziya-dnevnik-poteryavshego-pamyat-id-tinbuk-avt-natali-somers-978-5",
+        "title": "Амнезия. Дневник потерявшего память",
+        "authors": [
+          "Сомерс Натали"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-molli-imeet-pravo-molli-imeet-pravo-keri-a-2022-g-344-s",
+        "title": "Молли имеет право",
+        "authors": [
+          "Анна Кэри"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-pust-budet-groza-pust-budet-groza-978-5-907514-44-7-mari-shartr-tinbuk-2023",
+        "title": "Пусть будет гроза",
+        "authors": [
+          "Шартр Мари"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-pyatoe-solntse-pyatoe-solntse-avt-elena-bumagina-id-kompasgid-2019-g-264-s",
+        "title": "Пятое солнце",
+        "authors": [
+          "Елена Бумагина"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-letniy-domik-letnij-domik-avt-sesilie-trejmo-id-kompasgid-2019-g-232-s",
+        "title": "Летний домик",
+        "authors": [
+          "Сесилие Треймо"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-solntse-skvoz-paltsy-solntse-skvoz-paltsy-avt-gabriele-klima-id-kompasgid-2019-g-144-s",
+        "title": "Солнце сквозь пальцы",
+        "authors": [
+          "Габриэле Клима"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-podarok-dlya-deda-moroza-ili-pohischenie-novogodney-elki-s-avtografom-podarok-dlya-deda-moroza-ili-pohishhenie",
+        "title": "Подарок для Деда Мороза, или Похищение новогодней ёлки (с автографом)",
+        "authors": [
+          "Хворост Александра"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-nablyudateli-nablyudateli",
+        "title": "Наблюдатели",
+        "authors": [
+          "Басова Евгения"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-gorit-kamysh-gorit-kamysh",
+        "title": "Горит камыш",
+        "authors": [
+          "Евгений Рудашевский"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-volshebnaya-pochta-kn-1-pochta-otkryvaetsya-v-polnoch-volshebnaya-pochta-kn-1-pochta-otkryvaetsya-v-polnoch",
+        "title": "Волшебная почта Кн. 1. Почта открывается в полночь",
+        "authors": [
+          "Герасимова Дарья"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
         "id": "curated-kompasgid-podarok-dlya-deda-moroza-ili-pohischenie-novogodney-elki-podarok-dlya-deda-moroza-ili-pohishhenie-novogodnej-y",
         "title": "Подарок для Деда Мороза, или Похищение новогодней ёлки",
         "authors": [
           "Хворост Александра"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-bud-yarche-bud-yarche",
+        "title": "Будь ярче!",
+        "authors": [
+          "драматурги Молодые"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-poetka-poetka",
+        "title": "Поэтка",
+        "authors": [
+          "Татьяна Март"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-schastlivtsy-schastlivtsy",
+        "title": "Счастливцы",
+        "authors": [
+          "Басова Евгения"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-pervyy-zakon-shurupchika-perv-zakon",
+        "title": "Первый закон Шурупчика",
+        "authors": [
+          "Стрельцова Алиса"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-fialki-tsvetut-zimoy-fialki-tsvetut-zimoj-978-5-907514-85-0-avt-delfina-pessan-id-tinbuk",
+        "title": "Фиалки цветут зимой",
+        "authors": [
+          "Пессан Дельфина"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-eto-nash-4-n-eto-nash-4-n-avt-viktoriya-lederman-152-s-2024-id-kompasgid",
+        "title": "Это наш 4 «Н»",
+        "authors": [
+          "Виктория Ледерман"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-steklyannye-lyagushki-tri-istorii-o-vybore-steklyannye-lyagushki-tri-istorii-o-vybore-978-5-00083-858-7-312-s",
+        "title": "Стеклянные лягушки : три истории о выборе",
+        "authors": [
+          "Мария Ботева",
+          "Вишнякова Наталья",
+          "Сергеева Татьяна"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-vsya-sineva-neba-vsya-sineva-neba-978-5-907514-86-7-avt-melissa-da-kosta-id-tinuk",
+        "title": "Вся синева неба",
+        "authors": [
+          "Мелисса да Коста"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-gorod-solntsa-v-2-tomah-tom-2-myagkaya-oblozhka-gorod-solntsa-v-2-tomah-tom-2-978-5-00083-874-7-avt-rudashevsk",
+        "title": "Город Солнца в 2 томах. Том 2 (мягкая обложка)",
+        "authors": [
+          "Евгений Рудашевский"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-gorod-solntsa-v-2-tomah-tom-1-myagkaya-oblozhka-gorod-solntsa-v-2-tomah-tom-1-978-5-00083-873-0-avt-rudashevsk",
+        "title": "Город Солнца в 2 томах. Том 1 (мягкая обложка)",
+        "authors": [
+          "Евгений Рудашевский"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-inktober-mesyats-peremen-inktober-mesyats-peremen-avt-elena-boroda-978-5-00083-872-3-160-s-id-kompasgid",
+        "title": "Инктобер. Месяц перемен",
+        "authors": [
+          "Елена Борода"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-moi-druzya-prizraki-2-e-izd-moi-druzya-prizraki-avt-anna-manso-978-5-907514-72-0-104-s-id-tinbuk",
+        "title": "Мои друзья — призраки 2-е изд.",
+        "authors": [
+          "Мансо Анна"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-ya-nikomu-ne-skazhu-ya-nikomu-ne-skazhu-avt-svetlana-ponomaryova-nina-kinyova-isbn-isbn-978-5-907514-57-7-168",
+        "title": "Я никому не скажу",
+        "authors": [
+          "Пономарёва Светлана",
+          "Кинёва Нина"
         ],
         "reason": "duplicate_existing_catalog"
       },
@@ -14829,10 +15781,596 @@
         "reason": "duplicate_existing_catalog"
       },
       {
+        "id": "curated-kompasgid-belyy-golub-chernyy-slon-2-e-izd-belyj-golub-chyornyj-slon-eva-nemesh-978-5-00083-860-0-id-kompasgid-2023",
+        "title": "Белый голубь, чёрный слон (2-е изд.)",
+        "authors": [
+          "Немеш Ева"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-za-gorizontom-dve-povesti-za-gorizontom-dve-povesti-isbn-978-5-907514-56-0-id-tinbuk-2023",
+        "title": "За горизонтом. Две повести",
+        "authors": [
+          "Ильдимирова Татьяна"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-verhom-na-kote-2-e-izd-verhom-na-kote-978-5-00083-851-8-hvorost-a-yu-id-kompasgid-2023",
+        "title": "Верхом на коте (2-е изд.)",
+        "authors": [
+          "Хворост Александра"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-gorod-solntsa-kniga-4-serdtse-mgly-2-e-izd-gorod-solntsa-kniga-4-serdtse-mgly-2-e-izd",
+        "title": "Город Солнца. Книга 4. Сердце мглы (2-е изд.)",
+        "authors": [
+          "Евгений Рудашевский"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-gorod-solntsa-kniga-3-golos-krovi-2-e-izd-gorod-solntsa-kniga-3-golos-krovi-2-e-izd",
+        "title": "Город Солнца. Книга 3. Голос крови (2-е изд.)",
+        "authors": [
+          "Евгений Рудашевский"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-omut-omut",
+        "title": "Омут",
+        "authors": [
+          "Каримова Снежана"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-na-sluzhbe-u-ee-velichestva-smerti-na-sluzhbu-u-ee-velichestva-smerti",
+        "title": "На службе у Ее Величества Смерти",
+        "authors": [
+          "Эрвьё Жюльен"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-sem-dney-do-sakury-sem-dnej-do-sakury",
+        "title": "Семь дней до сакуры",
+        "authors": [
+          "Лаврова Светлана"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-pozhiratel-ischet-beluyu-sovu-pozhiratel-ishhet-beluyu-sovu",
+        "title": "Пожиратель ищет Белую сову",
+        "authors": [
+          "Евгений Рудашевский"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-vershiteli-kniga-3-ten-chernoboga-vershiteli-t-3-ten-chernoboga",
+        "title": "Вершители. Книга 3. Тень Чернобога",
+        "authors": [
+          "Евгения Кретова"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-inogda-nuzhno-prosto-udrat-inogda-nuzhno-prosto-udrat",
+        "title": "Иногда нужно просто удрать",
+        "authors": [
+          "Музер Мартин"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-begletsy-begletsy",
+        "title": "Беглецы",
+        "authors": [
+          "Шоу Фиона"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-rassledovaniya-v-shkole-2-e-izd-rassledovaniya-v-shkole",
+        "title": "Расследования в школе (2-е изд)",
+        "authors": [
+          "Жан-Филипп Арру-Виньо"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-svetlik-tuchkin-i-puzyr-zhelaniy-3-e-izd-svetlik-tuchkin-i-puzyr-zhelanij-2-e-izd",
+        "title": "Светлик Тучкин и Пузырь желаний (3-е изд.)",
+        "authors": [
+          "Виктория Ледерман"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-svetlik-tuchkin-i-ukradennye-kanikuly-3-e-izd-svetlik-tuchkin-i-ukradennye-kanikuly-2-e-izd",
+        "title": "Светлик Тучкин и украденные каникулы (3-е изд.)",
+        "authors": [
+          "Виктория Ледерман"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-zametki-goshi-kunitsyna-uchenika-4-a-klassa-2-e-izd-zametki-goshi-kunitsyna-uchenika-4-a-klassa-2-e-izd-avt-so",
+        "title": "Заметки Гоши Куницына, ученика 4 «А» класса (2-е изд.)",
+        "authors": [
+          "Софья Ремез"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-raznotsvetnyy-sneg-3-e-izd-raznotsvetnyj-sneg-2-e-izd-avt-nataliya-volkova-160-s-id-kompasgid-2022-g-978-5-000",
+        "title": "Разноцветный снег (3-е изд.)",
+        "authors": [
+          "Наталия Волкова"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-ulichnye-lyudi-ulichnye-lyudi-avt-irina-kravtsova-albina-shajhutdinova-978-5-907514-06-5-104-s-tinbuk",
+        "title": "Уличные люди",
+        "authors": [
+          "Кравцова Ирина"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-ya-zdes-zhivu-ya-zdes-zhivu-avt-evgeniya-basova-mariya-boteva-978-5-00083-797-9-id-kompasgid-552-s",
+        "title": "Я здесь живу",
+        "authors": [
+          "Мария Ботева"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-nochnoy-bazar-put-domoy-nochnoj-bazar-put-domoj-avt-mira-arim-978-5-00083-808-2-id-kompasgid-448-s",
+        "title": "Ночной Базар. Путь домой",
+        "authors": [
+          "Мира Арим"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-hroniki-dragomira-kniga-3-sredi-oskolkov-hroniki-dragomira-kniga-3-sredi-oskolkov",
+        "title": "Хроники Драгомира. Книга 3. Среди осколков",
+        "authors": [
+          "Татьяна Лакизюк"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-kod-elektry-kod-elektry",
+        "title": "Код Электры",
+        "authors": [
+          "Мария Энгстранд"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-propavshaya-bukva-9-e-izd-propavshaya-bukva-8-e-izd",
+        "title": "Пропавшая буква (9-е изд.)",
+        "authors": [
+          "Раскатов М."
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-udivitelnaya-devochka-3-e-izd-udivitelnaya-devochka-avt-lederman-v-id-kompasgid",
+        "title": "Удивительная девочка (3-е изд.)",
+        "authors": [
+          "Виктория Ледерман"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-tayna-lidii-tajna-lidii",
+        "title": "Тайна Лидии",
+        "authors": [
+          "Сеттерхольм Финн"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-k-doske-poydet-vasilkin-7-e-izd-k-doske-pojdet-vasilkin",
+        "title": "К доске пойдет… Василькин! (7-е изд.)",
+        "authors": [
+          "Виктория Ледерман"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
         "id": "curated-kompasgid-novoe-chernoe-palto-novoe-chernoe-palto-avt-boteva-mariya-978-5-00083-807-5-kompasgid",
         "title": "Новое черное пальто",
         "authors": [
           "Мария Ботева"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-fotografii-na-pamyat-sbornik-fotografii-na-pamyat-2-e-izd-avt-mariya-martirosova-id-kompasgid-isbn-978-5-00083",
+        "title": "Фотографии на память (Сборник)",
+        "authors": [
+          "Мария Мартиросова"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-lu-vsehnaverh-kniga-i-bezbiletnyy-passazhir-lu-vsehnaverh-kniga-ii",
+        "title": "Лу Всехнаверх. Книга I. Безбилетный пассажир",
+        "authors": [
+          "Франсуа Плас"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-moya-schastlivaya-zhizn-8-e-izd-moya-schastlivaya-zhizn-8-e-izd",
+        "title": "Моя счастливая жизнь (8-е изд.)",
+        "authors": [
+          "Русе Лагеркранц"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-detektiv-fletcher-kn-1-delo-durno-pahnet-2-e-izd-detektiv-fletcher-kn-1-delo-durno-pahnet-2-e-izd",
+        "title": "Детектив Флетчер. Кн.1. Дело дурно пахнет! (2-е изд.)",
+        "authors": [
+          "Антье Циллат"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-gorod-solntsa-kniga-4-serdtse-mgly-gorod-solntsa-kniga-4-serdtse-mgly",
+        "title": "Город Солнца. Книга 4. Сердце мглы",
+        "authors": [
+          "Евгений Рудашевский"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-gorod-solntsa-kniga-3-golos-krovi-1-e-izd-gorod-solntsa-kniga-3-golos-krovi",
+        "title": "Город Солнца. Книга 3. Голос крови (1-е изд.)",
+        "authors": [
+          "Евгений Рудашевский"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-vershiteli-kniga-1-posoh-velesa-s-avtografom-vershiteli-kniga-1-posoh-velesa",
+        "title": "Вершители. Книга 1. Посох Велеса (с автографом)",
+        "authors": [
+          "Евгения Кретова"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-priplyvshiy-dom-priplyvshij-dom",
+        "title": "Приплывший дом",
+        "authors": [
+          "Каримова Снежана"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-sinorina-koritsa-3-e-izd-sinorina-koritsa-2-e-izd-avt-luidzhi-ballerini-id-kompasgid-2020-g-184-s",
+        "title": "Синьорина Корица (3-е изд.)",
+        "authors": [
+          "Луиджи Баллерини"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-tim-taler-ili-prodannyy-smeh-illyustratsii-niki-golts-2-e-izd-tim-taler-ili-prodannyj-smeh-s-illyustratsiej-ni",
+        "title": "Тим Талер, или Проданный смех (иллюстрации Ники Гольц) (2-е изд.)",
+        "authors": [
+          "Джеймс Крюс"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-istukan-roman-v-dvuh-tomah-komplekt-istukan-komplekt-iz-dvuh-knig-avt-evgenij-rudashevskij-2022-id-kompasgid",
+        "title": "Истукан (Роман в двух томах, комплект)",
+        "authors": [
+          "Евгений Рудашевский"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-kod-oresta-kod-oresta-engstrand-mariya-id-tinbuk-424-str-2021g-isbn-978-5-907178-52-6",
+        "title": "Код Ореста",
+        "authors": [
+          "Мария Энгстранд"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-gorod-solntsa-kniga-1-glaza-smerti-gorod-solntsa-kniga-1-glaza-smerti-2-e-izd",
+        "title": "Город Солнца. Книга 1. Глаза смерти",
+        "authors": [
+          "Евгений Рудашевский"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-vtoroy-shans-roberta-uorrena-vtoroj-shans-roberta-uorrena-zgardoli-g-id-tinbuk-2022g-216-s",
+        "title": "Второй шанс Роберта Уоррена",
+        "authors": [
+          "Гвидо Згардоли"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-kuda-uhodit-kumutkan-brat-moy-bzou-sbornik-kuda-uhodit-kumutkan-brat-moj-bzou-sbornik-rudashevskij-e-id-klmpas",
+        "title": "Куда уходит кумуткан. Брат мой Бзоу (сборник)",
+        "authors": [
+          "Евгений Рудашевский"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-mechtateli-brodveya-tom-3-chay-s-greys-kelli-mechtateli-brodveya-tom-3-chaj-s-grejs-kelli-ferdzhuh-m-id-tinbuk",
+        "title": "Мечтатели Бродвея. Том 3. Чай с Грейс Келли",
+        "authors": [
+          "Малика Ферджух"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-vershiteli-kniga-2-kope-maary-vershiteli-kniga-2-kopyo-maary-kretova-e-id-kompasgid-384s-2022-g",
+        "title": "Вершители. Книга 2. Копьё Маары",
+        "authors": [
+          "Евгения Кретова"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-luchshee-lekarstvo-luchshee-lekarstvo-avt-hemill-k-id-tinbuk-248s-2022g",
+        "title": "Лучшее лекарство",
+        "authors": [
+          "Кристин Хэмилл"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-lavka-koshmarov-i-uzhasnyy-yeti-2-e-izd-lavka-koshmarov-i-uzhasnyj-jeti-avt-haj-m-2022-g-id-tinbuk-56-s",
+        "title": "Лавка кошмаров и ужасный Йети (2-е изд.)",
+        "authors": [
+          "Магдалена Хай"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-nelli-blay-ledi-sensatsiya-nelli-blaj-ledi-sensatsiya-chimino-l-algotstsino-s-2022g-144s-id-tinbuk",
+        "title": "Нелли Блай — леди Сенсация",
+        "authors": [
+          "Лучана Чимино"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-novaya-konditerskaya-sinoriny-koritsy-3-e-izd-novaya-konditerskaya-sinoriny-koritsy-2-e-izd-avt-luidzhi-baller",
+        "title": "Новая кондитерская Синьорины Корицы (3-е изд.)",
+        "authors": [
+          "Луиджи Баллерини"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-syurpriz-dlya-sinoriny-koritsy-2-e-izd-syurpriz-dlya-sinoriny-koritsy-avt-luidzhi-ballerini-id-tinbuk-2022-g-1",
+        "title": "Сюрприз для Синьорины Корицы (2-е изд.)",
+        "authors": [
+          "Луиджи Баллерини"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-detskiy-sad-vosmaya-gruppa-2-e-izd-detskij-sad-vosmaya-gruppa-avt-viktoriya-lederman-id-kompasgid-2021-g-72-st",
+        "title": "Детский сад, восьмая группа (2-е изд.)",
+        "authors": [
+          "Виктория Ледерман"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-romashka-legenda-o-propavshem-pirate-romashka-legenda-o-propavshem-pirate-gaston-buaje-2021-192-str",
+        "title": "Ромашка. Легенда о пропавшем пирате",
+        "authors": [
+          "Гастон Буайе"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-proekt-novaya-zemlya-proekt-novaya-zemlya-muate-david-id-tinbuk-2021-g-280-str-isbn-978-5-907178-48-9",
+        "title": "Проект «Новая Земля»",
+        "authors": [
+          "Муате Давид"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-dom-p-5-e-izd-dom-p-avt-yuliya-kuznetsova-id-kompasgid-2021-isbn-978-5-00083-745-0",
+        "title": "Дом П (5-е изд.)",
+        "authors": [
+          "Юлия Кузнецова"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-desyat-dney-do-kontsa-sveta-desyat-dnej-do-kontsa-sveta-farzhetton-manon-id-tinbuk-240-str-2021g-isbn-978-5-90",
+        "title": "Десять дней до конца света",
+        "authors": [
+          "Фаржеттон Манон"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-na-krayu-otonabi-na-krayu-otonabi-gallaher-brajan-id-tinbuk-228str-2021g-isbn978-5-907178-34-2",
+        "title": "На краю Отонаби",
+        "authors": [
+          "Брайан Галлахер"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-drugie-volery-volonterskie-zapiski-2-e-izd-drugie-volery-volontyorskie-zapiski-a-pozharskaya-184str-2021g-isbn",
+        "title": "Другие вольеры: Волонтерские записки (2-е изд.)",
+        "authors": [
+          "Алина Пожарская"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-mechtateli-brodveya-tom-2-tanets-s-fredom-asterom-mechtateli-brodveya-tom-2-tanets-s-fredom-asterom-avt-malika",
+        "title": "Мечтатели Бродвея. Том 2. Танец с Фредом Астером",
+        "authors": [
+          "Малика Ферджух"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-otel-flamingo-pingviny-trebuyut-lda-otel-flamingo-pingviny-trebuyut-lda-avt-aleks-milvej-id-tinbuk-2020-g-192",
+        "title": "Отель «Фламинго». Пингвины требуют льда!",
+        "authors": [
+          "Алекс Милвэй"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-mechtateli-brodveya-t-1-uzhin-s-keri-grantom-mechtateli-brodveya-t-1-uzhin-s-keri-grantom-avt-malika-ferdzhuh",
+        "title": "Мечтатели Бродвея. Т.1. Ужин с Кэри Грантом",
+        "authors": [
+          "Малика Ферджух"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-tuman-tuman-palatstsezi-marta-id-tinbuk-152-str-2021g-isbn-978-5-907178-67-0",
+        "title": "Туман",
+        "authors": [
+          "Марта Палаццези"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-kompasgid-fonarik-lilka-2-e-izd-fonarik-lilka-avt-yuliya-kuznetsova-id-kompasgid-2020-216-s",
+        "title": "Фонарик Лилька 2-е изд.",
+        "authors": [
+          "Юлия Кузнецова"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-alpina-deti-za-rekoy-book-za-rekoy-komiks-perevertysh",
+        "title": "За рекой",
+        "authors": [
+          "Джузеппе Феррарио"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-alpina-deti-po-sledam-minotavra-book-po-sledam-minotavra",
+        "title": "По следам Минотавра",
+        "authors": [
+          "Пьер Жемм",
+          "Матильда Рюо"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-alpina-deti-missiya-troyanskiy-kon-book-missiya-troyanskiy-kon",
+        "title": "Миссия «Троянский конь»",
+        "authors": [
+          "Пьер Жемм",
+          "Матильда Рюо"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-alpina-deti-ispytanie-gerakla-book-ispytanie-gerakla",
+        "title": "Испытание Геракла",
+        "authors": [
+          "Пьер Жемм",
+          "Матильда Рюо"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-alpina-deti-odissey-i-ego-komanda-book-odissey-i-ego-komanda",
+        "title": "Одиссей и его команда",
+        "authors": [
+          "Пьер Жемм",
+          "Матильда Рюо"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-alpina-deti-konni-i-letnie-priklyucheniya-book-konni-i-letnie-priklyucheniya-nabor",
+        "title": "Конни и летние приключения",
+        "authors": [
+          "Лиана Шнайдер"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-alpina-deti-ty-gde-leopold-book-ty-gde-leopold",
+        "title": "Ты где, Леопольд?",
+        "authors": [
+          "Мишель Ив Шмидтт",
+          "Винсент Ко"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-alpina-deti-k-nebesam-book-k-nebesam",
+        "title": "К небесам",
+        "authors": [
+          "Карен Кёлер",
+          "Беа Дэвис"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-alpina-deti-zhivoy-kamen-book-zhivoy-kamen",
+        "title": "Живой камень",
+        "authors": [
+          "Полина Щербак",
+          "Павла Петрушова"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-alpina-deti-tsyplenok-zheltok-book-tsyplyenok-zheltok",
+        "title": "Цыплёнок Желток",
+        "authors": [
+          "Юлия Весова",
+          "Мария Позднякова"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-alpina-deti-gus-gosha-book-gus-gosha",
+        "title": "Гусь Гоша",
+        "authors": [
+          "Юлия Весова",
+          "Мария Позднякова"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-alpina-deti-belchonok-boris-book-malenkoe-semechko",
+        "title": "Бельчонок Борис",
+        "authors": [
+          "Юлия Симбирская",
+          "Марина Байкова"
         ],
         "reason": "duplicate_existing_catalog"
       },
@@ -14846,11 +16384,170 @@
         "reason": "duplicate_existing_catalog"
       },
       {
+        "id": "curated-alpina-deti-lidochka-book-lidochka",
+        "title": "Лидочка",
+        "authors": [
+          "Лера Хаус"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-alpina-deti-banda-lam-book-banda-lam-raskryt-delo-raz-plyunut",
+        "title": "Банда лам",
+        "authors": [
+          "Хайке Ева Шмидт",
+          "Николай Ренгер"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-alpina-deti-ledentsovaya-banda-ischet-priklyucheniy-book-ledentsovaya-banda-ishchet-priklyucheniy",
+        "title": "Леденцовая банда ищет приключений",
+        "authors": [
+          "Шарлотта Инден",
+          "Сюзанна Гёлих"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-alpina-deti-13-sekretov-book-13-sekretov",
+        "title": "13 секретов",
+        "authors": [
+          "Мишель Харрисон"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-alpina-deti-konni-chitaet-book-konni-chitaet",
+        "title": "Конни читает",
+        "authors": [
+          "Лиана Шнайдер"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-alpina-deti-konni-i-poezdka-na-more-book-konni-i-poezdka-na-more",
+        "title": "Конни и поездка на море",
+        "authors": [
+          "Юлия Бёме",
+          "Хердис Альбрехт"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-alpina-deti-ledentsovaya-banda-ukroschaet-drakona-book-ledentsovaya-banda-ukroshchaet-drakona",
+        "title": "Леденцовая банда укрощает дракона",
+        "authors": [
+          "Шарлотта Инден",
+          "Сюзанна Гёлих"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-alpina-deti-tarif-sny-i-skazki-book-tarif-sny-i-skazki",
+        "title": "Тариф «Сны и сказки»",
+        "authors": [
+          "Алексей Олейников",
+          "Никита Терешин"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
         "id": "curated-alpina-deti-banda-lam-book-banda-lam-na-sedmom-nebe",
         "title": "Банда лам",
         "authors": [
           "Хайке Ева Шмидт",
           "Николай Ренгер"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-alpina-deti-ty-moy-talisman-book-ty-moy-talisman",
+        "title": "Ты — мой талисман!",
+        "authors": [
+          "Ирина Лейк",
+          "Анастасия Ярошенко"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-alpina-deti-priklyucheniya-perri-rodana-book-priklyucheniya-perri-rodana-tayna-bluzhdayushchey-planety",
+        "title": "Приключения Перри Родана",
+        "authors": [
+          "Олаф Брилль",
+          "Михаэль Фогт"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-alpina-deti-konni-i-spasenie-dikih-loshadey-book-konni-i-spasenie-dikikh-loshadey",
+        "title": "Конни и спасение диких лошадей",
+        "authors": [
+          "Юлия Бёме",
+          "Хердис Альбрехт"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-alpina-deti-priklyucheniya-konni-v-nochnom-lesu-book-priklyucheniya-konni-v-nochnom-lesu",
+        "title": "Приключения Конни в ночном лесу",
+        "authors": [
+          "Юлия Бёме",
+          "Хердис Альбрехт"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-alpina-deti-volshebnye-konki-book-volshebnye-konki",
+        "title": "Волшебные коньки",
+        "authors": [
+          "Евгения Русинова",
+          "Лера Хаус"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-alpina-deti-dorogoy-santa-book-dorogoy-santa",
+        "title": "Дорогой Санта!",
+        "authors": [
+          "Шарлотта Инден"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-alpina-deti-sinor-kolbaska-book-sinor-kolbaska",
+        "title": "Синьор Колбаска",
+        "authors": [
+          "Флавио Сорига",
+          "Риккардо Ацени"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-alpina-deti-ded-koshmar-i-sbezhavshie-zhelaniya-book-ded-koshmar",
+        "title": "Дед Кошмар и сбежавшие желания",
+        "authors": [
+          "Полина Щербак",
+          "Катя Бас"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-alpina-deti-skazki-book-skazki-10-klassicheskikh-istoriy",
+        "title": "Сказки",
+        "authors": [
+          "Ольга Капица",
+          "Константин Ушинский",
+          "Алексей Толстой"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-alpina-deti-20-podarkov-na-novyy-god-book-20-podarkov-na-novyy-god",
+        "title": "20 подарков на Новый год",
+        "authors": [
+          "Валя Филиппенко",
+          "Никита Терешин"
         ],
         "reason": "duplicate_existing_catalog"
       },
@@ -14864,11 +16561,355 @@
         "reason": "duplicate_existing_catalog"
       },
       {
+        "id": "curated-alpina-deti-magnoliya-u-raskryvaet-tayny-poteryannyh-noskov-book-magnoliya-u",
+        "title": "Магнолия У раскрывает тайны потерянных носков",
+        "authors": [
+          "Шанель Миллер"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-alpina-deti-priklyucheniya-konrada-fryulinga-book-priklyucheniya-konrada-fryulinga",
+        "title": "Приключения Конрада Фрюлинга",
+        "authors": [
+          "Хуберт Ширнек"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-alpina-deti-samaya-lyubimaya-mama-book-samaya-lyubimaya-mama",
+        "title": "Самая любимая мама",
+        "authors": [
+          "Капусин Левалль",
+          "Мод Легран"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-alpina-deti-skazki-book-skazki-10-klassicheskikh-istoriy-dlya-semeynogo-chteniya",
+        "title": "Сказки",
+        "authors": [
+          "Александр Афанасьев",
+          "Алексей Толстой"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-alpina-deti-ledentsovaya-banda-lovit-vora-book-ledentsovaya-banda-lovit-vora",
+        "title": "Леденцовая банда ловит вора",
+        "authors": [
+          "Шарлотта Инден",
+          "Сюзанна Гёлих"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
         "id": "curated-alpina-deti-priklyucheniya-perri-rodana-book-priklyucheniya-perri-rodana-v-imperii-42-mirov",
         "title": "Приключения Перри Родана",
         "authors": [
           "Олаф Брилль",
           "Михаэль Фогт"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-alpina-deti-skazki-na-noch-dlya-selesty-book-skazki-na-noch-dlya-selesty",
+        "title": "Сказки на ночь для Селесты",
+        "authors": [
+          "Николас Хайдельбах",
+          "Оле Кённеке"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-alpina-deti-tsirk-teney-book-tsirk-teney",
+        "title": "Цирк теней",
+        "authors": [
+          "Лидия Бранкович"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-alpina-deti-strashilki-pod-cherdakom-book-strashilki-pod-cherdakom",
+        "title": "Страшилки под чердаком",
+        "authors": [
+          "Лариса Назарова",
+          "Лев Григорян (Алексей Шпагин)",
+          "Виктория Стеблева"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-alpina-deti-proklyatie-krokodila-book-proklyatie-krokodila",
+        "title": "Проклятие крокодила",
+        "authors": [
+          "Савиор Пиротта"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-alpina-deti-skarabey-serdtsa-book-skarabey-serdtsa",
+        "title": "Скарабей сердца",
+        "authors": [
+          "Савиор Пиротта"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-alpina-deti-dnevnik-oboroten-i-drugie-istorii-iz-chernogo-portfelya-book-dnevnik-oboroten",
+        "title": "Дневник-оборотень и другие истории из чёрного портфеля",
+        "authors": [
+          "Екатерина Земляничкина",
+          "Анастасия Безлюдная",
+          "Виктория Стеблева"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-alpina-deti-a-chto-tam-v-shkole-book-a-chto-tam-v-shkole",
+        "title": "А что там в школе?",
+        "authors": [
+          "Юлия Асланова",
+          "Юлия Прохоцкая"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-alpina-deti-salto-nazad-book-salto-nazad",
+        "title": "Сальто назад",
+        "authors": [
+          "Дарси Миллер"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-alpina-deti-schastlivye-konki-book-schastlivye-konki",
+        "title": "Счастливые коньки",
+        "authors": [
+          "Наталья Савушкина",
+          "Алиса Юфа"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-alpina-deti-slovno-iskra-book-slovno-iskra",
+        "title": "Словно искра",
+        "authors": [
+          "Элль Макниколл"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-alpina-deti-v-shkole-snova-peremeny-book-v-shkole-snova-peremeny",
+        "title": "В школе снова перемены",
+        "authors": [
+          "Юлия Асланова",
+          "Юлия Прохоцкая"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-alpina-deti-vspominay-ded-moroz-book-vspominay-ded-moroz",
+        "title": "Вспоминай, Дед Мороз!",
+        "authors": [
+          "Полина Щербак",
+          "Дарья Луговская"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-alpina-deti-zayushkina-izbushka-book-zayushkina-izbushka",
+        "title": "Заюшкина избушка",
+        "authors": [
+          "Ольга Капица",
+          "Татьяна Серова"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-alpina-deti-kolobok-book-kolobok",
+        "title": "Колобок",
+        "authors": [
+          "Константин Ушинский",
+          "Екатерина Полторак"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-alpina-deti-teremok-book-teremok",
+        "title": "Теремок",
+        "authors": [
+          "Ольга Капица",
+          "Мария Вахрушева"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-alpina-deti-printsessa-dunya-i-book-printsessa-dunya-i",
+        "title": "Принцесса Дуня и...",
+        "authors": [
+          "Александр Киселёв",
+          "Лера Сидорова"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-alpina-deti-dva-podarka-book-dva-podarka",
+        "title": "Два подарка",
+        "authors": [
+          "Микель Вальверде"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-alpina-deti-ya-razuchilas-spat-book-ya-razuchilas-spat",
+        "title": "Я разучилась спать",
+        "authors": [
+          "Бруно Зокка"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-alpina-deti-sekret-medovogo-piroga-book-sekret-medovogo-piroga",
+        "title": "Секрет медового пирога",
+        "authors": [
+          "Кимберли Ньютон Фаско"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-alpina-deti-mafiya-s-podokonnika-2-book-mafiya-s-podokonnika-2",
+        "title": "Мафия с подоконника 2",
+        "authors": [
+          "Ирина Лейк",
+          "Ольга Сурина"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-alpina-deti-dorogoy-sinor-p-book-dorogoy-sinor-p",
+        "title": "Дорогой синьор П.",
+        "authors": [
+          "Аличе Келлер",
+          "Вероника Труттеро"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-alpina-deti-ami-book-ami",
+        "title": "Ами",
+        "authors": [
+          "Саэко Мацусита"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-alpina-deti-ovechka-emma-i-ee-druzya-book-ovechka-emma-i-eye-druzya",
+        "title": "Овечка Эмма и её друзья",
+        "authors": [
+          "Ольга Баранова",
+          "Екатерина Путилова"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-alpina-deti-odno-zhelanie-book-odno-zhelanie",
+        "title": "Одно желание",
+        "authors": [
+          "Мишель Харрисон"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-alpina-deti-konni-i-luchshaya-sobaka-ischeyka-book-konni-i-luchshaya-sobaka-ishcheyka",
+        "title": "Конни и лучшая собака-ищейка",
+        "authors": [
+          "Юлия Бёме",
+          "Хердис Альбрехт"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-alpina-deti-vorona-i-kot-book-vorona-i-kot",
+        "title": "Ворона и кот",
+        "authors": [
+          "Юлия Симбирская",
+          "Ксения Гурченкова"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-alpina-deti-adelina-testafina-i-tayna-propavshey-vitse-babushki-book-adelina-testafina",
+        "title": "Аделина Тестафина и тайна пропавшей вице-бабушки",
+        "authors": [
+          "Кристина Марси",
+          "Франческа Карабелли"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-alpina-deti-kolya-nichego-ne-boitsya-book-kolya-nichego-ne-boitsya",
+        "title": "Коля ничего не боится",
+        "authors": [
+          "Валя Филиппенко",
+          "Евдокия До"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-alpina-deti-komplekt-malenkiy-prints-book-komplekt-malenkiy-prints",
+        "title": "Комплект «Маленький принц»",
+        "authors": [
+          "Максим Ильяхов"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-alpina-deti-volshebnye-kamni-baasa-book-volshebnye-kamni-baasa",
+        "title": "Волшебные камни Бааса",
+        "authors": [
+          "Наталья Ремиш"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-alpina-deti-vse-takie-raznye-book-vse-takie-raznye",
+        "title": "Все такие разные",
+        "authors": [
+          "Софи Леско"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-alpina-deti-skazochnye-priklyucheniya-kota-alfreda-book-skazochnye-priklyucheniya-kota-alfreda",
+        "title": "Сказочные приключения кота Альфреда",
+        "authors": [
+          "Юлиана Протасова",
+          "Ольга Сакович"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-alpina-deti-puteshestvie-v-sanderlend-book-puteshestvie-v-sanderlend",
+        "title": "Путешествие в Сандерленд",
+        "authors": [
+          "Никита Горошко"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-alpina-deti-kak-tima-ukusila-loshad-book-kak-tima-ukusila-loshad-komiksy",
+        "title": "Как Тима укусила лошадь",
+        "authors": [
+          "Наталья Ремиш"
+        ],
+        "reason": "duplicate_existing_catalog"
+      },
+      {
+        "id": "curated-alpina-deti-persey-book-persey",
+        "title": "Персей",
+        "authors": [
+          "Ольга Орлова"
         ],
         "reason": "duplicate_existing_catalog"
       }
@@ -14927,6 +16968,10 @@
         "reason": "not_complete_fiction_card"
       },
       {
+        "sourceUrl": "https://albuscorvus.ru/product/pust-on-ostanetsya-s-nami/",
+        "reason": "not_complete_fiction_card"
+      },
+      {
         "sourceUrl": "https://albuscorvus.ru/product/gde-vse/",
         "reason": "not_complete_fiction_card"
       },
@@ -14979,6 +17024,10 @@
         "reason": "not_complete_fiction_card"
       },
       {
+        "sourceUrl": "https://albuscorvus.ru/product/schastlivyj-neudachnik/",
+        "reason": "not_complete_fiction_card"
+      },
+      {
         "sourceUrl": "https://albuscorvus.ru/product/rozhdestvenskaya-kasha/",
         "reason": "not_complete_fiction_card"
       },
@@ -14992,6 +17041,10 @@
       },
       {
         "sourceUrl": "https://albuscorvus.ru/product/kraks-navodit-poryadok/",
+        "reason": "not_complete_fiction_card"
+      },
+      {
+        "sourceUrl": "https://albuscorvus.ru/product/mama-mu-poranilas/",
         "reason": "not_complete_fiction_card"
       },
       {
@@ -15211,6 +17264,10 @@
         "reason": "not_complete_fiction_card"
       },
       {
+        "sourceUrl": "https://albuscorvus.ru/product/meg-rosoff-kakim-ya-byl/",
+        "reason": "not_complete_fiction_card"
+      },
+      {
         "sourceUrl": "https://albuscorvus.ru/product/meg-rosoff-just-in-case/",
         "reason": "not_complete_fiction_card"
       },
@@ -15252,10 +17309,6 @@
       },
       {
         "sourceUrl": "https://albuscorvus.ru/product/yak-rivais-pochemu-by-i-net/",
-        "reason": "not_complete_fiction_card"
-      },
-      {
-        "sourceUrl": "https://albuscorvus.ru/product/teatr-dzhanni-rodari/",
         "reason": "not_complete_fiction_card"
       },
       {
@@ -15304,10 +17357,6 @@
       },
       {
         "sourceUrl": "https://albuscorvus.ru/product/barbru-lindgren-privet-mattias/",
-        "reason": "not_complete_fiction_card"
-      },
-      {
-        "sourceUrl": "https://albuscorvus.ru/product/ulf-stark-beglecy/",
         "reason": "not_complete_fiction_card"
       },
       {

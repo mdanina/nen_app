@@ -1,0 +1,318 @@
+{
+  "generatedAt": "2026-07-28",
+  "strategy": "full_web_work_title_author",
+  "candidates": [
+    {
+      "id": "nen-017",
+      "title": "Джейн, лиса и я",
+      "author": "Фанни Бритт",
+      "url": "https://albuscorvus.ru/product/jane-lisa-i-ya/",
+      "isbn": "",
+      "headline": "Изабель Арсено, Фанни Бритт «Джейн, лиса и я» | Издательство «Белая ворона»"
+    },
+    {
+      "id": "nen-023",
+      "title": "Давай поедем в Уналашку",
+      "author": "Анна Красильщик",
+      "url": "https://albuscorvus.ru/product/davaj-poedem-v-unalashku/",
+      "isbn": "",
+      "headline": "Анна Красильщик — «Давай поедем в Уналашку» | Издательство «Белая ворона»"
+    },
+    {
+      "id": "nen-063",
+      "title": "Эмиль и сыщики",
+      "author": "Эрих Кестнер",
+      "url": "https://azbooka.ru/books/emil-i-syshchiki-ezfm",
+      "isbn": "9785389015050",
+      "headline": "Купить книгу «Эмиль и сыщики», Эрих Кёстнер | Издательство «Махаон», ISBN: 978-5-389-01505-0"
+    },
+    {
+      "id": "nen-bv2-018",
+      "title": "Дающий",
+      "author": "Лоис Лоури",
+      "url": "https://azbooka.ru/books/dauschiy",
+      "isbn": "9785389238220",
+      "headline": "Купить книгу «Дающий», Лоис Лоури | Издательство «Азбука», ISBN: 978-5-389-23822-0"
+    },
+    {
+      "id": "nen-bv2-066",
+      "title": "Стюарт Литл",
+      "author": "Элвин Брукс Уайт",
+      "url": "https://azbooka.ru/books/styuart-litl-jov2",
+      "isbn": "9785389106901",
+      "headline": "Купить книгу «Стюарт Литл», Элвин Брукс Уайт | Издательство «Махаон», ISBN: 978-5-389-10690-1"
+    },
+    {
+      "id": "nen-bv2-077",
+      "title": "Дневник Кота-убийцы",
+      "author": "Энн Файн",
+      "url": "https://samokatbook.ru/book/dnevnik-kota-ubiytsy-vse-istorii/",
+      "isbn": "9785001673941",
+      "headline": "Дневник кота-убийцы. Все истории (Файн Энн) — купить книгу от 1400 ₽ онлайн | «Самокат»"
+    },
+    {
+      "id": "nen-bv2-088",
+      "title": "Перси Джексон и Похититель молний",
+      "author": "Рик Риордан",
+      "url": "https://eksmo.ru/book/persi-dzhekson-i-pokhititel-molniy-1-drugoe-oformlenie-ITD1265825/",
+      "isbn": "9785041662172",
+      "headline": "Книга Перси Джексон и похититель молний (#1) Рик Риордан - купить, читать онлайн отзывы и рецензии | ISBN 978-5-04-166217-2 | Эксмо"
+    },
+    {
+      "id": "nen-bv2-090",
+      "title": "История с кладбищем",
+      "author": "Нил Гейман",
+      "url": "https://ast.ru/book/istoriya-s-kladbishchem-708603/?ast_utm=book_see_also",
+      "isbn": "9785170898978",
+      "headline": "«История с кладбищем» Гейман Нил - описание книги | Миры Нила Геймана | Издательство АСТ"
+    },
+    {
+      "id": "nen-bv2-116",
+      "title": "Мальчик со шпагой",
+      "author": "Владислав Крапивин",
+      "url": "https://azbooka.ru/books/malchik-so-shpagoy",
+      "isbn": "9785389203952",
+      "headline": "Купить книгу «Мальчик со шпагой», Владислав Крапивин | Издательство «Азбука», ISBN: 978-5-389-20395-2"
+    },
+    {
+      "id": "nen-bv2-126",
+      "title": "Спасибо Уинн-Дикси",
+      "author": "Кейт ДиКамилло",
+      "url": "https://azbooka.ru/books/spasibo-uinn-diksi-sbdy",
+      "isbn": "9785389036048",
+      "headline": "Купить книгу «Спасибо Уинн-Дикси», Кейт ДиКамилло | Издательство «Махаон», ISBN: 978-5-389-03604-8"
+    },
+    {
+      "id": "ol-ol20004004w",
+      "title": "Сказки",
+      "author": "Константин Дмитриевич Ушинский",
+      "url": "https://ast.ru/book/skazki-i-rasskazy-846395/",
+      "isbn": "9785171180218",
+      "headline": "«Сказки и рассказы» Ушинский Константин Дмитриевич - описание книги | Читаем сами без мамы | Издательство АСТ"
+    },
+    {
+      "id": "ol-ol19970113w",
+      "title": "Загадай желание",
+      "author": "Александр Костинский",
+      "url": "https://azbooka.ru/books/zagaday-zhelanie-eyqf",
+      "isbn": "9785389048065",
+      "headline": "Купить книгу «Загадай желание», Александр Костинский | Издательство «Азбука», ISBN: 978-5-389-04806-5"
+    },
+    {
+      "id": "ol-ol10337729w",
+      "title": "Приключения Бибигона",
+      "author": "Корней Иванович Чуковский",
+      "url": "https://ast.ru/book/priklyucheniya-bibigona-skazki-833038/",
+      "isbn": "9785179830122",
+      "headline": "«Приключения Бибигона. Сказки» Чуковский Корней Иванович - описание книги | Самые лучшие сказки | Издательство АСТ"
+    },
+    {
+      "id": "ol-ol623471w",
+      "title": "Сказка о золотом петушке",
+      "author": "Александр Сергеевич Пушкин",
+      "url": "https://azbooka.ru/books/skazka-o-zolotom-petyshke",
+      "isbn": "9785389219304",
+      "headline": "Купить книгу «Сказка о золотом петушке», Александр Пушкин | Издательство «Азбука», ISBN: 978-5-389-21930-4"
+    },
+    {
+      "id": "ol-ol19742113w",
+      "title": "Весёлый двоечник",
+      "author": "Валентин Постников",
+      "url": "https://eksmo.ru/amp/book/vesyelyy-dvoechnik-il-a-eliseeva-ITD1391437/",
+      "isbn": "9785042016585",
+      "headline": "Книга Веселый двоечник Рассказы (ил А Елисеева) Валентин Постников - купить, читать онлайн отзывы и рецензии | ISBN 978-5-04-201658-5 | Эксмо"
+    },
+    {
+      "id": "ol-ol19931589w",
+      "title": "Сказки о Ёжике и Медвежонке",
+      "author": "Сергей Козлов",
+      "url": "https://ast.ru/book/skazki-o-yezhike-i-medvezhonke-878406/",
+      "isbn": "9785171617837",
+      "headline": "«Сказки о Ёжике и Медвежонке» Козлов Сергей Григорьевич - описание книги | Библиотека начальной школы | Издательство АСТ"
+    },
+    {
+      "id": "ol-ol5787637w",
+      "title": "Тайна зловещего сговора",
+      "author": "Антон Иванов",
+      "url": "https://eksmo.ru/book/tayna-zloveshchego-sgovora-ITD239606/",
+      "isbn": "9785699630301",
+      "headline": "Книга Тайна зловещего сговора Иванов А.Д., Устинова А.В. - купить, читать онлайн отзывы и рецензии | ISBN 978-5-699-63030-1 | Эксмо"
+    },
+    {
+      "id": "ol-ol2189766w",
+      "title": "Рассказы, сказки, повести",
+      "author": "Николай Носов",
+      "url": "https://eksmo.ru/book/rasskazy-skazki-povesti-nov-of--ITD850307/",
+      "isbn": "9785699958368",
+      "headline": "Книга Рассказы Сказки Повести Николай Носов - купить, читать онлайн отзывы и рецензии | ISBN 978-5-699-95836-8 | Эксмо"
+    },
+    {
+      "id": "ol-ol13748004w",
+      "title": "Новые приключения Незнайки",
+      "author": "Игорь Носов",
+      "url": "https://azbooka.ru/books/novye-priklyucheniya-neznayki-ncz1",
+      "isbn": "9785389035546",
+      "headline": "Купить книгу «Новые приключения Незнайки», Игорь Носов | Издательство «Махаон», ISBN: 978-5-389-03554-6"
+    },
+    {
+      "id": "ol-ol13715038w",
+      "title": "Профессор кислых щей",
+      "author": "В. Драгунский",
+      "url": "https://eksmo.ru/book/professor-kislykh-shchey-il-v-kanivtsa-ITD626367/",
+      "isbn": "9785699825264",
+      "headline": "Книга Профессор кислых щей (ил В Канивца) Виктор Драгунский - купить, читать онлайн отзывы и рецензии | ISBN 978-5-699-82526-4 | Эксмо"
+    },
+    {
+      "id": "ol-ol13663633w",
+      "title": "Вы не были на Таити?",
+      "author": "Александр Ефимович Курляндский",
+      "url": "https://azbooka.ru/books/vy-ne-byli-na-taiti-ei1n",
+      "isbn": "9785389021914",
+      "headline": "Купить книгу «Вы не были на Таити?», Александр Курляндский | Издательство «Махаон», ISBN: 978-5-389-02191-4"
+    },
+    {
+      "id": "ol-ol12822140w",
+      "title": "Солнышко на память",
+      "author": "Михаил Спартакович Пляцковский",
+      "url": "https://ast.ru/book/solnyshko-na-pamyat-040568/",
+      "isbn": "9785170707164",
+      "headline": "«Солнышко на память» Пляцковский Михаил Спартакович - описание книги | Самая любимая книжка | Издательство АСТ"
+    },
+    {
+      "id": "ol-ol19987346w",
+      "title": "Хорошо быть оптимистом!",
+      "author": "Марина Дружинина",
+      "url": "https://azbooka.ru/books/khorosho-byt-optimistom",
+      "isbn": "9785389174993",
+      "headline": "Купить книгу «Хорошо быть оптимистом!», Марина Дружинина | Издательство «Махаон», ISBN: 978-5-389-17499-3"
+    },
+    {
+      "id": "ol-ol2223798w",
+      "title": "Учитель вранья",
+      "author": "Марк Харитонов",
+      "url": "https://azbooka.ru/books/uchitel-vranya-njw7",
+      "isbn": "9785389055537",
+      "headline": "Купить книгу «Учитель вранья», Марк Харитонов | Издательство «Махаон», ISBN: 978-5-389-05553-7"
+    },
+    {
+      "id": "ol-ol19978347w",
+      "title": "Все Денискины рассказы в одной книге",
+      "author": "В. Драгунский",
+      "url": "https://ast.ru/book/vse-deniskiny-rasskazy-v-odnoy-knige-847278/",
+      "isbn": "9785171188771",
+      "headline": "«Все Денискины рассказы в одной книге» Драгунский Виктор Юзефович - описание книги | Лучшее детское чтение | Издательство АСТ"
+    },
+    {
+      "id": "ol-ol2189778w",
+      "title": "Затейники",
+      "author": "Николай Носов",
+      "url": "https://azbooka.ru/books/zateyniki-vju9",
+      "isbn": "9785389060371",
+      "headline": "Купить книгу «Затейники», Николай Носов | Издательство «Махаон», ISBN: 978-5-389-06037-1"
+    },
+    {
+      "id": "ol-ol19970140w",
+      "title": "Большая книга стихов и рассказов",
+      "author": "Андрей Усачёв",
+      "url": "https://azbooka.ru/books/bolshaya-kniga-stikhov-i-rasskazov-b9ru",
+      "isbn": "9785389137684",
+      "headline": "Купить книгу «Большая книга стихов и рассказов», Андрей Усачёв | Издательство «Махаон», ISBN: 978-5-389-13768-4"
+    },
+    {
+      "id": "curated-nen-collection-semeynyy-albom-tirannozavra-toni-mayk-benton",
+      "title": "Семейный альбом тираннозавра Тони",
+      "author": "Майк Бентон",
+      "url": "https://samokatbook.ru/book/semeynyy-albom-tirannozavra-toni-istoriya-dinozavrov/",
+      "isbn": "9785917598017",
+      "headline": "Семейный альбом тираннозавра Тони. История динозавров (Бентон Майк) — купить книгу от 1040 ₽ онлайн | «Самокат»"
+    },
+    {
+      "id": "curated-nen-collection-korolevstvo-krivyh-zerkal-vitaliy-gubarev",
+      "title": "Королевство кривых зеркал",
+      "author": "Виталий Губарев",
+      "url": "https://eksmo.ru/book/korolevstvo-krivykh-zerkal-ITD804204/",
+      "isbn": "9785699875276",
+      "headline": "Книга Королевство кривых зеркал Виталий Губарев - купить, читать онлайн отзывы и рецензии | ISBN 978-5-699-87527-6 | Эксмо"
+    },
+    {
+      "id": "curated-nen-collection-vse-o-mumi-trollyah-tuve-yansson",
+      "title": "Все о Муми-троллях",
+      "author": "Туве Янссон",
+      "url": "https://azbooka.ru/books/vsye-o-mumi-trollyakh-kniga-1-",
+      "isbn": "9785389158009",
+      "headline": "Купить книгу «Всё о Муми-троллях. Книга 1 », Туве Янссон | Издательство «Азбука», ISBN: 978-5-389-15800-9"
+    },
+    {
+      "id": "curated-nen-collection-ya-ne-ya-zhanna-zaytseva-aleksandra",
+      "title": "Я, не я, Жанна",
+      "author": "Зайцева Александра",
+      "url": "https://samokatbook.ru/book/ya-ne-ya-zhanna/",
+      "isbn": "9785001672753",
+      "headline": "Я, не я, Жанна (Зайцева Александра) — купить книгу от 210 ₽ онлайн | «Самокат»"
+    },
+    {
+      "id": "curated-nen-collection-idi-poigray-s-tem-malchikom-klementina-bove",
+      "title": "Иди поиграй с тем мальчиком!",
+      "author": "Клементина Бове",
+      "url": "https://samokatbook.ru/book/idi-poigray-s-tem-malchikom/",
+      "isbn": "9785001671732",
+      "headline": "Иди поиграй с тем мальчиком! (Бове Клементина) — купить книгу от 850 ₽ онлайн | «Самокат»"
+    },
+    {
+      "id": "curated-nen-collection-zakoldovannaya-zhizn-uinn-dzhons",
+      "title": "Заколдованная жизнь",
+      "author": "Диана Уинн Джонс",
+      "url": "https://azbooka.ru/books/miry-krestomansi-zakoldovannaya-zhizn",
+      "isbn": "9785389188532",
+      "headline": "Купить книгу «Миры Крестоманси. Заколдованная жизнь», Диана Уинн Джонс | Издательство «Азбука», ISBN: 978-5-389-18853-2"
+    },
+    {
+      "id": "curated-nen-collection-muley-erlend-lu",
+      "title": "Мулей",
+      "author": "Эрленд Лу",
+      "url": "https://azbooka.ru/books/muley-7naq",
+      "isbn": "9785389052284",
+      "headline": "Купить книгу «Мулей», Эрленд Лу | Издательство «Азбука», ISBN: 978-5-389-05228-4"
+    },
+    {
+      "id": "curated-nen-collection-zhutko-gromko-i-zapredelno-blizko-safran-foer",
+      "title": "Жутко громко и запредельно близко",
+      "author": "Джонатан Сафран Фоер",
+      "url": "https://eksmo.ru/amp/book/zhutko-gromko-i-zapredelno-blizko-ITD848110/",
+      "isbn": "9785699951338",
+      "headline": "Книга Жутко громко и запредельно близко Джонатан Сафран Фоер - купить, читать онлайн отзывы и рецензии | ISBN 978-5-699-95133-8 | Эксмо"
+    },
+    {
+      "id": "curated-nen-collection-milye-kosti-elis-sibold",
+      "title": "Милые кости",
+      "author": "Элис Сиболд",
+      "url": "https://eksmo.ru/amp/book/milye-kosti-430159508/",
+      "isbn": "9785699397020",
+      "headline": "Книга Милые кости Элис Сиболд - купить, читать онлайн отзывы и рецензии | ISBN 978-5-699-39702-0 | Эксмо"
+    },
+    {
+      "id": "curated-nen-collection-trinadtsataya-skazka-diana-setterfild",
+      "title": "Тринадцатая сказка",
+      "author": "Диана Сеттерфилд",
+      "url": "https://azbooka.ru/books/trinadtsataya-skazka-ey8t",
+      "isbn": "9785389058330",
+      "headline": "Купить книгу «Тринадцатая сказка», Диана Сеттерфилд | Издательство «Азбука», ISBN: 978-5-389-05833-0"
+    },
+    {
+      "id": "curated-nen-collection-ptitsa-v-kletke-robin-rou",
+      "title": "Птица в клетке",
+      "author": "Робин Роу",
+      "url": "https://eksmo.ru/book/ptitsa-v-kletke-ITD947434/",
+      "isbn": "9785041351120",
+      "headline": "Скачать «Птица в клетке» Робин Роу - Эксмо"
+    },
+    {
+      "id": "curated-nen-collection-shkola-risovaniya-goroshka-david-kali",
+      "title": "Школа рисования Горошка",
+      "author": "Давид Кали",
+      "url": "https://samokatbook.ru/book/shkola-risovaniya-goroshka/",
+      "isbn": "9785001672906",
+      "headline": "Школа рисования Горошка (Кали Давид) — купить книгу от 440 ₽ онлайн | «Самокат»"
+    }
+  ]
+}

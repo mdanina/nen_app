@@ -1,0 +1,506 @@
+{
+  "generatedAt": "2026-07-28",
+  "strategy": "full_web_work_title_author_isbn",
+  "candidates": [
+    {
+      "id": "nen-011",
+      "title": "Груффало",
+      "author": "Джулия Дональдсон",
+      "url": "https://www.books.ru/books/gruffalo-5202736/",
+      "isbn": "9785907022515",
+      "headline": "Груффало — Джулия Дональдсон, Аксель Шеффлер, ISBN 978-5-907022-51-5 — купить книгу на русском языке с доставкой по всему миру | Books.ru",
+      "titleScore": 1,
+      "authorTokensMatched": 2
+    },
+    {
+      "id": "nen-012",
+      "title": "Именинный пирог",
+      "author": "Свен Нурдквист",
+      "url": "https://www.books.ru/books/sven-nurdkvist-imeninnyi-pirog-5401439/",
+      "isbn": "9785001143352",
+      "headline": "Свен Нурдквист: Именинный пирог, ISBN 978-5-00114-335-2 — купить книгу на русском языке с доставкой по всему миру | Books.ru",
+      "titleScore": 1,
+      "authorTokensMatched": 2
+    },
+    {
+      "id": "nen-017",
+      "title": "Джейн, лиса и я",
+      "author": "Фанни Бритт",
+      "url": "https://www.books.ru/books/dzhein-lisa-i-ya-4262056/",
+      "isbn": "9785906640369",
+      "headline": "Джейн, лиса и я — Фанни Бритт, ISBN 978-5-906640-36-9 — купить книгу на русском языке с доставкой по всему миру | Books.ru",
+      "titleScore": 1,
+      "authorTokensMatched": 2
+    },
+    {
+      "id": "nen-024",
+      "title": "Настоящая жизнь Жакомина Гейнсборо",
+      "author": "Ребекка Дотремер",
+      "url": "https://www.books.ru/books/rebekka-dotremer-nastoyashchaya-zhizn-zhakomina-geinsboro-5081259/",
+      "isbn": "9785001464327",
+      "headline": "Ребекка Дотремер: Настоящая жизнь Жакомина Гейнсборо, ISBN 978-5-00146-432-7 — купить книгу на русском языке с доставкой по всему миру | Books.ru",
+      "titleScore": 1,
+      "authorTokensMatched": 2
+    },
+    {
+      "id": "nen-051",
+      "title": "Очень голодная гусеница",
+      "author": "Эрик Карл",
+      "url": "https://www.books.ru/books/ochen-golodnaya-gusenitsa-1532020/",
+      "isbn": "9785903497775",
+      "headline": "Очень голодная гусеница — Эрик Карл, ISBN 978-5-903497-77-5 — купить книгу на русском языке с доставкой по всему миру | Books.ru",
+      "titleScore": 1,
+      "authorTokensMatched": 2
+    },
+    {
+      "id": "nen-055",
+      "title": "Дочурка Груффало",
+      "author": "Джулия Дональдсон",
+      "url": "https://www.books.ru/books/dochurka-gruffalo-5203113/",
+      "isbn": "9785907022539",
+      "headline": "Дочурка Груффало — Джулия Дональдсон, Аксель Шеффлер, ISBN 978-5-907022-53-9 — купить книгу на русском языке с доставкой по всему миру | Books.ru",
+      "titleScore": 1,
+      "authorTokensMatched": 2
+    },
+    {
+      "id": "nen-057",
+      "title": "Джордж и тайны Вселенной",
+      "author": "Люси Хокинг; Стивен Хокинг",
+      "url": "https://www.books.ru/books/dzhordzh-i-tainy-vselennoi-5232455/",
+      "isbn": "9785437003145",
+      "headline": "Джордж и тайны Вселенной — Люси Хокинг, Стивен Хокинг, ISBN 978-5-4370-0314-5 — купить книгу на русском языке с доставкой по всему миру | Books.ru",
+      "titleScore": 1,
+      "authorTokensMatched": 4
+    },
+    {
+      "id": "nen-058",
+      "title": "Детектив Пьер распутывает дело. В поисках похищенного лабиринта",
+      "author": "Хиро Камигаки; IC4DESIGN",
+      "url": "https://www.books.ru/books/detektiv-per-rasputyvaet-delo-v-poiskakh-pokhishchennogo-labirinta-5209129/",
+      "isbn": "9785001693536",
+      "headline": "Детектив Пьер распутывает дело. В поисках похищенного лабиринта — Хиро Камигаки, IC4DESIGN, ISBN 978-5-00169-353-6 — купить книгу на русском языке с доставкой по всему миру | Books.ru",
+      "titleScore": 1,
+      "authorTokensMatched": 3
+    },
+    {
+      "id": "nen-063",
+      "title": "Эмиль и сыщики",
+      "author": "Эрих Кестнер",
+      "url": "https://search.rsl.ru/ru/record/01004922115",
+      "isbn": "9785389015050",
+      "headline": "Кестнер, Эрих (1899-1974). - Эмиль и сыщики [Текст] : повесть : [для среднего школьного возраста] / Эрих Кёстнер ; пер. с нем. Л. Лунгиной ; худож. Е. Двоскина. - Москва : Махаон, 2011. - 124, [3] с. : цв. ил.; 25 см. - ",
+      "titleScore": 1,
+      "authorTokensMatched": 2
+    },
+    {
+      "id": "nen-bv2-013",
+      "title": "Чудо",
+      "author": "Р. Дж. Паласио",
+      "url": "https://www.moscowbooks.ru/book/1142191/",
+      "isbn": "9785437003695",
+      "headline": "Книга \"Чудо\" Паласио Р Дж - купить книгу в интернет-магазине «Москва» ISBN: 978-5-4370-0369-5, 1142191",
+      "titleScore": 1,
+      "authorTokensMatched": 1
+    },
+    {
+      "id": "nen-bv2-016",
+      "title": "Мой дедушка был вишней",
+      "author": "Анджела Нанетти",
+      "url": "https://www.books.ru/books/moi-dedushka-byl-vishnei-5187002/",
+      "isbn": "9785001671169",
+      "headline": "Мой дедушка был вишней — Анджела Нанетти, ISBN 978-5-00167-116-9 — купить книгу на русском языке с доставкой по всему миру | Books.ru",
+      "titleScore": 1,
+      "authorTokensMatched": 2
+    },
+    {
+      "id": "nen-bv2-017",
+      "title": "Сахарный ребёнок",
+      "author": "Ольга Громова",
+      "url": "https://www.books.ru/books/sakharnyi-rebenok-lyudi-sobytiya-fakty-5232211/",
+      "isbn": "9785000836958",
+      "headline": "Сахарный ребёнок. Люди. События. Факты — Ольга Громова, ISBN 978-5-00083-695-8 — купить книгу на русском языке с доставкой по всему миру | Books.ru",
+      "titleScore": 1,
+      "authorTokensMatched": 2
+    },
+    {
+      "id": "nen-bv2-018",
+      "title": "Дающий",
+      "author": "Лоис Лоури",
+      "url": "https://www.books.ru/books/dayushchii-5215601/",
+      "isbn": "9785437003107",
+      "headline": "Дающий — Лоис Лоури, ISBN 978-5-4370-0310-7 — купить книгу на русском языке с доставкой по всему миру | Books.ru",
+      "titleScore": 1,
+      "authorTokensMatched": 2
+    },
+    {
+      "id": "nen-bv2-024",
+      "title": "Фердинанд",
+      "author": "Манро Лиф",
+      "url": "https://www.books.ru/books/ferdinand-4807236/",
+      "isbn": "9785950043130",
+      "headline": "Фердинанд — Манро Лиф, ISBN 978-5-9500431-3-0 — купить книгу на русском языке с доставкой по всему миру | Books.ru",
+      "titleScore": 1,
+      "authorTokensMatched": 2
+    },
+    {
+      "id": "nen-bv2-029",
+      "title": "Знаешь, как я тебя люблю?",
+      "author": "Сэм Макбратни",
+      "url": "https://www.books.ru/books/znaesh-kak-ya-tebya-lyublyu-414006/",
+      "isbn": "9785437000823",
+      "headline": "Знаешь, как я тебя люблю? — Сэм Макбратни, ISBN 5-94282-334-0 — купить книгу на русском языке с доставкой по всему миру | Books.ru",
+      "titleScore": 1,
+      "authorTokensMatched": 2
+    },
+    {
+      "id": "nen-bv2-033",
+      "title": "Улитка и кит",
+      "author": "Джулия Дональдсон",
+      "url": "https://www.books.ru/books/ulitka-i-kit-5209764/",
+      "isbn": "9785907022553",
+      "headline": "Улитка и Кит — Джулия Дональдсон, Аксель Шеффлер, ISBN 978-5-907022-55-3 — купить книгу на русском языке с доставкой по всему миру | Books.ru",
+      "titleScore": 1,
+      "authorTokensMatched": 2
+    },
+    {
+      "id": "nen-bv2-034",
+      "title": "Тюлька",
+      "author": "Джулия Дональдсон",
+      "url": "https://www.books.ru/books/tyulka-malenkaya-rybka-i-bolshaya-vydumshchitsa-stikhi-1537618/",
+      "isbn": "9785902918219",
+      "headline": "Тюлька. Маленькая рыбка и большая выдумщица: стихи — Джулия Дональдсон, ISBN 978-5-902918-21-9 — купить книгу на русском языке с доставкой по всему миру | Books.ru",
+      "titleScore": 1,
+      "authorTokensMatched": 2
+    },
+    {
+      "id": "nen-bv2-077",
+      "title": "Дневник Кота-убийцы",
+      "author": "Энн Файн",
+      "url": "https://search.rsl.ru/ru/record/01008859028",
+      "isbn": "9785917595375",
+      "headline": "Файн, Энн (1947-). - Дневник кота-убийцы [Текст] : все истории / [Энн Файн ; ил. Алисы Юфа]. - Москва : Самокат, 2017. - 349, [2] с. : ил.; 21 см.; ISBN 978-5-91759-537-5 - Search RSL",
+      "titleScore": 1,
+      "authorTokensMatched": 2
+    },
+    {
+      "id": "nen-bv2-090",
+      "title": "История с кладбищем",
+      "author": "Нил Гейман",
+      "url": "https://book24.ru/product/istoriya-s-kladbishchem-2927196/",
+      "isbn": "9785171111922",
+      "headline": "История с кладбищем (Нил Гейман) - купить книгу в интернет-магазине на book24.ru. (ISBN: 978-5-17-111192-2)",
+      "titleScore": 1,
+      "authorTokensMatched": 2
+    },
+    {
+      "id": "nen-bv2-101",
+      "title": "Бесконечная история",
+      "author": "Михаэль Энде",
+      "url": "https://www.books.ru/books/beskonechnaya-istoriya-720969/",
+      "isbn": "9785367011869",
+      "headline": "Бесконечная История — Михаэль Энде, ISBN 978-5-367-01186-9 — купить книгу на русском языке с доставкой по всему миру | Books.ru",
+      "titleScore": 1,
+      "authorTokensMatched": 2
+    },
+    {
+      "id": "nen-bv2-105",
+      "title": "Тоби Лолнесс",
+      "author": "Тимоте де Фомбель",
+      "url": "https://rusneb.ru/catalog/000199_000009_009877595/",
+      "isbn": "9785000835630",
+      "headline": "Тоби Лолнесс : для среднего и старшего школьного возраста : двухтомник : 6+ (2018) (978-5-00083-563-0) — книга автора Фомбель Тимоте де | НЭБ [000199_000009_009877595]",
+      "titleScore": 1,
+      "authorTokensMatched": 2
+    },
+    {
+      "id": "nen-bv2-116",
+      "title": "Мальчик со шпагой",
+      "author": "Владислав Крапивин",
+      "url": "https://www.books.ru/books/vladislav-krapivin-malchik-so-shpagoi-5385927/",
+      "isbn": "9785001981077",
+      "headline": "Владислав Крапивин: Мальчик со шпагой, ISBN 978-5-00198-107-7 — купить книгу на русском языке с доставкой по всему миру | Books.ru",
+      "titleScore": 1,
+      "authorTokensMatched": 2
+    },
+    {
+      "id": "nen-bv2-140",
+      "title": "Дом, в котором…",
+      "author": "Мариам Петросян",
+      "url": "https://search.rsl.ru/ru/record/01006729848",
+      "isbn": "9785904584702",
+      "headline": "Петросян, Мариам (1969-). - Дом, в котором… [Текст] : [12+] / Мариам Петросян. - Москва : Livebook, 2014-. - 20 см.; ISBN 978-5-904584-70-2 - Search RSL",
+      "titleScore": 1,
+      "authorTokensMatched": 2
+    },
+    {
+      "id": "nen-bv2-141",
+      "title": "Время всегда хорошее",
+      "author": "Андрей Жвалевский; Евгения Пастернак",
+      "url": "https://books.google.com/books/about/%D0%92%D1%80%D0%B5%D0%BC%D1%8F_%D0%B2%D1%81%D0%B5%D0%B3%D0%B4%D0%B0_%D1%85%D0%BE%D1%80%D0%BE%D1%88%D0%B5%D0%B5.html?id=MNLBEAAAQBAJ",
+      "isbn": "9785969109407",
+      "headline": "Время всегда хорошее: Время - Детство! - Андрей Жвалевский, Евгения Пастернак - Google Books",
+      "titleScore": 1,
+      "authorTokensMatched": 4
+    },
+    {
+      "id": "ol-ol19742114w",
+      "title": "Повторение пройденного",
+      "author": "Тамара Крюкова",
+      "url": "https://search.rsl.ru/ru/record/01004021350",
+      "isbn": "9785901942628",
+      "headline": "Крюкова, Тамара Шамильевна (1953-). - Повторение пройденного : [повесть : для среднего школьного возраста] / Тамара Крюкова. - Москва : Аквилегия-М, 2008. - 247, [2] с. : ил.; 21 см. - (Смешные истории).; ISBN 978-5-9019",
+      "titleScore": 1,
+      "authorTokensMatched": 2
+    },
+    {
+      "id": "ol-ol19978383w",
+      "title": "Охотничьи истории",
+      "author": "Геннадий Снегирёв",
+      "url": "https://www.chitai-gorod.ru/product/ohotnichi-istorii-2275445",
+      "isbn": "9785699678228",
+      "headline": "Охотничьи истории (Геннадий Снегирёв) 📖 купить книгу по выгодной цене в «Читай-город» (978-5-699-67822-8)",
+      "titleScore": 1,
+      "authorTokensMatched": 2
+    },
+    {
+      "id": "ol-ol32513596w",
+      "title": "Ленинградские сказки",
+      "author": "Юлия Яковлева",
+      "url": "https://search.rsl.ru/ru/record/01009450609",
+      "isbn": "9785917594446",
+      "headline": "Яковлева, Юлия. - Ленинградские сказки [Текст] : [для младшего и среднего школьного возраста : 12+] / Юлия Яковлева ; [художник Влада Мяконькина]. - Москва : Самокат, 2017 (cop. 2016)-. Кн. 1: Дети ворона, 1938 год. - 20",
+      "titleScore": 1,
+      "authorTokensMatched": 2
+    },
+    {
+      "id": "ol-ol44377549w",
+      "title": "Наверно, я еще маленький",
+      "author": "Ася Петрова",
+      "url": "https://www.chitai-gorod.ru/product/naverno-ya-eshche-malenkiy-2716100",
+      "isbn": "9785604126790",
+      "headline": "Наверно, я еще маленький (Ася Петрова) 📖 купить книгу в Читай-городе (978-5-6041267-9-0)",
+      "titleScore": 1,
+      "authorTokensMatched": 2
+    },
+    {
+      "id": "ol-ol3398755w",
+      "title": "Дельфиний остров",
+      "author": "С. Сахарнов",
+      "url": "https://www.books.ru/books/delfinii-ostrov-4858750/",
+      "isbn": "9785001082569",
+      "headline": "Дельфиний остров — С. В. Сахарнов, ISBN 9785001082569 — купить книгу на русском языке с доставкой по всему миру | Books.ru",
+      "titleScore": 1,
+      "authorTokensMatched": 1
+    },
+    {
+      "id": "ol-ol4263274w",
+      "title": "Самые любимые сказки",
+      "author": "Владимир Сутеев",
+      "url": "https://search.rsl.ru/ru/record/01006742852",
+      "isbn": "9785170475490",
+      "headline": "Сутеев, Владимир Григорьевич (1903-1993). - Самые любимые сказки [Текст] : [сказки : для детей до трех лет : 0+] / В. Сутеев ; худож. В. Сутеев. - Москва : Изд-во АСТ, 2013. - 159 с. : цв. ил.; 27 см. - (Малышам).; ISBN ",
+      "titleScore": 1,
+      "authorTokensMatched": 2
+    },
+    {
+      "id": "ol-ol623471w",
+      "title": "Сказка о золотом петушке",
+      "author": "Александр Сергеевич Пушкин",
+      "url": "https://www.books.ru/books/skazka-o-zolotom-petushke-861637/",
+      "isbn": "9786175947692",
+      "headline": "Сказка о золотом петушке — Александр Сергеевич Пушкин, ISBN 978-617-594-769-2 — купить книгу на русском языке с доставкой по всему миру | Books.ru",
+      "titleScore": 1,
+      "authorTokensMatched": 3
+    },
+    {
+      "id": "ol-ol20058937w",
+      "title": "Русская пленница французского кота",
+      "author": "Игорь Жуков",
+      "url": "https://search.rsl.ru/ru/record/01005402564",
+      "isbn": "9785905474149",
+      "headline": "Жуков, Игорь Аркадьевич (1964-). - Русская пленница французского кота [Текст] : историческая повесть-сказка : [для детей] / Игорь Жуков ; [худож. М. Козлова]. - Москва : Каширская Е. В., 2012. - 95 с. : цв. ил.; 25 см. -",
+      "titleScore": 1,
+      "authorTokensMatched": 2
+    },
+    {
+      "id": "ol-ol19938743w",
+      "title": "Петр Чайковский, или, Волшебное перо",
+      "author": "Борис Евсеев",
+      "url": "https://www.books.ru/books/petr-chaikovskii-ili-volshebnoe-pero-559630/",
+      "isbn": "9785779314237",
+      "headline": "Петр Чайковский, или Волшебное Перо — Борис Тимофеевич Евсеев, ISBN 978-5-7793-1423-7 — купить книгу на русском языке с доставкой по всему миру | Books.ru",
+      "titleScore": 1,
+      "authorTokensMatched": 2
+    },
+    {
+      "id": "ol-ol19742113w",
+      "title": "Весёлый двоечник",
+      "author": "Валентин Постников",
+      "url": "https://www.books.ru/books/veselyi-dvoechnik-690057/",
+      "isbn": "9785904050177",
+      "headline": "Весёлый двоечник — Валентин Постников, ISBN 978-5-904050-17-7 — купить книгу на русском языке с доставкой по всему миру | Books.ru",
+      "titleScore": 1,
+      "authorTokensMatched": 2
+    },
+    {
+      "id": "ol-ol5787637w",
+      "title": "Тайна зловещего сговора",
+      "author": "Антон Иванов",
+      "url": "https://www.books.ru/books/taina-zloveshchego-sgovora-272423/",
+      "isbn": "9785699630301",
+      "headline": "Тайна зловещего сговора — Анастасия Васильевна Устинова, Антон Иванов, ISBN 978-5-699-63030-1 — купить книгу на русском языке с доставкой по всему миру | Books.ru",
+      "titleScore": 1,
+      "authorTokensMatched": 2
+    },
+    {
+      "id": "ol-ol13748004w",
+      "title": "Новые приключения Незнайки",
+      "author": "Игорь Носов",
+      "url": "https://search.rsl.ru/ru/record/01006592825",
+      "isbn": "9785699541423",
+      "headline": "Носов, Игорь Петрович. - Новые приключения Незнайки [Текст] : [для младшего школьного возраста : 0+] / Игорь Носов ; ил. О. Зобниной. - Москва : Изд. И. П. Носова : Эксмо, 2013. - 212, [3] с. : цв. ил.; 26 см.; ISBN 978-",
+      "titleScore": 1,
+      "authorTokensMatched": 2
+    },
+    {
+      "id": "ol-ol19972711w",
+      "title": "Где папа?",
+      "author": "юлия Кузнецова",
+      "url": "https://www.labirint.ru/books/381027/",
+      "isbn": "9785910455775",
+      "headline": "Книга: Где папа? - Юлия Кузнецова. Купить книгу, читать рецензии | Лабиринт",
+      "titleScore": 1,
+      "authorTokensMatched": 2
+    },
+    {
+      "id": "ol-ol13714296w",
+      "title": "Петя и Потап",
+      "author": "В. Чижиков",
+      "url": "https://www.moscowbooks.ru/book/1231420/",
+      "isbn": "9785000416402",
+      "headline": "Книга \"Петя и Потап\" Чижиков В А - купить книгу в интернет-магазине «Москва» ISBN: 978-5-00041-640-2, 1231420",
+      "titleScore": 1,
+      "authorTokensMatched": 1
+    },
+    {
+      "id": "ol-ol13715038w",
+      "title": "Профессор кислых щей",
+      "author": "В. Драгунский",
+      "url": "https://search.rsl.ru/ru/record/01009408391",
+      "isbn": "9785699660964",
+      "headline": "Драгунский, Виктор Юзефович (1913-1972). - Профессор кислых щей [Текст] : [для младшего школьного возраста : 0+] / Виктор Драгунский ; иллюстрации Владимира Канивца. - Москва : Эксмо, 2017. - 108, [2] с. : цв. ил.; 22 см",
+      "titleScore": 1,
+      "authorTokensMatched": 1
+    },
+    {
+      "id": "ol-ol13663633w",
+      "title": "Вы не были на Таити?",
+      "author": "Александр Ефимович Курляндский",
+      "url": "https://www.books.ru/books/vy-ne-byli-na-taiti-4207058/",
+      "isbn": "9785978107449",
+      "headline": "Вы не были на Таити? — Александр Ефимович Курляндский, ISBN 978-5-9781-0744-9 — купить книгу на русском языке с доставкой по всему миру | Books.ru",
+      "titleScore": 1,
+      "authorTokensMatched": 3
+    },
+    {
+      "id": "ol-ol19970141w",
+      "title": "Правдивая история колобка",
+      "author": "Андрей Усачёв",
+      "url": "https://search.rsl.ru/ru/record/01005522931",
+      "isbn": "9785353059707",
+      "headline": "Усачев, Андрей Алексеевич (1958-). - Правдивая история Колобка [Текст] : [сказка : для чтения взрослыми детям] / Андрей Усачёв ; худож. Ольга Закис. - Москва : Росмэн, 2012. - 22, [1] с. : цв. ил.; 29 см. - (Сказки-перес",
+      "titleScore": 1,
+      "authorTokensMatched": 2
+    },
+    {
+      "id": "ol-ol20020633w",
+      "title": "Как меня спасали",
+      "author": "Юрий Сотник",
+      "url": "https://www.books.ru/books/kak-menya-spasali-3542036/",
+      "isbn": "9785389053922",
+      "headline": "Как меня спасали — Юрий Сотник, ISBN 978-5-389-05392-2 — купить книгу на русском языке с доставкой по всему миру | Books.ru",
+      "titleScore": 1,
+      "authorTokensMatched": 2
+    },
+    {
+      "id": "ol-ol865246w",
+      "title": "Очень страшная история",
+      "author": "Даниил Хармс",
+      "url": "https://www.books.ru/books/ochen-strashnaya-istoriya-504326/",
+      "isbn": "9785699183937",
+      "headline": "Очень страшная история — Даниил Иванович Хармс, ISBN 978-5-699-18393-7 — купить книгу на русском языке с доставкой по всему миру | Books.ru",
+      "titleScore": 1,
+      "authorTokensMatched": 2
+    },
+    {
+      "id": "ol-ol31434681w",
+      "title": "Русские дети",
+      "author": "Павел Крусанов; Александр Етоев",
+      "url": "https://books.google.com/books/about/%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B5_%D0%B4%D0%B5%D1%82%D0%B8.html?id=GeIIAgAAQBAJ",
+      "isbn": "9785389068414",
+      "headline": "Русские дети - Составители Павел Крусанов, Александр Етоев - Google Books",
+      "titleScore": 1,
+      "authorTokensMatched": 4
+    },
+    {
+      "id": "curated-nen-collection-kartofelnaya-sobaka-yuriy-koval",
+      "title": "Картофельная собака",
+      "author": "Юрий Коваль",
+      "url": "https://www.books.ru/books/kartofelnaya-sobaka-845095/",
+      "isbn": "9785367015614",
+      "headline": "Картофельная собака — Юрий Иосифович Коваль, ISBN 978-5-367-01561-4 — купить книгу на русском языке с доставкой по всему миру | Books.ru",
+      "titleScore": 1,
+      "authorTokensMatched": 2
+    },
+    {
+      "id": "curated-nen-collection-ne-vse-umeyut-padat-toon-tellegen",
+      "title": "Не все умеют падать",
+      "author": "Тоон Теллеген",
+      "url": "https://search.rsl.ru/ru/record/01000758353",
+      "isbn": "9785604148365",
+      "headline": "Теллеген, Тоон (1941-). - Не все умеют падать : Сказки для взрослых / Тоон Теллеген; [Пер. с гол. Ирина Трофимова]. - Москва : Захаров, 2002. - 122, [1] с. : ил.; 17 см.; ISBN 5-8159-0221-7 - Search RSL",
+      "titleScore": 1,
+      "authorTokensMatched": 2
+    },
+    {
+      "id": "curated-nen-collection-reka-tekuschaya-vspyat-klod-murleva",
+      "title": "Река, текущая вспять",
+      "author": "Жан-Клод Мурлева",
+      "url": "https://www.books.ru/books/reka-tekushchaya-vspyat-652783/",
+      "isbn": "9795902326198",
+      "headline": "Река, текущая вспять — Мурлева Жан-Клод, ISBN 979-5-902326-19-8 — купить книгу на русском языке с доставкой по всему миру | Books.ru",
+      "titleScore": 1,
+      "authorTokensMatched": 3
+    },
+    {
+      "id": "curated-nen-collection-moya-sestrenka-olkozavra-dina-gerbek",
+      "title": "Моя сестренка Олькозавра",
+      "author": "Дина Гербек",
+      "url": "https://www.books.ru/books/dina-gerbek-moya-sestrenka-olkozavra-5263663/",
+      "isbn": "9785995149545",
+      "headline": "Дина Гербек: Моя сестренка Олькозавра, ISBN 978-5-9951-4954-5 — купить книгу на русском языке с доставкой по всему миру | Books.ru",
+      "titleScore": 1,
+      "authorTokensMatched": 2
+    },
+    {
+      "id": "curated-nen-collection-zakoldovannaya-zhizn-uinn-dzhons",
+      "title": "Заколдованная жизнь",
+      "author": "Диана Уинн Джонс",
+      "url": "https://books.google.com/books/about/%D0%97%D0%B0%D0%BA%D0%BE%D0%BB%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%B0%D1%8F_%D0%B6%D0%B8%D0%B7%D0%BD%D1%8C.html?id=YBzPzgEACAAJ",
+      "isbn": "9785389188532",
+      "headline": "Заколдованная жизнь - Диана Уинн Джонс - Google Books",
+      "titleScore": 1,
+      "authorTokensMatched": 3
+    },
+    {
+      "id": "curated-nen-collection-trinadtsataya-skazka-diana-setterfild",
+      "title": "Тринадцатая сказка",
+      "author": "Диана Сеттерфилд",
+      "url": "https://search.rsl.ru/ru/record/01007542604",
+      "isbn": "9785389050945",
+      "headline": "Сеттерфилд, Диана. - Тринадцатая сказка [Текст] : роман : [16+] / Диана Сеттерфилд ; [пер. с англ. Василия Дорогокупли]. - Санкт-Петербург : Азбука, 2014. - 445, [1] с.; 18 см. - (Азбука-классика).; ISBN 978-5-389-05094-",
+      "titleScore": 1,
+      "authorTokensMatched": 2
+    }
+  ]
+}

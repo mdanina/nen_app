@@ -16,6 +16,7 @@ const curatedPriorityPublisherPath = resolve(root, "data/source/curated-priority
 const nenCollectionBooksPath = resolve(root, "data/source/nen-collection-books.json");
 const annotationOverridesPath = resolve(root, "data/source/book-annotation-overrides.json");
 const officialCoverOverridesPath = resolve(root, "data/source/official-cover-overrides.json");
+const officialMetadataOverridesPath = resolve(root, "data/source/official-metadata-overrides.json");
 const targetPath = resolve(root, "data/generated/books.json");
 const fictionExcludedReportPath = resolve(root, "data/reports/fiction-catalog-excluded.json");
 const fictionAmbiguousReportPath = resolve(root, "data/reports/ambiguous-review.json");
@@ -29,8 +30,10 @@ const curatedPriorityPublisherSource = JSON.parse(await readFile(curatedPriority
 const nenCollectionSource = JSON.parse(await readFile(nenCollectionBooksPath, "utf8"));
 const annotationOverrides = JSON.parse(await readFile(annotationOverridesPath, "utf8"));
 const officialCoverOverrides = JSON.parse(await readFile(officialCoverOverridesPath, "utf8"));
+const officialMetadataOverrides = JSON.parse(await readFile(officialMetadataOverridesPath, "utf8"));
 const annotationById = new Map(annotationOverrides.map((item) => [item.id, item]));
 const officialCoverById = new Map(officialCoverOverrides.map((item) => [item.id, item.cover]));
+const officialMetadataById = new Map(officialMetadataOverrides.map((item) => [item.id, item]));
 
 const allowed = {
   readingMode: new Set(["independent", "together", "both"]),
@@ -140,6 +143,12 @@ function normalizePublisher(value) {
   const key = clean.normalize("NFKD").replace(/\p{M}/gu, "").toLocaleLowerCase("ru").replace(/[^a-zа-я0-9]+/gu, " ").trim();
   const rules = [
     [/samokat|самокат/u, "Самокат"],
+    [/polyandria|поляндри/iu, "Поляндрия"],
+    [/albus corvus|белая ворона/iu, "Белая ворона"],
+    [/kompas ?gid|компас ?гид/iu, "КомпасГид"],
+    [/(?:^|\s)clever|клевер/iu, "Clever"],
+    [/archipelag|архипелаг/iu, "Архипелаг"],
+    [/alpina.*det|альпина(?:\.|\s*)дети/iu, "Альпина.Дети"],
     [/rozovy zhiraf|розовый жираф/u, "Розовый жираф"],
     [/peshkom v istor|пешком в истор/u, "Пешком в историю"],
     [/makhaon|махаон/u, "Махаон"],
@@ -274,9 +283,49 @@ function applyPublisherEnrichment(book) {
     bibliographicSources: compact([...(book.bibliographicSources ?? []), enrichment.bibliographicSource]),
   };
 }
+function applyOfficialMetadata(book) {
+  const override = officialMetadataById.get(book.id);
+  if (!override) return book;
+  const replaceEdition = override.replaceEdition === true;
+  return {
+    ...book,
+    publisher: override.publisher || book.publisher || undefined,
+    publicationYear: replaceEdition ? override.publicationYear || undefined : override.publicationYear || book.publicationYear || undefined,
+    pages: replaceEdition ? override.pages || undefined : override.pages || book.pages || undefined,
+    seriesName: replaceEdition ? override.seriesName || undefined : override.seriesName || book.seriesName || undefined,
+    isbn13: replaceEdition ? override.isbn13 || undefined : override.isbn13 || book.isbn13 || undefined,
+    language: replaceEdition ? override.language || undefined : override.language || book.language || undefined,
+    identificationStatus: replaceEdition && !override.isbn13 ? undefined : book.identificationStatus,
+    originalTitle: override.originalTitle || book.originalTitle || undefined,
+    bibliographicSources: compact([...(book.bibliographicSources ?? []), override.sourceUrl]),
+    sourceMetadata: {
+      ...(book.sourceMetadata ?? {}),
+      officialMetadataAudit: {
+        source: override.source,
+        sourceUrl: override.sourceUrl,
+        sourceRecordId: override.sourceRecordId,
+        verifiedAt: override.verifiedAt,
+        match: override.match,
+        officialTitle: override.officialTitle,
+        officialAuthors: override.officialAuthors,
+      },
+    },
+  };
+}
 const candidateBooks = [...legacyBooks, ...publishedV2, ...importedBooks, ...curatedPublisherBooks, ...nenCollectionBooks]
   .map(applyPublisherEnrichment)
-  .map((book) => officialCoverById.has(book.id) ? { ...book, cover: officialCoverById.get(book.id), coverUrl: undefined } : book);
+  .map(applyOfficialMetadata)
+  .map((book) => {
+    if (!officialCoverById.has(book.id)) return book;
+    const cover = officialCoverById.get(book.id);
+    const metadata = officialMetadataById.get(book.id);
+    const confirmedSameEdition = metadata?.sourceUrl === cover.sourcePageUrl;
+    return {
+      ...book,
+      cover: confirmedSameEdition ? { ...cover, isbn13: book.isbn13 } : cover,
+      coverUrl: undefined,
+    };
+  });
 const isNenCollectionBook = (book) => String(book.id).startsWith("curated-nen-collection-");
 const fictionExcluded = candidateBooks
   .map((book) => ({ book, classification: classifyCatalogBook(book) }))

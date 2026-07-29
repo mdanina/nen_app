@@ -340,8 +340,16 @@ async function collect(label, links, parser, target) {
 const current = JSON.parse(await readFile(currentCatalogPath, "utf8"))
   .filter((book) => !/^curated-(?:whitecrow|kompasgid|alpina-deti)-/u.test(String(book.id)));
 const previousSource = JSON.parse(await readFile(outputPath, "utf8"));
-const existingKeys = new Set(current.map((book) => titleAuthorKey(book.title, String(book.author).split(/\s*;\s*/u))));
+const existingKeys = new Set(current.flatMap((book) => {
+  const authors = String(book.author).split(/\s*;\s*/u);
+  return [book.title, book.originalTitle].filter(Boolean).map((title) => titleAuthorKey(title, authors));
+}));
 const existingIsbn = new Set(current.map((book) => book.isbn13).filter(Boolean));
+const existingByKey = new Map(current.flatMap((book) => {
+  const authors = String(book.author).split(/\s*;\s*/u);
+  return [book.title, book.originalTitle].filter(Boolean).map((title) => [titleAuthorKey(title, authors), book]);
+}));
+const existingByIsbn = new Map(current.filter((book) => book.isbn13).map((book) => [book.isbn13, book]));
 
 const [whiteCrowXml, kompasXml, ...alpinaPages] = await Promise.all([
   fetchText(publisherSources.whiteCrow.sitemap),
@@ -358,6 +366,7 @@ const alpina = await collect("Альпина.Дети", alpinaLinks, alpinaBook,
 
 const selected = [];
 const rejectedDuplicates = [];
+const enrichments = [];
 for (const book of previousSource.books ?? []) {
   const key = titleAuthorKey(book.title, book.authors);
   if (existingKeys.has(key) || existingIsbn.has(book.isbn13)) continue;
@@ -371,6 +380,20 @@ for (const group of [whiteCrow.books, kompas.books, alpina.books]) {
     if (acceptedForPublisher >= perPublisherTarget + 20) break;
     const key = titleAuthorKey(book.title, book.authors);
     if (existingKeys.has(key) || existingIsbn.has(book.isbn13)) {
+      const existing = existingByKey.get(key) ?? existingByIsbn.get(book.isbn13);
+      if (existing && !enrichments.some((item) => item.id === existing.id)) {
+        enrichments.push({
+          id: existing.id,
+          publisher: book.publisher,
+          publicationYear: book.publicationYear,
+          pages: book.pages,
+          seriesName: book.seriesName,
+          translator: book.translator,
+          isbn13: book.isbn13,
+          cover: book.cover,
+          bibliographicSource: book.bibliographicSources[0],
+        });
+      }
       rejectedDuplicates.push({ id: book.id, title: book.title, authors: book.authors, reason: "duplicate_existing_catalog" });
       continue;
     }
@@ -392,7 +415,7 @@ const output = {
   sourcePolicy: "Официальные каталоги издательств; только детская художественная литература с полной карточкой и аннотацией.",
   officialCatalogs: Object.values(publisherSources).map(({ name, officialUrl }) => ({ publisher: name, url: officialUrl })),
   books: selected,
-  enrichments: [],
+  enrichments,
   report: {
     requestedPerPublisher: perPublisherTarget,
     accepted: selected.length,
