@@ -23,7 +23,7 @@ const topLevelKeys = new Set([
   "id", "slug", "title", "originalTitle", "contentType", "contentFormat", "releaseForm",
   "shortDescription", "whyRecommended", "country", "year", "duration", "themes", "mood",
   "sensitiveTopics", "nenAgeRecommendation", "officialRating", "productionKind", "genres",
-  "discussionTopics", "frame", "awards",
+  "discussionTopics", "frame", "awards", "studios", "relatedTitles",
 ]);
 
 const isRecord = (value: unknown): value is Record<string, unknown> =>

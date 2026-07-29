@@ -6,7 +6,8 @@ export type WatchV2Kind =
   | "animated-short"
   | "animated-series"
   | "series"
-  | "documentary";
+  | "documentary"
+  | "short-film";
 export type RussianAgeRating = "0+" | "6+" | "12+" | "16+" | "18+";
 
 export const WATCH_MOODS = [
@@ -19,6 +20,7 @@ export const WATCH_GENRES = [
   "семейный", "комедия", "драма", "приключения", "фэнтези", "фантастика",
   "детектив", "сказка", "мюзикл", "мелодрама", "исторический",
   "биографический", "спортивный", "триллер",
+  "документальный", "образовательный", "короткометражный",
 ] as const;
 export type WatchGenre = typeof WATCH_GENRES[number];
 
@@ -83,10 +85,12 @@ interface WatchV2Base {
   officialRating?: WatchV2OfficialRating;
   frame?: WatchV2Frame;
   awards?: WatchV2Award[];
+  studios?: string[];
+  relatedTitles?: string[];
 }
 
 interface WatchV2StandaloneTitle extends WatchV2Base {
-  kind: "movie" | "animated-feature" | "animated-short" | "documentary";
+  kind: "movie" | "animated-feature" | "animated-short" | "documentary" | "short-film";
   duration: WatchV2StandaloneDuration;
 }
 

@@ -5,7 +5,7 @@ export type ReleaseForm = "standalone" | "series";
 export type CartoonFormat = "animated-feature" | "animated-series";
 export type MovieFormat = "fiction" | "series" | "documentary";
 export type ContentFormat = CartoonFormat | MovieFormat;
-export type ProductionKind = "movie" | "animated-feature" | "animated-short" | "animated-series" | "series" | "documentary";
+export type ProductionKind = "movie" | "animated-feature" | "animated-short" | "animated-series" | "series" | "documentary" | "short-film";
 
 export const contentFormatLabel = (format: ContentFormat) => ({
   "animated-feature": "Мультфильм",
@@ -64,6 +64,8 @@ interface WatchTitleBase {
     studios: string[];
   };
   awards?: string[];
+  studios?: string[];
+  relatedTitles?: string[];
 }
 
 export interface Cartoon extends WatchTitleBase {

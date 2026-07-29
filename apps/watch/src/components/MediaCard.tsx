@@ -13,6 +13,7 @@ const typeLabels: Record<WatchTitle["productionKind"], string> = {
   "animated-series": "Мультсериал",
   series: "Сериал",
   documentary: "Документальный фильм",
+  "short-film": "Короткометражный фильм",
 };
 
 export const typeLabel = (title: WatchTitle) => typeLabels[title.productionKind];

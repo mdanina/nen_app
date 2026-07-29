@@ -5,7 +5,7 @@ const MOODS = new Set([
 const GENRES = new Set([
   "семейный", "комедия", "драма", "приключения", "фэнтези", "фантастика",
   "детектив", "сказка", "мюзикл", "мелодрама", "исторический",
-  "биографический", "спортивный", "триллер",
+  "биографический", "спортивный", "триллер", "документальный", "образовательный", "короткометражный",
 ]);
 const THEMES = new Set([
   "семья", "дружба", "отношения с родителями", "братья и сёстры", "взросление",
@@ -15,7 +15,7 @@ const THEMES = new Set([
   "история", "искусство", "музыка", "спорт", "мечты", "культурное разнообразие",
   "утрата", "разлука",
 ]);
-const KINDS = new Set(["movie", "animated-feature", "animated-short", "animated-series", "series", "documentary"]);
+const KINDS = new Set(["movie", "animated-feature", "animated-short", "animated-series", "series", "documentary", "short-film"]);
 const RATINGS = new Set(["0+", "6+", "12+", "16+", "18+"]);
 const SERVICE_MARKER = /\b(?:demo|test|sample|todo|tbd)\b|демонстрацион|тестов|заглушк|заполнить позже|уточнить позже/iu;
 
@@ -68,6 +68,8 @@ function validateRecord(record, index) {
     }
   }
   if (record.awards !== undefined && (!Array.isArray(record.awards) || record.awards.length === 0 || record.awards.some((award) => !isRecord(award) || !isText(award.title)))) add("awards", "ожидается непустой список наград");
+  if (record.studios !== undefined && !textArray(record.studios)) add("studios", "ожидается непустой список студий");
+  if (record.relatedTitles !== undefined && !textArray(record.relatedTitles)) add("relatedTitles", "ожидается непустой список связанных произведений");
 
   if (!isRecord(record.nenAgeRecommendation)) add("nenAgeRecommendation", "рекомендация НЭН обязательна");
   else {
@@ -152,6 +154,8 @@ function normalize(record) {
       studios: [...new Set(record.frame.studios.map((value) => value.trim()))],
     } } : {}),
     ...(record.awards ? { awards: record.awards.map((award) => ({ title: award.title.trim() })) } : {}),
+    ...(record.studios ? { studios: [...new Set(record.studios.map((value) => value.trim()))] } : {}),
+    ...(record.relatedTitles ? { relatedTitles: [...new Set(record.relatedTitles.map((value) => value.trim()))] } : {}),
   };
 }
 
@@ -164,7 +168,7 @@ export function generateWatchV2Catalog(input) {
     items,
     report: {
       total: items.length,
-      movies: byKind.movie + byKind.series + byKind.documentary,
+      movies: byKind.movie + byKind.series + byKind.documentary + byKind["short-film"],
       cartoons: byKind["animated-feature"] + byKind["animated-short"] + byKind["animated-series"],
       byKind,
       withOfficialRating: items.filter((item) => item.officialRating).length,
@@ -187,6 +191,7 @@ export function formatWatchV2Report(report) {
     `animated-series: ${report.byKind["animated-series"]}`,
     `series: ${report.byKind.series}`,
     `documentary: ${report.byKind.documentary}`,
+    `short-film: ${report.byKind["short-film"]}`,
     `С подтверждённым officialRating: ${report.withOfficialRating}`,
     `Без officialRating: ${report.withoutOfficialRating}`,
   ].join("\n");

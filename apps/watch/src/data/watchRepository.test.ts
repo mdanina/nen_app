@@ -5,8 +5,8 @@ import { StaticWatchDataSource } from "./watchDataSource";
 describe("watch repository", () => {
   it("keeps cartoons and movies in separate queries", async () => {
     const repository = await createWatchRepository();
-    expect(await repository.getAllCartoons()).toHaveLength(425);
-    expect(await repository.getAllMovies()).toHaveLength(275);
+    expect(await repository.getAllCartoons()).toHaveLength(722);
+    expect(await repository.getAllMovies()).toHaveLength(566);
   });
 
   it("finds by slug and returns null for an unknown slug", async () => {
@@ -25,7 +25,7 @@ describe("watch repository", () => {
     const repository = await createWatchRepository();
     const items = [...await repository.getAllCartoons(), ...await repository.getAllMovies()];
     const serviceMarker = /(?:^|[-_])(demo|test|sample)(?:[-_]|$)|демонстрацион|тестов/iu;
-    expect(items).toHaveLength(700);
+    expect(items).toHaveLength(1288);
     expect(items.some((item) => serviceMarker.test([
       item.id, item.slug, item.title, item.shortDescription, item.whyRecommended, item.nenAgeRecommendation.rationale,
     ].join(" ")))).toBe(false);
@@ -34,7 +34,7 @@ describe("watch repository", () => {
   it("builds filter dictionaries for one content type", async () => {
     const repository = await createWatchRepository();
     const dictionary = await repository.getFilterDictionary("movie");
-    expect(dictionary.contentFormats).toEqual(["fiction"]);
+    expect(dictionary.contentFormats).toEqual(["documentary", "fiction", "series"]);
     expect(dictionary.themes).toContain("семья");
     expect(dictionary.contentFormats).not.toContain("animated-feature");
   });

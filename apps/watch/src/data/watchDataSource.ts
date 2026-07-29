@@ -17,7 +17,7 @@ function toLegacyUiTitle(item: WatchV2Title) {
     title: item.title,
     ...(item.originalTitle ? { originalTitle: item.originalTitle } : {}),
     contentType: isCartoon ? "cartoon" : "movie",
-    contentFormat: item.kind === "documentary" ? "documentary" : item.kind === "series" ? "series" : item.kind === "movie" ? "fiction" : isSeries ? "animated-series" : "animated-feature",
+    contentFormat: item.kind === "documentary" ? "documentary" : item.kind === "series" ? "series" : item.kind === "movie" || item.kind === "short-film" ? "fiction" : isSeries ? "animated-series" : "animated-feature",
     releaseForm: isSeries ? "series" : "standalone",
     productionKind: item.kind,
     shortDescription: item.shortDescription,
@@ -41,6 +41,8 @@ function toLegacyUiTitle(item: WatchV2Title) {
     nenAgeRecommendation: item.nenAgeRecommendation,
     ...(item.frame ? { frame: item.frame } : {}),
     ...(item.awards?.length ? { awards: item.awards.map((award) => award.title) } : {}),
+    ...(item.studios?.length ? { studios: item.studios } : {}),
+    ...(item.relatedTitles?.length ? { relatedTitles: item.relatedTitles } : {}),
     ...(item.officialRating ? { officialRating: { system: "Возрастная маркировка РФ", ...item.officialRating } } : {}),
   };
 }

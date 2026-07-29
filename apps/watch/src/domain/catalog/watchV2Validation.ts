@@ -5,7 +5,7 @@ export interface WatchV2Issue {
   message: string;
 }
 
-const kinds = new Set(["movie", "animated-feature", "animated-short", "animated-series", "series", "documentary"]);
+const kinds = new Set(["movie", "animated-feature", "animated-short", "animated-series", "series", "documentary", "short-film"]);
 const moods = new Set<string>(WATCH_MOODS);
 const genres = new Set<string>(WATCH_GENRES);
 const themes = new Set<string>(WATCH_THEMES);
@@ -14,7 +14,7 @@ const serviceText = /\b(?:demo|test|sample|todo|tbd)\b|демонстрацио�
 const allowedFields = new Set([
   "schemaVersion", "id", "slug", "title", "originalTitle", "kind", "shortDescription",
   "whyRecommended", "country", "year", "duration", "genres", "themes", "discussionTopics",
-  "mood", "sensitiveTopics", "nenAgeRecommendation", "officialRating", "frame", "awards",
+  "mood", "sensitiveTopics", "nenAgeRecommendation", "officialRating", "frame", "awards", "studios", "relatedTitles",
 ]);
 
 const isRecord = (value: unknown): value is Record<string, unknown> =>
@@ -94,6 +94,8 @@ export function validateWatchV2Record(value: unknown): WatchV2Issue[] {
   if (value.awards !== undefined && (!Array.isArray(value.awards) || value.awards.length === 0 || value.awards.some((award) => !isRecord(award) || Object.keys(award).some((key) => key !== "title") || !nonEmptyString(award.title)))) {
     add("awards", "Награды должны быть непустым списком объектов с полем title");
   }
+  if (value.studios !== undefined && !stringArray(value.studios)) add("studios", "Студии должны быть непустым списком названий");
+  if (value.relatedTitles !== undefined && !stringArray(value.relatedTitles)) add("relatedTitles", "Связанные произведения должны быть непустым списком названий");
 
   return issues;
 }
