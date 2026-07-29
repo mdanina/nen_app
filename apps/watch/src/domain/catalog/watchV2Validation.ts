@@ -5,7 +5,7 @@ export interface WatchV2Issue {
   message: string;
 }
 
-const kinds = new Set(["movie", "animated-feature", "animated-short", "animated-series"]);
+const kinds = new Set(["movie", "animated-feature", "animated-short", "animated-series", "series", "documentary"]);
 const moods = new Set<string>(WATCH_MOODS);
 const genres = new Set<string>(WATCH_GENRES);
 const themes = new Set<string>(WATCH_THEMES);
@@ -14,7 +14,7 @@ const serviceText = /\b(?:demo|test|sample|todo|tbd)\b|демонстрацио�
 const allowedFields = new Set([
   "schemaVersion", "id", "slug", "title", "originalTitle", "kind", "shortDescription",
   "whyRecommended", "country", "year", "duration", "genres", "themes", "discussionTopics",
-  "mood", "sensitiveTopics", "nenAgeRecommendation", "officialRating",
+  "mood", "sensitiveTopics", "nenAgeRecommendation", "officialRating", "frame", "awards",
 ]);
 
 const isRecord = (value: unknown): value is Record<string, unknown> =>
@@ -51,10 +51,12 @@ export function validateWatchV2Record(value: unknown): WatchV2Issue[] {
   if (!Number.isInteger(value.year) || Number(value.year) < 1888 || Number(value.year) > new Date().getFullYear() + 1) add("year", "Некорректный год");
 
   if (!isRecord(value.duration)) add("duration", "Обязательный объект длительности");
-  else if (value.kind === "animated-series") {
-    if (Object.keys(value.duration).some((key) => !["episodeMinutes", "episodeCount"].includes(key))) add("duration", "Для мультсериала допустимы только episodeMinutes и episodeCount");
+  else if (value.kind === "animated-series" || value.kind === "series") {
+    if (Object.keys(value.duration).some((key) => !["episodeMinutes", "episodeMinutesMax", "episodeCount", "seasonCount"].includes(key))) add("duration", "Для сериала допустимы только episodeMinutes, episodeMinutesMax, episodeCount и seasonCount");
     if (!Number.isInteger(value.duration.episodeMinutes) || Number(value.duration.episodeMinutes) < 1 || Number(value.duration.episodeMinutes) > 180) add("duration.episodeMinutes", "Ожидается 1–180 минут");
+    if (value.duration.episodeMinutesMax !== undefined && (!Number.isInteger(value.duration.episodeMinutesMax) || Number(value.duration.episodeMinutesMax) < Number(value.duration.episodeMinutes) || Number(value.duration.episodeMinutesMax) > 240)) add("duration.episodeMinutesMax", "Верхняя граница должна быть не меньше обычной длительности и не больше 240 минут");
     if (value.duration.episodeCount !== undefined && (!Number.isInteger(value.duration.episodeCount) || Number(value.duration.episodeCount) < 1)) add("duration.episodeCount", "Количество серий должно быть положительным целым числом");
+    if (value.duration.seasonCount !== undefined && (!Number.isInteger(value.duration.seasonCount) || Number(value.duration.seasonCount) < 1)) add("duration.seasonCount", "Количество сезонов должно быть положительным целым числом");
   } else {
     if (Object.keys(value.duration).some((key) => key !== "minutes")) add("duration", "Для отдельного произведения допустимо только minutes");
     if (!Number.isInteger(value.duration.minutes) || Number(value.duration.minutes) < 1 || Number(value.duration.minutes) > 360) add("duration.minutes", "Ожидается 1–360 минут");
@@ -80,6 +82,17 @@ export function validateWatchV2Record(value: unknown): WatchV2Issue[] {
     if (!ratings.has(String(value.officialRating.value))) add("officialRating.value", "Допустимы только 0+, 6+, 12+, 16+ и 18+");
     if (!httpUrl(value.officialRating.sourceUrl)) add("officialRating.sourceUrl", "Требуется надёжный HTTP(S)-источник российской маркировки");
     if (value.officialRating.sourceTitle !== undefined && !nonEmptyString(value.officialRating.sourceTitle)) add("officialRating.sourceTitle", "Если поле задано, оно не должно быть пустым");
+  }
+
+  if (value.frame !== undefined && !isRecord(value.frame)) add("frame", "Если кадр задан, ожидается объект с URL и студиями производства");
+  else if (isRecord(value.frame)) {
+    if (Object.keys(value.frame).some((key) => !["url", "studios"].includes(key))) add("frame", "Для кадра допустимы только url и studios");
+    if (!httpUrl(value.frame.url)) add("frame.url", "Требуется HTTP(S)-адрес изображения");
+    if (!stringArray(value.frame.studios)) add("frame.studios", "Нужен непустой список студий производства");
+  }
+
+  if (value.awards !== undefined && (!Array.isArray(value.awards) || value.awards.length === 0 || value.awards.some((award) => !isRecord(award) || Object.keys(award).some((key) => key !== "title") || !nonEmptyString(award.title)))) {
+    add("awards", "Награды должны быть непустым списком объектов с полем title");
   }
 
   return issues;

@@ -1,11 +1,19 @@
 export type ContentType = "cartoon" | "movie";
 export type Mood = "calm" | "cheerful" | "adventurous" | "thoughtful" | "emotional";
-export type DiscussionPotential = "low" | "medium" | "high";
 export type ReleaseForm = "standalone" | "series";
 
 export type CartoonFormat = "animated-feature" | "animated-series";
-export type MovieFormat = "fiction" | "documentary";
+export type MovieFormat = "fiction" | "series" | "documentary";
 export type ContentFormat = CartoonFormat | MovieFormat;
+export type ProductionKind = "movie" | "animated-feature" | "animated-short" | "animated-series" | "series" | "documentary";
+
+export const contentFormatLabel = (format: ContentFormat) => ({
+  "animated-feature": "Мультфильм",
+  "animated-series": "Мультсериал",
+  fiction: "Фильм",
+  series: "Сериал",
+  documentary: "Документальный фильм",
+})[format];
 
 export interface OfficialRating {
   system: string;
@@ -27,7 +35,9 @@ export interface StandaloneDuration {
 export interface SeriesDuration {
   kind: "series";
   episodeMinutes: number;
+  episodeMinutesMax?: number;
   episodeCount?: number;
+  seasonCount?: number;
 }
 
 export type WatchDuration = StandaloneDuration | SeriesDuration;
@@ -44,10 +54,16 @@ interface WatchTitleBase {
   themes: string[];
   mood: Mood[];
   sensitiveTopics: string[];
-  discussionPotential: DiscussionPotential;
   nenAgeRecommendation: NenAgeRecommendation;
   officialRating?: OfficialRating;
-  status: "draft" | "published";
+  productionKind: ProductionKind;
+  genres: string[];
+  discussionTopics: string[];
+  frame?: {
+    url: string;
+    studios: string[];
+  };
+  awards?: string[];
 }
 
 export interface Cartoon extends WatchTitleBase {
@@ -60,8 +76,8 @@ export interface Cartoon extends WatchTitleBase {
 export interface Movie extends WatchTitleBase {
   contentType: "movie";
   contentFormat: MovieFormat;
-  releaseForm: "standalone";
-  duration: StandaloneDuration;
+  releaseForm: ReleaseForm;
+  duration: WatchDuration;
 }
 
 export type WatchTitle = Cartoon | Movie;

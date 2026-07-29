@@ -1,4 +1,4 @@
-import type { Cartoon, Movie, WatchTitle } from "./types";
+import { contentFormatLabel, type Cartoon, type Movie, type WatchTitle } from "./types";
 import { filterTitles, matchesHardConstraints, type CatalogFilters } from "./filters";
 
 export const FILTER_WEIGHTS = {
@@ -55,7 +55,7 @@ function evaluate(title: WatchTitle, filters: CatalogFilters): RankedTitle {
   if (filters.contentFormats.length) {
     if (filters.contentFormats.includes(title.contentFormat as never)) {
       score += FILTER_WEIGHTS.contentFormat;
-      matched.push(condition("contentFormat", `формат: ${title.contentFormat}`));
+      matched.push(condition("contentFormat", `формат: ${contentFormatLabel(title.contentFormat)}`));
     } else relaxed.push(condition("contentFormat", "формат контента"));
   }
   score += addArrayCriterion(title.themes, filters.themes, "theme", "тема", FILTER_WEIGHTS.theme, matched, relaxed);

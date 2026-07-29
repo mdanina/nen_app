@@ -8,15 +8,35 @@
     "releaseForm": "standalone",
     "shortDescription": "Демонстрационная история о друзьях, которые вместе возвращаются домой.",
     "whyRecommended": "Тестовая запись показывает модель полнометражного мультфильма.",
-    "country": ["Вымышленная страна"],
+    "country": [
+      "Вымышленная страна"
+    ],
     "year": 2024,
-    "duration": { "kind": "standalone", "minutes": 72 },
-    "themes": ["дружба", "взаимопомощь"],
-    "mood": ["cheerful", "adventurous"],
+    "duration": {
+      "kind": "standalone",
+      "minutes": 72
+    },
+    "themes": [
+      "дружба",
+      "взаимопомощь"
+    ],
+    "mood": [
+      "cheerful",
+      "adventurous"
+    ],
     "sensitiveTopics": [],
-    "discussionPotential": "medium",
-    "nenAgeRecommendation": { "minAge": 6, "maxAge": 10, "rationale": "Демонстрационная редакционная рекомендация для тестирования схемы." },
-    "status": "published"
+    "nenAgeRecommendation": {
+      "minAge": 6,
+      "maxAge": 10,
+      "rationale": "Демонстрационная редакционная рекомендация для тестирования схемы."
+    },
+    "productionKind": "animated-feature",
+    "genres": [
+      "семейный"
+    ],
+    "discussionTopics": [
+      "Что можно обсудить вместе после просмотра этого произведения?"
+    ]
   },
   {
     "id": "demo-cartoon-space-series",
@@ -27,15 +47,36 @@
     "releaseForm": "series",
     "shortDescription": "Демонстрационный сериал о команде юных исследователей.",
     "whyRecommended": "Тестовая запись проверяет сериал и длительность отдельной серии.",
-    "country": ["Вымышленная страна"],
+    "country": [
+      "Вымышленная страна"
+    ],
     "year": 2025,
-    "duration": { "kind": "series", "episodeMinutes": 12, "episodeCount": 8 },
-    "themes": ["космос", "любознательность"],
-    "mood": ["calm", "thoughtful"],
+    "duration": {
+      "kind": "series",
+      "episodeMinutes": 12,
+      "episodeCount": 8
+    },
+    "themes": [
+      "космос",
+      "любознательность"
+    ],
+    "mood": [
+      "calm",
+      "thoughtful"
+    ],
     "sensitiveTopics": [],
-    "discussionPotential": "high",
-    "nenAgeRecommendation": { "minAge": 5, "maxAge": 9, "rationale": "Демонстрационная редакционная рекомендация для тестирования схемы." },
-    "status": "published"
+    "nenAgeRecommendation": {
+      "minAge": 5,
+      "maxAge": 9,
+      "rationale": "Демонстрационная редакционная рекомендация для тестирования схемы."
+    },
+    "productionKind": "animated-series",
+    "genres": [
+      "семейный"
+    ],
+    "discussionTopics": [
+      "Что можно обсудить вместе после просмотра этого произведения?"
+    ]
   },
   {
     "id": "demo-movie-lighthouse",
@@ -46,15 +87,37 @@
     "releaseForm": "standalone",
     "shortDescription": "Демонстрационная семейная история о летней поездке к морю.",
     "whyRecommended": "Тестовая запись показывает модель игрового фильма.",
-    "country": ["Вымышленная страна"],
+    "country": [
+      "Вымышленная страна"
+    ],
     "year": 2023,
-    "duration": { "kind": "standalone", "minutes": 94 },
-    "themes": ["семья", "доверие"],
-    "mood": ["emotional", "thoughtful"],
-    "sensitiveTopics": ["разлука с близкими"],
-    "discussionPotential": "high",
-    "nenAgeRecommendation": { "minAge": 10, "maxAge": 14, "rationale": "Демонстрационная редакционная рекомендация для тестирования схемы." },
-    "status": "published"
+    "duration": {
+      "kind": "standalone",
+      "minutes": 94
+    },
+    "themes": [
+      "семья",
+      "доверие"
+    ],
+    "mood": [
+      "emotional",
+      "thoughtful"
+    ],
+    "sensitiveTopics": [
+      "разлука с близкими"
+    ],
+    "nenAgeRecommendation": {
+      "minAge": 10,
+      "maxAge": 14,
+      "rationale": "Демонстрационная редакционная рекомендация для тестирования схемы."
+    },
+    "productionKind": "movie",
+    "genres": [
+      "семейный"
+    ],
+    "discussionTopics": [
+      "Что можно обсудить вместе после просмотра этого произведения?"
+    ]
   },
   {
     "id": "demo-movie-river",
@@ -65,14 +128,34 @@
     "releaseForm": "standalone",
     "shortDescription": "Демонстрационный документальный фильм о природной экосистеме.",
     "whyRecommended": "Тестовая запись проверяет документальный формат.",
-    "country": ["Вымышленная страна"],
+    "country": [
+      "Вымышленная страна"
+    ],
     "year": 2022,
-    "duration": { "kind": "standalone", "minutes": 48 },
-    "themes": ["природа", "экология"],
-    "mood": ["calm", "thoughtful"],
+    "duration": {
+      "kind": "standalone",
+      "minutes": 48
+    },
+    "themes": [
+      "природа",
+      "экология"
+    ],
+    "mood": [
+      "calm",
+      "thoughtful"
+    ],
     "sensitiveTopics": [],
-    "discussionPotential": "medium",
-    "nenAgeRecommendation": { "minAge": 7, "maxAge": 12, "rationale": "Демонстрационная редакционная рекомендация для тестирования схемы." },
-    "status": "published"
+    "nenAgeRecommendation": {
+      "minAge": 7,
+      "maxAge": 12,
+      "rationale": "Демонстрационная редакционная рекомендация для тестирования схемы."
+    },
+    "productionKind": "documentary",
+    "genres": [
+      "семейный"
+    ],
+    "discussionTopics": [
+      "Что можно обсудить вместе после просмотра этого произведения?"
+    ]
   }
 ]

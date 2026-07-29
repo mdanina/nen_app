@@ -105,6 +105,21 @@
     "officialRating": {
       "value": "6+",
       "sourceUrl": "https://www.kinopoisk.ru/film/714248/"
+    },
+    "frame": {
+      "url": "https://n-e-n.ru/images/2025-12-26/694e906daa750_0x0.jpg",
+      "studios": [
+        "Backup Media",
+        "Big Farm",
+        "Digital Graphics",
+        "Irish Film Board",
+        "Mélusine Productions",
+        "Magellan Films",
+        "Noerlum Studios",
+        "Studio 352",
+        "Super Productions",
+        "The Cartoon Saloon"
+      ]
     }
   },
   {
@@ -421,6 +436,13 @@
     "officialRating": {
       "value": "12+",
       "sourceUrl": "https://www.afisha.ru/movie/koralina-v-strane-koshmarov-191980/"
+    },
+    "frame": {
+      "url": "https://n-e-n.ru/images/2025-12-26/694e914cbfe27_0x0.jpg",
+      "studios": [
+        "Laika Entertainment",
+        "Pandemonium"
+      ]
     }
   },
   {
@@ -468,6 +490,14 @@
       "minAge": 5,
       "maxAge": 10,
       "rationale": "Бессловесное повествование понятно по действию, но требует внимательно следить за причинно-следственными связями. Погони, потеря памяти и приют для животных создают напряжение, которое быстро снимается комедией."
+    },
+    "frame": {
+      "url": "https://n-e-n.ru/images/2025-12-26/694e9069178b8_0x0.jpg",
+      "studios": [
+        "Aardman Animations",
+        "Anton",
+        "Studio Canal"
+      ]
     }
   },
   {
@@ -640,6 +670,12 @@
       "minAge": 5,
       "maxAge": 9,
       "rationale": "Можно смотреть примерно с пяти лет: фильм короткий и внешне спокойный, но тревожная музыка, потеря дороги и неопределённые образы особенно чувствительным детям потребуют поддержки."
+    },
+    "frame": {
+      "url": "https://n-e-n.ru/images/2025-10-28/69009bac1eb68_0x0.jpg",
+      "studios": [
+        "Союзмультфильм"
+      ]
     }
   },
   {
@@ -854,6 +890,13 @@
       "minAge": 8,
       "maxAge": 12,
       "rationale": "Подходит с восьми лет: комедийное преувеличение смягчает историю, но унижение детей, эмоциональное пренебрежение и наказания директрисы требуют обсуждения."
+    },
+    "frame": {
+      "url": "https://n-e-n.ru/images/2025-12-26/694e90afb6555_0x0.jpg",
+      "studios": [
+        "TriStar Pictures",
+        "Sony Pictures Releasing"
+      ]
     }
   },
   {
@@ -944,6 +987,16 @@
       "minAge": 10,
       "maxAge": 14,
       "rationale": "Рекомендуется с десяти лет: сюжет понятен детям, но насмешки из-за внешности, одиночество и семейное напряжение могут болезненно откликнуться тем, кто переживал травлю."
+    },
+    "frame": {
+      "url": "https://n-e-n.ru/images/2025-12-26/694e91564b2ac_0x0.jpg",
+      "studios": [
+        "Karno&#039;s Film",
+        "Lions Gate Films",
+        "Mandeville Films",
+        "Participant Media",
+        "Walden Media"
+      ]
     }
   },
   {
@@ -1200,6 +1253,12 @@
       "minAge": 3,
       "maxAge": 8,
       "rationale": "Подходит примерно с трёх лет: история короткая, конфликт безопасный, а неудача героя показана без унижения и легко обсуждается после просмотра."
+    },
+    "frame": {
+      "url": "https://n-e-n.ru/images/2026-01-16/696a2c5342ba8_0x0.jpg",
+      "studios": [
+        "Союзмультфильм"
+      ]
     }
   },
   {
@@ -3076,6 +3135,33 @@
       "minAge": 11,
       "maxAge": 15,
       "rationale": "Темы смерти, зависимости, насилия и оставления детей требуют зрелого просмотра; короткий хронометраж не делает содержание лёгким."
+    },
+    "frame": {
+      "url": "https://n-e-n.ru/images/2025-12-26/694e90f5a7c94_0x0.jpg",
+      "studios": [
+        "Blue Spirit Animation",
+        "Canal+",
+        "Centre National du Cinéma",
+        "Ciné5.Cinéforom",
+        "Département de la Charente",
+        "Eurimages",
+        "France 3 Cinéma",
+        "France Télévision",
+        "Gébéka Films",
+        "Hélium Films",
+        "Indie Invest",
+        "Indie Sales1",
+        "KNM",
+        "Loterie Suisse Romande",
+        "Office Fédéral de la Culture",
+        "Région Poitou-Charentes",
+        "Région Rhône-Alpes",
+        "Radio Télévision Suisse (RTS)",
+        "Rhône-Alpes Cinéma",
+        "Rita Productions",
+        "SRG SSR idée suisse",
+        "Suissimage"
+      ]
     }
   },
   {
@@ -3867,6 +3953,13 @@
       "minAge": 9,
       "maxAge": 14,
       "rationale": "Болезнь И.Т., вторжение людей в защитных костюмах и прощание эмоционально сильны; длительность требует школьного возраста."
+    },
+    "frame": {
+      "url": "https://n-e-n.ru/images/2025-12-26/694e910408ef5_0x0.jpg",
+      "studios": [
+        "Universal Pictures",
+        "Amblin Entertainment"
+      ]
     }
   },
   {
@@ -3912,6 +4005,12 @@
       "minAge": 8,
       "maxAge": 13,
       "rationale": "Ловушки причиняют взрослым условно-комедийные травмы, а одиночество ребёнка и вторжение в дом могут тревожить младших."
+    },
+    "frame": {
+      "url": "https://n-e-n.ru/images/2025-12-22/6949077b0b20a_0x0.jpg",
+      "studios": [
+        "Twentieth Century Fox"
+      ]
     }
   },
   {
@@ -4473,6 +4572,12 @@
       "minAge": 8,
       "maxAge": 13,
       "rationale": "Повествование спокойное, но темы войны, увольнений и семейного отчуждения требуют некоторого взрослого контекста."
+    },
+    "frame": {
+      "url": "https://n-e-n.ru/images/2026-01-16/696a2ca0264b5_0x0.jpg",
+      "studios": [
+        "Walt Disney Pictures"
+      ]
     }
   },
   {
@@ -6614,6 +6719,13 @@
     "nenAgeRecommendation": {
       "minAge": 9,
       "rationale": "С девяти лет: медленный темп, символический сюжет и сцены смерти требуют терпения и поддержки взрослого."
+    },
+    "frame": {
+      "url": "https://n-e-n.ru/images/2025-12-26/694e91c8d0f0a_0x0.jpg",
+      "studios": [
+        "Studio Ghibli",
+        "Prima Linea Productions"
+      ]
     }
   },
   {
@@ -7323,6 +7435,12 @@
     "nenAgeRecommendation": {
       "minAge": 8,
       "rationale": "С восьми лет: некоторые превращения детей выглядят тревожно, фильм длинный и визуально насыщенный."
+    },
+    "frame": {
+      "url": "https://n-e-n.ru/images/2026-04-17/69e24596e4c14_0x0.jpg",
+      "studios": [
+        "Warner Bros. Plan B Entertainment Village Roadshow Pictures Tim Burton Productions"
+      ]
     }
   },
   {
@@ -7709,6 +7827,17 @@
     "nenAgeRecommendation": {
       "minAge": 9,
       "rationale": "С девяти лет из-за пугающих существ, травли и тяжёлой сцены смерти коня."
+    },
+    "frame": {
+      "url": "https://n-e-n.ru/images/2025-12-26/694e913a4e4c9_0x0.jpg",
+      "studios": [
+        "Bavaria Film",
+        "Bavaria Studios",
+        "Constantin Film",
+        "Dieter Geissler Filmproduktion",
+        "Producers Sales Organization (PSO)",
+        "Westdeutscher Rundfunk (WDR)"
+      ]
     }
   },
   {
@@ -8086,6 +8215,18 @@
     "nenAgeRecommendation": {
       "minAge": 12,
       "rationale": "С двенадцати лет: монстры, смерть, глаза как пища и военные образы достаточно пугающие."
+    },
+    "frame": {
+      "url": "https://n-e-n.ru/images/2025-12-26/694e9163a4970_0x0.jpg",
+      "studios": [
+        "20th Century Fox Film Corporation",
+        "Big Screen Productions",
+        "Chernin Entertainment",
+        "Ingenious Media5.Scope Pictures",
+        "St. Petersburg Clearwater Film Commission",
+        "Tim Burton Productions",
+        "TSG Entertainment"
+      ]
     }
   },
   {
@@ -8928,6 +9069,12 @@
     "nenAgeRecommendation": {
       "minAge": 6,
       "rationale": "С шести лет: разлука с матерью и цирковая жестокость эмоционально тяжёлы, хотя финал поддерживающий."
+    },
+    "frame": {
+      "url": "https://n-e-n.ru/images/2026-04-17/69e244c01f666_0x0.jpg",
+      "studios": [
+        "Walt Disney Productions Walt Disney Animation Studios"
+      ]
     }
   },
   {
@@ -9052,6 +9199,12 @@
     "nenAgeRecommendation": {
       "minAge": 7,
       "rationale": "С семи лет: быстрые превращения и абсурдная логика могут тревожить младших, а школьникам уже интересна словесная игра."
+    },
+    "frame": {
+      "url": "https://n-e-n.ru/images/2026-04-17/69e245d89d0a0_0x0.jpg",
+      "studios": [
+        "Walt Disney Pictures The Zanuck Company Roth Films Team Todd Tim Burton Productions"
+      ]
     }
   },
   {
@@ -12166,6 +12319,13 @@
     "nenAgeRecommendation": {
       "minAge": 7,
       "rationale": "С семи лет: тема смерти прежних супругов присутствует фоном, конфликт разрешается комедийно."
+    },
+    "frame": {
+      "url": "https://n-e-n.ru/images/2025-11-19/691db1f2cad0f_0x0.jpg",
+      "studios": [
+        "Paramount Pictures",
+        "Columbia Pictures"
+      ]
     }
   },
   {
@@ -14658,6 +14818,12 @@
       "minAge": 8,
       "maxAge": 17,
       "rationale": "Мрачный дизайн, угрозы троллям и детям, а также телесный юмор могут быть неприятны чувствительным зрителям."
+    },
+    "frame": {
+      "url": "https://n-e-n.ru/images/2025-12-26/694e9062e05e9_0x0.jpg",
+      "studios": [
+        "Laika Entertainment"
+      ]
     }
   },
   {
@@ -14703,6 +14869,12 @@
       "minAge": 10,
       "maxAge": 17,
       "rationale": "Постоянные образы скелетов, убийство в прошлом и свадебная тема требуют спокойного отношения к готической эстетике."
+    },
+    "frame": {
+      "url": "https://n-e-n.ru/images/2026-04-17/69e245ba1766b_0x0.jpg",
+      "studios": [
+        "Warner Bros. Tim Burton Productions Laika Entertainment Patalex Productions"
+      ]
     }
   },
   {
@@ -14747,6 +14919,12 @@
       "minAge": 9,
       "maxAge": 17,
       "rationale": "Гибель собаки показана прямо, а превращённые животные и пожар могут сильно задеть чувствительных детей."
+    },
+    "frame": {
+      "url": "https://n-e-n.ru/images/2026-04-17/69e245fe5b872_0x0.jpg",
+      "studios": [
+        "Walt Disney Pictures Tim Burton Productions"
+      ]
     }
   },
   {
@@ -15746,6 +15924,15 @@
       "minAge": 10,
       "maxAge": 17,
       "rationale": "Грим ведьм, превращения и прямые угрозы детям могут сильно напугать зрителей младше десяти лет."
+    },
+    "frame": {
+      "url": "https://n-e-n.ru/images/2025-12-26/694e916be52f7_0x0.jpg",
+      "studios": [
+        "Warner Bros. Pictures",
+        "&nbsp;Jim Henson Company",
+        "Jim Henson Productions",
+        "Lorimar Film Entertainment"
+      ]
     }
   },
   {
@@ -17871,6 +18058,12 @@
       "minAge": 7,
       "maxAge": 14,
       "rationale": "Нижняя граница 7 лет связана с тем, что истории длительностью 20 минут требует устойчивого внимания, включая вопрос о том, что меняется, когда он получает возможность исполнить любое желание. Сильных чувствительных тем редакция не выделяет, однако неоднозначные поступки лучше обсудить после просмотра."
+    },
+    "frame": {
+      "url": "https://n-e-n.ru/images/2025-12-19/694528ae98cc7_0x0.jpg",
+      "studios": [
+        "ТО «Экран»"
+      ]
     }
   },
   {
@@ -21602,6 +21795,12 @@
       "minAge": 12,
       "maxAge": 18,
       "rationale": "Зрителям младше 12 лет может быть трудно справиться с эмоциональной нагрузкой сюжета, прежде всего с темой «принуждение к браку»."
+    },
+    "frame": {
+      "url": "https://n-e-n.ru/images/2025-12-26/694e913fc6355_0x0.jpg",
+      "studios": [
+        "Studio Ghibli"
+      ]
     }
   },
   {
@@ -23141,6 +23340,15 @@
       "minAge": 12,
       "maxAge": 18,
       "rationale": "Картина подойдёт с 12 лет благодаря ясной линии героя, однако «смерть» может потребовать поддержки взрослого."
+    },
+    "frame": {
+      "url": "https://n-e-n.ru/images/2025-12-26/694e912440c14_0x0.jpg",
+      "studios": [
+        "&nbsp;Beijing Enlight Media",
+        "&nbsp;B&amp;T",
+        "Biantian Media",
+        "Studio Mir"
+      ]
     }
   },
   {
@@ -29049,6 +29257,15 @@
       "minAge": 7,
       "maxAge": 13,
       "rationale": "Аудитория «Балерина» от 7 лет легче поймёт мотивы персонажей и выдержит наиболее динамичные сцены. Взрослому важно учитывать упоминания: умеренные жанровые опасности."
+    },
+    "frame": {
+      "url": "https://n-e-n.ru/images/2025-12-26/694e9081b574e_0x0.jpg",
+      "studios": [
+        "Gaumont",
+        "Caramel Film",
+        "Main Journey",
+        "Quad Productions"
+      ]
     }
   },
   {

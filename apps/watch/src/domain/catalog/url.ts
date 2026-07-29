@@ -7,7 +7,7 @@ import {
 
 const validMoods = new Set<Mood>(["calm", "cheerful", "adventurous", "thoughtful", "emotional"]);
 const cartoonFormats = new Set(["animated-feature", "animated-series"] as const);
-const movieFormats = new Set(["fiction", "documentary"] as const);
+const movieFormats = new Set(["fiction", "series", "documentary"] as const);
 const releaseForms = new Set(["standalone", "series"] as const);
 
 const split = (value: string | null) => value?.split(",").map((item) => item.trim()).filter(Boolean) ?? [];

@@ -1,6 +1,12 @@
 export const WATCH_V2_SCHEMA_VERSION = 2 as const;
 
-export type WatchV2Kind = "movie" | "animated-feature" | "animated-short" | "animated-series";
+export type WatchV2Kind =
+  | "movie"
+  | "animated-feature"
+  | "animated-short"
+  | "animated-series"
+  | "series"
+  | "documentary";
 export type RussianAgeRating = "0+" | "6+" | "12+" | "16+" | "18+";
 
 export const WATCH_MOODS = [
@@ -45,6 +51,17 @@ export interface WatchV2StandaloneDuration {
 export interface WatchV2SeriesDuration {
   episodeMinutes: number;
   episodeCount?: number;
+  seasonCount?: number;
+  episodeMinutesMax?: number;
+}
+
+export interface WatchV2Frame {
+  url: string;
+  studios: string[];
+}
+
+export interface WatchV2Award {
+  title: string;
 }
 
 interface WatchV2Base {
@@ -64,16 +81,18 @@ interface WatchV2Base {
   sensitiveTopics: string[];
   nenAgeRecommendation: WatchV2NenAgeRecommendation;
   officialRating?: WatchV2OfficialRating;
+  frame?: WatchV2Frame;
+  awards?: WatchV2Award[];
 }
 
 interface WatchV2StandaloneTitle extends WatchV2Base {
-  kind: "movie" | "animated-feature" | "animated-short";
+  kind: "movie" | "animated-feature" | "animated-short" | "documentary";
   duration: WatchV2StandaloneDuration;
 }
 
-interface WatchV2AnimatedSeries extends WatchV2Base {
-  kind: "animated-series";
+interface WatchV2Series extends WatchV2Base {
+  kind: "animated-series" | "series";
   duration: WatchV2SeriesDuration;
 }
 
-export type WatchV2Title = WatchV2StandaloneTitle | WatchV2AnimatedSeries;
+export type WatchV2Title = WatchV2StandaloneTitle | WatchV2Series;

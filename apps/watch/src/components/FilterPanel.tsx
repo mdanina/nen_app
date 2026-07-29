@@ -3,7 +3,13 @@ import type { FilterDictionary } from "../domain/catalog/types";
 import { toggleFilterValue } from "../state/catalogViewModel";
 
 const moodLabels: Record<string, string> = { calm: "Спокойное", cheerful: "Весёлое", adventurous: "Приключенческое", thoughtful: "Вдумчивое", emotional: "Эмоциональное" };
-const formatLabels: Record<string, string> = { "animated-feature": "Полный метр", "animated-series": "Мультсериал", fiction: "Игровой", documentary: "Документальный" };
+const formatLabels: Record<string, string> = {
+  "animated-feature": "Мультфильм",
+  "animated-series": "Мультсериал",
+  fiction: "Фильм",
+  series: "Сериал",
+  documentary: "Документальный фильм",
+};
 
 export function FilterPanel({ filters, dictionary, onChange, onReset }: {
   filters: CatalogFilters;

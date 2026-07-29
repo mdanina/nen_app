@@ -34,7 +34,7 @@ describe("watch-v2 production generator", () => {
       total: 4,
       movies: 1,
       cartoons: 3,
-      byKind: { movie: 1, "animated-feature": 1, "animated-short": 1, "animated-series": 1 },
+      byKind: { movie: 1, "animated-feature": 1, "animated-short": 1, "animated-series": 1, series: 0, documentary: 0 },
       withOfficialRating: 4,
       withoutOfficialRating: 0,
     });

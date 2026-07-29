@@ -1,7 +1,6 @@
 import type {
   Cartoon,
   ContentFormat,
-  DiscussionPotential,
   Mood,
   WatchTitle,
 } from "./types";
@@ -18,13 +17,13 @@ export interface CatalogValidationResult {
 }
 
 const moods = new Set<Mood>(["calm", "cheerful", "adventurous", "thoughtful", "emotional"]);
-const discussionPotentials = new Set<DiscussionPotential>(["low", "medium", "high"]);
 const cartoonFormats = new Set<ContentFormat>(["animated-feature", "animated-series"]);
-const movieFormats = new Set<ContentFormat>(["fiction", "documentary"]);
+const movieFormats = new Set<ContentFormat>(["fiction", "series", "documentary"]);
 const topLevelKeys = new Set([
   "id", "slug", "title", "originalTitle", "contentType", "contentFormat", "releaseForm",
   "shortDescription", "whyRecommended", "country", "year", "duration", "themes", "mood",
-  "sensitiveTopics", "discussionPotential", "nenAgeRecommendation", "officialRating", "status",
+  "sensitiveTopics", "nenAgeRecommendation", "officialRating", "productionKind", "genres",
+  "discussionTopics", "frame", "awards",
 ]);
 
 const isRecord = (value: unknown): value is Record<string, unknown> =>
@@ -111,15 +110,17 @@ function validateDuration(record: Record<string, unknown>, index: number, issues
     return;
   }
   if (value.kind === "series") {
-    for (const key of unknownKeys(value, new Set(["kind", "episodeMinutes", "episodeCount"]))) issue(issues, index, `duration.${key}`, "Недопустимое поле длительности");
+    for (const key of unknownKeys(value, new Set(["kind", "episodeMinutes", "episodeMinutesMax", "episodeCount", "seasonCount"]))) issue(issues, index, `duration.${key}`, "Недопустимое поле длительности");
     if (!Number.isInteger(value.episodeMinutes) || Number(value.episodeMinutes) < 1 || Number(value.episodeMinutes) > 180) {
       issue(issues, index, "duration.episodeMinutes", "Длительность серии должна быть целым числом от 1 до 180 минут");
     }
     if (value.episodeCount !== undefined && (!Number.isInteger(value.episodeCount) || Number(value.episodeCount) < 1)) {
       issue(issues, index, "duration.episodeCount", "Количество серий должно быть положительным целым числом");
     }
+    if (value.seasonCount !== undefined && (!Number.isInteger(value.seasonCount) || Number(value.seasonCount) < 1)) {
+      issue(issues, index, "duration.seasonCount", "Количество сезонов должно быть положительным целым числом");
+    }
     if (record.releaseForm !== "series") issue(issues, index, "duration.kind", "Тип длительности не совпадает с releaseForm");
-    if (record.contentType === "movie") issue(issues, index, "duration.kind", "Фильм не может использовать длительность сериала");
     return;
   }
   issue(issues, index, "duration.kind", "Неизвестный тип длительности");
@@ -130,11 +131,9 @@ function validateRecord(record: Record<string, unknown>, index: number, issues: 
   for (const field of ["id", "slug", "title", "shortDescription", "whyRecommended"]) requiredString(record, field, index, issues);
   if (typeof record.slug === "string" && !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(record.slug)) issue(issues, index, "slug", "Slug должен быть в kebab-case");
   if (record.originalTitle !== undefined && (typeof record.originalTitle !== "string" || !record.originalTitle.trim())) issue(issues, index, "originalTitle", "Ожидается непустая строка");
-  for (const field of ["country", "themes", "mood", "sensitiveTopics"]) stringArray(record, field, index, issues);
+  for (const field of ["country", "themes", "mood", "sensitiveTopics", "genres", "discussionTopics"]) stringArray(record, field, index, issues);
   if (!Number.isInteger(record.year) || Number(record.year) < 1888 || Number(record.year) > new Date().getFullYear() + 1) issue(issues, index, "year", "Некорректный год выпуска");
   if (!Array.isArray(record.mood) || record.mood.some((value) => !moods.has(value as Mood))) issue(issues, index, "mood", "Неизвестное настроение");
-  if (!discussionPotentials.has(record.discussionPotential as DiscussionPotential)) issue(issues, index, "discussionPotential", "Неизвестный потенциал обсуждения");
-  if (record.status !== "draft" && record.status !== "published") issue(issues, index, "status", "Статус должен быть draft или published");
 
   if (record.contentType === "cartoon") {
     if (!cartoonFormats.has(record.contentFormat as ContentFormat)) issue(issues, index, "contentFormat", "Формат не относится к мультфильмам");
@@ -143,7 +142,7 @@ function validateRecord(record: Record<string, unknown>, index: number, issues: 
     if (record.contentFormat === "animated-series" && record.releaseForm !== "series") issue(issues, index, "releaseForm", "Анимационный сериал должен иметь releaseForm series");
   } else if (record.contentType === "movie") {
     if (!movieFormats.has(record.contentFormat as ContentFormat)) issue(issues, index, "contentFormat", "Формат не относится к фильмам");
-    if (record.releaseForm !== "standalone") issue(issues, index, "releaseForm", "Фильм должен быть standalone");
+    if (record.releaseForm !== "standalone" && record.releaseForm !== "series") issue(issues, index, "releaseForm", "Неизвестная форма выпуска");
   } else {
     issue(issues, index, "contentType", "Допустимы только cartoon и movie");
   }

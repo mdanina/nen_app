@@ -9,29 +9,39 @@ const moodMap = {
 } as const;
 
 function toLegacyUiTitle(item: WatchV2Title) {
-  const isSeries = item.kind === "animated-series";
+  const isSeries = item.kind === "animated-series" || item.kind === "series";
+  const isCartoon = item.kind.startsWith("animated-");
   return {
     id: item.id,
     slug: item.slug,
     title: item.title,
     ...(item.originalTitle ? { originalTitle: item.originalTitle } : {}),
-    contentType: item.kind === "movie" ? "movie" : "cartoon",
-    contentFormat: item.kind === "movie" ? "fiction" : isSeries ? "animated-series" : "animated-feature",
+    contentType: isCartoon ? "cartoon" : "movie",
+    contentFormat: item.kind === "documentary" ? "documentary" : item.kind === "series" ? "series" : item.kind === "movie" ? "fiction" : isSeries ? "animated-series" : "animated-feature",
     releaseForm: isSeries ? "series" : "standalone",
+    productionKind: item.kind,
     shortDescription: item.shortDescription,
     whyRecommended: item.whyRecommended,
     country: item.country,
     year: item.year,
-    duration: isSeries
-      ? { kind: "series", episodeMinutes: item.duration.episodeMinutes, ...(item.duration.episodeCount ? { episodeCount: item.duration.episodeCount } : {}) }
+    duration: "episodeMinutes" in item.duration
+      ? {
+          kind: "series",
+          episodeMinutes: item.duration.episodeMinutes,
+          ...(item.duration.episodeMinutesMax ? { episodeMinutesMax: item.duration.episodeMinutesMax } : {}),
+          ...(item.duration.episodeCount ? { episodeCount: item.duration.episodeCount } : {}),
+          ...(item.duration.seasonCount ? { seasonCount: item.duration.seasonCount } : {}),
+        }
       : { kind: "standalone", minutes: item.duration.minutes },
+    genres: item.genres,
+    discussionTopics: item.discussionTopics,
     themes: item.themes,
     mood: [...new Set(item.mood.map((value) => moodMap[value]))],
     sensitiveTopics: item.sensitiveTopics,
-    discussionPotential: item.discussionTopics.length > 1 ? "high" : "medium",
     nenAgeRecommendation: item.nenAgeRecommendation,
+    ...(item.frame ? { frame: item.frame } : {}),
+    ...(item.awards?.length ? { awards: item.awards.map((award) => award.title) } : {}),
     ...(item.officialRating ? { officialRating: { system: "Возрастная маркировка РФ", ...item.officialRating } } : {}),
-    status: "published",
   };
 }
 

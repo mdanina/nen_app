@@ -77,6 +77,27 @@ describe("watch-v2 model", () => {
       .toEqual(expect.arrayContaining(["duration", "duration.episodeMinutes"]));
   });
 
+  it("supports live-action series with seasons and a duration range", () => {
+    expect(validateWatchV2Record({
+      ...minimalRecord,
+      kind: "series",
+      duration: { episodeMinutes: 42, episodeMinutesMax: 58, episodeCount: 16, seasonCount: 2 },
+    })).toEqual([]);
+  });
+
+  it("supports documentary films and validates optional frames", () => {
+    expect(validateWatchV2Record({
+      ...minimalRecord,
+      kind: "documentary",
+      duration: { minutes: 78 },
+      frame: { url: "https://example.org/frame.jpg", studios: ["Пример студии"] },
+    })).toEqual([]);
+    expect(validateWatchV2Record({
+      ...minimalRecord,
+      frame: { url: "not-a-url", studios: [] },
+    }).map((issue) => issue.field)).toEqual(expect.arrayContaining(["frame.url", "frame.studios"]));
+  });
+
   it("rejects removed statuses and metadata registries", () => {
     const record = { ...minimalRecord, status: "published", metadataStatus: "complete", verificationStatus: "verified", metadataSources: [] };
     expect(validateWatchV2Record(record).map((issue) => issue.field)).toEqual(expect.arrayContaining([

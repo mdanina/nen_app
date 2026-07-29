@@ -15,7 +15,7 @@ const THEMES = new Set([
   "история", "искусство", "музыка", "спорт", "мечты", "культурное разнообразие",
   "утрата", "разлука",
 ]);
-const KINDS = new Set(["movie", "animated-feature", "animated-short", "animated-series"]);
+const KINDS = new Set(["movie", "animated-feature", "animated-short", "animated-series", "series", "documentary"]);
 const RATINGS = new Set(["0+", "6+", "12+", "16+", "18+"]);
 const SERVICE_MARKER = /\b(?:demo|test|sample|todo|tbd)\b|демонстрацион|тестов|заглушк|заполнить позже|уточнить позже/iu;
 
@@ -60,6 +60,14 @@ function validateRecord(record, index) {
     if (!RATINGS.has(record.officialRating.value)) add("officialRating.value", "допустимы только 0+, 6+, 12+, 16+, 18+");
     if (!isHttpUrl(record.officialRating.sourceUrl)) add("officialRating.sourceUrl", "обязателен HTTP(S)-источник");
   }
+  if (record.frame !== undefined) {
+    if (!isRecord(record.frame)) add("frame", "ожидается объект");
+    else {
+      if (!isHttpUrl(record.frame.url)) add("frame.url", "нужен HTTP(S)-адрес изображения");
+      if (!textArray(record.frame.studios)) add("frame.studios", "нужен непустой список студий производства");
+    }
+  }
+  if (record.awards !== undefined && (!Array.isArray(record.awards) || record.awards.length === 0 || record.awards.some((award) => !isRecord(award) || !isText(award.title)))) add("awards", "ожидается непустой список наград");
 
   if (!isRecord(record.nenAgeRecommendation)) add("nenAgeRecommendation", "рекомендация НЭН обязательна");
   else {
@@ -70,13 +78,15 @@ function validateRecord(record, index) {
   }
 
   if (!isRecord(record.duration)) add("duration", "объект длительности обязателен");
-  else if (record.kind === "animated-series") {
-    if (!Number.isInteger(record.duration.episodeMinutes) || record.duration.episodeMinutes < 1 || record.duration.episodeMinutes > 180) add("duration.episodeMinutes", "для мультсериала требуется 1–180 минут");
-    if ("minutes" in record.duration) add("duration.minutes", "мультсериал использует episodeMinutes");
+  else if (record.kind === "animated-series" || record.kind === "series") {
+    if (!Number.isInteger(record.duration.episodeMinutes) || record.duration.episodeMinutes < 1 || record.duration.episodeMinutes > 180) add("duration.episodeMinutes", "для сериала требуется 1–180 минут");
+    if ("minutes" in record.duration) add("duration.minutes", "сериал использует episodeMinutes");
+    if (record.duration.episodeMinutesMax !== undefined && (!Number.isInteger(record.duration.episodeMinutesMax) || record.duration.episodeMinutesMax < record.duration.episodeMinutes || record.duration.episodeMinutesMax > 240)) add("duration.episodeMinutesMax", "ожидается значение от обычной длительности серии до 240");
     if (record.duration.episodeCount !== undefined && (!Number.isInteger(record.duration.episodeCount) || record.duration.episodeCount < 1)) add("duration.episodeCount", "ожидается положительное целое число");
+    if (record.duration.seasonCount !== undefined && (!Number.isInteger(record.duration.seasonCount) || record.duration.seasonCount < 1)) add("duration.seasonCount", "ожидается положительное целое число");
   } else {
     if (!Number.isInteger(record.duration.minutes) || record.duration.minutes < 1 || record.duration.minutes > 360) add("duration.minutes", "требуется 1–360 минут");
-    if ("episodeMinutes" in record.duration || "episodeCount" in record.duration) add("duration", "отдельное произведение использует только minutes");
+    if ("episodeMinutes" in record.duration || "episodeMinutesMax" in record.duration || "episodeCount" in record.duration || "seasonCount" in record.duration) add("duration", "отдельное произведение использует только minutes");
     if (record.kind === "animated-short" && record.duration.minutes > 40) add("duration.minutes", "animated-short должен длиться не более 40 минут");
     if (record.kind === "animated-feature" && record.duration.minutes <= 40) add("duration.minutes", "animated-feature должен длиться более 40 минут");
   }
@@ -114,8 +124,13 @@ function normalize(record) {
     whyRecommended: record.whyRecommended.trim(),
     country: [...new Set(record.country.map((value) => value.trim()))].sort((a, b) => a.localeCompare(b, "ru")),
     year: record.year,
-    duration: record.kind === "animated-series"
-      ? { episodeMinutes: record.duration.episodeMinutes, ...(record.duration.episodeCount ? { episodeCount: record.duration.episodeCount } : {}) }
+    duration: record.kind === "animated-series" || record.kind === "series"
+      ? {
+          episodeMinutes: record.duration.episodeMinutes,
+          ...(record.duration.episodeMinutesMax ? { episodeMinutesMax: record.duration.episodeMinutesMax } : {}),
+          ...(record.duration.episodeCount ? { episodeCount: record.duration.episodeCount } : {}),
+          ...(record.duration.seasonCount ? { seasonCount: record.duration.seasonCount } : {}),
+        }
       : { minutes: record.duration.minutes },
     genres: [...new Set(record.genres)].sort((a, b) => a.localeCompare(b, "ru")),
     themes: [...new Set(record.themes)].sort((a, b) => a.localeCompare(b, "ru")),
@@ -132,6 +147,11 @@ function normalize(record) {
       sourceUrl: record.officialRating.sourceUrl.trim(),
       ...(record.officialRating.sourceTitle ? { sourceTitle: record.officialRating.sourceTitle.trim() } : {}),
     } } : {}),
+    ...(record.frame ? { frame: {
+      url: record.frame.url.trim(),
+      studios: [...new Set(record.frame.studios.map((value) => value.trim()))],
+    } } : {}),
+    ...(record.awards ? { awards: record.awards.map((award) => ({ title: award.title.trim() })) } : {}),
   };
 }
 
@@ -144,8 +164,8 @@ export function generateWatchV2Catalog(input) {
     items,
     report: {
       total: items.length,
-      movies: byKind.movie,
-      cartoons: items.length - byKind.movie,
+      movies: byKind.movie + byKind.series + byKind.documentary,
+      cartoons: byKind["animated-feature"] + byKind["animated-short"] + byKind["animated-series"],
       byKind,
       withOfficialRating: items.filter((item) => item.officialRating).length,
       withoutOfficialRating: items.filter((item) => !item.officialRating).length,
@@ -165,6 +185,8 @@ export function formatWatchV2Report(report) {
     `animated-feature: ${report.byKind["animated-feature"]}`,
     `animated-short: ${report.byKind["animated-short"]}`,
     `animated-series: ${report.byKind["animated-series"]}`,
+    `series: ${report.byKind.series}`,
+    `documentary: ${report.byKind.documentary}`,
     `С подтверждённым officialRating: ${report.withOfficialRating}`,
     `Без officialRating: ${report.withoutOfficialRating}`,
   ].join("\n");
