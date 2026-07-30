@@ -1,7 +1,12 @@
 import fs from "node:fs/promises";
+import os from "node:os";
+import path from "node:path";
 
 const sourcePath = "data/source/watch-v2.json";
 const reportPath = "data/reports/watch-expansion-wikidata.json";
+const poolCachePath = path.join(os.tmpdir(), "nen-watch-wikidata-pool.json");
+const entityCachePath = path.join(os.tmpdir(), "nen-watch-wikidata-entities.json");
+const linkedCachePath = path.join(os.tmpdir(), "nen-watch-wikidata-linked.json");
 const countryNames = new Map(Object.entries({
   Q29:"Испания",Q142:"Франция",Q183:"Германия",Q38:"Италия",Q145:"Великобритания",Q17:"Япония",
   Q884:"Республика Корея",Q36:"Польша",Q213:"Чехия",Q34:"Швеция",Q20:"Норвегия",Q35:"Дания",
@@ -23,44 +28,50 @@ const normalize = (s) => String(s).toLocaleLowerCase("ru").replaceAll("ё","е")
 const titleValue = (entity) => (entity.claims?.P1476 ?? []).map((c) => c.mainsnak?.datavalue?.value?.text).find(Boolean);
 const firstYear = (entity) => Math.min(...(entity.claims?.P577 ?? []).map((c) => Number(String(c.mainsnak?.datavalue?.value?.time ?? "").slice(1,5))).filter(Number.isInteger));
 
-async function fetchJson(url, attempts=3) {
+async function fetchJson(url, attempts=6) {
   let error;
   for (let i=0;i<attempts;i++) try {
     const r=await fetch(url,{headers:{"user-agent":"NENWatchCatalog/3.0","accept":"application/json"},signal:AbortSignal.timeout(60_000)});
-    if(r.status===429){await new Promise(resolve=>setTimeout(resolve,(i+1)*10_000));throw new Error(`${r.status} ${url}`)}
+    if(r.status===429){await new Promise(resolve=>setTimeout(resolve,(i+1)*30_000));throw new Error(`${r.status} ${url}`)}
     if(!r.ok) throw new Error(`${r.status} ${url}`);
     return await r.json();
   } catch(e){error=e;}
   throw error;
 }
 
-async function batches(ids, props) {
-  const out={};
-  for(let i=0;i<ids.length;i+=50){
-    const part=ids.slice(i,i+50);
+async function batches(ids, props, cachePath) {
+  const out=await fs.readFile(cachePath,"utf8").then(JSON.parse).catch(()=>({}));
+  const pending=ids.filter(id=>!out[id]);
+  for(let i=0;i<pending.length;i+=25){
+    const part=pending.slice(i,i+25);
     const url=`https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&languages=ru|en&languagefallback=1&props=${props}&ids=${part.join("|")}`;
     Object.assign(out,(await fetchJson(url)).entities);
-    await new Promise(resolve=>setTimeout(resolve,750));
+    await fs.writeFile(cachePath,JSON.stringify(out));
+    await new Promise(resolve=>setTimeout(resolve,2000));
   }
   return out;
 }
 
 const typeValues=Object.keys(typeNames).map(x=>`wd:${x}`).join(" ");
 const countryIds=[...countryNames.keys()];
-const poolRows=[];
-for(let i=0;i<countryIds.length;i+=5){
-  const values=countryIds.slice(i,i+5).map(x=>`wd:${x}`).join(" ");
-  const sparql=`SELECT DISTINCT ?work ?country ?type WHERE {
-   VALUES ?country { ${values} } VALUES ?type { ${typeValues} }
-   ?work wdt:P495 ?country; wdt:P31 ?type; wdt:P577 ?date; wdt:P2047 ?duration.
-  } LIMIT 1200`;
-  const data=await fetchJson(`https://query.wikidata.org/sparql?format=json&query=${encodeURIComponent(sparql)}`);
-  poolRows.push(...data.results.bindings);
-}
+const poolRows=await fs.readFile(poolCachePath,"utf8").then(JSON.parse).catch(async()=>{
+  const rows=[];
+  for(let i=0;i<countryIds.length;i+=5){
+    const values=countryIds.slice(i,i+5).map(x=>`wd:${x}`).join(" ");
+    const sparql=`SELECT DISTINCT ?work ?country ?type WHERE {
+     VALUES ?country { ${values} } VALUES ?type { ${typeValues} }
+     ?work wdt:P495 ?country; wdt:P31 ?type; wdt:P577 ?date; wdt:P2047 ?duration.
+    } LIMIT 1200`;
+    const data=await fetchJson(`https://query.wikidata.org/sparql?format=json&query=${encodeURIComponent(sparql)}`);
+    rows.push(...data.results.bindings);
+  }
+  await fs.writeFile(poolCachePath,JSON.stringify(rows));
+  return rows;
+});
 const pool=uniq(countryIds.flatMap(countryId =>
-  poolRows.filter(row => qid(row.country.value) === countryId).slice(0, 45).map(row => qid(row.work.value))
+  poolRows.filter(row => qid(row.country.value) === countryId).slice(0, 500).map(row => qid(row.work.value))
 ));
-const entities=await batches(pool,"labels|descriptions|claims");
+const entities=await batches(pool,"labels|descriptions|claims",entityCachePath);
 
 const existing=JSON.parse(await fs.readFile(sourcePath,"utf8"));
 const existingNames=new Set(existing.flatMap(x=>[x.title,x.originalTitle].filter(Boolean).map(normalize)));
@@ -95,7 +106,7 @@ const ordered=candidates.sort((a,b)=>a.country.localeCompare(b.country,"ru")||a.
 for(let pass=0;pass<3&&selected.length<300;pass++)for(const c of ordered){if(selected.includes(c))continue;const k=kind(c),cc=countryCount.get(c.country)||0,kc=kindCount.get(k)||0;if(cc>=(pass===0?14:pass===1?22:45)||kc>=(pass<2?goals[k]:300))continue;selected.push(c);countryCount.set(c.country,cc+1);kindCount.set(k,kc+1);if(selected.length===300)break}
 if(selected.length<300)throw new Error(`После проверки найдено ${selected.length} пригодных произведений; требуется 300`);
 const selectedLinked=uniq(selected.flatMap(c=>[...c.genreIds,...c.studioIds,...c.awardIds,...c.relatedIds]));
-const linkedEntities=await batches(selectedLinked,"labels");
+const linkedEntities=await batches(selectedLinked,"labels",linkedCachePath);
 for(const c of selected){
   c.genreLabels=c.genreIds.map(x=>label(linkedEntities[x])).filter(Boolean);
   c.studios=c.studioIds.map(x=>label(linkedEntities[x])).filter(Boolean);
