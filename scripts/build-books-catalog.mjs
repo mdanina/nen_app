@@ -140,6 +140,7 @@ function normalized(value) {
 function normalizePublisher(value) {
   if (!value) return undefined;
   const clean = String(value).replace(/[\[\]"]/g, "").replace(/[.,\s]+$/u, "").trim();
+  if (/^\d+$/u.test(clean)) return undefined;
   const key = clean.normalize("NFKD").replace(/\p{M}/gu, "").toLocaleLowerCase("ru").replace(/[^a-zа-я0-9]+/gu, " ").trim();
   const rules = [
     [/samokat|самокат/u, "Самокат"],
@@ -148,19 +149,20 @@ function normalizePublisher(value) {
     [/kompas ?gid|компас ?гид/iu, "КомпасГид"],
     [/(?:^|\s)clever|клевер/iu, "Clever"],
     [/archipelag|архипелаг/iu, "Архипелаг"],
-    [/alpina.*det|альпина(?:\.|\s*)дети/iu, "Альпина.Дети"],
+    [/alpina(?:.*det)?|альпина(?:\.|\s*дети)?/iu, "Альпина.Дети"],
     [/rozovy zhiraf|розовый жираф/u, "Розовый жираф"],
     [/peshkom v istor|пешком в истор/u, "Пешком в историю"],
-    [/makhaon|махаон/u, "Махаон"],
+    [/makhaon|махаон/u, "Азбука-Аттикус"],
+    [/(?:^|\s)mif(?:\s|$)|манн.*иванов.*фербер|миф(?:\. |\s*)детство/iu, "МИФ.Детство"],
     [/(?:^|\s)e?ksmo|эксмо/u, "Эксмо"],
     [/(?:^|\s)ast(?:\s|$)|издательство аст|изд во аст/u, "АСТ"],
-    [/astrel|estrel|астрель/u, "Астрель"],
+    [/astrel|estrel|астрель/u, "АСТ"],
     [/rosm[eė]n|росмэн/u, "Росмэн"],
     [/strekoza|стрекоза/u, "Стрекоза"],
     [/detsk.*lit|detgiz|detizdat|детская литература/u, "Детская литература"],
     [/chavash.*izdat|чувашское книжное/u, "Чувашское книжное издательство"],
     [/samovar|самовар/u, "Самовар"],
-    [/azbuka|азбука/u, "Азбука"],
+    [/azbuka|азбука/u, "Азбука-Аттикус"],
     [/drofa|дрофа/u, "Дрофа"],
     [/malysh|малыш/u, "Малыш"],
     [/bely.*gorod|белый город/u, "Белый город"],

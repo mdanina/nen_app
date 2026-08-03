@@ -1,0 +1,1679 @@
+{
+  "generatedAt": "2026-08-03T17:57:36.650Z",
+  "addedPublisherAdapters": [
+    "mif",
+    "pink-giraffe",
+    "young-guard",
+    "melik-pashaev",
+    "ast-full"
+  ],
+  "beforeMissing": 248,
+  "resumedFromMissing": 229,
+  "coversAdded": 19,
+  "remainingMissing": 229,
+  "passes": [
+    {
+      "matchLevel": 1,
+      "catalogSize": 1819,
+      "checked": 229,
+      "processed": 229,
+      "skippedAsCurrent": 0,
+      "updated": 0,
+      "isbnChanged": 0,
+      "officialCoversFound": 0,
+      "publishersNormalized": 0,
+      "remainingWithoutExternalCover": 229,
+      "failureReasons": {
+        "no_candidates": 229
+      },
+      "sourceStatus": [
+        {
+          "source": "mif",
+          "status": "ready",
+          "records": 6291
+        },
+        {
+          "source": "young-guard",
+          "status": "ready",
+          "records": 1895
+        },
+        {
+          "source": "melik-pashaev",
+          "status": "ready",
+          "records": 656
+        },
+        {
+          "source": "ast-full",
+          "status": "ready",
+          "records": 119123
+        },
+        {
+          "source": "pink-giraffe",
+          "status": "ready",
+          "records": 154
+        }
+      ]
+    },
+    {
+      "matchLevel": 2,
+      "catalogSize": 1819,
+      "checked": 229,
+      "processed": 229,
+      "skippedAsCurrent": 0,
+      "updated": 0,
+      "isbnChanged": 0,
+      "officialCoversFound": 0,
+      "publishersNormalized": 0,
+      "remainingWithoutExternalCover": 229,
+      "failureReasons": {
+        "no_candidates": 229
+      },
+      "sourceStatus": [
+        {
+          "source": "mif",
+          "status": "ready",
+          "records": 6291
+        },
+        {
+          "source": "young-guard",
+          "status": "ready",
+          "records": 1895
+        },
+        {
+          "source": "melik-pashaev",
+          "status": "ready",
+          "records": 656
+        },
+        {
+          "source": "ast-full",
+          "status": "ready",
+          "records": 119123
+        },
+        {
+          "source": "pink-giraffe",
+          "status": "ready",
+          "records": 154
+        }
+      ]
+    }
+  ],
+  "finalFailureReasons": {
+    "no_candidates": 229
+  },
+  "remainingReasonCounts": {
+    "official_catalog_has_no_verified_title_author_match": 79,
+    "publisher_missing_or_invalid": 63,
+    "legacy_or_transliterated_publisher_metadata": 53,
+    "new_official_publisher_source_required": 34
+  },
+  "remainingReasonAutomation": {
+    "publisher_missing_or_invalid": "Автоматически устранимо после подключения авторитетного библиографического источника, определяющего современное издание.",
+    "official_catalog_has_no_verified_title_author_match": "Текущие официальные каталоги исчерпаны; нужен архив издателя, правообладатель или ручное подтверждение издания.",
+    "legacy_or_transliterated_publisher_metadata": "Автоматически устранимо после нормализации через национальный библиотечный или ISBN-источник.",
+    "new_official_publisher_source_required": "Требуется адаптер официального каталога указанного издательства или правообладателя."
+  },
+  "remainingByPublisher": {
+    "publisher_missing": 63,
+    "Детская литература": 21,
+    "Поляндрия": 9,
+    "Азбука-Аттикус": 8,
+    "Росмэн": 8,
+    "Молодая гвардия": 8,
+    "Эксмо": 7,
+    "Самокат": 6,
+    "Розовый жираф": 4,
+    "АСТ": 4,
+    "Стрекоза": 3,
+    "Det. lit., Leningr. otd-nie": 2,
+    "Оникс": 2,
+    "A-BA-BA-GA-LA-MA-GA": 2,
+    "Белый город": 2,
+    "Самовар": 2,
+    "Чувашское книжное издательство": 2,
+    "Новое литературное обозрение": 2,
+    "Ėėsti raamat": 2,
+    "Gos. izd-vo": 2,
+    "Like Book": 2,
+    "Popcorn books": 1,
+    "Voenizdat": 1,
+    "Дрофа": 1,
+    "Planeta detstva": 1,
+    "Букмастер": 1,
+    "Mir knigi": 1,
+    "Sovremennik": 1,
+    "Verkh.-Volzh. kn. izd": 1,
+    "Amfora": 1,
+    "Vozrozhdenie = La Renaissance": 1,
+    "Izd-vo Raduga": 1,
+    "Geleos": 1,
+    "Izd-vo IKAR": 1,
+    "Knizhniki": 1,
+    "Sov. Rossii͡a︡": 1,
+    "Det. lit.. Leningr. otd-nie": 1,
+    "M-Graphics Publishing": 1,
+    "Izd. G.F. Mirimanova": 1,
+    "Piter": 1,
+    "Izd-e t-va M.O. Volʹf": 1,
+    "Di͡etskai͡a bibliotechka Mikki": 1,
+    "Karelii︠a︡": 1,
+    "Moskovskiĭ kombinat igrushek Gorizont": 1,
+    "V.P. Snarkov": 1,
+    "Zapadno-Sibirskoe kn. izd-vo": 1,
+    "Keter": 1,
+    "Izdatelʹstvo Lira": 1,
+    "Ekspeditsiia zagotovleniia gosudarstvennykh bumag": 1,
+    "Terra": 1,
+    "ОЛМА": 1,
+    "Пешком в историю": 1,
+    "Ri︠a︡zanskiĭ obl. t︠s︡entr narodnogo tvorchestva": 1,
+    "Planeta detskva": 1,
+    "Bibleks": 1,
+    "Izd. Ėkspedit︠s︡īi zagotovlenīi︠a︡ gos. bumagʺ": 1,
+    "Mosty kulʹtury": 1,
+    "Ulybka": 1,
+    "Izd-vo Kometa": 1,
+    "Tip. A.S. Suvorina": 1,
+    "Knigoizdatelʹstvo Grif": 1,
+    "Beĭt Nelly media": 1,
+    "Izd-vo Knizhnai︠a︡ palata": 1,
+    "E.RA": 1,
+    "U-Faktorii︠a︡": 1,
+    "Izdatelʹstvo Fortuna ĖL": 1,
+    "Checheno-Ingushskoe knizhnoe izd-vo": 1,
+    "Chuvashskoe knizhnoe izd-vo": 1,
+    "Tekst": 1,
+    "Livebook": 1,
+    "Izd-vo Aruna": 1,
+    "Izdat. Dom Meshcher︠i︡akova": 1,
+    "T︠S︡entrpoligraf": 1,
+    "Izd. DOSAAF": 1,
+    "Alteĭ": 1,
+    "Малыш": 1,
+    "Izdatelʹskiĭ proekt A i B": 1,
+    "Kometa": 1,
+    "Zapadno-sibirskoe knizhnoe izd-vo": 1,
+    "Izd. T-va I. D. Sytina": 1,
+    "Poligrafist": 1,
+    "Russkiĭ mir": 1,
+    "Bubble Visions": 1,
+    "Fizkulʹtura i sport": 1,
+    "Машины творения": 1,
+    "Нигма": 1,
+    "Белая ворона": 1,
+    "Городец": 1,
+    "Феникс": 1
+  },
+  "remaining": [
+    {
+      "id": "nen-008",
+      "title": "Аладдин и волшебная лампа",
+      "author": "Сказитель Ханна Дияб; публикация Антуана Галлана"
+    },
+    {
+      "id": "nen-009",
+      "title": "Момотаро",
+      "author": "Японская народная сказка"
+    },
+    {
+      "id": "nen-010",
+      "title": "Волшебная кисть Ма Ляна",
+      "author": "Хун Сюньтао"
+    },
+    {
+      "id": "nen-052",
+      "title": "Спокойной ночи, Луна",
+      "author": "Маргарет Уайз Браун"
+    },
+    {
+      "id": "nen-054",
+      "title": "Тихая книга",
+      "author": "Дебора Андервуд",
+      "publisher": "Розовый жираф",
+      "isbn13": "9785437000175"
+    },
+    {
+      "id": "nen-059",
+      "title": "Детектив Самсон",
+      "author": "Катерина Горелик"
+    },
+    {
+      "id": "nen-061",
+      "title": "Универмаг динозавров",
+      "author": "Лили Мюррей"
+    },
+    {
+      "id": "nen-064",
+      "title": "Калле Блумквист — сыщик",
+      "author": "Астрид Линдгрен"
+    },
+    {
+      "id": "nen-bv2-021",
+      "title": "Мишка, бурый мишка, кто там впереди?",
+      "author": "Билл Мартин — младший"
+    },
+    {
+      "id": "nen-bv2-022",
+      "title": "Мы идём охотиться на медведя",
+      "author": "Майкл Розен"
+    },
+    {
+      "id": "nen-bv2-025",
+      "title": "Кордурой",
+      "author": "Дон Фриман"
+    },
+    {
+      "id": "nen-bv2-026",
+      "title": "Снежный день",
+      "author": "Эзра Джек Китс"
+    },
+    {
+      "id": "nen-bv2-028",
+      "title": "Вельветовый Кролик",
+      "author": "Марджери Уильямс"
+    },
+    {
+      "id": "nen-bv2-030",
+      "title": "Оливия",
+      "author": "Иэн Фалконер",
+      "publisher": "Азбука-Аттикус",
+      "isbn13": "9785389002722"
+    },
+    {
+      "id": "nen-bv2-031",
+      "title": "Кротик, который хотел знать, кто наделал ему на голову",
+      "author": "Вернер Хольцварт"
+    },
+    {
+      "id": "nen-bv2-032",
+      "title": "Где моя мама?",
+      "author": "Джулия Дональдсон"
+    },
+    {
+      "id": "nen-bv2-037",
+      "title": "Квак и Жаб вместе",
+      "author": "Арнольд Лобел",
+      "publisher": "Розовый жираф",
+      "isbn13": "9785903497102"
+    },
+    {
+      "id": "nen-bv2-084",
+      "title": "Голубая бусинка",
+      "author": "Мария Крюгер",
+      "publisher": "Розовый жираф",
+      "isbn13": "9785437003053"
+    },
+    {
+      "id": "nen-bv2-086",
+      "title": "Лев, колдунья и платяной шкаф",
+      "author": "Клайв Стейплз Льюис",
+      "publisher": "Эксмо",
+      "isbn13": "9785041193898"
+    },
+    {
+      "id": "nen-bv2-092",
+      "title": "БДВ, или Большой и Добрый Великан",
+      "author": "Роальд Даль"
+    },
+    {
+      "id": "nen-bv2-105",
+      "title": "Тоби Лолнесс",
+      "author": "Тимоте де Фомбель",
+      "isbn13": "9785905876851"
+    },
+    {
+      "id": "nen-bv2-123",
+      "title": "Излом времени",
+      "author": "Мадлен Ленгл"
+    },
+    {
+      "id": "nen-bv2-125",
+      "title": "Ямы",
+      "author": "Луис Сашар",
+      "publisher": "Росмэн"
+    },
+    {
+      "id": "nen-bv2-139",
+      "title": "Говори",
+      "author": "Лори Холс Андерсон",
+      "publisher": "Popcorn books",
+      "isbn13": "9785604785911"
+    },
+    {
+      "id": "nen-bv2-140",
+      "title": "Дом, в котором…",
+      "author": "Мариам Петросян"
+    },
+    {
+      "id": "nen-bv2-142",
+      "title": "Я хочу в школу!",
+      "author": "Андрей Жвалевский; Евгения Пастернак"
+    },
+    {
+      "id": "nen-bv2-146",
+      "title": "Поступь хаоса. Нож, которого нет",
+      "author": "Патрик Несс"
+    },
+    {
+      "id": "nen-bv2-147",
+      "title": "Элеанор и Парк",
+      "author": "Рейнбоу Рауэлл"
+    },
+    {
+      "id": "nen-bv2-148",
+      "title": "Саймон и программа Homo sapiens",
+      "author": "Бекки Алберталли"
+    },
+    {
+      "id": "nen-bv2-149",
+      "title": "Аристотель и Данте открывают тайны Вселенной",
+      "author": "Бенджамин Алире Саэнс"
+    },
+    {
+      "id": "nen-bv2-150",
+      "title": "Вся ваша ненависть",
+      "author": "Энджи Томас"
+    },
+    {
+      "id": "nen-bv2-153",
+      "title": "Нимона",
+      "author": "Н. Д. Стивенсон"
+    },
+    {
+      "id": "nen-bv2-156",
+      "title": "Американец китайского происхождения",
+      "author": "Джин Луэн Ян"
+    },
+    {
+      "id": "nen-bv2-159",
+      "title": "Амулет. Хранительница камня",
+      "author": "Кадзу Кибуиси"
+    },
+    {
+      "id": "nen-bv2-161",
+      "title": "Когда отдыхают ангелы",
+      "author": "Марина Аромштам"
+    },
+    {
+      "id": "ol-ol6841991w",
+      "title": "На заре Руси",
+      "author": "Александр Владимирович Костин",
+      "publisher": "Det. lit., Leningr. otd-nie",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol19742114w",
+      "title": "Повторение пройденного",
+      "author": "Тамара Крюкова",
+      "isbn13": "9785906819178"
+    },
+    {
+      "id": "ol-ol12473514w",
+      "title": "Задание особой важности",
+      "author": "Петр Прокофьевич Шамшур",
+      "publisher": "Voenizdat",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol2784137w",
+      "title": "Цыплёнок вечером",
+      "author": "Сергей Козлов",
+      "publisher": "Детская литература",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol13647786w",
+      "title": "Мой дом на колёсах",
+      "author": "Наталья Дурова",
+      "publisher": "Дрофа",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol1306145w",
+      "title": "Лесные домишки",
+      "author": "Виталий Бянки",
+      "publisher": "Planeta detstva",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol4689213w",
+      "title": "Последний месяц года",
+      "author": "Л. Либединская",
+      "publisher": "Молодая гвардия",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol19970109w",
+      "title": "Сказки Чудо-дерева",
+      "author": "Валерий Кастрючин",
+      "publisher": "Букмастер",
+      "isbn13": "9789855492390"
+    },
+    {
+      "id": "ol-ol19931441w",
+      "title": "Про зверей",
+      "author": "Константин Дмитриевич Ушинский",
+      "publisher": "Mir knigi",
+      "isbn13": "9785486018800"
+    },
+    {
+      "id": "ol-ol20030843w",
+      "title": "Как Ёжик с Медвежонком протирали звезды",
+      "author": "С. Г. Козлов",
+      "isbn13": "9785445309536"
+    },
+    {
+      "id": "ol-ol12623265w",
+      "title": "Сказки про драконов",
+      "author": "Владимир Бояринов",
+      "publisher": "АСТ",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol4721004w",
+      "title": "Владимир красное солнышко",
+      "author": "Ф. В. Домбровский",
+      "publisher": "Sovremennik",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol7078546w",
+      "title": "Я видел Сусанина",
+      "author": "Алексей Федорович Румянцев",
+      "publisher": "Verkh.-Volzh. kn. izd",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol754911w",
+      "title": "История про кота Игнасия, трубочиста Федю и Одинокую Мышь",
+      "author": "Людмила Улицкая",
+      "publisher": "Эксмо",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol19936377w",
+      "title": "Добрый волк",
+      "author": "Марк Тарловский",
+      "publisher": "АСТ",
+      "isbn13": "9785170121588"
+    },
+    {
+      "id": "ol-ol11388697w",
+      "title": "Морской охотник",
+      "author": "Николай Чуковский",
+      "publisher": "Детская литература",
+      "isbn13": "9785080041457"
+    },
+    {
+      "id": "ol-ol13715036w",
+      "title": "Друг детства",
+      "author": "В. Драгунский",
+      "publisher": "Оникс",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol19952256w",
+      "title": "На нашем дворе",
+      "author": "Евгений Иванович Чарушин",
+      "publisher": "Amfora",
+      "isbn13": "9785367018189"
+    },
+    {
+      "id": "ol-ol13853930w",
+      "title": "Сказка о волшебном озере",
+      "author": "Вера Сидорова",
+      "publisher": "Vozrozhdenie = La Renaissance",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol32513596w",
+      "title": "Ленинградские сказки",
+      "author": "Юлия Яковлева",
+      "publisher": "Самокат",
+      "isbn13": "9785917596617"
+    },
+    {
+      "id": "ol-ol19931764w",
+      "title": "Всё о больших и маленьких приключениях",
+      "author": "Борис Житков",
+      "publisher": "Азбука-Аттикус",
+      "isbn13": "9785911817299"
+    },
+    {
+      "id": "ol-ol19978419w",
+      "title": "Большая собачья книга",
+      "author": "В. Н. Белоусов; М. В. Белоусова",
+      "publisher": "Эксмо",
+      "isbn13": "9785699361700"
+    },
+    {
+      "id": "ol-ol20043973w",
+      "title": "Скок-поскок",
+      "author": "Ю Васнецов",
+      "isbn13": "9785926818922"
+    },
+    {
+      "id": "ol-ol32966487w",
+      "title": "Первая охота",
+      "author": "Виталий Бянки",
+      "publisher": "Izd-vo Raduga",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol12719103w",
+      "title": "История одного поросенка",
+      "author": "Юрий Выннычук",
+      "publisher": "A-BA-BA-GA-LA-MA-GA",
+      "isbn13": "9789667047283"
+    },
+    {
+      "id": "ol-ol4263283w",
+      "title": "Терем-теремок и другие сказки",
+      "author": "Владимир Сутеев",
+      "publisher": "АСТ",
+      "isbn13": "9785170343003"
+    },
+    {
+      "id": "ol-ol13710818w",
+      "title": "Весёлые истории",
+      "author": "Г. Цыферов",
+      "publisher": "Азбука-Аттикус"
+    },
+    {
+      "id": "ol-ol19935924w",
+      "title": "\"Как стать большим\" и другие истории",
+      "author": "Г. Цыферов",
+      "publisher": "Geleos",
+      "isbn13": "9785818914305"
+    },
+    {
+      "id": "ol-ol3803771w",
+      "title": "Хор охотников",
+      "author": "Г. Скребицкий",
+      "publisher": "Izd-vo IKAR",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol4504115w",
+      "title": "Вот она, наша Сибирь!",
+      "author": "Георгий Иванович Кублицкий",
+      "publisher": "Детская литература",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol20043982w",
+      "title": "Папа, мама, и я",
+      "author": "В. Драгунский",
+      "isbn13": "9785919213635"
+    },
+    {
+      "id": "ol-ol19734604w",
+      "title": "Кот в сапогах",
+      "author": "Н. И. Котятова; Т. В. Баринова",
+      "isbn13": "9785353082644"
+    },
+    {
+      "id": "ol-ol23852447w",
+      "title": "Сказка в русской живописи",
+      "author": "Марина Казиева",
+      "publisher": "Белый город",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol44294375w",
+      "title": "Приключения дяди Лёвы в румынских степях",
+      "author": "Янец Леви; Янив Шимони",
+      "publisher": "Knizhniki",
+      "isbn13": "9785906999481"
+    },
+    {
+      "id": "ol-ol12849951w",
+      "title": "Визгкультура, или, семейная качалка",
+      "author": "Григорий Остер",
+      "publisher": "Росмэн",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol1306134w",
+      "title": "Рассказы",
+      "author": "Виталий Бянки",
+      "publisher": "Стрекоза",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol20025742w",
+      "title": "Во-первых и во-вторых",
+      "author": "Даниил Хармс",
+      "isbn13": "9785000740224"
+    },
+    {
+      "id": "ol-ol4409959w",
+      "title": "Сто рассказов русской истории",
+      "author": "Сергей Алексеев",
+      "publisher": "Sov. Rossii͡a︡",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol5531021w",
+      "title": "\"Сверре\" зовет на помощь",
+      "author": "Николай Внуков",
+      "publisher": "Det. lit.. Leningr. otd-nie",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol23178263w",
+      "title": "Однажды звери всех мастей",
+      "author": "Михаил Бельчиков",
+      "publisher": "M-Graphics Publishing",
+      "isbn13": "9781940220031"
+    },
+    {
+      "id": "ol-ol1306140w",
+      "title": "Тайна ночного леса",
+      "author": "Виталий Бянки",
+      "publisher": "Стрекоза",
+      "isbn13": "9785479005909"
+    },
+    {
+      "id": "ol-ol33100014w",
+      "title": "Кот Васька",
+      "author": "Борис Александрович Смирнов",
+      "publisher": "Izd. G.F. Mirimanova",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol19978791w",
+      "title": "Прогулки по детскому Петербургу",
+      "author": "Ольга Феофанова",
+      "publisher": "Piter",
+      "isbn13": "9785496004930"
+    },
+    {
+      "id": "ol-ol43721004w",
+      "title": "Тайна поповскаго сына",
+      "author": "Федор Зарин",
+      "publisher": "Izd-e t-va M.O. Volʹf",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol38929339w",
+      "title": "Позавчера была война",
+      "author": "Юрий Яковлев",
+      "publisher": "Молодая гвардия",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol43489248w",
+      "title": "Кошачья санаторія",
+      "author": "Саша Черный; Федор Рожанковский",
+      "publisher": "Di͡etskai͡a bibliotechka Mikki",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol23679291w",
+      "title": "Рассказы о юных героях",
+      "author": "Б. Р. Акбулатов",
+      "publisher": "Karelii︠a︡",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol40732659w",
+      "title": "Козлятки и волк",
+      "author": "К. Д. Ушинский",
+      "publisher": "Moskovskiĭ kombinat igrushek Gorizont",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol23925164w",
+      "title": "Сказки про хитрую-хитрую рыбу Любу и ведьму Наташу",
+      "author": "Владимир Снарков",
+      "publisher": "V.P. Snarkov",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol19734609w",
+      "title": "Волк и козлята",
+      "author": "Н. И. Котятова; Т. В. Баринова",
+      "isbn13": "9785353082606"
+    },
+    {
+      "id": "ol-ol11483415w",
+      "title": "История про воробья Антверпена, кота Михеева, столетника Васю и сороконожку Марью Семеновну с семьей",
+      "author": "Людмила Улицкая",
+      "publisher": "Эксмо",
+      "isbn13": "9785699103034"
+    },
+    {
+      "id": "ol-ol12866329w",
+      "title": "Воздушные рыбки",
+      "author": "Марина Дяченко",
+      "publisher": "A-BA-BA-GA-LA-MA-GA",
+      "isbn13": "9789667047481"
+    },
+    {
+      "id": "ol-ol45421072w",
+      "title": "Сказки старого Тыма",
+      "author": "В. Пухначев",
+      "publisher": "Zapadno-Sibirskoe kn. izd-vo",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol623358w",
+      "title": "Сказка о царе Салтане, о сыне его славном и могучем богатере князе Гвидоне Салтановиче и о прекрасной царевне Лебеди",
+      "author": "Александр Сергеевич Пушкин",
+      "publisher": "Самовар",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol39000655w",
+      "title": "Письмо от гнома Сказкина",
+      "author": "Това Хершковитз",
+      "publisher": "Keter",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol23311994w",
+      "title": "Солнечный зайчик",
+      "author": "Ирина Белая",
+      "publisher": "Izdatelʹstvo Lira",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol31578033w",
+      "title": "Домовёнок Фока и его друзья",
+      "author": "Андрей Васильевич Растворцев",
+      "publisher": "Чувашское книжное издательство",
+      "isbn13": "9785767020560"
+    },
+    {
+      "id": "ol-ol33083556w",
+      "title": "Сказка о золотом пиетушкие",
+      "author": "Александр Сергеевич Пушкин",
+      "publisher": "Ekspeditsiia zagotovleniia gosudarstvennykh bumag",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol13736457w",
+      "title": "Новая сказка",
+      "author": "Дмитрий Цветков",
+      "publisher": "Terra",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol19952284w",
+      "title": "Любимые стихи и сказки",
+      "author": "Борис Акимович Акулиничев",
+      "publisher": "Оникс",
+      "isbn13": "9785488029934"
+    },
+    {
+      "id": "ol-ol20044016w",
+      "title": "Песенки, стихи, загадки",
+      "author": "Л. М. Карпенко",
+      "publisher": "ОЛМА",
+      "isbn13": "9785373071222"
+    },
+    {
+      "id": "ol-ol20058937w",
+      "title": "Русская пленница французского кота",
+      "author": "Игорь Жуков",
+      "publisher": "Пешком в историю",
+      "isbn13": "9785905474149"
+    },
+    {
+      "id": "ol-ol13682862w",
+      "title": "Детский музыкальный фольклор Рязанской области",
+      "author": "Н. Н. Гилярова",
+      "publisher": "Ri︠a︡zanskiĭ obl. t︠s︡entr narodnogo tvorchestva",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol19940727w",
+      "title": "Ничуть не страшно и другие сказки",
+      "author": "Л. Кириллов; Мария Рудаченко",
+      "publisher": "Росмэн",
+      "isbn13": "9785353043140"
+    },
+    {
+      "id": "ol-ol33559636w",
+      "title": "Веселый вечер",
+      "author": "С. Колосова; С. Садомская",
+      "publisher": "Детская литература",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol6080944w",
+      "title": "Похищение продавца приключений",
+      "author": "Г. М. Садовников",
+      "publisher": "Planeta detskva",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol19935840w",
+      "title": "Хрестоматия детской классики",
+      "author": "В. Рябченко",
+      "publisher": "Азбука-Аттикус",
+      "isbn13": "9785389002791"
+    },
+    {
+      "id": "ol-ol11630364w",
+      "title": "Необыкновенные приключения школьника Бобки, который изобрёл летающий стул",
+      "author": "Сергей Макаров",
+      "publisher": "Росмэн",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol24010186w",
+      "title": "Легенды, были и сказки Крыма для детей",
+      "author": "Е. В. Белоусов",
+      "publisher": "Bibleks",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol18162861w",
+      "title": "Марья Моревна",
+      "author": "Иван Яковлевич Билибин",
+      "publisher": "Izd. Ėkspedit︠s︡īi zagotovlenīi︠a︡ gos. bumagʺ",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol38428812w",
+      "title": "За волшебным словом",
+      "author": "С. Липеровская",
+      "publisher": "Детская литература",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol12917933w",
+      "title": "Поющее дерево",
+      "author": "Леонид Яхнин",
+      "publisher": "Новое литературное обозрение",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol11764672w",
+      "title": "Волшебная Ханукия",
+      "author": "Хава-Броха Корзакова",
+      "publisher": "Mosty kulʹtury",
+      "isbn13": "9785932732038"
+    },
+    {
+      "id": "ol-ol20044018w",
+      "title": "Русские загадки и сказки о животных",
+      "author": "М. Ф. Коршунова",
+      "publisher": "Ulybka",
+      "isbn13": "9785889446583"
+    },
+    {
+      "id": "ol-ol19734608w",
+      "title": "Три медведя",
+      "author": "Н. И. Котятова; Т. В. Баринова",
+      "isbn13": "9785353082682"
+    },
+    {
+      "id": "ol-ol10339221w",
+      "title": "Три поросёнка; Трусохвостик; Одноглазый дрозд; Праздник непослушаня; Лесная Академия",
+      "author": "Сергей Владимирович Михалков",
+      "publisher": "Izd-vo Kometa",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol33563571w",
+      "title": "Под удиельною властью",
+      "author": "Г. Т. Полилов-Сиеверцев",
+      "publisher": "Tip. A.S. Suvorina",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol32094509w",
+      "title": "Фейныя сказки",
+      "author": "Константин Дмитриевич Бальмонт",
+      "publisher": "Knigoizdatelʹstvo Grif",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol19747024w",
+      "title": "Все сказки и стихи для детского сада",
+      "author": "З. Александрова; Александр Сергеевич Пушкин",
+      "isbn13": "9785353086079"
+    },
+    {
+      "id": "ol-ol44383671w",
+      "title": "Приключения носорога Солнышко",
+      "author": "Татьяна Соловьева",
+      "publisher": "Beĭt Nelly media",
+      "isbn13": "9789657386873"
+    },
+    {
+      "id": "ol-ol7248302w",
+      "title": "Рассказы о русских художниках",
+      "author": "Надежда Сергеевна Шер",
+      "publisher": "Детская литература",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol19978428w",
+      "title": "Лучшие сказки на ночь",
+      "author": "Л. Сидорова",
+      "publisher": "АСТ",
+      "isbn13": "9785170835560"
+    },
+    {
+      "id": "ol-ol42821653w",
+      "title": "Сказки, легенды, предания",
+      "author": "Е. И. Фадеева",
+      "publisher": "Izd-vo Knizhnai︠a︡ palata",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol4392595w",
+      "title": "Полынные сказки",
+      "author": "Юрий Коваль",
+      "publisher": "Детская литература",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol43971155w",
+      "title": "Сказки Матушки Гусыни",
+      "author": "Ирина Явчуновская",
+      "publisher": "E.RA",
+      "isbn13": "9785985753349"
+    },
+    {
+      "id": "ol-ol2256574w",
+      "title": "Волшебное кольцо",
+      "author": "Борис Шергин",
+      "publisher": "Самокат",
+      "isbn13": "9785902326137"
+    },
+    {
+      "id": "ol-ol5997389w",
+      "title": "Блохнесское чудовище, или, Жизнь и приключения милиционера Караваева",
+      "author": "Марина Москвина",
+      "publisher": "U-Faktorii︠a︡",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol32843984w",
+      "title": "Сказки Ф. Гауфа, Р. Густафсона, повести В. Гауфа, басни И. Хемницера, баллады В. А. Жуковского, стихи М. Ю. Лермонтова в иллюстрациях Дмитрия Митрохина",
+      "author": "Дмитрий Исидорович Митрохин",
+      "publisher": "Izdatelʹstvo Fortuna ĖL",
+      "isbn13": "9785958200498"
+    },
+    {
+      "id": "ol-ol865257w",
+      "title": "Стихи, сказки, занимательные истории",
+      "author": "Даниил Хармс",
+      "publisher": "Стрекоза",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol19944755w",
+      "title": "Русские сказки и потешки",
+      "author": "Ирина Петелина",
+      "publisher": "Азбука-Аттикус",
+      "isbn13": "9785389006072"
+    },
+    {
+      "id": "ol-ol44820250w",
+      "title": "Чеченские и ингушские народные сказки",
+      "author": "Мусбек Кибиев; А. О. Мальсагов",
+      "publisher": "Checheno-Ingushskoe knizhnoe izd-vo",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol6007209w",
+      "title": "Повествование о чувашах",
+      "author": "Елена Енькка",
+      "publisher": "Chuvashskoe knizhnoe izd-vo",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol12951162w",
+      "title": "Приключения Старого Башмака, рассказанные им самим",
+      "author": "Георгий Балл",
+      "publisher": "Новое литературное обозрение",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol39493108w",
+      "title": "История про Мишу, Даню и бумажного змея",
+      "author": "Светлана Шенбрунн",
+      "publisher": "Tekst",
+      "isbn13": "9785751610159"
+    },
+    {
+      "id": "ol-ol13735521w",
+      "title": "Легенды Средневековья",
+      "author": "Н. Гарская",
+      "publisher": "Росмэн",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol43509234w",
+      "title": "Мартин не плачет",
+      "author": "Линор Горалик",
+      "publisher": "Livebook",
+      "isbn13": "9785990581043"
+    },
+    {
+      "id": "ol-ol20015192w",
+      "title": "Три поросенка",
+      "author": "Е. Смирнова",
+      "isbn13": "9785378005604"
+    },
+    {
+      "id": "ol-ol11225343w",
+      "title": "Поросёнок Пётр едет в гости",
+      "author": "Людмила Стефановна Петрушевская",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol754910w",
+      "title": "История о старике Кулебякине, плаксивой кобыле Миле и жеребенке Равкине",
+      "author": "Людмила Улицкая",
+      "publisher": "Эксмо",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol35588586w",
+      "title": "Мифы Древнего Казахстана",
+      "author": "Орынбай Жанайдаров",
+      "publisher": "Izd-vo Aruna",
+      "isbn13": "9789965260735"
+    },
+    {
+      "id": "ol-ol42476842w",
+      "title": "Евреи в поле",
+      "author": "Виктор Григорьевич Финк",
+      "publisher": "Молодая гвардия",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol19952239w",
+      "title": "Журавлиные перья",
+      "author": "Вера Н. Маркова",
+      "publisher": "Izdat. Dom Meshcher︠i︡akova",
+      "isbn13": "9785910452248"
+    },
+    {
+      "id": "ol-ol4042450w",
+      "title": "Домашнее тепло",
+      "author": "Алексей Логунов",
+      "publisher": "Детская литература",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol12432535w",
+      "title": "Острее шпаги",
+      "author": "Александр Петрович Казанцев",
+      "publisher": "T︠S︡entrpoligraf",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol32668464w",
+      "title": "Где раки зимуют",
+      "author": "Виталий Бянки",
+      "publisher": "Детская литература",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol6273359w",
+      "title": "Пассажир без билета",
+      "author": "Александр Борисович Аронов",
+      "publisher": "Молодая гвардия",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol6253399w",
+      "title": "Берилловое ожерелье",
+      "author": "Л. Семенов-Спасский",
+      "publisher": "Det. lit., Leningr. otd-nie",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol12171715w",
+      "title": "Солнце всходит и заходит",
+      "author": "Даниил Маркович Руднев",
+      "publisher": "Ėėsti raamat",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol4409950w",
+      "title": "Грозный всадник",
+      "author": "Сергей Алексеев",
+      "publisher": "Детская литература",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol44868793w",
+      "title": "Собственные рассказы детей",
+      "author": "Алексей Елисеевич Крученых; Н. Нагорская",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol38513598w",
+      "title": "Безумство храбрых",
+      "author": "Василий Ардаматский",
+      "publisher": "Детская литература",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol13746366w",
+      "title": "Ну, погоди!",
+      "author": "Федор Камов",
+      "publisher": "Самовар",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol55522w",
+      "title": "Избранные произведения",
+      "author": "Антон Павлович Чехов",
+      "publisher": "Детская литература",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol20043999w",
+      "title": "Вежливое слово",
+      "author": "Е. Мошковская",
+      "isbn13": "9785389097421"
+    },
+    {
+      "id": "ol-ol38539262w",
+      "title": "Один, два, три",
+      "author": "Виктор Голявкин",
+      "publisher": "Детская литература",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol12525630w",
+      "title": "О смелом всаднике",
+      "author": "Борис Емельянов",
+      "publisher": "Молодая гвардия",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol6959476w",
+      "title": "Морской орленок",
+      "author": "Венямин Васильевич Тихомиров",
+      "publisher": "Izd. DOSAAF",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol19970141w",
+      "title": "Правдивая история колобка",
+      "author": "Андрей Усачёв",
+      "publisher": "Росмэн",
+      "isbn13": "9785353059707"
+    },
+    {
+      "id": "ol-ol5186967w",
+      "title": "Лилипут-сын великана",
+      "author": "Альберт Иванов",
+      "publisher": "Alteĭ",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol23852449w",
+      "title": "Лучшие детские анекдоты",
+      "author": "Лев Яковлев; Игор Новиков",
+      "publisher": "Росмэн",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol32668434w",
+      "title": "Про оленей",
+      "author": "Геннадий Снегирёв",
+      "publisher": "Детская литература",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol869549w",
+      "title": "Солнце на потолке",
+      "author": "Олег Кургузов",
+      "publisher": "Белый город",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol20016949w",
+      "title": "Русские богатери",
+      "author": "И. В. Карнаухова",
+      "publisher": "Азбука-Аттикус",
+      "isbn13": "9785389004986"
+    },
+    {
+      "id": "ol-ol33137652w",
+      "title": "Операция \"Океан\"",
+      "author": "Александр Свирин",
+      "publisher": "Малыш",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol22116625w",
+      "title": "Детство Пушкина",
+      "author": "А. Л. Слонимский",
+      "publisher": "Детская литература",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol6274480w",
+      "title": "Рассказы о первых русских комедянтах",
+      "author": "Кира Федоровна Куликова",
+      "publisher": "Детская литература",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol13738508w",
+      "title": "Карандаш и Самоделкин на острове необычайных приклюхений",
+      "author": "В. Постников",
+      "publisher": "Эксмо",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol38508810w",
+      "title": "Верхом",
+      "author": "Владимир Васильевич Лебедев",
+      "publisher": "Gos. izd-vo",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol40061329w",
+      "title": "Хранители очага",
+      "author": "Андрей Васильевич Растворцев",
+      "publisher": "Чувашское книжное издательство",
+      "isbn13": "9785767019069"
+    },
+    {
+      "id": "ol-ol38533455w",
+      "title": "Кто раньше всех встаёт?",
+      "author": "Аркадий Минчковский",
+      "publisher": "Детская литература",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol44264846w",
+      "title": "Первое испутание",
+      "author": "В. Ясенев; В. Ясенев",
+      "publisher": "Молодая гвардия",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol19952281w",
+      "title": "Мы встречаем Новыи год!",
+      "author": "Илья Григорьевич Савченко",
+      "publisher": "Азбука-Аттикус",
+      "isbn13": "9785389006751"
+    },
+    {
+      "id": "ol-ol43943169w",
+      "title": "Волные птицы",
+      "author": "Евгений Иванович Чарушин",
+      "publisher": "Gos. izd-vo",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol11557042w",
+      "title": "Повесть о русской актрисе",
+      "author": "Л. Н. Тынянова",
+      "publisher": "Детская литература",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol45311343w",
+      "title": "Три повести о Васе Куролесове",
+      "author": "Юрий Коваль",
+      "publisher": "Izdatelʹskiĭ proekt A i B",
+      "isbn13": "9785990626164"
+    },
+    {
+      "id": "ol-ol38553160w",
+      "title": "Наш огород",
+      "author": "Евгений Шварц",
+      "publisher": "Молодая гвардия",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol19962766w",
+      "title": "Азбука для Буки",
+      "author": "Андрей Усачёв",
+      "publisher": "Азбука-Аттикус",
+      "isbn13": "9785389020023"
+    },
+    {
+      "id": "ol-ol1678184w",
+      "title": "Хождение встречь солнцу",
+      "author": "Владислав Бахревский",
+      "publisher": "Молодая гвардия",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol6521518w",
+      "title": "Солнце всходит и заходит",
+      "author": "Д. Руднев",
+      "publisher": "Ėėsti raamat",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol13713535w",
+      "title": "Общее собрание героев повестей, рассказов, стихотворений и пьес",
+      "author": "Едуард Успенский",
+      "publisher": "Kometa",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol38509253w",
+      "title": "Огород",
+      "author": "Сергей Михалков",
+      "publisher": "Детская литература",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol19936571w",
+      "title": "Поемы",
+      "author": "Александр Сергеевич Пушкин",
+      "publisher": "Детская литература",
+      "isbn13": "9785080042195"
+    },
+    {
+      "id": "ol-ol623484w",
+      "title": "Избранные произведения",
+      "author": "Александр Сергеевич Пушкин",
+      "publisher": "Детская литература",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol11585139w",
+      "title": "Повесть о декабристе Петре Муханове",
+      "author": "Т. Медведкова",
+      "publisher": "Zapadno-sibirskoe knizhnoe izd-vo",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol10358155w",
+      "title": "Любимые друзья",
+      "author": "Клавдия Лукашевич",
+      "publisher": "Izd. T-va I. D. Sytina",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol22792562w",
+      "title": "Хантыйские загадки",
+      "author": "Е. А. Нёмысова",
+      "publisher": "Poligrafist",
+      "isbn13": "9785902499213"
+    },
+    {
+      "id": "ol-ol12849949w",
+      "title": "Обезьянки младшего возраста",
+      "author": "Григорий Остер",
+      "publisher": "Росмэн",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol44948165w",
+      "title": "Три твоих имени",
+      "author": "Дина Сабитова",
+      "publisher": "Розовый жираф",
+      "isbn13": "9785903497911"
+    },
+    {
+      "id": "ol-ol23834945w",
+      "title": "Смиренный воин",
+      "author": "Георгий Юдин",
+      "publisher": "Russkiĭ mir",
+      "isbn13": null
+    },
+    {
+      "id": "ol-ol32525747w",
+      "title": "Цезарь Великолепный",
+      "author": "Алёна Спиридонова",
+      "publisher": "Bubble Visions",
+      "isbn13": "9785990870901"
+    },
+    {
+      "id": "ol-ol38419438w",
+      "title": "Рассказы о сильных и отважных",
+      "author": "Н. М. Беркова",
+      "publisher": "Fizkulʹtura i sport",
+      "isbn13": null
+    },
+    {
+      "id": "curated-nen-collection-pro-lisa-i-porosenka-bern-rervik",
+      "title": "Про Лиса и Поросенка",
+      "author": "Бьёрн Рёрвик",
+      "publisher": "Самокат"
+    },
+    {
+      "id": "curated-nen-collection-stihi-mashi-rupasovoy-masha-rupasova",
+      "title": "Стихи Маши Рупасовой",
+      "author": "Маша Рупасова"
+    },
+    {
+      "id": "curated-nen-collection-chelovetkin-dzhuliya-donaldson",
+      "title": "Человеткин",
+      "author": "Джулия Дональдсон",
+      "publisher": "Машины творения"
+    },
+    {
+      "id": "curated-nen-collection-meydelin-finn-i-sobaka-iz-priyuta-liza-papp",
+      "title": "Мейделин Финн и собака из приюта",
+      "author": "Лиза Папп",
+      "publisher": "Поляндрия"
+    },
+    {
+      "id": "curated-nen-collection-odin-za-vseh-i-vse-za-odnogo-brigit-veninger",
+      "title": "Один за всех и все за одного",
+      "author": "Бригит Венингер",
+      "publisher": "Нигма"
+    },
+    {
+      "id": "curated-nen-collection-vse-o-mumi-trollyah-tuve-yansson",
+      "title": "Все о Муми-троллях",
+      "author": "Туве Янссон"
+    },
+    {
+      "id": "curated-nen-collection-myshonok-kotoryy-tam-anastasiya-kovalenkova",
+      "title": "Мышонок, который там",
+      "author": "Анастасия Коваленкова"
+    },
+    {
+      "id": "curated-nen-collection-kto-uteshit-knyutta-tuve-yansson",
+      "title": "Кто утешит Кнютта",
+      "author": "Туве Янссон"
+    },
+    {
+      "id": "curated-nen-collection-kartofelnaya-sobaka-yuriy-koval",
+      "title": "Картофельная собака",
+      "author": "Юрий Коваль",
+      "publisher": "Самокат"
+    },
+    {
+      "id": "curated-nen-collection-shtora-nyanyushki-lagton-virdzhiniya-vulf",
+      "title": "Штора нянюшки Лагтон",
+      "author": "Вирджиния Вулф"
+    },
+    {
+      "id": "curated-nen-collection-chto-nuzhno-malenkoy-koshke-natalya-shaloshvili",
+      "title": "Что нужно маленькой кошке",
+      "author": "Наталья Шалошвили"
+    },
+    {
+      "id": "curated-nen-collection-vernye-druzya-mariam-kordes",
+      "title": "Верные друзья",
+      "author": "Мариам Кордес"
+    },
+    {
+      "id": "curated-nen-collection-spat-kak-tigr-masha-lukashkina",
+      "title": "Спать, как тигр",
+      "author": "Маша Лукашкина"
+    },
+    {
+      "id": "curated-nen-collection-molli-i-shtormovoe-more-doyl-malahiya",
+      "title": "Молли и штормовое море",
+      "author": "Дойл Малахия"
+    },
+    {
+      "id": "curated-nen-collection-god-polnyy-chudes-b-klyayn",
+      "title": "Год, полный чудес",
+      "author": "Шерил Б.Кляйн"
+    },
+    {
+      "id": "curated-nen-collection-pingvikingi-anton-soya",
+      "title": "Пингвикинги",
+      "author": "Антон Соя"
+    },
+    {
+      "id": "curated-nen-collection-shkola-v-karmartene-anna-korosteleva",
+      "title": "Школа в Кармартене",
+      "author": "Анна Коростелева"
+    },
+    {
+      "id": "curated-nen-collection-muley-erlend-lu",
+      "title": "Мулей",
+      "author": "Эрленд Лу"
+    },
+    {
+      "id": "curated-nen-collection-zhutko-gromko-i-zapredelno-blizko-safran-foer",
+      "title": "Жутко громко и запредельно близко",
+      "author": "Джонатан Сафран Фоер",
+      "publisher": "Like Book",
+      "isbn13": "9785699951338"
+    },
+    {
+      "id": "curated-nen-collection-milye-kosti-elis-sibold",
+      "title": "Милые кости",
+      "author": "Элис Сиболд",
+      "publisher": "Эксмо",
+      "isbn13": "9785041089535"
+    },
+    {
+      "id": "curated-nen-collection-kogda-my-vstretimsya-rebekka-sted",
+      "title": "Когда мы встретимся",
+      "author": "Ребекка Стед"
+    },
+    {
+      "id": "curated-nen-collection-bezdna-chellendzhera-nil-shusterman",
+      "title": "Бездна Челленджера",
+      "author": "Нил Шустерман"
+    },
+    {
+      "id": "curated-nen-collection-ptitsa-v-kletke-robin-rou",
+      "title": "Птица в клетке",
+      "author": "Робин Роу"
+    },
+    {
+      "id": "curated-nen-collection-spletni-i-k-pop-aleksandra-yang",
+      "title": "Сплетни и K-pop",
+      "author": "Александра Янг",
+      "publisher": "Like Book",
+      "isbn13": "9785041602239"
+    },
+    {
+      "id": "curated-nen-collection-schepotka-magii-mishel-harrison",
+      "title": "Щепотка магии",
+      "author": "Мишель Харрисон"
+    },
+    {
+      "id": "curated-nen-collection-klubok-zaklinaniy-mishel-harrison",
+      "title": "Клубок заклинаний",
+      "author": "Мишель Харрисон"
+    },
+    {
+      "id": "curated-nen-collection-zatonuvshiy-les-lloyd-dzhons",
+      "title": "Затонувший лес",
+      "author": "Эмили Ллойд-Джонс"
+    },
+    {
+      "id": "curated-nen-collection-neveroyatno-opasnaya-sliz-ledyanye-myshki-sedobnye-kamni-i-esche-95-istoriy-o-mire-vokrug-nas-nastya-tr",
+      "title": "Невероятно! Опасная слизь, ледяные мышки, съедобные камни и еще 95 историй о мире вокруг нас",
+      "author": "Ася Ванякина, Настя Троян"
+    },
+    {
+      "id": "curated-nen-collection-druzhba-posle-ssory-novye-priklyucheniya-emo-i-chiki-dzhoshua-vays",
+      "title": "Дружба после ссоры… Новые приключения Эмо и Чики",
+      "author": "Грегг Релье, Джошуа Вайс"
+    },
+    {
+      "id": "curated-nen-collection-istorii-pro-pyarta-anti-saar",
+      "title": "Истории про Пярта",
+      "author": "Анти Саар"
+    },
+    {
+      "id": "curated-nen-collection-poigray-s-mimi-anna-permyakova",
+      "title": "Поиграй с Мими",
+      "author": "Анна Пермякова",
+      "publisher": "Самокат"
+    },
+    {
+      "id": "curated-nen-collection-i-kto-to-skazal-privet-nihan-temiz",
+      "title": "И кто-то сказал «Привет»",
+      "author": "Нихан Темиз",
+      "publisher": "Поляндрия"
+    },
+    {
+      "id": "curated-nen-collection-moya-bolshaya-sibiy-delakrua",
+      "title": "Моя большая",
+      "author": "Сибий Делакруа",
+      "publisher": "Поляндрия"
+    },
+    {
+      "id": "curated-nen-collection-dobraya-akula-elena-repetur",
+      "title": "Добрая акула",
+      "author": "Елена Репетур",
+      "publisher": "Белая ворона"
+    },
+    {
+      "id": "curated-nen-collection-sup-sinora-leprona-dzhovanna-dzoboli",
+      "title": "Суп синьора Лепрона",
+      "author": "Джованна Дзоболи",
+      "publisher": "Городец"
+    },
+    {
+      "id": "curated-nen-collection-silviya-i-ptichka-ketrin-reyner",
+      "title": "Сильвия и Птичка",
+      "author": "Кэтрин Рейнер",
+      "publisher": "Поляндрия"
+    },
+    {
+      "id": "curated-nen-collection-vasilkovaya-zima-hegyum-kim",
+      "title": "Васильковая зима",
+      "author": "Хегюм Ким",
+      "publisher": "Поляндрия"
+    },
+    {
+      "id": "curated-nen-collection-gde-to-v-snegu-linde-faas",
+      "title": "Где-то в снегу",
+      "author": "Линде Фаас",
+      "publisher": "Поляндрия"
+    },
+    {
+      "id": "curated-nen-collection-zavetnoe-zhelanie-krotika-sangyn-kim",
+      "title": "Заветное желание кротика",
+      "author": "Сангын Ким",
+      "publisher": "Поляндрия"
+    },
+    {
+      "id": "curated-nen-collection-elka-yulka-olive-tallek",
+      "title": "Елка Юлька",
+      "author": "Оливье Таллек",
+      "publisher": "Самокат"
+    },
+    {
+      "id": "curated-nen-collection-vyuzhik-i-upavshaya-zvezda-anna-mohovaya",
+      "title": "Вьюжик и упавшая звезда",
+      "author": "Анна Моховая",
+      "publisher": "Феникс"
+    },
+    {
+      "id": "curated-nen-collection-peschernyy-chelovek-terri-pratchett",
+      "title": "Пещерный человек",
+      "author": "Терри Пратчетт",
+      "publisher": "Поляндрия"
+    },
+    {
+      "id": "curated-nen-collection-magazin-dikovinnyh-sladostey-schaste-za-monetku-reyko-hirosima",
+      "title": "Магазин диковинных сладостей «Счастье за монетку»",
+      "author": "Рэйко Хиросима",
+      "publisher": "Поляндрия"
+    }
+  ]
+}

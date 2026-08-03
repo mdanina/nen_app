@@ -1,0 +1,1477 @@
+{
+  "generatedAt": "2026-08-03T17:57:28.287Z",
+  "tool": {
+    "name": "books:enrich",
+    "version": "1.1.1"
+  },
+  "options": {
+    "force": true,
+    "dryRun": false,
+    "missingCoverOnly": true,
+    "matchLevel": 2
+  },
+  "summary": {
+    "catalogSize": 1819,
+    "checked": 229,
+    "processed": 229,
+    "skippedAsCurrent": 0,
+    "updated": 0,
+    "isbnChanged": 0,
+    "officialCoversFound": 0,
+    "publishersNormalized": 0,
+    "remainingWithoutExternalCover": 229
+  },
+  "failureReasons": {
+    "no_candidates": 229
+  },
+  "sourceStatus": [
+    {
+      "source": "mif",
+      "status": "ready",
+      "records": 6291
+    },
+    {
+      "source": "young-guard",
+      "status": "ready",
+      "records": 1895
+    },
+    {
+      "source": "melik-pashaev",
+      "status": "ready",
+      "records": 656
+    },
+    {
+      "source": "ast-full",
+      "status": "ready",
+      "records": 119123
+    },
+    {
+      "source": "pink-giraffe",
+      "status": "ready",
+      "records": 154
+    }
+  ],
+  "sourceFailures": [],
+  "changes": [],
+  "publisherNormalizations": [],
+  "outcomes": [
+    {
+      "id": "nen-008",
+      "title": "Аладдин и волшебная лампа",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "nen-009",
+      "title": "Момотаро",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "nen-010",
+      "title": "Волшебная кисть Ма Ляна",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "nen-052",
+      "title": "Спокойной ночи, Луна",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "nen-054",
+      "title": "Тихая книга",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "nen-059",
+      "title": "Детектив Самсон",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "nen-061",
+      "title": "Универмаг динозавров",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "nen-064",
+      "title": "Калле Блумквист — сыщик",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "nen-bv2-021",
+      "title": "Мишка, бурый мишка, кто там впереди?",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "nen-bv2-022",
+      "title": "Мы идём охотиться на медведя",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "nen-bv2-025",
+      "title": "Кордурой",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "nen-bv2-026",
+      "title": "Снежный день",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "nen-bv2-028",
+      "title": "Вельветовый Кролик",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "nen-bv2-030",
+      "title": "Оливия",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "nen-bv2-031",
+      "title": "Кротик, который хотел знать, кто наделал ему на голову",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "nen-bv2-032",
+      "title": "Где моя мама?",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "nen-bv2-084",
+      "title": "Голубая бусинка",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "nen-bv2-086",
+      "title": "Лев, колдунья и платяной шкаф",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "nen-bv2-092",
+      "title": "БДВ, или Большой и Добрый Великан",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "nen-bv2-105",
+      "title": "Тоби Лолнесс",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "nen-bv2-123",
+      "title": "Излом времени",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "nen-bv2-125",
+      "title": "Ямы",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "nen-bv2-139",
+      "title": "Говори",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "nen-bv2-140",
+      "title": "Дом, в котором…",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "nen-bv2-142",
+      "title": "Я хочу в школу!",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "nen-bv2-146",
+      "title": "Поступь хаоса. Нож, которого нет",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "nen-bv2-147",
+      "title": "Элеанор и Парк",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "nen-bv2-148",
+      "title": "Саймон и программа Homo sapiens",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "nen-bv2-149",
+      "title": "Аристотель и Данте открывают тайны Вселенной",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "nen-bv2-150",
+      "title": "Вся ваша ненависть",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "nen-bv2-153",
+      "title": "Нимона",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "nen-bv2-156",
+      "title": "Американец китайского происхождения",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "nen-bv2-159",
+      "title": "Амулет. Хранительница камня",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "nen-bv2-161",
+      "title": "Когда отдыхают ангелы",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol6841991w",
+      "title": "На заре Руси",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol19742114w",
+      "title": "Повторение пройденного",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol12473514w",
+      "title": "Задание особой важности",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol2784137w",
+      "title": "Цыплёнок вечером",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol13647786w",
+      "title": "Мой дом на колёсах",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol1306145w",
+      "title": "Лесные домишки",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol4689213w",
+      "title": "Последний месяц года",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol19970109w",
+      "title": "Сказки Чудо-дерева",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol19931441w",
+      "title": "Про зверей",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol20030843w",
+      "title": "Как Ёжик с Медвежонком протирали звезды",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol12623265w",
+      "title": "Сказки про драконов",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol4721004w",
+      "title": "Владимир красное солнышко",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol7078546w",
+      "title": "Я видел Сусанина",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol754911w",
+      "title": "История про кота Игнасия, трубочиста Федю и Одинокую Мышь",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol19936377w",
+      "title": "Добрый волк",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol13715036w",
+      "title": "Друг детства",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol19952256w",
+      "title": "На нашем дворе",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol13853930w",
+      "title": "Сказка о волшебном озере",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "nen-bv2-037",
+      "title": "Квак и Жаб вместе",
+      "reason": "no_candidates",
+      "errors": [
+        {
+          "source": "official-publishers",
+          "error": "Error: all_official_product_pages_unavailable:2"
+        }
+      ]
+    },
+    {
+      "id": "ol-ol19931764w",
+      "title": "Всё о больших и маленьких приключениях",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol19978419w",
+      "title": "Большая собачья книга",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol20043973w",
+      "title": "Скок-поскок",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol32966487w",
+      "title": "Первая охота",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol12719103w",
+      "title": "История одного поросенка",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol4263283w",
+      "title": "Терем-теремок и другие сказки",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol13710818w",
+      "title": "Весёлые истории",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol19935924w",
+      "title": "\"Как стать большим\" и другие истории",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol3803771w",
+      "title": "Хор охотников",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol4504115w",
+      "title": "Вот она, наша Сибирь!",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol20043982w",
+      "title": "Папа, мама, и я",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol11388697w",
+      "title": "Морской охотник",
+      "reason": "no_candidates",
+      "errors": [
+        {
+          "source": "official-publishers",
+          "error": "Error: all_official_product_pages_unavailable:1"
+        }
+      ]
+    },
+    {
+      "id": "ol-ol23852447w",
+      "title": "Сказка в русской живописи",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol44294375w",
+      "title": "Приключения дяди Лёвы в румынских степях",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol12849951w",
+      "title": "Визгкультура, или, семейная качалка",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol1306134w",
+      "title": "Рассказы",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol20025742w",
+      "title": "Во-первых и во-вторых",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol4409959w",
+      "title": "Сто рассказов русской истории",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol5531021w",
+      "title": "\"Сверре\" зовет на помощь",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol23178263w",
+      "title": "Однажды звери всех мастей",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol1306140w",
+      "title": "Тайна ночного леса",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol32513596w",
+      "title": "Ленинградские сказки",
+      "reason": "no_candidates",
+      "errors": [
+        {
+          "source": "official-publishers",
+          "error": "Error: all_official_product_pages_unavailable:1"
+        }
+      ]
+    },
+    {
+      "id": "ol-ol19978791w",
+      "title": "Прогулки по детскому Петербургу",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol43721004w",
+      "title": "Тайна поповскаго сына",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol38929339w",
+      "title": "Позавчера была война",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol43489248w",
+      "title": "Кошачья санаторія",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol23679291w",
+      "title": "Рассказы о юных героях",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol40732659w",
+      "title": "Козлятки и волк",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol23925164w",
+      "title": "Сказки про хитрую-хитрую рыбу Любу и ведьму Наташу",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol19734609w",
+      "title": "Волк и козлята",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol11483415w",
+      "title": "История про воробья Антверпена, кота Михеева, столетника Васю и сороконожку Марью Семеновну с семьей",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol12866329w",
+      "title": "Воздушные рыбки",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol45421072w",
+      "title": "Сказки старого Тыма",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol623358w",
+      "title": "Сказка о царе Салтане, о сыне его славном и могучем богатере князе Гвидоне Салтановиче и о прекрасной царевне Лебеди",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol39000655w",
+      "title": "Письмо от гнома Сказкина",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol23311994w",
+      "title": "Солнечный зайчик",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol31578033w",
+      "title": "Домовёнок Фока и его друзья",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol33083556w",
+      "title": "Сказка о золотом пиетушкие",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol13736457w",
+      "title": "Новая сказка",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol19952284w",
+      "title": "Любимые стихи и сказки",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol20044016w",
+      "title": "Песенки, стихи, загадки",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol20058937w",
+      "title": "Русская пленница французского кота",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol13682862w",
+      "title": "Детский музыкальный фольклор Рязанской области",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol19940727w",
+      "title": "Ничуть не страшно и другие сказки",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol33559636w",
+      "title": "Веселый вечер",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol6080944w",
+      "title": "Похищение продавца приключений",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol19935840w",
+      "title": "Хрестоматия детской классики",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol11630364w",
+      "title": "Необыкновенные приключения школьника Бобки, который изобрёл летающий стул",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol24010186w",
+      "title": "Легенды, были и сказки Крыма для детей",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol18162861w",
+      "title": "Марья Моревна",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol38428812w",
+      "title": "За волшебным словом",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol12917933w",
+      "title": "Поющее дерево",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol11764672w",
+      "title": "Волшебная Ханукия",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol20044018w",
+      "title": "Русские загадки и сказки о животных",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol19734608w",
+      "title": "Три медведя",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol10339221w",
+      "title": "Три поросёнка; Трусохвостик; Одноглазый дрозд; Праздник непослушаня; Лесная Академия",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol33563571w",
+      "title": "Под удиельною властью",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol19734604w",
+      "title": "Кот в сапогах",
+      "reason": "no_candidates",
+      "errors": [
+        {
+          "source": "official-publishers",
+          "error": "Error: all_official_product_pages_unavailable:1"
+        }
+      ]
+    },
+    {
+      "id": "ol-ol19747024w",
+      "title": "Все сказки и стихи для детского сада",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol44383671w",
+      "title": "Приключения носорога Солнышко",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol7248302w",
+      "title": "Рассказы о русских художниках",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol19978428w",
+      "title": "Лучшие сказки на ночь",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol42821653w",
+      "title": "Сказки, легенды, предания",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol33100014w",
+      "title": "Кот Васька",
+      "reason": "no_candidates",
+      "errors": [
+        {
+          "source": "official-publishers",
+          "error": "Error: all_official_product_pages_unavailable:1"
+        }
+      ]
+    },
+    {
+      "id": "ol-ol43971155w",
+      "title": "Сказки Матушки Гусыни",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol2256574w",
+      "title": "Волшебное кольцо",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol5997389w",
+      "title": "Блохнесское чудовище, или, Жизнь и приключения милиционера Караваева",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol32843984w",
+      "title": "Сказки Ф. Гауфа, Р. Густафсона, повести В. Гауфа, басни И. Хемницера, баллады В. А. Жуковского, стихи М. Ю. Лермонтова в иллюстрациях Дмитрия Митрохина",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol865257w",
+      "title": "Стихи, сказки, занимательные истории",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol19944755w",
+      "title": "Русские сказки и потешки",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol44820250w",
+      "title": "Чеченские и ингушские народные сказки",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol6007209w",
+      "title": "Повествование о чувашах",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol12951162w",
+      "title": "Приключения Старого Башмака, рассказанные им самим",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol39493108w",
+      "title": "История про Мишу, Даню и бумажного змея",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol13735521w",
+      "title": "Легенды Средневековья",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol43509234w",
+      "title": "Мартин не плачет",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol20015192w",
+      "title": "Три поросенка",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol11225343w",
+      "title": "Поросёнок Пётр едет в гости",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol754910w",
+      "title": "История о старике Кулебякине, плаксивой кобыле Миле и жеребенке Равкине",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol35588586w",
+      "title": "Мифы Древнего Казахстана",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol42476842w",
+      "title": "Евреи в поле",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol19952239w",
+      "title": "Журавлиные перья",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol4042450w",
+      "title": "Домашнее тепло",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol12432535w",
+      "title": "Острее шпаги",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol32668464w",
+      "title": "Где раки зимуют",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol6273359w",
+      "title": "Пассажир без билета",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol6253399w",
+      "title": "Берилловое ожерелье",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol12171715w",
+      "title": "Солнце всходит и заходит",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol4409950w",
+      "title": "Грозный всадник",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol44868793w",
+      "title": "Собственные рассказы детей",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol38513598w",
+      "title": "Безумство храбрых",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol13746366w",
+      "title": "Ну, погоди!",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol55522w",
+      "title": "Избранные произведения",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol20043999w",
+      "title": "Вежливое слово",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol38539262w",
+      "title": "Один, два, три",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol12525630w",
+      "title": "О смелом всаднике",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol32094509w",
+      "title": "Фейныя сказки",
+      "reason": "no_candidates",
+      "errors": [
+        {
+          "source": "official-publishers",
+          "error": "Error: all_official_product_pages_unavailable:1"
+        }
+      ]
+    },
+    {
+      "id": "ol-ol19970141w",
+      "title": "Правдивая история колобка",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol5186967w",
+      "title": "Лилипут-сын великана",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol23852449w",
+      "title": "Лучшие детские анекдоты",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol32668434w",
+      "title": "Про оленей",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol869549w",
+      "title": "Солнце на потолке",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol20016949w",
+      "title": "Русские богатери",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol33137652w",
+      "title": "Операция \"Океан\"",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol22116625w",
+      "title": "Детство Пушкина",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol6274480w",
+      "title": "Рассказы о первых русских комедянтах",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol13738508w",
+      "title": "Карандаш и Самоделкин на острове необычайных приклюхений",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol38508810w",
+      "title": "Верхом",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol40061329w",
+      "title": "Хранители очага",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol38533455w",
+      "title": "Кто раньше всех встаёт?",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol44264846w",
+      "title": "Первое испутание",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol19952281w",
+      "title": "Мы встречаем Новыи год!",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol43943169w",
+      "title": "Волные птицы",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol11557042w",
+      "title": "Повесть о русской актрисе",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol45311343w",
+      "title": "Три повести о Васе Куролесове",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol38553160w",
+      "title": "Наш огород",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol19962766w",
+      "title": "Азбука для Буки",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol1678184w",
+      "title": "Хождение встречь солнцу",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol6521518w",
+      "title": "Солнце всходит и заходит",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol13713535w",
+      "title": "Общее собрание героев повестей, рассказов, стихотворений и пьес",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol38509253w",
+      "title": "Огород",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol19936571w",
+      "title": "Поемы",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol623484w",
+      "title": "Избранные произведения",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol11585139w",
+      "title": "Повесть о декабристе Петре Муханове",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol10358155w",
+      "title": "Любимые друзья",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol22792562w",
+      "title": "Хантыйские загадки",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol12849949w",
+      "title": "Обезьянки младшего возраста",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol44948165w",
+      "title": "Три твоих имени",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol23834945w",
+      "title": "Смиренный воин",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol32525747w",
+      "title": "Цезарь Великолепный",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol38419438w",
+      "title": "Рассказы о сильных и отважных",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "curated-nen-collection-pro-lisa-i-porosenka-bern-rervik",
+      "title": "Про Лиса и Поросенка",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "curated-nen-collection-stihi-mashi-rupasovoy-masha-rupasova",
+      "title": "Стихи Маши Рупасовой",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "curated-nen-collection-chelovetkin-dzhuliya-donaldson",
+      "title": "Человеткин",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "curated-nen-collection-meydelin-finn-i-sobaka-iz-priyuta-liza-papp",
+      "title": "Мейделин Финн и собака из приюта",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "curated-nen-collection-odin-za-vseh-i-vse-za-odnogo-brigit-veninger",
+      "title": "Один за всех и все за одного",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "curated-nen-collection-vse-o-mumi-trollyah-tuve-yansson",
+      "title": "Все о Муми-троллях",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "curated-nen-collection-myshonok-kotoryy-tam-anastasiya-kovalenkova",
+      "title": "Мышонок, который там",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "curated-nen-collection-kto-uteshit-knyutta-tuve-yansson",
+      "title": "Кто утешит Кнютта",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "curated-nen-collection-kartofelnaya-sobaka-yuriy-koval",
+      "title": "Картофельная собака",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "curated-nen-collection-shtora-nyanyushki-lagton-virdzhiniya-vulf",
+      "title": "Штора нянюшки Лагтон",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "curated-nen-collection-chto-nuzhno-malenkoy-koshke-natalya-shaloshvili",
+      "title": "Что нужно маленькой кошке",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "curated-nen-collection-vernye-druzya-mariam-kordes",
+      "title": "Верные друзья",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "curated-nen-collection-spat-kak-tigr-masha-lukashkina",
+      "title": "Спать, как тигр",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "curated-nen-collection-molli-i-shtormovoe-more-doyl-malahiya",
+      "title": "Молли и штормовое море",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "curated-nen-collection-god-polnyy-chudes-b-klyayn",
+      "title": "Год, полный чудес",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "curated-nen-collection-pingvikingi-anton-soya",
+      "title": "Пингвикинги",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "curated-nen-collection-shkola-v-karmartene-anna-korosteleva",
+      "title": "Школа в Кармартене",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "curated-nen-collection-muley-erlend-lu",
+      "title": "Мулей",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "curated-nen-collection-zhutko-gromko-i-zapredelno-blizko-safran-foer",
+      "title": "Жутко громко и запредельно близко",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "curated-nen-collection-milye-kosti-elis-sibold",
+      "title": "Милые кости",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "curated-nen-collection-kogda-my-vstretimsya-rebekka-sted",
+      "title": "Когда мы встретимся",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "curated-nen-collection-bezdna-chellendzhera-nil-shusterman",
+      "title": "Бездна Челленджера",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "curated-nen-collection-ptitsa-v-kletke-robin-rou",
+      "title": "Птица в клетке",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "curated-nen-collection-spletni-i-k-pop-aleksandra-yang",
+      "title": "Сплетни и K-pop",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "curated-nen-collection-schepotka-magii-mishel-harrison",
+      "title": "Щепотка магии",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "curated-nen-collection-klubok-zaklinaniy-mishel-harrison",
+      "title": "Клубок заклинаний",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "curated-nen-collection-zatonuvshiy-les-lloyd-dzhons",
+      "title": "Затонувший лес",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "curated-nen-collection-neveroyatno-opasnaya-sliz-ledyanye-myshki-sedobnye-kamni-i-esche-95-istoriy-o-mire-vokrug-nas-nastya-tr",
+      "title": "Невероятно! Опасная слизь, ледяные мышки, съедобные камни и еще 95 историй о мире вокруг нас",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "curated-nen-collection-druzhba-posle-ssory-novye-priklyucheniya-emo-i-chiki-dzhoshua-vays",
+      "title": "Дружба после ссоры… Новые приключения Эмо и Чики",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "curated-nen-collection-istorii-pro-pyarta-anti-saar",
+      "title": "Истории про Пярта",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "curated-nen-collection-poigray-s-mimi-anna-permyakova",
+      "title": "Поиграй с Мими",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "curated-nen-collection-i-kto-to-skazal-privet-nihan-temiz",
+      "title": "И кто-то сказал «Привет»",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "curated-nen-collection-moya-bolshaya-sibiy-delakrua",
+      "title": "Моя большая",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "curated-nen-collection-dobraya-akula-elena-repetur",
+      "title": "Добрая акула",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "curated-nen-collection-sup-sinora-leprona-dzhovanna-dzoboli",
+      "title": "Суп синьора Лепрона",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "curated-nen-collection-silviya-i-ptichka-ketrin-reyner",
+      "title": "Сильвия и Птичка",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "curated-nen-collection-vasilkovaya-zima-hegyum-kim",
+      "title": "Васильковая зима",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "curated-nen-collection-gde-to-v-snegu-linde-faas",
+      "title": "Где-то в снегу",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "curated-nen-collection-zavetnoe-zhelanie-krotika-sangyn-kim",
+      "title": "Заветное желание кротика",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "curated-nen-collection-elka-yulka-olive-tallek",
+      "title": "Елка Юлька",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "curated-nen-collection-vyuzhik-i-upavshaya-zvezda-anna-mohovaya",
+      "title": "Вьюжик и упавшая звезда",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "curated-nen-collection-peschernyy-chelovek-terri-pratchett",
+      "title": "Пещерный человек",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "curated-nen-collection-magazin-dikovinnyh-sladostey-schaste-za-monetku-reyko-hirosima",
+      "title": "Магазин диковинных сладостей «Счастье за монетку»",
+      "reason": "no_candidates",
+      "errors": []
+    },
+    {
+      "id": "ol-ol6959476w",
+      "title": "Морской орленок",
+      "reason": "no_candidates",
+      "errors": [
+        {
+          "source": "official-publishers",
+          "error": "Error: all_official_product_pages_unavailable:1"
+        }
+      ]
+    },
+    {
+      "id": "ol-ol4392595w",
+      "title": "Полынные сказки",
+      "reason": "no_candidates",
+      "errors": [
+        {
+          "source": "official-publishers",
+          "error": "Error: all_official_product_pages_unavailable:1"
+        }
+      ]
+    }
+  ],
+  "validation": {
+    "valid": true,
+    "errors": []
+  }
+}

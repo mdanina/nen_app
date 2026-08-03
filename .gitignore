@@ -5,6 +5,7 @@ dist/
 .vite/
 .env.local
 .vercel/
+data/.cache/books-enrich/
 
 # Local bibliographic import outputs
 data/import/bnf/staging/

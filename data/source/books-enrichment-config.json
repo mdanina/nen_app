@@ -1,0 +1,12 @@
+{
+  "freshnessDays": 180,
+  "cacheDays": 30,
+  "concurrency": 3,
+  "sourceConcurrency": 6,
+  "sources": [
+    "official-publishers",
+    "google-books",
+    "open-library"
+  ]
+}
+
