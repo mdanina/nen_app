@@ -30969,10 +30969,10 @@
   },
   {
     "id": "curated-nen-collection-korolevstvo-krivyh-zerkal-vitaliy-gubarev",
-    "source": "Издательство «Стрекоза»",
-    "sourceUrl": "https://strecoza.ru/product/%d0%ba%d0%be%d1%80%d0%be%d0%bb%d0%b5%d0%b2%d1%81%d1%82%d0%b2%d0%be-%d0%ba%d1%80%d0%b8%d0%b2%d1%8b%d1%85-%d0%b7%d0%b5%d1%80%d0%ba%d0%b0%d0%bb-%d1%81%d0%b5%d0%bc%d0%b5%d0%b9%d0%bd%d1%8b%d0%b5-%d1%86/",
-    "sourceRecordId": "/product/%d0%ba%d0%be%d1%80%d0%be%d0%bb%d0%b5%d0%b2%d1%81%d1%82%d0%b2%d0%be-%d0%ba%d1%80%d0%b8%d0%b2%d1%8b%d1%85-%d0%b7%d0%b5%d1%80%d0%ba%d0%b0%d0%bb-%d1%81%d0%b5%d0%bc%d0%b5%d0%b9%d0%bd%d1%8b%d0%b5-%d1%86/",
-    "officialTitle": "Королевство кривых зеркал. Семейные ценности. Книги нашего детства",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
+    "sourceRecordId": "https://n-e-n.ru/thebestbooksforchildren2020/#curated-nen-collection-korolevstvo-krivyh-zerkal-vitaliy-gubarev",
+    "officialTitle": "Королевство кривых зеркал",
     "officialAuthors": [
       "Виталий Губарев"
     ],
@@ -30980,83 +30980,83 @@
     "isbn13": "9785995164746",
     "pages": 128,
     "language": "ru",
-    "replaceEdition": true,
+    "replaceEdition": false,
     "match": {
       "strategy": "work_title_author",
-      "confidence": 0.9640000000000001,
-      "titleScore": 0.96,
-      "authorMatch": true
-    },
-    "verification": {
-      "trustedSource": true,
-      "sourceKind": "official_publisher",
-      "titleMatched": true,
-      "authorMatched": true,
-      "authorEvidence": "official_page_near_title",
-      "isbnMatched": true,
-      "publisherMatched": true,
-      "yearMatched": false,
-      "latestRussianEditionConfirmed": false,
-      "sourceSearchComplete": false,
-      "checkedSources": [
-        "official-publishers"
-      ]
-    },
-    "verifiedAt": "2026-08-03",
-    "enrichment": {
-      "tool": "books:enrich",
-      "version": "1.1.1",
-      "runAt": "2026-08-03T10:12:20.241Z"
-    }
-  },
-  {
-    "id": "curated-nen-collection-piter-pen-dzheyms-barri",
-    "source": "Издательство «АСТ»",
-    "sourceUrl": "https://ast.ru/book/piter-pen-875153/",
-    "sourceRecordId": "/book/piter-pen-875153/",
-    "officialTitle": "Питер Пэн",
-    "officialAuthors": [
-      "Джеймс Барри"
-    ],
-    "publisher": "Издательство АСТ",
-    "isbn13": "9785171585310",
-    "pages": 144,
-    "language": "ru",
-    "replaceEdition": true,
-    "match": {
-      "strategy": "work_title_author",
-      "confidence": 0.9700000000000001,
+      "confidence": 0.99,
       "titleScore": 1,
       "authorMatch": true
     },
     "verification": {
       "trustedSource": true,
-      "sourceKind": "official_publisher",
+      "sourceKind": "editorial_source",
       "titleMatched": true,
       "authorMatched": true,
-      "authorEvidence": "official_page_near_title",
+      "authorEvidence": "structured_data",
       "isbnMatched": true,
       "publisherMatched": true,
       "yearMatched": false,
       "latestRussianEditionConfirmed": false,
-      "sourceSearchComplete": false,
+      "sourceSearchComplete": true,
       "checkedSources": [
-        "official-publishers"
+        "nen-editorial"
       ]
     },
-    "verifiedAt": "2026-08-03",
+    "verifiedAt": "2026-08-04",
     "enrichment": {
       "tool": "books:enrich",
       "version": "1.1.1",
-      "runAt": "2026-08-03T10:12:20.241Z"
+      "runAt": "2026-08-04T13:56:58.252Z"
+    }
+  },
+  {
+    "id": "curated-nen-collection-piter-pen-dzheyms-barri",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
+    "sourceRecordId": "https://n-e-n.ru/thebestbooksforchildren2020/#curated-nen-collection-piter-pen-dzheyms-barri",
+    "officialTitle": "Питер Пэн",
+    "officialAuthors": [
+      "Джеймс Барри"
+    ],
+    "publisher": "АСТ",
+    "isbn13": "9785171585310",
+    "pages": 144,
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": true,
+      "publisherMatched": true,
+      "yearMatched": false,
+      "latestRussianEditionConfirmed": false,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "nen-editorial"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T13:56:58.252Z"
     }
   },
   {
     "id": "curated-nen-collection-moya-sestrenka-olkozavra-dina-gerbek",
-    "source": "Издательство «Стрекоза»",
-    "sourceUrl": "https://strecoza.ru/product/%d0%bc%d0%be%d1%8f-%d1%81%d0%b5%d1%81%d1%82%d1%80%d0%b5%d0%bd%d0%ba%d0%b0-%d0%be%d0%bb%d1%8c%d0%ba%d0%be%d0%b7%d0%b0%d0%b2%d1%80%d0%b0-%d0%b4%d0%b5%d1%82%d1%81%d0%ba%d0%b0%d1%8f-%d1%85%d1%83%d0%b4/",
-    "sourceRecordId": "/product/%d0%bc%d0%be%d1%8f-%d1%81%d0%b5%d1%81%d1%82%d1%80%d0%b5%d0%bd%d0%ba%d0%b0-%d0%be%d0%bb%d1%8c%d0%ba%d0%be%d0%b7%d0%b0%d0%b2%d1%80%d0%b0-%d0%b4%d0%b5%d1%82%d1%81%d0%ba%d0%b0%d1%8f-%d1%85%d1%83%d0%b4/",
-    "officialTitle": "Моя сестренка Олькозавра. Детская художественная литература",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
+    "sourceRecordId": "https://n-e-n.ru/tenbestbooksforchildren/#curated-nen-collection-moya-sestrenka-olkozavra-dina-gerbek",
+    "officialTitle": "Моя сестренка Олькозавра",
     "officialAuthors": [
       "Дина Гербек"
     ],
@@ -31064,82 +31064,82 @@
     "isbn13": "9785995149545",
     "pages": 48,
     "language": "ru",
-    "replaceEdition": true,
+    "replaceEdition": false,
     "match": {
       "strategy": "work_title_author",
-      "confidence": 0.9640000000000001,
-      "titleScore": 0.96,
-      "authorMatch": true
-    },
-    "verification": {
-      "trustedSource": true,
-      "sourceKind": "official_publisher",
-      "titleMatched": true,
-      "authorMatched": true,
-      "authorEvidence": "official_page_near_title",
-      "isbnMatched": true,
-      "publisherMatched": true,
-      "yearMatched": false,
-      "latestRussianEditionConfirmed": false,
-      "sourceSearchComplete": false,
-      "checkedSources": [
-        "official-publishers"
-      ]
-    },
-    "verifiedAt": "2026-08-03",
-    "enrichment": {
-      "tool": "books:enrich",
-      "version": "1.1.1",
-      "runAt": "2026-08-03T10:12:20.241Z"
-    }
-  },
-  {
-    "id": "curated-nen-collection-lev-petrushka-i-ego-druzya-maykl-bond",
-    "source": "Издательство «АСТ»",
-    "sourceUrl": "https://ast.ru/book/lev-petrushka-i-ego-druzya-857893/",
-    "sourceRecordId": "/book/lev-petrushka-i-ego-druzya-857893/",
-    "officialTitle": "Лев Петрушка и его друзья",
-    "officialAuthors": [
-      "Майкл Бонд"
-    ],
-    "publisher": "Издательство АСТ",
-    "isbn13": "9785171370404",
-    "pages": 224,
-    "language": "ru",
-    "replaceEdition": true,
-    "match": {
-      "strategy": "work_title_author",
-      "confidence": 0.9700000000000001,
+      "confidence": 0.99,
       "titleScore": 1,
       "authorMatch": true
     },
     "verification": {
       "trustedSource": true,
-      "sourceKind": "official_publisher",
+      "sourceKind": "editorial_source",
       "titleMatched": true,
       "authorMatched": true,
-      "authorEvidence": "official_page_near_title",
+      "authorEvidence": "structured_data",
       "isbnMatched": true,
       "publisherMatched": true,
       "yearMatched": false,
       "latestRussianEditionConfirmed": false,
-      "sourceSearchComplete": false,
+      "sourceSearchComplete": true,
       "checkedSources": [
-        "official-publishers"
+        "nen-editorial"
       ]
     },
-    "verifiedAt": "2026-08-03",
+    "verifiedAt": "2026-08-04",
     "enrichment": {
       "tool": "books:enrich",
       "version": "1.1.1",
-      "runAt": "2026-08-03T10:12:20.241Z"
+      "runAt": "2026-08-04T13:56:58.252Z"
+    }
+  },
+  {
+    "id": "curated-nen-collection-lev-petrushka-i-ego-druzya-maykl-bond",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
+    "sourceRecordId": "https://n-e-n.ru/tenbestbooksforchildren/#curated-nen-collection-lev-petrushka-i-ego-druzya-maykl-bond",
+    "officialTitle": "Лев Петрушка и его друзья",
+    "officialAuthors": [
+      "Майкл Бонд"
+    ],
+    "publisher": "АСТ",
+    "isbn13": "9785171370404",
+    "pages": 224,
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": true,
+      "publisherMatched": true,
+      "yearMatched": false,
+      "latestRussianEditionConfirmed": false,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "nen-editorial"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T13:56:58.252Z"
     }
   },
   {
     "id": "curated-nen-collection-spletni-i-k-pop-aleksandra-yang",
-    "source": "Издательство «Эксмо»",
-    "sourceUrl": "https://eksmo.ru/book/spletni-i-k-pop-ITD1244126/",
-    "sourceRecordId": "/book/spletni-i-k-pop-ITD1244126/",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+    "sourceRecordId": "https://n-e-n.ru/knigi-dlya-podrostkov/#curated-nen-collection-spletni-i-k-pop-aleksandra-yang",
     "officialTitle": "Сплетни и K-pop",
     "officialAuthors": [
       "Александра Янг"
@@ -31152,115 +31152,115 @@
     "replaceEdition": false,
     "match": {
       "strategy": "work_title_author",
-      "confidence": 0.9700000000000001,
+      "confidence": 0.99,
       "titleScore": 1,
       "authorMatch": true,
       "selectedEditionYear": 2022
     },
     "verification": {
       "trustedSource": true,
-      "sourceKind": "official_publisher",
+      "sourceKind": "editorial_source",
       "titleMatched": true,
       "authorMatched": true,
-      "authorEvidence": "official_page_near_title",
+      "authorEvidence": "structured_data",
       "isbnMatched": true,
       "publisherMatched": true,
       "yearMatched": true,
       "latestRussianEditionConfirmed": true,
       "sourceSearchComplete": true,
       "checkedSources": [
-        "official-publishers"
+        "nen-editorial"
       ]
     },
-    "verifiedAt": "2026-08-03",
+    "verifiedAt": "2026-08-04",
     "enrichment": {
       "tool": "books:enrich",
       "version": "1.1.1",
-      "runAt": "2026-08-03T11:33:53.429Z"
+      "runAt": "2026-08-04T08:17:14.757Z"
     }
   },
   {
     "id": "curated-nen-collection-heytery-dzhessi-endryus",
-    "source": "Издательство «АСТ»",
-    "sourceUrl": "https://ast.ru/book/kheytery-724907/",
-    "sourceRecordId": "/book/kheytery-724907/",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+    "sourceRecordId": "https://n-e-n.ru/knigi-dlya-podrostkov/#curated-nen-collection-heytery-dzhessi-endryus",
     "officialTitle": "Хейтеры",
     "officialAuthors": [
       "Джесси Эндрюс"
     ],
-    "publisher": "Издательство АСТ",
+    "publisher": "АСТ",
     "isbn13": "9785170987221",
     "pages": 352,
     "language": "ru",
-    "replaceEdition": true,
+    "replaceEdition": false,
     "match": {
       "strategy": "work_title_author",
-      "confidence": 0.9700000000000001,
+      "confidence": 0.99,
       "titleScore": 1,
       "authorMatch": true
     },
     "verification": {
       "trustedSource": true,
-      "sourceKind": "official_publisher",
+      "sourceKind": "editorial_source",
       "titleMatched": true,
       "authorMatched": true,
-      "authorEvidence": "official_page_near_title",
+      "authorEvidence": "structured_data",
       "isbnMatched": true,
       "publisherMatched": true,
       "yearMatched": false,
       "latestRussianEditionConfirmed": false,
-      "sourceSearchComplete": false,
+      "sourceSearchComplete": true,
       "checkedSources": [
-        "official-publishers"
+        "nen-editorial"
       ]
     },
-    "verifiedAt": "2026-08-03",
+    "verifiedAt": "2026-08-04",
     "enrichment": {
       "tool": "books:enrich",
       "version": "1.1.1",
-      "runAt": "2026-08-03T10:12:20.241Z"
+      "runAt": "2026-08-04T13:56:58.252Z"
     }
   },
   {
     "id": "curated-nen-collection-ulichnyy-kot-po-imeni-bob-dzheyms-bouen",
-    "source": "Издательство «АСТ»",
-    "sourceUrl": "https://ast.ru/book/kot-po-imeni-bob-831449/",
-    "sourceRecordId": "/book/kot-po-imeni-bob-831449/",
-    "officialTitle": "Кот по имени Боб",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+    "sourceRecordId": "https://n-e-n.ru/knigi-dlya-podrostkov/#curated-nen-collection-ulichnyy-kot-po-imeni-bob-dzheyms-bouen",
+    "officialTitle": "Уличный кот по имени Боб",
     "officialAuthors": [
       "Джеймс Боуэн"
     ],
-    "publisher": "Издательство АСТ",
+    "publisher": "АСТ",
     "isbn13": "9785171047399",
     "pages": 32,
     "language": "ru",
-    "replaceEdition": true,
+    "replaceEdition": false,
     "match": {
       "strategy": "work_title_author",
-      "confidence": 0.9640000000000001,
-      "titleScore": 0.96,
+      "confidence": 0.99,
+      "titleScore": 1,
       "authorMatch": true
     },
     "verification": {
       "trustedSource": true,
-      "sourceKind": "official_publisher",
+      "sourceKind": "editorial_source",
       "titleMatched": true,
       "authorMatched": true,
-      "authorEvidence": "official_page_near_title",
+      "authorEvidence": "structured_data",
       "isbnMatched": true,
       "publisherMatched": true,
       "yearMatched": false,
       "latestRussianEditionConfirmed": false,
-      "sourceSearchComplete": false,
+      "sourceSearchComplete": true,
       "checkedSources": [
-        "official-publishers"
+        "nen-editorial"
       ]
     },
-    "verifiedAt": "2026-08-03",
+    "verifiedAt": "2026-08-04",
     "enrichment": {
       "tool": "books:enrich",
       "version": "1.1.1",
-      "runAt": "2026-08-03T10:12:20.241Z"
+      "runAt": "2026-08-04T13:56:58.252Z"
     }
   },
   {
@@ -31353,10 +31353,10 @@
   },
   {
     "id": "curated-nen-collection-martyn-i-barsik-masha-rupasova",
-    "source": "Издательство «Альпина.Дети»",
-    "sourceUrl": "https://alpinabook.ru/catalog/book-martyn-i-barsik-dva-kota-krasota/",
-    "sourceRecordId": "/catalog/book-martyn-i-barsik-dva-kota-krasota/",
-    "officialTitle": "Мартын и Барсик Два кота – красота!",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
+    "sourceRecordId": "https://n-e-n.ru/thebestbooksforchildren2020/#curated-nen-collection-martyn-i-barsik-masha-rupasova",
+    "officialTitle": "Мартын и Барсик",
     "officialAuthors": [
       "Маша Рупасова"
     ],
@@ -31365,42 +31365,42 @@
     "publicationYear": 2024,
     "pages": 56,
     "language": "ru",
-    "replaceEdition": true,
+    "replaceEdition": false,
     "match": {
       "strategy": "work_title_author",
-      "confidence": 0.9640000000000001,
-      "titleScore": 0.96,
+      "confidence": 0.99,
+      "titleScore": 1,
       "authorMatch": true,
       "selectedEditionYear": 2024
     },
     "verification": {
       "trustedSource": true,
-      "sourceKind": "official_publisher",
+      "sourceKind": "editorial_source",
       "titleMatched": true,
       "authorMatched": true,
-      "authorEvidence": "official_page_near_title",
+      "authorEvidence": "structured_data",
       "isbnMatched": true,
       "publisherMatched": true,
       "yearMatched": true,
       "latestRussianEditionConfirmed": true,
       "sourceSearchComplete": true,
       "checkedSources": [
-        "official-publishers"
+        "nen-editorial"
       ]
     },
-    "verifiedAt": "2026-08-03",
+    "verifiedAt": "2026-08-04",
     "enrichment": {
       "tool": "books:enrich",
       "version": "1.1.1",
-      "runAt": "2026-08-03T11:36:11.728Z"
+      "runAt": "2026-08-04T13:56:58.252Z"
     }
   },
   {
     "id": "curated-nen-collection-medved-v-svoem-repertuare-gubert-shirnek",
-    "source": "Издательство «Поляндрия»",
-    "sourceUrl": "https://www.polyandria.ru/catalog/3-7/medved-v-svoem-repertuare/",
-    "sourceRecordId": "/catalog/3-7/medved-v-svoem-repertuare/",
-    "officialTitle": "Медведь в своём репертуаре",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/10-glavnih-detskih-knig/",
+    "sourceRecordId": "https://n-e-n.ru/10-glavnih-detskih-knig/#curated-nen-collection-medved-v-svoem-repertuare-gubert-shirnek",
+    "officialTitle": "Медведь в своем репертуаре",
     "officialAuthors": [
       "Губерт Ширнек"
     ],
@@ -31409,41 +31409,41 @@
     "publicationYear": 2020,
     "pages": 140,
     "language": "ru",
-    "replaceEdition": true,
+    "replaceEdition": false,
     "match": {
       "strategy": "work_title_author",
-      "confidence": 0.9700000000000001,
+      "confidence": 0.99,
       "titleScore": 1,
       "authorMatch": true,
       "selectedEditionYear": 2020
     },
     "verification": {
       "trustedSource": true,
-      "sourceKind": "official_publisher",
+      "sourceKind": "editorial_source",
       "titleMatched": true,
       "authorMatched": true,
-      "authorEvidence": "official_page_near_title",
+      "authorEvidence": "structured_data",
       "isbnMatched": true,
       "publisherMatched": true,
       "yearMatched": true,
       "latestRussianEditionConfirmed": true,
       "sourceSearchComplete": true,
       "checkedSources": [
-        "official-publishers"
+        "nen-editorial"
       ]
     },
-    "verifiedAt": "2026-08-03",
+    "verifiedAt": "2026-08-04",
     "enrichment": {
       "tool": "books:enrich",
       "version": "1.1.1",
-      "runAt": "2026-08-03T11:36:11.728Z"
+      "runAt": "2026-08-04T13:56:58.252Z"
     }
   },
   {
     "id": "curated-nen-collection-ne-vse-umeyut-padat-toon-tellegen",
-    "source": "Издательство «Поляндрия»",
-    "sourceUrl": "https://www.polyandria.ru/catalog/9-12/ne-vse-umeyut-padat/",
-    "sourceRecordId": "/catalog/9-12/ne-vse-umeyut-padat/",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/10-glavnih-detskih-knig/",
+    "sourceRecordId": "https://n-e-n.ru/10-glavnih-detskih-knig/#curated-nen-collection-ne-vse-umeyut-padat-toon-tellegen",
     "officialTitle": "Не все умеют падать",
     "officialAuthors": [
       "Тоон Теллеген"
@@ -31453,41 +31453,41 @@
     "publicationYear": 2021,
     "pages": 120,
     "language": "ru",
-    "replaceEdition": true,
+    "replaceEdition": false,
     "match": {
       "strategy": "work_title_author",
-      "confidence": 0.9700000000000001,
+      "confidence": 0.99,
       "titleScore": 1,
       "authorMatch": true,
       "selectedEditionYear": 2021
     },
     "verification": {
       "trustedSource": true,
-      "sourceKind": "official_publisher",
+      "sourceKind": "editorial_source",
       "titleMatched": true,
       "authorMatched": true,
-      "authorEvidence": "official_page_near_title",
+      "authorEvidence": "structured_data",
       "isbnMatched": true,
       "publisherMatched": true,
       "yearMatched": true,
       "latestRussianEditionConfirmed": true,
       "sourceSearchComplete": true,
       "checkedSources": [
-        "official-publishers"
+        "nen-editorial"
       ]
     },
-    "verifiedAt": "2026-08-03",
+    "verifiedAt": "2026-08-04",
     "enrichment": {
       "tool": "books:enrich",
       "version": "1.1.1",
-      "runAt": "2026-08-03T11:36:11.728Z"
+      "runAt": "2026-08-04T13:56:58.252Z"
     }
   },
   {
     "id": "curated-nen-collection-ya-ne-ya-zhanna-zaytseva-aleksandra",
-    "source": "Издательство «Самокат»",
-    "sourceUrl": "https://samokatbook.ru/book/ya-ne-ya-zhanna/",
-    "sourceRecordId": "/book/ya-ne-ya-zhanna/",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/knigi-pro-pervuyu-lyubov/",
+    "sourceRecordId": "https://n-e-n.ru/knigi-pro-pervuyu-lyubov/#curated-nen-collection-ya-ne-ya-zhanna-zaytseva-aleksandra",
     "officialTitle": "Я, не я, Жанна",
     "officialAuthors": [
       "Зайцева Александра"
@@ -31496,41 +31496,41 @@
     "isbn13": "9785001672753",
     "pages": 176,
     "language": "ru",
-    "replaceEdition": true,
+    "replaceEdition": false,
     "match": {
       "strategy": "work_title_author",
-      "confidence": 0.9700000000000001,
+      "confidence": 0.99,
       "titleScore": 1,
       "authorMatch": true
     },
     "verification": {
       "trustedSource": true,
-      "sourceKind": "official_publisher",
+      "sourceKind": "editorial_source",
       "titleMatched": true,
       "authorMatched": true,
-      "authorEvidence": "official_page_near_title",
+      "authorEvidence": "structured_data",
       "isbnMatched": true,
       "publisherMatched": true,
       "yearMatched": false,
       "latestRussianEditionConfirmed": false,
       "sourceSearchComplete": true,
       "checkedSources": [
-        "official-publishers"
+        "nen-editorial"
       ]
     },
-    "verifiedAt": "2026-08-03",
+    "verifiedAt": "2026-08-04",
     "enrichment": {
       "tool": "books:enrich",
       "version": "1.1.1",
-      "runAt": "2026-08-03T11:36:11.728Z"
+      "runAt": "2026-08-04T13:56:58.252Z"
     }
   },
   {
     "id": "curated-nen-collection-zakoldovannaya-zhizn-uinn-dzhons",
-    "source": "Издательская группа «Азбука-Аттикус»",
-    "sourceUrl": "https://azbooka.ru/books/miry-krestomansi-zakoldovannaya-zhizn",
-    "sourceRecordId": "/books/miry-krestomansi-zakoldovannaya-zhizn",
-    "officialTitle": "Миры Крестоманси. Заколдованная жизнь",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+    "sourceRecordId": "https://n-e-n.ru/knigi-dlya-podrostkov/#curated-nen-collection-zakoldovannaya-zhizn-uinn-dzhons",
+    "officialTitle": "Заколдованная жизнь",
     "officialAuthors": [
       "Диана Уинн Джонс"
     ],
@@ -31538,40 +31538,40 @@
     "isbn13": "9785389188532",
     "pages": 352,
     "language": "ru",
-    "replaceEdition": true,
+    "replaceEdition": false,
     "match": {
       "strategy": "work_title_author",
-      "confidence": 0.9640000000000001,
-      "titleScore": 0.96,
+      "confidence": 0.99,
+      "titleScore": 1,
       "authorMatch": true
     },
     "verification": {
       "trustedSource": true,
-      "sourceKind": "official_publisher",
+      "sourceKind": "editorial_source",
       "titleMatched": true,
       "authorMatched": true,
-      "authorEvidence": "official_page_near_title",
+      "authorEvidence": "structured_data",
       "isbnMatched": true,
       "publisherMatched": true,
       "yearMatched": false,
       "latestRussianEditionConfirmed": false,
       "sourceSearchComplete": true,
       "checkedSources": [
-        "official-publishers"
+        "nen-editorial"
       ]
     },
-    "verifiedAt": "2026-08-03",
+    "verifiedAt": "2026-08-04",
     "enrichment": {
       "tool": "books:enrich",
       "version": "1.1.1",
-      "runAt": "2026-08-03T11:36:11.728Z"
+      "runAt": "2026-08-04T13:56:58.252Z"
     }
   },
   {
     "id": "curated-nen-collection-zhutko-gromko-i-zapredelno-blizko-safran-foer",
-    "source": "Издательство «Эксмо»",
-    "sourceUrl": "https://eksmo.ru/book/zhutko-gromko-i-zapredelno-blizko-ITD848110/",
-    "sourceRecordId": "/book/zhutko-gromko-i-zapredelno-blizko-ITD848110/",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+    "sourceRecordId": "https://n-e-n.ru/knigi-dlya-podrostkov/#curated-nen-collection-zhutko-gromko-i-zapredelno-blizko-safran-foer",
     "officialTitle": "Жутко громко и запредельно близко",
     "officialAuthors": [
       "Джонатан Сафран Фоер"
@@ -31584,43 +31584,43 @@
     "replaceEdition": false,
     "match": {
       "strategy": "work_title_author",
-      "confidence": 0.9700000000000001,
+      "confidence": 0.99,
       "titleScore": 1,
       "authorMatch": true,
       "selectedEditionYear": 2022
     },
     "verification": {
       "trustedSource": true,
-      "sourceKind": "official_publisher",
+      "sourceKind": "editorial_source",
       "titleMatched": true,
       "authorMatched": true,
-      "authorEvidence": "official_page_near_title",
+      "authorEvidence": "structured_data",
       "isbnMatched": true,
       "publisherMatched": true,
       "yearMatched": true,
       "latestRussianEditionConfirmed": true,
       "sourceSearchComplete": true,
       "checkedSources": [
-        "official-publishers"
+        "nen-editorial"
       ]
     },
-    "verifiedAt": "2026-08-03",
+    "verifiedAt": "2026-08-04",
     "enrichment": {
       "tool": "books:enrich",
       "version": "1.1.1",
-      "runAt": "2026-08-03T11:36:11.728Z"
+      "runAt": "2026-08-04T08:17:14.757Z"
     }
   },
   {
     "id": "curated-nen-collection-milye-kosti-elis-sibold",
-    "source": "Издательство «Эксмо»",
-    "sourceUrl": "https://eksmo.ru/book/milye-kosti-ITD1069220/",
-    "sourceRecordId": "/book/milye-kosti-ITD1069220/",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+    "sourceRecordId": "https://n-e-n.ru/knigi-dlya-podrostkov/#curated-nen-collection-milye-kosti-elis-sibold",
     "officialTitle": "Милые кости",
     "officialAuthors": [
       "Элис Сиболд"
     ],
-    "publisher": "Издательство \"Эксмо\"",
+    "publisher": "Эксмо",
     "isbn13": "9785041089535",
     "publicationYear": 2020,
     "pages": 432,
@@ -31628,39 +31628,39 @@
     "replaceEdition": false,
     "match": {
       "strategy": "work_title_author",
-      "confidence": 0.9700000000000001,
+      "confidence": 0.99,
       "titleScore": 1,
       "authorMatch": true,
       "selectedEditionYear": 2020
     },
     "verification": {
       "trustedSource": true,
-      "sourceKind": "official_publisher",
+      "sourceKind": "editorial_source",
       "titleMatched": true,
       "authorMatched": true,
-      "authorEvidence": "official_page_near_title",
+      "authorEvidence": "structured_data",
       "isbnMatched": true,
       "publisherMatched": true,
       "yearMatched": true,
       "latestRussianEditionConfirmed": true,
       "sourceSearchComplete": true,
       "checkedSources": [
-        "official-publishers"
+        "nen-editorial"
       ]
     },
-    "verifiedAt": "2026-08-03",
+    "verifiedAt": "2026-08-04",
     "enrichment": {
       "tool": "books:enrich",
       "version": "1.1.1",
-      "runAt": "2026-08-03T11:36:11.728Z"
+      "runAt": "2026-08-04T08:17:14.757Z"
     }
   },
   {
     "id": "curated-nen-collection-trinadtsataya-skazka-diana-setterfild",
-    "source": "Издательская группа «Азбука-Аттикус»",
-    "sourceUrl": "https://azbooka.ru/books/trinadtsataya-skazka-drvx",
-    "sourceRecordId": "/books/trinadtsataya-skazka-drvx",
-    "officialTitle": "Тринадцатая сказка (The Big Book (мягкая обл))",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+    "sourceRecordId": "https://n-e-n.ru/knigi-dlya-podrostkov/#curated-nen-collection-trinadtsataya-skazka-diana-setterfild",
+    "officialTitle": "Тринадцатая сказка",
     "officialAuthors": [
       "Диана Сеттерфилд"
     ],
@@ -31668,41 +31668,41 @@
     "isbn13": "9785389073531",
     "pages": 448,
     "language": "ru",
-    "replaceEdition": true,
+    "replaceEdition": false,
     "match": {
       "strategy": "work_title_author",
-      "confidence": 0.9640000000000001,
-      "titleScore": 0.96,
+      "confidence": 0.99,
+      "titleScore": 1,
       "authorMatch": true
     },
     "verification": {
       "trustedSource": true,
-      "sourceKind": "official_publisher",
+      "sourceKind": "editorial_source",
       "titleMatched": true,
       "authorMatched": true,
-      "authorEvidence": "official_page_near_title",
+      "authorEvidence": "structured_data",
       "isbnMatched": true,
       "publisherMatched": true,
       "yearMatched": false,
       "latestRussianEditionConfirmed": false,
       "sourceSearchComplete": true,
       "checkedSources": [
-        "official-publishers"
+        "nen-editorial"
       ]
     },
-    "verifiedAt": "2026-08-03",
+    "verifiedAt": "2026-08-04",
     "enrichment": {
       "tool": "books:enrich",
       "version": "1.1.1",
-      "runAt": "2026-08-03T11:36:11.728Z"
+      "runAt": "2026-08-04T13:56:58.252Z"
     }
   },
   {
     "id": "curated-nen-collection-devyatnadtsat-minut-dzhodi-pikolt",
-    "source": "Издательская группа «Азбука-Аттикус»",
-    "sourceUrl": "https://azbooka.ru/books/devyatnadtsat-minut-vjib",
-    "sourceRecordId": "/books/devyatnadtsat-minut-vjib",
-    "officialTitle": "Девятнадцать минут (твердый)",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+    "sourceRecordId": "https://n-e-n.ru/knigi-dlya-podrostkov/#curated-nen-collection-devyatnadtsat-minut-dzhodi-pikolt",
+    "officialTitle": "Девятнадцать минут",
     "officialAuthors": [
       "Джоди Пиколт"
     ],
@@ -31710,40 +31710,40 @@
     "isbn13": "9785389159662",
     "pages": 672,
     "language": "ru",
-    "replaceEdition": true,
+    "replaceEdition": false,
     "match": {
       "strategy": "work_title_author",
-      "confidence": 0.9640000000000001,
-      "titleScore": 0.96,
+      "confidence": 0.99,
+      "titleScore": 1,
       "authorMatch": true
     },
     "verification": {
       "trustedSource": true,
-      "sourceKind": "official_publisher",
+      "sourceKind": "editorial_source",
       "titleMatched": true,
       "authorMatched": true,
-      "authorEvidence": "official_page_near_title",
+      "authorEvidence": "structured_data",
       "isbnMatched": true,
       "publisherMatched": true,
       "yearMatched": false,
       "latestRussianEditionConfirmed": false,
       "sourceSearchComplete": true,
       "checkedSources": [
-        "official-publishers"
+        "nen-editorial"
       ]
     },
-    "verifiedAt": "2026-08-03",
+    "verifiedAt": "2026-08-04",
     "enrichment": {
       "tool": "books:enrich",
       "version": "1.1.1",
-      "runAt": "2026-08-03T11:36:11.728Z"
+      "runAt": "2026-08-04T13:56:58.252Z"
     }
   },
   {
     "id": "curated-nen-collection-gorstka-volshebstva-mishel-harrison",
-    "source": "Издательство «Альпина.Дети»",
-    "sourceUrl": "https://alpinabook.ru/catalog/book-gorstka-volshebstva/",
-    "sourceRecordId": "/catalog/book-gorstka-volshebstva/",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/8-knig/",
+    "sourceRecordId": "https://n-e-n.ru/8-knig/#curated-nen-collection-gorstka-volshebstva-mishel-harrison",
     "officialTitle": "Горстка волшебства",
     "officialAuthors": [
       "Мишель Харрисон"
@@ -31755,38 +31755,38 @@
     "replaceEdition": false,
     "match": {
       "strategy": "work_title_author",
-      "confidence": 0.9500000000000001,
+      "confidence": 0.99,
       "titleScore": 1,
       "authorMatch": true,
       "selectedEditionYear": 2021
     },
     "verification": {
       "trustedSource": true,
-      "sourceKind": "official_publisher",
+      "sourceKind": "editorial_source",
       "titleMatched": true,
       "authorMatched": true,
-      "authorEvidence": "official_page_near_title",
+      "authorEvidence": "structured_data",
       "isbnMatched": false,
       "publisherMatched": true,
       "yearMatched": true,
       "latestRussianEditionConfirmed": true,
       "sourceSearchComplete": true,
       "checkedSources": [
-        "official-publishers"
+        "nen-editorial"
       ]
     },
-    "verifiedAt": "2026-08-03",
+    "verifiedAt": "2026-08-04",
     "enrichment": {
       "tool": "books:enrich",
       "version": "1.1.1",
-      "runAt": "2026-08-03T11:36:11.728Z"
+      "runAt": "2026-08-04T13:56:58.252Z"
     }
   },
   {
     "id": "curated-nen-collection-malenkaya-vsemirnaya-istoriya-ernst-gombrih",
-    "source": "Издательство «Альпина.Дети»",
-    "sourceUrl": "https://alpinabook.ru/catalog/book-malenkaya-vsemirnaya-istoriya/",
-    "sourceRecordId": "/catalog/book-malenkaya-vsemirnaya-istoriya/",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/8-knig/",
+    "sourceRecordId": "https://n-e-n.ru/8-knig/#curated-nen-collection-malenkaya-vsemirnaya-istoriya-ernst-gombrih",
     "officialTitle": "Маленькая всемирная история",
     "officialAuthors": [
       "Эрнст Гомбрих"
@@ -31796,42 +31796,42 @@
     "publicationYear": 2024,
     "pages": 408,
     "language": "ru",
-    "replaceEdition": true,
+    "replaceEdition": false,
     "match": {
       "strategy": "work_title_author",
-      "confidence": 0.9700000000000001,
+      "confidence": 0.99,
       "titleScore": 1,
       "authorMatch": true,
       "selectedEditionYear": 2024
     },
     "verification": {
       "trustedSource": true,
-      "sourceKind": "official_publisher",
+      "sourceKind": "editorial_source",
       "titleMatched": true,
       "authorMatched": true,
-      "authorEvidence": "official_page_near_title",
+      "authorEvidence": "structured_data",
       "isbnMatched": true,
       "publisherMatched": true,
       "yearMatched": true,
       "latestRussianEditionConfirmed": true,
       "sourceSearchComplete": true,
       "checkedSources": [
-        "official-publishers"
+        "nen-editorial"
       ]
     },
-    "verifiedAt": "2026-08-03",
+    "verifiedAt": "2026-08-04",
     "enrichment": {
       "tool": "books:enrich",
       "version": "1.1.1",
-      "runAt": "2026-08-03T11:36:11.728Z"
+      "runAt": "2026-08-04T13:56:58.252Z"
     }
   },
   {
     "id": "curated-nen-collection-sekrety-koshek-sasha-raush",
-    "source": "Издательство «Альпина.Дети»",
-    "sourceUrl": "https://alpinabook.ru/catalog/book-sekrety-koshek/",
-    "sourceRecordId": "/catalog/book-sekrety-koshek/",
-    "officialTitle": "Секреты кошек Как понять свою кошку и подружиться с ней",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/8-knig/",
+    "sourceRecordId": "https://n-e-n.ru/8-knig/#curated-nen-collection-sekrety-koshek-sasha-raush",
+    "officialTitle": "Секреты кошек",
     "officialAuthors": [
       "Саша Рауш"
     ],
@@ -31840,41 +31840,41 @@
     "publicationYear": 2025,
     "pages": 56,
     "language": "ru",
-    "replaceEdition": true,
+    "replaceEdition": false,
     "match": {
       "strategy": "work_title_author",
-      "confidence": 0.9640000000000001,
-      "titleScore": 0.96,
+      "confidence": 0.99,
+      "titleScore": 1,
       "authorMatch": true,
       "selectedEditionYear": 2025
     },
     "verification": {
       "trustedSource": true,
-      "sourceKind": "official_publisher",
+      "sourceKind": "editorial_source",
       "titleMatched": true,
       "authorMatched": true,
-      "authorEvidence": "official_page_near_title",
+      "authorEvidence": "structured_data",
       "isbnMatched": true,
       "publisherMatched": true,
       "yearMatched": true,
       "latestRussianEditionConfirmed": true,
       "sourceSearchComplete": true,
       "checkedSources": [
-        "official-publishers"
+        "nen-editorial"
       ]
     },
-    "verifiedAt": "2026-08-03",
+    "verifiedAt": "2026-08-04",
     "enrichment": {
       "tool": "books:enrich",
       "version": "1.1.1",
-      "runAt": "2026-08-03T11:36:11.728Z"
+      "runAt": "2026-08-04T13:56:58.252Z"
     }
   },
   {
     "id": "curated-nen-collection-brat-drakona-larisa-romanovskaya",
-    "source": "Издательство «Альпина.Дети»",
-    "sourceUrl": "https://alpinabook.ru/catalog/book-brat-drakona/",
-    "sourceRecordId": "/catalog/book-brat-drakona/",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/8-knig/",
+    "sourceRecordId": "https://n-e-n.ru/8-knig/#curated-nen-collection-brat-drakona-larisa-romanovskaya",
     "officialTitle": "Брат дракона",
     "officialAuthors": [
       "Лариса Романовская"
@@ -31884,41 +31884,41 @@
     "publicationYear": 2023,
     "pages": 144,
     "language": "ru",
-    "replaceEdition": true,
+    "replaceEdition": false,
     "match": {
       "strategy": "work_title_author",
-      "confidence": 0.9700000000000001,
+      "confidence": 0.99,
       "titleScore": 1,
       "authorMatch": true,
       "selectedEditionYear": 2023
     },
     "verification": {
       "trustedSource": true,
-      "sourceKind": "official_publisher",
+      "sourceKind": "editorial_source",
       "titleMatched": true,
       "authorMatched": true,
-      "authorEvidence": "official_page_near_title",
+      "authorEvidence": "structured_data",
       "isbnMatched": true,
       "publisherMatched": true,
       "yearMatched": true,
       "latestRussianEditionConfirmed": true,
       "sourceSearchComplete": true,
       "checkedSources": [
-        "official-publishers"
+        "nen-editorial"
       ]
     },
-    "verifiedAt": "2026-08-03",
+    "verifiedAt": "2026-08-04",
     "enrichment": {
       "tool": "books:enrich",
       "version": "1.1.1",
-      "runAt": "2026-08-03T11:36:11.728Z"
+      "runAt": "2026-08-04T13:56:58.252Z"
     }
   },
   {
     "id": "curated-nen-collection-drugaya-elis-mishel-harrison",
-    "source": "Издательство «Альпина.Дети»",
-    "sourceUrl": "https://alpinabook.ru/catalog/book-drugaya-elis/",
-    "sourceRecordId": "/catalog/book-drugaya-elis/",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/8-knig/",
+    "sourceRecordId": "https://n-e-n.ru/8-knig/#curated-nen-collection-drugaya-elis-mishel-harrison",
     "officialTitle": "Другая Элис",
     "officialAuthors": [
       "Мишель Харрисон"
@@ -31928,41 +31928,41 @@
     "publicationYear": 2023,
     "pages": 400,
     "language": "ru",
-    "replaceEdition": true,
+    "replaceEdition": false,
     "match": {
       "strategy": "work_title_author",
-      "confidence": 0.9700000000000001,
+      "confidence": 0.99,
       "titleScore": 1,
       "authorMatch": true,
       "selectedEditionYear": 2023
     },
     "verification": {
       "trustedSource": true,
-      "sourceKind": "official_publisher",
+      "sourceKind": "editorial_source",
       "titleMatched": true,
       "authorMatched": true,
-      "authorEvidence": "official_page_near_title",
+      "authorEvidence": "structured_data",
       "isbnMatched": true,
       "publisherMatched": true,
       "yearMatched": true,
       "latestRussianEditionConfirmed": true,
       "sourceSearchComplete": true,
       "checkedSources": [
-        "official-publishers"
+        "nen-editorial"
       ]
     },
-    "verifiedAt": "2026-08-03",
+    "verifiedAt": "2026-08-04",
     "enrichment": {
       "tool": "books:enrich",
       "version": "1.1.1",
-      "runAt": "2026-08-03T11:36:11.728Z"
+      "runAt": "2026-08-04T13:56:58.252Z"
     }
   },
   {
     "id": "curated-nen-collection-ya-idu-iskat-v-sankt-peterburge-svetlana-shahverdova",
-    "source": "Издательство «Альпина.Дети»",
-    "sourceUrl": "https://alpinabook.ru/catalog/book-ya-idu-iskat-v-sankt-peterburge/",
-    "sourceRecordId": "/catalog/book-ya-idu-iskat-v-sankt-peterburge/",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/5-knig-alpina/",
+    "sourceRecordId": "https://n-e-n.ru/5-knig-alpina/#curated-nen-collection-ya-idu-iskat-v-sankt-peterburge-svetlana-shahverdova",
     "officialTitle": "Я иду искать в Санкт-Петербурге",
     "officialAuthors": [
       "Светлана Шахвердова"
@@ -31972,42 +31972,42 @@
     "publicationYear": 2025,
     "pages": 14,
     "language": "ru",
-    "replaceEdition": true,
+    "replaceEdition": false,
     "match": {
       "strategy": "work_title_author",
-      "confidence": 0.9700000000000001,
+      "confidence": 0.99,
       "titleScore": 1,
       "authorMatch": true,
       "selectedEditionYear": 2025
     },
     "verification": {
       "trustedSource": true,
-      "sourceKind": "official_publisher",
+      "sourceKind": "editorial_source",
       "titleMatched": true,
       "authorMatched": true,
-      "authorEvidence": "official_page_near_title",
+      "authorEvidence": "structured_data",
       "isbnMatched": true,
       "publisherMatched": true,
       "yearMatched": true,
       "latestRussianEditionConfirmed": true,
       "sourceSearchComplete": true,
       "checkedSources": [
-        "official-publishers"
+        "nen-editorial"
       ]
     },
-    "verifiedAt": "2026-08-03",
+    "verifiedAt": "2026-08-04",
     "enrichment": {
       "tool": "books:enrich",
       "version": "1.1.1",
-      "runAt": "2026-08-03T11:36:11.728Z"
+      "runAt": "2026-08-04T13:56:58.252Z"
     }
   },
   {
     "id": "curated-nen-collection-konni-i-druzya-novaya-shkola-yuliya-beme",
-    "source": "Издательство «Альпина.Дети»",
-    "sourceUrl": "https://alpinabook.ru/catalog/book-konni-i-druzya-novaya-shkola/",
-    "sourceRecordId": "/catalog/book-konni-i-druzya-novaya-shkola/",
-    "officialTitle": "Конни и друзья Новая школа",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/5-knig-alpina/",
+    "sourceRecordId": "https://n-e-n.ru/5-knig-alpina/#curated-nen-collection-konni-i-druzya-novaya-shkola-yuliya-beme",
+    "officialTitle": "Конни и друзья: Новая школа",
     "officialAuthors": [
       "Юлия Беме"
     ],
@@ -32016,41 +32016,41 @@
     "publicationYear": 2024,
     "pages": 192,
     "language": "ru",
-    "replaceEdition": true,
+    "replaceEdition": false,
     "match": {
       "strategy": "work_title_author",
-      "confidence": 0.9700000000000001,
+      "confidence": 0.99,
       "titleScore": 1,
       "authorMatch": true,
       "selectedEditionYear": 2024
     },
     "verification": {
       "trustedSource": true,
-      "sourceKind": "official_publisher",
+      "sourceKind": "editorial_source",
       "titleMatched": true,
       "authorMatched": true,
-      "authorEvidence": "official_page_near_title",
+      "authorEvidence": "structured_data",
       "isbnMatched": true,
       "publisherMatched": true,
       "yearMatched": true,
       "latestRussianEditionConfirmed": true,
       "sourceSearchComplete": true,
       "checkedSources": [
-        "official-publishers"
+        "nen-editorial"
       ]
     },
-    "verifiedAt": "2026-08-03",
+    "verifiedAt": "2026-08-04",
     "enrichment": {
       "tool": "books:enrich",
       "version": "1.1.1",
-      "runAt": "2026-08-03T11:36:11.728Z"
+      "runAt": "2026-08-04T13:56:58.252Z"
     }
   },
   {
     "id": "curated-nen-collection-shkola-risovaniya-goroshka-david-kali",
-    "source": "Издательство «Самокат»",
-    "sourceUrl": "https://samokatbook.ru/book/shkola-risovaniya-goroshka/",
-    "sourceRecordId": "/book/shkola-risovaniya-goroshka/",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/goroshek/",
+    "sourceRecordId": "https://n-e-n.ru/goroshek/#curated-nen-collection-shkola-risovaniya-goroshka-david-kali",
     "officialTitle": "Школа рисования Горошка",
     "officialAuthors": [
       "Давид Кали"
@@ -32059,40 +32059,40 @@
     "isbn13": "9785001672906",
     "pages": 40,
     "language": "ru",
-    "replaceEdition": true,
+    "replaceEdition": false,
     "match": {
       "strategy": "work_title_author",
-      "confidence": 0.9700000000000001,
+      "confidence": 0.99,
       "titleScore": 1,
       "authorMatch": true
     },
     "verification": {
       "trustedSource": true,
-      "sourceKind": "official_publisher",
+      "sourceKind": "editorial_source",
       "titleMatched": true,
       "authorMatched": true,
-      "authorEvidence": "official_page_near_title",
+      "authorEvidence": "structured_data",
       "isbnMatched": true,
       "publisherMatched": true,
       "yearMatched": false,
       "latestRussianEditionConfirmed": false,
       "sourceSearchComplete": true,
       "checkedSources": [
-        "official-publishers"
+        "nen-editorial"
       ]
     },
-    "verifiedAt": "2026-08-03",
+    "verifiedAt": "2026-08-04",
     "enrichment": {
       "tool": "books:enrich",
       "version": "1.1.1",
-      "runAt": "2026-08-03T11:36:11.728Z"
+      "runAt": "2026-08-04T13:56:58.252Z"
     }
   },
   {
     "id": "curated-nen-collection-frederik-leo-lionni",
-    "source": "Издательство «Самокат»",
-    "sourceUrl": "https://samokatbook.ru/book/frederik/",
-    "sourceRecordId": "/book/frederik/",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/novinki-dlya-shkolnikov/",
+    "sourceRecordId": "https://n-e-n.ru/novinki-dlya-shkolnikov/#curated-nen-collection-frederik-leo-lionni",
     "officialTitle": "Фредерик",
     "officialAuthors": [
       "Лео Лионни"
@@ -32101,40 +32101,40 @@
     "isbn13": "9785917597867",
     "pages": 48,
     "language": "ru",
-    "replaceEdition": true,
+    "replaceEdition": false,
     "match": {
       "strategy": "work_title_author",
-      "confidence": 0.9700000000000001,
+      "confidence": 0.99,
       "titleScore": 1,
       "authorMatch": true
     },
     "verification": {
       "trustedSource": true,
-      "sourceKind": "official_publisher",
+      "sourceKind": "editorial_source",
       "titleMatched": true,
       "authorMatched": true,
-      "authorEvidence": "official_page_near_title",
+      "authorEvidence": "structured_data",
       "isbnMatched": true,
       "publisherMatched": true,
       "yearMatched": false,
       "latestRussianEditionConfirmed": false,
       "sourceSearchComplete": true,
       "checkedSources": [
-        "official-publishers"
+        "nen-editorial"
       ]
     },
-    "verifiedAt": "2026-08-03",
+    "verifiedAt": "2026-08-04",
     "enrichment": {
       "tool": "books:enrich",
       "version": "1.1.1",
-      "runAt": "2026-08-03T11:36:11.728Z"
+      "runAt": "2026-08-04T13:56:58.252Z"
     }
   },
   {
     "id": "curated-nen-collection-ochki-dlya-selesty-mariya-kolker",
-    "source": "Издательство «Альпина.Дети»",
-    "sourceUrl": "https://alpinabook.ru/catalog/book-ochki-dlya-selesty/",
-    "sourceRecordId": "/catalog/book-ochki-dlya-selesty/",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/novinki-dlya-shkolnikov/",
+    "sourceRecordId": "https://n-e-n.ru/novinki-dlya-shkolnikov/#curated-nen-collection-ochki-dlya-selesty-mariya-kolker",
     "officialTitle": "Очки для Селесты",
     "officialAuthors": [
       "Мария Колкер"
@@ -32146,31 +32146,31 @@
     "replaceEdition": false,
     "match": {
       "strategy": "work_title_author",
-      "confidence": 0.9500000000000001,
+      "confidence": 0.99,
       "titleScore": 1,
       "authorMatch": true,
       "selectedEditionYear": 2022
     },
     "verification": {
       "trustedSource": true,
-      "sourceKind": "official_publisher",
+      "sourceKind": "editorial_source",
       "titleMatched": true,
       "authorMatched": true,
-      "authorEvidence": "official_page_near_title",
+      "authorEvidence": "structured_data",
       "isbnMatched": false,
       "publisherMatched": true,
       "yearMatched": true,
       "latestRussianEditionConfirmed": true,
       "sourceSearchComplete": true,
       "checkedSources": [
-        "official-publishers"
+        "nen-editorial"
       ]
     },
-    "verifiedAt": "2026-08-03",
+    "verifiedAt": "2026-08-04",
     "enrichment": {
       "tool": "books:enrich",
       "version": "1.1.1",
-      "runAt": "2026-08-03T11:36:11.728Z"
+      "runAt": "2026-08-04T13:56:58.252Z"
     }
   },
   {
@@ -32259,10 +32259,10 @@
   },
   {
     "id": "curated-nen-collection-semeynyy-albom-tirannozavra-toni-mayk-benton",
-    "source": "Издательство «Самокат»",
-    "sourceUrl": "https://samokatbook.ru/book/semeynyy-albom-tirannozavra-toni-istoriya-dinozavrov/",
-    "sourceRecordId": "/book/semeynyy-albom-tirannozavra-toni-istoriya-dinozavrov/",
-    "officialTitle": "Семейный альбом тираннозавра Тони. История динозавров",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
+    "sourceRecordId": "https://n-e-n.ru/thebestbooksforchildren2020/#curated-nen-collection-semeynyy-albom-tirannozavra-toni-mayk-benton",
+    "officialTitle": "Семейный альбом тираннозавра Тони",
     "officialAuthors": [
       "Майк Бентон"
     ],
@@ -32270,40 +32270,40 @@
     "isbn13": "9785917598017",
     "pages": 64,
     "language": "ru",
-    "replaceEdition": true,
+    "replaceEdition": false,
     "match": {
       "strategy": "work_title_author",
-      "confidence": 0.9640000000000001,
-      "titleScore": 0.96,
+      "confidence": 0.99,
+      "titleScore": 1,
       "authorMatch": true
     },
     "verification": {
       "trustedSource": true,
-      "sourceKind": "official_publisher",
+      "sourceKind": "editorial_source",
       "titleMatched": true,
       "authorMatched": true,
-      "authorEvidence": "official_page_near_title",
+      "authorEvidence": "structured_data",
       "isbnMatched": true,
       "publisherMatched": true,
       "yearMatched": false,
       "latestRussianEditionConfirmed": false,
       "sourceSearchComplete": true,
       "checkedSources": [
-        "official-publishers"
+        "nen-editorial"
       ]
     },
-    "verifiedAt": "2026-08-03",
+    "verifiedAt": "2026-08-04",
     "enrichment": {
       "tool": "books:enrich",
       "version": "1.1.1",
-      "runAt": "2026-08-03T11:40:57.777Z"
+      "runAt": "2026-08-04T13:56:58.252Z"
     }
   },
   {
     "id": "curated-nen-collection-reka-tekuschaya-vspyat-klod-murleva",
-    "source": "Издательство «Самокат»",
-    "sourceUrl": "https://samokatbook.ru/book/reka-tekushchaya-vspyat/",
-    "sourceRecordId": "/book/reka-tekushchaya-vspyat/",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/knigi-pro-pervuyu-lyubov/",
+    "sourceRecordId": "https://n-e-n.ru/knigi-pro-pervuyu-lyubov/#curated-nen-collection-reka-tekuschaya-vspyat-klod-murleva",
     "officialTitle": "Река, текущая вспять",
     "officialAuthors": [
       "Жан-Клод Мурлева"
@@ -32316,37 +32316,38 @@
     "replaceEdition": false,
     "match": {
       "strategy": "work_title_author",
-      "confidence": 0.9700000000000001,
+      "confidence": 0.99,
       "titleScore": 1,
-      "authorMatch": true
+      "authorMatch": true,
+      "selectedEditionYear": 2020
     },
     "verification": {
       "trustedSource": true,
-      "sourceKind": "official_publisher",
+      "sourceKind": "editorial_source",
       "titleMatched": true,
       "authorMatched": true,
-      "authorEvidence": "official_page_near_title",
+      "authorEvidence": "structured_data",
       "isbnMatched": true,
       "publisherMatched": true,
-      "yearMatched": false,
-      "latestRussianEditionConfirmed": false,
+      "yearMatched": true,
+      "latestRussianEditionConfirmed": true,
       "sourceSearchComplete": true,
       "checkedSources": [
-        "official-publishers"
+        "nen-editorial"
       ]
     },
-    "verifiedAt": "2026-08-03",
+    "verifiedAt": "2026-08-04",
     "enrichment": {
       "tool": "books:enrich",
       "version": "1.1.1",
-      "runAt": "2026-08-03T11:40:57.777Z"
+      "runAt": "2026-08-04T13:56:58.252Z"
     }
   },
   {
     "id": "curated-nen-collection-idi-poigray-s-tem-malchikom-klementina-bove",
-    "source": "Издательство «Самокат»",
-    "sourceUrl": "https://samokatbook.ru/book/idi-poigray-s-tem-malchikom/",
-    "sourceRecordId": "/book/idi-poigray-s-tem-malchikom/",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
+    "sourceRecordId": "https://n-e-n.ru/tenbestbooksforchildren/#curated-nen-collection-idi-poigray-s-tem-malchikom-klementina-bove",
     "officialTitle": "Иди поиграй с тем мальчиком!",
     "officialAuthors": [
       "Клементина Бове"
@@ -32355,41 +32356,41 @@
     "isbn13": "9785001671732",
     "pages": 32,
     "language": "ru",
-    "replaceEdition": true,
+    "replaceEdition": false,
     "match": {
       "strategy": "work_title_author",
-      "confidence": 0.9700000000000001,
+      "confidence": 0.99,
       "titleScore": 1,
       "authorMatch": true
     },
     "verification": {
       "trustedSource": true,
-      "sourceKind": "official_publisher",
+      "sourceKind": "editorial_source",
       "titleMatched": true,
       "authorMatched": true,
-      "authorEvidence": "official_page_near_title",
+      "authorEvidence": "structured_data",
       "isbnMatched": true,
       "publisherMatched": true,
       "yearMatched": false,
       "latestRussianEditionConfirmed": false,
       "sourceSearchComplete": true,
       "checkedSources": [
-        "official-publishers"
+        "nen-editorial"
       ]
     },
-    "verifiedAt": "2026-08-03",
+    "verifiedAt": "2026-08-04",
     "enrichment": {
       "tool": "books:enrich",
       "version": "1.1.1",
-      "runAt": "2026-08-03T11:40:57.777Z"
+      "runAt": "2026-08-04T13:56:58.252Z"
     }
   },
   {
     "id": "curated-nen-collection-6-minut-dlya-detey-dominik-spenst",
-    "source": "Издательство «Альпина.Дети»",
-    "sourceUrl": "https://alpinabook.ru/catalog/book-6-minut-dlya-detey/",
-    "sourceRecordId": "/catalog/book-6-minut-dlya-detey/",
-    "officialTitle": "6 минут для детей Первый мотивационный ежедневник ребенка",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/8-knig/",
+    "sourceRecordId": "https://n-e-n.ru/8-knig/#curated-nen-collection-6-minut-dlya-detey-dominik-spenst",
+    "officialTitle": "6 минут для детей",
     "officialAuthors": [
       "Доминик Спенст"
     ],
@@ -32398,118 +32399,119 @@
     "publicationYear": 2026,
     "pages": 200,
     "language": "ru",
-    "replaceEdition": true,
+    "replaceEdition": false,
     "match": {
       "strategy": "work_title_author",
-      "confidence": 0.9640000000000001,
-      "titleScore": 0.96,
+      "confidence": 0.99,
+      "titleScore": 1,
       "authorMatch": true,
       "selectedEditionYear": 2026
     },
     "verification": {
       "trustedSource": true,
-      "sourceKind": "official_publisher",
+      "sourceKind": "editorial_source",
       "titleMatched": true,
       "authorMatched": true,
-      "authorEvidence": "official_page_near_title",
+      "authorEvidence": "structured_data",
       "isbnMatched": true,
       "publisherMatched": true,
       "yearMatched": true,
       "latestRussianEditionConfirmed": true,
       "sourceSearchComplete": true,
       "checkedSources": [
-        "official-publishers"
+        "nen-editorial"
       ]
     },
-    "verifiedAt": "2026-08-03",
+    "verifiedAt": "2026-08-04",
     "enrichment": {
       "tool": "books:enrich",
       "version": "1.1.1",
-      "runAt": "2026-08-03T11:40:57.777Z"
+      "runAt": "2026-08-04T13:56:58.252Z"
     }
   },
   {
     "id": "curated-nen-collection-shlyapniki-tamzin-merchant",
-    "source": "Издательство «АСТ»",
-    "sourceUrl": "https://ast.ru/book/shlyapniki-853036/",
-    "sourceRecordId": "/book/shlyapniki-853036/",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/sohraniai-svobody-v-golove/",
+    "sourceRecordId": "https://n-e-n.ru/sohraniai-svobody-v-golove/#curated-nen-collection-shlyapniki-tamzin-merchant",
     "officialTitle": "Шляпники",
     "officialAuthors": [
       "Тамзин Мерчант"
     ],
-    "publisher": "Издательство АСТ",
+    "publisher": "АСТ, Вилли Винки",
     "isbn13": "9785171275341",
     "pages": 384,
     "language": "ru",
-    "replaceEdition": true,
+    "replaceEdition": false,
     "match": {
       "strategy": "work_title_author",
-      "confidence": 0.9700000000000001,
+      "confidence": 0.99,
       "titleScore": 1,
       "authorMatch": true
     },
     "verification": {
       "trustedSource": true,
-      "sourceKind": "official_publisher",
+      "sourceKind": "editorial_source",
       "titleMatched": true,
       "authorMatched": true,
-      "authorEvidence": "official_page_near_title",
+      "authorEvidence": "structured_data",
       "isbnMatched": true,
       "publisherMatched": true,
       "yearMatched": false,
       "latestRussianEditionConfirmed": false,
       "sourceSearchComplete": true,
       "checkedSources": [
-        "official-publishers"
+        "nen-editorial"
       ]
     },
-    "verifiedAt": "2026-08-03",
+    "verifiedAt": "2026-08-04",
     "enrichment": {
       "tool": "books:enrich",
       "version": "1.1.1",
-      "runAt": "2026-08-03T11:40:57.777Z"
+      "runAt": "2026-08-04T13:56:58.252Z"
     }
   },
   {
     "id": "curated-nen-collection-v-poiskah-deda-moroza-ann-montel",
-    "source": "Издательство «Самокат»",
-    "sourceUrl": "https://samokatbook.ru/book/v-poiskakh-deda-moroza/",
-    "sourceRecordId": "/book/v-poiskakh-deda-moroza/",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/",
+    "sourceRecordId": "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/#curated-nen-collection-v-poiskah-deda-moroza-ann-montel",
     "officialTitle": "В поисках Деда Мороза",
     "officialAuthors": [
-      "Лоик Клеман; Анн Монтель"
+      "Лоик Клеман",
+      "Анн Монтель"
     ],
     "publisher": "Самокат",
     "isbn13": "9785001676911",
     "pages": 40,
     "language": "ru",
-    "replaceEdition": true,
+    "replaceEdition": false,
     "match": {
       "strategy": "work_title_author",
-      "confidence": 0.9700000000000001,
+      "confidence": 0.99,
       "titleScore": 1,
       "authorMatch": true
     },
     "verification": {
       "trustedSource": true,
-      "sourceKind": "official_publisher",
+      "sourceKind": "editorial_source",
       "titleMatched": true,
       "authorMatched": true,
-      "authorEvidence": "official_page_near_title",
+      "authorEvidence": "structured_data",
       "isbnMatched": true,
       "publisherMatched": true,
       "yearMatched": false,
       "latestRussianEditionConfirmed": false,
       "sourceSearchComplete": true,
       "checkedSources": [
-        "official-publishers"
+        "nen-editorial"
       ]
     },
-    "verifiedAt": "2026-08-03",
+    "verifiedAt": "2026-08-04",
     "enrichment": {
       "tool": "books:enrich",
       "version": "1.1.1",
-      "runAt": "2026-08-03T11:40:57.777Z"
+      "runAt": "2026-08-04T13:56:58.252Z"
     }
   },
   {
@@ -33217,27 +33219,27 @@
   },
   {
     "id": "curated-nen-collection-kak-flip-zatopil-ves-mir-adam-stouer",
-    "source": "Издательство «Мелик-Пашаев»",
-    "sourceUrl": "https://melik-pashaev.ru/product/kak-flip-zatopil-ves-mir/",
-    "sourceRecordId": "/product/kak-flip-zatopil-ves-mir/",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
+    "sourceRecordId": "https://n-e-n.ru/tenbestbooksforchildren/#curated-nen-collection-kak-flip-zatopil-ves-mir-adam-stouer",
     "officialTitle": "Как Флип затопил весь мир",
     "officialAuthors": [
-      "Стоуэр Адам Художник Стоуэр Адам Вид Мягкая обложка Кол-во страниц 40 Возраст 0-3 года , 4-6 лет"
+      "Адам Стоуэр"
     ],
     "publisher": "Мелик-Пашаев",
     "isbn13": "9785000414514",
     "pages": 40,
     "language": "ru",
-    "replaceEdition": true,
+    "replaceEdition": false,
     "match": {
       "strategy": "work_title_author",
-      "confidence": 0.9700000000000001,
+      "confidence": 0.99,
       "titleScore": 1,
       "authorMatch": true
     },
     "verification": {
       "trustedSource": true,
-      "sourceKind": "official_publisher",
+      "sourceKind": "editorial_source",
       "titleMatched": true,
       "authorMatched": true,
       "authorEvidence": "structured_data",
@@ -33247,39 +33249,39 @@
       "latestRussianEditionConfirmed": false,
       "sourceSearchComplete": true,
       "checkedSources": [
-        "official-publishers"
+        "nen-editorial"
       ]
     },
-    "verifiedAt": "2026-08-03",
+    "verifiedAt": "2026-08-04",
     "enrichment": {
       "tool": "books:enrich",
       "version": "1.1.1",
-      "runAt": "2026-08-03T17:51:33.516Z"
+      "runAt": "2026-08-04T13:56:58.252Z"
     }
   },
   {
     "id": "curated-nen-collection-letniy-den-s-druzyami-filip-vehter",
-    "source": "Издательство «Мелик-Пашаев»",
-    "sourceUrl": "https://melik-pashaev.ru/product/letniy-den-s-druzyami/",
-    "sourceRecordId": "/product/letniy-den-s-druzyami/",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/novinki-dlya-shkolnikov/",
+    "sourceRecordId": "https://n-e-n.ru/novinki-dlya-shkolnikov/#curated-nen-collection-letniy-den-s-druzyami-filip-vehter",
     "officialTitle": "Летний день с друзьями",
     "officialAuthors": [
-      "Вехтер Филип Художник Вехтер Филип Вид Мягкая обложка Кол-во страниц 32 Возраст 0-3 года , 4-6 лет"
+      "Филип Вехтер"
     ],
     "publisher": "Мелик-Пашаев",
     "isbn13": "9785000414880",
     "pages": 32,
     "language": "ru",
-    "replaceEdition": true,
+    "replaceEdition": false,
     "match": {
       "strategy": "work_title_author",
-      "confidence": 0.9700000000000001,
+      "confidence": 0.99,
       "titleScore": 1,
       "authorMatch": true
     },
     "verification": {
       "trustedSource": true,
-      "sourceKind": "official_publisher",
+      "sourceKind": "editorial_source",
       "titleMatched": true,
       "authorMatched": true,
       "authorEvidence": "structured_data",
@@ -33289,14 +33291,1552 @@
       "latestRussianEditionConfirmed": false,
       "sourceSearchComplete": true,
       "checkedSources": [
-        "official-publishers"
+        "nen-editorial"
       ]
     },
-    "verifiedAt": "2026-08-03",
+    "verifiedAt": "2026-08-04",
     "enrichment": {
       "tool": "books:enrich",
       "version": "1.1.1",
-      "runAt": "2026-08-03T17:53:16.916Z"
+      "runAt": "2026-08-04T13:56:58.252Z"
+    }
+  },
+  {
+    "id": "curated-nen-collection-stihi-mashi-rupasovoy-masha-rupasova",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
+    "sourceRecordId": "https://n-e-n.ru/thebestbooksforchildren2020/#curated-nen-collection-stihi-mashi-rupasovoy-masha-rupasova",
+    "officialTitle": "Стихи Маши Рупасовой",
+    "officialAuthors": [
+      "Маша Рупасова"
+    ],
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": false,
+      "publisherMatched": false,
+      "yearMatched": false,
+      "latestRussianEditionConfirmed": false,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "nen-editorial"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T08:17:14.757Z"
+    }
+  },
+  {
+    "id": "curated-nen-collection-pro-lisa-i-porosenka-bern-rervik",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
+    "sourceRecordId": "https://n-e-n.ru/thebestbooksforchildren2020/#curated-nen-collection-pro-lisa-i-porosenka-bern-rervik",
+    "officialTitle": "Про Лиса и Поросенка",
+    "officialAuthors": [
+      "Бьёрн Рёрвик"
+    ],
+    "publisher": "Самокат",
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": false,
+      "publisherMatched": true,
+      "yearMatched": false,
+      "latestRussianEditionConfirmed": false,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "nen-editorial"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T08:17:14.757Z"
+    }
+  },
+  {
+    "id": "curated-nen-collection-chelovetkin-dzhuliya-donaldson",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
+    "sourceRecordId": "https://n-e-n.ru/thebestbooksforchildren2020/#curated-nen-collection-chelovetkin-dzhuliya-donaldson",
+    "officialTitle": "Человеткин",
+    "officialAuthors": [
+      "Джулия Дональдсон"
+    ],
+    "publisher": "Машины творения",
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": false,
+      "publisherMatched": true,
+      "yearMatched": false,
+      "latestRussianEditionConfirmed": false,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "nen-editorial"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T08:17:14.757Z"
+    }
+  },
+  {
+    "id": "curated-nen-collection-odin-za-vseh-i-vse-za-odnogo-brigit-veninger",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
+    "sourceRecordId": "https://n-e-n.ru/thebestbooksforchildren2020/#curated-nen-collection-odin-za-vseh-i-vse-za-odnogo-brigit-veninger",
+    "officialTitle": "Один за всех и все за одного",
+    "officialAuthors": [
+      "Бригит Венингер"
+    ],
+    "publisher": "Нигма",
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": false,
+      "publisherMatched": true,
+      "yearMatched": false,
+      "latestRussianEditionConfirmed": false,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "nen-editorial"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T08:17:14.757Z"
+    }
+  },
+  {
+    "id": "curated-nen-collection-myshonok-kotoryy-tam-anastasiya-kovalenkova",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
+    "sourceRecordId": "https://n-e-n.ru/thebestbooksforchildren2020/#curated-nen-collection-myshonok-kotoryy-tam-anastasiya-kovalenkova",
+    "officialTitle": "Мышонок, который там",
+    "officialAuthors": [
+      "Анастасия Коваленкова"
+    ],
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": false,
+      "publisherMatched": false,
+      "yearMatched": false,
+      "latestRussianEditionConfirmed": false,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "nen-editorial"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T08:17:14.757Z"
+    }
+  },
+  {
+    "id": "curated-nen-collection-kto-uteshit-knyutta-tuve-yansson",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
+    "sourceRecordId": "https://n-e-n.ru/thebestbooksforchildren2020/#curated-nen-collection-kto-uteshit-knyutta-tuve-yansson",
+    "officialTitle": "Кто утешит Кнютта",
+    "officialAuthors": [
+      "Туве Янссон"
+    ],
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": false,
+      "publisherMatched": false,
+      "yearMatched": false,
+      "latestRussianEditionConfirmed": false,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "nen-editorial"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T08:17:14.757Z"
+    }
+  },
+  {
+    "id": "curated-nen-collection-meydelin-finn-i-sobaka-iz-priyuta-liza-papp",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
+    "sourceRecordId": "https://n-e-n.ru/thebestbooksforchildren2020/#curated-nen-collection-meydelin-finn-i-sobaka-iz-priyuta-liza-papp",
+    "officialTitle": "Мейделин Финн и собака из приюта",
+    "officialAuthors": [
+      "Лиза Папп"
+    ],
+    "publisher": "Поляндрия",
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": false,
+      "publisherMatched": true,
+      "yearMatched": false,
+      "latestRussianEditionConfirmed": false,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "nen-editorial"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T08:17:14.757Z"
+    }
+  },
+  {
+    "id": "curated-nen-collection-vse-o-mumi-trollyah-tuve-yansson",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
+    "sourceRecordId": "https://n-e-n.ru/thebestbooksforchildren2020/#curated-nen-collection-vse-o-mumi-trollyah-tuve-yansson",
+    "officialTitle": "Все о Муми-троллях",
+    "officialAuthors": [
+      "Туве Янссон"
+    ],
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": false,
+      "publisherMatched": false,
+      "yearMatched": false,
+      "latestRussianEditionConfirmed": false,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "nen-editorial"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T08:17:14.757Z"
+    }
+  },
+  {
+    "id": "curated-nen-collection-kartofelnaya-sobaka-yuriy-koval",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/10-glavnih-detskih-knig/",
+    "sourceRecordId": "https://n-e-n.ru/10-glavnih-detskih-knig/#curated-nen-collection-kartofelnaya-sobaka-yuriy-koval",
+    "officialTitle": "Картофельная собака",
+    "officialAuthors": [
+      "Юрий Коваль"
+    ],
+    "publisher": "Самокат",
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": false,
+      "publisherMatched": true,
+      "yearMatched": false,
+      "latestRussianEditionConfirmed": false,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "nen-editorial"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T08:17:14.757Z"
+    }
+  },
+  {
+    "id": "curated-nen-collection-shtora-nyanyushki-lagton-virdzhiniya-vulf",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/10-glavnih-detskih-knig/",
+    "sourceRecordId": "https://n-e-n.ru/10-glavnih-detskih-knig/#curated-nen-collection-shtora-nyanyushki-lagton-virdzhiniya-vulf",
+    "officialTitle": "Штора нянюшки Лагтон",
+    "officialAuthors": [
+      "Вирджиния Вулф"
+    ],
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": false,
+      "publisherMatched": false,
+      "yearMatched": false,
+      "latestRussianEditionConfirmed": false,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "nen-editorial"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T08:17:14.757Z"
+    }
+  },
+  {
+    "id": "curated-nen-collection-chto-nuzhno-malenkoy-koshke-natalya-shaloshvili",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
+    "sourceRecordId": "https://n-e-n.ru/tenbestbooksforchildren/#curated-nen-collection-chto-nuzhno-malenkoy-koshke-natalya-shaloshvili",
+    "officialTitle": "Что нужно маленькой кошке",
+    "officialAuthors": [
+      "Наталья Шалошвили"
+    ],
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": false,
+      "publisherMatched": false,
+      "yearMatched": false,
+      "latestRussianEditionConfirmed": false,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "nen-editorial"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T08:17:14.757Z"
+    }
+  },
+  {
+    "id": "curated-nen-collection-vernye-druzya-mariam-kordes",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
+    "sourceRecordId": "https://n-e-n.ru/tenbestbooksforchildren/#curated-nen-collection-vernye-druzya-mariam-kordes",
+    "officialTitle": "Верные друзья",
+    "officialAuthors": [
+      "Мариам Кордес"
+    ],
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": false,
+      "publisherMatched": false,
+      "yearMatched": false,
+      "latestRussianEditionConfirmed": false,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "nen-editorial"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T08:17:14.757Z"
+    }
+  },
+  {
+    "id": "curated-nen-collection-spat-kak-tigr-masha-lukashkina",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
+    "sourceRecordId": "https://n-e-n.ru/tenbestbooksforchildren/#curated-nen-collection-spat-kak-tigr-masha-lukashkina",
+    "officialTitle": "Спать, как тигр",
+    "officialAuthors": [
+      "Маша Лукашкина"
+    ],
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": false,
+      "publisherMatched": false,
+      "yearMatched": false,
+      "latestRussianEditionConfirmed": false,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "nen-editorial"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T08:17:14.757Z"
+    }
+  },
+  {
+    "id": "curated-nen-collection-molli-i-shtormovoe-more-doyl-malahiya",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
+    "sourceRecordId": "https://n-e-n.ru/tenbestbooksforchildren/#curated-nen-collection-molli-i-shtormovoe-more-doyl-malahiya",
+    "officialTitle": "Молли и штормовое море",
+    "officialAuthors": [
+      "Дойл Малахия"
+    ],
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": false,
+      "publisherMatched": false,
+      "yearMatched": false,
+      "latestRussianEditionConfirmed": false,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "nen-editorial"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T08:17:14.757Z"
+    }
+  },
+  {
+    "id": "curated-nen-collection-god-polnyy-chudes-b-klyayn",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
+    "sourceRecordId": "https://n-e-n.ru/tenbestbooksforchildren/#curated-nen-collection-god-polnyy-chudes-b-klyayn",
+    "officialTitle": "Год, полный чудес",
+    "officialAuthors": [
+      "Шерил Б.Кляйн"
+    ],
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": false,
+      "publisherMatched": false,
+      "yearMatched": false,
+      "latestRussianEditionConfirmed": false,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "nen-editorial"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T08:17:14.757Z"
+    }
+  },
+  {
+    "id": "curated-nen-collection-pingvikingi-anton-soya",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
+    "sourceRecordId": "https://n-e-n.ru/tenbestbooksforchildren/#curated-nen-collection-pingvikingi-anton-soya",
+    "officialTitle": "Пингвикинги",
+    "officialAuthors": [
+      "Антон Соя"
+    ],
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": false,
+      "publisherMatched": false,
+      "yearMatched": false,
+      "latestRussianEditionConfirmed": false,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "nen-editorial"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T08:17:14.757Z"
+    }
+  },
+  {
+    "id": "curated-nen-collection-shkola-v-karmartene-anna-korosteleva",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+    "sourceRecordId": "https://n-e-n.ru/knigi-dlya-podrostkov/#curated-nen-collection-shkola-v-karmartene-anna-korosteleva",
+    "officialTitle": "Школа в Кармартене",
+    "officialAuthors": [
+      "Анна Коростелева"
+    ],
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": false,
+      "publisherMatched": false,
+      "yearMatched": false,
+      "latestRussianEditionConfirmed": false,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "nen-editorial"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T08:17:14.757Z"
+    }
+  },
+  {
+    "id": "curated-nen-collection-muley-erlend-lu",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+    "sourceRecordId": "https://n-e-n.ru/knigi-dlya-podrostkov/#curated-nen-collection-muley-erlend-lu",
+    "officialTitle": "Мулей",
+    "officialAuthors": [
+      "Эрленд Лу"
+    ],
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": false,
+      "publisherMatched": false,
+      "yearMatched": false,
+      "latestRussianEditionConfirmed": false,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "nen-editorial"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T08:17:14.757Z"
+    }
+  },
+  {
+    "id": "curated-nen-collection-kogda-my-vstretimsya-rebekka-sted",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+    "sourceRecordId": "https://n-e-n.ru/knigi-dlya-podrostkov/#curated-nen-collection-kogda-my-vstretimsya-rebekka-sted",
+    "officialTitle": "Когда мы встретимся",
+    "officialAuthors": [
+      "Ребекка Стед"
+    ],
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": false,
+      "publisherMatched": false,
+      "yearMatched": false,
+      "latestRussianEditionConfirmed": false,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "nen-editorial"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T08:17:14.757Z"
+    }
+  },
+  {
+    "id": "curated-nen-collection-bezdna-chellendzhera-nil-shusterman",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+    "sourceRecordId": "https://n-e-n.ru/knigi-dlya-podrostkov/#curated-nen-collection-bezdna-chellendzhera-nil-shusterman",
+    "officialTitle": "Бездна Челленджера",
+    "officialAuthors": [
+      "Нил Шустерман"
+    ],
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": false,
+      "publisherMatched": false,
+      "yearMatched": false,
+      "latestRussianEditionConfirmed": false,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "nen-editorial"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T08:17:14.757Z"
+    }
+  },
+  {
+    "id": "curated-nen-collection-ptitsa-v-kletke-robin-rou",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+    "sourceRecordId": "https://n-e-n.ru/knigi-dlya-podrostkov/#curated-nen-collection-ptitsa-v-kletke-robin-rou",
+    "officialTitle": "Птица в клетке",
+    "officialAuthors": [
+      "Робин Роу"
+    ],
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": false,
+      "publisherMatched": false,
+      "yearMatched": false,
+      "latestRussianEditionConfirmed": false,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "nen-editorial"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T08:17:14.757Z"
+    }
+  },
+  {
+    "id": "curated-nen-collection-schepotka-magii-mishel-harrison",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/8-knig/",
+    "sourceRecordId": "https://n-e-n.ru/8-knig/#curated-nen-collection-schepotka-magii-mishel-harrison",
+    "officialTitle": "Щепотка магии",
+    "officialAuthors": [
+      "Мишель Харрисон"
+    ],
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": false,
+      "publisherMatched": false,
+      "yearMatched": false,
+      "latestRussianEditionConfirmed": false,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "nen-editorial"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T08:17:14.757Z"
+    }
+  },
+  {
+    "id": "curated-nen-collection-klubok-zaklinaniy-mishel-harrison",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/8-knig/",
+    "sourceRecordId": "https://n-e-n.ru/8-knig/#curated-nen-collection-klubok-zaklinaniy-mishel-harrison",
+    "officialTitle": "Клубок заклинаний",
+    "officialAuthors": [
+      "Мишель Харрисон"
+    ],
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": false,
+      "publisherMatched": false,
+      "yearMatched": false,
+      "latestRussianEditionConfirmed": false,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "nen-editorial"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T08:17:14.757Z"
+    }
+  },
+  {
+    "id": "curated-nen-collection-zatonuvshiy-les-lloyd-dzhons",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/8-knig/",
+    "sourceRecordId": "https://n-e-n.ru/8-knig/#curated-nen-collection-zatonuvshiy-les-lloyd-dzhons",
+    "officialTitle": "Затонувший лес",
+    "officialAuthors": [
+      "Эмили Ллойд-Джонс"
+    ],
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": false,
+      "publisherMatched": false,
+      "yearMatched": false,
+      "latestRussianEditionConfirmed": false,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "nen-editorial"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T08:17:14.757Z"
+    }
+  },
+  {
+    "id": "curated-nen-collection-neveroyatno-opasnaya-sliz-ledyanye-myshki-sedobnye-kamni-i-esche-95-istoriy-o-mire-vokrug-nas-nastya-tr",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/5-knig-alpina/",
+    "sourceRecordId": "https://n-e-n.ru/5-knig-alpina/#curated-nen-collection-neveroyatno-opasnaya-sliz-ledyanye-myshki-sedobnye-kamni-i-esche-95-istoriy-o-mire-vokrug-nas-nastya-tr",
+    "officialTitle": "Невероятно! Опасная слизь, ледяные мышки, съедобные камни и еще 95 историй о мире вокруг нас",
+    "officialAuthors": [
+      "Ася Ванякина, Настя Троян"
+    ],
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": false,
+      "publisherMatched": false,
+      "yearMatched": false,
+      "latestRussianEditionConfirmed": false,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "nen-editorial"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T08:17:14.757Z"
+    }
+  },
+  {
+    "id": "curated-nen-collection-druzhba-posle-ssory-novye-priklyucheniya-emo-i-chiki-dzhoshua-vays",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/5-knig-alpina/",
+    "sourceRecordId": "https://n-e-n.ru/5-knig-alpina/#curated-nen-collection-druzhba-posle-ssory-novye-priklyucheniya-emo-i-chiki-dzhoshua-vays",
+    "officialTitle": "Дружба после ссоры… Новые приключения Эмо и Чики",
+    "officialAuthors": [
+      "Грегг Релье, Джошуа Вайс"
+    ],
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": false,
+      "publisherMatched": false,
+      "yearMatched": false,
+      "latestRussianEditionConfirmed": false,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "nen-editorial"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T08:17:14.757Z"
+    }
+  },
+  {
+    "id": "curated-nen-collection-istorii-pro-pyarta-anti-saar",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/5-knig-alpina/",
+    "sourceRecordId": "https://n-e-n.ru/5-knig-alpina/#curated-nen-collection-istorii-pro-pyarta-anti-saar",
+    "officialTitle": "Истории про Пярта",
+    "officialAuthors": [
+      "Анти Саар"
+    ],
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": false,
+      "publisherMatched": false,
+      "yearMatched": false,
+      "latestRussianEditionConfirmed": false,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "nen-editorial"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T08:17:14.757Z"
+    }
+  },
+  {
+    "id": "curated-nen-collection-poigray-s-mimi-anna-permyakova",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/goroshek/",
+    "sourceRecordId": "https://n-e-n.ru/goroshek/#curated-nen-collection-poigray-s-mimi-anna-permyakova",
+    "officialTitle": "Поиграй с Мими",
+    "officialAuthors": [
+      "Анна Пермякова"
+    ],
+    "publisher": "Самокат",
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": false,
+      "publisherMatched": true,
+      "yearMatched": false,
+      "latestRussianEditionConfirmed": false,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "nen-editorial"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T08:17:14.757Z"
+    }
+  },
+  {
+    "id": "curated-nen-collection-i-kto-to-skazal-privet-nihan-temiz",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/goroshek/",
+    "sourceRecordId": "https://n-e-n.ru/goroshek/#curated-nen-collection-i-kto-to-skazal-privet-nihan-temiz",
+    "officialTitle": "И кто-то сказал «Привет»",
+    "officialAuthors": [
+      "Нихан Темиз"
+    ],
+    "publisher": "Поляндрия",
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": false,
+      "publisherMatched": true,
+      "yearMatched": false,
+      "latestRussianEditionConfirmed": false,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "nen-editorial"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T08:17:14.757Z"
+    }
+  },
+  {
+    "id": "curated-nen-collection-moya-bolshaya-sibiy-delakrua",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/novinki-dlya-shkolnikov/",
+    "sourceRecordId": "https://n-e-n.ru/novinki-dlya-shkolnikov/#curated-nen-collection-moya-bolshaya-sibiy-delakrua",
+    "officialTitle": "Моя большая",
+    "officialAuthors": [
+      "Сибий Делакруа"
+    ],
+    "publisher": "Поляндрия",
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": false,
+      "publisherMatched": true,
+      "yearMatched": false,
+      "latestRussianEditionConfirmed": false,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "nen-editorial"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T08:17:14.757Z"
+    }
+  },
+  {
+    "id": "curated-nen-collection-dobraya-akula-elena-repetur",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/novinki-dlya-shkolnikov/",
+    "sourceRecordId": "https://n-e-n.ru/novinki-dlya-shkolnikov/#curated-nen-collection-dobraya-akula-elena-repetur",
+    "officialTitle": "Добрая акула",
+    "officialAuthors": [
+      "Елена Репетур"
+    ],
+    "publisher": "Белая ворона",
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": false,
+      "publisherMatched": true,
+      "yearMatched": false,
+      "latestRussianEditionConfirmed": false,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "nen-editorial"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T08:17:14.757Z"
+    }
+  },
+  {
+    "id": "curated-nen-collection-sup-sinora-leprona-dzhovanna-dzoboli",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/novinki-dlya-shkolnikov/",
+    "sourceRecordId": "https://n-e-n.ru/novinki-dlya-shkolnikov/#curated-nen-collection-sup-sinora-leprona-dzhovanna-dzoboli",
+    "officialTitle": "Суп синьора Лепрона",
+    "officialAuthors": [
+      "Джованна Дзоболи"
+    ],
+    "publisher": "Городец",
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": false,
+      "publisherMatched": true,
+      "yearMatched": false,
+      "latestRussianEditionConfirmed": false,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "nen-editorial"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T08:17:14.757Z"
+    }
+  },
+  {
+    "id": "curated-nen-collection-silviya-i-ptichka-ketrin-reyner",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/novinki-dlya-shkolnikov/",
+    "sourceRecordId": "https://n-e-n.ru/novinki-dlya-shkolnikov/#curated-nen-collection-silviya-i-ptichka-ketrin-reyner",
+    "officialTitle": "Сильвия и Птичка",
+    "officialAuthors": [
+      "Кэтрин Рейнер"
+    ],
+    "publisher": "Поляндрия",
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": false,
+      "publisherMatched": true,
+      "yearMatched": false,
+      "latestRussianEditionConfirmed": false,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "nen-editorial"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T08:17:14.757Z"
+    }
+  },
+  {
+    "id": "curated-nen-collection-vasilkovaya-zima-hegyum-kim",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/",
+    "sourceRecordId": "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/#curated-nen-collection-vasilkovaya-zima-hegyum-kim",
+    "officialTitle": "Васильковая зима",
+    "officialAuthors": [
+      "Хегюм Ким"
+    ],
+    "publisher": ": «Поляндрия",
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": false,
+      "publisherMatched": true,
+      "yearMatched": false,
+      "latestRussianEditionConfirmed": false,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "nen-editorial"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T08:17:14.757Z"
+    }
+  },
+  {
+    "id": "curated-nen-collection-gde-to-v-snegu-linde-faas",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/",
+    "sourceRecordId": "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/#curated-nen-collection-gde-to-v-snegu-linde-faas",
+    "officialTitle": "Где-то в снегу",
+    "officialAuthors": [
+      "Линде Фаас"
+    ],
+    "publisher": ": «Поляндрия",
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": false,
+      "publisherMatched": true,
+      "yearMatched": false,
+      "latestRussianEditionConfirmed": false,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "nen-editorial"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T08:17:14.757Z"
+    }
+  },
+  {
+    "id": "curated-nen-collection-zavetnoe-zhelanie-krotika-sangyn-kim",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/",
+    "sourceRecordId": "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/#curated-nen-collection-zavetnoe-zhelanie-krotika-sangyn-kim",
+    "officialTitle": "Заветное желание кротика",
+    "officialAuthors": [
+      "Сангын Ким"
+    ],
+    "publisher": ": «Поляндрия",
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": false,
+      "publisherMatched": true,
+      "yearMatched": false,
+      "latestRussianEditionConfirmed": false,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "nen-editorial"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T08:17:14.757Z"
+    }
+  },
+  {
+    "id": "curated-nen-collection-elka-yulka-olive-tallek",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/",
+    "sourceRecordId": "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/#curated-nen-collection-elka-yulka-olive-tallek",
+    "officialTitle": "Елка Юлька",
+    "officialAuthors": [
+      "Оливье Таллек"
+    ],
+    "publisher": "Самокат",
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": false,
+      "publisherMatched": true,
+      "yearMatched": false,
+      "latestRussianEditionConfirmed": false,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "nen-editorial"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T08:17:14.757Z"
+    }
+  },
+  {
+    "id": "curated-nen-collection-peschernyy-chelovek-terri-pratchett",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/sohraniai-svobody-v-golove/",
+    "sourceRecordId": "https://n-e-n.ru/sohraniai-svobody-v-golove/#curated-nen-collection-peschernyy-chelovek-terri-pratchett",
+    "officialTitle": "Пещерный человек",
+    "officialAuthors": [
+      "Терри Пратчетт"
+    ],
+    "publisher": "Поляндрия",
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": false,
+      "publisherMatched": true,
+      "yearMatched": false,
+      "latestRussianEditionConfirmed": false,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "nen-editorial"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T08:17:14.757Z"
+    }
+  },
+  {
+    "id": "curated-nen-collection-magazin-dikovinnyh-sladostey-schaste-za-monetku-reyko-hirosima",
+    "source": "НЭН",
+    "sourceUrl": "https://n-e-n.ru/sohraniai-svobody-v-golove/",
+    "sourceRecordId": "https://n-e-n.ru/sohraniai-svobody-v-golove/#curated-nen-collection-magazin-dikovinnyh-sladostey-schaste-za-monetku-reyko-hirosima",
+    "officialTitle": "Магазин диковинных сладостей «Счастье за монетку»",
+    "officialAuthors": [
+      "Рэйко Хиросима"
+    ],
+    "publisher": "Поляндрия",
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99,
+      "titleScore": 1,
+      "authorMatch": true
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": false,
+      "publisherMatched": true,
+      "yearMatched": false,
+      "latestRussianEditionConfirmed": false,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "nen-editorial"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T08:17:14.757Z"
     }
   }
 ]

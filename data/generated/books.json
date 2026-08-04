@@ -151846,7 +151846,6 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": true,
-    "coverUrl": "https://n-e-n.ru/images/2025-11-12/69147102ed4ee_1040x720.jpg",
     "annotationProvenance": {
       "source": "НЭН",
       "sourceUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
@@ -151861,12 +151860,39 @@
       "sourceUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
       "collectionSlugs": [
         "vybor-redaktsii-nen-2020"
-      ]
+      ],
+      "officialMetadataAudit": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
+        "sourceRecordId": "https://n-e-n.ru/thebestbooksforchildren2020/#curated-nen-collection-pro-lisa-i-porosenka-bern-rervik",
+        "verifiedAt": "2026-08-04",
+        "match": {
+          "strategy": "work_title_author",
+          "confidence": 0.99,
+          "titleScore": 1,
+          "authorMatch": true
+        },
+        "officialTitle": "Про Лиса и Поросенка",
+        "officialAuthors": [
+          "Бьёрн Рёрвик"
+        ]
+      }
     },
     "status": "published",
     "author": "Бьёрн Рёрвик",
     "ageLabel": "4–8 лет",
-    "whyRecommended": "Подойдёт читателям 4–8 лет, которые любят реалистическую прозу. В книге затрагиваются темы дружбы, животных и природы."
+    "whyRecommended": "Подойдёт читателям 4–8 лет, которые любят реалистическую прозу. В книге затрагиваются темы дружбы, животных и природы.",
+    "language": "ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2025-11-12/69147102ed4ee_1040x720.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    }
   },
   {
     "id": "curated-nen-collection-stihi-mashi-rupasovoy-masha-rupasova",
@@ -151890,7 +151916,6 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": true,
-    "coverUrl": "https://n-e-n.ru/images/2020-12-28/5fe9e14d270e0_0x0.jpg",
     "annotationProvenance": {
       "source": "НЭН",
       "sourceUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
@@ -151905,12 +151930,39 @@
       "sourceUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
       "collectionSlugs": [
         "vybor-redaktsii-nen-2020"
-      ]
+      ],
+      "officialMetadataAudit": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
+        "sourceRecordId": "https://n-e-n.ru/thebestbooksforchildren2020/#curated-nen-collection-stihi-mashi-rupasovoy-masha-rupasova",
+        "verifiedAt": "2026-08-04",
+        "match": {
+          "strategy": "work_title_author",
+          "confidence": 0.99,
+          "titleScore": 1,
+          "authorMatch": true
+        },
+        "officialTitle": "Стихи Маши Рупасовой",
+        "officialAuthors": [
+          "Маша Рупасова"
+        ]
+      }
     },
     "status": "published",
     "author": "Маша Рупасова",
     "ageLabel": "3–12 лет",
-    "whyRecommended": "Подойдёт читателям 3–12 лет, которые любят стихи. В книге затрагиваются темы семьи, животных и братьев и сестёр."
+    "whyRecommended": "Подойдёт читателям 3–12 лет, которые любят стихи. В книге затрагиваются темы семьи, животных и братьев и сестёр.",
+    "language": "ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2020-12-28/5fe9e14d270e0_0x0.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    }
   },
   {
     "id": "curated-nen-collection-semeynyy-albom-tirannozavra-toni-mayk-benton",
@@ -151941,8 +151993,7 @@
       "copiedVerbatim": true
     },
     "bibliographicSources": [
-      "https://n-e-n.ru/thebestbooksforchildren2020/",
-      "https://samokatbook.ru/book/semeynyy-albom-tirannozavra-toni-istoriya-dinozavrov/"
+      "https://n-e-n.ru/thebestbooksforchildren2020/"
     ],
     "sourceMetadata": {
       "sourceUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
@@ -151950,17 +152001,17 @@
         "vybor-redaktsii-nen-2020"
       ],
       "officialMetadataAudit": {
-        "source": "Издательство «Самокат»",
-        "sourceUrl": "https://samokatbook.ru/book/semeynyy-albom-tirannozavra-toni-istoriya-dinozavrov/",
-        "sourceRecordId": "/book/semeynyy-albom-tirannozavra-toni-istoriya-dinozavrov/",
-        "verifiedAt": "2026-08-03",
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
+        "sourceRecordId": "https://n-e-n.ru/thebestbooksforchildren2020/#curated-nen-collection-semeynyy-albom-tirannozavra-toni-mayk-benton",
+        "verifiedAt": "2026-08-04",
         "match": {
           "strategy": "work_title_author",
-          "confidence": 0.9640000000000001,
-          "titleScore": 0.96,
+          "confidence": 0.99,
+          "titleScore": 1,
           "authorMatch": true
         },
-        "officialTitle": "Семейный альбом тираннозавра Тони. История динозавров",
+        "officialTitle": "Семейный альбом тираннозавра Тони",
         "officialAuthors": [
           "Майк Бентон"
         ]
@@ -151976,14 +152027,14 @@
     "language": "ru",
     "cover": {
       "kind": "external",
-      "url": "https://samokatbook.ru/upload/resize_cache/iblock/c57/1024_1024_1/c574c1c5021b5287155f7dfb324ccf53.jpg",
+      "url": "https://n-e-n.ru/images/2020-12-28/5fe9e1a394de7_0x0.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Самокат»",
-      "sourcePageUrl": "https://samokatbook.ru/book/semeynyy-albom-tirannozavra-toni-istoriya-dinozavrov/",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
       "isbn13": "9785917598017",
       "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-08-03"
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
     }
   },
   {
@@ -152007,7 +152058,6 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": true,
-    "coverUrl": "https://n-e-n.ru/images/2020-12-28/5fe9e2531e746_0x0.jpg",
     "annotationProvenance": {
       "source": "НЭН",
       "sourceUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
@@ -152022,12 +152072,39 @@
       "sourceUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
       "collectionSlugs": [
         "vybor-redaktsii-nen-2020"
-      ]
+      ],
+      "officialMetadataAudit": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
+        "sourceRecordId": "https://n-e-n.ru/thebestbooksforchildren2020/#curated-nen-collection-chelovetkin-dzhuliya-donaldson",
+        "verifiedAt": "2026-08-04",
+        "match": {
+          "strategy": "work_title_author",
+          "confidence": 0.99,
+          "titleScore": 1,
+          "authorMatch": true
+        },
+        "officialTitle": "Человеткин",
+        "officialAuthors": [
+          "Джулия Дональдсон"
+        ]
+      }
     },
     "status": "published",
     "author": "Джулия Дональдсон",
     "ageLabel": "3–12 лет",
-    "whyRecommended": "Подойдёт читателям 3–12 лет, которые любят реалистическую прозу. В книге затрагиваются темы животных."
+    "whyRecommended": "Подойдёт читателям 3–12 лет, которые любят реалистическую прозу. В книге затрагиваются темы животных.",
+    "language": "ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2020-12-28/5fe9e2531e746_0x0.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    }
   },
   {
     "id": "curated-nen-collection-meydelin-finn-i-sobaka-iz-priyuta-liza-papp",
@@ -152050,7 +152127,6 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": true,
-    "coverUrl": "https://n-e-n.ru/images/2020-12-28/5fe9e566b95b5_0x0.jpg",
     "annotationProvenance": {
       "source": "НЭН",
       "sourceUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
@@ -152065,12 +152141,39 @@
       "sourceUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
       "collectionSlugs": [
         "vybor-redaktsii-nen-2020"
-      ]
+      ],
+      "officialMetadataAudit": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
+        "sourceRecordId": "https://n-e-n.ru/thebestbooksforchildren2020/#curated-nen-collection-meydelin-finn-i-sobaka-iz-priyuta-liza-papp",
+        "verifiedAt": "2026-08-04",
+        "match": {
+          "strategy": "work_title_author",
+          "confidence": 0.99,
+          "titleScore": 1,
+          "authorMatch": true
+        },
+        "officialTitle": "Мейделин Финн и собака из приюта",
+        "officialAuthors": [
+          "Лиза Папп"
+        ]
+      }
     },
     "status": "published",
     "author": "Лиза Папп",
     "ageLabel": "3–12 лет",
-    "whyRecommended": "Подойдёт читателям 3–12 лет, которые любят реалистическую прозу. В книге затрагиваются темы животных."
+    "whyRecommended": "Подойдёт читателям 3–12 лет, которые любят реалистическую прозу. В книге затрагиваются темы животных.",
+    "language": "ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2020-12-28/5fe9e566b95b5_0x0.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    }
   },
   {
     "id": "curated-nen-collection-martyn-i-barsik-masha-rupasova",
@@ -152104,8 +152207,7 @@
       "copiedVerbatim": true
     },
     "bibliographicSources": [
-      "https://n-e-n.ru/thebestbooksforchildren2020/",
-      "https://alpinabook.ru/catalog/book-martyn-i-barsik-dva-kota-krasota/"
+      "https://n-e-n.ru/thebestbooksforchildren2020/"
     ],
     "sourceMetadata": {
       "sourceUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
@@ -152113,18 +152215,18 @@
         "vybor-redaktsii-nen-2020"
       ],
       "officialMetadataAudit": {
-        "source": "Издательство «Альпина.Дети»",
-        "sourceUrl": "https://alpinabook.ru/catalog/book-martyn-i-barsik-dva-kota-krasota/",
-        "sourceRecordId": "/catalog/book-martyn-i-barsik-dva-kota-krasota/",
-        "verifiedAt": "2026-08-03",
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
+        "sourceRecordId": "https://n-e-n.ru/thebestbooksforchildren2020/#curated-nen-collection-martyn-i-barsik-masha-rupasova",
+        "verifiedAt": "2026-08-04",
         "match": {
           "strategy": "work_title_author",
-          "confidence": 0.9640000000000001,
-          "titleScore": 0.96,
+          "confidence": 0.99,
+          "titleScore": 1,
           "authorMatch": true,
           "selectedEditionYear": 2024
         },
-        "officialTitle": "Мартын и Барсик Два кота – красота!",
+        "officialTitle": "Мартын и Барсик",
         "officialAuthors": [
           "Маша Рупасова"
         ]
@@ -152140,14 +152242,14 @@
     "language": "ru",
     "cover": {
       "kind": "external",
-      "url": "https://alpinabook.ru/upload/iblock/4f6/0c85ss00y75xzzyqqa034velrupf25wl/face_Martyn_Barsik.jpg",
+      "url": "https://n-e-n.ru/images/2020-12-28/5fe9e5bac6507_0x0.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Альпина.Дети»",
-      "sourcePageUrl": "https://alpinabook.ru/catalog/book-martyn-i-barsik-dva-kota-krasota/",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
       "isbn13": "9785961489682",
       "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-08-03"
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
     }
   },
   {
@@ -152175,7 +152277,6 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": true,
-    "coverUrl": "https://n-e-n.ru/images/2020-12-28/5fe9e619d35f6_0x0.jpg",
     "annotationProvenance": {
       "source": "НЭН",
       "sourceUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
@@ -152190,12 +152291,39 @@
       "sourceUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
       "collectionSlugs": [
         "vybor-redaktsii-nen-2020"
-      ]
+      ],
+      "officialMetadataAudit": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
+        "sourceRecordId": "https://n-e-n.ru/thebestbooksforchildren2020/#curated-nen-collection-odin-za-vseh-i-vse-za-odnogo-brigit-veninger",
+        "verifiedAt": "2026-08-04",
+        "match": {
+          "strategy": "work_title_author",
+          "confidence": 0.99,
+          "titleScore": 1,
+          "authorMatch": true
+        },
+        "officialTitle": "Один за всех и все за одного",
+        "officialAuthors": [
+          "Бригит Венингер"
+        ]
+      }
     },
     "status": "published",
     "author": "Бригит Венингер",
     "ageLabel": "3–12 лет",
-    "whyRecommended": "Для читателей 3–12 лет это юмор о дружбе, семье и животных. Книгу можно выбрать для самостоятельного или совместного чтения."
+    "whyRecommended": "Для читателей 3–12 лет это юмор о дружбе, семье и животных. Книгу можно выбрать для самостоятельного или совместного чтения.",
+    "language": "ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2020-12-28/5fe9e619d35f6_0x0.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    }
   },
   {
     "id": "curated-nen-collection-korolevstvo-krivyh-zerkal-vitaliy-gubarev",
@@ -152225,8 +152353,7 @@
       "copiedVerbatim": true
     },
     "bibliographicSources": [
-      "https://n-e-n.ru/thebestbooksforchildren2020/",
-      "https://strecoza.ru/product/%d0%ba%d0%be%d1%80%d0%be%d0%bb%d0%b5%d0%b2%d1%81%d1%82%d0%b2%d0%be-%d0%ba%d1%80%d0%b8%d0%b2%d1%8b%d1%85-%d0%b7%d0%b5%d1%80%d0%ba%d0%b0%d0%bb-%d1%81%d0%b5%d0%bc%d0%b5%d0%b9%d0%bd%d1%8b%d0%b5-%d1%86/"
+      "https://n-e-n.ru/thebestbooksforchildren2020/"
     ],
     "sourceMetadata": {
       "sourceUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
@@ -152234,17 +152361,17 @@
         "vybor-redaktsii-nen-2020"
       ],
       "officialMetadataAudit": {
-        "source": "Издательство «Стрекоза»",
-        "sourceUrl": "https://strecoza.ru/product/%d0%ba%d0%be%d1%80%d0%be%d0%bb%d0%b5%d0%b2%d1%81%d1%82%d0%b2%d0%be-%d0%ba%d1%80%d0%b8%d0%b2%d1%8b%d1%85-%d0%b7%d0%b5%d1%80%d0%ba%d0%b0%d0%bb-%d1%81%d0%b5%d0%bc%d0%b5%d0%b9%d0%bd%d1%8b%d0%b5-%d1%86/",
-        "sourceRecordId": "/product/%d0%ba%d0%be%d1%80%d0%be%d0%bb%d0%b5%d0%b2%d1%81%d1%82%d0%b2%d0%be-%d0%ba%d1%80%d0%b8%d0%b2%d1%8b%d1%85-%d0%b7%d0%b5%d1%80%d0%ba%d0%b0%d0%bb-%d1%81%d0%b5%d0%bc%d0%b5%d0%b9%d0%bd%d1%8b%d0%b5-%d1%86/",
-        "verifiedAt": "2026-08-03",
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
+        "sourceRecordId": "https://n-e-n.ru/thebestbooksforchildren2020/#curated-nen-collection-korolevstvo-krivyh-zerkal-vitaliy-gubarev",
+        "verifiedAt": "2026-08-04",
         "match": {
           "strategy": "work_title_author",
-          "confidence": 0.9640000000000001,
-          "titleScore": 0.96,
+          "confidence": 0.99,
+          "titleScore": 1,
           "authorMatch": true
         },
-        "officialTitle": "Королевство кривых зеркал. Семейные ценности. Книги нашего детства",
+        "officialTitle": "Королевство кривых зеркал",
         "officialAuthors": [
           "Виталий Губарев"
         ]
@@ -152260,14 +152387,14 @@
     "language": "ru",
     "cover": {
       "kind": "external",
-      "url": "https://strecoza.ru/wp-content/uploads/2025/12/34e63449-d728-11f0-9df2-8c89a5dd96ef_34e6344b-d728-11f0-9df2-8c89a5dd96ef.jpeg",
+      "url": "https://n-e-n.ru/images/2020-12-28/5fe9e81cdf86d_0x0.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Стрекоза»",
-      "sourcePageUrl": "https://strecoza.ru/product/%d0%ba%d0%be%d1%80%d0%be%d0%bb%d0%b5%d0%b2%d1%81%d1%82%d0%b2%d0%be-%d0%ba%d1%80%d0%b8%d0%b2%d1%8b%d1%85-%d0%b7%d0%b5%d1%80%d0%ba%d0%b0%d0%bb-%d1%81%d0%b5%d0%bc%d0%b5%d0%b9%d0%bd%d1%8b%d0%b5-%d1%86/",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
       "isbn13": "9785995164746",
       "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-08-03"
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
     }
   },
   {
@@ -152299,8 +152426,7 @@
       "copiedVerbatim": true
     },
     "bibliographicSources": [
-      "https://n-e-n.ru/thebestbooksforchildren2020/",
-      "https://ast.ru/book/piter-pen-875153/"
+      "https://n-e-n.ru/thebestbooksforchildren2020/"
     ],
     "sourceMetadata": {
       "sourceUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
@@ -152308,13 +152434,13 @@
         "vybor-redaktsii-nen-2020"
       ],
       "officialMetadataAudit": {
-        "source": "Издательство «АСТ»",
-        "sourceUrl": "https://ast.ru/book/piter-pen-875153/",
-        "sourceRecordId": "/book/piter-pen-875153/",
-        "verifiedAt": "2026-08-03",
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
+        "sourceRecordId": "https://n-e-n.ru/thebestbooksforchildren2020/#curated-nen-collection-piter-pen-dzheyms-barri",
+        "verifiedAt": "2026-08-04",
         "match": {
           "strategy": "work_title_author",
-          "confidence": 0.9700000000000001,
+          "confidence": 0.99,
           "titleScore": 1,
           "authorMatch": true
         },
@@ -152334,14 +152460,14 @@
     "language": "ru",
     "cover": {
       "kind": "external",
-      "url": "https://cdn.ast.ru/v2/ASE000000000875153/COVER/cover1__w340.jpg",
+      "url": "https://n-e-n.ru/images/2020-12-28/5fe9e9bb8a49f_0x0.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «АСТ»",
-      "sourcePageUrl": "https://ast.ru/book/piter-pen-875153/",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
       "isbn13": "9785171585310",
       "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-08-03"
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
     }
   },
   {
@@ -152365,7 +152491,6 @@
     "lengthCategory": "short",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": true,
-    "coverUrl": "https://n-e-n.ru/images/2020-12-28/5fe9e9bb8a49f_0x0.jpg",
     "annotationProvenance": {
       "source": "НЭН",
       "sourceUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
@@ -152380,12 +152505,39 @@
       "sourceUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
       "collectionSlugs": [
         "vybor-redaktsii-nen-2020"
-      ]
+      ],
+      "officialMetadataAudit": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
+        "sourceRecordId": "https://n-e-n.ru/thebestbooksforchildren2020/#curated-nen-collection-vse-o-mumi-trollyah-tuve-yansson",
+        "verifiedAt": "2026-08-04",
+        "match": {
+          "strategy": "work_title_author",
+          "confidence": 0.99,
+          "titleScore": 1,
+          "authorMatch": true
+        },
+        "officialTitle": "Все о Муми-троллях",
+        "officialAuthors": [
+          "Туве Янссон"
+        ]
+      }
     },
     "status": "published",
     "author": "Туве Янссон",
     "ageLabel": "3–12 лет",
-    "whyRecommended": "Если ребёнок любит юмористические книги и сюжеты о животных и юморе, книга подойдёт ему в возрасте 3–12 лет. Она подходит для самостоятельного или совместного чтения."
+    "whyRecommended": "Если ребёнок любит юмористические книги и сюжеты о животных и юморе, книга подойдёт ему в возрасте 3–12 лет. Она подходит для самостоятельного или совместного чтения.",
+    "language": "ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2020-12-28/5fe9e9bb8a49f_0x0.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    }
   },
   {
     "id": "curated-nen-collection-myshonok-kotoryy-tam-anastasiya-kovalenkova",
@@ -152414,7 +152566,6 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": true,
-    "coverUrl": "https://n-e-n.ru/images/2020-12-28/5fe9eab80b7f2_0x0.jpg",
     "annotationProvenance": {
       "source": "НЭН",
       "sourceUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
@@ -152429,12 +152580,39 @@
       "sourceUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
       "collectionSlugs": [
         "vybor-redaktsii-nen-2020"
-      ]
+      ],
+      "officialMetadataAudit": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
+        "sourceRecordId": "https://n-e-n.ru/thebestbooksforchildren2020/#curated-nen-collection-myshonok-kotoryy-tam-anastasiya-kovalenkova",
+        "verifiedAt": "2026-08-04",
+        "match": {
+          "strategy": "work_title_author",
+          "confidence": 0.99,
+          "titleScore": 1,
+          "authorMatch": true
+        },
+        "officialTitle": "Мышонок, который там",
+        "officialAuthors": [
+          "Анастасия Коваленкова"
+        ]
+      }
     },
     "status": "published",
     "author": "Анастасия Коваленкова",
     "ageLabel": "3–12 лет",
-    "whyRecommended": "Если ребёнок любит сказки и приключенческие книги и сюжеты о семье, школе и животных, книга подойдёт ему в возрасте 3–12 лет. Она подходит для самостоятельного или совместного чтения."
+    "whyRecommended": "Если ребёнок любит сказки и приключенческие книги и сюжеты о семье, школе и животных, книга подойдёт ему в возрасте 3–12 лет. Она подходит для самостоятельного или совместного чтения.",
+    "language": "ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2020-12-28/5fe9eab80b7f2_0x0.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    }
   },
   {
     "id": "curated-nen-collection-kto-uteshit-knyutta-tuve-yansson",
@@ -152456,7 +152634,6 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": true,
-    "coverUrl": "https://n-e-n.ru/images/2020-12-28/5fe9eb3f21a92_0x0.jpg",
     "annotationProvenance": {
       "source": "НЭН",
       "sourceUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
@@ -152471,12 +152648,39 @@
       "sourceUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
       "collectionSlugs": [
         "vybor-redaktsii-nen-2020"
-      ]
+      ],
+      "officialMetadataAudit": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
+        "sourceRecordId": "https://n-e-n.ru/thebestbooksforchildren2020/#curated-nen-collection-kto-uteshit-knyutta-tuve-yansson",
+        "verifiedAt": "2026-08-04",
+        "match": {
+          "strategy": "work_title_author",
+          "confidence": 0.99,
+          "titleScore": 1,
+          "authorMatch": true
+        },
+        "officialTitle": "Кто утешит Кнютта",
+        "officialAuthors": [
+          "Туве Янссон"
+        ]
+      }
     },
     "status": "published",
     "author": "Туве Янссон",
     "ageLabel": "3–12 лет",
-    "whyRecommended": "Если ребёнок любит сказки и сюжеты о волшебстве, книга подойдёт ему в возрасте 3–12 лет. Она подходит для самостоятельного или совместного чтения."
+    "whyRecommended": "Если ребёнок любит сказки и сюжеты о волшебстве, книга подойдёт ему в возрасте 3–12 лет. Она подходит для самостоятельного или совместного чтения.",
+    "language": "ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2020-12-28/5fe9eb3f21a92_0x0.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    }
   },
   {
     "id": "curated-nen-collection-kartofelnaya-sobaka-yuriy-koval",
@@ -152504,7 +152708,6 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": true,
-    "coverUrl": "https://n-e-n.ru/images/2022-09-13/632056704e863_0x0.jpg",
     "annotationProvenance": {
       "source": "НЭН",
       "sourceUrl": "https://n-e-n.ru/10-glavnih-detskih-knig/",
@@ -152519,12 +152722,39 @@
       "sourceUrl": "https://n-e-n.ru/10-glavnih-detskih-knig/",
       "collectionSlugs": [
         "desyat-glavnyh-detskih-knig"
-      ]
+      ],
+      "officialMetadataAudit": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/10-glavnih-detskih-knig/",
+        "sourceRecordId": "https://n-e-n.ru/10-glavnih-detskih-knig/#curated-nen-collection-kartofelnaya-sobaka-yuriy-koval",
+        "verifiedAt": "2026-08-04",
+        "match": {
+          "strategy": "work_title_author",
+          "confidence": 0.99,
+          "titleScore": 1,
+          "authorMatch": true
+        },
+        "officialTitle": "Картофельная собака",
+        "officialAuthors": [
+          "Юрий Коваль"
+        ]
+      }
     },
     "status": "published",
     "author": "Юрий Коваль",
     "ageLabel": "5–15 лет",
-    "whyRecommended": "Для читателей 5–15 лет это реалистическая проза о семье, животных и взрослении. Книгу можно выбрать для самостоятельного или совместного чтения."
+    "whyRecommended": "Для читателей 5–15 лет это реалистическая проза о семье, животных и взрослении. Книгу можно выбрать для самостоятельного или совместного чтения.",
+    "language": "ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2022-09-13/632056704e863_0x0.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/10-glavnih-detskih-knig/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    }
   },
   {
     "id": "curated-nen-collection-medved-v-svoem-repertuare-gubert-shirnek",
@@ -152559,8 +152789,7 @@
       "copiedVerbatim": true
     },
     "bibliographicSources": [
-      "https://n-e-n.ru/10-glavnih-detskih-knig/",
-      "https://www.polyandria.ru/catalog/3-7/medved-v-svoem-repertuare/"
+      "https://n-e-n.ru/10-glavnih-detskih-knig/"
     ],
     "sourceMetadata": {
       "sourceUrl": "https://n-e-n.ru/10-glavnih-detskih-knig/",
@@ -152568,18 +152797,18 @@
         "desyat-glavnyh-detskih-knig"
       ],
       "officialMetadataAudit": {
-        "source": "Издательство «Поляндрия»",
-        "sourceUrl": "https://www.polyandria.ru/catalog/3-7/medved-v-svoem-repertuare/",
-        "sourceRecordId": "/catalog/3-7/medved-v-svoem-repertuare/",
-        "verifiedAt": "2026-08-03",
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/10-glavnih-detskih-knig/",
+        "sourceRecordId": "https://n-e-n.ru/10-glavnih-detskih-knig/#curated-nen-collection-medved-v-svoem-repertuare-gubert-shirnek",
+        "verifiedAt": "2026-08-04",
         "match": {
           "strategy": "work_title_author",
-          "confidence": 0.9700000000000001,
+          "confidence": 0.99,
           "titleScore": 1,
           "authorMatch": true,
           "selectedEditionYear": 2020
         },
-        "officialTitle": "Медведь в своём репертуаре",
+        "officialTitle": "Медведь в своем репертуаре",
         "officialAuthors": [
           "Губерт Ширнек"
         ]
@@ -152595,14 +152824,14 @@
     "language": "ru",
     "cover": {
       "kind": "external",
-      "url": "https://www.polyandria.ru/upload/iblock/424/424beae20f7a8ce52ddf826e417d79a6.jpg",
+      "url": "https://n-e-n.ru/images/2022-09-13/6320568d157aa_0x0.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Поляндрия»",
-      "sourcePageUrl": "https://www.polyandria.ru/catalog/3-7/medved-v-svoem-repertuare/",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/10-glavnih-detskih-knig/",
       "isbn13": "9785604202746",
       "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-08-03"
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
     }
   },
   {
@@ -152626,7 +152855,6 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": true,
-    "coverUrl": "https://n-e-n.ru/images/2022-09-13/63205791c5a73_0x0.jpg",
     "annotationProvenance": {
       "source": "НЭН",
       "sourceUrl": "https://n-e-n.ru/10-glavnih-detskih-knig/",
@@ -152641,12 +152869,39 @@
       "sourceUrl": "https://n-e-n.ru/10-glavnih-detskih-knig/",
       "collectionSlugs": [
         "desyat-glavnyh-detskih-knig"
-      ]
+      ],
+      "officialMetadataAudit": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/10-glavnih-detskih-knig/",
+        "sourceRecordId": "https://n-e-n.ru/10-glavnih-detskih-knig/#curated-nen-collection-shtora-nyanyushki-lagton-virdzhiniya-vulf",
+        "verifiedAt": "2026-08-04",
+        "match": {
+          "strategy": "work_title_author",
+          "confidence": 0.99,
+          "titleScore": 1,
+          "authorMatch": true
+        },
+        "officialTitle": "Штора нянюшки Лагтон",
+        "officialAuthors": [
+          "Вирджиния Вулф"
+        ]
+      }
     },
     "status": "published",
     "author": "Вирджиния Вулф",
     "ageLabel": "5–15 лет",
-    "whyRecommended": "Если ребёнок любит сказки и сюжеты о животных и искусстве, книга подойдёт ему в возрасте 5–15 лет. Она подходит для самостоятельного или совместного чтения."
+    "whyRecommended": "Если ребёнок любит сказки и сюжеты о животных и искусстве, книга подойдёт ему в возрасте 5–15 лет. Она подходит для самостоятельного или совместного чтения.",
+    "language": "ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2022-09-13/63205791c5a73_0x0.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/10-glavnih-detskih-knig/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    }
   },
   {
     "id": "curated-nen-collection-ne-vse-umeyut-padat-toon-tellegen",
@@ -152680,8 +152935,7 @@
       "copiedVerbatim": true
     },
     "bibliographicSources": [
-      "https://n-e-n.ru/10-glavnih-detskih-knig/",
-      "https://www.polyandria.ru/catalog/9-12/ne-vse-umeyut-padat/"
+      "https://n-e-n.ru/10-glavnih-detskih-knig/"
     ],
     "sourceMetadata": {
       "sourceUrl": "https://n-e-n.ru/10-glavnih-detskih-knig/",
@@ -152689,13 +152943,13 @@
         "desyat-glavnyh-detskih-knig"
       ],
       "officialMetadataAudit": {
-        "source": "Издательство «Поляндрия»",
-        "sourceUrl": "https://www.polyandria.ru/catalog/9-12/ne-vse-umeyut-padat/",
-        "sourceRecordId": "/catalog/9-12/ne-vse-umeyut-padat/",
-        "verifiedAt": "2026-08-03",
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/10-glavnih-detskih-knig/",
+        "sourceRecordId": "https://n-e-n.ru/10-glavnih-detskih-knig/#curated-nen-collection-ne-vse-umeyut-padat-toon-tellegen",
+        "verifiedAt": "2026-08-04",
         "match": {
           "strategy": "work_title_author",
-          "confidence": 0.9700000000000001,
+          "confidence": 0.99,
           "titleScore": 1,
           "authorMatch": true,
           "selectedEditionYear": 2021
@@ -152717,14 +152971,14 @@
     "language": "ru",
     "cover": {
       "kind": "external",
-      "url": "https://www.polyandria.ru/upload/iblock/497/49757592254a2ca1c832babf86fab446.jpg",
+      "url": "https://n-e-n.ru/images/2022-09-13/6320810bca7d5_0x0.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Поляндрия»",
-      "sourcePageUrl": "https://www.polyandria.ru/catalog/9-12/ne-vse-umeyut-padat/",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/10-glavnih-detskih-knig/",
       "isbn13": "9785604148365",
       "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-08-03"
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
     }
   },
   {
@@ -152770,15 +153024,16 @@
         "knigi-pro-pervuyu-lyubov"
       ],
       "officialMetadataAudit": {
-        "source": "Издательство «Самокат»",
-        "sourceUrl": "https://samokatbook.ru/book/reka-tekushchaya-vspyat/",
-        "sourceRecordId": "/book/reka-tekushchaya-vspyat/",
-        "verifiedAt": "2026-08-03",
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/knigi-pro-pervuyu-lyubov/",
+        "sourceRecordId": "https://n-e-n.ru/knigi-pro-pervuyu-lyubov/#curated-nen-collection-reka-tekuschaya-vspyat-klod-murleva",
+        "verifiedAt": "2026-08-04",
         "match": {
           "strategy": "work_title_author",
-          "confidence": 0.9700000000000001,
+          "confidence": 0.99,
           "titleScore": 1,
-          "authorMatch": true
+          "authorMatch": true,
+          "selectedEditionYear": 2020
         },
         "officialTitle": "Река, текущая вспять",
         "officialAuthors": [
@@ -152797,14 +153052,14 @@
     "isbn13": "9785917599236",
     "cover": {
       "kind": "external",
-      "url": "https://samokatbook.ru/upload/resize_cache/iblock/7d4/1024_1024_1/7d4e028fa93753ced851044e402fb7a1.jpg",
+      "url": "https://n-e-n.ru/images/2025-07-31/688b4abab97c0_0x0.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Самокат»",
-      "sourcePageUrl": "https://samokatbook.ru/book/reka-tekushchaya-vspyat/",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/knigi-pro-pervuyu-lyubov/",
       "isbn13": "9785917599236",
       "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-08-03"
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
     },
     "language": "ru"
   },
@@ -152841,8 +153096,7 @@
       "copiedVerbatim": true
     },
     "bibliographicSources": [
-      "https://n-e-n.ru/knigi-pro-pervuyu-lyubov/",
-      "https://samokatbook.ru/book/ya-ne-ya-zhanna/"
+      "https://n-e-n.ru/knigi-pro-pervuyu-lyubov/"
     ],
     "sourceMetadata": {
       "sourceUrl": "https://n-e-n.ru/knigi-pro-pervuyu-lyubov/",
@@ -152850,13 +153104,13 @@
         "knigi-pro-pervuyu-lyubov"
       ],
       "officialMetadataAudit": {
-        "source": "Издательство «Самокат»",
-        "sourceUrl": "https://samokatbook.ru/book/ya-ne-ya-zhanna/",
-        "sourceRecordId": "/book/ya-ne-ya-zhanna/",
-        "verifiedAt": "2026-08-03",
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/knigi-pro-pervuyu-lyubov/",
+        "sourceRecordId": "https://n-e-n.ru/knigi-pro-pervuyu-lyubov/#curated-nen-collection-ya-ne-ya-zhanna-zaytseva-aleksandra",
+        "verifiedAt": "2026-08-04",
         "match": {
           "strategy": "work_title_author",
-          "confidence": 0.9700000000000001,
+          "confidence": 0.99,
           "titleScore": 1,
           "authorMatch": true
         },
@@ -152876,14 +153130,14 @@
     "language": "ru",
     "cover": {
       "kind": "external",
-      "url": "https://samokatbook.ru/upload/resize_cache/iblock/53d/1024_1024_1/4g8efkhqpbtp5369h2l5jtohj5azwtyr.jpg",
+      "url": "https://n-e-n.ru/images/2025-07-31/688b4b0620de8_0x0.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Самокат»",
-      "sourcePageUrl": "https://samokatbook.ru/book/ya-ne-ya-zhanna/",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/knigi-pro-pervuyu-lyubov/",
       "isbn13": "9785001672753",
       "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-08-03"
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
     }
   },
   {
@@ -152906,7 +153160,6 @@
     "lengthCategory": "short",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": true,
-    "coverUrl": "https://n-e-n.ru/images/2021-10-07/615ede5ada5ef_0x0.jpg",
     "annotationProvenance": {
       "source": "НЭН",
       "sourceUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
@@ -152921,12 +153174,39 @@
       "sourceUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
       "collectionSlugs": [
         "desyat-knig-dlya-malyshey"
-      ]
+      ],
+      "officialMetadataAudit": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
+        "sourceRecordId": "https://n-e-n.ru/tenbestbooksforchildren/#curated-nen-collection-chto-nuzhno-malenkoy-koshke-natalya-shaloshvili",
+        "verifiedAt": "2026-08-04",
+        "match": {
+          "strategy": "work_title_author",
+          "confidence": 0.99,
+          "titleScore": 1,
+          "authorMatch": true
+        },
+        "officialTitle": "Что нужно маленькой кошке",
+        "officialAuthors": [
+          "Наталья Шалошвили"
+        ]
+      }
     },
     "status": "published",
     "author": "Наталья Шалошвили",
     "ageLabel": "1–10 лет",
-    "whyRecommended": "Для читателей 1–10 лет это реалистическая проза о животных. Книгу можно выбрать для самостоятельного или совместного чтения."
+    "whyRecommended": "Для читателей 1–10 лет это реалистическая проза о животных. Книгу можно выбрать для самостоятельного или совместного чтения.",
+    "language": "ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2021-10-07/615ede5ada5ef_0x0.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    }
   },
   {
     "id": "curated-nen-collection-vernye-druzya-mariam-kordes",
@@ -152950,7 +153230,6 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": true,
-    "coverUrl": "https://n-e-n.ru/images/2021-10-07/615ede5ada5ef_0x0.jpg",
     "annotationProvenance": {
       "source": "НЭН",
       "sourceUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
@@ -152965,12 +153244,39 @@
       "sourceUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
       "collectionSlugs": [
         "desyat-knig-dlya-malyshey"
-      ]
+      ],
+      "officialMetadataAudit": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
+        "sourceRecordId": "https://n-e-n.ru/tenbestbooksforchildren/#curated-nen-collection-vernye-druzya-mariam-kordes",
+        "verifiedAt": "2026-08-04",
+        "match": {
+          "strategy": "work_title_author",
+          "confidence": 0.99,
+          "titleScore": 1,
+          "authorMatch": true
+        },
+        "officialTitle": "Верные друзья",
+        "officialAuthors": [
+          "Мариам Кордес"
+        ]
+      }
     },
     "status": "published",
     "author": "Мариам Кордес",
     "ageLabel": "1–10 лет",
-    "whyRecommended": "Для читателей 1–10 лет это реалистическая проза о дружбе, животных и отношениях. Книгу можно выбрать для самостоятельного или совместного чтения."
+    "whyRecommended": "Для читателей 1–10 лет это реалистическая проза о дружбе, животных и отношениях. Книгу можно выбрать для самостоятельного или совместного чтения.",
+    "language": "ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2021-10-07/615ede5ada5ef_0x0.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    }
   },
   {
     "id": "curated-nen-collection-spat-kak-tigr-masha-lukashkina",
@@ -152993,7 +153299,6 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": true,
-    "coverUrl": "https://n-e-n.ru/images/2021-10-07/615edef47bcbf_0x0.jpg",
     "annotationProvenance": {
       "source": "НЭН",
       "sourceUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
@@ -153008,12 +153313,39 @@
       "sourceUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
       "collectionSlugs": [
         "desyat-knig-dlya-malyshey"
-      ]
+      ],
+      "officialMetadataAudit": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
+        "sourceRecordId": "https://n-e-n.ru/tenbestbooksforchildren/#curated-nen-collection-spat-kak-tigr-masha-lukashkina",
+        "verifiedAt": "2026-08-04",
+        "match": {
+          "strategy": "work_title_author",
+          "confidence": 0.99,
+          "titleScore": 1,
+          "authorMatch": true
+        },
+        "officialTitle": "Спать, как тигр",
+        "officialAuthors": [
+          "Маша Лукашкина"
+        ]
+      }
     },
     "status": "published",
     "author": "Маша Лукашкина",
     "ageLabel": "1–10 лет",
-    "whyRecommended": "Для читателей 1–10 лет это реалистическая проза о семье и искусстве. Книгу можно выбрать для самостоятельного или совместного чтения."
+    "whyRecommended": "Для читателей 1–10 лет это реалистическая проза о семье и искусстве. Книгу можно выбрать для самостоятельного или совместного чтения.",
+    "language": "ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2021-10-07/615edef47bcbf_0x0.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    }
   },
   {
     "id": "curated-nen-collection-moya-sestrenka-olkozavra-dina-gerbek",
@@ -153047,8 +153379,7 @@
       "copiedVerbatim": true
     },
     "bibliographicSources": [
-      "https://n-e-n.ru/tenbestbooksforchildren/",
-      "https://strecoza.ru/product/%d0%bc%d0%be%d1%8f-%d1%81%d0%b5%d1%81%d1%82%d1%80%d0%b5%d0%bd%d0%ba%d0%b0-%d0%be%d0%bb%d1%8c%d0%ba%d0%be%d0%b7%d0%b0%d0%b2%d1%80%d0%b0-%d0%b4%d0%b5%d1%82%d1%81%d0%ba%d0%b0%d1%8f-%d1%85%d1%83%d0%b4/"
+      "https://n-e-n.ru/tenbestbooksforchildren/"
     ],
     "sourceMetadata": {
       "sourceUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
@@ -153056,17 +153387,17 @@
         "desyat-knig-dlya-malyshey"
       ],
       "officialMetadataAudit": {
-        "source": "Издательство «Стрекоза»",
-        "sourceUrl": "https://strecoza.ru/product/%d0%bc%d0%be%d1%8f-%d1%81%d0%b5%d1%81%d1%82%d1%80%d0%b5%d0%bd%d0%ba%d0%b0-%d0%be%d0%bb%d1%8c%d0%ba%d0%be%d0%b7%d0%b0%d0%b2%d1%80%d0%b0-%d0%b4%d0%b5%d1%82%d1%81%d0%ba%d0%b0%d1%8f-%d1%85%d1%83%d0%b4/",
-        "sourceRecordId": "/product/%d0%bc%d0%be%d1%8f-%d1%81%d0%b5%d1%81%d1%82%d1%80%d0%b5%d0%bd%d0%ba%d0%b0-%d0%be%d0%bb%d1%8c%d0%ba%d0%be%d0%b7%d0%b0%d0%b2%d1%80%d0%b0-%d0%b4%d0%b5%d1%82%d1%81%d0%ba%d0%b0%d1%8f-%d1%85%d1%83%d0%b4/",
-        "verifiedAt": "2026-08-03",
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
+        "sourceRecordId": "https://n-e-n.ru/tenbestbooksforchildren/#curated-nen-collection-moya-sestrenka-olkozavra-dina-gerbek",
+        "verifiedAt": "2026-08-04",
         "match": {
           "strategy": "work_title_author",
-          "confidence": 0.9640000000000001,
-          "titleScore": 0.96,
+          "confidence": 0.99,
+          "titleScore": 1,
           "authorMatch": true
         },
-        "officialTitle": "Моя сестренка Олькозавра. Детская художественная литература",
+        "officialTitle": "Моя сестренка Олькозавра",
         "officialAuthors": [
           "Дина Гербек"
         ]
@@ -153082,14 +153413,14 @@
     "language": "ru",
     "cover": {
       "kind": "external",
-      "url": "https://strecoza.ru/wp-content/uploads/2026/05/b6b01302-db08-11ed-aeae-8c89a5dd96ef_4f72f938-339e-11ef-a312-8c89a5dd96ef.jpeg",
+      "url": "https://n-e-n.ru/images/2021-10-07/615f1a2d5f390_0x0.png",
       "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Стрекоза»",
-      "sourcePageUrl": "https://strecoza.ru/product/%d0%bc%d0%be%d1%8f-%d1%81%d0%b5%d1%81%d1%82%d1%80%d0%b5%d0%bd%d0%ba%d0%b0-%d0%be%d0%bb%d1%8c%d0%ba%d0%be%d0%b7%d0%b0%d0%b2%d1%80%d0%b0-%d0%b4%d0%b5%d1%82%d1%81%d0%ba%d0%b0%d1%8f-%d1%85%d1%83%d0%b4/",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
       "isbn13": "9785995149545",
       "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-08-03"
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
     }
   },
   {
@@ -153120,8 +153451,7 @@
       "copiedVerbatim": true
     },
     "bibliographicSources": [
-      "https://n-e-n.ru/tenbestbooksforchildren/",
-      "https://melik-pashaev.ru/product/kak-flip-zatopil-ves-mir/"
+      "https://n-e-n.ru/tenbestbooksforchildren/"
     ],
     "sourceMetadata": {
       "sourceUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
@@ -153129,19 +153459,19 @@
         "desyat-knig-dlya-malyshey"
       ],
       "officialMetadataAudit": {
-        "source": "Издательство «Мелик-Пашаев»",
-        "sourceUrl": "https://melik-pashaev.ru/product/kak-flip-zatopil-ves-mir/",
-        "sourceRecordId": "/product/kak-flip-zatopil-ves-mir/",
-        "verifiedAt": "2026-08-03",
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
+        "sourceRecordId": "https://n-e-n.ru/tenbestbooksforchildren/#curated-nen-collection-kak-flip-zatopil-ves-mir-adam-stouer",
+        "verifiedAt": "2026-08-04",
         "match": {
           "strategy": "work_title_author",
-          "confidence": 0.9700000000000001,
+          "confidence": 0.99,
           "titleScore": 1,
           "authorMatch": true
         },
         "officialTitle": "Как Флип затопил весь мир",
         "officialAuthors": [
-          "Стоуэр Адам Художник Стоуэр Адам Вид Мягкая обложка Кол-во страниц 40 Возраст 0-3 года , 4-6 лет"
+          "Адам Стоуэр"
         ]
       }
     },
@@ -153155,14 +153485,14 @@
     "language": "ru",
     "cover": {
       "kind": "external",
-      "url": "https://melik-pashaev.ru/wp-content/uploads/2021/11/flip_cover_1200.jpg",
+      "url": "https://n-e-n.ru/images/2021-10-07/615edf8a3be1a_0x0.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Мелик-Пашаев»",
-      "sourcePageUrl": "https://melik-pashaev.ru/product/kak-flip-zatopil-ves-mir/",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
       "isbn13": "9785000414514",
       "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-08-03"
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
     }
   },
   {
@@ -153190,7 +153520,6 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": true,
-    "coverUrl": "https://n-e-n.ru/images/2021-10-07/615edf8a3be1a_0x0.jpg",
     "annotationProvenance": {
       "source": "НЭН",
       "sourceUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
@@ -153205,12 +153534,39 @@
       "sourceUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
       "collectionSlugs": [
         "desyat-knig-dlya-malyshey"
-      ]
+      ],
+      "officialMetadataAudit": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
+        "sourceRecordId": "https://n-e-n.ru/tenbestbooksforchildren/#curated-nen-collection-molli-i-shtormovoe-more-doyl-malahiya",
+        "verifiedAt": "2026-08-04",
+        "match": {
+          "strategy": "work_title_author",
+          "confidence": 0.99,
+          "titleScore": 1,
+          "authorMatch": true
+        },
+        "officialTitle": "Молли и штормовое море",
+        "officialAuthors": [
+          "Дойл Малахия"
+        ]
+      }
     },
     "status": "published",
     "author": "Дойл Малахия",
     "ageLabel": "1–10 лет",
-    "whyRecommended": "Для читателей 1–10 лет это реалистическая проза о семье, природе и путешествиях. Книгу можно выбрать для самостоятельного или совместного чтения."
+    "whyRecommended": "Для читателей 1–10 лет это реалистическая проза о семье, природе и путешествиях. Книгу можно выбрать для самостоятельного или совместного чтения.",
+    "language": "ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2021-10-07/615edf8a3be1a_0x0.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    }
   },
   {
     "id": "curated-nen-collection-idi-poigray-s-tem-malchikom-klementina-bove",
@@ -153242,8 +153598,7 @@
       "copiedVerbatim": true
     },
     "bibliographicSources": [
-      "https://n-e-n.ru/tenbestbooksforchildren/",
-      "https://samokatbook.ru/book/idi-poigray-s-tem-malchikom/"
+      "https://n-e-n.ru/tenbestbooksforchildren/"
     ],
     "sourceMetadata": {
       "sourceUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
@@ -153251,13 +153606,13 @@
         "desyat-knig-dlya-malyshey"
       ],
       "officialMetadataAudit": {
-        "source": "Издательство «Самокат»",
-        "sourceUrl": "https://samokatbook.ru/book/idi-poigray-s-tem-malchikom/",
-        "sourceRecordId": "/book/idi-poigray-s-tem-malchikom/",
-        "verifiedAt": "2026-08-03",
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
+        "sourceRecordId": "https://n-e-n.ru/tenbestbooksforchildren/#curated-nen-collection-idi-poigray-s-tem-malchikom-klementina-bove",
+        "verifiedAt": "2026-08-04",
         "match": {
           "strategy": "work_title_author",
-          "confidence": 0.9700000000000001,
+          "confidence": 0.99,
           "titleScore": 1,
           "authorMatch": true
         },
@@ -153277,14 +153632,14 @@
     "language": "ru",
     "cover": {
       "kind": "external",
-      "url": "https://samokatbook.ru/upload/resize_cache/iblock/640/1024_1024_1/kq3hg2w42ghjz0jiht7p5to6s02vgga5.jpg",
+      "url": "https://n-e-n.ru/images/2021-10-07/615ee02e22ecc_0x0.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Самокат»",
-      "sourcePageUrl": "https://samokatbook.ru/book/idi-poigray-s-tem-malchikom/",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
       "isbn13": "9785001671732",
       "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-08-03"
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
     }
   },
   {
@@ -153310,7 +153665,6 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": true,
-    "coverUrl": "https://n-e-n.ru/images/2021-10-07/615ee02e22ecc_0x0.jpg",
     "annotationProvenance": {
       "source": "НЭН",
       "sourceUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
@@ -153325,12 +153679,39 @@
       "sourceUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
       "collectionSlugs": [
         "desyat-knig-dlya-malyshey"
-      ]
+      ],
+      "officialMetadataAudit": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
+        "sourceRecordId": "https://n-e-n.ru/tenbestbooksforchildren/#curated-nen-collection-god-polnyy-chudes-b-klyayn",
+        "verifiedAt": "2026-08-04",
+        "match": {
+          "strategy": "work_title_author",
+          "confidence": 0.99,
+          "titleScore": 1,
+          "authorMatch": true
+        },
+        "officialTitle": "Год, полный чудес",
+        "officialAuthors": [
+          "Шерил Б.Кляйн"
+        ]
+      }
     },
     "status": "published",
     "author": "Шерил Б.Кляйн",
     "ageLabel": "1–10 лет",
-    "whyRecommended": "Для читателей 1–10 лет это реалистическая проза о дружбе, семье и искусстве. Книгу можно выбрать для самостоятельного или совместного чтения."
+    "whyRecommended": "Для читателей 1–10 лет это реалистическая проза о дружбе, семье и искусстве. Книгу можно выбрать для самостоятельного или совместного чтения.",
+    "language": "ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2021-10-07/615ee02e22ecc_0x0.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    }
   },
   {
     "id": "curated-nen-collection-lev-petrushka-i-ego-druzya-maykl-bond",
@@ -153365,8 +153746,7 @@
       "copiedVerbatim": true
     },
     "bibliographicSources": [
-      "https://n-e-n.ru/tenbestbooksforchildren/",
-      "https://ast.ru/book/lev-petrushka-i-ego-druzya-857893/"
+      "https://n-e-n.ru/tenbestbooksforchildren/"
     ],
     "sourceMetadata": {
       "sourceUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
@@ -153374,13 +153754,13 @@
         "desyat-knig-dlya-malyshey"
       ],
       "officialMetadataAudit": {
-        "source": "Издательство «АСТ»",
-        "sourceUrl": "https://ast.ru/book/lev-petrushka-i-ego-druzya-857893/",
-        "sourceRecordId": "/book/lev-petrushka-i-ego-druzya-857893/",
-        "verifiedAt": "2026-08-03",
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
+        "sourceRecordId": "https://n-e-n.ru/tenbestbooksforchildren/#curated-nen-collection-lev-petrushka-i-ego-druzya-maykl-bond",
+        "verifiedAt": "2026-08-04",
         "match": {
           "strategy": "work_title_author",
-          "confidence": 0.9700000000000001,
+          "confidence": 0.99,
           "titleScore": 1,
           "authorMatch": true
         },
@@ -153400,14 +153780,14 @@
     "language": "ru",
     "cover": {
       "kind": "external",
-      "url": "https://cdn.ast.ru/v2/ASE000000000857893/COVER/cover1__w340.jpg",
+      "url": "https://n-e-n.ru/images/2021-10-07/615ee05f2ff74_0x0.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «АСТ»",
-      "sourcePageUrl": "https://ast.ru/book/lev-petrushka-i-ego-druzya-857893/",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
       "isbn13": "9785171370404",
       "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-08-03"
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
     }
   },
   {
@@ -153433,7 +153813,6 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": true,
-    "coverUrl": "https://n-e-n.ru/images/2021-10-07/615ee05f2ff74_0x0.jpg",
     "annotationProvenance": {
       "source": "НЭН",
       "sourceUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
@@ -153448,12 +153827,39 @@
       "sourceUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
       "collectionSlugs": [
         "desyat-knig-dlya-malyshey"
-      ]
+      ],
+      "officialMetadataAudit": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
+        "sourceRecordId": "https://n-e-n.ru/tenbestbooksforchildren/#curated-nen-collection-pingvikingi-anton-soya",
+        "verifiedAt": "2026-08-04",
+        "match": {
+          "strategy": "work_title_author",
+          "confidence": 0.99,
+          "titleScore": 1,
+          "authorMatch": true
+        },
+        "officialTitle": "Пингвикинги",
+        "officialAuthors": [
+          "Антон Соя"
+        ]
+      }
     },
     "status": "published",
     "author": "Антон Соя",
     "ageLabel": "1–10 лет",
-    "whyRecommended": "Для читателей 1–10 лет это приключения о животных, природе и путешествиях. Книгу можно выбрать для самостоятельного или совместного чтения."
+    "whyRecommended": "Для читателей 1–10 лет это приключения о животных, природе и путешествиях. Книгу можно выбрать для самостоятельного или совместного чтения.",
+    "language": "ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2021-10-07/615ee05f2ff74_0x0.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    }
   },
   {
     "id": "curated-nen-collection-shkola-v-karmartene-anna-korosteleva",
@@ -153478,7 +153884,6 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": true,
-    "coverUrl": "https://n-e-n.ru/images/2024-11-15/67372ab17bdbc_0x0.jpg",
     "annotationProvenance": {
       "source": "НЭН",
       "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
@@ -153493,12 +153898,39 @@
       "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
       "collectionSlugs": [
         "knigi-dlya-podrostkov"
-      ]
+      ],
+      "officialMetadataAudit": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+        "sourceRecordId": "https://n-e-n.ru/knigi-dlya-podrostkov/#curated-nen-collection-shkola-v-karmartene-anna-korosteleva",
+        "verifiedAt": "2026-08-04",
+        "match": {
+          "strategy": "work_title_author",
+          "confidence": 0.99,
+          "titleScore": 1,
+          "authorMatch": true
+        },
+        "officialTitle": "Школа в Кармартене",
+        "officialAuthors": [
+          "Анна Коростелева"
+        ]
+      }
     },
     "status": "published",
     "author": "Анна Коростелева",
     "ageLabel": "12–17 лет",
-    "whyRecommended": "Подойдёт читателям 12–17 лет, которые любят сказки и фэнтези. В книге затрагиваются темы школы, науки и волшебства."
+    "whyRecommended": "Подойдёт читателям 12–17 лет, которые любят сказки и фэнтези. В книге затрагиваются темы школы, науки и волшебства.",
+    "language": "ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2024-11-15/67372ab17bdbc_0x0.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    }
   },
   {
     "id": "curated-nen-collection-zakoldovannaya-zhizn-uinn-dzhons",
@@ -153531,8 +153963,7 @@
       "copiedVerbatim": true
     },
     "bibliographicSources": [
-      "https://n-e-n.ru/knigi-dlya-podrostkov/",
-      "https://azbooka.ru/books/miry-krestomansi-zakoldovannaya-zhizn"
+      "https://n-e-n.ru/knigi-dlya-podrostkov/"
     ],
     "sourceMetadata": {
       "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
@@ -153540,17 +153971,17 @@
         "knigi-dlya-podrostkov"
       ],
       "officialMetadataAudit": {
-        "source": "Издательская группа «Азбука-Аттикус»",
-        "sourceUrl": "https://azbooka.ru/books/miry-krestomansi-zakoldovannaya-zhizn",
-        "sourceRecordId": "/books/miry-krestomansi-zakoldovannaya-zhizn",
-        "verifiedAt": "2026-08-03",
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+        "sourceRecordId": "https://n-e-n.ru/knigi-dlya-podrostkov/#curated-nen-collection-zakoldovannaya-zhizn-uinn-dzhons",
+        "verifiedAt": "2026-08-04",
         "match": {
           "strategy": "work_title_author",
-          "confidence": 0.9640000000000001,
-          "titleScore": 0.96,
+          "confidence": 0.99,
+          "titleScore": 1,
           "authorMatch": true
         },
-        "officialTitle": "Миры Крестоманси. Заколдованная жизнь",
+        "officialTitle": "Заколдованная жизнь",
         "officialAuthors": [
           "Диана Уинн Джонс"
         ]
@@ -153566,14 +153997,14 @@
     "language": "ru",
     "cover": {
       "kind": "external",
-      "url": "https://api.azbooka.ru/upload/iblock/3eb/3eb495c5c23084ef5911f58edfe0c031.jpg",
+      "url": "https://n-e-n.ru/images/2024-11-15/67372ab6517b5_0x0.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "Издательская группа «Азбука-Аттикус»",
-      "sourcePageUrl": "https://azbooka.ru/books/miry-krestomansi-zakoldovannaya-zhizn",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
       "isbn13": "9785389188532",
       "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-08-03"
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
     }
   },
   {
@@ -153599,7 +154030,6 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": true,
-    "coverUrl": "https://n-e-n.ru/images/2024-11-15/67372ad32d6e7_0x0.jpg",
     "annotationProvenance": {
       "source": "НЭН",
       "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
@@ -153614,12 +154044,39 @@
       "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
       "collectionSlugs": [
         "knigi-dlya-podrostkov"
-      ]
+      ],
+      "officialMetadataAudit": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+        "sourceRecordId": "https://n-e-n.ru/knigi-dlya-podrostkov/#curated-nen-collection-muley-erlend-lu",
+        "verifiedAt": "2026-08-04",
+        "match": {
+          "strategy": "work_title_author",
+          "confidence": 0.99,
+          "titleScore": 1,
+          "authorMatch": true
+        },
+        "officialTitle": "Мулей",
+        "officialAuthors": [
+          "Эрленд Лу"
+        ]
+      }
     },
     "status": "published",
     "author": "Эрленд Лу",
     "ageLabel": "12–17 лет",
-    "whyRecommended": "Для читателей 12–17 лет это реалистическая проза о семье, путешествиях и приключениях. Книгу можно выбрать для самостоятельного чтения."
+    "whyRecommended": "Для читателей 12–17 лет это реалистическая проза о семье, путешествиях и приключениях. Книгу можно выбрать для самостоятельного чтения.",
+    "language": "ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2024-11-15/67372ad32d6e7_0x0.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    }
   },
   {
     "id": "curated-nen-collection-zhutko-gromko-i-zapredelno-blizko-safran-foer",
@@ -153642,7 +154099,6 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": true,
-    "coverUrl": "https://n-e-n.ru/images/2024-11-15/67372ae8bb144_0x0.jpg",
     "annotationProvenance": {
       "source": "НЭН",
       "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
@@ -153651,8 +154107,7 @@
       "copiedVerbatim": true
     },
     "bibliographicSources": [
-      "https://n-e-n.ru/knigi-dlya-podrostkov/",
-      "https://eksmo.ru/book/zhutko-gromko-i-zapredelno-blizko-ITD848110/"
+      "https://n-e-n.ru/knigi-dlya-podrostkov/"
     ],
     "sourceMetadata": {
       "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
@@ -153660,13 +154115,13 @@
         "knigi-dlya-podrostkov"
       ],
       "officialMetadataAudit": {
-        "source": "Издательство «Эксмо»",
-        "sourceUrl": "https://eksmo.ru/book/zhutko-gromko-i-zapredelno-blizko-ITD848110/",
-        "sourceRecordId": "/book/zhutko-gromko-i-zapredelno-blizko-ITD848110/",
-        "verifiedAt": "2026-08-03",
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+        "sourceRecordId": "https://n-e-n.ru/knigi-dlya-podrostkov/#curated-nen-collection-zhutko-gromko-i-zapredelno-blizko-safran-foer",
+        "verifiedAt": "2026-08-04",
         "match": {
           "strategy": "work_title_author",
-          "confidence": 0.9700000000000001,
+          "confidence": 0.99,
           "titleScore": 1,
           "authorMatch": true,
           "selectedEditionYear": 2022
@@ -153685,7 +154140,18 @@
     "publicationYear": 2022,
     "pages": 416,
     "isbn13": "9785699951338",
-    "language": "ru ru"
+    "language": "ru ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2024-11-15/67372ae8bb144_0x0.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+      "isbn13": "9785699951338",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    }
   },
   {
     "id": "curated-nen-collection-milye-kosti-elis-sibold",
@@ -153708,7 +154174,6 @@
     "lengthCategory": "short",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": true,
-    "coverUrl": "https://n-e-n.ru/images/2024-11-15/67372af19968a_0x0.jpg",
     "annotationProvenance": {
       "source": "НЭН",
       "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
@@ -153717,8 +154182,7 @@
       "copiedVerbatim": true
     },
     "bibliographicSources": [
-      "https://n-e-n.ru/knigi-dlya-podrostkov/",
-      "https://eksmo.ru/book/milye-kosti-ITD1069220/"
+      "https://n-e-n.ru/knigi-dlya-podrostkov/"
     ],
     "sourceMetadata": {
       "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
@@ -153726,13 +154190,13 @@
         "knigi-dlya-podrostkov"
       ],
       "officialMetadataAudit": {
-        "source": "Издательство «Эксмо»",
-        "sourceUrl": "https://eksmo.ru/book/milye-kosti-ITD1069220/",
-        "sourceRecordId": "/book/milye-kosti-ITD1069220/",
-        "verifiedAt": "2026-08-03",
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+        "sourceRecordId": "https://n-e-n.ru/knigi-dlya-podrostkov/#curated-nen-collection-milye-kosti-elis-sibold",
+        "verifiedAt": "2026-08-04",
         "match": {
           "strategy": "work_title_author",
-          "confidence": 0.9700000000000001,
+          "confidence": 0.99,
           "titleScore": 1,
           "authorMatch": true,
           "selectedEditionYear": 2020
@@ -153751,7 +154215,18 @@
     "publicationYear": 2020,
     "pages": 432,
     "isbn13": "9785041089535",
-    "language": "ru ru"
+    "language": "ru ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2024-11-15/67372af19968a_0x0.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+      "isbn13": "9785041089535",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    }
   },
   {
     "id": "curated-nen-collection-kogda-my-vstretimsya-rebekka-sted",
@@ -153774,7 +154249,6 @@
     "lengthCategory": "short",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": true,
-    "coverUrl": "https://n-e-n.ru/images/2024-11-15/67372af5652cf_0x0.jpg",
     "annotationProvenance": {
       "source": "НЭН",
       "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
@@ -153789,12 +154263,39 @@
       "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
       "collectionSlugs": [
         "knigi-dlya-podrostkov"
-      ]
+      ],
+      "officialMetadataAudit": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+        "sourceRecordId": "https://n-e-n.ru/knigi-dlya-podrostkov/#curated-nen-collection-kogda-my-vstretimsya-rebekka-sted",
+        "verifiedAt": "2026-08-04",
+        "match": {
+          "strategy": "work_title_author",
+          "confidence": 0.99,
+          "titleScore": 1,
+          "authorMatch": true
+        },
+        "officialTitle": "Когда мы встретимся",
+        "officialAuthors": [
+          "Ребекка Стед"
+        ]
+      }
     },
     "status": "published",
     "author": "Ребекка Стед",
     "ageLabel": "12–17 лет",
-    "whyRecommended": "Для читателей 12–17 лет это реалистическая проза о семье и школе. Книгу можно выбрать для самостоятельного чтения."
+    "whyRecommended": "Для читателей 12–17 лет это реалистическая проза о семье и школе. Книгу можно выбрать для самостоятельного чтения.",
+    "language": "ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2024-11-15/67372af5652cf_0x0.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    }
   },
   {
     "id": "curated-nen-collection-trinadtsataya-skazka-diana-setterfild",
@@ -153828,8 +154329,7 @@
       "copiedVerbatim": true
     },
     "bibliographicSources": [
-      "https://n-e-n.ru/knigi-dlya-podrostkov/",
-      "https://azbooka.ru/books/trinadtsataya-skazka-drvx"
+      "https://n-e-n.ru/knigi-dlya-podrostkov/"
     ],
     "sourceMetadata": {
       "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
@@ -153837,17 +154337,17 @@
         "knigi-dlya-podrostkov"
       ],
       "officialMetadataAudit": {
-        "source": "Издательская группа «Азбука-Аттикус»",
-        "sourceUrl": "https://azbooka.ru/books/trinadtsataya-skazka-drvx",
-        "sourceRecordId": "/books/trinadtsataya-skazka-drvx",
-        "verifiedAt": "2026-08-03",
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+        "sourceRecordId": "https://n-e-n.ru/knigi-dlya-podrostkov/#curated-nen-collection-trinadtsataya-skazka-diana-setterfild",
+        "verifiedAt": "2026-08-04",
         "match": {
           "strategy": "work_title_author",
-          "confidence": 0.9640000000000001,
-          "titleScore": 0.96,
+          "confidence": 0.99,
+          "titleScore": 1,
           "authorMatch": true
         },
-        "officialTitle": "Тринадцатая сказка (The Big Book (мягкая обл))",
+        "officialTitle": "Тринадцатая сказка",
         "officialAuthors": [
           "Диана Сеттерфилд"
         ]
@@ -153863,14 +154363,14 @@
     "language": "ru",
     "cover": {
       "kind": "external",
-      "url": "https://api.azbooka.ru/upload/iblock/be5/be590282c62b5c147a35513cae58ba4f.jpg",
+      "url": "https://n-e-n.ru/images/2024-11-15/67372af5652cf_0x0.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "Издательская группа «Азбука-Аттикус»",
-      "sourcePageUrl": "https://azbooka.ru/books/trinadtsataya-skazka-drvx",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
       "isbn13": "9785389073531",
       "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-08-03"
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
     }
   },
   {
@@ -153894,7 +154394,6 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": true,
-    "coverUrl": "https://n-e-n.ru/images/2024-11-15/67372b02c74ed_0x0.jpg",
     "annotationProvenance": {
       "source": "НЭН",
       "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
@@ -153909,12 +154408,39 @@
       "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
       "collectionSlugs": [
         "knigi-dlya-podrostkov"
-      ]
+      ],
+      "officialMetadataAudit": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+        "sourceRecordId": "https://n-e-n.ru/knigi-dlya-podrostkov/#curated-nen-collection-bezdna-chellendzhera-nil-shusterman",
+        "verifiedAt": "2026-08-04",
+        "match": {
+          "strategy": "work_title_author",
+          "confidence": 0.99,
+          "titleScore": 1,
+          "authorMatch": true
+        },
+        "officialTitle": "Бездна Челленджера",
+        "officialAuthors": [
+          "Нил Шустерман"
+        ]
+      }
     },
     "status": "published",
     "author": "Нил Шустерман",
     "ageLabel": "12–17 лет",
-    "whyRecommended": "Подойдёт читателям 12–17 лет, которые любят реалистическую прозу. В книге затрагиваются темы школы и искусства."
+    "whyRecommended": "Подойдёт читателям 12–17 лет, которые любят реалистическую прозу. В книге затрагиваются темы школы и искусства.",
+    "language": "ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2024-11-15/67372b02c74ed_0x0.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    }
   },
   {
     "id": "curated-nen-collection-devyatnadtsat-minut-dzhodi-pikolt",
@@ -153944,8 +154470,7 @@
       "copiedVerbatim": true
     },
     "bibliographicSources": [
-      "https://n-e-n.ru/knigi-dlya-podrostkov/",
-      "https://azbooka.ru/books/devyatnadtsat-minut-vjib"
+      "https://n-e-n.ru/knigi-dlya-podrostkov/"
     ],
     "sourceMetadata": {
       "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
@@ -153953,17 +154478,17 @@
         "knigi-dlya-podrostkov"
       ],
       "officialMetadataAudit": {
-        "source": "Издательская группа «Азбука-Аттикус»",
-        "sourceUrl": "https://azbooka.ru/books/devyatnadtsat-minut-vjib",
-        "sourceRecordId": "/books/devyatnadtsat-minut-vjib",
-        "verifiedAt": "2026-08-03",
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+        "sourceRecordId": "https://n-e-n.ru/knigi-dlya-podrostkov/#curated-nen-collection-devyatnadtsat-minut-dzhodi-pikolt",
+        "verifiedAt": "2026-08-04",
         "match": {
           "strategy": "work_title_author",
-          "confidence": 0.9640000000000001,
-          "titleScore": 0.96,
+          "confidence": 0.99,
+          "titleScore": 1,
           "authorMatch": true
         },
-        "officialTitle": "Девятнадцать минут (твердый)",
+        "officialTitle": "Девятнадцать минут",
         "officialAuthors": [
           "Джоди Пиколт"
         ]
@@ -153979,14 +154504,14 @@
     "language": "ru",
     "cover": {
       "kind": "external",
-      "url": "https://api.azbooka.ru/upload/iblock/038/038dce9e865f5d8d168329832f2ae95f.jpg",
+      "url": "https://n-e-n.ru/images/2024-11-15/67372b02c74ed_0x0.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "Издательская группа «Азбука-Аттикус»",
-      "sourcePageUrl": "https://azbooka.ru/books/devyatnadtsat-minut-vjib",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
       "isbn13": "9785389159662",
       "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-08-03"
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
     }
   },
   {
@@ -154013,7 +154538,6 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": true,
-    "coverUrl": "https://n-e-n.ru/images/2024-11-15/67372b10b866d_0x0.jpg",
     "annotationProvenance": {
       "source": "НЭН",
       "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
@@ -154028,12 +154552,39 @@
       "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
       "collectionSlugs": [
         "knigi-dlya-podrostkov"
-      ]
+      ],
+      "officialMetadataAudit": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+        "sourceRecordId": "https://n-e-n.ru/knigi-dlya-podrostkov/#curated-nen-collection-ptitsa-v-kletke-robin-rou",
+        "verifiedAt": "2026-08-04",
+        "match": {
+          "strategy": "work_title_author",
+          "confidence": 0.99,
+          "titleScore": 1,
+          "authorMatch": true
+        },
+        "officialTitle": "Птица в клетке",
+        "officialAuthors": [
+          "Робин Роу"
+        ]
+      }
     },
     "status": "published",
     "author": "Робин Роу",
     "ageLabel": "12–17 лет",
-    "whyRecommended": "Для читателей 12–17 лет это реалистическая проза о дружбе, школе и животных. Книгу можно выбрать для самостоятельного чтения."
+    "whyRecommended": "Для читателей 12–17 лет это реалистическая проза о дружбе, школе и животных. Книгу можно выбрать для самостоятельного чтения.",
+    "language": "ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2024-11-15/67372b10b866d_0x0.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    }
   },
   {
     "id": "curated-nen-collection-ulichnyy-kot-po-imeni-bob-dzheyms-bouen",
@@ -154064,8 +154615,7 @@
       "copiedVerbatim": true
     },
     "bibliographicSources": [
-      "https://n-e-n.ru/knigi-dlya-podrostkov/",
-      "https://ast.ru/book/kot-po-imeni-bob-831449/"
+      "https://n-e-n.ru/knigi-dlya-podrostkov/"
     ],
     "sourceMetadata": {
       "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
@@ -154073,17 +154623,17 @@
         "knigi-dlya-podrostkov"
       ],
       "officialMetadataAudit": {
-        "source": "Издательство «АСТ»",
-        "sourceUrl": "https://ast.ru/book/kot-po-imeni-bob-831449/",
-        "sourceRecordId": "/book/kot-po-imeni-bob-831449/",
-        "verifiedAt": "2026-08-03",
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+        "sourceRecordId": "https://n-e-n.ru/knigi-dlya-podrostkov/#curated-nen-collection-ulichnyy-kot-po-imeni-bob-dzheyms-bouen",
+        "verifiedAt": "2026-08-04",
         "match": {
           "strategy": "work_title_author",
-          "confidence": 0.9640000000000001,
-          "titleScore": 0.96,
+          "confidence": 0.99,
+          "titleScore": 1,
           "authorMatch": true
         },
-        "officialTitle": "Кот по имени Боб",
+        "officialTitle": "Уличный кот по имени Боб",
         "officialAuthors": [
           "Джеймс Боуэн"
         ]
@@ -154099,14 +154649,14 @@
     "language": "ru",
     "cover": {
       "kind": "external",
-      "url": "https://cdn.ast.ru/v2/ASE000000000831449/COVER/cover1__w340.jpg",
+      "url": "https://n-e-n.ru/images/2024-11-15/67372b17076e6_0x0.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «АСТ»",
-      "sourcePageUrl": "https://ast.ru/book/kot-po-imeni-bob-831449/",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
       "isbn13": "9785171047399",
       "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-08-03"
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
     }
   },
   {
@@ -154131,7 +154681,6 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": true,
-    "coverUrl": "https://n-e-n.ru/images/2024-11-15/67372b1f21ad2_0x0.jpg",
     "annotationProvenance": {
       "source": "НЭН",
       "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
@@ -154140,8 +154689,7 @@
       "copiedVerbatim": true
     },
     "bibliographicSources": [
-      "https://n-e-n.ru/knigi-dlya-podrostkov/",
-      "https://eksmo.ru/book/spletni-i-k-pop-ITD1244126/"
+      "https://n-e-n.ru/knigi-dlya-podrostkov/"
     ],
     "sourceMetadata": {
       "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
@@ -154149,13 +154697,13 @@
         "knigi-dlya-podrostkov"
       ],
       "officialMetadataAudit": {
-        "source": "Издательство «Эксмо»",
-        "sourceUrl": "https://eksmo.ru/book/spletni-i-k-pop-ITD1244126/",
-        "sourceRecordId": "/book/spletni-i-k-pop-ITD1244126/",
-        "verifiedAt": "2026-08-03",
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+        "sourceRecordId": "https://n-e-n.ru/knigi-dlya-podrostkov/#curated-nen-collection-spletni-i-k-pop-aleksandra-yang",
+        "verifiedAt": "2026-08-04",
         "match": {
           "strategy": "work_title_author",
-          "confidence": 0.9700000000000001,
+          "confidence": 0.99,
           "titleScore": 1,
           "authorMatch": true,
           "selectedEditionYear": 2022
@@ -154174,7 +154722,18 @@
     "publicationYear": 2022,
     "pages": 352,
     "isbn13": "9785041602239",
-    "language": "ru ru"
+    "language": "ru ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2024-11-15/67372b1f21ad2_0x0.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+      "isbn13": "9785041602239",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    }
   },
   {
     "id": "curated-nen-collection-heytery-dzhessi-endryus",
@@ -154210,8 +154769,7 @@
       "copiedVerbatim": true
     },
     "bibliographicSources": [
-      "https://n-e-n.ru/knigi-dlya-podrostkov/",
-      "https://ast.ru/book/kheytery-724907/"
+      "https://n-e-n.ru/knigi-dlya-podrostkov/"
     ],
     "sourceMetadata": {
       "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
@@ -154219,13 +154777,13 @@
         "knigi-dlya-podrostkov"
       ],
       "officialMetadataAudit": {
-        "source": "Издательство «АСТ»",
-        "sourceUrl": "https://ast.ru/book/kheytery-724907/",
-        "sourceRecordId": "/book/kheytery-724907/",
-        "verifiedAt": "2026-08-03",
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+        "sourceRecordId": "https://n-e-n.ru/knigi-dlya-podrostkov/#curated-nen-collection-heytery-dzhessi-endryus",
+        "verifiedAt": "2026-08-04",
         "match": {
           "strategy": "work_title_author",
-          "confidence": 0.9700000000000001,
+          "confidence": 0.99,
           "titleScore": 1,
           "authorMatch": true
         },
@@ -154245,14 +154803,14 @@
     "language": "ru",
     "cover": {
       "kind": "external",
-      "url": "https://cdn.ast.ru/v2/ASE000000000724907/COVER/cover1__w340.jpg",
+      "url": "https://n-e-n.ru/images/2024-11-15/67372b1f21ad2_0x0.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «АСТ»",
-      "sourcePageUrl": "https://ast.ru/book/kheytery-724907/",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
       "isbn13": "9785170987221",
       "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-08-03"
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
     }
   },
   {
@@ -154279,7 +154837,6 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": true,
-    "coverUrl": "https://n-e-n.ru/images/2022-12-26/63a978b78c91a_0x0.jpeg",
     "annotationProvenance": {
       "source": "НЭН",
       "sourceUrl": "https://n-e-n.ru/8-knig/",
@@ -154294,12 +154851,39 @@
       "sourceUrl": "https://n-e-n.ru/8-knig/",
       "collectionSlugs": [
         "knigi-na-kanikuly"
-      ]
+      ],
+      "officialMetadataAudit": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/8-knig/",
+        "sourceRecordId": "https://n-e-n.ru/8-knig/#curated-nen-collection-schepotka-magii-mishel-harrison",
+        "verifiedAt": "2026-08-04",
+        "match": {
+          "strategy": "work_title_author",
+          "confidence": 0.99,
+          "titleScore": 1,
+          "authorMatch": true
+        },
+        "officialTitle": "Щепотка магии",
+        "officialAuthors": [
+          "Мишель Харрисон"
+        ]
+      }
     },
     "status": "published",
     "author": "Мишель Харрисон",
     "ageLabel": "9–16 лет",
-    "whyRecommended": "Для читателей 9–16 лет это фэнтези о дружбе, животных и путешествиях. Книгу можно выбрать для самостоятельного чтения."
+    "whyRecommended": "Для читателей 9–16 лет это фэнтези о дружбе, животных и путешествиях. Книгу можно выбрать для самостоятельного чтения.",
+    "language": "ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2022-12-26/63a978b78c91a_0x0.jpeg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/8-knig/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    }
   },
   {
     "id": "curated-nen-collection-gorstka-volshebstva-mishel-harrison",
@@ -154333,8 +154917,7 @@
       "copiedVerbatim": true
     },
     "bibliographicSources": [
-      "https://n-e-n.ru/8-knig/",
-      "https://alpinabook.ru/catalog/book-gorstka-volshebstva/"
+      "https://n-e-n.ru/8-knig/"
     ],
     "sourceMetadata": {
       "sourceUrl": "https://n-e-n.ru/8-knig/",
@@ -154342,13 +154925,13 @@
         "knigi-na-kanikuly"
       ],
       "officialMetadataAudit": {
-        "source": "Издательство «Альпина.Дети»",
-        "sourceUrl": "https://alpinabook.ru/catalog/book-gorstka-volshebstva/",
-        "sourceRecordId": "/catalog/book-gorstka-volshebstva/",
-        "verifiedAt": "2026-08-03",
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/8-knig/",
+        "sourceRecordId": "https://n-e-n.ru/8-knig/#curated-nen-collection-gorstka-volshebstva-mishel-harrison",
+        "verifiedAt": "2026-08-04",
         "match": {
           "strategy": "work_title_author",
-          "confidence": 0.9500000000000001,
+          "confidence": 0.99,
           "titleScore": 1,
           "authorMatch": true,
           "selectedEditionYear": 2021
@@ -154369,13 +154952,13 @@
     "language": "ru",
     "cover": {
       "kind": "external",
-      "url": "https://alpinabook.ru/upload/iblock/484/wq0c34bohqo5e4awpxxf35adw7idu1qm/cover512.jpg",
+      "url": "https://n-e-n.ru/images/2022-12-26/63a978b78c91a_0x0.jpeg",
       "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Альпина.Дети»",
-      "sourcePageUrl": "https://alpinabook.ru/catalog/book-gorstka-volshebstva/",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/8-knig/",
       "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-08-03"
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
     }
   },
   {
@@ -154402,7 +154985,6 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": true,
-    "coverUrl": "https://n-e-n.ru/images/2022-12-26/63a978b78c91a_0x0.jpeg",
     "annotationProvenance": {
       "source": "НЭН",
       "sourceUrl": "https://n-e-n.ru/8-knig/",
@@ -154417,12 +154999,39 @@
       "sourceUrl": "https://n-e-n.ru/8-knig/",
       "collectionSlugs": [
         "knigi-na-kanikuly"
-      ]
+      ],
+      "officialMetadataAudit": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/8-knig/",
+        "sourceRecordId": "https://n-e-n.ru/8-knig/#curated-nen-collection-klubok-zaklinaniy-mishel-harrison",
+        "verifiedAt": "2026-08-04",
+        "match": {
+          "strategy": "work_title_author",
+          "confidence": 0.99,
+          "titleScore": 1,
+          "authorMatch": true
+        },
+        "officialTitle": "Клубок заклинаний",
+        "officialAuthors": [
+          "Мишель Харрисон"
+        ]
+      }
     },
     "status": "published",
     "author": "Мишель Харрисон",
     "ageLabel": "9–16 лет",
-    "whyRecommended": "Если ребёнок любит фэнтези и сюжеты о дружбе, животных и путешествиях, книга подойдёт ему в возрасте 9–16 лет. Она подходит для самостоятельного чтения."
+    "whyRecommended": "Если ребёнок любит фэнтези и сюжеты о дружбе, животных и путешествиях, книга подойдёт ему в возрасте 9–16 лет. Она подходит для самостоятельного чтения.",
+    "language": "ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2022-12-26/63a978b78c91a_0x0.jpeg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/8-knig/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    }
   },
   {
     "id": "curated-nen-collection-malenkaya-vsemirnaya-istoriya-ernst-gombrih",
@@ -154454,8 +155063,7 @@
       "copiedVerbatim": true
     },
     "bibliographicSources": [
-      "https://n-e-n.ru/8-knig/",
-      "https://alpinabook.ru/catalog/book-malenkaya-vsemirnaya-istoriya/"
+      "https://n-e-n.ru/8-knig/"
     ],
     "sourceMetadata": {
       "sourceUrl": "https://n-e-n.ru/8-knig/",
@@ -154463,13 +155071,13 @@
         "knigi-na-kanikuly"
       ],
       "officialMetadataAudit": {
-        "source": "Издательство «Альпина.Дети»",
-        "sourceUrl": "https://alpinabook.ru/catalog/book-malenkaya-vsemirnaya-istoriya/",
-        "sourceRecordId": "/catalog/book-malenkaya-vsemirnaya-istoriya/",
-        "verifiedAt": "2026-08-03",
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/8-knig/",
+        "sourceRecordId": "https://n-e-n.ru/8-knig/#curated-nen-collection-malenkaya-vsemirnaya-istoriya-ernst-gombrih",
+        "verifiedAt": "2026-08-04",
         "match": {
           "strategy": "work_title_author",
-          "confidence": 0.9700000000000001,
+          "confidence": 0.99,
           "titleScore": 1,
           "authorMatch": true,
           "selectedEditionYear": 2024
@@ -154491,14 +155099,14 @@
     "language": "ru",
     "cover": {
       "kind": "external",
-      "url": "https://alpinabook.ru/upload/iblock/29f/1z23xk8zvcaiyk0qh4ygf2728uahd1nn/oblozhka1230px.jpg",
+      "url": "https://n-e-n.ru/images/2022-12-26/63a97ac868108_0x0.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Альпина.Дети»",
-      "sourcePageUrl": "https://alpinabook.ru/catalog/book-malenkaya-vsemirnaya-istoriya/",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/8-knig/",
       "isbn13": "9785001395225",
       "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-08-03"
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
     }
   },
   {
@@ -154529,8 +155137,7 @@
       "copiedVerbatim": true
     },
     "bibliographicSources": [
-      "https://n-e-n.ru/8-knig/",
-      "https://alpinabook.ru/catalog/book-sekrety-koshek/"
+      "https://n-e-n.ru/8-knig/"
     ],
     "sourceMetadata": {
       "sourceUrl": "https://n-e-n.ru/8-knig/",
@@ -154538,18 +155145,18 @@
         "knigi-na-kanikuly"
       ],
       "officialMetadataAudit": {
-        "source": "Издательство «Альпина.Дети»",
-        "sourceUrl": "https://alpinabook.ru/catalog/book-sekrety-koshek/",
-        "sourceRecordId": "/catalog/book-sekrety-koshek/",
-        "verifiedAt": "2026-08-03",
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/8-knig/",
+        "sourceRecordId": "https://n-e-n.ru/8-knig/#curated-nen-collection-sekrety-koshek-sasha-raush",
+        "verifiedAt": "2026-08-04",
         "match": {
           "strategy": "work_title_author",
-          "confidence": 0.9640000000000001,
-          "titleScore": 0.96,
+          "confidence": 0.99,
+          "titleScore": 1,
           "authorMatch": true,
           "selectedEditionYear": 2025
         },
-        "officialTitle": "Секреты кошек Как понять свою кошку и подружиться с ней",
+        "officialTitle": "Секреты кошек",
         "officialAuthors": [
           "Саша Рауш"
         ]
@@ -154566,14 +155173,14 @@
     "language": "ru",
     "cover": {
       "kind": "external",
-      "url": "https://alpinabook.ru/upload/iblock/074/2o1hxranipo0kbanzkc9cn6w5tfudxue/face_cats.jpg",
+      "url": "https://n-e-n.ru/images/2022-12-26/63a97b20aaecf_0x0.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Альпина.Дети»",
-      "sourcePageUrl": "https://alpinabook.ru/catalog/book-sekrety-koshek/",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/8-knig/",
       "isbn13": "9785961482027",
       "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-08-03"
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
     }
   },
   {
@@ -154607,8 +155214,7 @@
       "copiedVerbatim": true
     },
     "bibliographicSources": [
-      "https://n-e-n.ru/8-knig/",
-      "https://alpinabook.ru/catalog/book-brat-drakona/"
+      "https://n-e-n.ru/8-knig/"
     ],
     "sourceMetadata": {
       "sourceUrl": "https://n-e-n.ru/8-knig/",
@@ -154616,13 +155222,13 @@
         "knigi-na-kanikuly"
       ],
       "officialMetadataAudit": {
-        "source": "Издательство «Альпина.Дети»",
-        "sourceUrl": "https://alpinabook.ru/catalog/book-brat-drakona/",
-        "sourceRecordId": "/catalog/book-brat-drakona/",
-        "verifiedAt": "2026-08-03",
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/8-knig/",
+        "sourceRecordId": "https://n-e-n.ru/8-knig/#curated-nen-collection-brat-drakona-larisa-romanovskaya",
+        "verifiedAt": "2026-08-04",
         "match": {
           "strategy": "work_title_author",
-          "confidence": 0.9700000000000001,
+          "confidence": 0.99,
           "titleScore": 1,
           "authorMatch": true,
           "selectedEditionYear": 2023
@@ -154644,14 +155250,14 @@
     "language": "ru",
     "cover": {
       "kind": "external",
-      "url": "https://alpinabook.ru/upload/iblock/e3c/e3u98drpc12wvmud1k4y6cgpxahnws3b/face_Brat-drakona.jpg",
+      "url": "https://n-e-n.ru/images/2022-12-26/63a97b6f4467a_0x0.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Альпина.Дети»",
-      "sourcePageUrl": "https://alpinabook.ru/catalog/book-brat-drakona/",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/8-knig/",
       "isbn13": "9785961483772",
       "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-08-03"
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
     }
   },
   {
@@ -154678,7 +155284,6 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": true,
-    "coverUrl": "https://n-e-n.ru/images/2022-12-26/63a97ba1cdf97_0x0.jpg",
     "annotationProvenance": {
       "source": "НЭН",
       "sourceUrl": "https://n-e-n.ru/8-knig/",
@@ -154693,12 +155298,39 @@
       "sourceUrl": "https://n-e-n.ru/8-knig/",
       "collectionSlugs": [
         "knigi-na-kanikuly"
-      ]
+      ],
+      "officialMetadataAudit": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/8-knig/",
+        "sourceRecordId": "https://n-e-n.ru/8-knig/#curated-nen-collection-zatonuvshiy-les-lloyd-dzhons",
+        "verifiedAt": "2026-08-04",
+        "match": {
+          "strategy": "work_title_author",
+          "confidence": 0.99,
+          "titleScore": 1,
+          "authorMatch": true
+        },
+        "officialTitle": "Затонувший лес",
+        "officialAuthors": [
+          "Эмили Ллойд-Джонс"
+        ]
+      }
     },
     "status": "published",
     "author": "Эмили Ллойд-Джонс",
     "ageLabel": "9–16 лет",
-    "whyRecommended": "Если ребёнок любит сказки и фэнтези и сюжеты о животных, природе и волшебстве, книга подойдёт ему в возрасте 9–16 лет. Она подходит для самостоятельного чтения."
+    "whyRecommended": "Если ребёнок любит сказки и фэнтези и сюжеты о животных, природе и волшебстве, книга подойдёт ему в возрасте 9–16 лет. Она подходит для самостоятельного чтения.",
+    "language": "ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2022-12-26/63a97ba1cdf97_0x0.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/8-knig/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    }
   },
   {
     "id": "curated-nen-collection-6-minut-dlya-detey-dominik-spenst",
@@ -154728,8 +155360,7 @@
       "copiedVerbatim": true
     },
     "bibliographicSources": [
-      "https://n-e-n.ru/8-knig/",
-      "https://alpinabook.ru/catalog/book-6-minut-dlya-detey/"
+      "https://n-e-n.ru/8-knig/"
     ],
     "sourceMetadata": {
       "sourceUrl": "https://n-e-n.ru/8-knig/",
@@ -154737,18 +155368,18 @@
         "knigi-na-kanikuly"
       ],
       "officialMetadataAudit": {
-        "source": "Издательство «Альпина.Дети»",
-        "sourceUrl": "https://alpinabook.ru/catalog/book-6-minut-dlya-detey/",
-        "sourceRecordId": "/catalog/book-6-minut-dlya-detey/",
-        "verifiedAt": "2026-08-03",
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/8-knig/",
+        "sourceRecordId": "https://n-e-n.ru/8-knig/#curated-nen-collection-6-minut-dlya-detey-dominik-spenst",
+        "verifiedAt": "2026-08-04",
         "match": {
           "strategy": "work_title_author",
-          "confidence": 0.9640000000000001,
-          "titleScore": 0.96,
+          "confidence": 0.99,
+          "titleScore": 1,
           "authorMatch": true,
           "selectedEditionYear": 2026
         },
-        "officialTitle": "6 минут для детей Первый мотивационный ежедневник ребенка",
+        "officialTitle": "6 минут для детей",
         "officialAuthors": [
           "Доминик Спенст"
         ]
@@ -154765,14 +155396,14 @@
     "language": "ru",
     "cover": {
       "kind": "external",
-      "url": "https://alpinabook.ru/upload/iblock/1ac/wdgzhun51rtcgkzuzbk8wv32pco7iv2n/face_LEO.jpg",
+      "url": "https://n-e-n.ru/images/2022-12-26/63a97beaa054b_0x0.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Альпина.Дети»",
-      "sourcePageUrl": "https://alpinabook.ru/catalog/book-6-minut-dlya-detey/",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/8-knig/",
       "isbn13": "9785961495850",
       "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-08-03"
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
     }
   },
   {
@@ -154805,8 +155436,7 @@
       "copiedVerbatim": true
     },
     "bibliographicSources": [
-      "https://n-e-n.ru/8-knig/",
-      "https://alpinabook.ru/catalog/book-drugaya-elis/"
+      "https://n-e-n.ru/8-knig/"
     ],
     "sourceMetadata": {
       "sourceUrl": "https://n-e-n.ru/8-knig/",
@@ -154814,13 +155444,13 @@
         "knigi-na-kanikuly"
       ],
       "officialMetadataAudit": {
-        "source": "Издательство «Альпина.Дети»",
-        "sourceUrl": "https://alpinabook.ru/catalog/book-drugaya-elis/",
-        "sourceRecordId": "/catalog/book-drugaya-elis/",
-        "verifiedAt": "2026-08-03",
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/8-knig/",
+        "sourceRecordId": "https://n-e-n.ru/8-knig/#curated-nen-collection-drugaya-elis-mishel-harrison",
+        "verifiedAt": "2026-08-04",
         "match": {
           "strategy": "work_title_author",
-          "confidence": 0.9700000000000001,
+          "confidence": 0.99,
           "titleScore": 1,
           "authorMatch": true,
           "selectedEditionYear": 2023
@@ -154842,14 +155472,14 @@
     "language": "ru",
     "cover": {
       "kind": "external",
-      "url": "https://alpinabook.ru/upload/iblock/283/n5ffocotbzi5pw7qo4olhun35k5oumc8/face_1230px_RGB_BIG%20The_other_Alice.jpg",
+      "url": "https://n-e-n.ru/images/2022-12-26/63a97c19aeb6a_0x0.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Альпина.Дети»",
-      "sourcePageUrl": "https://alpinabook.ru/catalog/book-drugaya-elis/",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/8-knig/",
       "isbn13": "9785961476774",
       "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-08-03"
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
     }
   },
   {
@@ -154876,7 +155506,6 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": true,
-    "coverUrl": "https://n-e-n.ru/images/2023-06-09/6482f5aac11dd_0x0.jpeg",
     "annotationProvenance": {
       "source": "НЭН",
       "sourceUrl": "https://n-e-n.ru/5-knig-alpina/",
@@ -154891,12 +155520,39 @@
       "sourceUrl": "https://n-e-n.ru/5-knig-alpina/",
       "collectionSlugs": [
         "lyubimye-knigi-alpina-deti"
-      ]
+      ],
+      "officialMetadataAudit": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/5-knig-alpina/",
+        "sourceRecordId": "https://n-e-n.ru/5-knig-alpina/#curated-nen-collection-neveroyatno-opasnaya-sliz-ledyanye-myshki-sedobnye-kamni-i-esche-95-istoriy-o-mire-vokrug-nas-nastya-tr",
+        "verifiedAt": "2026-08-04",
+        "match": {
+          "strategy": "work_title_author",
+          "confidence": 0.99,
+          "titleScore": 1,
+          "authorMatch": true
+        },
+        "officialTitle": "Невероятно! Опасная слизь, ледяные мышки, съедобные камни и еще 95 историй о мире вокруг нас",
+        "officialAuthors": [
+          "Ася Ванякина, Настя Троян"
+        ]
+      }
     },
     "status": "published",
     "author": "Ася Ванякина, Настя Троян",
     "ageLabel": "3–14 лет",
-    "whyRecommended": "Если ребёнок любит познавательные книги и сюжеты о животных, природе и науке, книга подойдёт ему в возрасте 3–14 лет. Она подходит для самостоятельного или совместного чтения."
+    "whyRecommended": "Если ребёнок любит познавательные книги и сюжеты о животных, природе и науке, книга подойдёт ему в возрасте 3–14 лет. Она подходит для самостоятельного или совместного чтения.",
+    "language": "ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2023-06-09/6482f5aac11dd_0x0.jpeg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/5-knig-alpina/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    }
   },
   {
     "id": "curated-nen-collection-druzhba-posle-ssory-novye-priklyucheniya-emo-i-chiki-dzhoshua-vays",
@@ -154924,7 +155580,6 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": true,
-    "coverUrl": "https://n-e-n.ru/images/2023-06-09/6482f5b8ccc40_0x0.jpeg",
     "annotationProvenance": {
       "source": "НЭН",
       "sourceUrl": "https://n-e-n.ru/5-knig-alpina/",
@@ -154939,12 +155594,39 @@
       "sourceUrl": "https://n-e-n.ru/5-knig-alpina/",
       "collectionSlugs": [
         "lyubimye-knigi-alpina-deti"
-      ]
+      ],
+      "officialMetadataAudit": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/5-knig-alpina/",
+        "sourceRecordId": "https://n-e-n.ru/5-knig-alpina/#curated-nen-collection-druzhba-posle-ssory-novye-priklyucheniya-emo-i-chiki-dzhoshua-vays",
+        "verifiedAt": "2026-08-04",
+        "match": {
+          "strategy": "work_title_author",
+          "confidence": 0.99,
+          "titleScore": 1,
+          "authorMatch": true
+        },
+        "officialTitle": "Дружба после ссоры… Новые приключения Эмо и Чики",
+        "officialAuthors": [
+          "Грегг Релье, Джошуа Вайс"
+        ]
+      }
     },
     "status": "published",
     "author": "Грегг Релье, Джошуа Вайс",
     "ageLabel": "3–14 лет",
-    "whyRecommended": "Для читателей 3–14 лет это приключения и юмор о дружбе, животных и отношениях. Книгу можно выбрать для самостоятельного или совместного чтения."
+    "whyRecommended": "Для читателей 3–14 лет это приключения и юмор о дружбе, животных и отношениях. Книгу можно выбрать для самостоятельного или совместного чтения.",
+    "language": "ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2023-06-09/6482f5b8ccc40_0x0.jpeg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/5-knig-alpina/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    }
   },
   {
     "id": "curated-nen-collection-ya-idu-iskat-v-sankt-peterburge-svetlana-shahverdova",
@@ -154979,8 +155661,7 @@
       "copiedVerbatim": true
     },
     "bibliographicSources": [
-      "https://n-e-n.ru/5-knig-alpina/",
-      "https://alpinabook.ru/catalog/book-ya-idu-iskat-v-sankt-peterburge/"
+      "https://n-e-n.ru/5-knig-alpina/"
     ],
     "sourceMetadata": {
       "sourceUrl": "https://n-e-n.ru/5-knig-alpina/",
@@ -154988,13 +155669,13 @@
         "lyubimye-knigi-alpina-deti"
       ],
       "officialMetadataAudit": {
-        "source": "Издательство «Альпина.Дети»",
-        "sourceUrl": "https://alpinabook.ru/catalog/book-ya-idu-iskat-v-sankt-peterburge/",
-        "sourceRecordId": "/catalog/book-ya-idu-iskat-v-sankt-peterburge/",
-        "verifiedAt": "2026-08-03",
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/5-knig-alpina/",
+        "sourceRecordId": "https://n-e-n.ru/5-knig-alpina/#curated-nen-collection-ya-idu-iskat-v-sankt-peterburge-svetlana-shahverdova",
+        "verifiedAt": "2026-08-04",
         "match": {
           "strategy": "work_title_author",
-          "confidence": 0.9700000000000001,
+          "confidence": 0.99,
           "titleScore": 1,
           "authorMatch": true,
           "selectedEditionYear": 2025
@@ -155016,14 +155697,14 @@
     "language": "ru",
     "cover": {
       "kind": "external",
-      "url": "https://alpinabook.ru/upload/iblock/355/c1ca206tyvladmddbym4tre22a4l6cme/face_1230px_RGB_BIG%20Ya_idu_iskat_v_SPB.jpg",
+      "url": "https://n-e-n.ru/images/2023-06-09/6482f5c5f0b27_0x0.jpeg",
       "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Альпина.Дети»",
-      "sourcePageUrl": "https://alpinabook.ru/catalog/book-ya-idu-iskat-v-sankt-peterburge/",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/5-knig-alpina/",
       "isbn13": "9785961478679",
       "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-08-03"
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
     }
   },
   {
@@ -155058,8 +155739,7 @@
       "copiedVerbatim": true
     },
     "bibliographicSources": [
-      "https://n-e-n.ru/5-knig-alpina/",
-      "https://alpinabook.ru/catalog/book-konni-i-druzya-novaya-shkola/"
+      "https://n-e-n.ru/5-knig-alpina/"
     ],
     "sourceMetadata": {
       "sourceUrl": "https://n-e-n.ru/5-knig-alpina/",
@@ -155067,18 +155747,18 @@
         "lyubimye-knigi-alpina-deti"
       ],
       "officialMetadataAudit": {
-        "source": "Издательство «Альпина.Дети»",
-        "sourceUrl": "https://alpinabook.ru/catalog/book-konni-i-druzya-novaya-shkola/",
-        "sourceRecordId": "/catalog/book-konni-i-druzya-novaya-shkola/",
-        "verifiedAt": "2026-08-03",
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/5-knig-alpina/",
+        "sourceRecordId": "https://n-e-n.ru/5-knig-alpina/#curated-nen-collection-konni-i-druzya-novaya-shkola-yuliya-beme",
+        "verifiedAt": "2026-08-04",
         "match": {
           "strategy": "work_title_author",
-          "confidence": 0.9700000000000001,
+          "confidence": 0.99,
           "titleScore": 1,
           "authorMatch": true,
           "selectedEditionYear": 2024
         },
-        "officialTitle": "Конни и друзья Новая школа",
+        "officialTitle": "Конни и друзья: Новая школа",
         "officialAuthors": [
           "Юлия Беме"
         ]
@@ -155095,14 +155775,14 @@
     "language": "ru",
     "cover": {
       "kind": "external",
-      "url": "https://alpinabook.ru/upload/iblock/1ff/xjcni2e7hejvr3glk2djjc3zxmlu3zhx/face_New_school.jpg",
+      "url": "https://n-e-n.ru/images/2023-06-09/6482f5d23eeca_0x0.jpeg",
       "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Альпина.Дети»",
-      "sourcePageUrl": "https://alpinabook.ru/catalog/book-konni-i-druzya-novaya-shkola/",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/5-knig-alpina/",
       "isbn13": "9785961484489",
       "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-08-03"
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
     }
   },
   {
@@ -155129,7 +155809,6 @@
     "lengthCategory": "long",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": true,
-    "coverUrl": "https://n-e-n.ru/images/2023-06-09/6482f5dd512ed_0x0.jpeg",
     "annotationProvenance": {
       "source": "НЭН",
       "sourceUrl": "https://n-e-n.ru/5-knig-alpina/",
@@ -155144,12 +155823,39 @@
       "sourceUrl": "https://n-e-n.ru/5-knig-alpina/",
       "collectionSlugs": [
         "lyubimye-knigi-alpina-deti"
-      ]
+      ],
+      "officialMetadataAudit": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/5-knig-alpina/",
+        "sourceRecordId": "https://n-e-n.ru/5-knig-alpina/#curated-nen-collection-istorii-pro-pyarta-anti-saar",
+        "verifiedAt": "2026-08-04",
+        "match": {
+          "strategy": "work_title_author",
+          "confidence": 0.99,
+          "titleScore": 1,
+          "authorMatch": true
+        },
+        "officialTitle": "Истории про Пярта",
+        "officialAuthors": [
+          "Анти Саар"
+        ]
+      }
     },
     "status": "published",
     "author": "Анти Саар",
     "ageLabel": "3–14 лет",
-    "whyRecommended": "Подойдёт читателям 3–14 лет, которые любят реалистическую прозу. В книге затрагиваются темы дружбы, семьи и животных."
+    "whyRecommended": "Подойдёт читателям 3–14 лет, которые любят реалистическую прозу. В книге затрагиваются темы дружбы, семьи и животных.",
+    "language": "ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2023-06-09/6482f5dd512ed_0x0.jpeg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/5-knig-alpina/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    }
   },
   {
     "id": "curated-nen-collection-poigray-s-mimi-anna-permyakova",
@@ -155175,7 +155881,6 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": true,
-    "coverUrl": "https://n-e-n.ru/images/2023-04-28/644b936639747_0x0.jpeg",
     "annotationProvenance": {
       "source": "НЭН",
       "sourceUrl": "https://n-e-n.ru/goroshek/",
@@ -155190,12 +155895,39 @@
       "sourceUrl": "https://n-e-n.ru/goroshek/",
       "collectionSlugs": [
         "goroshek-tsikada-i-volshebstvo"
-      ]
+      ],
+      "officialMetadataAudit": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/goroshek/",
+        "sourceRecordId": "https://n-e-n.ru/goroshek/#curated-nen-collection-poigray-s-mimi-anna-permyakova",
+        "verifiedAt": "2026-08-04",
+        "match": {
+          "strategy": "work_title_author",
+          "confidence": 0.99,
+          "titleScore": 1,
+          "authorMatch": true
+        },
+        "officialTitle": "Поиграй с Мими",
+        "officialAuthors": [
+          "Анна Пермякова"
+        ]
+      }
     },
     "status": "published",
     "author": "Анна Пермякова",
     "ageLabel": "2–6 лет",
-    "whyRecommended": "Для читателей 2–6 лет это реалистическая проза о семье, животных и взрослении. Книгу можно выбрать для самостоятельного или совместного чтения."
+    "whyRecommended": "Для читателей 2–6 лет это реалистическая проза о семье, животных и взрослении. Книгу можно выбрать для самостоятельного или совместного чтения.",
+    "language": "ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2023-04-28/644b936639747_0x0.jpeg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/goroshek/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    }
   },
   {
     "id": "curated-nen-collection-shkola-risovaniya-goroshka-david-kali",
@@ -155229,8 +155961,7 @@
       "copiedVerbatim": true
     },
     "bibliographicSources": [
-      "https://n-e-n.ru/goroshek/",
-      "https://samokatbook.ru/book/shkola-risovaniya-goroshka/"
+      "https://n-e-n.ru/goroshek/"
     ],
     "sourceMetadata": {
       "sourceUrl": "https://n-e-n.ru/goroshek/",
@@ -155238,13 +155969,13 @@
         "goroshek-tsikada-i-volshebstvo"
       ],
       "officialMetadataAudit": {
-        "source": "Издательство «Самокат»",
-        "sourceUrl": "https://samokatbook.ru/book/shkola-risovaniya-goroshka/",
-        "sourceRecordId": "/book/shkola-risovaniya-goroshka/",
-        "verifiedAt": "2026-08-03",
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/goroshek/",
+        "sourceRecordId": "https://n-e-n.ru/goroshek/#curated-nen-collection-shkola-risovaniya-goroshka-david-kali",
+        "verifiedAt": "2026-08-04",
         "match": {
           "strategy": "work_title_author",
-          "confidence": 0.9700000000000001,
+          "confidence": 0.99,
           "titleScore": 1,
           "authorMatch": true
         },
@@ -155263,14 +155994,14 @@
     "language": "ru",
     "cover": {
       "kind": "external",
-      "url": "https://samokatbook.ru/upload/resize_cache/iblock/bd0/1024_1024_1/l6234776ce25d7jg9wqaz95z5wxleqba.jpg",
+      "url": "https://n-e-n.ru/images/2023-04-28/644ba0486e7ff_0x0.jpeg",
       "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Самокат»",
-      "sourcePageUrl": "https://samokatbook.ru/book/shkola-risovaniya-goroshka/",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/goroshek/",
       "isbn13": "9785001672906",
       "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-08-03"
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
     }
   },
   {
@@ -155295,7 +156026,6 @@
     "lengthCategory": "short",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": true,
-    "coverUrl": "https://n-e-n.ru/images/2023-04-28/644ba0535ac64_0x0.jpg",
     "annotationProvenance": {
       "source": "НЭН",
       "sourceUrl": "https://n-e-n.ru/goroshek/",
@@ -155310,12 +156040,39 @@
       "sourceUrl": "https://n-e-n.ru/goroshek/",
       "collectionSlugs": [
         "goroshek-tsikada-i-volshebstvo"
-      ]
+      ],
+      "officialMetadataAudit": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/goroshek/",
+        "sourceRecordId": "https://n-e-n.ru/goroshek/#curated-nen-collection-i-kto-to-skazal-privet-nihan-temiz",
+        "verifiedAt": "2026-08-04",
+        "match": {
+          "strategy": "work_title_author",
+          "confidence": 0.99,
+          "titleScore": 1,
+          "authorMatch": true
+        },
+        "officialTitle": "И кто-то сказал «Привет»",
+        "officialAuthors": [
+          "Нихан Темиз"
+        ]
+      }
     },
     "status": "published",
     "author": "Нихан Темиз",
     "ageLabel": "2–6 лет",
-    "whyRecommended": "Для читателей 2–6 лет это реалистическая проза о дружбе и животных. Книгу можно выбрать для самостоятельного или совместного чтения."
+    "whyRecommended": "Для читателей 2–6 лет это реалистическая проза о дружбе и животных. Книгу можно выбрать для самостоятельного или совместного чтения.",
+    "language": "ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2023-04-28/644ba0535ac64_0x0.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/goroshek/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    }
   },
   {
     "id": "curated-nen-collection-frederik-leo-lionni",
@@ -155346,8 +156103,7 @@
       "copiedVerbatim": true
     },
     "bibliographicSources": [
-      "https://n-e-n.ru/novinki-dlya-shkolnikov/",
-      "https://samokatbook.ru/book/frederik/"
+      "https://n-e-n.ru/novinki-dlya-shkolnikov/"
     ],
     "sourceMetadata": {
       "sourceUrl": "https://n-e-n.ru/novinki-dlya-shkolnikov/",
@@ -155355,13 +156111,13 @@
         "novinki-dlya-doshkolnikov"
       ],
       "officialMetadataAudit": {
-        "source": "Издательство «Самокат»",
-        "sourceUrl": "https://samokatbook.ru/book/frederik/",
-        "sourceRecordId": "/book/frederik/",
-        "verifiedAt": "2026-08-03",
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/novinki-dlya-shkolnikov/",
+        "sourceRecordId": "https://n-e-n.ru/novinki-dlya-shkolnikov/#curated-nen-collection-frederik-leo-lionni",
+        "verifiedAt": "2026-08-04",
         "match": {
           "strategy": "work_title_author",
-          "confidence": 0.9700000000000001,
+          "confidence": 0.99,
           "titleScore": 1,
           "authorMatch": true
         },
@@ -155380,14 +156136,14 @@
     "language": "ru",
     "cover": {
       "kind": "external",
-      "url": "https://samokatbook.ru/upload/resize_cache/iblock/c0f/1024_1024_1/vjliynro1axjhly3t1g97cr7wkhjh622.jpg",
+      "url": "https://n-e-n.ru/images/2022-10-11/634524192ba2c_0x0.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Самокат»",
-      "sourcePageUrl": "https://samokatbook.ru/book/frederik/",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/novinki-dlya-shkolnikov/",
       "isbn13": "9785917597867",
       "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-08-03"
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
     }
   },
   {
@@ -155420,8 +156176,7 @@
       "copiedVerbatim": true
     },
     "bibliographicSources": [
-      "https://n-e-n.ru/novinki-dlya-shkolnikov/",
-      "https://melik-pashaev.ru/product/letniy-den-s-druzyami/"
+      "https://n-e-n.ru/novinki-dlya-shkolnikov/"
     ],
     "sourceMetadata": {
       "sourceUrl": "https://n-e-n.ru/novinki-dlya-shkolnikov/",
@@ -155429,19 +156184,19 @@
         "novinki-dlya-doshkolnikov"
       ],
       "officialMetadataAudit": {
-        "source": "Издательство «Мелик-Пашаев»",
-        "sourceUrl": "https://melik-pashaev.ru/product/letniy-den-s-druzyami/",
-        "sourceRecordId": "/product/letniy-den-s-druzyami/",
-        "verifiedAt": "2026-08-03",
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/novinki-dlya-shkolnikov/",
+        "sourceRecordId": "https://n-e-n.ru/novinki-dlya-shkolnikov/#curated-nen-collection-letniy-den-s-druzyami-filip-vehter",
+        "verifiedAt": "2026-08-04",
         "match": {
           "strategy": "work_title_author",
-          "confidence": 0.9700000000000001,
+          "confidence": 0.99,
           "titleScore": 1,
           "authorMatch": true
         },
         "officialTitle": "Летний день с друзьями",
         "officialAuthors": [
-          "Вехтер Филип Художник Вехтер Филип Вид Мягкая обложка Кол-во страниц 32 Возраст 0-3 года , 4-6 лет"
+          "Филип Вехтер"
         ]
       }
     },
@@ -155454,14 +156209,14 @@
     "language": "ru",
     "cover": {
       "kind": "external",
-      "url": "https://melik-pashaev.ru/wp-content/uploads/2022/07/letniy-den_sover_1200.jpg",
+      "url": "https://n-e-n.ru/images/2022-10-11/63452598e4d5f_0x0.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Мелик-Пашаев»",
-      "sourcePageUrl": "https://melik-pashaev.ru/product/letniy-den-s-druzyami/",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/novinki-dlya-shkolnikov/",
       "isbn13": "9785000414880",
       "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-08-03"
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
     }
   },
   {
@@ -155486,7 +156241,6 @@
     "lengthCategory": "short",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": true,
-    "coverUrl": "https://n-e-n.ru/images/2022-10-11/6345242916f46_0x0.jpg",
     "annotationProvenance": {
       "source": "НЭН",
       "sourceUrl": "https://n-e-n.ru/novinki-dlya-shkolnikov/",
@@ -155501,12 +156255,39 @@
       "sourceUrl": "https://n-e-n.ru/novinki-dlya-shkolnikov/",
       "collectionSlugs": [
         "novinki-dlya-doshkolnikov"
-      ]
+      ],
+      "officialMetadataAudit": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/novinki-dlya-shkolnikov/",
+        "sourceRecordId": "https://n-e-n.ru/novinki-dlya-shkolnikov/#curated-nen-collection-moya-bolshaya-sibiy-delakrua",
+        "verifiedAt": "2026-08-04",
+        "match": {
+          "strategy": "work_title_author",
+          "confidence": 0.99,
+          "titleScore": 1,
+          "authorMatch": true
+        },
+        "officialTitle": "Моя большая",
+        "officialAuthors": [
+          "Сибий Делакруа"
+        ]
+      }
     },
     "status": "published",
     "author": "Сибий Делакруа",
     "ageLabel": "3–6 лет",
-    "whyRecommended": "Подойдёт читателям 3–6 лет, которые любят реалистическую прозу. В книге затрагиваются темы отношений и эмоций."
+    "whyRecommended": "Подойдёт читателям 3–6 лет, которые любят реалистическую прозу. В книге затрагиваются темы отношений и эмоций.",
+    "language": "ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2022-10-11/6345242916f46_0x0.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/novinki-dlya-shkolnikov/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    }
   },
   {
     "id": "curated-nen-collection-dobraya-akula-elena-repetur",
@@ -155531,7 +156312,6 @@
     "lengthCategory": "short",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": true,
-    "coverUrl": "https://n-e-n.ru/images/2022-10-11/6345243076e60_0x0.jpg",
     "annotationProvenance": {
       "source": "НЭН",
       "sourceUrl": "https://n-e-n.ru/novinki-dlya-shkolnikov/",
@@ -155546,12 +156326,39 @@
       "sourceUrl": "https://n-e-n.ru/novinki-dlya-shkolnikov/",
       "collectionSlugs": [
         "novinki-dlya-doshkolnikov"
-      ]
+      ],
+      "officialMetadataAudit": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/novinki-dlya-shkolnikov/",
+        "sourceRecordId": "https://n-e-n.ru/novinki-dlya-shkolnikov/#curated-nen-collection-dobraya-akula-elena-repetur",
+        "verifiedAt": "2026-08-04",
+        "match": {
+          "strategy": "work_title_author",
+          "confidence": 0.99,
+          "titleScore": 1,
+          "authorMatch": true
+        },
+        "officialTitle": "Добрая акула",
+        "officialAuthors": [
+          "Елена Репетур"
+        ]
+      }
     },
     "status": "published",
     "author": "Елена Репетур",
     "ageLabel": "3–6 лет",
-    "whyRecommended": "Для читателей 3–6 лет это реалистическая проза о семье, школе и животных. Книгу можно выбрать для самостоятельного или совместного чтения."
+    "whyRecommended": "Для читателей 3–6 лет это реалистическая проза о семье, школе и животных. Книгу можно выбрать для самостоятельного или совместного чтения.",
+    "language": "ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2022-10-11/6345243076e60_0x0.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/novinki-dlya-shkolnikov/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    }
   },
   {
     "id": "curated-nen-collection-sup-sinora-leprona-dzhovanna-dzoboli",
@@ -155575,7 +156382,6 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": true,
-    "coverUrl": "https://n-e-n.ru/images/2022-10-11/6345249bc0ad9_0x0.jpg",
     "annotationProvenance": {
       "source": "НЭН",
       "sourceUrl": "https://n-e-n.ru/novinki-dlya-shkolnikov/",
@@ -155590,12 +156396,39 @@
       "sourceUrl": "https://n-e-n.ru/novinki-dlya-shkolnikov/",
       "collectionSlugs": [
         "novinki-dlya-doshkolnikov"
-      ]
+      ],
+      "officialMetadataAudit": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/novinki-dlya-shkolnikov/",
+        "sourceRecordId": "https://n-e-n.ru/novinki-dlya-shkolnikov/#curated-nen-collection-sup-sinora-leprona-dzhovanna-dzoboli",
+        "verifiedAt": "2026-08-04",
+        "match": {
+          "strategy": "work_title_author",
+          "confidence": 0.99,
+          "titleScore": 1,
+          "authorMatch": true
+        },
+        "officialTitle": "Суп синьора Лепрона",
+        "officialAuthors": [
+          "Джованна Дзоболи"
+        ]
+      }
     },
     "status": "published",
     "author": "Джованна Дзоболи",
     "ageLabel": "3–6 лет",
-    "whyRecommended": "Для читателей 3–6 лет это реалистическая проза о природе и волшебстве. Книгу можно выбрать для самостоятельного или совместного чтения."
+    "whyRecommended": "Для читателей 3–6 лет это реалистическая проза о природе и волшебстве. Книгу можно выбрать для самостоятельного или совместного чтения.",
+    "language": "ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2022-10-11/6345249bc0ad9_0x0.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/novinki-dlya-shkolnikov/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    }
   },
   {
     "id": "curated-nen-collection-silviya-i-ptichka-ketrin-reyner",
@@ -155618,7 +156451,6 @@
     "lengthCategory": "short",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": true,
-    "coverUrl": "https://n-e-n.ru/images/2022-10-11/63452443c2320_0x0.jpg",
     "annotationProvenance": {
       "source": "НЭН",
       "sourceUrl": "https://n-e-n.ru/novinki-dlya-shkolnikov/",
@@ -155633,12 +156465,39 @@
       "sourceUrl": "https://n-e-n.ru/novinki-dlya-shkolnikov/",
       "collectionSlugs": [
         "novinki-dlya-doshkolnikov"
-      ]
+      ],
+      "officialMetadataAudit": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/novinki-dlya-shkolnikov/",
+        "sourceRecordId": "https://n-e-n.ru/novinki-dlya-shkolnikov/#curated-nen-collection-silviya-i-ptichka-ketrin-reyner",
+        "verifiedAt": "2026-08-04",
+        "match": {
+          "strategy": "work_title_author",
+          "confidence": 0.99,
+          "titleScore": 1,
+          "authorMatch": true
+        },
+        "officialTitle": "Сильвия и Птичка",
+        "officialAuthors": [
+          "Кэтрин Рейнер"
+        ]
+      }
     },
     "status": "published",
     "author": "Кэтрин Рейнер",
     "ageLabel": "3–6 лет",
-    "whyRecommended": "Для читателей 3–6 лет это реалистическая проза о дружбе. Книгу можно выбрать для самостоятельного или совместного чтения."
+    "whyRecommended": "Для читателей 3–6 лет это реалистическая проза о дружбе. Книгу можно выбрать для самостоятельного или совместного чтения.",
+    "language": "ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2022-10-11/63452443c2320_0x0.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/novinki-dlya-shkolnikov/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    }
   },
   {
     "id": "curated-nen-collection-ochki-dlya-selesty-mariya-kolker",
@@ -155672,8 +156531,7 @@
       "copiedVerbatim": true
     },
     "bibliographicSources": [
-      "https://n-e-n.ru/novinki-dlya-shkolnikov/",
-      "https://alpinabook.ru/catalog/book-ochki-dlya-selesty/"
+      "https://n-e-n.ru/novinki-dlya-shkolnikov/"
     ],
     "sourceMetadata": {
       "sourceUrl": "https://n-e-n.ru/novinki-dlya-shkolnikov/",
@@ -155681,13 +156539,13 @@
         "novinki-dlya-doshkolnikov"
       ],
       "officialMetadataAudit": {
-        "source": "Издательство «Альпина.Дети»",
-        "sourceUrl": "https://alpinabook.ru/catalog/book-ochki-dlya-selesty/",
-        "sourceRecordId": "/catalog/book-ochki-dlya-selesty/",
-        "verifiedAt": "2026-08-03",
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/novinki-dlya-shkolnikov/",
+        "sourceRecordId": "https://n-e-n.ru/novinki-dlya-shkolnikov/#curated-nen-collection-ochki-dlya-selesty-mariya-kolker",
+        "verifiedAt": "2026-08-04",
         "match": {
           "strategy": "work_title_author",
-          "confidence": 0.9500000000000001,
+          "confidence": 0.99,
           "titleScore": 1,
           "authorMatch": true,
           "selectedEditionYear": 2022
@@ -155707,13 +156565,13 @@
     "language": "ru",
     "cover": {
       "kind": "external",
-      "url": "https://alpinabook.ru/upload/iblock/01f/uyfn5dea3300cf1pkhnma2807y6ipcch/%D0%BE%D0%B1%D0%BB-1230%D0%BF%D0%BA%D1%81.jpg",
+      "url": "https://n-e-n.ru/images/2022-10-11/6345244ab9fe3_0x0.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Альпина.Дети»",
-      "sourcePageUrl": "https://alpinabook.ru/catalog/book-ochki-dlya-selesty/",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/novinki-dlya-shkolnikov/",
       "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-08-03"
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
     }
   },
   {
@@ -155739,7 +156597,6 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": true,
-    "coverUrl": "https://n-e-n.ru/images/2025-11-12/69147102ed4ee_1040x720.jpg",
     "annotationProvenance": {
       "source": "НЭН",
       "sourceUrl": "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/",
@@ -155754,12 +156611,39 @@
       "sourceUrl": "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/",
       "collectionSlugs": [
         "volshebnye-zimnie-knigi"
-      ]
+      ],
+      "officialMetadataAudit": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/",
+        "sourceRecordId": "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/#curated-nen-collection-vasilkovaya-zima-hegyum-kim",
+        "verifiedAt": "2026-08-04",
+        "match": {
+          "strategy": "work_title_author",
+          "confidence": 0.99,
+          "titleScore": 1,
+          "authorMatch": true
+        },
+        "officialTitle": "Васильковая зима",
+        "officialAuthors": [
+          "Хегюм Ким"
+        ]
+      }
     },
     "status": "published",
     "author": "Хегюм Ким",
     "ageLabel": "2–7 лет",
-    "whyRecommended": "Подойдёт читателям 2–7 лет, которые любят приключенческие книги. В книге затрагиваются темы животных, взросления и приключений."
+    "whyRecommended": "Подойдёт читателям 2–7 лет, которые любят приключенческие книги. В книге затрагиваются темы животных, взросления и приключений.",
+    "language": "ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2025-11-12/69147102ed4ee_1040x720.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    }
   },
   {
     "id": "curated-nen-collection-gde-to-v-snegu-linde-faas",
@@ -155788,7 +156672,6 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": true,
-    "coverUrl": "https://n-e-n.ru/images/2025-11-12/69147102ed4ee_1040x720.jpg",
     "annotationProvenance": {
       "source": "НЭН",
       "sourceUrl": "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/",
@@ -155803,12 +156686,39 @@
       "sourceUrl": "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/",
       "collectionSlugs": [
         "volshebnye-zimnie-knigi"
-      ]
+      ],
+      "officialMetadataAudit": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/",
+        "sourceRecordId": "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/#curated-nen-collection-gde-to-v-snegu-linde-faas",
+        "verifiedAt": "2026-08-04",
+        "match": {
+          "strategy": "work_title_author",
+          "confidence": 0.99,
+          "titleScore": 1,
+          "authorMatch": true
+        },
+        "officialTitle": "Где-то в снегу",
+        "officialAuthors": [
+          "Линде Фаас"
+        ]
+      }
     },
     "status": "published",
     "author": "Линде Фаас",
     "ageLabel": "2–7 лет",
-    "whyRecommended": "Подойдёт читателям 2–7 лет, которые любят сказки и фэнтези. В книге затрагиваются темы дружбы, семьи и животных."
+    "whyRecommended": "Подойдёт читателям 2–7 лет, которые любят сказки и фэнтези. В книге затрагиваются темы дружбы, семьи и животных.",
+    "language": "ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2025-11-12/69147102ed4ee_1040x720.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    }
   },
   {
     "id": "curated-nen-collection-zavetnoe-zhelanie-krotika-sangyn-kim",
@@ -155834,7 +156744,6 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": true,
-    "coverUrl": "https://n-e-n.ru/images/2025-11-12/69147102ed4ee_1040x720.jpg",
     "annotationProvenance": {
       "source": "НЭН",
       "sourceUrl": "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/",
@@ -155849,12 +156758,39 @@
       "sourceUrl": "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/",
       "collectionSlugs": [
         "volshebnye-zimnie-knigi"
-      ]
+      ],
+      "officialMetadataAudit": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/",
+        "sourceRecordId": "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/#curated-nen-collection-zavetnoe-zhelanie-krotika-sangyn-kim",
+        "verifiedAt": "2026-08-04",
+        "match": {
+          "strategy": "work_title_author",
+          "confidence": 0.99,
+          "titleScore": 1,
+          "authorMatch": true
+        },
+        "officialTitle": "Заветное желание кротика",
+        "officialAuthors": [
+          "Сангын Ким"
+        ]
+      }
     },
     "status": "published",
     "author": "Сангын Ким",
     "ageLabel": "2–7 лет",
-    "whyRecommended": "Если ребёнок любит фэнтези и сюжеты о семье, животных и путешествиях, книга подойдёт ему в возрасте 2–7 лет. Она подходит для самостоятельного или совместного чтения."
+    "whyRecommended": "Если ребёнок любит фэнтези и сюжеты о семье, животных и путешествиях, книга подойдёт ему в возрасте 2–7 лет. Она подходит для самостоятельного или совместного чтения.",
+    "language": "ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2025-11-12/69147102ed4ee_1040x720.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    }
   },
   {
     "id": "curated-nen-collection-elka-yulka-olive-tallek",
@@ -155880,7 +156816,6 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": true,
-    "coverUrl": "https://n-e-n.ru/images/2025-11-12/69147102ed4ee_1040x720.jpg",
     "annotationProvenance": {
       "source": "НЭН",
       "sourceUrl": "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/",
@@ -155895,12 +156830,39 @@
       "sourceUrl": "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/",
       "collectionSlugs": [
         "volshebnye-zimnie-knigi"
-      ]
+      ],
+      "officialMetadataAudit": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/",
+        "sourceRecordId": "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/#curated-nen-collection-elka-yulka-olive-tallek",
+        "verifiedAt": "2026-08-04",
+        "match": {
+          "strategy": "work_title_author",
+          "confidence": 0.99,
+          "titleScore": 1,
+          "authorMatch": true
+        },
+        "officialTitle": "Елка Юлька",
+        "officialAuthors": [
+          "Оливье Таллек"
+        ]
+      }
     },
     "status": "published",
     "author": "Оливье Таллек",
     "ageLabel": "2–7 лет",
-    "whyRecommended": "Если ребёнок любит сказки и фэнтези и сюжеты о животных, волшебстве и страхе, книга подойдёт ему в возрасте 2–7 лет. Она подходит для самостоятельного или совместного чтения."
+    "whyRecommended": "Если ребёнок любит сказки и фэнтези и сюжеты о животных, волшебстве и страхе, книга подойдёт ему в возрасте 2–7 лет. Она подходит для самостоятельного или совместного чтения.",
+    "language": "ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2025-11-12/69147102ed4ee_1040x720.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    }
   },
   {
     "id": "curated-nen-collection-v-poiskah-deda-moroza-ann-montel",
@@ -155933,8 +156895,7 @@
       "copiedVerbatim": true
     },
     "bibliographicSources": [
-      "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/",
-      "https://samokatbook.ru/book/v-poiskakh-deda-moroza/"
+      "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/"
     ],
     "sourceMetadata": {
       "sourceUrl": "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/",
@@ -155942,19 +156903,20 @@
         "volshebnye-zimnie-knigi"
       ],
       "officialMetadataAudit": {
-        "source": "Издательство «Самокат»",
-        "sourceUrl": "https://samokatbook.ru/book/v-poiskakh-deda-moroza/",
-        "sourceRecordId": "/book/v-poiskakh-deda-moroza/",
-        "verifiedAt": "2026-08-03",
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/",
+        "sourceRecordId": "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/#curated-nen-collection-v-poiskah-deda-moroza-ann-montel",
+        "verifiedAt": "2026-08-04",
         "match": {
           "strategy": "work_title_author",
-          "confidence": 0.9700000000000001,
+          "confidence": 0.99,
           "titleScore": 1,
           "authorMatch": true
         },
         "officialTitle": "В поисках Деда Мороза",
         "officialAuthors": [
-          "Лоик Клеман; Анн Монтель"
+          "Лоик Клеман",
+          "Анн Монтель"
         ]
       }
     },
@@ -155967,14 +156929,14 @@
     "language": "ru",
     "cover": {
       "kind": "external",
-      "url": "https://samokatbook.ru/upload/resize_cache/iblock/db7/1024_1024_1/zr1nx637265a8j321mqnkid7ds362fik.jpg",
+      "url": "https://n-e-n.ru/images/2025-11-12/69147102ed4ee_1040x720.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Самокат»",
-      "sourcePageUrl": "https://samokatbook.ru/book/v-poiskakh-deda-moroza/",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/",
       "isbn13": "9785001676911",
       "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-08-03"
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
     }
   },
   {
@@ -156192,7 +157154,6 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": true,
-    "coverUrl": "https://n-e-n.ru/images/2022-12-06/638f6b5945d66_0x0.jpg",
     "annotationProvenance": {
       "source": "НЭН",
       "sourceUrl": "https://n-e-n.ru/sohraniai-svobody-v-golove/",
@@ -156207,18 +157168,45 @@
       "sourceUrl": "https://n-e-n.ru/sohraniai-svobody-v-golove/",
       "collectionSlugs": [
         "novye-fantasticheskie-istorii"
-      ]
+      ],
+      "officialMetadataAudit": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/sohraniai-svobody-v-golove/",
+        "sourceRecordId": "https://n-e-n.ru/sohraniai-svobody-v-golove/#curated-nen-collection-peschernyy-chelovek-terri-pratchett",
+        "verifiedAt": "2026-08-04",
+        "match": {
+          "strategy": "work_title_author",
+          "confidence": 0.99,
+          "titleScore": 1,
+          "authorMatch": true
+        },
+        "officialTitle": "Пещерный человек",
+        "officialAuthors": [
+          "Терри Пратчетт"
+        ]
+      }
     },
     "status": "published",
     "author": "Терри Пратчетт",
     "ageLabel": "7–12 лет",
-    "whyRecommended": "Подойдёт читателям 7–12 лет, которые любят фэнтези. В книге затрагиваются темы волшебства."
+    "whyRecommended": "Подойдёт читателям 7–12 лет, которые любят фэнтези. В книге затрагиваются темы волшебства.",
+    "language": "ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2022-12-06/638f6b5945d66_0x0.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/sohraniai-svobody-v-golove/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    }
   },
   {
     "id": "curated-nen-collection-shlyapniki-tamzin-merchant",
     "slug": "nen-collection-shlyapniki-tamzin-merchant",
     "title": "Шляпники",
-    "publisher": "АСТ",
+    "publisher": "АСТ, Вилли Винки",
     "shortDescription": "Что, если наши характер, поведение, самоощущение, можно подправить с помощью специальных предметов гардероба? Например, в шляпу добавить сияние звезд для ясного ума? Или паучий шелк, сплетенный Коричневым Глубокораздумным Пауком, для концентрации и усидчивости?\n\nКрошка Шляпник — Корделия — начинает обучаться секретам своей семьи Творцов и даже сама уже может создавать шляпы, хотя пока еще относится к процессу достаточно беспечно.",
     "fullDescription": "Что, если наши характер, поведение, самоощущение, можно подправить с помощью специальных предметов гардероба? Например, в шляпу добавить сияние звезд для ясного ума? Или паучий шелк, сплетенный Коричневым Глубокораздумным Пауком, для концентрации и усидчивости?\n\nКрошка Шляпник — Корделия — начинает обучаться секретам своей семьи Творцов и даже сама уже может создавать шляпы, хотя пока еще относится к процессу достаточно беспечно.",
     "ageMin": 8,
@@ -156243,8 +157231,7 @@
       "copiedVerbatim": true
     },
     "bibliographicSources": [
-      "https://n-e-n.ru/sohraniai-svobody-v-golove/",
-      "https://ast.ru/book/shlyapniki-853036/"
+      "https://n-e-n.ru/sohraniai-svobody-v-golove/"
     ],
     "sourceMetadata": {
       "sourceUrl": "https://n-e-n.ru/sohraniai-svobody-v-golove/",
@@ -156252,13 +157239,13 @@
         "novye-fantasticheskie-istorii"
       ],
       "officialMetadataAudit": {
-        "source": "Издательство «АСТ»",
-        "sourceUrl": "https://ast.ru/book/shlyapniki-853036/",
-        "sourceRecordId": "/book/shlyapniki-853036/",
-        "verifiedAt": "2026-08-03",
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/sohraniai-svobody-v-golove/",
+        "sourceRecordId": "https://n-e-n.ru/sohraniai-svobody-v-golove/#curated-nen-collection-shlyapniki-tamzin-merchant",
+        "verifiedAt": "2026-08-04",
         "match": {
           "strategy": "work_title_author",
-          "confidence": 0.9700000000000001,
+          "confidence": 0.99,
           "titleScore": 1,
           "authorMatch": true
         },
@@ -156277,14 +157264,14 @@
     "language": "ru",
     "cover": {
       "kind": "external",
-      "url": "https://cdn.ast.ru/v2/ASE000000000853036/COVER/cover1__w340.jpg",
+      "url": "https://n-e-n.ru/images/2022-12-06/638f6be76143d_0x0.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «АСТ»",
-      "sourcePageUrl": "https://ast.ru/book/shlyapniki-853036/",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/sohraniai-svobody-v-golove/",
       "isbn13": "9785171275341",
       "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-08-03"
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
     }
   },
   {
@@ -156308,7 +157295,6 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": true,
-    "coverUrl": "https://n-e-n.ru/images/2022-12-06/638f6c414b2cb_0x0.jpg",
     "annotationProvenance": {
       "source": "НЭН",
       "sourceUrl": "https://n-e-n.ru/sohraniai-svobody-v-golove/",
@@ -156323,11 +157309,38 @@
       "sourceUrl": "https://n-e-n.ru/sohraniai-svobody-v-golove/",
       "collectionSlugs": [
         "novye-fantasticheskie-istorii"
-      ]
+      ],
+      "officialMetadataAudit": {
+        "source": "НЭН",
+        "sourceUrl": "https://n-e-n.ru/sohraniai-svobody-v-golove/",
+        "sourceRecordId": "https://n-e-n.ru/sohraniai-svobody-v-golove/#curated-nen-collection-magazin-dikovinnyh-sladostey-schaste-za-monetku-reyko-hirosima",
+        "verifiedAt": "2026-08-04",
+        "match": {
+          "strategy": "work_title_author",
+          "confidence": 0.99,
+          "titleScore": 1,
+          "authorMatch": true
+        },
+        "officialTitle": "Магазин диковинных сладостей «Счастье за монетку»",
+        "officialAuthors": [
+          "Рэйко Хиросима"
+        ]
+      }
     },
     "status": "published",
     "author": "Рэйко Хиросима",
     "ageLabel": "8–13 лет",
-    "whyRecommended": "Для читателей 8–13 лет это реалистическая проза о волшебстве. Книгу можно выбрать для самостоятельного чтения."
+    "whyRecommended": "Для читателей 8–13 лет это реалистическая проза о волшебстве. Книгу можно выбрать для самостоятельного чтения.",
+    "language": "ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2022-12-06/638f6c414b2cb_0x0.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/sohraniai-svobody-v-golove/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    }
   }
 ]

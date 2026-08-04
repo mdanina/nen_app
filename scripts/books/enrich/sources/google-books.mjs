@@ -1,4 +1,4 @@
-import { normalizeLanguage, normalizedIsbn, validPages, validYear } from "../core.mjs";
+import { normalizeLanguage, normalizedIsbn, validPages, validYear, workTitles } from "../core.mjs";
 import { fetchJson } from "../http.mjs";
 
 export function createGoogleBooksSource({ cache } = {}) {
@@ -6,9 +6,12 @@ export function createGoogleBooksSource({ cache } = {}) {
     key: "google-books",
     priority: 60,
     async search(book) {
-      const cached = cache?.get(this.key, book);
+      const cacheKey = `${this.key}:isbn-first-v2`;
+      const cached = cache?.get(cacheKey, book);
       if (cached) return cached;
-      const query = `intitle:${JSON.stringify(book.title)} inauthor:${JSON.stringify(book.author.split(";")[0])}`;
+      const query = book.isbn13
+        ? `isbn:${book.isbn13}`
+        : `intitle:${JSON.stringify(workTitles(book)[0])} inauthor:${JSON.stringify(book.author.split(";")[0])}`;
       const url = `https://www.googleapis.com/books/v1/volumes?q=${encodeURIComponent(query)}&langRestrict=ru&printType=books&maxResults=10`;
       const payload = await fetchJson(url);
       const result = (payload.items ?? []).map((item) => {
@@ -33,9 +36,8 @@ export function createGoogleBooksSource({ cache } = {}) {
           confidence: 0.9,
         };
       });
-      cache?.set(this.key, book, result);
+      cache?.set(cacheKey, book, result);
       return result;
     },
   };
 }
-

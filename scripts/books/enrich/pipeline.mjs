@@ -7,6 +7,8 @@ import { mapLimit, verifyImage } from "./http.mjs";
 import { createGoogleBooksSource } from "./sources/google-books.mjs";
 import { createOfficialPublisherSource } from "./sources/official-publishers.mjs";
 import { createOpenLibrarySource } from "./sources/open-library.mjs";
+import { createNenEditorialSource } from "./sources/nen-editorial.mjs";
+import { createLibraryCatalogSource } from "./sources/library-catalogs.mjs";
 import { validateCatalog } from "./validate.mjs";
 import { normalizePublisherName } from "./publisher-normalization.mjs";
 
@@ -43,7 +45,7 @@ export async function runEnrichment(options = {}) {
     cacheDays: 30,
     concurrency: 3,
     sourceConcurrency: 6,
-    sources: ["official-publishers", "google-books", "open-library"],
+    sources: ["nen-editorial", "official-publishers", "google-books", "open-library", "library-catalogs"],
     ...await readJson(resolve(root, "data/source/books-enrichment-config.json"), {}),
     ...options,
   };
@@ -58,9 +60,11 @@ export async function runEnrichment(options = {}) {
   const cache = new EnrichmentCache(root, config.cacheDays);
   await cache.load();
   const builtInSources = [
+    createNenEditorialSource({ root }),
     createOfficialPublisherSource({ cache, concurrency: config.sourceConcurrency, root, matchLevel: config.matchLevel ?? 1, publisherKeys: config.publisherKeys }),
     createGoogleBooksSource({ cache }),
     createOpenLibrarySource({ cache }),
+    createLibraryCatalogSource({ cache, concurrency: config.sourceConcurrency }),
   ];
   const allSources = (options.sourceAdapters ?? builtInSources).filter((source) => config.sources.includes(source.key) || options.sourceAdapters);
   const imageVerifier = options.imageVerifier ?? verifyImage;
@@ -136,7 +140,7 @@ export async function runEnrichment(options = {}) {
     const fullEditionReplacement = Boolean(candidate.officialPublisher && coverVerified && candidate.publisher && candidate.isbn13);
     const sameIsbn = Boolean(candidate.isbn13 && candidate.isbn13 === book.isbn13);
     const canAdoptWithoutCover = !book.isbn13 && book.cover?.kind !== "external";
-    const officialCoverWithoutIsbn = Boolean(candidate.officialPublisher && coverVerified && candidate.publisher && candidate.sourceUrl && selectedCandidate.work.matches);
+    const officialCoverWithoutIsbn = Boolean((candidate.officialPublisher || candidate.trustedCoverSource) && coverVerified && candidate.sourceUrl && selectedCandidate.work.matches);
     if (!fullEditionReplacement && !sameIsbn && !canAdoptWithoutCover && !officialCoverWithoutIsbn) {
       finish({ id: book.id, title: book.title, reason: coverVerified ? "insufficient_edition_evidence" : "official_cover_not_verified", source: candidate.sourceKey });
       return;
@@ -172,8 +176,8 @@ export async function runEnrichment(options = {}) {
         selectedEditionYear: candidate.publicationYear,
       },
       verification: {
-        trustedSource: Boolean(candidate.officialPublisher || candidate.sourceKey === "google-books" || candidate.sourceKey === "open-library"),
-        sourceKind: candidate.officialPublisher ? "official_publisher" : "trusted_bibliographic",
+        trustedSource: Boolean(candidate.officialPublisher || candidate.trustedCoverSource || candidate.sourceKey === "google-books" || candidate.sourceKey === "open-library"),
+        sourceKind: candidate.officialPublisher ? "official_publisher" : candidate.trustedLibrarySource ? "library_catalog" : candidate.trustedCoverSource ? "editorial_source" : "trusted_bibliographic",
         titleMatched: selectedCandidate.work.matches && selectedCandidate.work.titleScore >= 0.78,
         authorMatched: selectedCandidate.work.authorMatch && Boolean(candidate.authors?.length),
         authorEvidence: candidate.authorEvidence ?? "structured_data",
@@ -197,14 +201,14 @@ export async function runEnrichment(options = {}) {
         sourcePageUrl: candidate.sourceUrl,
         isbn13: candidate.isbn13,
         temporary: true,
-        attribution: "Обложка предоставлена издательством.",
+        attribution: candidate.cover.attribution ?? "Обложка предоставлена издательством.",
         verifiedAt: runAt.slice(0, 10),
       },
       match: { strategy: "work_title_author", confidence: candidate.confidence },
       verification: {
         imageVerified: true,
         sameEdition: Boolean(candidate.sourceUrl === nextMetadata.sourceUrl && (
-          candidate.isbn13 ? candidate.isbn13 === nextMetadata.isbn13 : candidate.officialPublisher && candidate.publisher
+          candidate.isbn13 ? candidate.isbn13 === nextMetadata.isbn13 : (candidate.officialPublisher && candidate.publisher) || candidate.trustedCoverSource
         )),
         titleMatched: selectedCandidate.work.matches,
         authorMatched: selectedCandidate.work.authorMatch && Boolean(candidate.authors?.length),

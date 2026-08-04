@@ -37,6 +37,14 @@ test("произведение сопоставляется по названи�
   assert.equal(result.matches, true);
 });
 
+test("произведение сопоставляется по оригинальному названию", () => {
+  const result = sameWork(
+    { ...baseBook, originalTitle: "Trollvinter" },
+    { title: "Trollvinter", authors: [baseBook.author] },
+  );
+  assert.equal(result.matches, true);
+});
+
 test("отдельное произведение не подменяется сборником с другими текстами", () => {
   const result = sameWork(
     { title: "Красная Шапочка", author: "Шарль Перро" },

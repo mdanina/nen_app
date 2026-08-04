@@ -17795,18 +17795,18 @@
     "id": "curated-nen-collection-korolevstvo-krivyh-zerkal-vitaliy-gubarev",
     "cover": {
       "kind": "external",
-      "url": "https://strecoza.ru/wp-content/uploads/2025/12/34e63449-d728-11f0-9df2-8c89a5dd96ef_34e6344b-d728-11f0-9df2-8c89a5dd96ef.jpeg",
+      "url": "https://n-e-n.ru/images/2020-12-28/5fe9e81cdf86d_0x0.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Стрекоза»",
-      "sourcePageUrl": "https://strecoza.ru/product/%d0%ba%d0%be%d1%80%d0%be%d0%bb%d0%b5%d0%b2%d1%81%d1%82%d0%b2%d0%be-%d0%ba%d1%80%d0%b8%d0%b2%d1%8b%d1%85-%d0%b7%d0%b5%d1%80%d0%ba%d0%b0%d0%bb-%d1%81%d0%b5%d0%bc%d0%b5%d0%b9%d0%bd%d1%8b%d0%b5-%d1%86/",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
       "isbn13": "9785995164746",
       "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-08-03"
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
     },
     "match": {
       "strategy": "work_title_author",
-      "confidence": 0.9640000000000001
+      "confidence": 0.99
     },
     "verification": {
       "imageVerified": true,
@@ -17819,18 +17819,18 @@
     "id": "curated-nen-collection-piter-pen-dzheyms-barri",
     "cover": {
       "kind": "external",
-      "url": "https://cdn.ast.ru/v2/ASE000000000875153/COVER/cover1__w340.jpg",
+      "url": "https://n-e-n.ru/images/2020-12-28/5fe9e9bb8a49f_0x0.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «АСТ»",
-      "sourcePageUrl": "https://ast.ru/book/piter-pen-875153/",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
       "isbn13": "9785171585310",
       "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-08-03"
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
     },
     "match": {
       "strategy": "work_title_author",
-      "confidence": 0.9700000000000001
+      "confidence": 0.99
     },
     "verification": {
       "imageVerified": true,
@@ -17843,18 +17843,18 @@
     "id": "curated-nen-collection-moya-sestrenka-olkozavra-dina-gerbek",
     "cover": {
       "kind": "external",
-      "url": "https://strecoza.ru/wp-content/uploads/2026/05/b6b01302-db08-11ed-aeae-8c89a5dd96ef_4f72f938-339e-11ef-a312-8c89a5dd96ef.jpeg",
+      "url": "https://n-e-n.ru/images/2021-10-07/615f1a2d5f390_0x0.png",
       "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Стрекоза»",
-      "sourcePageUrl": "https://strecoza.ru/product/%d0%bc%d0%be%d1%8f-%d1%81%d0%b5%d1%81%d1%82%d1%80%d0%b5%d0%bd%d0%ba%d0%b0-%d0%be%d0%bb%d1%8c%d0%ba%d0%be%d0%b7%d0%b0%d0%b2%d1%80%d0%b0-%d0%b4%d0%b5%d1%82%d1%81%d0%ba%d0%b0%d1%8f-%d1%85%d1%83%d0%b4/",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
       "isbn13": "9785995149545",
       "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-08-03"
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
     },
     "match": {
       "strategy": "work_title_author",
-      "confidence": 0.9640000000000001
+      "confidence": 0.99
     },
     "verification": {
       "imageVerified": true,
@@ -17867,18 +17867,18 @@
     "id": "curated-nen-collection-lev-petrushka-i-ego-druzya-maykl-bond",
     "cover": {
       "kind": "external",
-      "url": "https://cdn.ast.ru/v2/ASE000000000857893/COVER/cover1__w340.jpg",
+      "url": "https://n-e-n.ru/images/2021-10-07/615ee05f2ff74_0x0.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «АСТ»",
-      "sourcePageUrl": "https://ast.ru/book/lev-petrushka-i-ego-druzya-857893/",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
       "isbn13": "9785171370404",
       "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-08-03"
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
     },
     "match": {
       "strategy": "work_title_author",
-      "confidence": 0.9700000000000001
+      "confidence": 0.99
     },
     "verification": {
       "imageVerified": true,
@@ -17891,18 +17891,18 @@
     "id": "curated-nen-collection-heytery-dzhessi-endryus",
     "cover": {
       "kind": "external",
-      "url": "https://cdn.ast.ru/v2/ASE000000000724907/COVER/cover1__w340.jpg",
+      "url": "https://n-e-n.ru/images/2024-11-15/67372b1f21ad2_0x0.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «АСТ»",
-      "sourcePageUrl": "https://ast.ru/book/kheytery-724907/",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
       "isbn13": "9785170987221",
       "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-08-03"
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
     },
     "match": {
       "strategy": "work_title_author",
-      "confidence": 0.9700000000000001
+      "confidence": 0.99
     },
     "verification": {
       "imageVerified": true,
@@ -17915,18 +17915,18 @@
     "id": "curated-nen-collection-ulichnyy-kot-po-imeni-bob-dzheyms-bouen",
     "cover": {
       "kind": "external",
-      "url": "https://cdn.ast.ru/v2/ASE000000000831449/COVER/cover1__w340.jpg",
+      "url": "https://n-e-n.ru/images/2024-11-15/67372b17076e6_0x0.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «АСТ»",
-      "sourcePageUrl": "https://ast.ru/book/kot-po-imeni-bob-831449/",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
       "isbn13": "9785171047399",
       "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-08-03"
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
     },
     "match": {
       "strategy": "work_title_author",
-      "confidence": 0.9640000000000001
+      "confidence": 0.99
     },
     "verification": {
       "imageVerified": true,
@@ -17985,18 +17985,18 @@
     "id": "curated-nen-collection-martyn-i-barsik-masha-rupasova",
     "cover": {
       "kind": "external",
-      "url": "https://alpinabook.ru/upload/iblock/4f6/0c85ss00y75xzzyqqa034velrupf25wl/face_Martyn_Barsik.jpg",
+      "url": "https://n-e-n.ru/images/2020-12-28/5fe9e5bac6507_0x0.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Альпина.Дети»",
-      "sourcePageUrl": "https://alpinabook.ru/catalog/book-martyn-i-barsik-dva-kota-krasota/",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
       "isbn13": "9785961489682",
       "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-08-03"
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
     },
     "match": {
       "strategy": "work_title_author",
-      "confidence": 0.9640000000000001
+      "confidence": 0.99
     },
     "verification": {
       "imageVerified": true,
@@ -18009,18 +18009,18 @@
     "id": "curated-nen-collection-medved-v-svoem-repertuare-gubert-shirnek",
     "cover": {
       "kind": "external",
-      "url": "https://www.polyandria.ru/upload/iblock/424/424beae20f7a8ce52ddf826e417d79a6.jpg",
+      "url": "https://n-e-n.ru/images/2022-09-13/6320568d157aa_0x0.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Поляндрия»",
-      "sourcePageUrl": "https://www.polyandria.ru/catalog/3-7/medved-v-svoem-repertuare/",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/10-glavnih-detskih-knig/",
       "isbn13": "9785604202746",
       "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-08-03"
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
     },
     "match": {
       "strategy": "work_title_author",
-      "confidence": 0.9700000000000001
+      "confidence": 0.99
     },
     "verification": {
       "imageVerified": true,
@@ -18033,18 +18033,18 @@
     "id": "curated-nen-collection-ne-vse-umeyut-padat-toon-tellegen",
     "cover": {
       "kind": "external",
-      "url": "https://www.polyandria.ru/upload/iblock/497/49757592254a2ca1c832babf86fab446.jpg",
+      "url": "https://n-e-n.ru/images/2022-09-13/6320810bca7d5_0x0.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Поляндрия»",
-      "sourcePageUrl": "https://www.polyandria.ru/catalog/9-12/ne-vse-umeyut-padat/",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/10-glavnih-detskih-knig/",
       "isbn13": "9785604148365",
       "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-08-03"
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
     },
     "match": {
       "strategy": "work_title_author",
-      "confidence": 0.9700000000000001
+      "confidence": 0.99
     },
     "verification": {
       "imageVerified": true,
@@ -18057,18 +18057,18 @@
     "id": "curated-nen-collection-ya-ne-ya-zhanna-zaytseva-aleksandra",
     "cover": {
       "kind": "external",
-      "url": "https://samokatbook.ru/upload/resize_cache/iblock/53d/1024_1024_1/4g8efkhqpbtp5369h2l5jtohj5azwtyr.jpg",
+      "url": "https://n-e-n.ru/images/2025-07-31/688b4b0620de8_0x0.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Самокат»",
-      "sourcePageUrl": "https://samokatbook.ru/book/ya-ne-ya-zhanna/",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/knigi-pro-pervuyu-lyubov/",
       "isbn13": "9785001672753",
       "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-08-03"
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
     },
     "match": {
       "strategy": "work_title_author",
-      "confidence": 0.9700000000000001
+      "confidence": 0.99
     },
     "verification": {
       "imageVerified": true,
@@ -18081,18 +18081,18 @@
     "id": "curated-nen-collection-zakoldovannaya-zhizn-uinn-dzhons",
     "cover": {
       "kind": "external",
-      "url": "https://api.azbooka.ru/upload/iblock/3eb/3eb495c5c23084ef5911f58edfe0c031.jpg",
+      "url": "https://n-e-n.ru/images/2024-11-15/67372ab6517b5_0x0.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "Издательская группа «Азбука-Аттикус»",
-      "sourcePageUrl": "https://azbooka.ru/books/miry-krestomansi-zakoldovannaya-zhizn",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
       "isbn13": "9785389188532",
       "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-08-03"
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
     },
     "match": {
       "strategy": "work_title_author",
-      "confidence": 0.9640000000000001
+      "confidence": 0.99
     },
     "verification": {
       "imageVerified": true,
@@ -18105,18 +18105,18 @@
     "id": "curated-nen-collection-trinadtsataya-skazka-diana-setterfild",
     "cover": {
       "kind": "external",
-      "url": "https://api.azbooka.ru/upload/iblock/be5/be590282c62b5c147a35513cae58ba4f.jpg",
+      "url": "https://n-e-n.ru/images/2024-11-15/67372af5652cf_0x0.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "Издательская группа «Азбука-Аттикус»",
-      "sourcePageUrl": "https://azbooka.ru/books/trinadtsataya-skazka-drvx",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
       "isbn13": "9785389073531",
       "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-08-03"
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
     },
     "match": {
       "strategy": "work_title_author",
-      "confidence": 0.9640000000000001
+      "confidence": 0.99
     },
     "verification": {
       "imageVerified": true,
@@ -18129,18 +18129,18 @@
     "id": "curated-nen-collection-devyatnadtsat-minut-dzhodi-pikolt",
     "cover": {
       "kind": "external",
-      "url": "https://api.azbooka.ru/upload/iblock/038/038dce9e865f5d8d168329832f2ae95f.jpg",
+      "url": "https://n-e-n.ru/images/2024-11-15/67372b02c74ed_0x0.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "Издательская группа «Азбука-Аттикус»",
-      "sourcePageUrl": "https://azbooka.ru/books/devyatnadtsat-minut-vjib",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
       "isbn13": "9785389159662",
       "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-08-03"
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
     },
     "match": {
       "strategy": "work_title_author",
-      "confidence": 0.9640000000000001
+      "confidence": 0.99
     },
     "verification": {
       "imageVerified": true,
@@ -18153,17 +18153,17 @@
     "id": "curated-nen-collection-gorstka-volshebstva-mishel-harrison",
     "cover": {
       "kind": "external",
-      "url": "https://alpinabook.ru/upload/iblock/484/wq0c34bohqo5e4awpxxf35adw7idu1qm/cover512.jpg",
+      "url": "https://n-e-n.ru/images/2022-12-26/63a978b78c91a_0x0.jpeg",
       "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Альпина.Дети»",
-      "sourcePageUrl": "https://alpinabook.ru/catalog/book-gorstka-volshebstva/",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/8-knig/",
       "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-08-03"
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
     },
     "match": {
       "strategy": "work_title_author",
-      "confidence": 0.9500000000000001
+      "confidence": 0.99
     },
     "verification": {
       "imageVerified": true,
@@ -18176,18 +18176,18 @@
     "id": "curated-nen-collection-malenkaya-vsemirnaya-istoriya-ernst-gombrih",
     "cover": {
       "kind": "external",
-      "url": "https://alpinabook.ru/upload/iblock/29f/1z23xk8zvcaiyk0qh4ygf2728uahd1nn/oblozhka1230px.jpg",
+      "url": "https://n-e-n.ru/images/2022-12-26/63a97ac868108_0x0.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Альпина.Дети»",
-      "sourcePageUrl": "https://alpinabook.ru/catalog/book-malenkaya-vsemirnaya-istoriya/",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/8-knig/",
       "isbn13": "9785001395225",
       "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-08-03"
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
     },
     "match": {
       "strategy": "work_title_author",
-      "confidence": 0.9700000000000001
+      "confidence": 0.99
     },
     "verification": {
       "imageVerified": true,
@@ -18200,18 +18200,18 @@
     "id": "curated-nen-collection-sekrety-koshek-sasha-raush",
     "cover": {
       "kind": "external",
-      "url": "https://alpinabook.ru/upload/iblock/074/2o1hxranipo0kbanzkc9cn6w5tfudxue/face_cats.jpg",
+      "url": "https://n-e-n.ru/images/2022-12-26/63a97b20aaecf_0x0.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Альпина.Дети»",
-      "sourcePageUrl": "https://alpinabook.ru/catalog/book-sekrety-koshek/",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/8-knig/",
       "isbn13": "9785961482027",
       "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-08-03"
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
     },
     "match": {
       "strategy": "work_title_author",
-      "confidence": 0.9640000000000001
+      "confidence": 0.99
     },
     "verification": {
       "imageVerified": true,
@@ -18224,18 +18224,18 @@
     "id": "curated-nen-collection-brat-drakona-larisa-romanovskaya",
     "cover": {
       "kind": "external",
-      "url": "https://alpinabook.ru/upload/iblock/e3c/e3u98drpc12wvmud1k4y6cgpxahnws3b/face_Brat-drakona.jpg",
+      "url": "https://n-e-n.ru/images/2022-12-26/63a97b6f4467a_0x0.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Альпина.Дети»",
-      "sourcePageUrl": "https://alpinabook.ru/catalog/book-brat-drakona/",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/8-knig/",
       "isbn13": "9785961483772",
       "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-08-03"
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
     },
     "match": {
       "strategy": "work_title_author",
-      "confidence": 0.9700000000000001
+      "confidence": 0.99
     },
     "verification": {
       "imageVerified": true,
@@ -18248,18 +18248,18 @@
     "id": "curated-nen-collection-drugaya-elis-mishel-harrison",
     "cover": {
       "kind": "external",
-      "url": "https://alpinabook.ru/upload/iblock/283/n5ffocotbzi5pw7qo4olhun35k5oumc8/face_1230px_RGB_BIG%20The_other_Alice.jpg",
+      "url": "https://n-e-n.ru/images/2022-12-26/63a97c19aeb6a_0x0.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Альпина.Дети»",
-      "sourcePageUrl": "https://alpinabook.ru/catalog/book-drugaya-elis/",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/8-knig/",
       "isbn13": "9785961476774",
       "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-08-03"
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
     },
     "match": {
       "strategy": "work_title_author",
-      "confidence": 0.9700000000000001
+      "confidence": 0.99
     },
     "verification": {
       "imageVerified": true,
@@ -18272,18 +18272,18 @@
     "id": "curated-nen-collection-ya-idu-iskat-v-sankt-peterburge-svetlana-shahverdova",
     "cover": {
       "kind": "external",
-      "url": "https://alpinabook.ru/upload/iblock/355/c1ca206tyvladmddbym4tre22a4l6cme/face_1230px_RGB_BIG%20Ya_idu_iskat_v_SPB.jpg",
+      "url": "https://n-e-n.ru/images/2023-06-09/6482f5c5f0b27_0x0.jpeg",
       "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Альпина.Дети»",
-      "sourcePageUrl": "https://alpinabook.ru/catalog/book-ya-idu-iskat-v-sankt-peterburge/",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/5-knig-alpina/",
       "isbn13": "9785961478679",
       "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-08-03"
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
     },
     "match": {
       "strategy": "work_title_author",
-      "confidence": 0.9700000000000001
+      "confidence": 0.99
     },
     "verification": {
       "imageVerified": true,
@@ -18296,18 +18296,18 @@
     "id": "curated-nen-collection-konni-i-druzya-novaya-shkola-yuliya-beme",
     "cover": {
       "kind": "external",
-      "url": "https://alpinabook.ru/upload/iblock/1ff/xjcni2e7hejvr3glk2djjc3zxmlu3zhx/face_New_school.jpg",
+      "url": "https://n-e-n.ru/images/2023-06-09/6482f5d23eeca_0x0.jpeg",
       "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Альпина.Дети»",
-      "sourcePageUrl": "https://alpinabook.ru/catalog/book-konni-i-druzya-novaya-shkola/",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/5-knig-alpina/",
       "isbn13": "9785961484489",
       "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-08-03"
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
     },
     "match": {
       "strategy": "work_title_author",
-      "confidence": 0.9700000000000001
+      "confidence": 0.99
     },
     "verification": {
       "imageVerified": true,
@@ -18320,18 +18320,18 @@
     "id": "curated-nen-collection-shkola-risovaniya-goroshka-david-kali",
     "cover": {
       "kind": "external",
-      "url": "https://samokatbook.ru/upload/resize_cache/iblock/bd0/1024_1024_1/l6234776ce25d7jg9wqaz95z5wxleqba.jpg",
+      "url": "https://n-e-n.ru/images/2023-04-28/644ba0486e7ff_0x0.jpeg",
       "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Самокат»",
-      "sourcePageUrl": "https://samokatbook.ru/book/shkola-risovaniya-goroshka/",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/goroshek/",
       "isbn13": "9785001672906",
       "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-08-03"
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
     },
     "match": {
       "strategy": "work_title_author",
-      "confidence": 0.9700000000000001
+      "confidence": 0.99
     },
     "verification": {
       "imageVerified": true,
@@ -18344,18 +18344,18 @@
     "id": "curated-nen-collection-frederik-leo-lionni",
     "cover": {
       "kind": "external",
-      "url": "https://samokatbook.ru/upload/resize_cache/iblock/c0f/1024_1024_1/vjliynro1axjhly3t1g97cr7wkhjh622.jpg",
+      "url": "https://n-e-n.ru/images/2022-10-11/634524192ba2c_0x0.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Самокат»",
-      "sourcePageUrl": "https://samokatbook.ru/book/frederik/",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/novinki-dlya-shkolnikov/",
       "isbn13": "9785917597867",
       "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-08-03"
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
     },
     "match": {
       "strategy": "work_title_author",
-      "confidence": 0.9700000000000001
+      "confidence": 0.99
     },
     "verification": {
       "imageVerified": true,
@@ -18368,17 +18368,17 @@
     "id": "curated-nen-collection-ochki-dlya-selesty-mariya-kolker",
     "cover": {
       "kind": "external",
-      "url": "https://alpinabook.ru/upload/iblock/01f/uyfn5dea3300cf1pkhnma2807y6ipcch/%D0%BE%D0%B1%D0%BB-1230%D0%BF%D0%BA%D1%81.jpg",
+      "url": "https://n-e-n.ru/images/2022-10-11/6345244ab9fe3_0x0.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Альпина.Дети»",
-      "sourcePageUrl": "https://alpinabook.ru/catalog/book-ochki-dlya-selesty/",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/novinki-dlya-shkolnikov/",
       "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-08-03"
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
     },
     "match": {
       "strategy": "work_title_author",
-      "confidence": 0.9500000000000001
+      "confidence": 0.99
     },
     "verification": {
       "imageVerified": true,
@@ -18439,18 +18439,18 @@
     "id": "curated-nen-collection-semeynyy-albom-tirannozavra-toni-mayk-benton",
     "cover": {
       "kind": "external",
-      "url": "https://samokatbook.ru/upload/resize_cache/iblock/c57/1024_1024_1/c574c1c5021b5287155f7dfb324ccf53.jpg",
+      "url": "https://n-e-n.ru/images/2020-12-28/5fe9e1a394de7_0x0.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Самокат»",
-      "sourcePageUrl": "https://samokatbook.ru/book/semeynyy-albom-tirannozavra-toni-istoriya-dinozavrov/",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
       "isbn13": "9785917598017",
       "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-08-03"
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
     },
     "match": {
       "strategy": "work_title_author",
-      "confidence": 0.9640000000000001
+      "confidence": 0.99
     },
     "verification": {
       "imageVerified": true,
@@ -18463,18 +18463,18 @@
     "id": "curated-nen-collection-reka-tekuschaya-vspyat-klod-murleva",
     "cover": {
       "kind": "external",
-      "url": "https://samokatbook.ru/upload/resize_cache/iblock/7d4/1024_1024_1/7d4e028fa93753ced851044e402fb7a1.jpg",
+      "url": "https://n-e-n.ru/images/2025-07-31/688b4abab97c0_0x0.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Самокат»",
-      "sourcePageUrl": "https://samokatbook.ru/book/reka-tekushchaya-vspyat/",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/knigi-pro-pervuyu-lyubov/",
       "isbn13": "9785917599236",
       "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-08-03"
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
     },
     "match": {
       "strategy": "work_title_author",
-      "confidence": 0.9700000000000001
+      "confidence": 0.99
     },
     "verification": {
       "imageVerified": true,
@@ -18487,18 +18487,18 @@
     "id": "curated-nen-collection-idi-poigray-s-tem-malchikom-klementina-bove",
     "cover": {
       "kind": "external",
-      "url": "https://samokatbook.ru/upload/resize_cache/iblock/640/1024_1024_1/kq3hg2w42ghjz0jiht7p5to6s02vgga5.jpg",
+      "url": "https://n-e-n.ru/images/2021-10-07/615ee02e22ecc_0x0.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Самокат»",
-      "sourcePageUrl": "https://samokatbook.ru/book/idi-poigray-s-tem-malchikom/",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
       "isbn13": "9785001671732",
       "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-08-03"
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
     },
     "match": {
       "strategy": "work_title_author",
-      "confidence": 0.9700000000000001
+      "confidence": 0.99
     },
     "verification": {
       "imageVerified": true,
@@ -18511,18 +18511,18 @@
     "id": "curated-nen-collection-6-minut-dlya-detey-dominik-spenst",
     "cover": {
       "kind": "external",
-      "url": "https://alpinabook.ru/upload/iblock/1ac/wdgzhun51rtcgkzuzbk8wv32pco7iv2n/face_LEO.jpg",
+      "url": "https://n-e-n.ru/images/2022-12-26/63a97beaa054b_0x0.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Альпина.Дети»",
-      "sourcePageUrl": "https://alpinabook.ru/catalog/book-6-minut-dlya-detey/",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/8-knig/",
       "isbn13": "9785961495850",
       "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-08-03"
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
     },
     "match": {
       "strategy": "work_title_author",
-      "confidence": 0.9640000000000001
+      "confidence": 0.99
     },
     "verification": {
       "imageVerified": true,
@@ -18535,18 +18535,18 @@
     "id": "curated-nen-collection-shlyapniki-tamzin-merchant",
     "cover": {
       "kind": "external",
-      "url": "https://cdn.ast.ru/v2/ASE000000000853036/COVER/cover1__w340.jpg",
+      "url": "https://n-e-n.ru/images/2022-12-06/638f6be76143d_0x0.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «АСТ»",
-      "sourcePageUrl": "https://ast.ru/book/shlyapniki-853036/",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/sohraniai-svobody-v-golove/",
       "isbn13": "9785171275341",
       "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-08-03"
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
     },
     "match": {
       "strategy": "work_title_author",
-      "confidence": 0.9700000000000001
+      "confidence": 0.99
     },
     "verification": {
       "imageVerified": true,
@@ -18559,18 +18559,18 @@
     "id": "curated-nen-collection-v-poiskah-deda-moroza-ann-montel",
     "cover": {
       "kind": "external",
-      "url": "https://samokatbook.ru/upload/resize_cache/iblock/db7/1024_1024_1/zr1nx637265a8j321mqnkid7ds362fik.jpg",
+      "url": "https://n-e-n.ru/images/2025-11-12/69147102ed4ee_1040x720.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Самокат»",
-      "sourcePageUrl": "https://samokatbook.ru/book/v-poiskakh-deda-moroza/",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/",
       "isbn13": "9785001676911",
       "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-08-03"
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
     },
     "match": {
       "strategy": "work_title_author",
-      "confidence": 0.9700000000000001
+      "confidence": 0.99
     },
     "verification": {
       "imageVerified": true,
@@ -18989,18 +18989,18 @@
     "id": "curated-nen-collection-kak-flip-zatopil-ves-mir-adam-stouer",
     "cover": {
       "kind": "external",
-      "url": "https://melik-pashaev.ru/wp-content/uploads/2021/11/flip_cover_1200.jpg",
+      "url": "https://n-e-n.ru/images/2021-10-07/615edf8a3be1a_0x0.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Мелик-Пашаев»",
-      "sourcePageUrl": "https://melik-pashaev.ru/product/kak-flip-zatopil-ves-mir/",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
       "isbn13": "9785000414514",
       "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-08-03"
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
     },
     "match": {
       "strategy": "work_title_author",
-      "confidence": 0.9700000000000001
+      "confidence": 0.99
     },
     "verification": {
       "imageVerified": true,
@@ -19013,22 +19013,991 @@
     "id": "curated-nen-collection-letniy-den-s-druzyami-filip-vehter",
     "cover": {
       "kind": "external",
-      "url": "https://melik-pashaev.ru/wp-content/uploads/2022/07/letniy-den_sover_1200.jpg",
+      "url": "https://n-e-n.ru/images/2022-10-11/63452598e4d5f_0x0.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Мелик-Пашаев»",
-      "sourcePageUrl": "https://melik-pashaev.ru/product/letniy-den-s-druzyami/",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/novinki-dlya-shkolnikov/",
       "isbn13": "9785000414880",
       "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-08-03"
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
     },
     "match": {
       "strategy": "work_title_author",
-      "confidence": 0.9700000000000001
+      "confidence": 0.99
     },
     "verification": {
       "imageVerified": true,
       "sameEdition": true,
+      "titleMatched": true,
+      "authorMatched": true
+    }
+  },
+  {
+    "id": "curated-nen-collection-stihi-mashi-rupasovoy-masha-rupasova",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2020-12-28/5fe9e14d270e0_0x0.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    },
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99
+    },
+    "verification": {
+      "imageVerified": true,
+      "sameEdition": false,
+      "titleMatched": true,
+      "authorMatched": true
+    }
+  },
+  {
+    "id": "curated-nen-collection-pro-lisa-i-porosenka-bern-rervik",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2025-11-12/69147102ed4ee_1040x720.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    },
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99
+    },
+    "verification": {
+      "imageVerified": true,
+      "sameEdition": false,
+      "titleMatched": true,
+      "authorMatched": true
+    }
+  },
+  {
+    "id": "curated-nen-collection-chelovetkin-dzhuliya-donaldson",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2020-12-28/5fe9e2531e746_0x0.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    },
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99
+    },
+    "verification": {
+      "imageVerified": true,
+      "sameEdition": false,
+      "titleMatched": true,
+      "authorMatched": true
+    }
+  },
+  {
+    "id": "curated-nen-collection-odin-za-vseh-i-vse-za-odnogo-brigit-veninger",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2020-12-28/5fe9e619d35f6_0x0.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    },
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99
+    },
+    "verification": {
+      "imageVerified": true,
+      "sameEdition": false,
+      "titleMatched": true,
+      "authorMatched": true
+    }
+  },
+  {
+    "id": "curated-nen-collection-myshonok-kotoryy-tam-anastasiya-kovalenkova",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2020-12-28/5fe9eab80b7f2_0x0.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    },
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99
+    },
+    "verification": {
+      "imageVerified": true,
+      "sameEdition": false,
+      "titleMatched": true,
+      "authorMatched": true
+    }
+  },
+  {
+    "id": "curated-nen-collection-kto-uteshit-knyutta-tuve-yansson",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2020-12-28/5fe9eb3f21a92_0x0.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    },
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99
+    },
+    "verification": {
+      "imageVerified": true,
+      "sameEdition": false,
+      "titleMatched": true,
+      "authorMatched": true
+    }
+  },
+  {
+    "id": "curated-nen-collection-meydelin-finn-i-sobaka-iz-priyuta-liza-papp",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2020-12-28/5fe9e566b95b5_0x0.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    },
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99
+    },
+    "verification": {
+      "imageVerified": true,
+      "sameEdition": false,
+      "titleMatched": true,
+      "authorMatched": true
+    }
+  },
+  {
+    "id": "curated-nen-collection-vse-o-mumi-trollyah-tuve-yansson",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2020-12-28/5fe9e9bb8a49f_0x0.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    },
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99
+    },
+    "verification": {
+      "imageVerified": true,
+      "sameEdition": false,
+      "titleMatched": true,
+      "authorMatched": true
+    }
+  },
+  {
+    "id": "curated-nen-collection-kartofelnaya-sobaka-yuriy-koval",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2022-09-13/632056704e863_0x0.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/10-glavnih-detskih-knig/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    },
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99
+    },
+    "verification": {
+      "imageVerified": true,
+      "sameEdition": false,
+      "titleMatched": true,
+      "authorMatched": true
+    }
+  },
+  {
+    "id": "curated-nen-collection-shtora-nyanyushki-lagton-virdzhiniya-vulf",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2022-09-13/63205791c5a73_0x0.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/10-glavnih-detskih-knig/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    },
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99
+    },
+    "verification": {
+      "imageVerified": true,
+      "sameEdition": false,
+      "titleMatched": true,
+      "authorMatched": true
+    }
+  },
+  {
+    "id": "curated-nen-collection-chto-nuzhno-malenkoy-koshke-natalya-shaloshvili",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2021-10-07/615ede5ada5ef_0x0.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    },
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99
+    },
+    "verification": {
+      "imageVerified": true,
+      "sameEdition": false,
+      "titleMatched": true,
+      "authorMatched": true
+    }
+  },
+  {
+    "id": "curated-nen-collection-vernye-druzya-mariam-kordes",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2021-10-07/615ede5ada5ef_0x0.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    },
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99
+    },
+    "verification": {
+      "imageVerified": true,
+      "sameEdition": false,
+      "titleMatched": true,
+      "authorMatched": true
+    }
+  },
+  {
+    "id": "curated-nen-collection-spat-kak-tigr-masha-lukashkina",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2021-10-07/615edef47bcbf_0x0.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    },
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99
+    },
+    "verification": {
+      "imageVerified": true,
+      "sameEdition": false,
+      "titleMatched": true,
+      "authorMatched": true
+    }
+  },
+  {
+    "id": "curated-nen-collection-molli-i-shtormovoe-more-doyl-malahiya",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2021-10-07/615edf8a3be1a_0x0.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    },
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99
+    },
+    "verification": {
+      "imageVerified": true,
+      "sameEdition": false,
+      "titleMatched": true,
+      "authorMatched": true
+    }
+  },
+  {
+    "id": "curated-nen-collection-god-polnyy-chudes-b-klyayn",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2021-10-07/615ee02e22ecc_0x0.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    },
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99
+    },
+    "verification": {
+      "imageVerified": true,
+      "sameEdition": false,
+      "titleMatched": true,
+      "authorMatched": true
+    }
+  },
+  {
+    "id": "curated-nen-collection-pingvikingi-anton-soya",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2021-10-07/615ee05f2ff74_0x0.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    },
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99
+    },
+    "verification": {
+      "imageVerified": true,
+      "sameEdition": false,
+      "titleMatched": true,
+      "authorMatched": true
+    }
+  },
+  {
+    "id": "curated-nen-collection-shkola-v-karmartene-anna-korosteleva",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2024-11-15/67372ab17bdbc_0x0.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    },
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99
+    },
+    "verification": {
+      "imageVerified": true,
+      "sameEdition": false,
+      "titleMatched": true,
+      "authorMatched": true
+    }
+  },
+  {
+    "id": "curated-nen-collection-muley-erlend-lu",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2024-11-15/67372ad32d6e7_0x0.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    },
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99
+    },
+    "verification": {
+      "imageVerified": true,
+      "sameEdition": false,
+      "titleMatched": true,
+      "authorMatched": true
+    }
+  },
+  {
+    "id": "curated-nen-collection-zhutko-gromko-i-zapredelno-blizko-safran-foer",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2024-11-15/67372ae8bb144_0x0.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+      "isbn13": "9785699951338",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    },
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99
+    },
+    "verification": {
+      "imageVerified": true,
+      "sameEdition": true,
+      "titleMatched": true,
+      "authorMatched": true
+    }
+  },
+  {
+    "id": "curated-nen-collection-milye-kosti-elis-sibold",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2024-11-15/67372af19968a_0x0.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+      "isbn13": "9785041089535",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    },
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99
+    },
+    "verification": {
+      "imageVerified": true,
+      "sameEdition": true,
+      "titleMatched": true,
+      "authorMatched": true
+    }
+  },
+  {
+    "id": "curated-nen-collection-kogda-my-vstretimsya-rebekka-sted",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2024-11-15/67372af5652cf_0x0.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    },
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99
+    },
+    "verification": {
+      "imageVerified": true,
+      "sameEdition": false,
+      "titleMatched": true,
+      "authorMatched": true
+    }
+  },
+  {
+    "id": "curated-nen-collection-bezdna-chellendzhera-nil-shusterman",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2024-11-15/67372b02c74ed_0x0.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    },
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99
+    },
+    "verification": {
+      "imageVerified": true,
+      "sameEdition": false,
+      "titleMatched": true,
+      "authorMatched": true
+    }
+  },
+  {
+    "id": "curated-nen-collection-ptitsa-v-kletke-robin-rou",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2024-11-15/67372b10b866d_0x0.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    },
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99
+    },
+    "verification": {
+      "imageVerified": true,
+      "sameEdition": false,
+      "titleMatched": true,
+      "authorMatched": true
+    }
+  },
+  {
+    "id": "curated-nen-collection-spletni-i-k-pop-aleksandra-yang",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2024-11-15/67372b1f21ad2_0x0.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+      "isbn13": "9785041602239",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    },
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99
+    },
+    "verification": {
+      "imageVerified": true,
+      "sameEdition": true,
+      "titleMatched": true,
+      "authorMatched": true
+    }
+  },
+  {
+    "id": "curated-nen-collection-schepotka-magii-mishel-harrison",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2022-12-26/63a978b78c91a_0x0.jpeg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/8-knig/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    },
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99
+    },
+    "verification": {
+      "imageVerified": true,
+      "sameEdition": false,
+      "titleMatched": true,
+      "authorMatched": true
+    }
+  },
+  {
+    "id": "curated-nen-collection-klubok-zaklinaniy-mishel-harrison",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2022-12-26/63a978b78c91a_0x0.jpeg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/8-knig/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    },
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99
+    },
+    "verification": {
+      "imageVerified": true,
+      "sameEdition": false,
+      "titleMatched": true,
+      "authorMatched": true
+    }
+  },
+  {
+    "id": "curated-nen-collection-zatonuvshiy-les-lloyd-dzhons",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2022-12-26/63a97ba1cdf97_0x0.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/8-knig/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    },
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99
+    },
+    "verification": {
+      "imageVerified": true,
+      "sameEdition": false,
+      "titleMatched": true,
+      "authorMatched": true
+    }
+  },
+  {
+    "id": "curated-nen-collection-neveroyatno-opasnaya-sliz-ledyanye-myshki-sedobnye-kamni-i-esche-95-istoriy-o-mire-vokrug-nas-nastya-tr",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2023-06-09/6482f5aac11dd_0x0.jpeg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/5-knig-alpina/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    },
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99
+    },
+    "verification": {
+      "imageVerified": true,
+      "sameEdition": false,
+      "titleMatched": true,
+      "authorMatched": true
+    }
+  },
+  {
+    "id": "curated-nen-collection-druzhba-posle-ssory-novye-priklyucheniya-emo-i-chiki-dzhoshua-vays",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2023-06-09/6482f5b8ccc40_0x0.jpeg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/5-knig-alpina/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    },
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99
+    },
+    "verification": {
+      "imageVerified": true,
+      "sameEdition": false,
+      "titleMatched": true,
+      "authorMatched": true
+    }
+  },
+  {
+    "id": "curated-nen-collection-istorii-pro-pyarta-anti-saar",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2023-06-09/6482f5dd512ed_0x0.jpeg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/5-knig-alpina/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    },
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99
+    },
+    "verification": {
+      "imageVerified": true,
+      "sameEdition": false,
+      "titleMatched": true,
+      "authorMatched": true
+    }
+  },
+  {
+    "id": "curated-nen-collection-poigray-s-mimi-anna-permyakova",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2023-04-28/644b936639747_0x0.jpeg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/goroshek/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    },
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99
+    },
+    "verification": {
+      "imageVerified": true,
+      "sameEdition": false,
+      "titleMatched": true,
+      "authorMatched": true
+    }
+  },
+  {
+    "id": "curated-nen-collection-i-kto-to-skazal-privet-nihan-temiz",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2023-04-28/644ba0535ac64_0x0.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/goroshek/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    },
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99
+    },
+    "verification": {
+      "imageVerified": true,
+      "sameEdition": false,
+      "titleMatched": true,
+      "authorMatched": true
+    }
+  },
+  {
+    "id": "curated-nen-collection-moya-bolshaya-sibiy-delakrua",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2022-10-11/6345242916f46_0x0.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/novinki-dlya-shkolnikov/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    },
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99
+    },
+    "verification": {
+      "imageVerified": true,
+      "sameEdition": false,
+      "titleMatched": true,
+      "authorMatched": true
+    }
+  },
+  {
+    "id": "curated-nen-collection-dobraya-akula-elena-repetur",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2022-10-11/6345243076e60_0x0.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/novinki-dlya-shkolnikov/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    },
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99
+    },
+    "verification": {
+      "imageVerified": true,
+      "sameEdition": false,
+      "titleMatched": true,
+      "authorMatched": true
+    }
+  },
+  {
+    "id": "curated-nen-collection-sup-sinora-leprona-dzhovanna-dzoboli",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2022-10-11/6345249bc0ad9_0x0.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/novinki-dlya-shkolnikov/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    },
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99
+    },
+    "verification": {
+      "imageVerified": true,
+      "sameEdition": false,
+      "titleMatched": true,
+      "authorMatched": true
+    }
+  },
+  {
+    "id": "curated-nen-collection-silviya-i-ptichka-ketrin-reyner",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2022-10-11/63452443c2320_0x0.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/novinki-dlya-shkolnikov/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    },
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99
+    },
+    "verification": {
+      "imageVerified": true,
+      "sameEdition": false,
+      "titleMatched": true,
+      "authorMatched": true
+    }
+  },
+  {
+    "id": "curated-nen-collection-vasilkovaya-zima-hegyum-kim",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2025-11-12/69147102ed4ee_1040x720.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    },
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99
+    },
+    "verification": {
+      "imageVerified": true,
+      "sameEdition": false,
+      "titleMatched": true,
+      "authorMatched": true
+    }
+  },
+  {
+    "id": "curated-nen-collection-gde-to-v-snegu-linde-faas",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2025-11-12/69147102ed4ee_1040x720.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    },
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99
+    },
+    "verification": {
+      "imageVerified": true,
+      "sameEdition": false,
+      "titleMatched": true,
+      "authorMatched": true
+    }
+  },
+  {
+    "id": "curated-nen-collection-zavetnoe-zhelanie-krotika-sangyn-kim",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2025-11-12/69147102ed4ee_1040x720.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    },
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99
+    },
+    "verification": {
+      "imageVerified": true,
+      "sameEdition": false,
+      "titleMatched": true,
+      "authorMatched": true
+    }
+  },
+  {
+    "id": "curated-nen-collection-elka-yulka-olive-tallek",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2025-11-12/69147102ed4ee_1040x720.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    },
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99
+    },
+    "verification": {
+      "imageVerified": true,
+      "sameEdition": false,
+      "titleMatched": true,
+      "authorMatched": true
+    }
+  },
+  {
+    "id": "curated-nen-collection-peschernyy-chelovek-terri-pratchett",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2022-12-06/638f6b5945d66_0x0.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/sohraniai-svobody-v-golove/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    },
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99
+    },
+    "verification": {
+      "imageVerified": true,
+      "sameEdition": false,
+      "titleMatched": true,
+      "authorMatched": true
+    }
+  },
+  {
+    "id": "curated-nen-collection-magazin-dikovinnyh-sladostey-schaste-za-monetku-reyko-hirosima",
+    "cover": {
+      "kind": "external",
+      "url": "https://n-e-n.ru/images/2022-12-06/638f6c414b2cb_0x0.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "НЭН",
+      "sourcePageUrl": "https://n-e-n.ru/sohraniai-svobody-v-golove/",
+      "temporary": true,
+      "attribution": "Обложка из редакционного материала НЭН.",
+      "verifiedAt": "2026-08-04"
+    },
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.99
+    },
+    "verification": {
+      "imageVerified": true,
+      "sameEdition": false,
       "titleMatched": true,
       "authorMatched": true
     }

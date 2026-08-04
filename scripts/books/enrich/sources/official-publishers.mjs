@@ -1,4 +1,4 @@
-import { authorMatches, authorMatchesNearTitle, normalize, publisherMatches, titleScore, titleTokens } from "../core.mjs";
+import { authorMatches, authorMatchesNearTitle, normalize, publisherMatches, titleScore, titleTokens, workTitles } from "../core.mjs";
 import { fetchText, mapLimit } from "../http.mjs";
 import { parseBookPage } from "../page-parser.mjs";
 
@@ -39,7 +39,16 @@ function urlTokens(url) {
   try { path = decodeURIComponent(path); } catch {}
   return new Set([...titleTokens(path), ...titleTokens(latin(path))]);
 }
-function bookTokens(book) { return [...new Set([...titleTokens(book.title), ...titleTokens(latin(book.title))])]; }
+function bookTokens(book) {
+  return [...new Set(workTitles(book).flatMap((title) => [...titleTokens(title), ...titleTokens(latin(title))]))];
+}
+
+function officialSearchUrls(definition, isbn) {
+  if (!isbn) return [];
+  const origin = definition.sitemaps?.[0] ? new URL(definition.sitemaps[0]).origin : definition.listingPages?.[0] ? new URL(definition.listingPages[0]).origin : undefined;
+  if (!origin) return [];
+  return [`${origin}/search/?q=${isbn}`, `${origin}/?s=${isbn}`, `${origin}/search/?search=${isbn}`];
+}
 
 export function createOfficialPublisherSource({ cache, concurrency = 6, root, matchLevel = 1, publisherKeys } = {}) {
   const activeDefinitions = publisherKeys?.length ? definitions.filter((definition) => publisherKeys.includes(definition.key)) : definitions;
@@ -130,11 +139,25 @@ export function createOfficialPublisherSource({ cache, concurrency = 6, root, ma
       }
     },
     async search(book) {
-      const cacheKey = `${source.key}:adapter-v2:match-level-${matchLevel}:publishers-${activeDefinitions.map((item) => item.key).join(",")}`;
+      const cacheKey = `${source.key}:adapter-v3-isbn-work-graph:match-level-${matchLevel}:publishers-${activeDefinitions.map((item) => item.key).join(",")}`;
       const cached = cache?.get(cacheKey, book);
       if (cached) return cached;
       const wanted = bookTokens(book);
       const trials = [];
+      if (book.isbn13) {
+        const preferred = activeDefinitions.filter((definition) => publisherMatches(book.publisher, definition.publisher));
+        const isbnDefinitions = preferred.length ? preferred : activeDefinitions;
+        for (const definition of isbnDefinitions) {
+          for (const searchUrl of officialSearchUrls(definition, book.isbn13)) {
+            try {
+              const html = await fetchText(searchUrl, { attempts: 1, timeoutMs: 8_000 });
+              const links = pageLinks(html, searchUrl).filter((url) => definition.product.test(url));
+              for (const url of links.slice(0, 3)) trials.push({ url, definition, score: 1.2, strategy: "isbn_official_search" });
+              if (links.length) break;
+            } catch { /* try the next official search route */ }
+          }
+        }
+      }
       const existingPage = book.cover?.sourcePageUrl;
       if (existingPage) {
         const definition = activeDefinitions.find((item) => item.product.test(existingPage));

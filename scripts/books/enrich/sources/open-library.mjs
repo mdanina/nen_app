@@ -1,4 +1,4 @@
-import { normalizeLanguage, normalizedIsbn, validPages, validYear } from "../core.mjs";
+import { normalizeLanguage, normalizedIsbn, validPages, validYear, workTitles } from "../core.mjs";
 import { fetchJson } from "../http.mjs";
 
 export function createOpenLibrarySource({ cache } = {}) {
@@ -6,11 +6,11 @@ export function createOpenLibrarySource({ cache } = {}) {
     key: "open-library",
     priority: 30,
     async search(book) {
-      const cached = cache?.get(this.key, book);
+      const cacheKey = `${this.key}:isbn-first-v2`;
+      const cached = cache?.get(cacheKey, book);
       if (cached) return cached;
       const params = new URLSearchParams({
-        title: book.title,
-        author: book.author.split(";")[0],
+        ...(book.isbn13 ? { isbn: book.isbn13 } : { title: workTitles(book)[0], author: book.author.split(";")[0] }),
         fields: "key,title,author_name,isbn,publisher,publish_year,number_of_pages_median,language",
         limit: "10",
       });
@@ -38,9 +38,8 @@ export function createOpenLibrarySource({ cache } = {}) {
           confidence: 0.87,
         };
       });
-      cache?.set(this.key, book, result);
+      cache?.set(cacheKey, book, result);
       return result;
     },
   };
 }
-

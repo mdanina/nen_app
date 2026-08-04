@@ -4,9 +4,10 @@
   "concurrency": 3,
   "sourceConcurrency": 6,
   "sources": [
+    "nen-editorial",
     "official-publishers",
     "google-books",
-    "open-library"
+    "open-library",
+    "library-catalogs"
   ]
 }
-

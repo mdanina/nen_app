@@ -12,6 +12,15 @@ export function titleTokens(value = "") {
   return normalize(value).split(" ").filter((token) => token.length >= 3);
 }
 
+export function workTitles(book = {}) {
+  return [...new Set([
+    book.title,
+    book.originalTitle,
+    ...(book.alternativeTitles ?? []),
+    ...(book.sourceMetadata?.alternativeTitles ?? []),
+  ].map((value) => String(value ?? "").trim()).filter(Boolean))];
+}
+
 export function titleScore(left, right) {
   const a = normalize(left);
   const b = normalize(right);
@@ -76,7 +85,7 @@ export function normalizeLanguage(value) {
 }
 
 export function sameWork(book, candidate) {
-  const score = titleScore(book.title, candidate.title);
+  const score = Math.max(...workTitles(book).map((title) => titleScore(title, candidate.title)), 0);
   const authorMatch = authorMatches(book.author, candidate.authors, candidate.evidenceText);
   const bookTitle = normalize(book.title);
   const candidateTitle = normalize(candidate.title);
@@ -148,7 +157,7 @@ export function currentEditionStatus(book, metadataOverride, coverOverride, fres
   if (metadataOverride?.enrichment?.tool !== TOOL_NAME || metadataOverride?.enrichment?.version !== TOOL_VERSION || !verification) reasons.push("missing_current_tool_verification");
   if (daysSince(metadataOverride?.verifiedAt, now) > freshnessDays) reasons.push("verification_expired");
   if (!metadataOverride?.sourceUrl?.startsWith("https://") || !metadataOverride?.sourceRecordId) reasons.push("source_record_unverified");
-  if (verification && (!verification.trustedSource || !["official_publisher", "trusted_bibliographic"].includes(verification.sourceKind))) reasons.push("source_not_trusted");
+  if (verification && (!verification.trustedSource || !["official_publisher", "trusted_bibliographic", "editorial_source", "library_catalog"].includes(verification.sourceKind))) reasons.push("source_not_trusted");
   if (work.titleScore < 0.78 || work.collectionExpansion || (verification && !verification.titleMatched)) reasons.push("work_title_mismatch");
   if (!work.authorMatch || !metadataOverride?.officialAuthors?.length || (verification && !verification.authorMatched)) reasons.push("author_mismatch");
   if (!validIsbn13(book.isbn13) || metadataOverride?.isbn13 !== book.isbn13 || (verification && !verification.isbnMatched)) reasons.push("isbn_mismatch");
