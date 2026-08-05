@@ -16,6 +16,7 @@ const curatedPriorityPublisherPath = resolve(root, "data/source/curated-priority
 const nenCollectionBooksPath = resolve(root, "data/source/nen-collection-books.json");
 const annotationOverridesPath = resolve(root, "data/source/book-annotation-overrides.json");
 const officialCoverOverridesPath = resolve(root, "data/source/official-cover-overrides.json");
+const coverAssignmentCorrectionsPath = resolve(root, "data/source/cover-assignment-corrections.json");
 const officialMetadataOverridesPath = resolve(root, "data/source/official-metadata-overrides.json");
 const targetPath = resolve(root, "data/generated/books.json");
 const fictionExcludedReportPath = resolve(root, "data/reports/fiction-catalog-excluded.json");
@@ -30,9 +31,12 @@ const curatedPriorityPublisherSource = JSON.parse(await readFile(curatedPriority
 const nenCollectionSource = JSON.parse(await readFile(nenCollectionBooksPath, "utf8"));
 const annotationOverrides = JSON.parse(await readFile(annotationOverridesPath, "utf8"));
 const officialCoverOverrides = JSON.parse(await readFile(officialCoverOverridesPath, "utf8"));
+const coverAssignmentCorrections = JSON.parse(await readFile(coverAssignmentCorrectionsPath, "utf8").catch(() => "{\"invalidAssignments\":[],\"reassignments\":[]}"));
 const officialMetadataOverrides = JSON.parse(await readFile(officialMetadataOverridesPath, "utf8"));
 const annotationById = new Map(annotationOverrides.map((item) => [item.id, item]));
 const officialCoverById = new Map(officialCoverOverrides.map((item) => [item.id, item.cover]));
+const invalidCoverAssignmentIds = new Set(coverAssignmentCorrections.invalidAssignments.map((item) => item.id));
+const reassignedCoverById = new Map(coverAssignmentCorrections.reassignments.map((item) => [item.targetId, item.cover]));
 const officialMetadataById = new Map(officialMetadataOverrides.map((item) => [item.id, item]));
 
 const allowed = {
@@ -327,6 +331,12 @@ const candidateBooks = [...legacyBooks, ...publishedV2, ...importedBooks, ...cur
       cover: confirmedSameEdition ? { ...cover, isbn13: book.isbn13 } : cover,
       coverUrl: undefined,
     };
+  })
+  .map((book) => {
+    if (reassignedCoverById.has(book.id)) return { ...book, cover: reassignedCoverById.get(book.id), coverUrl: undefined };
+    if (!invalidCoverAssignmentIds.has(book.id)) return book;
+    const { cover: _cover, coverUrl: _coverUrl, ...withoutCover } = book;
+    return withoutCover;
   });
 const isNenCollectionBook = (book) => String(book.id).startsWith("curated-nen-collection-");
 const fictionExcluded = candidateBooks

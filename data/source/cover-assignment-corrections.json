@@ -1,0 +1,529 @@
+{
+  "generatedAt": "2026-08-05T11:15:00.237Z",
+  "invalidAssignments": [
+    {
+      "id": "nen-005",
+      "reason": "duplicate_url_wrong_book",
+      "url": "https://cdn.ast.ru/v2/ASE000000000866157/COVER/cover1__w340.jpg",
+      "correctBookId": "ol-ol10339227w"
+    },
+    {
+      "id": "nen-017",
+      "reason": "technical_image",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2015/10/social-fb-book-035-2.png"
+    },
+    {
+      "id": "curated-whitecrow-dzheyn-lisa-i-ya-jane-lisa-i-ya",
+      "reason": "technical_image",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2015/10/social-fb-book-035-2.png"
+    },
+    {
+      "id": "nen-051",
+      "reason": "technical_image",
+      "url": "https://www.books.ru/static/images/item_no_cover.png"
+    },
+    {
+      "id": "ol-ol3398755w",
+      "reason": "technical_image",
+      "url": "https://www.books.ru/static/images/item_no_cover.png"
+    },
+    {
+      "id": "nen-060",
+      "reason": "duplicate_url_wrong_book",
+      "url": "https://samokatbook.ru/upload/resize_cache/iblock/ccf/1024_1024_1/ccf39a01ed86f749441fe0e84a44d34e.jpg",
+      "correctBookId": "curated-samokat-komissar-gordon-pervoe-delo-komissar-gordon-pervoe-delo"
+    },
+    {
+      "id": "nen-bv2-008",
+      "reason": "technical_image",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2015/04/social-fb-book-007.png"
+    },
+    {
+      "id": "nen-bv2-013",
+      "reason": "technical_image",
+      "url": "https://www.moscowbooks.ru/i/main-cover.jpg"
+    },
+    {
+      "id": "ol-ol13714296w",
+      "reason": "technical_image",
+      "url": "https://www.moscowbooks.ru/i/main-cover.jpg"
+    },
+    {
+      "id": "nen-bv2-077",
+      "reason": "duplicate_url_wrong_book",
+      "url": "https://samokatbook.ru/upload/resize_cache/iblock/8b2/1024_1024_1/8b2853bf921080a642c01197fdf4099e.jpg",
+      "correctBookId": "curated-samokat-dnevnik-kota-ubiytsy-vse-istorii-dnevnik-kota-ubiytsy-vse-istorii"
+    },
+    {
+      "id": "nen-bv2-109",
+      "reason": "duplicate_url_wrong_book",
+      "url": "https://api.azbooka.ru/upload/iblock/584/25q9f2ded4bx5xpt72g5b42b9ovxewnt.jpg",
+      "correctBookId": "nen-bv2-108"
+    },
+    {
+      "id": "curated-whitecrow-mama-mu-i-snegokat-mama-mu-i-snegokat",
+      "reason": "technical_image",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2016/01/social-fb-book-mama-mu-snegokat1.png"
+    },
+    {
+      "id": "curated-whitecrow-skazka-na-rozhdestvo-skazka-na-rozhdestvo",
+      "reason": "technical_image",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2015/04/social-fb-book-skazka-guareski.png"
+    },
+    {
+      "id": "curated-whitecrow-pust-on-ostanetsya-s-nami-pust-on-ostanetsya-s-nami",
+      "reason": "technical_image",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2015/04/social-fb-book-020.png"
+    },
+    {
+      "id": "curated-whitecrow-ohota-na-snarka-ohota-na-snarka",
+      "reason": "technical_image",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2015/04/social-fb-book-017.png"
+    },
+    {
+      "id": "curated-whitecrow-skazka-o-vetre-v-bezvetrennyy-den-skazka-o-vetre",
+      "reason": "technical_image",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2015/04/social-fb-book-031.png"
+    },
+    {
+      "id": "curated-whitecrow-belyy-aist-poslanets-neba-chernyy-aist-lesnoy-otshelnik-belyj-aist-chernyj-aist",
+      "reason": "technical_image",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2015/04/social-fb-book-030.png"
+    },
+    {
+      "id": "curated-whitecrow-schastlivyy-neudachnik-schastlivyj-neudachnik",
+      "reason": "technical_image",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2015/10/social-fb-book-neudachnik.png"
+    },
+    {
+      "id": "curated-whitecrow-maksi-pes-fik-priklyucheniya-prodolzhayutsya-maksi-pyos-fik-priklyucheniya-prodolzhayutsya",
+      "reason": "technical_image",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2015/11/social-fb-book-fik-2.png"
+    },
+    {
+      "id": "curated-whitecrow-mama-mu-poranilas-mama-mu-poranilas",
+      "reason": "technical_image",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2015/11/social-fb-book-mama-mu-poranilas.png"
+    },
+    {
+      "id": "curated-whitecrow-kum-korolyu-kum-korolyu",
+      "reason": "technical_image",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2015/11/social-fb-book-kum-korolju.png"
+    },
+    {
+      "id": "curated-whitecrow-vverh-po-lestnitse-veduschey-vniz-vverh-po-lestnitse-vedushhej-vniz",
+      "reason": "technical_image",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2015/11/social-fb-book-kaufman.png"
+    },
+    {
+      "id": "curated-whitecrow-navoznyy-zhuk-letaet-v-sumerkah-navoznyj-zhuk-letaet-v-sumerkah",
+      "reason": "technical_image",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2016/01/social-fb-book-zhuk.png"
+    },
+    {
+      "id": "curated-whitecrow-ogorod-na-podokonnike-ogorod-na-podokonnike",
+      "reason": "technical_image",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2016/03/social-fb-book-ogorod-na-podokonnike.png"
+    },
+    {
+      "id": "curated-whitecrow-v-pogone-za-shlyapoy-v-pogone-za-shlyapoj",
+      "reason": "technical_image",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2016/05/social-fb-book-v-pogone-za-shlyapoj.png"
+    },
+    {
+      "id": "curated-whitecrow-gde-moya-sestra-gde-moya-sestra",
+      "reason": "technical_image",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2016/08/social-fb-book-gde-moya-sestra.png"
+    },
+    {
+      "id": "curated-whitecrow-pohozhdeniya-memeka-muzykanta-memek-muzykant",
+      "reason": "technical_image",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2016/10/social-fb-book-memek-1.png"
+    },
+    {
+      "id": "curated-whitecrow-kak-gitler-ukral-rozovogo-krolika-2-e-izdanie-pink-rabbit",
+      "reason": "technical_image",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2016/12/social-fb-kak-gitler-ukral-rozovogo-krolika-new-edition.png"
+    },
+    {
+      "id": "curated-whitecrow-chto-my-prazdnuem-8-marta-8marta",
+      "reason": "technical_image",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2017/02/social-fb-book-8marta.png"
+    },
+    {
+      "id": "curated-whitecrow-brat-yunnat-brat-unnat",
+      "reason": "technical_image",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2017/03/social-fb-book-brat-unnat.png"
+    },
+    {
+      "id": "curated-whitecrow-mister-kleghorn-i-ego-tyulenenok-mister-kleghorn-i-ego-tyulenenok",
+      "reason": "technical_image",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2017/05/social-fb-book-tyulenenok.png"
+    },
+    {
+      "id": "curated-whitecrow-karius-i-bakterius-karius-i-bakterius",
+      "reason": "technical_image",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2017/10/social-fb-book-karius-i-bakterius.png"
+    },
+    {
+      "id": "curated-whitecrow-kak-ya-teper-zhivu-meg-rosoff-kak-ya-teper-zhivu",
+      "reason": "technical_image",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2017/11/social-fb-book-meg-rosoff-kak-ya-teper-zhivu.png"
+    },
+    {
+      "id": "curated-whitecrow-lui-sredi-prizrakov-lui-sredi-prizrakov",
+      "reason": "technical_image",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2018/01/social-fb-book-lui-sredi-prizrakov2.png"
+    },
+    {
+      "id": "curated-whitecrow-i-belye-teni-v-lesu-i-belye-teni-v-lesu",
+      "reason": "technical_image",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2018/01/social-fb-book-i-belye-teni-v-lesu2.png"
+    },
+    {
+      "id": "curated-whitecrow-myshinaya-kniga-myshinaya-kniga",
+      "reason": "technical_image",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2018/02/social-fb-book-myshinaya-kniga.png"
+    },
+    {
+      "id": "curated-whitecrow-vyshel-lev-iz-za-gory-vyshel-lev-iz-za-gory",
+      "reason": "technical_image",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2018/02/social-fb-book-vyshel-lev-iz-za-gory.png"
+    },
+    {
+      "id": "curated-whitecrow-vse-druzya-naperechet-vse-druzya-naperechet",
+      "reason": "technical_image",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2018/03/social-fb-book-vse-druzya-naperechet.png"
+    },
+    {
+      "id": "curated-whitecrow-tayna-hvoinki-tajna-hvoinki",
+      "reason": "technical_image",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2018/03/social-fb-book-tajna-hvoinki.png"
+    },
+    {
+      "id": "curated-whitecrow-hvoinka-svinofufik-i-nosik-rozochkoy-hvoinka-svinofufik-i-nosik-rozochkoj",
+      "reason": "technical_image",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2018/03/social-fb-book-hvoinka-svinofufik-i-nosik-rozochkoj.png"
+    },
+    {
+      "id": "curated-whitecrow-korabl-noya-korabl-noya",
+      "reason": "technical_image",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2018/04/social-fb-book-korabl-noya.png"
+    },
+    {
+      "id": "curated-whitecrow-myach-v-igre-myach-v-igre",
+      "reason": "technical_image",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2018/04/social-fb-book-myach-v-igre.png"
+    },
+    {
+      "id": "curated-whitecrow-kak-ya-nechayanno-napisala-knigu-kak-ya-nechayanno-napisala-knigu",
+      "reason": "technical_image",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2018/08/social-fb-book-kak-ya-nechayanno-napisala-knigu.png"
+    },
+    {
+      "id": "curated-whitecrow-malyutka-laban-priklyucheniya-v-zamke-malyutka-laban-priklyucheniya-v-zamke",
+      "reason": "technical_image",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2018/10/social-fb-book-malyutka-laban-priklyucheniya-v-zamke.png"
+    },
+    {
+      "id": "curated-whitecrow-petson-i-findus-semeynyy-kalendar-na-2019-god-kalendar-petson-i-findus-2019",
+      "reason": "technical_image",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2018/10/social-fb-kalendar-petson-i-findus-2019.png"
+    },
+    {
+      "id": "curated-whitecrow-malenkiy-stark-mal-stark",
+      "reason": "technical_image",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2018/10/social-fb-book-malenkij-stark.png"
+    },
+    {
+      "id": "curated-whitecrow-legenda-o-salli-dzhons-salli-legenda",
+      "reason": "technical_image",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2018/11/social-fb-book-salli-legenda.png"
+    },
+    {
+      "id": "curated-whitecrow-kogda-idesh-po-mostu-mosty",
+      "reason": "technical_image",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2019/01/social-fb-book-mosty-1.png"
+    },
+    {
+      "id": "curated-whitecrow-charlz-darvin-revolyutsiya-charles-darwin",
+      "reason": "technical_image",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2019/03/social-fb-book-charles-darwin.png"
+    },
+    {
+      "id": "curated-whitecrow-lui-paster-uchenyy-detektiv-louis-pasteur",
+      "reason": "technical_image",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2019/03/social-fb-book-louis-pasteur.png"
+    },
+    {
+      "id": "curated-whitecrow-teatr-dzhanni-rodari-teatr-dzhanni-rodari",
+      "reason": "technical_image",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2019/03/social-fb-book-teatr-dzhanni-rodarii.png"
+    },
+    {
+      "id": "curated-whitecrow-sonya-iz-7-buee-sonya-iz-sedmogo-buee",
+      "reason": "technical_image",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2019/04/social-fb-book-sonya-iz-sedmogo-buee.png"
+    },
+    {
+      "id": "curated-whitecrow-nalle-lapson-nalle-lapson",
+      "reason": "technical_image",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2019/05/social-fb-book-nalle-lapson.png"
+    },
+    {
+      "id": "curated-whitecrow-nalle-lapson-beretsya-za-delo-nalle-lapson-beretsya-za-delo",
+      "reason": "technical_image",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2019/05/social-fb-book-nalle-lapson-beretsya-za-delo.png"
+    },
+    {
+      "id": "curated-whitecrow-cherez-granitsu-maja-lunde-cherez-granicu",
+      "reason": "technical_image",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2019/06/social-fb-book-maja-lunde-cherez-granicu.png"
+    },
+    {
+      "id": "curated-whitecrow-begletsy-ulf-stark-beglecy",
+      "reason": "technical_image",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2019/08/social-fb-book-ulf-stark-beglecy.png"
+    },
+    {
+      "id": "curated-whitecrow-puteshestvie-k-tsentru-zemli-po-proizvedeniyu-zhyulya-verna-puteshestvie-k-centru-zemli",
+      "reason": "technical_image",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2019/08/social-fb-book-puteshestvie-k-centru-zemli.png"
+    },
+    {
+      "id": "curated-whitecrow-malenkaya-povest-o-lyubvi-malenkaya-povest-o-lyubvi",
+      "reason": "technical_image",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2019/08/social-fb-book-malenkaya-povest-o-lyubvi.png"
+    },
+    {
+      "id": "curated-whitecrow-nalle-lapson-i-tyapka-nalle-lapson-i-tyapka",
+      "reason": "technical_image",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2019/09/social-fb-book-nalle-lapson-i-tyapka.png"
+    },
+    {
+      "id": "curated-whitecrow-petson-i-findus-semeynyy-kalendar-na-2020-god-kalendar-petson-i-findus-2020",
+      "reason": "technical_image",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2019/09/social-fb-book-kalendar-petson-i-findus-2020.png"
+    },
+    {
+      "id": "curated-whitecrow-parko-parco",
+      "reason": "technical_image",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2019/10/social-fb-parco.png"
+    },
+    {
+      "id": "curated-whitecrow-istoriya-o-kroshke-ele-i-kosmonavte-layke-istoriya-o-kroshke-ele-i-kosmonavte-layke",
+      "reason": "technical_image",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2019/10/social-fb-book-istoriya-o-kroshke-ele-i-kosmonavte-layke.png"
+    },
+    {
+      "id": "curated-alpina-deti-kak-tima-ukusila-loshad-book-kak-tima-ukusila-loshad-komiksy",
+      "reason": "technical_image",
+      "url": "https://alpinabook.ru/assets/img/media/logo-alpina_meta.png"
+    },
+    {
+      "id": "curated-alpina-deti-persey-book-persey",
+      "reason": "technical_image",
+      "url": "https://alpinabook.ru/assets/img/media/logo-alpina_meta.png"
+    },
+    {
+      "id": "curated-whitecrow-zagadki-detektiva-schuki-zagadki-detektiva-shhuki",
+      "reason": "technical_image",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2016/08/social-fb-book-inspector-pike-1.png"
+    },
+    {
+      "id": "curated-whitecrow-kakim-ya-byl-meg-rosoff-kakim-ya-byl",
+      "reason": "technical_image",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2018/10/social-fb-book-meg-rosoff-kakim-ya-byl.png"
+    },
+    {
+      "id": "curated-nen-collection-pro-lisa-i-porosenka-bern-rervik",
+      "reason": "technical_image",
+      "url": "https://n-e-n.ru/images/2025-11-12/69147102ed4ee_1040x720.jpg"
+    },
+    {
+      "id": "curated-nen-collection-vasilkovaya-zima-hegyum-kim",
+      "reason": "technical_image",
+      "url": "https://n-e-n.ru/images/2025-11-12/69147102ed4ee_1040x720.jpg"
+    },
+    {
+      "id": "curated-nen-collection-gde-to-v-snegu-linde-faas",
+      "reason": "technical_image",
+      "url": "https://n-e-n.ru/images/2025-11-12/69147102ed4ee_1040x720.jpg"
+    },
+    {
+      "id": "curated-nen-collection-zavetnoe-zhelanie-krotika-sangyn-kim",
+      "reason": "technical_image",
+      "url": "https://n-e-n.ru/images/2025-11-12/69147102ed4ee_1040x720.jpg"
+    },
+    {
+      "id": "curated-nen-collection-elka-yulka-olive-tallek",
+      "reason": "technical_image",
+      "url": "https://n-e-n.ru/images/2025-11-12/69147102ed4ee_1040x720.jpg"
+    },
+    {
+      "id": "curated-nen-collection-v-poiskah-deda-moroza-ann-montel",
+      "reason": "technical_image",
+      "url": "https://n-e-n.ru/images/2025-11-12/69147102ed4ee_1040x720.jpg"
+    },
+    {
+      "id": "curated-nen-collection-semeynyy-albom-tirannozavra-toni-mayk-benton",
+      "reason": "technical_image",
+      "url": "https://n-e-n.ru/images/2020-12-28/5fe9e1a394de7_0x0.jpg"
+    },
+    {
+      "id": "curated-nen-collection-meydelin-finn-i-sobaka-iz-priyuta-liza-papp",
+      "reason": "technical_image",
+      "url": "https://n-e-n.ru/images/2020-12-28/5fe9e566b95b5_0x0.jpg"
+    },
+    {
+      "id": "curated-nen-collection-martyn-i-barsik-masha-rupasova",
+      "reason": "technical_image",
+      "url": "https://n-e-n.ru/images/2020-12-28/5fe9e5bac6507_0x0.jpg"
+    },
+    {
+      "id": "curated-nen-collection-odin-za-vseh-i-vse-za-odnogo-brigit-veninger",
+      "reason": "technical_image",
+      "url": "https://n-e-n.ru/images/2020-12-28/5fe9e619d35f6_0x0.jpg"
+    },
+    {
+      "id": "curated-nen-collection-piter-pen-dzheyms-barri",
+      "reason": "technical_image",
+      "url": "https://n-e-n.ru/images/2020-12-28/5fe9e9bb8a49f_0x0.jpg"
+    },
+    {
+      "id": "curated-nen-collection-vse-o-mumi-trollyah-tuve-yansson",
+      "reason": "technical_image",
+      "url": "https://n-e-n.ru/images/2020-12-28/5fe9e9bb8a49f_0x0.jpg"
+    },
+    {
+      "id": "curated-nen-collection-kto-uteshit-knyutta-tuve-yansson",
+      "reason": "technical_image",
+      "url": "https://n-e-n.ru/images/2020-12-28/5fe9eb3f21a92_0x0.jpg"
+    },
+    {
+      "id": "curated-nen-collection-reka-tekuschaya-vspyat-klod-murleva",
+      "reason": "technical_image",
+      "url": "https://n-e-n.ru/images/2025-07-31/688b4abab97c0_0x0.jpg"
+    },
+    {
+      "id": "curated-nen-collection-ya-ne-ya-zhanna-zaytseva-aleksandra",
+      "reason": "technical_image",
+      "url": "https://n-e-n.ru/images/2025-07-31/688b4b0620de8_0x0.jpg"
+    },
+    {
+      "id": "curated-nen-collection-vernye-druzya-mariam-kordes",
+      "reason": "duplicate_url_wrong_book",
+      "url": "https://n-e-n.ru/images/2021-10-07/615ede5ada5ef_0x0.jpg",
+      "correctBookId": "curated-nen-collection-chto-nuzhno-malenkoy-koshke-natalya-shaloshvili"
+    },
+    {
+      "id": "curated-nen-collection-moya-sestrenka-olkozavra-dina-gerbek",
+      "reason": "technical_image",
+      "url": "https://n-e-n.ru/images/2021-10-07/615f1a2d5f390_0x0.png"
+    },
+    {
+      "id": "curated-nen-collection-molli-i-shtormovoe-more-doyl-malahiya",
+      "reason": "duplicate_url_wrong_book",
+      "url": "https://n-e-n.ru/images/2021-10-07/615edf8a3be1a_0x0.jpg",
+      "correctBookId": "curated-nen-collection-kak-flip-zatopil-ves-mir-adam-stouer"
+    },
+    {
+      "id": "curated-nen-collection-god-polnyy-chudes-b-klyayn",
+      "reason": "duplicate_url_wrong_book",
+      "url": "https://n-e-n.ru/images/2021-10-07/615ee02e22ecc_0x0.jpg",
+      "correctBookId": "curated-nen-collection-idi-poigray-s-tem-malchikom-klementina-bove"
+    },
+    {
+      "id": "curated-nen-collection-pingvikingi-anton-soya",
+      "reason": "duplicate_url_wrong_book",
+      "url": "https://n-e-n.ru/images/2021-10-07/615ee05f2ff74_0x0.jpg",
+      "correctBookId": "curated-nen-collection-lev-petrushka-i-ego-druzya-maykl-bond"
+    },
+    {
+      "id": "curated-nen-collection-shkola-v-karmartene-anna-korosteleva",
+      "reason": "technical_image",
+      "url": "https://n-e-n.ru/images/2024-11-15/67372ab17bdbc_0x0.jpg"
+    },
+    {
+      "id": "curated-nen-collection-zakoldovannaya-zhizn-uinn-dzhons",
+      "reason": "technical_image",
+      "url": "https://n-e-n.ru/images/2024-11-15/67372ab6517b5_0x0.jpg"
+    },
+    {
+      "id": "curated-nen-collection-muley-erlend-lu",
+      "reason": "technical_image",
+      "url": "https://n-e-n.ru/images/2024-11-15/67372ad32d6e7_0x0.jpg"
+    },
+    {
+      "id": "curated-nen-collection-zhutko-gromko-i-zapredelno-blizko-safran-foer",
+      "reason": "technical_image",
+      "url": "https://n-e-n.ru/images/2024-11-15/67372ae8bb144_0x0.jpg"
+    },
+    {
+      "id": "curated-nen-collection-milye-kosti-elis-sibold",
+      "reason": "technical_image",
+      "url": "https://n-e-n.ru/images/2024-11-15/67372af19968a_0x0.jpg"
+    },
+    {
+      "id": "curated-nen-collection-kogda-my-vstretimsya-rebekka-sted",
+      "reason": "technical_image",
+      "url": "https://n-e-n.ru/images/2024-11-15/67372af5652cf_0x0.jpg"
+    },
+    {
+      "id": "curated-nen-collection-trinadtsataya-skazka-diana-setterfild",
+      "reason": "technical_image",
+      "url": "https://n-e-n.ru/images/2024-11-15/67372af5652cf_0x0.jpg"
+    },
+    {
+      "id": "curated-nen-collection-bezdna-chellendzhera-nil-shusterman",
+      "reason": "technical_image",
+      "url": "https://n-e-n.ru/images/2024-11-15/67372b02c74ed_0x0.jpg"
+    },
+    {
+      "id": "curated-nen-collection-devyatnadtsat-minut-dzhodi-pikolt",
+      "reason": "technical_image",
+      "url": "https://n-e-n.ru/images/2024-11-15/67372b02c74ed_0x0.jpg"
+    },
+    {
+      "id": "curated-nen-collection-ptitsa-v-kletke-robin-rou",
+      "reason": "technical_image",
+      "url": "https://n-e-n.ru/images/2024-11-15/67372b10b866d_0x0.jpg"
+    },
+    {
+      "id": "curated-nen-collection-ulichnyy-kot-po-imeni-bob-dzheyms-bouen",
+      "reason": "technical_image",
+      "url": "https://n-e-n.ru/images/2024-11-15/67372b17076e6_0x0.jpg"
+    },
+    {
+      "id": "curated-nen-collection-spletni-i-k-pop-aleksandra-yang",
+      "reason": "technical_image",
+      "url": "https://n-e-n.ru/images/2024-11-15/67372b1f21ad2_0x0.jpg"
+    },
+    {
+      "id": "curated-nen-collection-heytery-dzhessi-endryus",
+      "reason": "technical_image",
+      "url": "https://n-e-n.ru/images/2024-11-15/67372b1f21ad2_0x0.jpg"
+    },
+    {
+      "id": "curated-nen-collection-schepotka-magii-mishel-harrison",
+      "reason": "conflicting_duplicate_url_unconfirmed",
+      "url": "https://n-e-n.ru/images/2022-12-26/63a978b78c91a_0x0.jpeg"
+    },
+    {
+      "id": "curated-nen-collection-gorstka-volshebstva-mishel-harrison",
+      "reason": "conflicting_duplicate_url_unconfirmed",
+      "url": "https://n-e-n.ru/images/2022-12-26/63a978b78c91a_0x0.jpeg"
+    },
+    {
+      "id": "curated-nen-collection-klubok-zaklinaniy-mishel-harrison",
+      "reason": "conflicting_duplicate_url_unconfirmed",
+      "url": "https://n-e-n.ru/images/2022-12-26/63a978b78c91a_0x0.jpeg"
+    },
+    {
+      "id": "curated-nen-collection-letniy-den-s-druzyami-filip-vehter",
+      "reason": "technical_image",
+      "url": "https://n-e-n.ru/images/2022-10-11/63452598e4d5f_0x0.jpg"
+    }
+  ],
+  "reassignments": []
+}

@@ -6,6 +6,7 @@ dist/
 .env.local
 .vercel/
 data/.cache/books-enrich/
+data/.cache/book-cover-audit/
 
 # Local bibliographic import outputs
 data/import/bnf/staging/

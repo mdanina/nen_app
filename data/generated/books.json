@@ -278,17 +278,7 @@
     "classicOrModern": "classic",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
-    "status": "published",
-    "cover": {
-      "kind": "external",
-      "url": "https://cdn.ast.ru/v2/ASE000000000866157/COVER/cover1__w340.jpg",
-      "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «АСТ»",
-      "sourcePageUrl": "https://ast.ru/book/tri-porosyenka-skazki-866157/",
-      "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-07-28"
-    }
+    "status": "published"
   },
   {
     "id": "nen-006",
@@ -1001,16 +991,6 @@
           "Фанни Бритт"
         ]
       }
-    },
-    "cover": {
-      "kind": "external",
-      "url": "https://albuscorvus.ru/wp-content/uploads/2015/10/social-fb-book-035-2.png",
-      "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Белая ворона»",
-      "sourcePageUrl": "https://albuscorvus.ru/product/jane-lisa-i-ya/",
-      "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-07-28"
     }
   },
   {
@@ -1561,16 +1541,6 @@
           "Эрик Карл"
         ]
       }
-    },
-    "cover": {
-      "kind": "external",
-      "url": "https://www.books.ru/static/images/item_no_cover.png",
-      "rightsStatus": "external-display-only",
-      "sourceName": "books.ru",
-      "sourcePageUrl": "https://www.books.ru/books/ochen-golodnaya-gusenitsa-1532020/",
-      "temporary": true,
-      "attribution": "Обложка опубликована в карточке современного издания.",
-      "verifiedAt": "2026-07-28"
     }
   },
   {
@@ -2090,16 +2060,6 @@
           "Ульф Нильсон"
         ]
       }
-    },
-    "cover": {
-      "kind": "external",
-      "url": "https://samokatbook.ru/upload/resize_cache/iblock/ccf/1024_1024_1/ccf39a01ed86f749441fe0e84a44d34e.jpg",
-      "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Самокат»",
-      "sourcePageUrl": "https://samokatbook.ru/book/komissar-gordon-pervoe-delo/",
-      "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-07-28"
     }
   },
   {
@@ -2650,17 +2610,6 @@
     "author": "Свен Нурдквист",
     "shortDescription": "Финдус решает жить отдельно, но новый дом заставляет его по-новому посмотреть на самостоятельность и близость.",
     "whyRecommended": "Если ребёнок любит семейные истории и юмористические книги и сюжеты о дружбе, отношениях и животных, книга подойдёт ему в возрасте 4–7 лет. Она подходит для совместного чтения со взрослым.",
-    "cover": {
-      "kind": "external",
-      "url": "https://albuscorvus.ru/wp-content/uploads/2015/04/social-fb-book-007.png",
-      "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Белая ворона»",
-      "sourcePageUrl": "https://albuscorvus.ru/product/findus-pereezzhaet/",
-      "isbn13": "9785001145592",
-      "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-07-27"
-    },
     "identificationStatus": "identified",
     "isbn13": "9785001145592",
     "publisher": "Белая ворона",
@@ -2951,17 +2900,6 @@
     "author": "Р. Дж. Паласио",
     "shortDescription": "История одного школьного года показана с разных точек зрения и помогает увидеть, как поступки окружающих влияют на ребёнка.",
     "whyRecommended": "Для читателей 10–14 лет это реалистическая проза о школе, дружбе и самооценке. Книгу можно выбрать для самостоятельного чтения.",
-    "cover": {
-      "kind": "external",
-      "url": "https://www.moscowbooks.ru/i/main-cover.jpg",
-      "rightsStatus": "external-display-only",
-      "sourceName": "moscowbooks.ru",
-      "sourcePageUrl": "https://www.moscowbooks.ru/book/1142191/",
-      "isbn13": "9785437003428",
-      "temporary": true,
-      "attribution": "Обложка опубликована в карточке современного издания.",
-      "verifiedAt": "2026-07-28"
-    },
     "identificationStatus": "identified",
     "isbn13": "9785437003428",
     "publisher": "Розовый жираф",
@@ -7433,16 +7371,6 @@
     "author": "Энн Файн",
     "shortDescription": "Кот Таффи ведёт язвительный дневник и возмущается тем, как семья реагирует на его охотничьи привычки.",
     "whyRecommended": "Если ребёнок любит юмористические книги и сюжеты о животных, семье и юморе, книга подойдёт ему в возрасте 6–10 лет. Она подходит для самостоятельного или совместного чтения.",
-    "cover": {
-      "kind": "external",
-      "url": "https://samokatbook.ru/upload/resize_cache/iblock/8b2/1024_1024_1/8b2853bf921080a642c01197fdf4099e.jpg",
-      "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Самокат»",
-      "sourcePageUrl": "https://samokatbook.ru/book/dnevnik-kota-ubiytsy-vse-istorii/",
-      "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-07-28"
-    },
     "publisher": "Самокат",
     "bibliographicSources": [
       "https://archive.org/advancedsearch.php?q=The%20Diary%20of%20a%20Killer%20Cat%20%D0%AD%D0%BD%D0%BD%20%D0%A4%D0%B0%D0%B9%D0%BD&fl%5B%5D=identifier&fl%5B%5D=title&fl%5B%5D=creator&fl%5B%5D=date&rows=5&page=1&output=json",
@@ -9847,16 +9775,6 @@
     "author": "Анатолий Рыбаков",
     "shortDescription": "Летний лагерь, старинная усадьба и загадочное убийство снова собирают Мишу с друзьями в команду расследователей.",
     "whyRecommended": "Для читателей 9–14 лет это детектив и историческая проза о дружбе, истории и приключениях. Книгу можно выбрать для самостоятельного или совместного чтения.",
-    "cover": {
-      "kind": "external",
-      "url": "https://api.azbooka.ru/upload/iblock/584/25q9f2ded4bx5xpt72g5b42b9ovxewnt.jpg",
-      "rightsStatus": "external-display-only",
-      "sourceName": "Издательская группа «Азбука-Аттикус»",
-      "sourcePageUrl": "https://azbooka.ru/books/kortik-bronzovaya-ptitsa-vystrel",
-      "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-07-28"
-    },
     "identificationStatus": "provisional",
     "publicationYear": 1956,
     "bibliographicSources": [
@@ -25007,16 +24925,6 @@
     "shortDescription": "Ребята отправляются на остров, где наблюдают за дельфинами и другими морскими животными. Приключение соединяет встречи с природой и жизнь у моря.",
     "fullDescription": "Ребята отправляются на остров, где наблюдают за дельфинами и другими морскими животными. Приключение соединяет встречи с природой и жизнь у моря.",
     "whyRecommended": "Для читателей 6–11 лет это реалистическая проза о животных. Книгу можно выбрать для самостоятельного или совместного чтения.",
-    "cover": {
-      "kind": "external",
-      "url": "https://www.books.ru/static/images/item_no_cover.png",
-      "rightsStatus": "external-display-only",
-      "sourceName": "books.ru",
-      "sourcePageUrl": "https://www.books.ru/books/delfinii-ostrov-4858750/",
-      "temporary": true,
-      "attribution": "Обложка опубликована в карточке современного издания.",
-      "verifiedAt": "2026-07-28"
-    },
     "publisher": "ИД Мещерякова",
     "bibliographicSources": [
       "https://openlibrary.org/works/OL3398755W",
@@ -51206,16 +51114,6 @@
     "shortDescription": "Петя и медвежонок Потап знакомятся и становятся участниками общих приключений. Их дружба строится на любопытстве и попытках помочь друг другу.",
     "fullDescription": "Петя и медвежонок Потап знакомятся и становятся участниками общих приключений. Их дружба строится на любопытстве и попытках помочь друг другу.",
     "whyRecommended": "Подойдёт читателям 6–11 лет, которые любят сказки. В книге затрагиваются темы культурного разнообразия и волшебства.",
-    "cover": {
-      "kind": "external",
-      "url": "https://www.moscowbooks.ru/i/main-cover.jpg",
-      "rightsStatus": "external-display-only",
-      "sourceName": "moscowbooks.ru",
-      "sourcePageUrl": "https://www.moscowbooks.ru/book/1231420/",
-      "temporary": true,
-      "attribution": "Обложка опубликована в карточке современного издания.",
-      "verifiedAt": "2026-07-28"
-    },
     "publisher": "Дрофа",
     "publicationYear": 2025,
     "bibliographicSources": [
@@ -91878,17 +91776,6 @@
     "lengthCategory": "very-short",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
-    "cover": {
-      "kind": "external",
-      "url": "https://albuscorvus.ru/wp-content/uploads/2016/01/social-fb-book-mama-mu-snegokat1.png",
-      "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Белая ворона»",
-      "sourcePageUrl": "https://albuscorvus.ru/product/mama-mu-i-snegokat/",
-      "isbn13": "9785906640185",
-      "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-07-28"
-    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/mama-mu-i-snegokat/",
@@ -91938,17 +91825,6 @@
     "lengthCategory": "short",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
-    "cover": {
-      "kind": "external",
-      "url": "https://albuscorvus.ru/wp-content/uploads/2015/04/social-fb-book-skazka-guareski.png",
-      "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Белая ворона»",
-      "sourcePageUrl": "https://albuscorvus.ru/product/skazka-na-rozhdestvo/",
-      "isbn13": "9785906640055",
-      "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-07-28"
-    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/skazka-na-rozhdestvo/",
@@ -91995,17 +91871,6 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
-    "cover": {
-      "kind": "external",
-      "url": "https://albuscorvus.ru/wp-content/uploads/2015/04/social-fb-book-020.png",
-      "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Белая ворона»",
-      "sourcePageUrl": "https://albuscorvus.ru/product/pust-on-ostanetsya-s-nami/",
-      "isbn13": "9785421201809",
-      "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-07-28"
-    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/pust-on-ostanetsya-s-nami/",
@@ -92050,17 +91915,6 @@
     "lengthCategory": "short",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
-    "cover": {
-      "kind": "external",
-      "url": "https://albuscorvus.ru/wp-content/uploads/2015/04/social-fb-book-017.png",
-      "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Белая ворона»",
-      "sourcePageUrl": "https://albuscorvus.ru/product/ohota-na-snarka/",
-      "isbn13": "9785906640123",
-      "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-07-28"
-    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/ohota-na-snarka/",
@@ -92104,17 +91958,6 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
-    "cover": {
-      "kind": "external",
-      "url": "https://albuscorvus.ru/wp-content/uploads/2015/04/social-fb-book-031.png",
-      "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Белая ворона»",
-      "sourcePageUrl": "https://albuscorvus.ru/product/skazka-o-vetre/",
-      "isbn13": "9785421201793",
-      "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-07-28"
-    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/skazka-o-vetre/",
@@ -92160,17 +92003,6 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
-    "cover": {
-      "kind": "external",
-      "url": "https://albuscorvus.ru/wp-content/uploads/2015/04/social-fb-book-030.png",
-      "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Белая ворона»",
-      "sourcePageUrl": "https://albuscorvus.ru/product/belyj-aist-chernyj-aist/",
-      "isbn13": "9785906640093",
-      "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-07-28"
-    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/belyj-aist-chernyj-aist/",
@@ -92218,17 +92050,6 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
-    "cover": {
-      "kind": "external",
-      "url": "https://albuscorvus.ru/wp-content/uploads/2015/10/social-fb-book-035-2.png",
-      "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Белая ворона»",
-      "sourcePageUrl": "https://albuscorvus.ru/product/jane-lisa-i-ya/",
-      "isbn13": "9785906640369",
-      "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-07-28"
-    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/jane-lisa-i-ya/",
@@ -92274,17 +92095,6 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
-    "cover": {
-      "kind": "external",
-      "url": "https://albuscorvus.ru/wp-content/uploads/2015/10/social-fb-book-neudachnik.png",
-      "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Белая ворона»",
-      "sourcePageUrl": "https://albuscorvus.ru/product/schastlivyj-neudachnik/",
-      "isbn13": "9785904065140",
-      "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-07-28"
-    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/schastlivyj-neudachnik/",
@@ -92332,17 +92142,6 @@
     "lengthCategory": "short",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
-    "cover": {
-      "kind": "external",
-      "url": "https://albuscorvus.ru/wp-content/uploads/2015/11/social-fb-book-fik-2.png",
-      "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Белая ворона»",
-      "sourcePageUrl": "https://albuscorvus.ru/product/maksi-pyos-fik-priklyucheniya-prodolzhayutsya/",
-      "isbn13": "9785906640406",
-      "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-07-28"
-    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/maksi-pyos-fik-priklyucheniya-prodolzhayutsya/",
@@ -92390,17 +92189,6 @@
     "lengthCategory": "very-short",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
-    "cover": {
-      "kind": "external",
-      "url": "https://albuscorvus.ru/wp-content/uploads/2015/11/social-fb-book-mama-mu-poranilas.png",
-      "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Белая ворона»",
-      "sourcePageUrl": "https://albuscorvus.ru/product/mama-mu-poranilas/",
-      "isbn13": "9785906640420",
-      "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-07-28"
-    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/mama-mu-poranilas/",
@@ -92447,17 +92235,6 @@
     "lengthCategory": "short",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
-    "cover": {
-      "kind": "external",
-      "url": "https://albuscorvus.ru/wp-content/uploads/2015/11/social-fb-book-kum-korolju.png",
-      "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Белая ворона»",
-      "sourcePageUrl": "https://albuscorvus.ru/product/kum-korolyu/",
-      "isbn13": "9785906640468",
-      "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-07-28"
-    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/kum-korolyu/",
@@ -92505,17 +92282,6 @@
     "lengthCategory": "long",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
-    "cover": {
-      "kind": "external",
-      "url": "https://albuscorvus.ru/wp-content/uploads/2015/11/social-fb-book-kaufman.png",
-      "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Белая ворона»",
-      "sourcePageUrl": "https://albuscorvus.ru/product/vverh-po-lestnitse-vedushhej-vniz/",
-      "isbn13": "9785906640550",
-      "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-07-28"
-    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/vverh-po-lestnitse-vedushhej-vniz/",
@@ -92561,17 +92327,6 @@
     "lengthCategory": "long",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
-    "cover": {
-      "kind": "external",
-      "url": "https://albuscorvus.ru/wp-content/uploads/2016/01/social-fb-book-zhuk.png",
-      "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Белая ворона»",
-      "sourcePageUrl": "https://albuscorvus.ru/product/navoznyj-zhuk-letaet-v-sumerkah/",
-      "isbn13": "9785906640499",
-      "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-07-28"
-    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/navoznyj-zhuk-letaet-v-sumerkah/",
@@ -92617,17 +92372,6 @@
     "lengthCategory": "short",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
-    "cover": {
-      "kind": "external",
-      "url": "https://albuscorvus.ru/wp-content/uploads/2016/03/social-fb-book-ogorod-na-podokonnike.png",
-      "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Белая ворона»",
-      "sourcePageUrl": "https://albuscorvus.ru/product/ogorod-na-podokonnike/",
-      "isbn13": "9785906640574",
-      "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-07-28"
-    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/ogorod-na-podokonnike/",
@@ -92675,17 +92419,6 @@
     "lengthCategory": "very-short",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
-    "cover": {
-      "kind": "external",
-      "url": "https://albuscorvus.ru/wp-content/uploads/2016/05/social-fb-book-v-pogone-za-shlyapoj.png",
-      "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Белая ворона»",
-      "sourcePageUrl": "https://albuscorvus.ru/product/v-pogone-za-shlyapoj/",
-      "isbn13": "9785906640529",
-      "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-07-28"
-    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/v-pogone-za-shlyapoj/",
@@ -92733,17 +92466,6 @@
     "lengthCategory": "very-short",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
-    "cover": {
-      "kind": "external",
-      "url": "https://albuscorvus.ru/wp-content/uploads/2016/08/social-fb-book-gde-moya-sestra.png",
-      "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Белая ворона»",
-      "sourcePageUrl": "https://albuscorvus.ru/product/gde-moya-sestra/",
-      "isbn13": "9785906640697",
-      "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-07-28"
-    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/gde-moya-sestra/",
@@ -92791,17 +92513,6 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
-    "cover": {
-      "kind": "external",
-      "url": "https://albuscorvus.ru/wp-content/uploads/2016/10/social-fb-book-memek-1.png",
-      "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Белая ворона»",
-      "sourcePageUrl": "https://albuscorvus.ru/product/memek-muzykant/",
-      "isbn13": "9785906640758",
-      "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-07-28"
-    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/memek-muzykant/",
@@ -92849,17 +92560,6 @@
     "lengthCategory": "long",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
-    "cover": {
-      "kind": "external",
-      "url": "https://albuscorvus.ru/wp-content/uploads/2016/12/social-fb-kak-gitler-ukral-rozovogo-krolika-new-edition.png",
-      "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Белая ворона»",
-      "sourcePageUrl": "https://albuscorvus.ru/product/pink-rabbit/",
-      "isbn13": "9785001140825",
-      "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-07-28"
-    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/pink-rabbit/",
@@ -92904,17 +92604,6 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
-    "cover": {
-      "kind": "external",
-      "url": "https://albuscorvus.ru/wp-content/uploads/2017/02/social-fb-book-8marta.png",
-      "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Белая ворона»",
-      "sourcePageUrl": "https://albuscorvus.ru/product/8marta/",
-      "isbn13": "9785906640819",
-      "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-07-28"
-    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/8marta/",
@@ -92962,17 +92651,6 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
-    "cover": {
-      "kind": "external",
-      "url": "https://albuscorvus.ru/wp-content/uploads/2017/03/social-fb-book-brat-unnat.png",
-      "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Белая ворона»",
-      "sourcePageUrl": "https://albuscorvus.ru/product/brat-unnat/",
-      "isbn13": "9785906640826",
-      "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-07-28"
-    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/brat-unnat/",
@@ -93018,17 +92696,6 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
-    "cover": {
-      "kind": "external",
-      "url": "https://albuscorvus.ru/wp-content/uploads/2017/05/social-fb-book-tyulenenok.png",
-      "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Белая ворона»",
-      "sourcePageUrl": "https://albuscorvus.ru/product/mister-kleghorn-i-ego-tyulenenok/",
-      "isbn13": "9785906640956",
-      "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-07-28"
-    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/mister-kleghorn-i-ego-tyulenenok/",
@@ -93075,17 +92742,6 @@
     "lengthCategory": "short",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
-    "cover": {
-      "kind": "external",
-      "url": "https://albuscorvus.ru/wp-content/uploads/2017/10/social-fb-book-karius-i-bakterius.png",
-      "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Белая ворона»",
-      "sourcePageUrl": "https://albuscorvus.ru/product/karius-i-bakterius/",
-      "isbn13": "9785001140115",
-      "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-07-28"
-    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/karius-i-bakterius/",
@@ -93130,17 +92786,6 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
-    "cover": {
-      "kind": "external",
-      "url": "https://albuscorvus.ru/wp-content/uploads/2017/11/social-fb-book-meg-rosoff-kak-ya-teper-zhivu.png",
-      "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Белая ворона»",
-      "sourcePageUrl": "https://albuscorvus.ru/product/meg-rosoff-kak-ya-teper-zhivu/",
-      "isbn13": "9785001140085",
-      "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-07-28"
-    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/meg-rosoff-kak-ya-teper-zhivu/",
@@ -93188,17 +92833,6 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
-    "cover": {
-      "kind": "external",
-      "url": "https://albuscorvus.ru/wp-content/uploads/2018/01/social-fb-book-lui-sredi-prizrakov2.png",
-      "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Белая ворона»",
-      "sourcePageUrl": "https://albuscorvus.ru/product/lui-sredi-prizrakov/",
-      "isbn13": "9785001140108",
-      "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-07-28"
-    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/lui-sredi-prizrakov/",
@@ -93246,17 +92880,6 @@
     "lengthCategory": "long",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
-    "cover": {
-      "kind": "external",
-      "url": "https://albuscorvus.ru/wp-content/uploads/2018/01/social-fb-book-i-belye-teni-v-lesu2.png",
-      "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Белая ворона»",
-      "sourcePageUrl": "https://albuscorvus.ru/product/i-belye-teni-v-lesu/",
-      "isbn13": "9785001140030",
-      "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-07-28"
-    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/i-belye-teni-v-lesu/",
@@ -93302,17 +92925,6 @@
     "lengthCategory": "short",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
-    "cover": {
-      "kind": "external",
-      "url": "https://albuscorvus.ru/wp-content/uploads/2018/02/social-fb-book-myshinaya-kniga.png",
-      "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Белая ворона»",
-      "sourcePageUrl": "https://albuscorvus.ru/product/myshinaya-kniga/",
-      "isbn13": "9785906640918",
-      "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-07-28"
-    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/myshinaya-kniga/",
@@ -93358,17 +92970,6 @@
     "lengthCategory": "long",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
-    "cover": {
-      "kind": "external",
-      "url": "https://albuscorvus.ru/wp-content/uploads/2018/02/social-fb-book-vyshel-lev-iz-za-gory.png",
-      "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Белая ворона»",
-      "sourcePageUrl": "https://albuscorvus.ru/product/vyshel-lev-iz-za-gory/",
-      "isbn13": "9785906640444",
-      "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-07-28"
-    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/vyshel-lev-iz-za-gory/",
@@ -93415,17 +93016,6 @@
     "lengthCategory": "very-short",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
-    "cover": {
-      "kind": "external",
-      "url": "https://albuscorvus.ru/wp-content/uploads/2018/03/social-fb-book-vse-druzya-naperechet.png",
-      "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Белая ворона»",
-      "sourcePageUrl": "https://albuscorvus.ru/product/vse-druzya-naperechet/",
-      "isbn13": "9785001140139",
-      "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-07-28"
-    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/vse-druzya-naperechet/",
@@ -93472,17 +93062,6 @@
     "lengthCategory": "very-short",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
-    "cover": {
-      "kind": "external",
-      "url": "https://albuscorvus.ru/wp-content/uploads/2018/03/social-fb-book-tajna-hvoinki.png",
-      "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Белая ворона»",
-      "sourcePageUrl": "https://albuscorvus.ru/product/tajna-hvoinki/",
-      "isbn13": "9785001140153",
-      "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-07-28"
-    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/tajna-hvoinki/",
@@ -93528,17 +93107,6 @@
     "lengthCategory": "very-short",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
-    "cover": {
-      "kind": "external",
-      "url": "https://albuscorvus.ru/wp-content/uploads/2018/03/social-fb-book-hvoinka-svinofufik-i-nosik-rozochkoj.png",
-      "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Белая ворона»",
-      "sourcePageUrl": "https://albuscorvus.ru/product/hvoinka-svinofufik-i-nosik-rozochkoj/",
-      "isbn13": "9785001140146",
-      "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-07-28"
-    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/hvoinka-svinofufik-i-nosik-rozochkoj/",
@@ -93587,17 +93155,6 @@
     "lengthCategory": "very-short",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
-    "cover": {
-      "kind": "external",
-      "url": "https://albuscorvus.ru/wp-content/uploads/2018/04/social-fb-book-korabl-noya.png",
-      "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Белая ворона»",
-      "sourcePageUrl": "https://albuscorvus.ru/product/korabl-noya/",
-      "isbn13": "9785001140184",
-      "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-07-28"
-    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/korabl-noya/",
@@ -93642,17 +93199,6 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
-    "cover": {
-      "kind": "external",
-      "url": "https://albuscorvus.ru/wp-content/uploads/2018/04/social-fb-book-myach-v-igre.png",
-      "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Белая ворона»",
-      "sourcePageUrl": "https://albuscorvus.ru/product/myach-v-igre/",
-      "isbn13": "9785001140207",
-      "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-07-28"
-    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/myach-v-igre/",
@@ -93696,17 +93242,6 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
-    "cover": {
-      "kind": "external",
-      "url": "https://albuscorvus.ru/wp-content/uploads/2018/08/social-fb-book-kak-ya-nechayanno-napisala-knigu.png",
-      "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Белая ворона»",
-      "sourcePageUrl": "https://albuscorvus.ru/product/kak-ya-nechayanno-napisala-knigu/",
-      "isbn13": "9785001140276",
-      "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-07-28"
-    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/kak-ya-nechayanno-napisala-knigu/",
@@ -93755,17 +93290,6 @@
     "lengthCategory": "short",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
-    "cover": {
-      "kind": "external",
-      "url": "https://albuscorvus.ru/wp-content/uploads/2018/10/social-fb-book-malyutka-laban-priklyucheniya-v-zamke.png",
-      "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Белая ворона»",
-      "sourcePageUrl": "https://albuscorvus.ru/product/malyutka-laban-priklyucheniya-v-zamke/",
-      "isbn13": "9785001140351",
-      "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-07-28"
-    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/malyutka-laban-priklyucheniya-v-zamke/",
@@ -93868,17 +93392,6 @@
     "lengthCategory": "very-short",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
-    "cover": {
-      "kind": "external",
-      "url": "https://albuscorvus.ru/wp-content/uploads/2018/10/social-fb-kalendar-petson-i-findus-2019.png",
-      "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Белая ворона»",
-      "sourcePageUrl": "https://albuscorvus.ru/product/kalendar-petson-i-findus-2019/",
-      "isbn13": "9785001140382",
-      "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-07-28"
-    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/kalendar-petson-i-findus-2019/",
@@ -93927,17 +93440,6 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
-    "cover": {
-      "kind": "external",
-      "url": "https://albuscorvus.ru/wp-content/uploads/2018/10/social-fb-book-malenkij-stark.png",
-      "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Белая ворона»",
-      "sourcePageUrl": "https://albuscorvus.ru/product/mal-stark/",
-      "isbn13": "9785001140337",
-      "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-07-28"
-    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/mal-stark/",
@@ -93985,17 +93487,6 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
-    "cover": {
-      "kind": "external",
-      "url": "https://albuscorvus.ru/wp-content/uploads/2018/11/social-fb-book-salli-legenda.png",
-      "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Белая ворона»",
-      "sourcePageUrl": "https://albuscorvus.ru/product/salli-legenda/",
-      "isbn13": "9785001140368",
-      "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-07-28"
-    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/salli-legenda/",
@@ -94041,17 +93532,6 @@
     "lengthCategory": "short",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
-    "cover": {
-      "kind": "external",
-      "url": "https://albuscorvus.ru/wp-content/uploads/2019/01/social-fb-book-mosty-1.png",
-      "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Белая ворона»",
-      "sourcePageUrl": "https://albuscorvus.ru/product/mosty/",
-      "isbn13": "9785001140481",
-      "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-07-28"
-    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/mosty/",
@@ -94099,17 +93579,6 @@
     "lengthCategory": "short",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
-    "cover": {
-      "kind": "external",
-      "url": "https://albuscorvus.ru/wp-content/uploads/2019/03/social-fb-book-charles-darwin.png",
-      "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Белая ворона»",
-      "sourcePageUrl": "https://albuscorvus.ru/product/charles-darwin/",
-      "isbn13": "9785906640987",
-      "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-07-28"
-    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/charles-darwin/",
@@ -94158,17 +93627,6 @@
     "lengthCategory": "short",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
-    "cover": {
-      "kind": "external",
-      "url": "https://albuscorvus.ru/wp-content/uploads/2019/03/social-fb-book-louis-pasteur.png",
-      "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Белая ворона»",
-      "sourcePageUrl": "https://albuscorvus.ru/product/louis-pasteur/",
-      "isbn13": "9785906640949",
-      "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-07-28"
-    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/louis-pasteur/",
@@ -94215,16 +93673,6 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
-    "cover": {
-      "kind": "external",
-      "url": "https://albuscorvus.ru/wp-content/uploads/2019/03/social-fb-book-teatr-dzhanni-rodarii.png",
-      "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Белая ворона»",
-      "sourcePageUrl": "https://albuscorvus.ru/product/teatr-dzhanni-rodari/",
-      "isbn13": "9785001140559",
-      "temporary": true,
-      "verifiedAt": "2026-07-25"
-    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/teatr-dzhanni-rodari/",
@@ -94269,17 +93717,6 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
-    "cover": {
-      "kind": "external",
-      "url": "https://albuscorvus.ru/wp-content/uploads/2019/04/social-fb-book-sonya-iz-sedmogo-buee.png",
-      "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Белая ворона»",
-      "sourcePageUrl": "https://albuscorvus.ru/product/sonya-iz-sedmogo-buee/",
-      "isbn13": "9785001140580",
-      "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-07-28"
-    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/sonya-iz-sedmogo-buee/",
@@ -94327,17 +93764,6 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
-    "cover": {
-      "kind": "external",
-      "url": "https://albuscorvus.ru/wp-content/uploads/2019/05/social-fb-book-nalle-lapson.png",
-      "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Белая ворона»",
-      "sourcePageUrl": "https://albuscorvus.ru/product/nalle-lapson/",
-      "isbn13": "9785001140627",
-      "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-07-28"
-    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/nalle-lapson/",
@@ -94385,17 +93811,6 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
-    "cover": {
-      "kind": "external",
-      "url": "https://albuscorvus.ru/wp-content/uploads/2019/05/social-fb-book-nalle-lapson-beretsya-za-delo.png",
-      "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Белая ворона»",
-      "sourcePageUrl": "https://albuscorvus.ru/product/nalle-lapson-beretsya-za-delo/",
-      "isbn13": "9785001140634",
-      "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-07-28"
-    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/nalle-lapson-beretsya-za-delo/",
@@ -94445,17 +93860,6 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
-    "cover": {
-      "kind": "external",
-      "url": "https://albuscorvus.ru/wp-content/uploads/2019/06/social-fb-book-maja-lunde-cherez-granicu.png",
-      "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Белая ворона»",
-      "sourcePageUrl": "https://albuscorvus.ru/product/maja-lunde-cherez-granicu/",
-      "isbn13": "9785001140603",
-      "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-07-28"
-    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/maja-lunde-cherez-granicu/",
@@ -94502,16 +93906,6 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
-    "cover": {
-      "kind": "external",
-      "url": "https://albuscorvus.ru/wp-content/uploads/2019/08/social-fb-book-ulf-stark-beglecy.png",
-      "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Белая ворона»",
-      "sourcePageUrl": "https://albuscorvus.ru/product/ulf-stark-beglecy/",
-      "isbn13": "9785001140719",
-      "temporary": true,
-      "verifiedAt": "2026-07-25"
-    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/ulf-stark-beglecy/",
@@ -94560,17 +93954,6 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
-    "cover": {
-      "kind": "external",
-      "url": "https://albuscorvus.ru/wp-content/uploads/2019/08/social-fb-book-puteshestvie-k-centru-zemli.png",
-      "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Белая ворона»",
-      "sourcePageUrl": "https://albuscorvus.ru/product/puteshestvie-k-centru-zemli/",
-      "isbn13": "9785001140689",
-      "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-07-28"
-    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/puteshestvie-k-centru-zemli/",
@@ -94616,17 +93999,6 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
-    "cover": {
-      "kind": "external",
-      "url": "https://albuscorvus.ru/wp-content/uploads/2019/08/social-fb-book-malenkaya-povest-o-lyubvi.png",
-      "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Белая ворона»",
-      "sourcePageUrl": "https://albuscorvus.ru/product/malenkaya-povest-o-lyubvi/",
-      "isbn13": "9785001140757",
-      "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-07-28"
-    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/malenkaya-povest-o-lyubvi/",
@@ -94674,17 +94046,6 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
-    "cover": {
-      "kind": "external",
-      "url": "https://albuscorvus.ru/wp-content/uploads/2019/09/social-fb-book-nalle-lapson-i-tyapka.png",
-      "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Белая ворона»",
-      "sourcePageUrl": "https://albuscorvus.ru/product/nalle-lapson-i-tyapka/",
-      "isbn13": "9785001140771",
-      "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-07-28"
-    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/nalle-lapson-i-tyapka/",
@@ -94729,17 +94090,6 @@
     "lengthCategory": "very-short",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
-    "cover": {
-      "kind": "external",
-      "url": "https://albuscorvus.ru/wp-content/uploads/2019/09/social-fb-book-kalendar-petson-i-findus-2020.png",
-      "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Белая ворона»",
-      "sourcePageUrl": "https://albuscorvus.ru/product/kalendar-petson-i-findus-2020/",
-      "isbn13": "9785001140818",
-      "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-07-28"
-    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/kalendar-petson-i-findus-2020/",
@@ -94789,17 +94139,6 @@
     "lengthCategory": "short",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
-    "cover": {
-      "kind": "external",
-      "url": "https://albuscorvus.ru/wp-content/uploads/2019/10/social-fb-parco.png",
-      "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Белая ворона»",
-      "sourcePageUrl": "https://albuscorvus.ru/product/parco/",
-      "isbn13": "9785001140832",
-      "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-07-28"
-    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/parco/",
@@ -94844,17 +94183,6 @@
     "lengthCategory": "short",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
-    "cover": {
-      "kind": "external",
-      "url": "https://albuscorvus.ru/wp-content/uploads/2019/10/social-fb-book-istoriya-o-kroshke-ele-i-kosmonavte-layke.png",
-      "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Белая ворона»",
-      "sourcePageUrl": "https://albuscorvus.ru/product/istoriya-o-kroshke-ele-i-kosmonavte-layke/",
-      "isbn13": "9785001140764",
-      "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-07-28"
-    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/istoriya-o-kroshke-ele-i-kosmonavte-layke/",
@@ -107000,17 +106328,6 @@
     "lengthCategory": "short",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
-    "cover": {
-      "kind": "external",
-      "url": "https://alpinabook.ru/assets/img/media/logo-alpina_meta.png",
-      "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Альпина.Дети»",
-      "sourcePageUrl": "https://alpinabook.ru/catalog/book-kak-tima-ukusila-loshad-komiksy/",
-      "isbn13": "9785002830534",
-      "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-07-28"
-    },
     "annotationProvenance": {
       "source": "Издательство «Альпина.Дети»",
       "sourceUrl": "https://alpinabook.ru/catalog/book-kak-tima-ukusila-loshad-komiksy/",
@@ -107076,17 +106393,6 @@
     "lengthCategory": "short",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
-    "cover": {
-      "kind": "external",
-      "url": "https://alpinabook.ru/assets/img/media/logo-alpina_meta.png",
-      "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Альпина.Дети»",
-      "sourcePageUrl": "https://alpinabook.ru/catalog/book-persey/",
-      "isbn13": "9785002830527",
-      "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-07-28"
-    },
     "annotationProvenance": {
       "source": "Издательство «Альпина.Дети»",
       "sourceUrl": "https://alpinabook.ru/catalog/book-persey/",
@@ -107153,17 +106459,6 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
-    "cover": {
-      "kind": "external",
-      "url": "https://albuscorvus.ru/wp-content/uploads/2016/08/social-fb-book-inspector-pike-1.png",
-      "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Белая ворона»",
-      "sourcePageUrl": "https://albuscorvus.ru/product/zagadki-detektiva-shhuki/",
-      "isbn13": "9785906640666",
-      "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-07-28"
-    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/zagadki-detektiva-shhuki/",
@@ -107211,17 +106506,6 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
-    "cover": {
-      "kind": "external",
-      "url": "https://albuscorvus.ru/wp-content/uploads/2018/10/social-fb-book-meg-rosoff-kakim-ya-byl.png",
-      "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Белая ворона»",
-      "sourcePageUrl": "https://albuscorvus.ru/product/meg-rosoff-kakim-ya-byl/",
-      "isbn13": "9785001140399",
-      "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-07-28"
-    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/meg-rosoff-kakim-ya-byl/",
@@ -151882,17 +151166,7 @@
     "author": "Бьёрн Рёрвик",
     "ageLabel": "4–8 лет",
     "whyRecommended": "Подойдёт читателям 4–8 лет, которые любят реалистическую прозу. В книге затрагиваются темы дружбы, животных и природы.",
-    "language": "ru",
-    "cover": {
-      "kind": "external",
-      "url": "https://n-e-n.ru/images/2025-11-12/69147102ed4ee_1040x720.jpg",
-      "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
-      "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
-    }
+    "language": "ru"
   },
   {
     "id": "curated-nen-collection-stihi-mashi-rupasovoy-masha-rupasova",
@@ -152024,18 +151298,7 @@
     "publisher": "Самокат",
     "pages": 64,
     "isbn13": "9785917598017",
-    "language": "ru",
-    "cover": {
-      "kind": "external",
-      "url": "https://n-e-n.ru/images/2020-12-28/5fe9e1a394de7_0x0.jpg",
-      "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
-      "isbn13": "9785917598017",
-      "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
-    }
+    "language": "ru"
   },
   {
     "id": "curated-nen-collection-chelovetkin-dzhuliya-donaldson",
@@ -152163,17 +151426,7 @@
     "author": "Лиза Папп",
     "ageLabel": "3–12 лет",
     "whyRecommended": "Подойдёт читателям 3–12 лет, которые любят реалистическую прозу. В книге затрагиваются темы животных.",
-    "language": "ru",
-    "cover": {
-      "kind": "external",
-      "url": "https://n-e-n.ru/images/2020-12-28/5fe9e566b95b5_0x0.jpg",
-      "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
-      "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
-    }
+    "language": "ru"
   },
   {
     "id": "curated-nen-collection-martyn-i-barsik-masha-rupasova",
@@ -152239,18 +151492,7 @@
     "publicationYear": 2024,
     "pages": 56,
     "isbn13": "9785961489682",
-    "language": "ru",
-    "cover": {
-      "kind": "external",
-      "url": "https://n-e-n.ru/images/2020-12-28/5fe9e5bac6507_0x0.jpg",
-      "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
-      "isbn13": "9785961489682",
-      "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
-    }
+    "language": "ru"
   },
   {
     "id": "curated-nen-collection-odin-za-vseh-i-vse-za-odnogo-brigit-veninger",
@@ -152313,17 +151555,7 @@
     "author": "Бригит Венингер",
     "ageLabel": "3–12 лет",
     "whyRecommended": "Для читателей 3–12 лет это юмор о дружбе, семье и животных. Книгу можно выбрать для самостоятельного или совместного чтения.",
-    "language": "ru",
-    "cover": {
-      "kind": "external",
-      "url": "https://n-e-n.ru/images/2020-12-28/5fe9e619d35f6_0x0.jpg",
-      "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
-      "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
-    }
+    "language": "ru"
   },
   {
     "id": "curated-nen-collection-korolevstvo-krivyh-zerkal-vitaliy-gubarev",
@@ -152457,18 +151689,7 @@
     "publisher": "АСТ",
     "pages": 144,
     "isbn13": "9785171585310",
-    "language": "ru",
-    "cover": {
-      "kind": "external",
-      "url": "https://n-e-n.ru/images/2020-12-28/5fe9e9bb8a49f_0x0.jpg",
-      "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
-      "isbn13": "9785171585310",
-      "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
-    }
+    "language": "ru"
   },
   {
     "id": "curated-nen-collection-vse-o-mumi-trollyah-tuve-yansson",
@@ -152527,17 +151748,7 @@
     "author": "Туве Янссон",
     "ageLabel": "3–12 лет",
     "whyRecommended": "Если ребёнок любит юмористические книги и сюжеты о животных и юморе, книга подойдёт ему в возрасте 3–12 лет. Она подходит для самостоятельного или совместного чтения.",
-    "language": "ru",
-    "cover": {
-      "kind": "external",
-      "url": "https://n-e-n.ru/images/2020-12-28/5fe9e9bb8a49f_0x0.jpg",
-      "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
-      "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
-    }
+    "language": "ru"
   },
   {
     "id": "curated-nen-collection-myshonok-kotoryy-tam-anastasiya-kovalenkova",
@@ -152670,17 +151881,7 @@
     "author": "Туве Янссон",
     "ageLabel": "3–12 лет",
     "whyRecommended": "Если ребёнок любит сказки и сюжеты о волшебстве, книга подойдёт ему в возрасте 3–12 лет. Она подходит для самостоятельного или совместного чтения.",
-    "language": "ru",
-    "cover": {
-      "kind": "external",
-      "url": "https://n-e-n.ru/images/2020-12-28/5fe9eb3f21a92_0x0.jpg",
-      "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
-      "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
-    }
+    "language": "ru"
   },
   {
     "id": "curated-nen-collection-kartofelnaya-sobaka-yuriy-koval",
@@ -153050,17 +152251,6 @@
     "pages": 320,
     "translator": "Надежда Бунтман",
     "isbn13": "9785917599236",
-    "cover": {
-      "kind": "external",
-      "url": "https://n-e-n.ru/images/2025-07-31/688b4abab97c0_0x0.jpg",
-      "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/knigi-pro-pervuyu-lyubov/",
-      "isbn13": "9785917599236",
-      "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
-    },
     "language": "ru"
   },
   {
@@ -153127,18 +152317,7 @@
     "publisher": "Самокат",
     "pages": 176,
     "isbn13": "9785001672753",
-    "language": "ru",
-    "cover": {
-      "kind": "external",
-      "url": "https://n-e-n.ru/images/2025-07-31/688b4b0620de8_0x0.jpg",
-      "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/knigi-pro-pervuyu-lyubov/",
-      "isbn13": "9785001672753",
-      "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
-    }
+    "language": "ru"
   },
   {
     "id": "curated-nen-collection-chto-nuzhno-malenkoy-koshke-natalya-shaloshvili",
@@ -153266,17 +152445,7 @@
     "author": "Мариам Кордес",
     "ageLabel": "1–10 лет",
     "whyRecommended": "Для читателей 1–10 лет это реалистическая проза о дружбе, животных и отношениях. Книгу можно выбрать для самостоятельного или совместного чтения.",
-    "language": "ru",
-    "cover": {
-      "kind": "external",
-      "url": "https://n-e-n.ru/images/2021-10-07/615ede5ada5ef_0x0.jpg",
-      "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
-      "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
-    }
+    "language": "ru"
   },
   {
     "id": "curated-nen-collection-spat-kak-tigr-masha-lukashkina",
@@ -153410,18 +152579,7 @@
     "publisher": "Стрекоза",
     "pages": 48,
     "isbn13": "9785995149545",
-    "language": "ru",
-    "cover": {
-      "kind": "external",
-      "url": "https://n-e-n.ru/images/2021-10-07/615f1a2d5f390_0x0.png",
-      "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
-      "isbn13": "9785995149545",
-      "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
-    }
+    "language": "ru"
   },
   {
     "id": "curated-nen-collection-kak-flip-zatopil-ves-mir-adam-stouer",
@@ -153556,17 +152714,7 @@
     "author": "Дойл Малахия",
     "ageLabel": "1–10 лет",
     "whyRecommended": "Для читателей 1–10 лет это реалистическая проза о семье, природе и путешествиях. Книгу можно выбрать для самостоятельного или совместного чтения.",
-    "language": "ru",
-    "cover": {
-      "kind": "external",
-      "url": "https://n-e-n.ru/images/2021-10-07/615edf8a3be1a_0x0.jpg",
-      "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
-      "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
-    }
+    "language": "ru"
   },
   {
     "id": "curated-nen-collection-idi-poigray-s-tem-malchikom-klementina-bove",
@@ -153701,17 +152849,7 @@
     "author": "Шерил Б.Кляйн",
     "ageLabel": "1–10 лет",
     "whyRecommended": "Для читателей 1–10 лет это реалистическая проза о дружбе, семье и искусстве. Книгу можно выбрать для самостоятельного или совместного чтения.",
-    "language": "ru",
-    "cover": {
-      "kind": "external",
-      "url": "https://n-e-n.ru/images/2021-10-07/615ee02e22ecc_0x0.jpg",
-      "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
-      "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
-    }
+    "language": "ru"
   },
   {
     "id": "curated-nen-collection-lev-petrushka-i-ego-druzya-maykl-bond",
@@ -153849,17 +152987,7 @@
     "author": "Антон Соя",
     "ageLabel": "1–10 лет",
     "whyRecommended": "Для читателей 1–10 лет это приключения о животных, природе и путешествиях. Книгу можно выбрать для самостоятельного или совместного чтения.",
-    "language": "ru",
-    "cover": {
-      "kind": "external",
-      "url": "https://n-e-n.ru/images/2021-10-07/615ee05f2ff74_0x0.jpg",
-      "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
-      "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
-    }
+    "language": "ru"
   },
   {
     "id": "curated-nen-collection-shkola-v-karmartene-anna-korosteleva",
@@ -153920,17 +153048,7 @@
     "author": "Анна Коростелева",
     "ageLabel": "12–17 лет",
     "whyRecommended": "Подойдёт читателям 12–17 лет, которые любят сказки и фэнтези. В книге затрагиваются темы школы, науки и волшебства.",
-    "language": "ru",
-    "cover": {
-      "kind": "external",
-      "url": "https://n-e-n.ru/images/2024-11-15/67372ab17bdbc_0x0.jpg",
-      "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
-      "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
-    }
+    "language": "ru"
   },
   {
     "id": "curated-nen-collection-zakoldovannaya-zhizn-uinn-dzhons",
@@ -153994,18 +153112,7 @@
     "publisher": "Азбука-Аттикус",
     "pages": 352,
     "isbn13": "9785389188532",
-    "language": "ru",
-    "cover": {
-      "kind": "external",
-      "url": "https://n-e-n.ru/images/2024-11-15/67372ab6517b5_0x0.jpg",
-      "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
-      "isbn13": "9785389188532",
-      "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
-    }
+    "language": "ru"
   },
   {
     "id": "curated-nen-collection-muley-erlend-lu",
@@ -154066,17 +153173,7 @@
     "author": "Эрленд Лу",
     "ageLabel": "12–17 лет",
     "whyRecommended": "Для читателей 12–17 лет это реалистическая проза о семье, путешествиях и приключениях. Книгу можно выбрать для самостоятельного чтения.",
-    "language": "ru",
-    "cover": {
-      "kind": "external",
-      "url": "https://n-e-n.ru/images/2024-11-15/67372ad32d6e7_0x0.jpg",
-      "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
-      "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
-    }
+    "language": "ru"
   },
   {
     "id": "curated-nen-collection-zhutko-gromko-i-zapredelno-blizko-safran-foer",
@@ -154140,18 +153237,7 @@
     "publicationYear": 2022,
     "pages": 416,
     "isbn13": "9785699951338",
-    "language": "ru ru",
-    "cover": {
-      "kind": "external",
-      "url": "https://n-e-n.ru/images/2024-11-15/67372ae8bb144_0x0.jpg",
-      "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
-      "isbn13": "9785699951338",
-      "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
-    }
+    "language": "ru ru"
   },
   {
     "id": "curated-nen-collection-milye-kosti-elis-sibold",
@@ -154215,18 +153301,7 @@
     "publicationYear": 2020,
     "pages": 432,
     "isbn13": "9785041089535",
-    "language": "ru ru",
-    "cover": {
-      "kind": "external",
-      "url": "https://n-e-n.ru/images/2024-11-15/67372af19968a_0x0.jpg",
-      "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
-      "isbn13": "9785041089535",
-      "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
-    }
+    "language": "ru ru"
   },
   {
     "id": "curated-nen-collection-kogda-my-vstretimsya-rebekka-sted",
@@ -154285,17 +153360,7 @@
     "author": "Ребекка Стед",
     "ageLabel": "12–17 лет",
     "whyRecommended": "Для читателей 12–17 лет это реалистическая проза о семье и школе. Книгу можно выбрать для самостоятельного чтения.",
-    "language": "ru",
-    "cover": {
-      "kind": "external",
-      "url": "https://n-e-n.ru/images/2024-11-15/67372af5652cf_0x0.jpg",
-      "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
-      "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
-    }
+    "language": "ru"
   },
   {
     "id": "curated-nen-collection-trinadtsataya-skazka-diana-setterfild",
@@ -154360,18 +153425,7 @@
     "publisher": "Азбука-Аттикус",
     "pages": 448,
     "isbn13": "9785389073531",
-    "language": "ru",
-    "cover": {
-      "kind": "external",
-      "url": "https://n-e-n.ru/images/2024-11-15/67372af5652cf_0x0.jpg",
-      "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
-      "isbn13": "9785389073531",
-      "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
-    }
+    "language": "ru"
   },
   {
     "id": "curated-nen-collection-bezdna-chellendzhera-nil-shusterman",
@@ -154430,17 +153484,7 @@
     "author": "Нил Шустерман",
     "ageLabel": "12–17 лет",
     "whyRecommended": "Подойдёт читателям 12–17 лет, которые любят реалистическую прозу. В книге затрагиваются темы школы и искусства.",
-    "language": "ru",
-    "cover": {
-      "kind": "external",
-      "url": "https://n-e-n.ru/images/2024-11-15/67372b02c74ed_0x0.jpg",
-      "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
-      "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
-    }
+    "language": "ru"
   },
   {
     "id": "curated-nen-collection-devyatnadtsat-minut-dzhodi-pikolt",
@@ -154501,18 +153545,7 @@
     "publisher": "Азбука-Аттикус",
     "pages": 672,
     "isbn13": "9785389159662",
-    "language": "ru",
-    "cover": {
-      "kind": "external",
-      "url": "https://n-e-n.ru/images/2024-11-15/67372b02c74ed_0x0.jpg",
-      "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
-      "isbn13": "9785389159662",
-      "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
-    }
+    "language": "ru"
   },
   {
     "id": "curated-nen-collection-ptitsa-v-kletke-robin-rou",
@@ -154574,17 +153607,7 @@
     "author": "Робин Роу",
     "ageLabel": "12–17 лет",
     "whyRecommended": "Для читателей 12–17 лет это реалистическая проза о дружбе, школе и животных. Книгу можно выбрать для самостоятельного чтения.",
-    "language": "ru",
-    "cover": {
-      "kind": "external",
-      "url": "https://n-e-n.ru/images/2024-11-15/67372b10b866d_0x0.jpg",
-      "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
-      "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
-    }
+    "language": "ru"
   },
   {
     "id": "curated-nen-collection-ulichnyy-kot-po-imeni-bob-dzheyms-bouen",
@@ -154646,18 +153669,7 @@
     "publisher": "АСТ",
     "pages": 32,
     "isbn13": "9785171047399",
-    "language": "ru",
-    "cover": {
-      "kind": "external",
-      "url": "https://n-e-n.ru/images/2024-11-15/67372b17076e6_0x0.jpg",
-      "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
-      "isbn13": "9785171047399",
-      "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
-    }
+    "language": "ru"
   },
   {
     "id": "curated-nen-collection-spletni-i-k-pop-aleksandra-yang",
@@ -154722,18 +153734,7 @@
     "publicationYear": 2022,
     "pages": 352,
     "isbn13": "9785041602239",
-    "language": "ru ru",
-    "cover": {
-      "kind": "external",
-      "url": "https://n-e-n.ru/images/2024-11-15/67372b1f21ad2_0x0.jpg",
-      "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
-      "isbn13": "9785041602239",
-      "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
-    }
+    "language": "ru ru"
   },
   {
     "id": "curated-nen-collection-heytery-dzhessi-endryus",
@@ -154800,18 +153801,7 @@
     "publisher": "АСТ",
     "pages": 352,
     "isbn13": "9785170987221",
-    "language": "ru",
-    "cover": {
-      "kind": "external",
-      "url": "https://n-e-n.ru/images/2024-11-15/67372b1f21ad2_0x0.jpg",
-      "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
-      "isbn13": "9785170987221",
-      "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
-    }
+    "language": "ru"
   },
   {
     "id": "curated-nen-collection-schepotka-magii-mishel-harrison",
@@ -154873,17 +153863,7 @@
     "author": "Мишель Харрисон",
     "ageLabel": "9–16 лет",
     "whyRecommended": "Для читателей 9–16 лет это фэнтези о дружбе, животных и путешествиях. Книгу можно выбрать для самостоятельного чтения.",
-    "language": "ru",
-    "cover": {
-      "kind": "external",
-      "url": "https://n-e-n.ru/images/2022-12-26/63a978b78c91a_0x0.jpeg",
-      "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/8-knig/",
-      "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
-    }
+    "language": "ru"
   },
   {
     "id": "curated-nen-collection-gorstka-volshebstva-mishel-harrison",
@@ -154949,17 +153929,7 @@
     "publisher": "Альпина.Дети",
     "publicationYear": 2021,
     "pages": 414,
-    "language": "ru",
-    "cover": {
-      "kind": "external",
-      "url": "https://n-e-n.ru/images/2022-12-26/63a978b78c91a_0x0.jpeg",
-      "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/8-knig/",
-      "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
-    }
+    "language": "ru"
   },
   {
     "id": "curated-nen-collection-klubok-zaklinaniy-mishel-harrison",
@@ -155021,17 +153991,7 @@
     "author": "Мишель Харрисон",
     "ageLabel": "9–16 лет",
     "whyRecommended": "Если ребёнок любит фэнтези и сюжеты о дружбе, животных и путешествиях, книга подойдёт ему в возрасте 9–16 лет. Она подходит для самостоятельного чтения.",
-    "language": "ru",
-    "cover": {
-      "kind": "external",
-      "url": "https://n-e-n.ru/images/2022-12-26/63a978b78c91a_0x0.jpeg",
-      "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/8-knig/",
-      "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
-    }
+    "language": "ru"
   },
   {
     "id": "curated-nen-collection-malenkaya-vsemirnaya-istoriya-ernst-gombrih",
@@ -156206,18 +155166,7 @@
     "whyRecommended": "Подойдёт читателям 3–6 лет, которые любят реалистическую прозу. В книге затрагиваются темы дружбы и животных.",
     "pages": 32,
     "isbn13": "9785000414880",
-    "language": "ru",
-    "cover": {
-      "kind": "external",
-      "url": "https://n-e-n.ru/images/2022-10-11/63452598e4d5f_0x0.jpg",
-      "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/novinki-dlya-shkolnikov/",
-      "isbn13": "9785000414880",
-      "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
-    }
+    "language": "ru"
   },
   {
     "id": "curated-nen-collection-moya-bolshaya-sibiy-delakrua",
@@ -156633,17 +155582,7 @@
     "author": "Хегюм Ким",
     "ageLabel": "2–7 лет",
     "whyRecommended": "Подойдёт читателям 2–7 лет, которые любят приключенческие книги. В книге затрагиваются темы животных, взросления и приключений.",
-    "language": "ru",
-    "cover": {
-      "kind": "external",
-      "url": "https://n-e-n.ru/images/2025-11-12/69147102ed4ee_1040x720.jpg",
-      "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/",
-      "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
-    }
+    "language": "ru"
   },
   {
     "id": "curated-nen-collection-gde-to-v-snegu-linde-faas",
@@ -156708,17 +155647,7 @@
     "author": "Линде Фаас",
     "ageLabel": "2–7 лет",
     "whyRecommended": "Подойдёт читателям 2–7 лет, которые любят сказки и фэнтези. В книге затрагиваются темы дружбы, семьи и животных.",
-    "language": "ru",
-    "cover": {
-      "kind": "external",
-      "url": "https://n-e-n.ru/images/2025-11-12/69147102ed4ee_1040x720.jpg",
-      "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/",
-      "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
-    }
+    "language": "ru"
   },
   {
     "id": "curated-nen-collection-zavetnoe-zhelanie-krotika-sangyn-kim",
@@ -156780,17 +155709,7 @@
     "author": "Сангын Ким",
     "ageLabel": "2–7 лет",
     "whyRecommended": "Если ребёнок любит фэнтези и сюжеты о семье, животных и путешествиях, книга подойдёт ему в возрасте 2–7 лет. Она подходит для самостоятельного или совместного чтения.",
-    "language": "ru",
-    "cover": {
-      "kind": "external",
-      "url": "https://n-e-n.ru/images/2025-11-12/69147102ed4ee_1040x720.jpg",
-      "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/",
-      "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
-    }
+    "language": "ru"
   },
   {
     "id": "curated-nen-collection-elka-yulka-olive-tallek",
@@ -156852,17 +155771,7 @@
     "author": "Оливье Таллек",
     "ageLabel": "2–7 лет",
     "whyRecommended": "Если ребёнок любит сказки и фэнтези и сюжеты о животных, волшебстве и страхе, книга подойдёт ему в возрасте 2–7 лет. Она подходит для самостоятельного или совместного чтения.",
-    "language": "ru",
-    "cover": {
-      "kind": "external",
-      "url": "https://n-e-n.ru/images/2025-11-12/69147102ed4ee_1040x720.jpg",
-      "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/",
-      "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
-    }
+    "language": "ru"
   },
   {
     "id": "curated-nen-collection-v-poiskah-deda-moroza-ann-montel",
@@ -156926,18 +155835,7 @@
     "whyRecommended": "Подойдёт читателям 2–7 лет, которые любят фэнтези. В книге затрагиваются темы животных, отношений и волшебства.",
     "pages": 40,
     "isbn13": "9785001676911",
-    "language": "ru",
-    "cover": {
-      "kind": "external",
-      "url": "https://n-e-n.ru/images/2025-11-12/69147102ed4ee_1040x720.jpg",
-      "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/",
-      "isbn13": "9785001676911",
-      "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
-    }
+    "language": "ru"
   },
   {
     "id": "curated-nen-collection-samoe-pervoe-novogodnee-derevo-ovila-fonten",
