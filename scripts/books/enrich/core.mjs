@@ -8,17 +8,23 @@ export function normalize(value = "") {
     .replaceAll("ё", "е").replace(/[^a-zа-я0-9]+/giu, " ").trim();
 }
 
+const russianLatin = { а: "a", б: "b", в: "v", г: "g", д: "d", е: "e", ё: "e", ж: "zh", з: "z", и: "i", й: "i", к: "k", л: "l", м: "m", н: "n", о: "o", п: "p", р: "r", с: "s", т: "t", у: "u", ф: "f", х: "kh", ц: "ts", ч: "ch", ш: "sh", щ: "shch", ъ: "", ы: "y", ь: "", э: "e", ю: "iu", я: "ia" };
+export function transliterateRussian(value = "") {
+  return [...normalize(value)].map((letter) => russianLatin[letter] ?? letter).join("").replace(/\s+/gu, " ").trim();
+}
+
 export function titleTokens(value = "") {
   return normalize(value).split(" ").filter((token) => token.length >= 3);
 }
 
 export function workTitles(book = {}) {
-  return [...new Set([
+  const titles = [
     book.title,
     book.originalTitle,
     ...(book.alternativeTitles ?? []),
     ...(book.sourceMetadata?.alternativeTitles ?? []),
-  ].map((value) => String(value ?? "").trim()).filter(Boolean))];
+  ].map((value) => String(value ?? "").trim()).filter(Boolean);
+  return [...new Set([...titles, ...titles.map(transliterateRussian)])];
 }
 
 export function titleScore(left, right) {
@@ -42,8 +48,9 @@ export function authorSurnames(value = "") {
 
 export function authorMatches(bookAuthor, candidateAuthors = [], evidence = "") {
   const haystack = normalize([...candidateAuthors, evidence].join(" "));
+  const latinHaystack = transliterateRussian(haystack);
   const surnames = authorSurnames(bookAuthor);
-  return surnames.length > 0 && surnames.every((surname) => haystack.includes(surname));
+  return surnames.length > 0 && surnames.every((surname) => haystack.includes(surname) || latinHaystack.includes(transliterateRussian(surname)));
 }
 
 export function authorMatchesNearTitle(bookAuthor, sourceTitle, evidence = "") {

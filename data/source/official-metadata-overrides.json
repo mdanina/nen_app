@@ -197,27 +197,47 @@
   },
   {
     "id": "nen-054",
-    "source": "Национальная электронная библиотека",
-    "sourceUrl": "https://rusneb.ru/catalog/000200_000018_RU_NLR_bibl_1997410/",
-    "sourceRecordId": "000200_000018_RU_NLR_bibl_1997410",
+    "source": "Open Library Covers",
+    "sourceUrl": "https://openlibrary.org/isbn/9785437000175",
+    "sourceRecordId": "isbn:9785437000175",
     "officialTitle": "Тихая книга",
     "officialAuthors": [
-      "написала Дебора Андервуд"
+      "Дебора Андервуд"
     ],
     "publisher": "Розовый жираф",
+    "isbn13": "9785437000175",
     "publicationYear": 2012,
     "pages": 30,
-    "isbn13": "9785437000175",
     "language": "ru",
+    "replaceEdition": false,
     "match": {
-      "accepted": true,
-      "strategy": "title_author",
-      "confidence": 0.9899999999999999,
+      "strategy": "work_title_author",
+      "confidence": 0.96,
       "titleScore": 1,
       "authorMatch": true,
-      "isbnExact": false
+      "selectedEditionYear": 2012
     },
-    "verifiedAt": "2026-07-28"
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": true,
+      "publisherMatched": true,
+      "yearMatched": true,
+      "latestRussianEditionConfirmed": true,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "open-library"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T14:37:34.317Z"
+    }
   },
   {
     "id": "nen-055",
@@ -519,30 +539,46 @@
   },
   {
     "id": "nen-bv2-030",
-    "source": "Национальная электронная библиотека",
-    "sourceUrl": "https://rusneb.ru/catalog/000207_000017_RU___%D0%A0%D0%93%D0%94%D0%91___EK___108734/",
-    "sourceRecordId": "000207_000017_RU___РГДБ___EK___108734",
-    "officialTitle": "Оливия и настоящий оркестр",
+    "source": "Open Library Covers",
+    "sourceUrl": "https://openlibrary.org/isbn/9785389002722",
+    "sourceRecordId": "isbn:9785389002722",
+    "officialTitle": "Оливия",
     "officialAuthors": [
-      "Фалконер"
+      "Иэн Фалконер"
     ],
     "publisher": "Азбука-Аттикус",
+    "isbn13": "9785389002722",
     "publicationYear": 2008,
     "pages": 20,
-    "isbn13": "9785389002722",
     "language": "ru",
+    "replaceEdition": false,
     "match": {
-      "accepted": true,
-      "strategy": "title_author",
-      "confidence": 0.9899999999999999,
+      "strategy": "work_title_author",
+      "confidence": 0.96,
       "titleScore": 1,
       "authorMatch": true,
-      "isbnExact": false
+      "selectedEditionYear": 2008
     },
-    "verifiedAt": "2026-07-28",
-    "publisherNormalization": {
-      "from": "Азбука",
-      "ruleVersion": "1.0.0"
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": true,
+      "publisherMatched": true,
+      "yearMatched": true,
+      "latestRussianEditionConfirmed": true,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "open-library"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T14:37:34.317Z"
     }
   },
   {
@@ -638,28 +674,48 @@
   },
   {
     "id": "nen-bv2-037",
-    "source": "Национальная электронная библиотека",
-    "sourceUrl": "https://rusneb.ru/catalog/000201_000064_742596/",
-    "sourceRecordId": "000201_000064_742596",
-    "officialTitle": "Квак и Жаб снова вместе",
+    "source": "Open Library Covers",
+    "sourceUrl": "https://openlibrary.org/isbn/9785903497102",
+    "sourceRecordId": "isbn:9785903497102",
+    "officialTitle": "Квак и Жаб вместе",
     "officialAuthors": [
-      "Лобел, Арнольд"
+      "Арнольд Лобел"
     ],
     "publisher": "Розовый жираф",
+    "isbn13": "9785903497102",
     "publicationYear": 2009,
     "pages": 64,
     "seriesName": "Я читаю сам",
-    "isbn13": "9785903497102",
     "language": "Лезгинский",
+    "replaceEdition": false,
     "match": {
-      "accepted": true,
-      "strategy": "title_author",
-      "confidence": 0.9899999999999999,
+      "strategy": "work_title_author",
+      "confidence": 0.96,
       "titleScore": 1,
       "authorMatch": true,
-      "isbnExact": false
+      "selectedEditionYear": 2009
     },
-    "verifiedAt": "2026-07-28"
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": true,
+      "publisherMatched": true,
+      "yearMatched": true,
+      "latestRussianEditionConfirmed": true,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "open-library"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T14:37:34.317Z"
+    }
   },
   {
     "id": "nen-bv2-065",
@@ -751,38 +807,58 @@
   },
   {
     "id": "nen-bv2-084",
-    "source": "Национальная электронная библиотека",
-    "sourceUrl": "https://rusneb.ru/catalog/000199_000009_010530268/",
-    "sourceRecordId": "000199_000009_010530268",
-    "officialTitle": "Голубая бусинка : для детей младшего школьного возраста : 6+",
+    "source": "Open Library Covers",
+    "sourceUrl": "https://openlibrary.org/isbn/9785437003053",
+    "sourceRecordId": "isbn:9785437003053",
+    "officialTitle": "Голубая бусинка",
     "officialAuthors": [
-      "Крюгер М.Л."
+      "Мария Крюгер"
     ],
     "publisher": "Розовый жираф",
+    "isbn13": "9785437003053",
     "publicationYear": 2021,
     "pages": 181,
-    "isbn13": "9785437003053",
     "language": "ru",
+    "replaceEdition": false,
     "match": {
-      "accepted": true,
-      "strategy": "title_author",
-      "confidence": 0.9899999999999999,
+      "strategy": "work_title_author",
+      "confidence": 0.96,
       "titleScore": 1,
       "authorMatch": true,
-      "isbnExact": false
+      "selectedEditionYear": 2021
     },
-    "verifiedAt": "2026-07-28"
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": true,
+      "publisherMatched": true,
+      "yearMatched": true,
+      "latestRussianEditionConfirmed": true,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "open-library"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T14:37:34.317Z"
+    }
   },
   {
     "id": "nen-bv2-086",
-    "source": "Издательство «Эксмо»",
-    "sourceUrl": "https://eksmo.ru/book/lev-koldunya-i-platyanoy-shkaf-il-k-birmingema-ITD1143209/",
-    "sourceRecordId": "/book/lev-koldunya-i-platyanoy-shkaf-il-k-birmingema-ITD1143209/",
-    "officialTitle": "Лев, колдунья и платяной шкаф (ил. К. Бирмингема)",
+    "source": "Open Library Covers",
+    "sourceUrl": "https://openlibrary.org/isbn/9785041193898",
+    "sourceRecordId": "isbn:9785041193898",
+    "officialTitle": "Лев, колдунья и платяной шкаф",
     "officialAuthors": [
       "Клайв Стейплз Льюис"
     ],
-    "publisher": "Эксмодетство",
+    "publisher": "Эксмо",
     "isbn13": "9785041193898",
     "publicationYear": 2021,
     "pages": 152,
@@ -791,31 +867,31 @@
     "replaceEdition": false,
     "match": {
       "strategy": "work_title_author",
-      "confidence": 0.9640000000000001,
-      "titleScore": 0.96,
+      "confidence": 0.96,
+      "titleScore": 1,
       "authorMatch": true,
       "selectedEditionYear": 2021
     },
     "verification": {
       "trustedSource": true,
-      "sourceKind": "official_publisher",
+      "sourceKind": "editorial_source",
       "titleMatched": true,
       "authorMatched": true,
-      "authorEvidence": "official_page_near_title",
+      "authorEvidence": "structured_data",
       "isbnMatched": true,
       "publisherMatched": true,
       "yearMatched": true,
       "latestRussianEditionConfirmed": true,
       "sourceSearchComplete": true,
       "checkedSources": [
-        "official-publishers"
+        "open-library"
       ]
     },
-    "verifiedAt": "2026-08-03",
+    "verifiedAt": "2026-08-04",
     "enrichment": {
       "tool": "books:enrich",
       "version": "1.1.1",
-      "runAt": "2026-08-03T11:40:57.777Z"
+      "runAt": "2026-08-04T14:37:34.317Z"
     }
   },
   {
@@ -931,26 +1007,46 @@
   },
   {
     "id": "nen-bv2-105",
-    "source": "Национальная электронная библиотека",
-    "sourceUrl": "https://rusneb.ru/catalog/000199_000009_007500810/",
-    "sourceRecordId": "000199_000009_007500810",
-    "officialTitle": "Тоби Лолнесс [Текст] : [для среднего и старшего школьного возраста : в 2 кн. : 6+] / Тимоте де Фомбель ; [ил. Франсуа Пласа] ; пер. с фр. Екатерины Кожевниковой Кн. 2",
+    "source": "Open Library Covers",
+    "sourceUrl": "https://openlibrary.org/isbn/9785905876851",
+    "sourceRecordId": "isbn:9785905876851",
+    "officialTitle": "Тоби Лолнесс",
     "officialAuthors": [
-      "Фомбель Тимоте де (1973-)"
+      "Тимоте де Фомбель"
     ],
+    "isbn13": "9785905876851",
     "publicationYear": 2014,
     "pages": 329,
-    "isbn13": "9785905876851",
     "language": "ru",
+    "replaceEdition": false,
     "match": {
-      "accepted": true,
-      "strategy": "title_author",
-      "confidence": 0.9899999999999999,
+      "strategy": "work_title_author",
+      "confidence": 0.96,
       "titleScore": 1,
       "authorMatch": true,
-      "isbnExact": false
+      "selectedEditionYear": 2014
     },
-    "verifiedAt": "2026-07-28"
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": true,
+      "publisherMatched": false,
+      "yearMatched": true,
+      "latestRussianEditionConfirmed": true,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "open-library"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T14:37:34.317Z"
+    }
   },
   {
     "id": "nen-bv2-116",
@@ -1107,28 +1203,48 @@
   },
   {
     "id": "nen-bv2-139",
-    "source": "Национальная электронная библиотека",
-    "sourceUrl": "https://rusneb.ru/catalog/000199_000009_011895755/",
-    "sourceRecordId": "000199_000009_011895755",
-    "officialTitle": "Говори : графический роман : 18+",
+    "source": "Open Library Covers",
+    "sourceUrl": "https://openlibrary.org/isbn/9785604785911",
+    "sourceRecordId": "isbn:9785604785911",
+    "officialTitle": "Говори",
     "officialAuthors": [
-      "Андерсон Л.Х."
+      "Лори Холс Андерсон"
     ],
     "publisher": "Popcorn books",
+    "isbn13": "9785604785911",
     "publicationYear": 2023,
     "pages": 384,
     "seriesName": "Серия REBEL",
-    "isbn13": "9785604785911",
     "language": "ru",
+    "replaceEdition": false,
     "match": {
-      "accepted": true,
-      "strategy": "title_author",
-      "confidence": 0.9899999999999999,
+      "strategy": "work_title_author",
+      "confidence": 0.96,
       "titleScore": 1,
       "authorMatch": true,
-      "isbnExact": false
+      "selectedEditionYear": 2023
     },
-    "verifiedAt": "2026-07-28"
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": true,
+      "publisherMatched": true,
+      "yearMatched": true,
+      "latestRussianEditionConfirmed": true,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "open-library"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T14:37:34.317Z"
+    }
   },
   {
     "id": "nen-053",
@@ -32516,18 +32632,88 @@
   },
   {
     "id": "ol-ol19931764w",
+    "source": "Open Library Covers",
+    "sourceUrl": "https://openlibrary.org/isbn/9785911817299",
+    "sourceRecordId": "isbn:9785911817299",
+    "officialTitle": "Всё о больших и маленьких приключениях",
+    "officialAuthors": [
+      "Борис Житков"
+    ],
     "publisher": "Азбука-Аттикус",
-    "publisherNormalization": {
-      "from": "Азбука",
-      "ruleVersion": "1.0.0"
+    "isbn13": "9785911817299",
+    "publicationYear": 2008,
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.96,
+      "titleScore": 1,
+      "authorMatch": true,
+      "selectedEditionYear": 2008
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": true,
+      "publisherMatched": true,
+      "yearMatched": true,
+      "latestRussianEditionConfirmed": true,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "open-library"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T14:37:34.317Z"
     }
   },
   {
     "id": "ol-ol4263283w",
+    "source": "Open Library Covers",
+    "sourceUrl": "https://openlibrary.org/isbn/9785170343003",
+    "sourceRecordId": "isbn:9785170343003",
+    "officialTitle": "Терем-теремок и другие сказки",
+    "officialAuthors": [
+      "Владимир Сутеев"
+    ],
     "publisher": "АСТ",
-    "publisherNormalization": {
-      "from": "Астрель",
-      "ruleVersion": "1.0.0"
+    "isbn13": "9785170343003",
+    "publicationYear": 2005,
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.96,
+      "titleScore": 1,
+      "authorMatch": true,
+      "selectedEditionYear": 2005
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": true,
+      "publisherMatched": true,
+      "yearMatched": true,
+      "latestRussianEditionConfirmed": true,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "open-library"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T14:37:34.317Z"
     }
   },
   {
@@ -32540,18 +32726,88 @@
   },
   {
     "id": "ol-ol19935840w",
+    "source": "Open Library Covers",
+    "sourceUrl": "https://openlibrary.org/isbn/9785389002791",
+    "sourceRecordId": "isbn:9785389002791",
+    "officialTitle": "Хрестоматия детской классики",
+    "officialAuthors": [
+      "В. Рябченко"
+    ],
     "publisher": "Азбука-Аттикус",
-    "publisherNormalization": {
-      "from": "Азбука",
-      "ruleVersion": "1.0.0"
+    "isbn13": "9785389002791",
+    "publicationYear": 2008,
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.96,
+      "titleScore": 1,
+      "authorMatch": true,
+      "selectedEditionYear": 2008
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": true,
+      "publisherMatched": true,
+      "yearMatched": true,
+      "latestRussianEditionConfirmed": true,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "open-library"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T14:37:34.317Z"
     }
   },
   {
     "id": "ol-ol19944755w",
+    "source": "Open Library Covers",
+    "sourceUrl": "https://openlibrary.org/isbn/9785389006072",
+    "sourceRecordId": "isbn:9785389006072",
+    "officialTitle": "Русские сказки и потешки",
+    "officialAuthors": [
+      "Ирина Петелина"
+    ],
     "publisher": "Азбука-Аттикус",
-    "publisherNormalization": {
-      "from": "Азбука",
-      "ruleVersion": "1.0.0"
+    "isbn13": "9785389006072",
+    "publicationYear": 2009,
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.96,
+      "titleScore": 1,
+      "authorMatch": true,
+      "selectedEditionYear": 2009
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": true,
+      "publisherMatched": true,
+      "yearMatched": true,
+      "latestRussianEditionConfirmed": true,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "open-library"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T14:37:34.317Z"
     }
   },
   {
@@ -32598,34 +32854,174 @@
   },
   {
     "id": "ol-ol20016949w",
+    "source": "Open Library Covers",
+    "sourceUrl": "https://openlibrary.org/isbn/9785389004986",
+    "sourceRecordId": "isbn:9785389004986",
+    "officialTitle": "Русские богатери",
+    "officialAuthors": [
+      "И. В. Карнаухова"
+    ],
     "publisher": "Азбука-Аттикус",
-    "publisherNormalization": {
-      "from": "Азбука",
-      "ruleVersion": "1.0.0"
+    "isbn13": "9785389004986",
+    "publicationYear": 2009,
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.96,
+      "titleScore": 1,
+      "authorMatch": true,
+      "selectedEditionYear": 2009
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": true,
+      "publisherMatched": true,
+      "yearMatched": true,
+      "latestRussianEditionConfirmed": true,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "open-library"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T14:37:34.317Z"
     }
   },
   {
     "id": "ol-ol19952281w",
+    "source": "Open Library Covers",
+    "sourceUrl": "https://openlibrary.org/isbn/9785389006751",
+    "sourceRecordId": "isbn:9785389006751",
+    "officialTitle": "Мы встречаем Новыи год!",
+    "officialAuthors": [
+      "Илья Григорьевич Савченко"
+    ],
     "publisher": "Азбука-Аттикус",
-    "publisherNormalization": {
-      "from": "Азбука",
-      "ruleVersion": "1.0.0"
+    "isbn13": "9785389006751",
+    "publicationYear": 2009,
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.96,
+      "titleScore": 1,
+      "authorMatch": true,
+      "selectedEditionYear": 2009
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": true,
+      "publisherMatched": true,
+      "yearMatched": true,
+      "latestRussianEditionConfirmed": true,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "open-library"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T14:37:34.317Z"
     }
   },
   {
     "id": "ol-ol19962766w",
+    "source": "Open Library Covers",
+    "sourceUrl": "https://openlibrary.org/isbn/9785389020023",
+    "sourceRecordId": "isbn:9785389020023",
+    "officialTitle": "Азбука для Буки",
+    "officialAuthors": [
+      "Андрей Усачёв"
+    ],
     "publisher": "Азбука-Аттикус",
-    "publisherNormalization": {
-      "from": "Азбука",
-      "ruleVersion": "1.0.0"
+    "isbn13": "9785389020023",
+    "publicationYear": 1999,
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.96,
+      "titleScore": 1,
+      "authorMatch": true,
+      "selectedEditionYear": 1999
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": true,
+      "publisherMatched": true,
+      "yearMatched": true,
+      "latestRussianEditionConfirmed": true,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "open-library"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T14:37:34.317Z"
     }
   },
   {
     "id": "ol-ol44948165w",
+    "source": "Open Library Covers",
+    "sourceUrl": "https://openlibrary.org/isbn/9785903497911",
+    "sourceRecordId": "isbn:9785903497911",
+    "officialTitle": "Три твоих имени",
+    "officialAuthors": [
+      "Дина Сабитова"
+    ],
     "publisher": "Розовый жираф",
-    "publisherNormalization": {
-      "from": "Rozovyĭ zhiraf",
-      "ruleVersion": "1.0.0"
+    "isbn13": "9785903497911",
+    "publicationYear": 2012,
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.96,
+      "titleScore": 1,
+      "authorMatch": true,
+      "selectedEditionYear": 2012
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": true,
+      "publisherMatched": true,
+      "yearMatched": true,
+      "latestRussianEditionConfirmed": true,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "open-library"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T14:37:34.317Z"
     }
   },
   {
@@ -34837,6 +35233,2059 @@
       "tool": "books:enrich",
       "version": "1.1.1",
       "runAt": "2026-08-04T08:17:14.757Z"
+    }
+  },
+  {
+    "id": "ol-ol19742114w",
+    "source": "Open Library Covers",
+    "sourceUrl": "https://openlibrary.org/isbn/9785906819178",
+    "sourceRecordId": "isbn:9785906819178",
+    "officialTitle": "Повторение пройденного",
+    "officialAuthors": [
+      "Тамара Крюкова"
+    ],
+    "isbn13": "9785906819178",
+    "publicationYear": 2017,
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.96,
+      "titleScore": 1,
+      "authorMatch": true,
+      "selectedEditionYear": 2017
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": true,
+      "publisherMatched": false,
+      "yearMatched": true,
+      "latestRussianEditionConfirmed": true,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "open-library"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T14:37:34.317Z"
+    }
+  },
+  {
+    "id": "ol-ol19970109w",
+    "source": "Open Library Covers",
+    "sourceUrl": "https://openlibrary.org/isbn/9789855492390",
+    "sourceRecordId": "isbn:9789855492390",
+    "officialTitle": "Сказки Чудо-дерева",
+    "officialAuthors": [
+      "Валерий Кастрючин"
+    ],
+    "publisher": "Букмастер",
+    "isbn13": "9789855492390",
+    "publicationYear": 2013,
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.96,
+      "titleScore": 1,
+      "authorMatch": true,
+      "selectedEditionYear": 2013
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": true,
+      "publisherMatched": true,
+      "yearMatched": true,
+      "latestRussianEditionConfirmed": true,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "open-library"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T14:37:34.317Z"
+    }
+  },
+  {
+    "id": "ol-ol19931441w",
+    "source": "Open Library Covers",
+    "sourceUrl": "https://openlibrary.org/isbn/9785486018800",
+    "sourceRecordId": "isbn:9785486018800",
+    "officialTitle": "Про зверей",
+    "officialAuthors": [
+      "Константин Дмитриевич Ушинский"
+    ],
+    "publisher": "Mir knigi",
+    "isbn13": "9785486018800",
+    "publicationYear": 2008,
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.96,
+      "titleScore": 1,
+      "authorMatch": true,
+      "selectedEditionYear": 2008
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": true,
+      "publisherMatched": true,
+      "yearMatched": true,
+      "latestRussianEditionConfirmed": true,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "open-library"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T14:37:34.317Z"
+    }
+  },
+  {
+    "id": "ol-ol20030843w",
+    "source": "Open Library Covers",
+    "sourceUrl": "https://openlibrary.org/isbn/9785445309536",
+    "sourceRecordId": "isbn:9785445309536",
+    "officialTitle": "Как Ёжик с Медвежонком протирали звезды",
+    "officialAuthors": [
+      "С. Г. Козлов"
+    ],
+    "isbn13": "9785445309536",
+    "publicationYear": 2015,
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.96,
+      "titleScore": 1,
+      "authorMatch": true,
+      "selectedEditionYear": 2015
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": true,
+      "publisherMatched": false,
+      "yearMatched": true,
+      "latestRussianEditionConfirmed": true,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "open-library"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T14:37:34.317Z"
+    }
+  },
+  {
+    "id": "ol-ol19936377w",
+    "source": "Open Library Covers",
+    "sourceUrl": "https://openlibrary.org/isbn/9785170121588",
+    "sourceRecordId": "isbn:9785170121588",
+    "officialTitle": "Добрый волк",
+    "officialAuthors": [
+      "Марк Тарловский"
+    ],
+    "publisher": "АСТ",
+    "isbn13": "9785170121588",
+    "publicationYear": 2002,
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.96,
+      "titleScore": 1,
+      "authorMatch": true,
+      "selectedEditionYear": 2002
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": true,
+      "publisherMatched": true,
+      "yearMatched": true,
+      "latestRussianEditionConfirmed": true,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "open-library"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T14:37:34.317Z"
+    }
+  },
+  {
+    "id": "ol-ol11388697w",
+    "source": "Open Library Covers",
+    "sourceUrl": "https://openlibrary.org/isbn/9785080041457",
+    "sourceRecordId": "isbn:9785080041457",
+    "officialTitle": "Морской охотник",
+    "officialAuthors": [
+      "Николай Чуковский"
+    ],
+    "publisher": "Детская литература",
+    "isbn13": "9785080041457",
+    "publicationYear": 2005,
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.96,
+      "titleScore": 1,
+      "authorMatch": true,
+      "selectedEditionYear": 2005
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": true,
+      "publisherMatched": true,
+      "yearMatched": true,
+      "latestRussianEditionConfirmed": true,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "open-library"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T14:37:34.317Z"
+    }
+  },
+  {
+    "id": "ol-ol19952256w",
+    "source": "Open Library Covers",
+    "sourceUrl": "https://openlibrary.org/isbn/9785367018189",
+    "sourceRecordId": "isbn:9785367018189",
+    "officialTitle": "На нашем дворе",
+    "officialAuthors": [
+      "Евгений Иванович Чарушин"
+    ],
+    "publisher": "Amfora",
+    "isbn13": "9785367018189",
+    "publicationYear": 2011,
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.96,
+      "titleScore": 1,
+      "authorMatch": true,
+      "selectedEditionYear": 2011
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": true,
+      "publisherMatched": true,
+      "yearMatched": true,
+      "latestRussianEditionConfirmed": true,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "open-library"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T14:37:34.317Z"
+    }
+  },
+  {
+    "id": "ol-ol32513596w",
+    "source": "Open Library Covers",
+    "sourceUrl": "https://openlibrary.org/isbn/9785917596617",
+    "sourceRecordId": "isbn:9785917596617",
+    "officialTitle": "Ленинградские сказки",
+    "officialAuthors": [
+      "Юлия Яковлева"
+    ],
+    "publisher": "Самокат",
+    "isbn13": "9785917596617",
+    "publicationYear": 2016,
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.96,
+      "titleScore": 1,
+      "authorMatch": true,
+      "selectedEditionYear": 2016
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": true,
+      "publisherMatched": true,
+      "yearMatched": true,
+      "latestRussianEditionConfirmed": true,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "open-library"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T14:37:34.317Z"
+    }
+  },
+  {
+    "id": "ol-ol19978419w",
+    "source": "Open Library Covers",
+    "sourceUrl": "https://openlibrary.org/isbn/9785699361700",
+    "sourceRecordId": "isbn:9785699361700",
+    "officialTitle": "Большая собачья книга",
+    "officialAuthors": [
+      "В. Н. Белоусов; М. В. Белоусова"
+    ],
+    "publisher": "Эксмо",
+    "isbn13": "9785699361700",
+    "publicationYear": 2014,
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.96,
+      "titleScore": 1,
+      "authorMatch": true,
+      "selectedEditionYear": 2014
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": true,
+      "publisherMatched": true,
+      "yearMatched": true,
+      "latestRussianEditionConfirmed": true,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "open-library"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T14:37:34.317Z"
+    }
+  },
+  {
+    "id": "ol-ol20043973w",
+    "source": "Open Library Covers",
+    "sourceUrl": "https://openlibrary.org/isbn/9785926818922",
+    "sourceRecordId": "isbn:9785926818922",
+    "officialTitle": "Скок-поскок",
+    "officialAuthors": [
+      "Ю Васнецов"
+    ],
+    "isbn13": "9785926818922",
+    "publicationYear": 2015,
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.96,
+      "titleScore": 1,
+      "authorMatch": true,
+      "selectedEditionYear": 2015
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": true,
+      "publisherMatched": false,
+      "yearMatched": true,
+      "latestRussianEditionConfirmed": true,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "open-library"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T14:37:34.317Z"
+    }
+  },
+  {
+    "id": "ol-ol12719103w",
+    "source": "Open Library Covers",
+    "sourceUrl": "https://openlibrary.org/isbn/9789667047283",
+    "sourceRecordId": "isbn:9789667047283",
+    "officialTitle": "История одного поросенка",
+    "officialAuthors": [
+      "Юрий Выннычук"
+    ],
+    "publisher": "A-BA-BA-GA-LA-MA-GA",
+    "isbn13": "9789667047283",
+    "publicationYear": 2005,
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.96,
+      "titleScore": 1,
+      "authorMatch": true,
+      "selectedEditionYear": 2005
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": true,
+      "publisherMatched": true,
+      "yearMatched": true,
+      "latestRussianEditionConfirmed": true,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "open-library"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T14:37:34.317Z"
+    }
+  },
+  {
+    "id": "ol-ol19935924w",
+    "source": "Open Library Covers",
+    "sourceUrl": "https://openlibrary.org/isbn/9785818914305",
+    "sourceRecordId": "isbn:9785818914305",
+    "officialTitle": "\"Как стать большим\" и другие истории",
+    "officialAuthors": [
+      "Г. Цыферов"
+    ],
+    "publisher": "Geleos",
+    "isbn13": "9785818914305",
+    "publicationYear": 2008,
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.96,
+      "titleScore": 1,
+      "authorMatch": true,
+      "selectedEditionYear": 2008
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": true,
+      "publisherMatched": true,
+      "yearMatched": true,
+      "latestRussianEditionConfirmed": true,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "open-library"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T14:37:34.317Z"
+    }
+  },
+  {
+    "id": "ol-ol20043982w",
+    "source": "Open Library Covers",
+    "sourceUrl": "https://openlibrary.org/isbn/9785919213635",
+    "sourceRecordId": "isbn:9785919213635",
+    "officialTitle": "Папа, мама, и я",
+    "officialAuthors": [
+      "В. Драгунский"
+    ],
+    "isbn13": "9785919213635",
+    "publicationYear": 2016,
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.96,
+      "titleScore": 1,
+      "authorMatch": true,
+      "selectedEditionYear": 2016
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": true,
+      "publisherMatched": false,
+      "yearMatched": true,
+      "latestRussianEditionConfirmed": true,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "open-library"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T14:37:34.317Z"
+    }
+  },
+  {
+    "id": "ol-ol19734604w",
+    "source": "Open Library Covers",
+    "sourceUrl": "https://openlibrary.org/isbn/9785353082644",
+    "sourceRecordId": "isbn:9785353082644",
+    "officialTitle": "Кот в сапогах",
+    "officialAuthors": [
+      "Н. И. Котятова; Т. В. Баринова"
+    ],
+    "isbn13": "9785353082644",
+    "publicationYear": 2017,
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.96,
+      "titleScore": 1,
+      "authorMatch": true,
+      "selectedEditionYear": 2017
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": true,
+      "publisherMatched": false,
+      "yearMatched": true,
+      "latestRussianEditionConfirmed": true,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "open-library"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T14:37:34.317Z"
+    }
+  },
+  {
+    "id": "ol-ol44294375w",
+    "source": "Open Library Covers",
+    "sourceUrl": "https://openlibrary.org/isbn/9785906999481",
+    "sourceRecordId": "isbn:9785906999481",
+    "officialTitle": "Приключения дяди Лёвы в румынских степях",
+    "officialAuthors": [
+      "Янец Леви; Янив Шимони"
+    ],
+    "publisher": "Knizhniki",
+    "isbn13": "9785906999481",
+    "publicationYear": 2021,
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.96,
+      "titleScore": 1,
+      "authorMatch": true,
+      "selectedEditionYear": 2021
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": true,
+      "publisherMatched": true,
+      "yearMatched": true,
+      "latestRussianEditionConfirmed": true,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "open-library"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T14:37:34.317Z"
+    }
+  },
+  {
+    "id": "ol-ol20025742w",
+    "source": "Open Library Covers",
+    "sourceUrl": "https://openlibrary.org/isbn/9785000740224",
+    "sourceRecordId": "isbn:9785000740224",
+    "officialTitle": "Во-первых и во-вторых",
+    "officialAuthors": [
+      "Даниил Хармс"
+    ],
+    "isbn13": "9785000740224",
+    "publicationYear": 2015,
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.96,
+      "titleScore": 1,
+      "authorMatch": true,
+      "selectedEditionYear": 2015
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": true,
+      "publisherMatched": false,
+      "yearMatched": true,
+      "latestRussianEditionConfirmed": true,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "open-library"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T14:37:34.317Z"
+    }
+  },
+  {
+    "id": "ol-ol23178263w",
+    "source": "Open Library Covers",
+    "sourceUrl": "https://openlibrary.org/isbn/9781940220031",
+    "sourceRecordId": "isbn:9781940220031",
+    "officialTitle": "Однажды звери всех мастей",
+    "officialAuthors": [
+      "Михаил Бельчиков"
+    ],
+    "publisher": "M-Graphics Publishing",
+    "isbn13": "9781940220031",
+    "publicationYear": 2014,
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.96,
+      "titleScore": 1,
+      "authorMatch": true,
+      "selectedEditionYear": 2014
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": true,
+      "publisherMatched": true,
+      "yearMatched": true,
+      "latestRussianEditionConfirmed": true,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "open-library"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T14:37:34.317Z"
+    }
+  },
+  {
+    "id": "ol-ol1306140w",
+    "source": "Open Library Covers",
+    "sourceUrl": "https://openlibrary.org/isbn/9785479005909",
+    "sourceRecordId": "isbn:9785479005909",
+    "officialTitle": "Тайна ночного леса",
+    "officialAuthors": [
+      "Виталий Бянки"
+    ],
+    "publisher": "Стрекоза",
+    "isbn13": "9785479005909",
+    "publicationYear": 2007,
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.96,
+      "titleScore": 1,
+      "authorMatch": true,
+      "selectedEditionYear": 2007
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": true,
+      "publisherMatched": true,
+      "yearMatched": true,
+      "latestRussianEditionConfirmed": true,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "open-library"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T14:37:34.317Z"
+    }
+  },
+  {
+    "id": "ol-ol19978791w",
+    "source": "Open Library Covers",
+    "sourceUrl": "https://openlibrary.org/isbn/9785496004930",
+    "sourceRecordId": "isbn:9785496004930",
+    "officialTitle": "Прогулки по детскому Петербургу",
+    "officialAuthors": [
+      "Ольга Феофанова"
+    ],
+    "publisher": "Piter",
+    "isbn13": "9785496004930",
+    "publicationYear": 2013,
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.96,
+      "titleScore": 1,
+      "authorMatch": true,
+      "selectedEditionYear": 2013
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": true,
+      "publisherMatched": true,
+      "yearMatched": true,
+      "latestRussianEditionConfirmed": true,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "open-library"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T14:37:34.317Z"
+    }
+  },
+  {
+    "id": "ol-ol19734609w",
+    "source": "Open Library Covers",
+    "sourceUrl": "https://openlibrary.org/isbn/9785353082606",
+    "sourceRecordId": "isbn:9785353082606",
+    "officialTitle": "Волк и козлята",
+    "officialAuthors": [
+      "Н. И. Котятова; Т. В. Баринова"
+    ],
+    "isbn13": "9785353082606",
+    "publicationYear": 2017,
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.96,
+      "titleScore": 1,
+      "authorMatch": true,
+      "selectedEditionYear": 2017
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": true,
+      "publisherMatched": false,
+      "yearMatched": true,
+      "latestRussianEditionConfirmed": true,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "open-library"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T14:37:34.317Z"
+    }
+  },
+  {
+    "id": "ol-ol11483415w",
+    "source": "Open Library Covers",
+    "sourceUrl": "https://openlibrary.org/isbn/9785699103034",
+    "sourceRecordId": "isbn:9785699103034",
+    "officialTitle": "История про воробья Антверпена, кота Михеева, столетника Васю и сороконожку Марью Семеновну с семьей",
+    "officialAuthors": [
+      "Людмила Улицкая"
+    ],
+    "publisher": "Эксмо",
+    "isbn13": "9785699103034",
+    "publicationYear": 2005,
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.96,
+      "titleScore": 1,
+      "authorMatch": true,
+      "selectedEditionYear": 2005
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": true,
+      "publisherMatched": true,
+      "yearMatched": true,
+      "latestRussianEditionConfirmed": true,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "open-library"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T14:37:34.317Z"
+    }
+  },
+  {
+    "id": "ol-ol12866329w",
+    "source": "Open Library Covers",
+    "sourceUrl": "https://openlibrary.org/isbn/9789667047481",
+    "sourceRecordId": "isbn:9789667047481",
+    "officialTitle": "Воздушные рыбки",
+    "officialAuthors": [
+      "Марина Дяченко"
+    ],
+    "publisher": "A-BA-BA-GA-LA-MA-GA",
+    "isbn13": "9789667047481",
+    "publicationYear": 2004,
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.96,
+      "titleScore": 1,
+      "authorMatch": true,
+      "selectedEditionYear": 2004
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": true,
+      "publisherMatched": true,
+      "yearMatched": true,
+      "latestRussianEditionConfirmed": true,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "open-library"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T14:37:34.317Z"
+    }
+  },
+  {
+    "id": "ol-ol31578033w",
+    "source": "Open Library Covers",
+    "sourceUrl": "https://openlibrary.org/isbn/9785767020560",
+    "sourceRecordId": "isbn:9785767020560",
+    "officialTitle": "Домовёнок Фока и его друзья",
+    "officialAuthors": [
+      "Андрей Васильевич Растворцев"
+    ],
+    "publisher": "Чувашское книжное издательство",
+    "isbn13": "9785767020560",
+    "publicationYear": 2013,
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.96,
+      "titleScore": 1,
+      "authorMatch": true,
+      "selectedEditionYear": 2013
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": true,
+      "publisherMatched": true,
+      "yearMatched": true,
+      "latestRussianEditionConfirmed": true,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "open-library"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T14:37:34.317Z"
+    }
+  },
+  {
+    "id": "ol-ol19952284w",
+    "source": "Open Library Covers",
+    "sourceUrl": "https://openlibrary.org/isbn/9785488029934",
+    "sourceRecordId": "isbn:9785488029934",
+    "officialTitle": "Любимые стихи и сказки",
+    "officialAuthors": [
+      "Борис Акимович Акулиничев"
+    ],
+    "publisher": "Оникс",
+    "isbn13": "9785488029934",
+    "publicationYear": 2012,
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.96,
+      "titleScore": 1,
+      "authorMatch": true,
+      "selectedEditionYear": 2012
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": true,
+      "publisherMatched": true,
+      "yearMatched": true,
+      "latestRussianEditionConfirmed": true,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "open-library"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T14:37:34.317Z"
+    }
+  },
+  {
+    "id": "ol-ol20044016w",
+    "source": "Open Library Covers",
+    "sourceUrl": "https://openlibrary.org/isbn/9785373071222",
+    "sourceRecordId": "isbn:9785373071222",
+    "officialTitle": "Песенки, стихи, загадки",
+    "officialAuthors": [
+      "Л. М. Карпенко"
+    ],
+    "publisher": "ОЛМА",
+    "isbn13": "9785373071222",
+    "publicationYear": 2015,
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.96,
+      "titleScore": 1,
+      "authorMatch": true,
+      "selectedEditionYear": 2015
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": true,
+      "publisherMatched": true,
+      "yearMatched": true,
+      "latestRussianEditionConfirmed": true,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "open-library"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T14:37:34.317Z"
+    }
+  },
+  {
+    "id": "ol-ol20058937w",
+    "source": "Open Library Covers",
+    "sourceUrl": "https://openlibrary.org/isbn/9785905474149",
+    "sourceRecordId": "isbn:9785905474149",
+    "officialTitle": "Русская пленница французского кота",
+    "officialAuthors": [
+      "Игорь Жуков"
+    ],
+    "publisher": "Пешком в историю",
+    "isbn13": "9785905474149",
+    "publicationYear": 2012,
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.96,
+      "titleScore": 1,
+      "authorMatch": true,
+      "selectedEditionYear": 2012
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": true,
+      "publisherMatched": true,
+      "yearMatched": true,
+      "latestRussianEditionConfirmed": true,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "open-library"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T14:37:34.317Z"
+    }
+  },
+  {
+    "id": "ol-ol19940727w",
+    "source": "Open Library Covers",
+    "sourceUrl": "https://openlibrary.org/isbn/9785353043140",
+    "sourceRecordId": "isbn:9785353043140",
+    "officialTitle": "Ничуть не страшно и другие сказки",
+    "officialAuthors": [
+      "Л. Кириллов; Мария Рудаченко"
+    ],
+    "publisher": "Росмэн",
+    "isbn13": "9785353043140",
+    "publicationYear": 2009,
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.96,
+      "titleScore": 1,
+      "authorMatch": true,
+      "selectedEditionYear": 2009
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": true,
+      "publisherMatched": true,
+      "yearMatched": true,
+      "latestRussianEditionConfirmed": true,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "open-library"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T14:37:34.317Z"
+    }
+  },
+  {
+    "id": "ol-ol11764672w",
+    "source": "Open Library Covers",
+    "sourceUrl": "https://openlibrary.org/isbn/9785932732038",
+    "sourceRecordId": "isbn:9785932732038",
+    "officialTitle": "Волшебная Ханукия",
+    "officialAuthors": [
+      "Хава-Броха Корзакова"
+    ],
+    "publisher": "Mosty kulʹtury",
+    "isbn13": "9785932732038",
+    "publicationYear": 2005,
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.96,
+      "titleScore": 1,
+      "authorMatch": true,
+      "selectedEditionYear": 2005
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": true,
+      "publisherMatched": true,
+      "yearMatched": true,
+      "latestRussianEditionConfirmed": true,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "open-library"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T14:37:34.317Z"
+    }
+  },
+  {
+    "id": "ol-ol20044018w",
+    "source": "Open Library Covers",
+    "sourceUrl": "https://openlibrary.org/isbn/9785889446583",
+    "sourceRecordId": "isbn:9785889446583",
+    "officialTitle": "Русские загадки и сказки о животных",
+    "officialAuthors": [
+      "М. Ф. Коршунова"
+    ],
+    "publisher": "Ulybka",
+    "isbn13": "9785889446583",
+    "publicationYear": 2014,
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.96,
+      "titleScore": 1,
+      "authorMatch": true,
+      "selectedEditionYear": 2014
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": true,
+      "publisherMatched": true,
+      "yearMatched": true,
+      "latestRussianEditionConfirmed": true,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "open-library"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T14:37:34.317Z"
+    }
+  },
+  {
+    "id": "ol-ol19734608w",
+    "source": "Open Library Covers",
+    "sourceUrl": "https://openlibrary.org/isbn/9785353082682",
+    "sourceRecordId": "isbn:9785353082682",
+    "officialTitle": "Три медведя",
+    "officialAuthors": [
+      "Н. И. Котятова; Т. В. Баринова"
+    ],
+    "isbn13": "9785353082682",
+    "publicationYear": 2017,
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.96,
+      "titleScore": 1,
+      "authorMatch": true,
+      "selectedEditionYear": 2017
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": true,
+      "publisherMatched": false,
+      "yearMatched": true,
+      "latestRussianEditionConfirmed": true,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "open-library"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T14:37:34.317Z"
+    }
+  },
+  {
+    "id": "ol-ol19747024w",
+    "source": "Open Library Covers",
+    "sourceUrl": "https://openlibrary.org/isbn/9785353086079",
+    "sourceRecordId": "isbn:9785353086079",
+    "officialTitle": "Все сказки и стихи для детского сада",
+    "officialAuthors": [
+      "З. Александрова; Александр Сергеевич Пушкин"
+    ],
+    "isbn13": "9785353086079",
+    "publicationYear": 2018,
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.96,
+      "titleScore": 1,
+      "authorMatch": true,
+      "selectedEditionYear": 2018
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": true,
+      "publisherMatched": false,
+      "yearMatched": true,
+      "latestRussianEditionConfirmed": true,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "open-library"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T14:37:34.317Z"
+    }
+  },
+  {
+    "id": "ol-ol44383671w",
+    "source": "Open Library Covers",
+    "sourceUrl": "https://openlibrary.org/isbn/9789657386873",
+    "sourceRecordId": "isbn:9789657386873",
+    "officialTitle": "Приключения носорога Солнышко",
+    "officialAuthors": [
+      "Татьяна Соловьева"
+    ],
+    "publisher": "Beĭt Nelly media",
+    "isbn13": "9789657386873",
+    "publicationYear": 2013,
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.96,
+      "titleScore": 1,
+      "authorMatch": true,
+      "selectedEditionYear": 2013
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": true,
+      "publisherMatched": true,
+      "yearMatched": true,
+      "latestRussianEditionConfirmed": true,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "open-library"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T14:37:34.317Z"
+    }
+  },
+  {
+    "id": "ol-ol19978428w",
+    "source": "Open Library Covers",
+    "sourceUrl": "https://openlibrary.org/isbn/9785170835560",
+    "sourceRecordId": "isbn:9785170835560",
+    "officialTitle": "Лучшие сказки на ночь",
+    "officialAuthors": [
+      "Л. Сидорова"
+    ],
+    "publisher": "АСТ",
+    "isbn13": "9785170835560",
+    "publicationYear": 2014,
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.96,
+      "titleScore": 1,
+      "authorMatch": true,
+      "selectedEditionYear": 2014
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": true,
+      "publisherMatched": true,
+      "yearMatched": true,
+      "latestRussianEditionConfirmed": true,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "open-library"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T14:37:34.317Z"
+    }
+  },
+  {
+    "id": "ol-ol43971155w",
+    "source": "Open Library Covers",
+    "sourceUrl": "https://openlibrary.org/isbn/9785985753349",
+    "sourceRecordId": "isbn:9785985753349",
+    "officialTitle": "Сказки Матушки Гусыни",
+    "officialAuthors": [
+      "Ирина Явчуновская"
+    ],
+    "publisher": "E.RA",
+    "isbn13": "9785985753349",
+    "publicationYear": 2008,
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.96,
+      "titleScore": 1,
+      "authorMatch": true,
+      "selectedEditionYear": 2008
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": true,
+      "publisherMatched": true,
+      "yearMatched": true,
+      "latestRussianEditionConfirmed": true,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "open-library"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T14:37:34.317Z"
+    }
+  },
+  {
+    "id": "ol-ol2256574w",
+    "source": "Open Library Covers",
+    "sourceUrl": "https://openlibrary.org/isbn/9785902326137",
+    "sourceRecordId": "isbn:9785902326137",
+    "officialTitle": "Волшебное кольцо",
+    "officialAuthors": [
+      "Борис Шергин"
+    ],
+    "publisher": "Самокат",
+    "isbn13": "9785902326137",
+    "publicationYear": 2005,
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.96,
+      "titleScore": 1,
+      "authorMatch": true,
+      "selectedEditionYear": 2005
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": true,
+      "publisherMatched": true,
+      "yearMatched": true,
+      "latestRussianEditionConfirmed": true,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "open-library"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T14:37:34.317Z"
+    }
+  },
+  {
+    "id": "ol-ol32843984w",
+    "source": "Open Library Covers",
+    "sourceUrl": "https://openlibrary.org/isbn/9785958200498",
+    "sourceRecordId": "isbn:9785958200498",
+    "officialTitle": "Сказки Ф. Гауфа, Р. Густафсона, повести В. Гауфа, басни И. Хемницера, баллады В. А. Жуковского, стихи М. Ю. Лермонтова в иллюстрациях Дмитрия Митрохина",
+    "officialAuthors": [
+      "Дмитрий Исидорович Митрохин"
+    ],
+    "publisher": "Izdatelʹstvo Fortuna ĖL",
+    "isbn13": "9785958200498",
+    "publicationYear": 2012,
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.96,
+      "titleScore": 1,
+      "authorMatch": true,
+      "selectedEditionYear": 2012
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": true,
+      "publisherMatched": true,
+      "yearMatched": true,
+      "latestRussianEditionConfirmed": true,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "open-library"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T14:37:34.317Z"
+    }
+  },
+  {
+    "id": "ol-ol39493108w",
+    "source": "Open Library Covers",
+    "sourceUrl": "https://openlibrary.org/isbn/9785751610159",
+    "sourceRecordId": "isbn:9785751610159",
+    "officialTitle": "История про Мишу, Даню и бумажного змея",
+    "officialAuthors": [
+      "Светлана Шенбрунн"
+    ],
+    "publisher": "Tekst",
+    "isbn13": "9785751610159",
+    "publicationYear": 2011,
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.96,
+      "titleScore": 1,
+      "authorMatch": true,
+      "selectedEditionYear": 2011
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": true,
+      "publisherMatched": true,
+      "yearMatched": true,
+      "latestRussianEditionConfirmed": true,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "open-library"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T14:37:34.317Z"
+    }
+  },
+  {
+    "id": "ol-ol43509234w",
+    "source": "Open Library Covers",
+    "sourceUrl": "https://openlibrary.org/isbn/9785990581043",
+    "sourceRecordId": "isbn:9785990581043",
+    "officialTitle": "Мартин не плачет",
+    "officialAuthors": [
+      "Линор Горалик"
+    ],
+    "publisher": "Livebook",
+    "isbn13": "9785990581043",
+    "publicationYear": 2015,
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.96,
+      "titleScore": 1,
+      "authorMatch": true,
+      "selectedEditionYear": 2015
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": true,
+      "publisherMatched": true,
+      "yearMatched": true,
+      "latestRussianEditionConfirmed": true,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "open-library"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T14:37:34.317Z"
+    }
+  },
+  {
+    "id": "ol-ol20015192w",
+    "source": "Open Library Covers",
+    "sourceUrl": "https://openlibrary.org/isbn/9785378005604",
+    "sourceRecordId": "isbn:9785378005604",
+    "officialTitle": "Три поросенка",
+    "officialAuthors": [
+      "Е. Смирнова"
+    ],
+    "isbn13": "9785378005604",
+    "publicationYear": 2007,
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.96,
+      "titleScore": 1,
+      "authorMatch": true,
+      "selectedEditionYear": 2007
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": true,
+      "publisherMatched": false,
+      "yearMatched": true,
+      "latestRussianEditionConfirmed": true,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "open-library"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T14:37:34.317Z"
+    }
+  },
+  {
+    "id": "ol-ol35588586w",
+    "source": "Open Library Covers",
+    "sourceUrl": "https://openlibrary.org/isbn/9789965260735",
+    "sourceRecordId": "isbn:9789965260735",
+    "officialTitle": "Мифы Древнего Казахстана",
+    "officialAuthors": [
+      "Орынбай Жанайдаров"
+    ],
+    "publisher": "Izd-vo Aruna",
+    "isbn13": "9789965260735",
+    "publicationYear": 2006,
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.96,
+      "titleScore": 1,
+      "authorMatch": true,
+      "selectedEditionYear": 2006
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": true,
+      "publisherMatched": true,
+      "yearMatched": true,
+      "latestRussianEditionConfirmed": true,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "open-library"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T14:37:34.317Z"
+    }
+  },
+  {
+    "id": "ol-ol19952239w",
+    "source": "Open Library Covers",
+    "sourceUrl": "https://openlibrary.org/isbn/9785910452248",
+    "sourceRecordId": "isbn:9785910452248",
+    "officialTitle": "Журавлиные перья",
+    "officialAuthors": [
+      "Вера Н. Маркова"
+    ],
+    "publisher": "Izdat. Dom Meshcher︠i︡akova",
+    "isbn13": "9785910452248",
+    "publicationYear": 2011,
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.96,
+      "titleScore": 1,
+      "authorMatch": true,
+      "selectedEditionYear": 2011
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": true,
+      "publisherMatched": true,
+      "yearMatched": true,
+      "latestRussianEditionConfirmed": true,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "open-library"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T14:37:34.317Z"
+    }
+  },
+  {
+    "id": "ol-ol20043999w",
+    "source": "Open Library Covers",
+    "sourceUrl": "https://openlibrary.org/isbn/9785389097421",
+    "sourceRecordId": "isbn:9785389097421",
+    "officialTitle": "Вежливое слово",
+    "officialAuthors": [
+      "Е. Мошковская"
+    ],
+    "isbn13": "9785389097421",
+    "publicationYear": 2016,
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.96,
+      "titleScore": 1,
+      "authorMatch": true,
+      "selectedEditionYear": 2016
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": true,
+      "publisherMatched": false,
+      "yearMatched": true,
+      "latestRussianEditionConfirmed": true,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "open-library"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T14:37:34.317Z"
+    }
+  },
+  {
+    "id": "ol-ol19970141w",
+    "source": "Open Library Covers",
+    "sourceUrl": "https://openlibrary.org/isbn/9785353059707",
+    "sourceRecordId": "isbn:9785353059707",
+    "officialTitle": "Правдивая история колобка",
+    "officialAuthors": [
+      "Андрей Усачёв"
+    ],
+    "publisher": "Росмэн",
+    "isbn13": "9785353059707",
+    "publicationYear": 2012,
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.96,
+      "titleScore": 1,
+      "authorMatch": true,
+      "selectedEditionYear": 2012
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": true,
+      "publisherMatched": true,
+      "yearMatched": true,
+      "latestRussianEditionConfirmed": true,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "open-library"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T14:37:34.317Z"
+    }
+  },
+  {
+    "id": "ol-ol40061329w",
+    "source": "Open Library Covers",
+    "sourceUrl": "https://openlibrary.org/isbn/9785767019069",
+    "sourceRecordId": "isbn:9785767019069",
+    "officialTitle": "Хранители очага",
+    "officialAuthors": [
+      "Андрей Васильевич Растворцев"
+    ],
+    "publisher": "Чувашское книжное издательство",
+    "isbn13": "9785767019069",
+    "publicationYear": 2012,
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.96,
+      "titleScore": 1,
+      "authorMatch": true,
+      "selectedEditionYear": 2012
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": true,
+      "publisherMatched": true,
+      "yearMatched": true,
+      "latestRussianEditionConfirmed": true,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "open-library"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T14:37:34.317Z"
+    }
+  },
+  {
+    "id": "ol-ol45311343w",
+    "source": "Open Library Covers",
+    "sourceUrl": "https://openlibrary.org/isbn/9785990626164",
+    "sourceRecordId": "isbn:9785990626164",
+    "officialTitle": "Три повести о Васе Куролесове",
+    "officialAuthors": [
+      "Юрий Коваль"
+    ],
+    "publisher": "Izdatelʹskiĭ proekt A i B",
+    "isbn13": "9785990626164",
+    "publicationYear": 2016,
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.96,
+      "titleScore": 1,
+      "authorMatch": true,
+      "selectedEditionYear": 2016
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": true,
+      "publisherMatched": true,
+      "yearMatched": true,
+      "latestRussianEditionConfirmed": true,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "open-library"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T14:37:34.317Z"
+    }
+  },
+  {
+    "id": "ol-ol19936571w",
+    "source": "Open Library Covers",
+    "sourceUrl": "https://openlibrary.org/isbn/9785080042195",
+    "sourceRecordId": "isbn:9785080042195",
+    "officialTitle": "Поемы",
+    "officialAuthors": [
+      "Александр Сергеевич Пушкин"
+    ],
+    "publisher": "Детская литература",
+    "isbn13": "9785080042195",
+    "publicationYear": 2007,
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.96,
+      "titleScore": 1,
+      "authorMatch": true,
+      "selectedEditionYear": 2007
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": true,
+      "publisherMatched": true,
+      "yearMatched": true,
+      "latestRussianEditionConfirmed": true,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "open-library"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T14:37:34.317Z"
+    }
+  },
+  {
+    "id": "ol-ol22792562w",
+    "source": "Open Library Covers",
+    "sourceUrl": "https://openlibrary.org/isbn/9785902499213",
+    "sourceRecordId": "isbn:9785902499213",
+    "officialTitle": "Хантыйские загадки",
+    "officialAuthors": [
+      "Е. А. Нёмысова"
+    ],
+    "publisher": "Poligrafist",
+    "isbn13": "9785902499213",
+    "publicationYear": 2007,
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.96,
+      "titleScore": 1,
+      "authorMatch": true,
+      "selectedEditionYear": 2007
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": true,
+      "publisherMatched": true,
+      "yearMatched": true,
+      "latestRussianEditionConfirmed": true,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "open-library"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T14:37:34.317Z"
+    }
+  },
+  {
+    "id": "ol-ol32525747w",
+    "source": "Open Library Covers",
+    "sourceUrl": "https://openlibrary.org/isbn/9785990870901",
+    "sourceRecordId": "isbn:9785990870901",
+    "officialTitle": "Цезарь Великолепный",
+    "officialAuthors": [
+      "Алёна Спиридонова"
+    ],
+    "publisher": "Bubble Visions",
+    "isbn13": "9785990870901",
+    "publicationYear": 2016,
+    "language": "ru",
+    "replaceEdition": false,
+    "match": {
+      "strategy": "work_title_author",
+      "confidence": 0.96,
+      "titleScore": 1,
+      "authorMatch": true,
+      "selectedEditionYear": 2016
+    },
+    "verification": {
+      "trustedSource": true,
+      "sourceKind": "editorial_source",
+      "titleMatched": true,
+      "authorMatched": true,
+      "authorEvidence": "structured_data",
+      "isbnMatched": true,
+      "publisherMatched": true,
+      "yearMatched": true,
+      "latestRussianEditionConfirmed": true,
+      "sourceSearchComplete": true,
+      "checkedSources": [
+        "open-library"
+      ]
+    },
+    "verifiedAt": "2026-08-04",
+    "enrichment": {
+      "tool": "books:enrich",
+      "version": "1.1.1",
+      "runAt": "2026-08-04T14:37:34.317Z"
     }
   }
 ]

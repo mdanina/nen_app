@@ -9,6 +9,8 @@ import { createOfficialPublisherSource } from "./sources/official-publishers.mjs
 import { createOpenLibrarySource } from "./sources/open-library.mjs";
 import { createNenEditorialSource } from "./sources/nen-editorial.mjs";
 import { createLibraryCatalogSource } from "./sources/library-catalogs.mjs";
+import { createInternetArchiveSource } from "./sources/internet-archive.mjs";
+import { createWebDiscoverySource } from "./sources/web-discovery.mjs";
 import { validateCatalog } from "./validate.mjs";
 import { normalizePublisherName } from "./publisher-normalization.mjs";
 
@@ -45,7 +47,7 @@ export async function runEnrichment(options = {}) {
     cacheDays: 30,
     concurrency: 3,
     sourceConcurrency: 6,
-    sources: ["nen-editorial", "official-publishers", "google-books", "open-library", "library-catalogs"],
+    sources: ["nen-editorial", "official-publishers", "google-books", "open-library", "library-catalogs", "internet-archive", "web-discovery"],
     ...await readJson(resolve(root, "data/source/books-enrichment-config.json"), {}),
     ...options,
   };
@@ -65,6 +67,8 @@ export async function runEnrichment(options = {}) {
     createGoogleBooksSource({ cache }),
     createOpenLibrarySource({ cache }),
     createLibraryCatalogSource({ cache, concurrency: config.sourceConcurrency }),
+    createInternetArchiveSource({ cache }),
+    createWebDiscoverySource({ cache, concurrency: config.sourceConcurrency }),
   ];
   const allSources = (options.sourceAdapters ?? builtInSources).filter((source) => config.sources.includes(source.key) || options.sourceAdapters);
   const imageVerifier = options.imageVerifier ?? verifyImage;

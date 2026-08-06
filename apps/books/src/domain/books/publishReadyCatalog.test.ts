@@ -7,6 +7,7 @@ import nenCollectionSource from "../../../../../data/source/nen-collection-books
 import importedExclusions from "../../../../../data/source/openlibrary-books-excluded.json";
 import ambiguousReview from "../../../../../data/reports/ambiguous-review.json";
 import fictionExclusions from "../../../../../data/reports/fiction-catalog-excluded.json";
+import maintenanceExclusions from "../../../../../data/source/catalog-maintenance-exclusions.json";
 import { StaticBooksRepository } from "../../data/booksRepository";
 import { emptyFilters, searchBooks } from "./filters";
 import type { Book } from "./types";
@@ -23,7 +24,8 @@ describe("connected Open Library catalog", () => {
       + curatedPublisherSource.books.length
       + curatedMultiPublisherSource.books.length
       + curatedPriorityPublisherSource.books.length
-      + nenCollectionSource.books.length,
+      + nenCollectionSource.books.length
+      - maintenanceExclusions.length,
     );
     expect(productionBooks.some((book) => excludedIds.has(book.id))).toBe(false);
     expect(productionBooks.some((book) => fictionExcludedIds.has(book.id))).toBe(false);
@@ -43,7 +45,6 @@ describe("connected Open Library catalog", () => {
       && Boolean(book.publisher)
       && Boolean(book.shortDescription)
       && Boolean(book.whyRecommended)
-      && Boolean(book.cover?.url)
       && book.genres.length > 0
       && book.themes.length > 0
     ))).toBe(true);

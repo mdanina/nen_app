@@ -1,0 +1,48 @@
+{
+  "generatedAt": "2026-08-06T13:01:25.814Z",
+  "algorithm": "maintainable_work_cover_pipeline_no_identifier_v1",
+  "summary": {
+    "catalogBefore": 1819,
+    "catalogAfter": 1759,
+    "coversBefore": 1528,
+    "coversAfter": 1530,
+    "netCoverChange": 2,
+    "newVerifiedCoversAdded": 9,
+    "confirmedBrokenCoversRemoved": 7,
+    "remainingWithoutCover": 229,
+    "historicalCardsRemoved": 59,
+    "duplicateEditionsClustered": 1
+  },
+  "stages": [
+    {
+      "name": "official_product_galleries",
+      "before": 64,
+      "coversFound": 7,
+      "remaining": 57
+    },
+    {
+      "name": "reverse_work_search_and_graph",
+      "before": 247,
+      "coversFound": 1,
+      "remaining": 246
+    },
+    {
+      "name": "nen_article_blocks",
+      "before": 37,
+      "coversFound": 1,
+      "remaining": 36
+    },
+    {
+      "name": "edition_clustering",
+      "before": 223,
+      "mergedIntoMaintainedWork": 1,
+      "remaining": 222
+    },
+    {
+      "name": "historical_library_only_pruning",
+      "before": 59,
+      "removed": 59,
+      "remaining": 0
+    }
+  ]
+}

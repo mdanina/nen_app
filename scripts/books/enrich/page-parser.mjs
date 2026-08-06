@@ -42,6 +42,52 @@ function imageUrl(value, baseUrl) {
   try { return raw ? new URL(raw, baseUrl).href : undefined; } catch { return undefined; }
 }
 
+function decodeHtml(value = "") {
+  return String(value).replace(/&amp;/giu, "&").replace(/&quot;|&#34;/giu, "\"")
+    .replace(/&#39;|&apos;/giu, "'").replace(/&nbsp;|&#160;/giu, " ");
+}
+
+function imageValues(value) {
+  if (Array.isArray(value)) return value.flatMap(imageValues);
+  if (value && typeof value === "object") return imageValues(value.url ?? value.contentUrl ?? value.thumbnailUrl);
+  return value ? [String(value)] : [];
+}
+
+function imageAttributes(tag = "") {
+  return Object.fromEntries([...tag.matchAll(/([:\w-]+)\s*=\s*["']([^"']*)["']/giu)].map((match) => [match[1].toLowerCase(), decodeHtml(match[2])]));
+}
+
+export function extractProductImages(html = "", baseUrl) {
+  const candidates = [];
+  const add = (raw, source, context = "", priority = 0, position = -1) => {
+    for (const value of imageValues(raw)) {
+      for (const part of String(value).split(/\s*,\s*/u)) {
+        const src = part.trim().split(/\s+/u)[0];
+        let url;
+        try { url = new URL(src, baseUrl).href; } catch { continue; }
+        if (!url.startsWith("https://") || /(?:logo|favicon|placeholder|no[-_]?image|item[-_]?no[-_]?cover|social[-_]?fb|avatar|sprite|icon)/iu.test(url)) continue;
+        candidates.push({ url, source, context: decodeHtml(context), priority, position });
+      }
+    }
+  };
+  for (const item of jsonLd(html)) {
+    const types = (Array.isArray(item["@type"]) ? item["@type"] : [item["@type"]]).map(String);
+    if (types.some((type) => /^(?:book|product)$/iu.test(type))) add(item.image, "json_ld_product", item.name, 100);
+  }
+  for (const match of html.matchAll(/<img\b[^>]*>/giu)) {
+    const attrs = imageAttributes(match[0]);
+    const context = [attrs.alt, attrs.title, attrs.class].filter(Boolean).join(" ");
+    const gallery = /(?:product|book|cover|gallery|woocommerce|wp-post-image)/iu.test(context);
+    for (const key of ["data-zoom-image", "data-large_image", "data-src", "data-lazy-src", "data-original", "srcset", "data-srcset", "src"]) {
+      if (attrs[key]) add(attrs[key], `img_${key}`, context, gallery ? 85 : 45, match.index);
+    }
+  }
+  add(meta(html, "og:image"), "open_graph", meta(html, "og:title"), 25);
+  const best = new Map();
+  for (const item of candidates) if (!best.has(item.url) || best.get(item.url).priority < item.priority) best.set(item.url, item);
+  return [...best.values()].sort((left, right) => right.priority - left.priority);
+}
+
 export function parseBookPage(html, url, fallback = {}) {
   const visible = text(html);
   const structured = jsonLd(html).find((item) => {
@@ -60,7 +106,8 @@ export function parseBookPage(html, url, fallback = {}) {
     ?? visible.match(/(?:количество\s+страниц|объ[её]м|страниц)\D{0,20}(\d{1,4})/iu)?.[1];
   const publisher = String(structured.publisher?.name ?? structured.brand?.name ?? fallback.publisher ?? "").trim() || undefined;
   const seriesName = String(structured.isPartOf?.name ?? "").trim() || undefined;
-  const image = imageUrl(structured.image ?? meta(html, "og:image"), url);
+  const marketplaceImage = html.match(/<img[^>]+data-a-image-name=["']landingImage["'][^>]+(?:data-a-dynamic-image=["'][^"']*?(https:\/\/[^&"']+)|src=["'](https:\/\/[^"']+))/iu);
+  const image = imageUrl(structured.image ?? meta(html, "og:image") ?? marketplaceImage?.[1] ?? marketplaceImage?.[2], url);
   const structuredAuthors = names(structured.author);
   const visibleAuthor = visible.match(/(?:^|\s)Автор(?:ы)?\s+(.{2,100}?)(?=\s+(?:Художник|Иллюстратор|Перевод|Издательство|ISBN|Серия|Возраст|Количество|Кол-во|Артикул)\b)/iu)?.[1]?.trim();
   return {

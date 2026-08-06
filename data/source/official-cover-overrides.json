@@ -65,14 +65,26 @@
     "id": "nen-bv2-008",
     "cover": {
       "kind": "external",
-      "url": "https://albuscorvus.ru/wp-content/uploads/2015/04/social-fb-book-007.png",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2015/04/sven-nordqvist-findus-pereezzhaet.png",
       "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Белая ворона»",
+      "sourceName": "Белая ворона",
       "sourcePageUrl": "https://albuscorvus.ru/product/findus-pereezzhaet/",
-      "isbn13": "9785001145592",
       "temporary": true,
       "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-07-27"
+      "verifiedAt": "2026-08-06",
+      "assignmentMethod": "global_ocr_work_match",
+      "assignmentConfidence": 0.72,
+      "assignmentVerifiedAt": "2026-08-06"
+    },
+    "match": {
+      "strategy": "work_title_author_ocr",
+      "confidence": 0.72
+    },
+    "verification": {
+      "imageVerified": true,
+      "titleMatched": true,
+      "authorMatched": false,
+      "sameEdition": true
     }
   },
   {
@@ -897,20 +909,26 @@
     "id": "nen-bv2-109",
     "cover": {
       "kind": "external",
-      "url": "https://api.azbooka.ru/upload/iblock/584/25q9f2ded4bx5xpt72g5b42b9ovxewnt.jpg",
+      "url": "https://cdn.ast.ru/v2/ASE000000000846309/COVER/cover1__w340.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "Издательская группа «Азбука-Аттикус»",
-      "sourcePageUrl": "https://azbooka.ru/books/kortik-bronzovaya-ptitsa-vystrel",
+      "sourceName": "Издательство АСТ",
+      "sourcePageUrl": "https://ast.ru/book/bronzovaya-ptitsa-846309/",
       "temporary": true,
       "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-07-28"
+      "verifiedAt": "2026-08-06",
+      "assignmentMethod": "global_ocr_work_match",
+      "assignmentConfidence": 0.77,
+      "assignmentVerifiedAt": "2026-08-06"
     },
     "match": {
-      "strategy": "official_page_title_author",
-      "confidence": 0.99,
-      "titleMatch": 1,
-      "authorMatch": true,
-      "isbnExact": false
+      "strategy": "work_title_author_ocr",
+      "confidence": 0.77
+    },
+    "verification": {
+      "imageVerified": true,
+      "titleMatched": true,
+      "authorMatched": false,
+      "sameEdition": true
     }
   },
   {
@@ -19359,23 +19377,26 @@
     "id": "curated-nen-collection-god-polnyy-chudes-b-klyayn",
     "cover": {
       "kind": "external",
-      "url": "https://n-e-n.ru/images/2021-10-07/615ee02e22ecc_0x0.jpg",
+      "url": "https://n-e-n.ru/images/2021-10-07/615ee061090ba_0x0.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
+      "sourceName": "Официальная страница издательства",
       "sourcePageUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
       "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-06",
+      "assignmentMethod": "global_ocr_work_match",
+      "assignmentConfidence": 0.998,
+      "assignmentVerifiedAt": "2026-08-06"
     },
     "match": {
-      "strategy": "work_title_author",
-      "confidence": 0.99
+      "strategy": "work_title_author_ocr",
+      "confidence": 0.998
     },
     "verification": {
       "imageVerified": true,
-      "sameEdition": false,
       "titleMatched": true,
-      "authorMatched": true
+      "authorMatched": true,
+      "sameEdition": true
     }
   },
   {
@@ -20000,6 +20021,162 @@
       "sameEdition": false,
       "titleMatched": true,
       "authorMatched": true
+    }
+  },
+  {
+    "id": "curated-whitecrow-ohota-na-snarka-ohota-na-snarka",
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2015/04/lewis-carroll-ohota-na-snarka.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Белая ворона",
+      "sourcePageUrl": "https://albuscorvus.ru/product/ohota-na-snarka/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-06",
+      "assignmentMethod": "global_ocr_work_match",
+      "assignmentConfidence": 0.95,
+      "assignmentVerifiedAt": "2026-08-06"
+    },
+    "match": {
+      "strategy": "work_title_author_ocr",
+      "confidence": 0.95
+    },
+    "verification": {
+      "imageVerified": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "sameEdition": true
+    }
+  },
+  {
+    "id": "curated-whitecrow-v-pogone-za-shlyapoy-v-pogone-za-shlyapoj",
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2016/05/v-pogone-za-shlyapoj.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Белая ворона",
+      "sourcePageUrl": "https://albuscorvus.ru/product/v-pogone-za-shlyapoj/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-06",
+      "assignmentMethod": "global_ocr_work_match",
+      "assignmentConfidence": 0.72,
+      "assignmentVerifiedAt": "2026-08-06"
+    },
+    "match": {
+      "strategy": "work_title_author_ocr",
+      "confidence": 0.72
+    },
+    "verification": {
+      "imageVerified": true,
+      "titleMatched": true,
+      "authorMatched": false,
+      "sameEdition": true
+    }
+  },
+  {
+    "id": "curated-whitecrow-gde-moya-sestra-gde-moya-sestra",
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2016/08/gde-moya-sestra2.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Белая ворона",
+      "sourcePageUrl": "https://albuscorvus.ru/product/gde-moya-sestra/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-06",
+      "assignmentMethod": "global_ocr_work_match",
+      "assignmentConfidence": 0.72,
+      "assignmentVerifiedAt": "2026-08-06"
+    },
+    "match": {
+      "strategy": "work_title_author_ocr",
+      "confidence": 0.72
+    },
+    "verification": {
+      "imageVerified": true,
+      "titleMatched": true,
+      "authorMatched": false,
+      "sameEdition": true
+    }
+  },
+  {
+    "id": "curated-whitecrow-chto-my-prazdnuem-8-marta-8marta",
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2017/02/8marta.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Белая ворона",
+      "sourcePageUrl": "https://albuscorvus.ru/product/8marta/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-06",
+      "assignmentMethod": "global_ocr_work_match",
+      "assignmentConfidence": 0.72,
+      "assignmentVerifiedAt": "2026-08-06"
+    },
+    "match": {
+      "strategy": "work_title_author_ocr",
+      "confidence": 0.72
+    },
+    "verification": {
+      "imageVerified": true,
+      "titleMatched": true,
+      "authorMatched": false,
+      "sameEdition": true
+    }
+  },
+  {
+    "id": "curated-whitecrow-mister-kleghorn-i-ego-tyulenenok-mister-kleghorn-i-ego-tyulenenok",
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2017/05/tyulenenok.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Белая ворона",
+      "sourcePageUrl": "https://albuscorvus.ru/product/mister-kleghorn-i-ego-tyulenenok/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-06",
+      "assignmentMethod": "global_ocr_work_match",
+      "assignmentConfidence": 0.95,
+      "assignmentVerifiedAt": "2026-08-06"
+    },
+    "match": {
+      "strategy": "work_title_author_ocr",
+      "confidence": 0.95
+    },
+    "verification": {
+      "imageVerified": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "sameEdition": true
+    }
+  },
+  {
+    "id": "curated-whitecrow-kak-gitler-ukral-rozovogo-krolika-2-e-izdanie-pink-rabbit",
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2016/12/kak-gitler-ukral-rozovogo-krolika-new-edition.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Белая ворона",
+      "sourcePageUrl": "https://albuscorvus.ru/product/pink-rabbit/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-06",
+      "assignmentMethod": "global_ocr_work_match",
+      "assignmentConfidence": 0.83,
+      "assignmentVerifiedAt": "2026-08-06"
+    },
+    "match": {
+      "strategy": "work_title_author_ocr",
+      "confidence": 0.83
+    },
+    "verification": {
+      "imageVerified": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "sameEdition": true
     }
   }
 ]

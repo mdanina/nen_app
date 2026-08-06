@@ -47,7 +47,8 @@ export function validateBooks(input: unknown): ValidatedData<Book> {
     }
     if (item.cover && item.cover.kind !== "placeholder") {
       if (!item.cover.url || !displayableCoverRights.has(item.cover.rightsStatus)) recordIssues.push({ index, field: "cover", message: "Обложка не разрешена для показа" });
-      if (item.cover.kind === "external" && (item.cover.rightsStatus !== "external-display-only" || !item.cover.temporary || item.cover.isbn13 !== item.isbn13)) recordIssues.push({ index, field: "cover", message: "Внешняя обложка не подтверждена точным ISBN" });
+      const workMatchedByOcr = item.cover.assignmentMethod === "global_ocr_work_match" && Number(item.cover.assignmentConfidence) >= 0.7;
+      if (item.cover.kind === "external" && (item.cover.rightsStatus !== "external-display-only" || !item.cover.temporary || (item.cover.isbn13 !== item.isbn13 && !workMatchedByOcr))) recordIssues.push({ index, field: "cover", message: "Внешняя обложка не подтверждена точным ISBN или уверенным OCR-сопоставлением произведения" });
     }
     issues.push(...recordIssues);
     if (recordIssues.length) return;

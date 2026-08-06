@@ -18,6 +18,7 @@ const annotationOverridesPath = resolve(root, "data/source/book-annotation-overr
 const officialCoverOverridesPath = resolve(root, "data/source/official-cover-overrides.json");
 const coverAssignmentCorrectionsPath = resolve(root, "data/source/cover-assignment-corrections.json");
 const officialMetadataOverridesPath = resolve(root, "data/source/official-metadata-overrides.json");
+const catalogMaintenanceExclusionsPath = resolve(root, "data/source/catalog-maintenance-exclusions.json");
 const targetPath = resolve(root, "data/generated/books.json");
 const fictionExcludedReportPath = resolve(root, "data/reports/fiction-catalog-excluded.json");
 const fictionAmbiguousReportPath = resolve(root, "data/reports/ambiguous-review.json");
@@ -33,11 +34,13 @@ const annotationOverrides = JSON.parse(await readFile(annotationOverridesPath, "
 const officialCoverOverrides = JSON.parse(await readFile(officialCoverOverridesPath, "utf8"));
 const coverAssignmentCorrections = JSON.parse(await readFile(coverAssignmentCorrectionsPath, "utf8").catch(() => "{\"invalidAssignments\":[],\"reassignments\":[]}"));
 const officialMetadataOverrides = JSON.parse(await readFile(officialMetadataOverridesPath, "utf8"));
+const catalogMaintenanceExclusions = JSON.parse(await readFile(catalogMaintenanceExclusionsPath, "utf8").catch(() => "[]"));
 const annotationById = new Map(annotationOverrides.map((item) => [item.id, item]));
 const officialCoverById = new Map(officialCoverOverrides.map((item) => [item.id, item.cover]));
 const invalidCoverAssignmentIds = new Set(coverAssignmentCorrections.invalidAssignments.map((item) => item.id));
 const reassignedCoverById = new Map(coverAssignmentCorrections.reassignments.map((item) => [item.targetId, item.cover]));
 const officialMetadataById = new Map(officialMetadataOverrides.map((item) => [item.id, item]));
+const catalogMaintenanceExcludedIds = new Set(catalogMaintenanceExclusions.map((item) => item.id));
 
 const allowed = {
   readingMode: new Set(["independent", "together", "both"]),
@@ -321,6 +324,7 @@ function applyOfficialMetadata(book) {
 const candidateBooks = [...legacyBooks, ...publishedV2, ...importedBooks, ...curatedPublisherBooks, ...nenCollectionBooks]
   .map(applyPublisherEnrichment)
   .map(applyOfficialMetadata)
+  .filter((book) => !catalogMaintenanceExcludedIds.has(book.id))
   .map((book) => {
     if (!officialCoverById.has(book.id)) return book;
     const cover = officialCoverById.get(book.id);

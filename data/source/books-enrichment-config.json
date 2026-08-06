@@ -8,6 +8,8 @@
     "official-publishers",
     "google-books",
     "open-library",
-    "library-catalogs"
+    "library-catalogs",
+    "internet-archive",
+    "web-discovery"
   ]
 }

@@ -15,6 +15,9 @@ export interface BookCoverData {
   temporary?: boolean;
   attribution?: string;
   verifiedAt?: string;
+  assignmentMethod?: "global_ocr_work_match";
+  assignmentConfidence?: number;
+  assignmentVerifiedAt?: string;
 }
 
 export interface Book {

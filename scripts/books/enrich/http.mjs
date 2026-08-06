@@ -35,7 +35,9 @@ export async function verifyImage(url) {
   if (!String(url ?? "").startsWith("https://")) return false;
   try {
     const response = await fetchWithRetry(url, { attempts: 1, timeoutMs: 8_000, headers: { range: "bytes=0-1023" } });
-    return String(response.headers.get("content-type") ?? "").toLowerCase().startsWith("image/");
+    const contentRange = response.headers.get("content-range")?.match(/\/(\d+)$/u)?.[1];
+    const totalBytes = Number(contentRange ?? response.headers.get("content-length") ?? 0);
+    return String(response.headers.get("content-type") ?? "").toLowerCase().startsWith("image/") && (!totalBytes || totalBytes >= 1_500);
   } catch {
     return false;
   }
@@ -52,4 +54,3 @@ export async function mapLimit(items, limit, worker) {
   }));
   return output;
 }
-

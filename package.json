@@ -14,6 +14,8 @@
     "books:covers:fill": "node scripts/books/enrich/fill-missing-covers.mjs",
     "books:covers:fill:additional": "node scripts/books/enrich/fill-additional-official-covers.mjs",
     "books:covers:audit": "node scripts/books/audit-cover-assignments.mjs",
+    "books:covers:reassign": "node scripts/books/reassign-existing-covers.mjs",
+    "books:covers:finalize-maintainable": "node scripts/books/finalize-maintainable-covers.mjs",
     "test:books:enrich": "node --test scripts/books/enrich/enrich.test.mjs",
     "collections:import:nen": "node scripts/books/import-nen-collection-books.mjs",
     "collections:build": "node scripts/books/build-nen-collections.mjs",
