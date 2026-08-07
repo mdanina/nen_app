@@ -1201,6 +1201,18 @@
           "Мария Бершадская"
         ]
       }
+    },
+    "cover": {
+      "kind": "external",
+      "url": "https://kompasgid.ru/wp-content/uploads/2023/02/cover-18.webp",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «КомпасГид»",
+      "sourcePageUrl": "https://kompasgid.ru/product/bolshaya-malenkaya-devochka-istoriya-pervaya-kak-priruchit-gorod/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     }
   },
   {
@@ -1541,6 +1553,18 @@
           "Эрик Карл"
         ]
       }
+    },
+    "cover": {
+      "kind": "external",
+      "url": "https://pgbooks.ru/upload/iblock/3e6/ogg_001.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Розовый жираф»",
+      "sourcePageUrl": "https://pgbooks.ru/books/book/458/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     }
   },
   {
@@ -1713,6 +1737,18 @@
           "Дебора Андервуд"
         ]
       }
+    },
+    "cover": {
+      "kind": "external",
+      "url": "https://pgbooks.ru/upload/iblock/41c/41c711300326db8919f4f874b4b32da5.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Розовый жираф»",
+      "sourcePageUrl": "https://pgbooks.ru/books/book/7546/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     }
   },
   {
@@ -2912,6 +2948,18 @@
     "author": "Р. Дж. Паласио",
     "shortDescription": "История одного школьного года показана с разных точек зрения и помогает увидеть, как поступки окружающих влияют на ребёнка.",
     "whyRecommended": "Для читателей 10–14 лет это реалистическая проза о школе, дружбе и самооценке. Книгу можно выбрать для самостоятельного чтения.",
+    "cover": {
+      "kind": "external",
+      "url": "https://pgbooks.ru/upload/iblock/cbe/0017_vek_wonder_cover.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Розовый жираф»",
+      "sourcePageUrl": "https://pgbooks.ru/books/book/8336/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
     "identificationStatus": "identified",
     "isbn13": "9785437003428",
     "publisher": "Розовый жираф",
@@ -4423,8 +4471,16 @@
     "shortDescription": "Пять коротких историй показывают, как Квак и Жаб составляют планы, выращивают сад и учатся быть рядом.",
     "whyRecommended": "Для читателей 5–8 лет это реалистическая проза и юмор о дружбе и животных. Книгу можно выбрать для самостоятельного или совместного чтения.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://pgbooks.ru/upload/iblock/7c3/0204_lob_frogs3_together_cover.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Розовый жираф»",
+      "sourcePageUrl": "https://pgbooks.ru/books/book/649/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "identificationStatus": "provisional",
     "isbn13": "9785903497102",
@@ -7248,6 +7304,18 @@
     "author": "Лазарь Лагин",
     "shortDescription": "Школьник Волька освобождает древнего джинна, чьи представления о мире плохо сочетаются с современной жизнью.",
     "whyRecommended": "Подойдёт читателям 8–12 лет, которые любят фэнтези и юмористические книги. В книге затрагиваются темы волшебства, дружбы и культурного разнообразия.",
+    "cover": {
+      "kind": "external",
+      "url": "https://api.azbooka.ru/upload/iblock/5f4/zhjlq8exxycpix1hqlauest3as4clx2x.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательская группа «Азбука-Аттикус»",
+      "sourcePageUrl": "https://azbooka.ru/books/starik-khottabych-zknh",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9618
+    },
     "identificationStatus": "provisional",
     "publicationYear": 1938,
     "bibliographicSources": [
@@ -7853,8 +7921,16 @@
     "shortDescription": "Девочка Каролинка находит бусинку, исполняющую желания, и старается использовать её силу не только для себя.",
     "whyRecommended": "Подойдёт читателям 6–10 лет, которые любят фэнтези и приключенческие книги. В книге затрагиваются темы волшебства, дружбы и семьи.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://pgbooks.ru/upload/iblock/129/golubaya.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Розовый жираф»",
+      "sourcePageUrl": "https://pgbooks.ru/books/book/6492/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "identificationStatus": "provisional",
     "isbn13": "9785437003053",
@@ -10994,8 +11070,16 @@
     "shortDescription": "Стэнли отправляют в исправительный лагерь, где мальчики каждый день копают ямы якобы ради характера.",
     "whyRecommended": "Если ребёнок любит приключенческие книги и детективы и сюжеты о дружбе, семье и безопасности, книга подойдёт ему в возрасте 10–15 лет. Она подходит для самостоятельного чтения.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://pgbooks.ru/upload/iblock/6e4/6e4af74cf7e6c0fb38d30f06f07f4474.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Розовый жираф»",
+      "sourcePageUrl": "https://pgbooks.ru/books/book/5443/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "identificationStatus": "provisional",
     "publisher": "Росмэн",
@@ -11604,8 +11688,16 @@
     "shortDescription": "Подростки живут в закрытом интернате, создавая собственные группы, имена, правила и мифологию Дома.",
     "whyRecommended": "Если ребёнок любит фэнтези и реалистическую прозу и сюжеты о дружбе, самооценке и отношениях, книга подойдёт ему в возрасте 15–17 лет. Она подходит для самостоятельного чтения.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://livebooks.ru/uploads/images/books/books_30.webp",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство Livebook",
+      "sourcePageUrl": "https://livebooks.ru/books/dom-v-kotorom/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9618
     },
     "identificationStatus": "provisional",
     "publicationYear": 2009,
@@ -20161,6 +20253,18 @@
     "shortDescription": "Дрессировщик Владимир Дуров вспоминает животных, которые жили и работали рядом с ним. Он описывает их характеры, привычки и случаи из совместной жизни.",
     "fullDescription": "Дрессировщик Владимир Дуров вспоминает животных, которые жили и работали рядом с ним. Он описывает их характеры, привычки и случаи из совместной жизни.",
     "whyRecommended": "Для читателей 7–12 лет это реалистическая проза о животных. Книгу можно выбрать для самостоятельного или совместного чтения.",
+    "cover": {
+      "kind": "external",
+      "url": "https://detlit.ru/images/detailed/12539/2a294289158911e980cd00505684449c_cfecb66864e611eda97d005056ac6fe2.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Детская литература»",
+      "sourcePageUrl": "https://detlit.ru/nm-durov-moi-zveri/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9618
+    },
     "identificationStatus": "provisional",
     "isbn13": null,
     "publisher": "Детская литература",
@@ -22223,6 +22327,18 @@
     "shortDescription": "Сборник сказок Константин Дмитриевич Ушинский. В издание вошли фантастические и бытовые сюжеты с чудесными превращениями, животными и другими сказочными героями.",
     "fullDescription": "Сборник сказок Константин Дмитриевич Ушинский. В издание вошли фантастические и бытовые сюжеты с чудесными превращениями, животными и другими сказочными героями.",
     "whyRecommended": "Подойдёт читателям 7–12 лет, которые любят сказки. В книге затрагиваются темы животных.",
+    "cover": {
+      "kind": "external",
+      "url": "https://covers.openlibrary.org/b/id/15162374-L.jpg?default=false",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Open Library",
+      "sourcePageUrl": "https://openlibrary.org/works/OL44772648W",
+      "temporary": true,
+      "attribution": "Обложка: Open Library",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9105
+    },
     "identificationStatus": "identified",
     "isbn13": "9785699660674",
     "publisher": "Детская литература",
@@ -26312,8 +26428,16 @@
     "fullDescription": "Ночной лес скрывает следы и голоса животных, которые днём остаются незаметными. Герои пытаются разобраться, кто живёт рядом и что происходит в темноте.",
     "whyRecommended": "Подойдёт читателям 6–11 лет, которые любят реалистическую прозу. В книге затрагиваются темы животных, природы и братьев и сестёр.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://strecoza.ru/wp-content/uploads/2023/03/3e0af1e9-bd2c-11ed-a49e-8c89a5dd96ef_122d142c-fd91-11ee-9c15-8c89a5dd96ef.jpeg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Стрекоза»",
+      "sourcePageUrl": "https://strecoza.ru/product/bsh-tajna-nochnogo-lesa-nov-2/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9618
     },
     "identificationStatus": "identified",
     "isbn13": "9785479005909",
@@ -44999,6 +45123,18 @@
     "shortDescription": "Юнга Солнышкин мечтает о море и попадает на корабль. Служба превращается для него в череду испытаний, курьёзов и настоящих морских приключений.",
     "fullDescription": "Юнга Солнышкин мечтает о море и попадает на корабль. Служба превращается для него в череду испытаний, курьёзов и настоящих морских приключений.",
     "whyRecommended": "Если ребёнок любит реалистическую прозу и сюжеты о природе, книга подойдёт ему в возрасте 6–11 лет. Она подходит для самостоятельного или совместного чтения.",
+    "cover": {
+      "kind": "external",
+      "url": "https://detlit.ru/images/detailed/12543/77b390c9d89011ea80df00505684449c_77b390cad89011ea80df00505684449c.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Детская литература»",
+      "sourcePageUrl": "https://detlit.ru/veseloe-moreplavanie-solnyshkina-ru/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9618
+    },
     "publisher": "Детская литература",
     "publicationYear": 2020,
     "bibliographicSources": [
@@ -47789,6 +47925,18 @@
     "shortDescription": "Петя и медвежонок Потап знакомятся и становятся участниками общих приключений. Их дружба строится на любопытстве и попытках помочь друг другу.",
     "fullDescription": "Петя и медвежонок Потап знакомятся и становятся участниками общих приключений. Их дружба строится на любопытстве и попытках помочь друг другу.",
     "whyRecommended": "Подойдёт читателям 6–11 лет, которые любят сказки. В книге затрагиваются темы культурного разнообразия и волшебства.",
+    "cover": {
+      "kind": "external",
+      "url": "https://melik-pashaev.ru/wp-content/uploads/2025/04/potap_cover-1200.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Мелик-Пашаев»",
+      "sourcePageUrl": "https://melik-pashaev.ru/product/petya-i-potap/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
     "publisher": "Дрофа",
     "publicationYear": 2025,
     "bibliographicSources": [
@@ -62300,8 +62448,16 @@
     "fullDescription": "Девочка Маргарита проходит через несколько семей и получает разные имена. Она пытается понять, где её дом и кому можно доверять.",
     "whyRecommended": "Подойдёт читателям 7–12 лет, которые любят реалистическую прозу. В книге затрагиваются темы отношений.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://pgbooks.ru/upload/iblock/cce/0013_vek_tri_tvoih_imeni_cover.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Розовый жираф»",
+      "sourcePageUrl": "https://pgbooks.ru/books/book/5886/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "identificationStatus": "identified",
     "isbn13": "9785903497911",
@@ -84326,6 +84482,18 @@
     "lengthCategory": "long",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/AST000000000026989/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/navoznyy-zhuk-letaet-v-sumerkakh-026989/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/navoznyj-zhuk-letaet-v-sumerkah/",
@@ -98392,6 +98560,18 @@
     "lengthCategory": "short",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
+    "cover": {
+      "kind": "external",
+      "url": "https://alpinabook.ru/upload/iblock/e0d/3ttt395ttfywn1xm05sn1at0aypc373k.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Альпина.Дети»",
+      "sourcePageUrl": "https://alpinabook.ru/catalog/book-kak-tima-ukusila-loshad/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
     "annotationProvenance": {
       "source": "Издательство «Альпина.Дети»",
       "sourceUrl": "https://alpinabook.ru/catalog/book-kak-tima-ukusila-loshad-komiksy/",
@@ -143287,7 +143467,19 @@
     "publisher": "Самокат",
     "pages": 64,
     "isbn13": "9785917598017",
-    "language": "ru"
+    "language": "ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://samokatbook.ru/upload/resize_cache/iblock/c57/1024_1024_1/c574c1c5021b5287155f7dfb324ccf53.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Самокат»",
+      "sourcePageUrl": "https://samokatbook.ru/book/semeynyy-albom-tirannozavra-toni-istoriya-dinozavrov/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9618
+    }
   },
   {
     "id": "curated-nen-collection-chelovetkin-dzhuliya-donaldson",
@@ -143481,7 +143673,19 @@
     "publicationYear": 2024,
     "pages": 56,
     "isbn13": "9785961489682",
-    "language": "ru"
+    "language": "ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://alpinabook.ru/upload/iblock/4f6/0c85ss00y75xzzyqqa034velrupf25wl/face_Martyn_Barsik.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Альпина.Дети»",
+      "sourcePageUrl": "https://alpinabook.ru/catalog/book-martyn-i-barsik-dva-kota-krasota/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9618
+    }
   },
   {
     "id": "curated-nen-collection-odin-za-vseh-i-vse-za-odnogo-brigit-veninger",
@@ -143678,7 +143882,19 @@
     "publisher": "АСТ",
     "pages": 144,
     "isbn13": "9785171585310",
-    "language": "ru"
+    "language": "ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://api.azbooka.ru/upload/iblock/110/110c667dd3de7ff13715a3af6d185c9f.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательская группа «Азбука-Аттикус»",
+      "sourcePageUrl": "https://azbooka.ru/books/piter-pen",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    }
   },
   {
     "id": "curated-nen-collection-vse-o-mumi-trollyah-tuve-yansson",
@@ -144306,7 +144522,19 @@
     "publisher": "Самокат",
     "pages": 176,
     "isbn13": "9785001672753",
-    "language": "ru"
+    "language": "ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://samokatbook.ru/upload/resize_cache/iblock/53d/1024_1024_1/4g8efkhqpbtp5369h2l5jtohj5azwtyr.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Самокат»",
+      "sourcePageUrl": "https://samokatbook.ru/book/ya-ne-ya-zhanna/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    }
   },
   {
     "id": "curated-nen-collection-chto-nuzhno-malenkoy-koshke-natalya-shaloshvili",
@@ -144568,7 +144796,19 @@
     "publisher": "Стрекоза",
     "pages": 48,
     "isbn13": "9785995149545",
-    "language": "ru"
+    "language": "ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://strecoza.ru/wp-content/uploads/2026/05/b6b01302-db08-11ed-aeae-8c89a5dd96ef_4f72f938-339e-11ef-a312-8c89a5dd96ef.jpeg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Стрекоза»",
+      "sourcePageUrl": "https://strecoza.ru/product/%d0%bc%d0%be%d1%8f-%d1%81%d0%b5%d1%81%d1%82%d1%80%d0%b5%d0%bd%d0%ba%d0%b0-%d0%be%d0%bb%d1%8c%d0%ba%d0%be%d0%b7%d0%b0%d0%b2%d1%80%d0%b0-%d0%b4%d0%b5%d1%82%d1%81%d0%ba%d0%b0%d1%8f-%d1%85%d1%83%d0%b4/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9618
+    }
   },
   {
     "id": "curated-nen-collection-kak-flip-zatopil-ves-mir-adam-stouer",
@@ -145114,7 +145354,19 @@
     "publisher": "Азбука-Аттикус",
     "pages": 352,
     "isbn13": "9785389188532",
-    "language": "ru"
+    "language": "ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://api.azbooka.ru/upload/iblock/3eb/3eb495c5c23084ef5911f58edfe0c031.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательская группа «Азбука-Аттикус»",
+      "sourcePageUrl": "https://azbooka.ru/books/miry-krestomansi-zakoldovannaya-zhizn",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9618
+    }
   },
   {
     "id": "curated-nen-collection-muley-erlend-lu",
@@ -145362,7 +145614,19 @@
     "author": "Ребекка Стед",
     "ageLabel": "12–17 лет",
     "whyRecommended": "Для читателей 12–17 лет это реалистическая проза о семье и школе. Книгу можно выбрать для самостоятельного чтения.",
-    "language": "ru"
+    "language": "ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://pgbooks.ru/upload/iblock/7a4/7a4d2cb3815f4803f0fe9a6cc07e84f0.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Розовый жираф»",
+      "sourcePageUrl": "https://pgbooks.ru/books/book/6102/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    }
   },
   {
     "id": "curated-nen-collection-trinadtsataya-skazka-diana-setterfild",
@@ -145427,7 +145691,19 @@
     "publisher": "Азбука-Аттикус",
     "pages": 448,
     "isbn13": "9785389073531",
-    "language": "ru"
+    "language": "ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://api.azbooka.ru/upload/iblock/be5/be590282c62b5c147a35513cae58ba4f.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательская группа «Азбука-Аттикус»",
+      "sourcePageUrl": "https://azbooka.ru/books/trinadtsataya-skazka-drvx",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9618
+    }
   },
   {
     "id": "curated-nen-collection-bezdna-chellendzhera-nil-shusterman",
@@ -145547,7 +145823,19 @@
     "publisher": "Азбука-Аттикус",
     "pages": 672,
     "isbn13": "9785389159662",
-    "language": "ru"
+    "language": "ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://api.azbooka.ru/upload/iblock/038/038dce9e865f5d8d168329832f2ae95f.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательская группа «Азбука-Аттикус»",
+      "sourcePageUrl": "https://azbooka.ru/books/devyatnadtsat-minut-vjib",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9618
+    }
   },
   {
     "id": "curated-nen-collection-ptitsa-v-kletke-robin-rou",
@@ -145671,7 +145959,19 @@
     "publisher": "АСТ",
     "pages": 32,
     "isbn13": "9785171047399",
-    "language": "ru"
+    "language": "ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000831449/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/kot-po-imeni-bob-831449/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9618
+    }
   },
   {
     "id": "curated-nen-collection-spletni-i-k-pop-aleksandra-yang",
@@ -145803,7 +146103,19 @@
     "publisher": "АСТ",
     "pages": 352,
     "isbn13": "9785170987221",
-    "language": "ru"
+    "language": "ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000724907/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/kheytery-724907/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    }
   },
   {
     "id": "curated-nen-collection-schepotka-magii-mishel-harrison",
@@ -145865,7 +146177,19 @@
     "author": "Мишель Харрисон",
     "ageLabel": "9–16 лет",
     "whyRecommended": "Для читателей 9–16 лет это фэнтези о дружбе, животных и путешествиях. Книгу можно выбрать для самостоятельного чтения.",
-    "language": "ru"
+    "language": "ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://alpinabook.ru/upload/iblock/74c/74c40d07d0beb8da3dba2c831b6ad20d.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Альпина.Дети»",
+      "sourcePageUrl": "https://alpinabook.ru/catalog/book-shchepotka-magii/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    }
   },
   {
     "id": "curated-nen-collection-gorstka-volshebstva-mishel-harrison",
@@ -145931,7 +146255,19 @@
     "publisher": "Альпина.Дети",
     "publicationYear": 2021,
     "pages": 414,
-    "language": "ru"
+    "language": "ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://alpinabook.ru/upload/iblock/484/wq0c34bohqo5e4awpxxf35adw7idu1qm/cover512.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Альпина.Дети»",
+      "sourcePageUrl": "https://alpinabook.ru/catalog/book-gorstka-volshebstva/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    }
   },
   {
     "id": "curated-nen-collection-klubok-zaklinaniy-mishel-harrison",
@@ -147847,7 +148183,19 @@
     "whyRecommended": "Подойдёт читателям 2–7 лет, которые любят фэнтези. В книге затрагиваются темы животных, отношений и волшебства.",
     "pages": 40,
     "isbn13": "9785001676911",
-    "language": "ru"
+    "language": "ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://samokatbook.ru/upload/resize_cache/iblock/db7/1024_1024_1/zr1nx637265a8j321mqnkid7ds362fik.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Самокат»",
+      "sourcePageUrl": "https://samokatbook.ru/book/v-poiskakh-deda-moroza/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    }
   },
   {
     "id": "curated-nen-collection-samoe-pervoe-novogodnee-derevo-ovila-fonten",

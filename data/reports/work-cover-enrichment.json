@@ -1,0 +1,3330 @@
+{
+  "generatedAt": "2026-08-07T06:46:00.155Z",
+  "algorithm": "canonical_work_official_cover_v1",
+  "summary": {
+    "checked": 199,
+    "coversAdded": 1,
+    "remainingWithoutCover": 198
+  },
+  "remainingReasons": {
+    "candidate_images_unavailable": 4,
+    "no_official_work_candidate": 176,
+    "no_usable_official_cover": 18
+  },
+  "sourceFailures": [],
+  "changes": [
+    {
+      "id": "nen-bv2-140",
+      "title": "Дом, в котором…",
+      "author": "Мариам Петросян",
+      "source": "livebooks",
+      "sourcePageUrl": "https://livebooks.ru/books/bloknot-a5-dom-v-kotorom/",
+      "coverUrl": "https://livebooks.ru/uploads/images/books/books_679.webp"
+    }
+  ],
+  "remaining": [
+    {
+      "id": "nen-009",
+      "title": "Момотаро",
+      "author": "Японская народная сказка",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "nen-052",
+      "title": "Спокойной ночи, Луна",
+      "author": "Маргарет Уайз Браун",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "nen-061",
+      "title": "Универмаг динозавров",
+      "author": "Лили Мюррей",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "nen-059",
+      "title": "Детектив Самсон",
+      "author": "Катерина Горелик",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "nen-008",
+      "title": "Аладдин и волшебная лампа",
+      "author": "Сказитель Ханна Дияб; публикация Антуана Галлана",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "nen-060",
+      "title": "Комиссар Гордон. Первый случай",
+      "author": "Ульф Нильсон",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "nen-bv2-021",
+      "title": "Мишка, бурый мишка, кто там впереди?",
+      "author": "Билл Мартин — младший",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "nen-010",
+      "title": "Волшебная кисть Ма Ляна",
+      "author": "Хун Сюньтао",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "nen-017",
+      "title": "Джейн, лиса и я",
+      "author": "Фанни Бритт",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "nen-064",
+      "title": "Калле Блумквист — сыщик",
+      "author": "Астрид Линдгрен",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "nen-bv2-022",
+      "title": "Мы идём охотиться на медведя",
+      "author": "Майкл Розен",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "nen-bv2-028",
+      "title": "Вельветовый Кролик",
+      "author": "Марджери Уильямс",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "nen-bv2-026",
+      "title": "Снежный день",
+      "author": "Эзра Джек Китс",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "nen-bv2-025",
+      "title": "Кордурой",
+      "author": "Дон Фриман",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "nen-bv2-032",
+      "title": "Где моя мама?",
+      "author": "Джулия Дональдсон",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "nen-bv2-092",
+      "title": "БДВ, или Большой и Добрый Великан",
+      "author": "Роальд Даль",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "nen-bv2-086",
+      "title": "Лев, колдунья и платяной шкаф",
+      "author": "Клайв Стейплз Льюис",
+      "reason": "candidate_images_unavailable",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "nen-bv2-031",
+      "title": "Кротик, который хотел знать, кто наделал ему на голову",
+      "author": "Вернер Хольцварт",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "nen-bv2-030",
+      "title": "Оливия",
+      "author": "Иэн Фалконер",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "nen-bv2-123",
+      "title": "Излом времени",
+      "author": "Мадлен Ленгл",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "nen-bv2-139",
+      "title": "Говори",
+      "author": "Лори Холс Андерсон",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "nen-bv2-105",
+      "title": "Тоби Лолнесс",
+      "author": "Тимоте де Фомбель",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "nen-bv2-150",
+      "title": "Вся ваша ненависть",
+      "author": "Энджи Томас",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "nen-bv2-147",
+      "title": "Элеанор и Парк",
+      "author": "Рейнбоу Рауэлл",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "nen-bv2-149",
+      "title": "Аристотель и Данте открывают тайны Вселенной",
+      "author": "Бенджамин Алире Саэнс",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "nen-bv2-148",
+      "title": "Саймон и программа Homo sapiens",
+      "author": "Бекки Алберталли",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "nen-bv2-146",
+      "title": "Поступь хаоса. Нож, которого нет",
+      "author": "Патрик Несс",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "nen-bv2-142",
+      "title": "Я хочу в школу!",
+      "author": "Андрей Жвалевский; Евгения Пастернак",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "nen-bv2-153",
+      "title": "Нимона",
+      "author": "Н. Д. Стивенсон",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "nen-bv2-156",
+      "title": "Американец китайского происхождения",
+      "author": "Джин Луэн Ян",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "nen-bv2-159",
+      "title": "Амулет. Хранительница камня",
+      "author": "Кадзу Кибуиси",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol19742114w",
+      "title": "Повторение пройденного",
+      "author": "Тамара Крюкова",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "nen-bv2-161",
+      "title": "Когда отдыхают ангелы",
+      "author": "Марина Аромштам",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol13647786w",
+      "title": "Мой дом на колёсах",
+      "author": "Наталья Дурова",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol2784137w",
+      "title": "Цыплёнок вечером",
+      "author": "Сергей Козлов",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol11388697w",
+      "title": "Морской охотник",
+      "author": "Николай Чуковский",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol754911w",
+      "title": "История про кота Игнасия, трубочиста Федю и Одинокую Мышь",
+      "author": "Людмила Улицкая",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol13715036w",
+      "title": "Друг детства",
+      "author": "В. Драгунский",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol4248290w",
+      "title": "Повести",
+      "author": "Валерий Алексеев",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol19970109w",
+      "title": "Сказки Чудо-дерева",
+      "author": "Валерий Кастрючин",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol12623265w",
+      "title": "Сказки про драконов",
+      "author": "Владимир Бояринов",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol20030843w",
+      "title": "Как Ёжик с Медвежонком протирали звезды",
+      "author": "С. Г. Козлов",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol4721004w",
+      "title": "Владимир красное солнышко",
+      "author": "Ф. В. Домбровский",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol19931441w",
+      "title": "Про зверей",
+      "author": "Константин Дмитриевич Ушинский",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol19952256w",
+      "title": "На нашем дворе",
+      "author": "Евгений Иванович Чарушин",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol19936377w",
+      "title": "Добрый волк",
+      "author": "Марк Тарловский",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol20043973w",
+      "title": "Скок-поскок",
+      "author": "Ю Васнецов",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol19931764w",
+      "title": "Всё о больших и маленьких приключениях",
+      "author": "Борис Житков",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol19935924w",
+      "title": "\"Как стать большим\" и другие истории",
+      "author": "Г. Цыферов",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol3803771w",
+      "title": "Хор охотников",
+      "author": "Г. Скребицкий",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol19978419w",
+      "title": "Большая собачья книга",
+      "author": "В. Н. Белоусов; М. В. Белоусова",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol4263283w",
+      "title": "Терем-теремок и другие сказки",
+      "author": "Владимир Сутеев",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol12719103w",
+      "title": "История одного поросенка",
+      "author": "Юрий Выннычук",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol32513596w",
+      "title": "Ленинградские сказки",
+      "author": "Юлия Яковлева",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol13710818w",
+      "title": "Весёлые истории",
+      "author": "Г. Цыферов",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol19734604w",
+      "title": "Кот в сапогах",
+      "author": "Н. И. Котятова; Т. В. Баринова",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol20043982w",
+      "title": "Папа, мама, и я",
+      "author": "В. Драгунский",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol12849951w",
+      "title": "Визгкультура, или, семейная качалка",
+      "author": "Григорий Остер",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol44294375w",
+      "title": "Приключения дяди Лёвы в румынских степях",
+      "author": "Янец Леви; Янив Шимони",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol20025742w",
+      "title": "Во-первых и во-вторых",
+      "author": "Даниил Хармс",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol19978791w",
+      "title": "Прогулки по детскому Петербургу",
+      "author": "Ольга Феофанова",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol23178263w",
+      "title": "Однажды звери всех мастей",
+      "author": "Михаил Бельчиков",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol3398755w",
+      "title": "Дельфиний остров",
+      "author": "С. Сахарнов",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol23925164w",
+      "title": "Сказки про хитрую-хитрую рыбу Любу и ведьму Наташу",
+      "author": "Владимир Снарков",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol12866329w",
+      "title": "Воздушные рыбки",
+      "author": "Марина Дяченко",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol1306134w",
+      "title": "Рассказы",
+      "author": "Виталий Бянки",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol623358w",
+      "title": "Сказка о царе Салтане, о сыне его славном и могучем богатере князе Гвидоне Салтановиче и о прекрасной царевне Лебеди",
+      "author": "Александр Сергеевич Пушкин",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol23852447w",
+      "title": "Сказка в русской живописи",
+      "author": "Марина Казиева",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol11483415w",
+      "title": "История про воробья Антверпена, кота Михеева, столетника Васю и сороконожку Марью Семеновну с семьей",
+      "author": "Людмила Улицкая",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol19734609w",
+      "title": "Волк и козлята",
+      "author": "Н. И. Котятова; Т. В. Баринова",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol23311994w",
+      "title": "Солнечный зайчик",
+      "author": "Ирина Белая",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol31578033w",
+      "title": "Домовёнок Фока и его друзья",
+      "author": "Андрей Васильевич Растворцев",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol20058937w",
+      "title": "Русская пленница французского кота",
+      "author": "Игорь Жуков",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol20044016w",
+      "title": "Песенки, стихи, загадки",
+      "author": "Л. М. Карпенко",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol13682862w",
+      "title": "Детский музыкальный фольклор Рязанской области",
+      "author": "Н. Н. Гилярова",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol6080944w",
+      "title": "Похищение продавца приключений",
+      "author": "Г. М. Садовников",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol19952284w",
+      "title": "Любимые стихи и сказки",
+      "author": "Борис Акимович Акулиничев",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol19935840w",
+      "title": "Хрестоматия детской классики",
+      "author": "В. Рябченко",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol19940727w",
+      "title": "Ничуть не страшно и другие сказки",
+      "author": "Л. Кириллов; Мария Рудаченко",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol13736457w",
+      "title": "Новая сказка",
+      "author": "Дмитрий Цветков",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol11630364w",
+      "title": "Необыкновенные приключения школьника Бобки, который изобрёл летающий стул",
+      "author": "Сергей Макаров",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol24010186w",
+      "title": "Легенды, были и сказки Крыма для детей",
+      "author": "Е. В. Белоусов",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol12917933w",
+      "title": "Поющее дерево",
+      "author": "Леонид Яхнин",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol2577056w",
+      "title": "Приключения Одиссея",
+      "author": "Е. А. Тудоровская",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol10339221w",
+      "title": "Три поросёнка; Трусохвостик; Одноглазый дрозд; Праздник непослушаня; Лесная Академия",
+      "author": "Сергей Владимирович Михалков",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol44383671w",
+      "title": "Приключения носорога Солнышко",
+      "author": "Татьяна Соловьева",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol11764672w",
+      "title": "Волшебная Ханукия",
+      "author": "Хава-Броха Корзакова",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol2256574w",
+      "title": "Волшебное кольцо",
+      "author": "Борис Шергин",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol5997389w",
+      "title": "Блохнесское чудовище, или, Жизнь и приключения милиционера Караваева",
+      "author": "Марина Москвина",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol19734608w",
+      "title": "Три медведя",
+      "author": "Н. И. Котятова; Т. В. Баринова",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol19747024w",
+      "title": "Все сказки и стихи для детского сада",
+      "author": "З. Александрова; Александр Сергеевич Пушкин",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol19978428w",
+      "title": "Лучшие сказки на ночь",
+      "author": "Л. Сидорова",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol32843984w",
+      "title": "Сказки Ф. Гауфа, Р. Густафсона, повести В. Гауфа, басни И. Хемницера, баллады В. А. Жуковского, стихи М. Ю. Лермонтова в иллюстрациях Дмитрия Митрохина",
+      "author": "Дмитрий Исидорович Митрохин",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol43971155w",
+      "title": "Сказки Матушки Гусыни",
+      "author": "Ирина Явчуновская",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol20044018w",
+      "title": "Русские загадки и сказки о животных",
+      "author": "М. Ф. Коршунова",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol6007209w",
+      "title": "Повествование о чувашах",
+      "author": "Елена Енькка",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol12951162w",
+      "title": "Приключения Старого Башмака, рассказанные им самим",
+      "author": "Георгий Балл",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol865257w",
+      "title": "Стихи, сказки, занимательные истории",
+      "author": "Даниил Хармс",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol13735521w",
+      "title": "Легенды Средневековья",
+      "author": "Н. Гарская",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol10339227w",
+      "title": "Три поросёнка",
+      "author": "Сергей Владимирович Михалков",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol19944755w",
+      "title": "Русские сказки и потешки",
+      "author": "Ирина Петелина",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol39493108w",
+      "title": "История про Мишу, Даню и бумажного змея",
+      "author": "Светлана Шенбрунн",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol43509234w",
+      "title": "Мартин не плачет",
+      "author": "Линор Горалик",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol11225343w",
+      "title": "Поросёнок Пётр едет в гости",
+      "author": "Людмила Стефановна Петрушевская",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol20015192w",
+      "title": "Три поросенка",
+      "author": "Е. Смирнова",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol13746366w",
+      "title": "Ну, погоди!",
+      "author": "Федор Камов",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol754910w",
+      "title": "История о старике Кулебякине, плаксивой кобыле Миле и жеребенке Равкине",
+      "author": "Людмила Улицкая",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol19952239w",
+      "title": "Журавлиные перья",
+      "author": "Вера Н. Маркова",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol35588586w",
+      "title": "Мифы Древнего Казахстана",
+      "author": "Орынбай Жанайдаров",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol20043999w",
+      "title": "Вежливое слово",
+      "author": "Е. Мошковская",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": [
+        {
+          "source": "official-publishers",
+          "error": "all_official_product_pages_unavailable:1"
+        }
+      ]
+    },
+    {
+      "id": "ol-ol19970141w",
+      "title": "Правдивая история колобка",
+      "author": "Андрей Усачёв",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol23852449w",
+      "title": "Лучшие детские анекдоты",
+      "author": "Лев Яковлев; Игор Новиков",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol5186967w",
+      "title": "Лилипут-сын великана",
+      "author": "Альберт Иванов",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": [
+        {
+          "source": "official-publishers",
+          "error": "all_official_product_pages_unavailable:5"
+        }
+      ]
+    },
+    {
+      "id": "ol-ol19931868w",
+      "title": "Басни",
+      "author": "Сергей Владимирович Михалков",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": [
+        {
+          "source": "official-publishers",
+          "error": "all_official_product_pages_unavailable:8"
+        }
+      ]
+    },
+    {
+      "id": "ol-ol19952281w",
+      "title": "Мы встречаем Новыи год!",
+      "author": "Илья Григорьевич Савченко",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": [
+        {
+          "source": "official-publishers",
+          "error": "all_official_product_pages_unavailable:8"
+        }
+      ]
+    },
+    {
+      "id": "ol-ol19936571w",
+      "title": "Поемы",
+      "author": "Александр Сергеевич Пушкин",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": [
+        {
+          "source": "official-publishers",
+          "error": "all_official_product_pages_unavailable:8"
+        }
+      ]
+    },
+    {
+      "id": "ol-ol19962766w",
+      "title": "Азбука для Буки",
+      "author": "Андрей Усачёв",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol45311343w",
+      "title": "Три повести о Васе Куролесове",
+      "author": "Юрий Коваль",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol13713535w",
+      "title": "Общее собрание героев повестей, рассказов, стихотворений и пьес",
+      "author": "Едуард Успенский",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol22792562w",
+      "title": "Хантыйские загадки",
+      "author": "Е. А. Нёмысова",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol12849949w",
+      "title": "Обезьянки младшего возраста",
+      "author": "Григорий Остер",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol23834945w",
+      "title": "Смиренный воин",
+      "author": "Георгий Юдин",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol32525747w",
+      "title": "Цезарь Великолепный",
+      "author": "Алёна Спиридонова",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "curated-samokat-dnevnik-kota-ubiytsy-vse-istorii-dnevnik-kota-ubiytsy-vse-istorii",
+      "title": "Дневник кота-убийцы. Все истории",
+      "author": "Энн Файн",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": [
+        {
+          "source": "official-publishers",
+          "error": "all_official_product_pages_unavailable:2"
+        }
+      ]
+    },
+    {
+      "id": "curated-whitecrow-mama-mu-i-snegokat-mama-mu-i-snegokat",
+      "title": "Мама Му и снегокат",
+      "author": "Юя; Томас Висландер; Свен Нурдквист",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": [
+        {
+          "source": "official-publishers",
+          "error": "all_official_product_pages_unavailable:4"
+        }
+      ]
+    },
+    {
+      "id": "curated-whitecrow-pust-on-ostanetsya-s-nami-pust-on-ostanetsya-s-nami",
+      "title": "Пусть он останется с нами",
+      "author": "Максуд Ибрагимбеков",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": [
+        {
+          "source": "official-publishers",
+          "error": "all_official_product_pages_unavailable:1"
+        }
+      ]
+    },
+    {
+      "id": "curated-whitecrow-skazka-na-rozhdestvo-skazka-na-rozhdestvo",
+      "title": "Сказка на Рождество",
+      "author": "Джованнино Гуарески",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": [
+        {
+          "source": "official-publishers",
+          "error": "all_official_product_pages_unavailable:8"
+        }
+      ]
+    },
+    {
+      "id": "curated-whitecrow-skazka-o-vetre-v-bezvetrennyy-den-skazka-o-vetre",
+      "title": "Сказка о ветре в безветренный день",
+      "author": "Софья Прокофьева",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "curated-whitecrow-belyy-aist-poslanets-neba-chernyy-aist-lesnoy-otshelnik-belyj-aist-chernyj-aist",
+      "title": "Белый аист. Посланец неба. Черный аист. Лесной отшельник",
+      "author": "Николай Шпиленок",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "curated-whitecrow-dzheyn-lisa-i-ya-jane-lisa-i-ya",
+      "title": "Джейн, лиса и я",
+      "author": "Изабель Арсено; Фанни Бритт",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "curated-whitecrow-schastlivyy-neudachnik-schastlivyj-neudachnik",
+      "title": "Счастливый неудачник",
+      "author": "Вадим Шефнер",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "curated-whitecrow-maksi-pes-fik-priklyucheniya-prodolzhayutsya-maksi-pyos-fik-priklyucheniya-prodolzhayutsya",
+      "title": "Макси-пёс Фик. Приключения продолжаются",
+      "author": "Рудольф Чехура; Иржи Шаламоун",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": [
+        {
+          "source": "official-publishers",
+          "error": "all_official_product_pages_unavailable:1"
+        }
+      ]
+    },
+    {
+      "id": "curated-whitecrow-kum-korolyu-kum-korolyu",
+      "title": "Кум Королю",
+      "author": "Станислав Востоков; Вера Цепилова",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": [
+        {
+          "source": "official-publishers",
+          "error": "all_official_product_pages_unavailable:1"
+        }
+      ]
+    },
+    {
+      "id": "curated-whitecrow-mama-mu-poranilas-mama-mu-poranilas",
+      "title": "Мама Му поранилась",
+      "author": "Юя Висландер; Свен Нурдквист",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": [
+        {
+          "source": "official-publishers",
+          "error": "all_official_product_pages_unavailable:4"
+        }
+      ]
+    },
+    {
+      "id": "curated-whitecrow-vverh-po-lestnitse-veduschey-vniz-vverh-po-lestnitse-vedushhej-vniz",
+      "title": "Вверх по лестнице, ведущей вниз",
+      "author": "Бел Кауфман",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": [
+        {
+          "source": "official-publishers",
+          "error": "all_official_product_pages_unavailable:1"
+        }
+      ]
+    },
+    {
+      "id": "curated-whitecrow-karius-i-bakterius-karius-i-bakterius",
+      "title": "Кариус и Бактериус",
+      "author": "Турбьёрн Эгнер",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": [
+        {
+          "source": "official-publishers",
+          "error": "all_official_product_pages_unavailable:1"
+        }
+      ]
+    },
+    {
+      "id": "curated-whitecrow-ogorod-na-podokonnike-ogorod-na-podokonnike",
+      "title": "Огород на подоконнике",
+      "author": "Клара Лидстрём; Аннакарин Нюберг",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": [
+        {
+          "source": "official-publishers",
+          "error": "all_official_product_pages_unavailable:8"
+        }
+      ]
+    },
+    {
+      "id": "curated-whitecrow-lui-sredi-prizrakov-lui-sredi-prizrakov",
+      "title": "Луи среди призраков",
+      "author": "Изабель Арсено; Фанни Бритт",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": [
+        {
+          "source": "official-publishers",
+          "error": "all_official_product_pages_unavailable:3"
+        }
+      ]
+    },
+    {
+      "id": "curated-whitecrow-kak-ya-teper-zhivu-meg-rosoff-kak-ya-teper-zhivu",
+      "title": "Как я теперь живу",
+      "author": "Мег Розофф",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": [
+        {
+          "source": "official-publishers",
+          "error": "all_official_product_pages_unavailable:8"
+        }
+      ]
+    },
+    {
+      "id": "curated-whitecrow-i-belye-teni-v-lesu-i-belye-teni-v-lesu",
+      "title": "И белые тени в лесу",
+      "author": "Мария Грипе",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": [
+        {
+          "source": "official-publishers",
+          "error": "all_official_product_pages_unavailable:1"
+        }
+      ]
+    },
+    {
+      "id": "curated-whitecrow-myshinaya-kniga-myshinaya-kniga",
+      "title": "Мышиная книга",
+      "author": "Стефан Каста; Стаффан Ульстрём",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": [
+        {
+          "source": "official-publishers",
+          "error": "all_official_product_pages_unavailable:8"
+        }
+      ]
+    },
+    {
+      "id": "curated-whitecrow-vyshel-lev-iz-za-gory-vyshel-lev-iz-za-gory",
+      "title": "Вышел лев из-за горы",
+      "author": "Григорий Кружков",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": [
+        {
+          "source": "official-publishers",
+          "error": "all_official_product_pages_unavailable:2"
+        }
+      ]
+    },
+    {
+      "id": "curated-whitecrow-vse-druzya-naperechet-vse-druzya-naperechet",
+      "title": "Все друзья наперечёт",
+      "author": "Лена Андерсон",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": [
+        {
+          "source": "official-publishers",
+          "error": "all_official_product_pages_unavailable:1"
+        }
+      ]
+    },
+    {
+      "id": "curated-whitecrow-tayna-hvoinki-tajna-hvoinki",
+      "title": "Тайна Хвоинки",
+      "author": "Лена Андерсон",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": [
+        {
+          "source": "official-publishers",
+          "error": "all_official_product_pages_unavailable:3"
+        }
+      ]
+    },
+    {
+      "id": "curated-whitecrow-hvoinka-svinofufik-i-nosik-rozochkoy-hvoinka-svinofufik-i-nosik-rozochkoj",
+      "title": "Хвоинка, Свинофуфик и Носик-Розочкой",
+      "author": "Лена Андерсон",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": [
+        {
+          "source": "official-publishers",
+          "error": "all_official_product_pages_unavailable:1"
+        }
+      ]
+    },
+    {
+      "id": "curated-whitecrow-korabl-noya-korabl-noya",
+      "title": "Корабль Ноя",
+      "author": "Салли Альтшулер; Свен Нурдквист",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": [
+        {
+          "source": "official-publishers",
+          "error": "all_official_product_pages_unavailable:3"
+        }
+      ]
+    },
+    {
+      "id": "curated-whitecrow-myach-v-igre-myach-v-igre",
+      "title": "Мяч в игре!",
+      "author": "Алексей Дурново",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": [
+        {
+          "source": "official-publishers",
+          "error": "all_official_product_pages_unavailable:2"
+        }
+      ]
+    },
+    {
+      "id": "curated-whitecrow-pohozhdeniya-memeka-muzykanta-memek-muzykant",
+      "title": "Похождения Мемека-музыканта",
+      "author": "Жан-Клод Мурлева",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "curated-whitecrow-brat-yunnat-brat-unnat",
+      "title": "Брат-юннат",
+      "author": "Станислав Востоков",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "curated-whitecrow-kak-ya-nechayanno-napisala-knigu-kak-ya-nechayanno-napisala-knigu",
+      "title": "Как я нечаянно написала книгу",
+      "author": "Аннет Хёйзинг",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": [
+        {
+          "source": "official-publishers",
+          "error": "all_official_product_pages_unavailable:1"
+        }
+      ]
+    },
+    {
+      "id": "curated-whitecrow-malyutka-laban-priklyucheniya-v-zamke-malyutka-laban-priklyucheniya-v-zamke",
+      "title": "Малютка Лабан. Приключения в замке",
+      "author": "Ингер; Лассе Сандберг",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "curated-whitecrow-legenda-o-salli-dzhons-salli-legenda",
+      "title": "Легенда о Салли Джонс",
+      "author": "Якоб Вегелиус",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol20016949w",
+      "title": "Русские богатери",
+      "author": "И. В. Карнаухова",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": [
+        {
+          "source": "official-publishers",
+          "error": "all_official_product_pages_unavailable:5"
+        }
+      ]
+    },
+    {
+      "id": "curated-whitecrow-kogda-idesh-po-mostu-mosty",
+      "title": "Когда идешь по мосту",
+      "author": "Эрна Усланд",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "curated-whitecrow-petson-i-findus-semeynyy-kalendar-na-2019-god-kalendar-petson-i-findus-2019",
+      "title": "Петсон и Финдус. Семейный календарь на 2019 год",
+      "author": "Свен Нурдквист",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "curated-whitecrow-malenkiy-stark-mal-stark",
+      "title": "Маленький Старк",
+      "author": "Ульф Старк",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol40061329w",
+      "title": "Хранители очага",
+      "author": "Андрей Васильевич Растворцев",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "curated-whitecrow-teatr-dzhanni-rodari-teatr-dzhanni-rodari",
+      "title": "Театр Джанни Родари",
+      "author": "Джанни Родари",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "curated-whitecrow-sonya-iz-7-buee-sonya-iz-sedmogo-buee",
+      "title": "Соня из 7„Буээ“",
+      "author": "Алексей Олейников; Тимофей Яржомбек",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "curated-whitecrow-nalle-lapson-nalle-lapson",
+      "title": "Налле Лапсон",
+      "author": "Йоста Кнутсон",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "curated-whitecrow-charlz-darvin-revolyutsiya-charles-darwin",
+      "title": "Чарлз Дарвин. Революция",
+      "author": "Аннабель Кремер",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol869549w",
+      "title": "Солнце на потолке",
+      "author": "Олег Кургузов",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "curated-whitecrow-nalle-lapson-beretsya-za-delo-nalle-lapson-beretsya-za-delo",
+      "title": "Налле Лапсон берется за дело",
+      "author": "Йоста Кнутсон",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "ol-ol13738508w",
+      "title": "Карандаш и Самоделкин на острове необычайных приклюхений",
+      "author": "В. Постников",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "curated-whitecrow-lui-paster-uchenyy-detektiv-louis-pasteur",
+      "title": "Луи Пастер. Ученый-детектив",
+      "author": "Флоранс Пино",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "curated-whitecrow-malenkaya-povest-o-lyubvi-malenkaya-povest-o-lyubvi",
+      "title": "Маленькая повесть о любви",
+      "author": "Ульф Старк",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "curated-whitecrow-begletsy-ulf-stark-beglecy",
+      "title": "Беглецы",
+      "author": "Ульф Старк",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "curated-whitecrow-nalle-lapson-i-tyapka-nalle-lapson-i-tyapka",
+      "title": "Налле Лапсон и Тяпка",
+      "author": "Йоста Кнутсон",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "curated-whitecrow-puteshestvie-k-tsentru-zemli-po-proizvedeniyu-zhyulya-verna-puteshestvie-k-centru-zemli",
+      "title": "Путешествие к центру Земли. По произведению Жюля Верна",
+      "author": "Маттео Бертон",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "curated-whitecrow-petson-i-findus-semeynyy-kalendar-na-2020-god-kalendar-petson-i-findus-2020",
+      "title": "Петсон и Финдус. Семейный календарь на 2020 год",
+      "author": "Свен Нурдквист",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "curated-whitecrow-cherez-granitsu-maja-lunde-cherez-granicu",
+      "title": "Через границу",
+      "author": "Майя Лунде",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "curated-whitecrow-istoriya-o-kroshke-ele-i-kosmonavte-layke-istoriya-o-kroshke-ele-i-kosmonavte-layke",
+      "title": "История о Крошке Эле и космонавте Лайке",
+      "author": "Хелен Рундгрен; Кеннет Андерссон",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "curated-nen-collection-odin-za-vseh-i-vse-za-odnogo-brigit-veninger",
+      "title": "Один за всех и все за одного",
+      "author": "Бригит Венингер",
+      "reason": "no_usable_official_cover",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "curated-whitecrow-zagadki-detektiva-schuki-zagadki-detektiva-shhuki",
+      "title": "Загадки детектива Щуки",
+      "author": "Иржи Калоусек; Иржи Лапачек",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "curated-nen-collection-meydelin-finn-i-sobaka-iz-priyuta-liza-papp",
+      "title": "Мейделин Финн и собака из приюта",
+      "author": "Лиза Папп",
+      "reason": "no_usable_official_cover",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "curated-whitecrow-parko-parco",
+      "title": "Парко",
+      "author": "Алекс Ногес; Гуриди",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "curated-alpina-deti-persey-book-persey",
+      "title": "Персей",
+      "author": "Ольга Орлова",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "curated-whitecrow-kakim-ya-byl-meg-rosoff-kakim-ya-byl",
+      "title": "Каким я был",
+      "author": "Мег Розофф",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "curated-nen-collection-vse-o-mumi-trollyah-tuve-yansson",
+      "title": "Все о Муми-троллях",
+      "author": "Туве Янссон",
+      "reason": "no_usable_official_cover",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "curated-nen-collection-kto-uteshit-knyutta-tuve-yansson",
+      "title": "Кто утешит Кнютта",
+      "author": "Туве Янссон",
+      "reason": "no_usable_official_cover",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "curated-nen-collection-reka-tekuschaya-vspyat-klod-murleva",
+      "title": "Река, текущая вспять",
+      "author": "Жан-Клод Мурлева",
+      "reason": "no_usable_official_cover",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "curated-nen-collection-pro-lisa-i-porosenka-bern-rervik",
+      "title": "Про Лиса и Поросенка",
+      "author": "Бьёрн Рёрвик",
+      "reason": "no_usable_official_cover",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "curated-nen-collection-vernye-druzya-mariam-kordes",
+      "title": "Верные друзья",
+      "author": "Мариам Кордес",
+      "reason": "no_usable_official_cover",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "curated-nen-collection-molli-i-shtormovoe-more-doyl-malahiya",
+      "title": "Молли и штормовое море",
+      "author": "Дойл Малахия",
+      "reason": "no_usable_official_cover",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "curated-nen-collection-pingvikingi-anton-soya",
+      "title": "Пингвикинги",
+      "author": "Антон Соя",
+      "reason": "no_usable_official_cover",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "curated-nen-collection-bezdna-chellendzhera-nil-shusterman",
+      "title": "Бездна Челленджера",
+      "author": "Нил Шустерман",
+      "reason": "no_usable_official_cover",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "curated-nen-collection-muley-erlend-lu",
+      "title": "Мулей",
+      "author": "Эрленд Лу",
+      "reason": "no_usable_official_cover",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "curated-nen-collection-shkola-v-karmartene-anna-korosteleva",
+      "title": "Школа в Кармартене",
+      "author": "Анна Коростелева",
+      "reason": "no_usable_official_cover",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "curated-nen-collection-ptitsa-v-kletke-robin-rou",
+      "title": "Птица в клетке",
+      "author": "Робин Роу",
+      "reason": "no_usable_official_cover",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "curated-nen-collection-spletni-i-k-pop-aleksandra-yang",
+      "title": "Сплетни и K-pop",
+      "author": "Александра Янг",
+      "reason": "candidate_images_unavailable",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "curated-nen-collection-gde-to-v-snegu-linde-faas",
+      "title": "Где-то в снегу",
+      "author": "Линде Фаас",
+      "reason": "no_usable_official_cover",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "curated-nen-collection-zhutko-gromko-i-zapredelno-blizko-safran-foer",
+      "title": "Жутко громко и запредельно близко",
+      "author": "Джонатан Сафран Фоер",
+      "reason": "candidate_images_unavailable",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "curated-nen-collection-zavetnoe-zhelanie-krotika-sangyn-kim",
+      "title": "Заветное желание кротика",
+      "author": "Сангын Ким",
+      "reason": "no_usable_official_cover",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "curated-nen-collection-vasilkovaya-zima-hegyum-kim",
+      "title": "Васильковая зима",
+      "author": "Хегюм Ким",
+      "reason": "no_usable_official_cover",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "curated-nen-collection-letniy-den-s-druzyami-filip-vehter",
+      "title": "Летний день с друзьями",
+      "author": "Филип Вехтер",
+      "reason": "no_usable_official_cover",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "curated-nen-collection-elka-yulka-olive-tallek",
+      "title": "Елка Юлька",
+      "author": "Оливье Таллек",
+      "reason": "no_usable_official_cover",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "curated-nen-collection-milye-kosti-elis-sibold",
+      "title": "Милые кости",
+      "author": "Элис Сиболд",
+      "reason": "candidate_images_unavailable",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    },
+    {
+      "id": "curated-nen-collection-vyuzhik-i-upavshaya-zvezda-anna-mohovaya",
+      "title": "Вьюжик и упавшая звезда",
+      "author": "Анна Моховая",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": []
+    }
+  ]
+}

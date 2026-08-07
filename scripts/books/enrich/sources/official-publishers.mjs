@@ -17,6 +17,7 @@ const definitions = [
   { key: "alpina", name: "Издательство «Альпина.Дети»", publisher: "Альпина.Дети", sitemaps: ["https://alpinabook.ru/upload/sitemap.xml"], product: /^https:\/\/alpinabook\.ru\/catalog\/book-[^/]+\/?$/u },
   { key: "mif", name: "Издательство «МИФ»", publisher: "МИФ.Детство", sitemaps: ["https://www.mann-ivanov-ferber.ru/sitemap.xml"], sitemapTimeoutMs: 120_000, product: /^https:\/\/www\.mann-ivanov-ferber\.ru\/catalog\/product\/[^/]+\/?$/u },
   { key: "pink-giraffe", name: "Издательство «Розовый жираф»", publisher: "Розовый жираф", sitemaps: ["https://pgbooks.ru/sitemap_index.xml"], recursiveSitemaps: true, indexPageTitles: true, product: /^https:\/\/pgbooks\.ru\/books\/book\/\d+\/?$/u },
+  { key: "livebooks", name: "Издательство Livebook", publisher: "Livebook", sitemaps: ["https://livebooks.ru/sitemap.xml"], recursiveSitemaps: true, indexPageTitles: true, workSearch: { path: "/search/", parameter: "find" }, product: /^https:\/\/livebooks\.ru\/books\/[^/?#]+\/?$/u },
   { key: "young-guard", name: "Издательство «Молодая гвардия»", publisher: "Молодая гвардия", listingPages: Array.from({ length: 79 }, (_, index) => `https://gvardiya.ru/books?page=${index + 1}&order=popularity&tags=&series=&saleOnly=0`), product: /^https:\/\/gvardiya\.ru\/books\/[^/]+\/[^/?#]+\/?$/u },
   { key: "melik-pashaev", name: "Издательство «Мелик-Пашаев»", publisher: "Мелик-Пашаев", sitemaps: ["https://melik-pashaev.ru/product-sitemap.xml"], product: /^https:\/\/melik-pashaev\.ru\/product\/[^/]+\/?$/u },
   { key: "ast-full", name: "Издательство «АСТ»", publisher: "АСТ", sitemaps: ["https://ast.ru/sitemap.xml"], recursiveSitemaps: true, product: /^https:\/\/ast\.ru\/book\/[^/]+\/?$/u },
@@ -50,7 +51,16 @@ function officialSearchUrls(definition, isbn) {
   return [`${origin}/search/?q=${isbn}`, `${origin}/?s=${isbn}`, `${origin}/search/?search=${isbn}`];
 }
 
-export function createOfficialPublisherSource({ cache, concurrency = 6, root, matchLevel = 1, publisherKeys } = {}) {
+function officialWorkSearchUrl(definition, book) {
+  if (!definition.workSearch) return undefined;
+  const origin = definition.sitemaps?.[0] ? new URL(definition.sitemaps[0]).origin : definition.listingPages?.[0] ? new URL(definition.listingPages[0]).origin : undefined;
+  if (!origin) return undefined;
+  const url = new URL(definition.workSearch.path, origin);
+  url.searchParams.set(definition.workSearch.parameter, workTitles(book)[0]);
+  return url.href;
+}
+
+export function createOfficialPublisherSource({ cache, concurrency = 6, root, matchLevel = 1, publisherKeys, workCoverMode = false } = {}) {
   const activeDefinitions = publisherKeys?.length ? definitions.filter((definition) => publisherKeys.includes(definition.key)) : definitions;
   const sitemapCachePath = root ? resolve(root, "data/.cache/books-enrich/publisher-urls.json") : undefined;
   const pageTitleCachePath = root ? resolve(root, "data/.cache/books-enrich/publisher-page-titles.json") : undefined;
@@ -139,12 +149,12 @@ export function createOfficialPublisherSource({ cache, concurrency = 6, root, ma
       }
     },
     async search(book) {
-      const cacheKey = `${source.key}:adapter-v3-isbn-work-graph:match-level-${matchLevel}:publishers-${activeDefinitions.map((item) => item.key).join(",")}`;
+      const cacheKey = `${source.key}:${workCoverMode ? "canonical-work-cover-v9" : "adapter-v3-isbn-work-graph"}:match-level-${matchLevel}:publishers-${activeDefinitions.map((item) => item.key).join(",")}`;
       const cached = cache?.get(cacheKey, book);
       if (cached) return cached;
       const wanted = bookTokens(book);
       const trials = [];
-      if (book.isbn13) {
+      if (!workCoverMode && book.isbn13) {
         const preferred = activeDefinitions.filter((definition) => publisherMatches(book.publisher, definition.publisher));
         const isbnDefinitions = preferred.length ? preferred : activeDefinitions;
         for (const definition of isbnDefinitions) {
@@ -173,6 +183,22 @@ export function createOfficialPublisherSource({ cache, concurrency = 6, root, ma
         }).filter((item) => item.score >= minimumScore).sort((a, b) => b.score - a.score).slice(0, perPublisher);
         trials.push(...ranked.filter((trial) => !trials.some((existing) => existing.url === trial.url)));
       }
+      if (workCoverMode) {
+        for (const definition of activeDefinitions.filter((item) => item.workSearch)) {
+          const searchUrl = officialWorkSearchUrl(definition, book);
+          if (!searchUrl) continue;
+          try {
+            const html = await fetchText(searchUrl, { attempts: 1, timeoutMs: 8_000, headers: { "user-agent": "Mozilla/5.0" } });
+            const links = [...new Set(pageLinks(html, searchUrl).filter((url) => definition.product.test(url)))];
+            const rankedLinks = links.map((url) => {
+              const tokens = urlTokens(url);
+              const common = wanted.filter((token) => tokens.has(token)).length;
+              return { url, score: common / Math.max(1, wanted.length, tokens.size) };
+            }).filter((item) => item.score >= 0.3).sort((left, right) => right.score - left.score).slice(0, 8);
+            for (const item of rankedLinks) trials.push({ ...item, definition, strategy: "official_work_search" });
+          } catch { /* continue with the next official catalog */ }
+        }
+      }
       if (!trials.length && (!publisherKeys?.length || publisherKeys.includes("ast-full"))) {
         try {
           const surname = normalize(book.author).split(" ").at(-1) ?? "";
@@ -184,10 +210,10 @@ export function createOfficialPublisherSource({ cache, concurrency = 6, root, ma
         } catch { /* next source will be used */ }
       }
       let pageErrors = 0;
-      const trialLimit = matchLevel === 1 ? 1 : matchLevel === 2 ? 2 : 3;
+      const trialLimit = workCoverMode ? 8 : matchLevel === 1 ? 1 : matchLevel === 2 ? 2 : 3;
       const attemptedTrials = trials
         .sort((left, right) => (
-          Number(publisherMatches(book.publisher, right.definition.publisher)) - Number(publisherMatches(book.publisher, left.definition.publisher))
+          (workCoverMode ? 0 : Number(publisherMatches(book.publisher, right.definition.publisher)) - Number(publisherMatches(book.publisher, left.definition.publisher)))
           || right.score - left.score
         ))
         .slice(0, trialLimit);
@@ -209,8 +235,8 @@ export function createOfficialPublisherSource({ cache, concurrency = 6, root, ma
             sourceRecordId: new URL(trial.url).pathname,
             sourcePriority: 100,
             officialPublisher: true,
-            isRussianEdition: parsed.language === "ru" || parsed.isbn13?.startsWith("9785"),
-            confidence: Math.min(0.99, 0.78 + score * 0.15 + (parsed.isbn13 ? 0.04 : 0.02)),
+            isRussianEdition: parsed.language === "ru",
+            confidence: Math.min(0.97, 0.8 + score * 0.17),
             cover: parsed.coverUrl ? { url: parsed.coverUrl, official: true } : undefined,
           };
         } catch { pageErrors += 1; return undefined; }

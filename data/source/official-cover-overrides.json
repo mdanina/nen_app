@@ -2353,20 +2353,30 @@
     "id": "nen-bv2-075",
     "cover": {
       "kind": "external",
-      "url": "https://detlit.ru/images/detailed/12477/2a29429f158911e980cd00505684449c_e2088b62221b11eda97c005056ac6fe2.jpg",
+      "url": "https://api.azbooka.ru/upload/iblock/5f4/zhjlq8exxycpix1hqlauest3as4clx2x.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Детская литература»",
-      "sourcePageUrl": "https://detlit.ru/nm-lagin-starik-hottabych/",
+      "sourceName": "Издательская группа «Азбука-Аттикус»",
+      "sourcePageUrl": "https://azbooka.ru/books/starik-khottabych-zknh",
       "temporary": true,
       "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-07-28"
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9618
     },
     "match": {
-      "strategy": "official_page_title_author",
-      "confidence": 0.99,
-      "titleMatch": 1,
-      "authorMatch": true,
-      "isbnExact": false
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9618,
+      "matchedTitle": "Старик Хоттабыч (интегральный)",
+      "matchedAuthors": [
+        "Лазарь Лагин"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
     }
   },
   {
@@ -2777,21 +2787,30 @@
     "id": "ol-ol7598211w",
     "cover": {
       "kind": "external",
-      "url": "https://detlit.ru/images/detailed/12477/2a294289158911e980cd00505684449c_cfecb66864e611eda97d005056ac6fe2.jpg",
+      "url": "https://detlit.ru/images/detailed/12539/2a294289158911e980cd00505684449c_cfecb66864e611eda97d005056ac6fe2.jpg",
       "rightsStatus": "external-display-only",
       "sourceName": "Издательство «Детская литература»",
       "sourcePageUrl": "https://detlit.ru/nm-durov-moi-zveri/",
-      "isbn13": null,
       "temporary": true,
       "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-07-28"
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9618
     },
     "match": {
-      "strategy": "official_page_title_author",
-      "confidence": 0.99,
-      "titleMatch": 1,
-      "authorMatch": true,
-      "isbnExact": false
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9618,
+      "matchedTitle": "НМ Дуров. Мои звери",
+      "matchedAuthors": [
+        "Владимир Дуров"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
     }
   },
   {
@@ -2887,20 +2906,30 @@
     "id": "nen-020",
     "cover": {
       "kind": "external",
-      "url": "https://kompasgid.ru/wp-content/uploads/2022/05/bmd-2-ebook-761x1024.jpg",
+      "url": "https://kompasgid.ru/wp-content/uploads/2023/02/cover-18.webp",
       "rightsStatus": "external-display-only",
       "sourceName": "Издательство «КомпасГид»",
-      "sourcePageUrl": "https://kompasgid.ru/product/bolshaya-malenkaya-devochka-kniga-2-istorii-7-12-avt-mariya-bershadskaya-kompasgid-978-5-00083-748-1/",
+      "sourcePageUrl": "https://kompasgid.ru/product/bolshaya-malenkaya-devochka-istoriya-pervaya-kak-priruchit-gorod/",
       "temporary": true,
       "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-07-28"
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "match": {
-      "strategy": "official_page_title_author",
-      "confidence": 0.99,
-      "titleMatch": 1,
-      "authorMatch": true,
-      "isbnExact": false
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Бершадская Мария | Большая маленькая девочка. История первая. Как приручить город (Мягкая обложка)",
+      "matchedAuthors": [
+        "Бершадская Мария Год выпуска 2025 г."
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
     }
   },
   {
@@ -3694,21 +3723,30 @@
     "id": "ol-ol13363741w",
     "cover": {
       "kind": "external",
-      "url": "https://detlit.ru/images/detailed/12482/77b390c9d89011ea80df00505684449c_77b390cad89011ea80df00505684449c.jpg",
+      "url": "https://detlit.ru/images/detailed/12543/77b390c9d89011ea80df00505684449c_77b390cad89011ea80df00505684449c.jpg",
       "rightsStatus": "external-display-only",
       "sourceName": "Издательство «Детская литература»",
       "sourcePageUrl": "https://detlit.ru/veseloe-moreplavanie-solnyshkina-ru/",
-      "isbn13": "9785479002083",
       "temporary": true,
       "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-07-28"
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9618
     },
     "match": {
-      "strategy": "official_page_work_title_author",
-      "confidence": 0.99,
-      "titleMatch": 1,
-      "authorMatch": true,
-      "isbnExact": false
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9618,
+      "matchedTitle": "Коржиков В.Т. Весёлое мореплавание Солнышкина (эл. книга)",
+      "matchedAuthors": [
+        "Виталий Коржиков"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
     }
   },
   {
@@ -4621,20 +4659,30 @@
     "id": "nen-051",
     "cover": {
       "kind": "external",
-      "url": "https://www.books.ru/static/images/item_no_cover.png",
+      "url": "https://pgbooks.ru/upload/iblock/3e6/ogg_001.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "books.ru",
-      "sourcePageUrl": "https://www.books.ru/books/ochen-golodnaya-gusenitsa-1532020/",
+      "sourceName": "Издательство «Розовый жираф»",
+      "sourcePageUrl": "https://pgbooks.ru/books/book/458/",
       "temporary": true,
-      "attribution": "Обложка опубликована в карточке современного издания.",
-      "verifiedAt": "2026-07-28"
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "match": {
-      "strategy": "official_page_exact_isbn",
-      "confidence": 1,
-      "titleMatch": 1,
-      "authorMatch": true,
-      "isbnExact": true
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Очень голодная гусеница",
+      "matchedAuthors": [
+        "Эрик Карл"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
     }
   },
   {
@@ -4703,21 +4751,30 @@
     "id": "nen-bv2-013",
     "cover": {
       "kind": "external",
-      "url": "https://www.moscowbooks.ru/i/main-cover.jpg",
+      "url": "https://pgbooks.ru/upload/iblock/cbe/0017_vek_wonder_cover.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "moscowbooks.ru",
-      "sourcePageUrl": "https://www.moscowbooks.ru/book/1142191/",
-      "isbn13": "9785437003428",
+      "sourceName": "Издательство «Розовый жираф»",
+      "sourcePageUrl": "https://pgbooks.ru/books/book/8336/",
       "temporary": true,
-      "attribution": "Обложка опубликована в карточке современного издания.",
-      "verifiedAt": "2026-07-28"
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "match": {
-      "strategy": "official_page_exact_isbn",
-      "confidence": 1,
-      "titleMatch": 1,
-      "authorMatch": true,
-      "isbnExact": true
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Чудо",
+      "matchedAuthors": [
+        "Р. Дж. Паласио"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
     }
   },
   {
@@ -5033,21 +5090,30 @@
     "id": "ol-ol13714296w",
     "cover": {
       "kind": "external",
-      "url": "https://www.moscowbooks.ru/i/main-cover.jpg",
+      "url": "https://melik-pashaev.ru/wp-content/uploads/2025/04/potap_cover-1200.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "moscowbooks.ru",
-      "sourcePageUrl": "https://www.moscowbooks.ru/book/1231420/",
-      "isbn13": null,
+      "sourceName": "Издательство «Мелик-Пашаев»",
+      "sourcePageUrl": "https://melik-pashaev.ru/product/petya-i-potap/",
       "temporary": true,
-      "attribution": "Обложка опубликована в карточке современного издания.",
-      "verifiedAt": "2026-07-28"
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "match": {
-      "strategy": "official_page_exact_isbn",
-      "confidence": 1,
-      "titleMatch": 1,
-      "authorMatch": true,
-      "isbnExact": true
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Петя и Потап",
+      "matchedAuthors": [
+        "Чижиков Виктор Художник Чижиков Виктор Вид Твердый переплет Кол-во страниц 88 Возраст 4-6 лет"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
     }
   },
   {
@@ -17837,48 +17903,60 @@
     "id": "curated-nen-collection-piter-pen-dzheyms-barri",
     "cover": {
       "kind": "external",
-      "url": "https://n-e-n.ru/images/2020-12-28/5fe9e9bb8a49f_0x0.jpg",
+      "url": "https://api.azbooka.ru/upload/iblock/110/110c667dd3de7ff13715a3af6d185c9f.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
-      "isbn13": "9785171585310",
+      "sourceName": "Издательская группа «Азбука-Аттикус»",
+      "sourcePageUrl": "https://azbooka.ru/books/piter-pen",
       "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "match": {
-      "strategy": "work_title_author",
-      "confidence": 0.99
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Питер Пэн",
+      "matchedAuthors": [
+        "Джеймс Барри"
+      ]
     },
     "verification": {
       "imageVerified": true,
-      "sameEdition": true,
+      "canonicalWorkMatched": true,
       "titleMatched": true,
-      "authorMatched": true
+      "authorMatched": true,
+      "editionIndependent": true
     }
   },
   {
     "id": "curated-nen-collection-moya-sestrenka-olkozavra-dina-gerbek",
     "cover": {
       "kind": "external",
-      "url": "https://n-e-n.ru/images/2021-10-07/615f1a2d5f390_0x0.png",
+      "url": "https://strecoza.ru/wp-content/uploads/2026/05/b6b01302-db08-11ed-aeae-8c89a5dd96ef_4f72f938-339e-11ef-a312-8c89a5dd96ef.jpeg",
       "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
-      "isbn13": "9785995149545",
+      "sourceName": "Издательство «Стрекоза»",
+      "sourcePageUrl": "https://strecoza.ru/product/%d0%bc%d0%be%d1%8f-%d1%81%d0%b5%d1%81%d1%82%d1%80%d0%b5%d0%bd%d0%ba%d0%b0-%d0%be%d0%bb%d1%8c%d0%ba%d0%be%d0%b7%d0%b0%d0%b2%d1%80%d0%b0-%d0%b4%d0%b5%d1%82%d1%81%d0%ba%d0%b0%d1%8f-%d1%85%d1%83%d0%b4/",
       "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9618
     },
     "match": {
-      "strategy": "work_title_author",
-      "confidence": 0.99
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9618,
+      "matchedTitle": "Моя сестренка Олькозавра. Детская художественная литература",
+      "matchedAuthors": [
+        "Дина Гербек"
+      ]
     },
     "verification": {
       "imageVerified": true,
-      "sameEdition": true,
+      "canonicalWorkMatched": true,
       "titleMatched": true,
-      "authorMatched": true
+      "authorMatched": true,
+      "editionIndependent": true
     }
   },
   {
@@ -17909,48 +17987,60 @@
     "id": "curated-nen-collection-heytery-dzhessi-endryus",
     "cover": {
       "kind": "external",
-      "url": "https://n-e-n.ru/images/2024-11-15/67372b1f21ad2_0x0.jpg",
+      "url": "https://cdn.ast.ru/v2/ASE000000000724907/COVER/cover1__w340.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
-      "isbn13": "9785170987221",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/kheytery-724907/",
       "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "match": {
-      "strategy": "work_title_author",
-      "confidence": 0.99
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Хейтеры",
+      "matchedAuthors": [
+        "Джесси Эндрюс"
+      ]
     },
     "verification": {
       "imageVerified": true,
-      "sameEdition": true,
+      "canonicalWorkMatched": true,
       "titleMatched": true,
-      "authorMatched": true
+      "authorMatched": true,
+      "editionIndependent": true
     }
   },
   {
     "id": "curated-nen-collection-ulichnyy-kot-po-imeni-bob-dzheyms-bouen",
     "cover": {
       "kind": "external",
-      "url": "https://n-e-n.ru/images/2024-11-15/67372b17076e6_0x0.jpg",
+      "url": "https://cdn.ast.ru/v2/ASE000000000831449/COVER/cover1__w340.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
-      "isbn13": "9785171047399",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/kot-po-imeni-bob-831449/",
       "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9618
     },
     "match": {
-      "strategy": "work_title_author",
-      "confidence": 0.99
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9618,
+      "matchedTitle": "Кот по имени Боб",
+      "matchedAuthors": [
+        "Джеймс Боуэн"
+      ]
     },
     "verification": {
       "imageVerified": true,
-      "sameEdition": true,
+      "canonicalWorkMatched": true,
       "titleMatched": true,
-      "authorMatched": true
+      "authorMatched": true,
+      "editionIndependent": true
     }
   },
   {
@@ -17980,47 +18070,60 @@
     "id": "ol-ol20004004w",
     "cover": {
       "kind": "external",
-      "url": "https://detlit.ru/images/detailed/12514/404542ddc74e11ea80df00505684449c_404542dec74e11ea80df00505684449c.jpg",
+      "url": "https://covers.openlibrary.org/b/id/15162374-L.jpg?default=false",
       "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Детская литература»",
-      "sourcePageUrl": "https://detlit.ru/rasskazy-i-skazki-ru-5/",
+      "sourceName": "Open Library",
+      "sourcePageUrl": "https://openlibrary.org/works/OL44772648W",
       "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-08-03"
+      "attribution": "Обложка: Open Library",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9105
     },
     "match": {
-      "strategy": "work_title_author",
-      "confidence": 0.9440000000000001
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9105,
+      "matchedTitle": "Рассказы и сказки",
+      "matchedAuthors": [
+        "Константин Дмитриевич Ушинский"
+      ]
     },
     "verification": {
       "imageVerified": true,
-      "sameEdition": true,
+      "canonicalWorkMatched": true,
       "titleMatched": true,
-      "authorMatched": true
+      "authorMatched": true,
+      "editionIndependent": true
     }
   },
   {
     "id": "curated-nen-collection-martyn-i-barsik-masha-rupasova",
     "cover": {
       "kind": "external",
-      "url": "https://n-e-n.ru/images/2020-12-28/5fe9e5bac6507_0x0.jpg",
+      "url": "https://alpinabook.ru/upload/iblock/4f6/0c85ss00y75xzzyqqa034velrupf25wl/face_Martyn_Barsik.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
-      "isbn13": "9785961489682",
+      "sourceName": "Издательство «Альпина.Дети»",
+      "sourcePageUrl": "https://alpinabook.ru/catalog/book-martyn-i-barsik-dva-kota-krasota/",
       "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9618
     },
     "match": {
-      "strategy": "work_title_author",
-      "confidence": 0.99
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9618,
+      "matchedTitle": "Мартын и Барсик Два кота – красота!",
+      "matchedAuthors": [
+        "Маша Рупасова"
+      ]
     },
     "verification": {
       "imageVerified": true,
-      "sameEdition": true,
+      "canonicalWorkMatched": true,
       "titleMatched": true,
-      "authorMatched": true
+      "authorMatched": true,
+      "editionIndependent": true
     }
   },
   {
@@ -18075,119 +18178,150 @@
     "id": "curated-nen-collection-ya-ne-ya-zhanna-zaytseva-aleksandra",
     "cover": {
       "kind": "external",
-      "url": "https://n-e-n.ru/images/2025-07-31/688b4b0620de8_0x0.jpg",
+      "url": "https://samokatbook.ru/upload/resize_cache/iblock/53d/1024_1024_1/4g8efkhqpbtp5369h2l5jtohj5azwtyr.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/knigi-pro-pervuyu-lyubov/",
-      "isbn13": "9785001672753",
+      "sourceName": "Издательство «Самокат»",
+      "sourcePageUrl": "https://samokatbook.ru/book/ya-ne-ya-zhanna/",
       "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "match": {
-      "strategy": "work_title_author",
-      "confidence": 0.99
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Я, не я, Жанна",
+      "matchedAuthors": [
+        "Зайцева Александра"
+      ]
     },
     "verification": {
       "imageVerified": true,
-      "sameEdition": true,
+      "canonicalWorkMatched": true,
       "titleMatched": true,
-      "authorMatched": true
+      "authorMatched": true,
+      "editionIndependent": true
     }
   },
   {
     "id": "curated-nen-collection-zakoldovannaya-zhizn-uinn-dzhons",
     "cover": {
       "kind": "external",
-      "url": "https://n-e-n.ru/images/2024-11-15/67372ab6517b5_0x0.jpg",
+      "url": "https://api.azbooka.ru/upload/iblock/3eb/3eb495c5c23084ef5911f58edfe0c031.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
-      "isbn13": "9785389188532",
+      "sourceName": "Издательская группа «Азбука-Аттикус»",
+      "sourcePageUrl": "https://azbooka.ru/books/miry-krestomansi-zakoldovannaya-zhizn",
       "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9618
     },
     "match": {
-      "strategy": "work_title_author",
-      "confidence": 0.99
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9618,
+      "matchedTitle": "Миры Крестоманси. Заколдованная жизнь",
+      "matchedAuthors": [
+        "Диана Уинн Джонс"
+      ]
     },
     "verification": {
       "imageVerified": true,
-      "sameEdition": true,
+      "canonicalWorkMatched": true,
       "titleMatched": true,
-      "authorMatched": true
+      "authorMatched": true,
+      "editionIndependent": true
     }
   },
   {
     "id": "curated-nen-collection-trinadtsataya-skazka-diana-setterfild",
     "cover": {
       "kind": "external",
-      "url": "https://n-e-n.ru/images/2024-11-15/67372af5652cf_0x0.jpg",
+      "url": "https://api.azbooka.ru/upload/iblock/be5/be590282c62b5c147a35513cae58ba4f.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
-      "isbn13": "9785389073531",
+      "sourceName": "Издательская группа «Азбука-Аттикус»",
+      "sourcePageUrl": "https://azbooka.ru/books/trinadtsataya-skazka-drvx",
       "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9618
     },
     "match": {
-      "strategy": "work_title_author",
-      "confidence": 0.99
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9618,
+      "matchedTitle": "Тринадцатая сказка (The Big Book (мягкая обл))",
+      "matchedAuthors": [
+        "Диана Сеттерфилд"
+      ]
     },
     "verification": {
       "imageVerified": true,
-      "sameEdition": true,
+      "canonicalWorkMatched": true,
       "titleMatched": true,
-      "authorMatched": true
+      "authorMatched": true,
+      "editionIndependent": true
     }
   },
   {
     "id": "curated-nen-collection-devyatnadtsat-minut-dzhodi-pikolt",
     "cover": {
       "kind": "external",
-      "url": "https://n-e-n.ru/images/2024-11-15/67372b02c74ed_0x0.jpg",
+      "url": "https://api.azbooka.ru/upload/iblock/038/038dce9e865f5d8d168329832f2ae95f.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
-      "isbn13": "9785389159662",
+      "sourceName": "Издательская группа «Азбука-Аттикус»",
+      "sourcePageUrl": "https://azbooka.ru/books/devyatnadtsat-minut-vjib",
       "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9618
     },
     "match": {
-      "strategy": "work_title_author",
-      "confidence": 0.99
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9618,
+      "matchedTitle": "Девятнадцать минут (твердый)",
+      "matchedAuthors": [
+        "Джоди Пиколт"
+      ]
     },
     "verification": {
       "imageVerified": true,
-      "sameEdition": true,
+      "canonicalWorkMatched": true,
       "titleMatched": true,
-      "authorMatched": true
+      "authorMatched": true,
+      "editionIndependent": true
     }
   },
   {
     "id": "curated-nen-collection-gorstka-volshebstva-mishel-harrison",
     "cover": {
       "kind": "external",
-      "url": "https://n-e-n.ru/images/2022-12-26/63a978b78c91a_0x0.jpeg",
+      "url": "https://alpinabook.ru/upload/iblock/484/wq0c34bohqo5e4awpxxf35adw7idu1qm/cover512.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/8-knig/",
+      "sourceName": "Издательство «Альпина.Дети»",
+      "sourcePageUrl": "https://alpinabook.ru/catalog/book-gorstka-volshebstva/",
       "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "match": {
-      "strategy": "work_title_author",
-      "confidence": 0.99
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Горстка волшебства",
+      "matchedAuthors": [
+        "Мишель Харрисон"
+      ]
     },
     "verification": {
       "imageVerified": true,
-      "sameEdition": true,
+      "canonicalWorkMatched": true,
       "titleMatched": true,
-      "authorMatched": true
+      "authorMatched": true,
+      "editionIndependent": true
     }
   },
   {
@@ -18457,24 +18591,30 @@
     "id": "curated-nen-collection-semeynyy-albom-tirannozavra-toni-mayk-benton",
     "cover": {
       "kind": "external",
-      "url": "https://n-e-n.ru/images/2020-12-28/5fe9e1a394de7_0x0.jpg",
+      "url": "https://samokatbook.ru/upload/resize_cache/iblock/c57/1024_1024_1/c574c1c5021b5287155f7dfb324ccf53.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
-      "isbn13": "9785917598017",
+      "sourceName": "Издательство «Самокат»",
+      "sourcePageUrl": "https://samokatbook.ru/book/semeynyy-albom-tirannozavra-toni-istoriya-dinozavrov/",
       "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9618
     },
     "match": {
-      "strategy": "work_title_author",
-      "confidence": 0.99
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9618,
+      "matchedTitle": "Семейный альбом тираннозавра Тони. История динозавров",
+      "matchedAuthors": [
+        "Майк Бентон"
+      ]
     },
     "verification": {
       "imageVerified": true,
-      "sameEdition": true,
+      "canonicalWorkMatched": true,
       "titleMatched": true,
-      "authorMatched": true
+      "authorMatched": true,
+      "editionIndependent": true
     }
   },
   {
@@ -18485,20 +18625,26 @@
       "rightsStatus": "external-display-only",
       "sourceName": "НЭН",
       "sourcePageUrl": "https://n-e-n.ru/knigi-pro-pervuyu-lyubov/",
-      "isbn13": "9785917599236",
       "temporary": true,
       "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.99
     },
     "match": {
-      "strategy": "work_title_author",
-      "confidence": 0.99
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.99,
+      "matchedTitle": "Река, текущая вспять",
+      "matchedAuthors": [
+        "Жан-Клод Мурлева"
+      ]
     },
     "verification": {
       "imageVerified": true,
-      "sameEdition": true,
+      "canonicalWorkMatched": true,
       "titleMatched": true,
-      "authorMatched": true
+      "authorMatched": true,
+      "editionIndependent": true
     }
   },
   {
@@ -18577,24 +18723,30 @@
     "id": "curated-nen-collection-v-poiskah-deda-moroza-ann-montel",
     "cover": {
       "kind": "external",
-      "url": "https://n-e-n.ru/images/2025-11-12/69147102ed4ee_1040x720.jpg",
+      "url": "https://samokatbook.ru/upload/resize_cache/iblock/db7/1024_1024_1/zr1nx637265a8j321mqnkid7ds362fik.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/",
-      "isbn13": "9785001676911",
+      "sourceName": "Издательство «Самокат»",
+      "sourcePageUrl": "https://samokatbook.ru/book/v-poiskakh-deda-moroza/",
       "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "match": {
-      "strategy": "work_title_author",
-      "confidence": 0.99
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "В поисках Деда Мороза",
+      "matchedAuthors": [
+        "Лоик Клеман; Анн Монтель"
+      ]
     },
     "verification": {
       "imageVerified": true,
-      "sameEdition": true,
+      "canonicalWorkMatched": true,
       "titleMatched": true,
-      "authorMatched": true
+      "authorMatched": true,
+      "editionIndependent": true
     }
   },
   {
@@ -19035,20 +19187,26 @@
       "rightsStatus": "external-display-only",
       "sourceName": "НЭН",
       "sourcePageUrl": "https://n-e-n.ru/novinki-dlya-shkolnikov/",
-      "isbn13": "9785000414880",
       "temporary": true,
       "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.99
     },
     "match": {
-      "strategy": "work_title_author",
-      "confidence": 0.99
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.99,
+      "matchedTitle": "Летний день с друзьями",
+      "matchedAuthors": [
+        "Филип Вехтер"
+      ]
     },
     "verification": {
       "imageVerified": true,
-      "sameEdition": true,
+      "canonicalWorkMatched": true,
       "titleMatched": true,
-      "authorMatched": true
+      "authorMatched": true,
+      "editionIndependent": true
     }
   },
   {
@@ -19084,17 +19242,24 @@
       "sourcePageUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
       "temporary": true,
       "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.99
     },
     "match": {
-      "strategy": "work_title_author",
-      "confidence": 0.99
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.99,
+      "matchedTitle": "Про Лиса и Поросенка",
+      "matchedAuthors": [
+        "Бьёрн Рёрвик"
+      ]
     },
     "verification": {
       "imageVerified": true,
-      "sameEdition": false,
+      "canonicalWorkMatched": true,
       "titleMatched": true,
-      "authorMatched": true
+      "authorMatched": true,
+      "editionIndependent": true
     }
   },
   {
@@ -19130,17 +19295,24 @@
       "sourcePageUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
       "temporary": true,
       "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.99
     },
     "match": {
-      "strategy": "work_title_author",
-      "confidence": 0.99
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.99,
+      "matchedTitle": "Один за всех и все за одного",
+      "matchedAuthors": [
+        "Бригит Венингер"
+      ]
     },
     "verification": {
       "imageVerified": true,
-      "sameEdition": false,
+      "canonicalWorkMatched": true,
       "titleMatched": true,
-      "authorMatched": true
+      "authorMatched": true,
+      "editionIndependent": true
     }
   },
   {
@@ -19176,17 +19348,24 @@
       "sourcePageUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
       "temporary": true,
       "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.99
     },
     "match": {
-      "strategy": "work_title_author",
-      "confidence": 0.99
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.99,
+      "matchedTitle": "Кто утешит Кнютта",
+      "matchedAuthors": [
+        "Туве Янссон"
+      ]
     },
     "verification": {
       "imageVerified": true,
-      "sameEdition": false,
+      "canonicalWorkMatched": true,
       "titleMatched": true,
-      "authorMatched": true
+      "authorMatched": true,
+      "editionIndependent": true
     }
   },
   {
@@ -19199,17 +19378,24 @@
       "sourcePageUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
       "temporary": true,
       "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.99
     },
     "match": {
-      "strategy": "work_title_author",
-      "confidence": 0.99
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.99,
+      "matchedTitle": "Мейделин Финн и собака из приюта",
+      "matchedAuthors": [
+        "Лиза Папп"
+      ]
     },
     "verification": {
       "imageVerified": true,
-      "sameEdition": false,
+      "canonicalWorkMatched": true,
       "titleMatched": true,
-      "authorMatched": true
+      "authorMatched": true,
+      "editionIndependent": true
     }
   },
   {
@@ -19222,17 +19408,24 @@
       "sourcePageUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
       "temporary": true,
       "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.99
     },
     "match": {
-      "strategy": "work_title_author",
-      "confidence": 0.99
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.99,
+      "matchedTitle": "Все о Муми-троллях",
+      "matchedAuthors": [
+        "Туве Янссон"
+      ]
     },
     "verification": {
       "imageVerified": true,
-      "sameEdition": false,
+      "canonicalWorkMatched": true,
       "titleMatched": true,
-      "authorMatched": true
+      "authorMatched": true,
+      "editionIndependent": true
     }
   },
   {
@@ -19432,17 +19625,24 @@
       "sourcePageUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
       "temporary": true,
       "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.99
     },
     "match": {
-      "strategy": "work_title_author",
-      "confidence": 0.99
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.99,
+      "matchedTitle": "Школа в Кармартене",
+      "matchedAuthors": [
+        "Анна Коростелева"
+      ]
     },
     "verification": {
       "imageVerified": true,
-      "sameEdition": false,
+      "canonicalWorkMatched": true,
       "titleMatched": true,
-      "authorMatched": true
+      "authorMatched": true,
+      "editionIndependent": true
     }
   },
   {
@@ -19455,17 +19655,24 @@
       "sourcePageUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
       "temporary": true,
       "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.99
     },
     "match": {
-      "strategy": "work_title_author",
-      "confidence": 0.99
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.99,
+      "matchedTitle": "Мулей",
+      "matchedAuthors": [
+        "Эрленд Лу"
+      ]
     },
     "verification": {
       "imageVerified": true,
-      "sameEdition": false,
+      "canonicalWorkMatched": true,
       "titleMatched": true,
-      "authorMatched": true
+      "authorMatched": true,
+      "editionIndependent": true
     }
   },
   {
@@ -19476,20 +19683,26 @@
       "rightsStatus": "external-display-only",
       "sourceName": "НЭН",
       "sourcePageUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
-      "isbn13": "9785699951338",
       "temporary": true,
       "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.99
     },
     "match": {
-      "strategy": "work_title_author",
-      "confidence": 0.99
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.99,
+      "matchedTitle": "Жутко громко и запредельно близко",
+      "matchedAuthors": [
+        "Джонатан Сафран Фоер"
+      ]
     },
     "verification": {
       "imageVerified": true,
-      "sameEdition": true,
+      "canonicalWorkMatched": true,
       "titleMatched": true,
-      "authorMatched": true
+      "authorMatched": true,
+      "editionIndependent": true
     }
   },
   {
@@ -19500,43 +19713,56 @@
       "rightsStatus": "external-display-only",
       "sourceName": "НЭН",
       "sourcePageUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
-      "isbn13": "9785041089535",
       "temporary": true,
       "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.99
     },
     "match": {
-      "strategy": "work_title_author",
-      "confidence": 0.99
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.99,
+      "matchedTitle": "Милые кости",
+      "matchedAuthors": [
+        "Элис Сиболд"
+      ]
     },
     "verification": {
       "imageVerified": true,
-      "sameEdition": true,
+      "canonicalWorkMatched": true,
       "titleMatched": true,
-      "authorMatched": true
+      "authorMatched": true,
+      "editionIndependent": true
     }
   },
   {
     "id": "curated-nen-collection-kogda-my-vstretimsya-rebekka-sted",
     "cover": {
       "kind": "external",
-      "url": "https://n-e-n.ru/images/2024-11-15/67372af5652cf_0x0.jpg",
+      "url": "https://pgbooks.ru/upload/iblock/7a4/7a4d2cb3815f4803f0fe9a6cc07e84f0.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+      "sourceName": "Издательство «Розовый жираф»",
+      "sourcePageUrl": "https://pgbooks.ru/books/book/6102/",
       "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "match": {
-      "strategy": "work_title_author",
-      "confidence": 0.99
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Когда мы встретимся",
+      "matchedAuthors": [
+        "Ребекка Стед"
+      ]
     },
     "verification": {
       "imageVerified": true,
-      "sameEdition": false,
+      "canonicalWorkMatched": true,
       "titleMatched": true,
-      "authorMatched": true
+      "authorMatched": true,
+      "editionIndependent": true
     }
   },
   {
@@ -19549,17 +19775,24 @@
       "sourcePageUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
       "temporary": true,
       "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.99
     },
     "match": {
-      "strategy": "work_title_author",
-      "confidence": 0.99
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.99,
+      "matchedTitle": "Бездна Челленджера",
+      "matchedAuthors": [
+        "Нил Шустерман"
+      ]
     },
     "verification": {
       "imageVerified": true,
-      "sameEdition": false,
+      "canonicalWorkMatched": true,
       "titleMatched": true,
-      "authorMatched": true
+      "authorMatched": true,
+      "editionIndependent": true
     }
   },
   {
@@ -19572,17 +19805,24 @@
       "sourcePageUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
       "temporary": true,
       "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.99
     },
     "match": {
-      "strategy": "work_title_author",
-      "confidence": 0.99
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.99,
+      "matchedTitle": "Птица в клетке",
+      "matchedAuthors": [
+        "Робин Роу"
+      ]
     },
     "verification": {
       "imageVerified": true,
-      "sameEdition": false,
+      "canonicalWorkMatched": true,
       "titleMatched": true,
-      "authorMatched": true
+      "authorMatched": true,
+      "editionIndependent": true
     }
   },
   {
@@ -19593,43 +19833,56 @@
       "rightsStatus": "external-display-only",
       "sourceName": "НЭН",
       "sourcePageUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
-      "isbn13": "9785041602239",
       "temporary": true,
       "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.99
     },
     "match": {
-      "strategy": "work_title_author",
-      "confidence": 0.99
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.99,
+      "matchedTitle": "Сплетни и K-pop",
+      "matchedAuthors": [
+        "Александра Янг"
+      ]
     },
     "verification": {
       "imageVerified": true,
-      "sameEdition": true,
+      "canonicalWorkMatched": true,
       "titleMatched": true,
-      "authorMatched": true
+      "authorMatched": true,
+      "editionIndependent": true
     }
   },
   {
     "id": "curated-nen-collection-schepotka-magii-mishel-harrison",
     "cover": {
       "kind": "external",
-      "url": "https://n-e-n.ru/images/2022-12-26/63a978b78c91a_0x0.jpeg",
+      "url": "https://alpinabook.ru/upload/iblock/74c/74c40d07d0beb8da3dba2c831b6ad20d.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/8-knig/",
+      "sourceName": "Издательство «Альпина.Дети»",
+      "sourcePageUrl": "https://alpinabook.ru/catalog/book-shchepotka-magii/",
       "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "match": {
-      "strategy": "work_title_author",
-      "confidence": 0.99
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Щепотка магии",
+      "matchedAuthors": [
+        "Мишель Харрисон"
+      ]
     },
     "verification": {
       "imageVerified": true,
-      "sameEdition": false,
+      "canonicalWorkMatched": true,
       "titleMatched": true,
-      "authorMatched": true
+      "authorMatched": true,
+      "editionIndependent": true
     }
   },
   {
@@ -20177,6 +20430,276 @@
       "titleMatched": true,
       "authorMatched": true,
       "sameEdition": true
+    }
+  },
+  {
+    "id": "ol-ol1306140w",
+    "cover": {
+      "kind": "external",
+      "url": "https://strecoza.ru/wp-content/uploads/2023/03/3e0af1e9-bd2c-11ed-a49e-8c89a5dd96ef_122d142c-fd91-11ee-9c15-8c89a5dd96ef.jpeg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Стрекоза»",
+      "sourcePageUrl": "https://strecoza.ru/product/bsh-tajna-nochnogo-lesa-nov-2/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9618
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9618,
+      "matchedTitle": "Тайна ночного леса В. Бианки. Библиотека школьника",
+      "matchedAuthors": [
+        "Виталий Бянки"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol44948165w",
+    "cover": {
+      "kind": "external",
+      "url": "https://pgbooks.ru/upload/iblock/cce/0013_vek_tri_tvoih_imeni_cover.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Розовый жираф»",
+      "sourcePageUrl": "https://pgbooks.ru/books/book/5886/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Три твоих имени",
+      "matchedAuthors": [
+        "Дина Сабитова"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "curated-whitecrow-navoznyy-zhuk-letaet-v-sumerkah-navoznyj-zhuk-letaet-v-sumerkah",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/AST000000000026989/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/navoznyy-zhuk-letaet-v-sumerkakh-026989/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Навозный жук летает в сумерках",
+      "matchedAuthors": [
+        "Мария Грипе"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "curated-alpina-deti-kak-tima-ukusila-loshad-book-kak-tima-ukusila-loshad-komiksy",
+    "cover": {
+      "kind": "external",
+      "url": "https://alpinabook.ru/upload/iblock/e0d/3ttt395ttfywn1xm05sn1at0aypc373k.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Альпина.Дети»",
+      "sourcePageUrl": "https://alpinabook.ru/catalog/book-kak-tima-ukusila-loshad/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Как Тима укусила лошадь",
+      "matchedAuthors": [
+        "Наталья Ремиш"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "nen-054",
+    "cover": {
+      "kind": "external",
+      "url": "https://pgbooks.ru/upload/iblock/41c/41c711300326db8919f4f874b4b32da5.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Розовый жираф»",
+      "sourcePageUrl": "https://pgbooks.ru/books/book/7546/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Тихая книга",
+      "matchedAuthors": [
+        "Дебора Андервуд"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "nen-bv2-037",
+    "cover": {
+      "kind": "external",
+      "url": "https://pgbooks.ru/upload/iblock/7c3/0204_lob_frogs3_together_cover.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Розовый жираф»",
+      "sourcePageUrl": "https://pgbooks.ru/books/book/649/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Квак и Жаб снова вместе",
+      "matchedAuthors": [
+        "Арнольд Лобел"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "nen-bv2-084",
+    "cover": {
+      "kind": "external",
+      "url": "https://pgbooks.ru/upload/iblock/129/golubaya.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Розовый жираф»",
+      "sourcePageUrl": "https://pgbooks.ru/books/book/6492/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Голубая бусинка",
+      "matchedAuthors": [
+        "Мария Крюгер"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "nen-bv2-125",
+    "cover": {
+      "kind": "external",
+      "url": "https://pgbooks.ru/upload/iblock/6e4/6e4af74cf7e6c0fb38d30f06f07f4474.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Розовый жираф»",
+      "sourcePageUrl": "https://pgbooks.ru/books/book/5443/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Ямы",
+      "matchedAuthors": [
+        "Луис Сашар"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "nen-bv2-140",
+    "cover": {
+      "kind": "external",
+      "url": "https://livebooks.ru/uploads/images/books/books_30.webp",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство Livebook",
+      "sourcePageUrl": "https://livebooks.ru/books/dom-v-kotorom/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9618
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9618,
+      "matchedTitle": "Дом, в котором...",
+      "matchedAuthors": [
+        "Мариам Петросян"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
     }
   }
 ]

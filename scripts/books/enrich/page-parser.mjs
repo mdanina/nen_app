@@ -107,7 +107,8 @@ export function parseBookPage(html, url, fallback = {}) {
   const publisher = String(structured.publisher?.name ?? structured.brand?.name ?? fallback.publisher ?? "").trim() || undefined;
   const seriesName = String(structured.isPartOf?.name ?? "").trim() || undefined;
   const marketplaceImage = html.match(/<img[^>]+data-a-image-name=["']landingImage["'][^>]+(?:data-a-dynamic-image=["'][^"']*?(https:\/\/[^&"']+)|src=["'](https:\/\/[^"']+))/iu);
-  const image = imageUrl(structured.image ?? meta(html, "og:image") ?? marketplaceImage?.[1] ?? marketplaceImage?.[2], url);
+  const galleryImage = extractProductImages(html, url)[0]?.url;
+  const image = imageUrl(structured.image || meta(html, "og:image") || marketplaceImage?.[1] || marketplaceImage?.[2] || galleryImage, url);
   const structuredAuthors = names(structured.author);
   const visibleAuthor = visible.match(/(?:^|\s)Автор(?:ы)?\s+(.{2,100}?)(?=\s+(?:Художник|Иллюстратор|Перевод|Издательство|ISBN|Серия|Возраст|Количество|Кол-во|Артикул)\b)/iu)?.[1]?.trim();
   return {

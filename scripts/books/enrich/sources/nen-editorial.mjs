@@ -2,7 +2,7 @@ import { readFile } from "node:fs/promises";
 import { resolve } from "node:path";
 import { authorMatches, titleScore } from "../core.mjs";
 
-export function createNenEditorialSource({ root } = {}) {
+export function createNenEditorialSource({ root, workCoverMode = false } = {}) {
   let byId = new Map();
   return {
     key: "nen-editorial",
@@ -25,7 +25,7 @@ export function createNenEditorialSource({ root } = {}) {
         title: editorial.title, authors,
         publisher: editorial.publisher ?? book.publisher,
         publicationYear: editorial.publicationYear ?? book.publicationYear,
-        isbn13: editorial.isbn13 ?? book.isbn13,
+        ...(!workCoverMode ? { isbn13: editorial.isbn13 ?? book.isbn13 } : {}),
         pages: editorial.pages ?? book.pages,
         seriesName: editorial.seriesName ?? book.seriesName,
         language: editorial.language ?? book.language ?? "ru",

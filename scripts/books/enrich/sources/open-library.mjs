@@ -1,27 +1,32 @@
 import { normalizeLanguage, normalizedIsbn, validPages, validYear, workTitles } from "../core.mjs";
 import { fetchJson } from "../http.mjs";
 
-export function createOpenLibrarySource({ cache } = {}) {
+export function createOpenLibrarySource({ cache, workCoverMode = false } = {}) {
   return {
     key: "open-library",
     priority: 30,
     async search(book) {
-      const cacheKey = `${this.key}:isbn-cover-first-v3`;
+      const cacheKey = `${this.key}:${workCoverMode ? "canonical-work-cover-v2" : "isbn-cover-first-v3"}`;
       const cached = cache?.get(cacheKey, book);
       if (cached) return cached;
-      const params = new URLSearchParams({
-        ...(book.isbn13 ? { isbn: book.isbn13 } : { title: workTitles(book)[0], author: book.author.split(";")[0] }),
-        fields: "key,title,author_name,isbn,publisher,publish_year,number_of_pages_median,language,cover_i",
-        limit: "10",
-      });
-      let payload = { docs: [] };
-      if (!book.isbn13) {
-        try { payload = await fetchJson(`https://openlibrary.org/search.json?${params}`, { attempts: 1, timeoutMs: 4_000 }); }
-        catch { /* continue with the next source */ }
+      const searches = workCoverMode ? workTitles(book).slice(0, 3) : [workTitles(book)[0]];
+      const documents = [];
+      if (workCoverMode || !book.isbn13) {
+        for (const title of searches) {
+          const params = new URLSearchParams({
+            title,
+            author: book.author.split(";")[0],
+            fields: workCoverMode ? "key,title,author_name,language,cover_i" : "key,title,author_name,isbn,publisher,publish_year,number_of_pages_median,language,cover_i",
+            limit: "20",
+          });
+          try { documents.push(...((await fetchJson(`https://openlibrary.org/search.json?${params}`, { attempts: 1, timeoutMs: 6_000 })).docs ?? [])); }
+          catch { /* continue with the next source */ }
+          if (workCoverMode && documents.some((item) => item.cover_i)) break;
+        }
       }
-      const result = (payload.docs ?? []).map((item) => {
+      const result = [...new Map(documents.map((item) => [item.key, item])).values()].map((item) => {
         const years = (item.publish_year ?? []).map(validYear).filter(Boolean);
-        const isbn13 = (item.isbn ?? []).map(normalizedIsbn).find(Boolean);
+        const isbn13 = workCoverMode ? undefined : (item.isbn ?? []).map(normalizedIsbn).find(Boolean);
         const language = (item.language ?? []).map(normalizeLanguage).find(Boolean);
         return {
           sourceKey: this.key,
@@ -38,7 +43,7 @@ export function createOpenLibrarySource({ cache } = {}) {
           pages: validPages(item.number_of_pages_median),
           language,
           evidenceText: [item.title, ...(item.author_name ?? []), ...(item.publisher ?? [])].join(" "),
-          isRussianEdition: language === "ru" || isbn13?.startsWith("9785"),
+          isRussianEdition: language === "ru",
           confidence: 0.87,
           trustedCoverSource: Boolean(item.cover_i),
           cover: item.cover_i ? {
@@ -48,7 +53,7 @@ export function createOpenLibrarySource({ cache } = {}) {
           } : undefined,
         };
       });
-      if (book.isbn13 && !result.some((item) => item.isbn13 === book.isbn13 && item.cover)) {
+      if (!workCoverMode && book.isbn13 && !result.some((item) => item.isbn13 === book.isbn13 && item.cover)) {
         result.push({
           sourceKey: this.key,
           sourceName: "Open Library Covers",

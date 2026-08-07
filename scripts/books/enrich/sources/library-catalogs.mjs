@@ -13,14 +13,14 @@ const catalogs = [
   { key: "rusneb", name: "Национальная электронная библиотека", search: (query) => `https://rusneb.ru/search/?q=${encodeURIComponent(query)}`, record: /^https:\/\/rusneb\.ru\/(?:catalog|record)\//u, attribution: "Обложка: Национальная электронная библиотека" },
 ];
 
-export function createLibraryCatalogSource({ cache, concurrency = 3 } = {}) {
+export function createLibraryCatalogSource({ cache, concurrency = 3, workCoverMode = false } = {}) {
   return {
     key: "library-catalogs", priority: 45, coverageComplete: () => false,
     async search(book) {
-      const cacheKey = "library-catalogs:v1-work-author";
+      const cacheKey = workCoverMode ? "library-catalogs:canonical-work-cover-v1" : "library-catalogs:v1-work-author";
       const cached = cache?.get(cacheKey, book);
       if (cached) return cached;
-      const query = book.isbn13 ?? `${workTitles(book)[0]} ${book.author.split(";")[0]}`;
+      const query = workCoverMode ? `${workTitles(book)[0]} ${book.author.split(";")[0]}` : book.isbn13 ?? `${workTitles(book)[0]} ${book.author.split(";")[0]}`;
       const candidates = [];
       for (const catalog of catalogs) {
         try {

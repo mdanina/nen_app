@@ -15,7 +15,7 @@ export interface BookCoverData {
   temporary?: boolean;
   attribution?: string;
   verifiedAt?: string;
-  assignmentMethod?: "global_ocr_work_match";
+  assignmentMethod?: "global_ocr_work_match" | "canonical_work_official_cover";
   assignmentConfidence?: number;
   assignmentVerifiedAt?: string;
 }

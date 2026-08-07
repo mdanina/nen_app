@@ -72,22 +72,23 @@ describe("connected Open Library catalog", () => {
   it("uses only exact permanent book paths and safe cover URLs", () => {
     expect(productionBooks.every((book) => `/books/${book.slug}`.split("?").length === 1)).toBe(true);
     const external = includedImports.filter((book) => book.cover?.kind === "external");
-    const verifiedCoverSourceHosts = /(?:^|\.)(azbooka\.ru|eksmo\.ru|ast\.ru|rosman\.ru|detlit\.ru|strecoza\.ru|samokatbook\.ru|polyandria\.ru|albuscorvus\.ru|kompasgid\.ru|clever-media\.ru|archipelag-publishing\.ru|alpinabook\.ru|books\.ru|book24\.ru|chitai-gorod\.ru|labirint\.ru|moscowbooks\.ru|search\.rsl\.ru|rusneb\.ru|books\.google\.com)$/;
+    const verifiedCoverSourceHosts = /(?:^|\.)(azbooka\.ru|eksmo\.ru|ast\.ru|rosman\.ru|detlit\.ru|strecoza\.ru|samokatbook\.ru|polyandria\.ru|albuscorvus\.ru|kompasgid\.ru|clever-media\.ru|archipelag-publishing\.ru|alpinabook\.ru|pgbooks\.ru|livebooks\.ru|gvardiya\.ru|melik-pashaev\.ru|books\.ru|book24\.ru|chitai-gorod\.ru|labirint\.ru|moscowbooks\.ru|search\.rsl\.ru|rusneb\.ru|openlibrary\.org|archive\.org|books\.google\.com)$/;
     expect(external.every((book) => {
       const coverUrl = book.cover?.url ?? "";
-      if (/^https:\/\/covers\.openlibrary\.org\/b\/id\/\d+-L\.jpg$/.test(coverUrl)) {
-        return book.cover?.isbn13 === book.isbn13;
-      }
       const sourcePageUrl = book.cover?.sourcePageUrl;
       if (!sourcePageUrl || !coverUrl.startsWith("https://")) return false;
       const sourceHost = new URL(sourcePageUrl).hostname;
+      const bibliographicCoverAttribution = /(?:^|\.)(openlibrary\.org|archive\.org|books\.google\.com)$/.test(sourceHost);
       return (
         verifiedCoverSourceHosts.test(sourceHost)
         && book.cover?.rightsStatus === "external-display-only"
-        && [
+        && (bibliographicCoverAttribution || [
           "Обложка предоставлена издательством.",
           "Обложка опубликована в карточке современного издания.",
-        ].includes(book.cover?.attribution ?? "")
+          "Обложка: Open Library",
+          "Обложка: Google Books",
+          "Обложка: Internet Archive",
+        ].includes(book.cover?.attribution ?? ""))
       );
     })).toBe(true);
   });

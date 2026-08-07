@@ -47,8 +47,15 @@ export function validateBooks(input: unknown): ValidatedData<Book> {
     }
     if (item.cover && item.cover.kind !== "placeholder") {
       if (!item.cover.url || !displayableCoverRights.has(item.cover.rightsStatus)) recordIssues.push({ index, field: "cover", message: "Обложка не разрешена для показа" });
-      const workMatchedByOcr = item.cover.assignmentMethod === "global_ocr_work_match" && Number(item.cover.assignmentConfidence) >= 0.7;
-      if (item.cover.kind === "external" && (item.cover.rightsStatus !== "external-display-only" || !item.cover.temporary || (item.cover.isbn13 !== item.isbn13 && !workMatchedByOcr))) recordIssues.push({ index, field: "cover", message: "Внешняя обложка не подтверждена точным ISBN или уверенным OCR-сопоставлением произведения" });
+      const workMatched = (
+        item.cover.assignmentMethod === "global_ocr_work_match"
+        && Number(item.cover.assignmentConfidence) >= 0.7
+      ) || (
+        item.cover.assignmentMethod === "canonical_work_official_cover"
+        && Number(item.cover.assignmentConfidence) >= 0.85
+      );
+      const officialSourceRecorded = Boolean(item.cover.sourceName && item.cover.sourcePageUrl?.startsWith("https://"));
+      if (item.cover.kind === "external" && (item.cover.rightsStatus !== "external-display-only" || !item.cover.temporary || !(workMatched || officialSourceRecorded))) recordIssues.push({ index, field: "cover", message: "Внешняя обложка не подтверждена сопоставлением произведения и официальным источником" });
     }
     issues.push(...recordIssues);
     if (recordIssues.length) return;

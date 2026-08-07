@@ -18,6 +18,7 @@ const correctionsPath = resolve(root, "data/source/cover-assignment-corrections.
 const reportPath = resolve(root, "data/reports/book-cover-global-reassignment.json");
 const apply = process.argv.includes("--apply");
 const cleanup = process.argv.includes("--cleanup");
+const preserveCorrectionsOnly = process.argv.includes("--preserve-corrections-only");
 const poolRef = process.argv.find((arg) => arg.startsWith("--pool-ref="))?.slice(11) || "HEAD^";
 const workersCount = Math.max(1, Math.min(4, Number(process.env.COVER_OCR_WORKERS || 3)));
 
@@ -50,8 +51,11 @@ function levenshtein(a, b) {
 }
 function tokenMatches(needle, haystack) {
   return haystack.some((candidate) => {
-    if (candidate === needle || (needle.length >= 5 && (candidate.includes(needle) || needle.includes(candidate)))) return true;
-    const limit = needle.length >= 8 ? 2 : needle.length >= 5 ? 1 : 0;
+    if (candidate === needle) return true;
+    const shorter = Math.min(needle.length, candidate.length);
+    const longer = Math.max(needle.length, candidate.length);
+    if (shorter >= 5 && shorter / longer >= 0.75 && (candidate.includes(needle) || needle.includes(candidate))) return true;
+    const limit = needle.length >= 7 ? 1 : 0;
     return Math.abs(candidate.length - needle.length) <= limit && levenshtein(needle, candidate) <= limit;
   });
 }
@@ -98,6 +102,10 @@ function readCatalogAtRef(ref) {
   const result = spawnSync("git", ["show", `${ref}:data/generated/books.json`], { cwd: root, encoding: "utf8", maxBuffer: 100 * 1024 * 1024 });
   if (result.status !== 0) throw new Error(`Cannot read cover pool from ${ref}: ${result.stderr}`);
   return JSON.parse(result.stdout);
+}
+function readJsonAtRef(ref, path, fallback) {
+  const result = spawnSync("git", ["show", `${ref}:${path}`], { cwd: root, encoding: "utf8", maxBuffer: 100 * 1024 * 1024 });
+  return result.status === 0 ? JSON.parse(result.stdout) : fallback;
 }
 async function cacheImages(urls) {
   const manifest = await readJson(manifestPath, {});
@@ -176,7 +184,9 @@ function scoreCandidate(indexed, text, priorBooks, cover) {
   const author = bestVariantScore(indexed.authors, text);
   const series = bestVariantScore(indexed.series, text);
   const priorSeriesMention = priorBooks.some((book) => seriesVariants(book).some((value) => normalize(value) === normalize(title.variant)));
-  const promotional = title.variant && (isPromotionalMention(text, title.variant) || priorSeriesMention);
+  const promotionalBanner = /(?:от автора|автор)\s+(?:бестселлера|книги|серии)/u.test(normalize(text));
+  const isPriorBook = priorBooks.some((book) => book.id === indexed.book.id);
+  const promotional = title.variant && (isPromotionalMention(text, title.variant) || priorSeriesMention || (!isPriorBook && promotionalBanner));
   const generic = genericTitles.test(normalize(title.variant));
   const wordCount = tokens(text).length;
   const score = weightedTitleScore * 0.7 + author.score * 0.28 + series.score * 0.02 - (promotional ? 0.35 : 0) - (generic ? 0.2 : 0);
@@ -194,9 +204,33 @@ function confirmsReassignment(candidate, prior, alternative) {
   if (!candidate || candidate.promotional || candidate.generic) return false;
   const marginFromPrior = candidate.score - (prior?.score || 0);
   const marginFromAlternative = candidate.score - (alternative?.score || 0);
-  const strongTitleAuthor = candidate.title.exact && candidate.title.score >= 0.75 && candidate.author.score >= 0.65;
-  const exactCompact = candidate.title.exact && candidate.title.tokenCount >= 2 && candidate.author.score >= 0.5 && candidate.wordCount <= 18;
-  return (strongTitleAuthor || exactCompact) && marginFromPrior >= 0.12 && marginFromAlternative >= 0.07;
+  const strongTitleAuthor = candidate.title.score >= 0.85 && candidate.author.score >= 0.75 && candidate.title.tokenCount >= 2;
+  const exactTitleAuthor = candidate.title.exact && candidate.title.tokenCount >= 2 && candidate.author.score >= 0.5;
+  const unambiguousTitle = candidate.title.exact && candidate.title.score >= 0.95 && candidate.title.tokenCount >= 3;
+  return (strongTitleAuthor || exactTitleAuthor || unambiguousTitle) && marginFromPrior >= 0.08 && marginFromAlternative >= 0.06;
+}
+
+function isEligibleGlobalMatch(candidate) {
+  if (!candidate || candidate.promotional || candidate.generic) return false;
+  return (
+    (candidate.title.score >= 0.85 && candidate.author.score >= 0.75 && candidate.title.tokenCount >= 2) ||
+    (candidate.title.exact && candidate.title.tokenCount >= 2 && candidate.author.score >= 0.5) ||
+    (candidate.title.exact && candidate.title.score >= 0.95 && candidate.title.tokenCount >= 3)
+  );
+}
+
+function sameCatalogWork(left, right) {
+  if (!left || !right) return false;
+  const leftAuthors = authorVariants(left).flatMap(tokens);
+  const rightAuthors = authorVariants(right).flatMap(tokens);
+  const sharedAuthor = leftAuthors.some((token) => rightAuthors.includes(token));
+  if (!sharedAuthor) return false;
+  return titleVariants(left).some((leftTitle) => titleVariants(right).some((rightTitle) => {
+    const leftTokens = tokens(leftTitle);
+    const rightTokens = tokens(rightTitle);
+    const shared = leftTokens.filter((token) => rightTokens.includes(token)).length;
+    return shared >= 2 && Math.max(coverage(leftTitle, rightTitle), coverage(rightTitle, leftTitle)) >= 0.5;
+  }));
 }
 function assignGlobally(images) {
   const edges = images.flatMap((image) => image.candidates.map((candidate) => ({ image, candidate }))).sort((left, right) => right.candidate.score - left.candidate.score);
@@ -253,6 +287,15 @@ function findCycles(moves) {
 
 const catalog = await readJson(catalogPath, []);
 const poolCatalog = readCatalogAtRef(poolRef);
+const priorCorrections = readJsonAtRef(poolRef, "data/source/cover-assignment-corrections.json", { invalidAssignments: [], reassignments: [] });
+if (preserveCorrectionsOnly) {
+  const currentCorrections = await readJson(correctionsPath, { invalidAssignments: [], reassignments: [] });
+  const invalidAssignments = [...(priorCorrections.invalidAssignments || []), ...(currentCorrections.invalidAssignments || [])]
+    .filter((item, index, items) => items.findIndex((candidate) => candidate.id === item.id && candidate.url === item.url) === index);
+  await saveJson(correctionsPath, { ...currentCorrections, invalidAssignments });
+  console.log(JSON.stringify({ preservedInvalidAssignments: invalidAssignments.length }, null, 2));
+  process.exit(0);
+}
 const poolByUrl = new Map();
 for (const book of poolCatalog) {
   const cover = coverOf(book);
@@ -278,10 +321,11 @@ for (const pool of poolByUrl.values()) {
   const technicalReason = isTechnicalImage(pool.url, manifest[pool.url]);
   if (technicalReason) { rejected.push({ url: pool.url, reason: technicalReason, priorBookIds: pool.priorBooks.map((book) => book.id) }); continue; }
   if (manifest[pool.url]?.status !== "downloaded") { rejected.push({ url: pool.url, reason: "download_failed", error: manifest[pool.url]?.error, priorBookIds: pool.priorBooks.map((book) => book.id) }); continue; }
-  const text = [ocr[pool.url]?.text, ocr[pool.url]?.sparseText].filter(Boolean).join("\n").trim();
+  const urlText = decodeURIComponent(new URL(pool.url).pathname).replace(/[_.-]+/gu, " ");
+  const text = [ocr[pool.url]?.text, ocr[pool.url]?.sparseText, urlText].filter(Boolean).join("\n").trim();
   if (!text) { rejected.push({ url: pool.url, reason: "ocr_empty", priorBookIds: pool.priorBooks.map((book) => book.id) }); continue; }
   const ocrTokens = tokens(text);
-  const rough = indexedBooks.map((item) => ({ item, hits: item.roughTokens.filter((token) => ocrTokens.includes(token)).length })).filter((entry) => entry.hits > 0).sort((a, b) => b.hits - a.hits).slice(0, 80).map((entry) => entry.item);
+  const rough = indexedBooks.map((item) => ({ item, hits: item.roughTokens.filter((token) => tokenMatches(token, ocrTokens)).length })).filter((entry) => entry.hits > 0).sort((a, b) => b.hits - a.hits).slice(0, 120).map((entry) => entry.item);
   for (const prior of pool.priorBooks) if (!rough.some((item) => item.book.id === prior.id)) rough.push(indexedBooks.find((item) => item.book.id === prior.id));
   const scored = rough.filter(Boolean).map((item) => scoreCandidate(item, text, pool.priorBooks, pool.cover)).sort((a, b) => b.score - a.score);
   const priorIds = new Set(pool.priorBooks.map((book) => book.id));
@@ -290,12 +334,16 @@ for (const pool of poolByUrl.values()) {
   const bestPrior = priorCandidates[0];
   const bestExternal = externalCandidates[0];
   const secondExternal = externalCandidates[1];
-  const keepPrior = confirmsPrior(bestPrior) && (!bestExternal || bestExternal.score - bestPrior.score < 0.18 || bestExternal.generic || bestExternal.promotional || bestExternal.author.score < bestPrior.author.score);
-  const moveExternal = confirmsReassignment(bestExternal, bestPrior, secondExternal);
+  const bestPriorBook = indexedBooks.find((item) => item.book.id === bestPrior?.bookId)?.book;
+  const bestExternalBook = indexedBooks.find((item) => item.book.id === bestExternal?.bookId)?.book;
+  const equivalentWork = sameCatalogWork(bestPriorBook, bestExternalBook);
+  const keepPrior = confirmsPrior(bestPrior) && (equivalentWork || !bestExternal || bestExternal.score - bestPrior.score < 0.18 || bestExternal.generic || bestExternal.promotional || bestExternal.author.score < bestPrior.author.score);
+  const moveExternal = !equivalentWork && confirmsReassignment(bestExternal, bestPrior, secondExternal);
+  const explicitMismatch = isEligibleGlobalMatch(bestExternal) && !isEligibleGlobalMatch(bestPrior) && bestExternal.score - (bestPrior?.score || 0) >= 0.08;
   const primary = moveExternal ? bestExternal : keepPrior ? bestPrior : undefined;
   const candidates = primary ? [primary] : [];
   if (!primary) {
-    rejected.push({ url: pool.url, reason: "low_confidence_match", priorBookIds: pool.priorBooks.map((book) => book.id), preferredPriorId: bestPrior?.bookId, ocr: { text, confidence: ocr[pool.url]?.confidence }, bestPrior, bestExternal, secondExternal });
+    rejected.push({ url: pool.url, reason: explicitMismatch ? "explicit_mismatch_ambiguous_target" : "low_confidence_match", priorBookIds: pool.priorBooks.map((book) => book.id), preferredPriorId: bestPrior?.bookId, ocr: { text, confidence: ocr[pool.url]?.confidence }, bestPrior, bestExternal, secondExternal });
     continue;
   }
   images.push({ ...pool, text, ocrConfidence: ocr[pool.url]?.confidence, candidates });
@@ -323,7 +371,7 @@ for (const [bookId, assignment] of bookAssignment) {
   });
 }
 const retainedUnconfirmed = [];
-for (const item of rejected.filter((entry) => !["technical_url", "article_preview"].includes(entry.reason))) {
+for (const item of rejected.filter((entry) => !["technical_url", "article_preview", "explicit_mismatch_ambiguous_target"].includes(entry.reason))) {
   const pool = poolByUrl.get(item.url);
   if (!pool) continue;
   const preferred = item.preferredPriorId ? pool.priorBooks.find((book) => book.id === item.preferredPriorId) : undefined;
@@ -390,7 +438,11 @@ const report = {
   rejected,
 };
 await saveJson(reportPath, report);
-if (apply) await saveJson(correctionsPath, { generatedAt: report.generatedAt, algorithm: report.algorithm, invalidAssignments, reassignments });
+if (apply) {
+  const preservedInvalidAssignments = priorCorrections.invalidAssignments || [];
+  const combinedInvalidAssignments = [...preservedInvalidAssignments, ...invalidAssignments].filter((item, index, items) => items.findIndex((candidate) => candidate.id === item.id && candidate.url === item.url) === index);
+  await saveJson(correctionsPath, { generatedAt: report.generatedAt, algorithm: report.algorithm, invalidAssignments: combinedInvalidAssignments, reassignments });
+}
 console.log(JSON.stringify(report.summary, null, 2));
 console.log(JSON.stringify(reasonCounts, null, 2));
 if (cleanup) {

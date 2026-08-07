@@ -37,7 +37,11 @@ const officialMetadataOverrides = JSON.parse(await readFile(officialMetadataOver
 const catalogMaintenanceExclusions = JSON.parse(await readFile(catalogMaintenanceExclusionsPath, "utf8").catch(() => "[]"));
 const annotationById = new Map(annotationOverrides.map((item) => [item.id, item]));
 const officialCoverById = new Map(officialCoverOverrides.map((item) => [item.id, item.cover]));
-const invalidCoverAssignmentIds = new Set(coverAssignmentCorrections.invalidAssignments.map((item) => item.id));
+const invalidCoverAssignmentsById = new Map();
+for (const item of coverAssignmentCorrections.invalidAssignments) {
+  if (!invalidCoverAssignmentsById.has(item.id)) invalidCoverAssignmentsById.set(item.id, []);
+  invalidCoverAssignmentsById.get(item.id).push(item);
+}
 const reassignedCoverById = new Map(coverAssignmentCorrections.reassignments.map((item) => [item.targetId, item.cover]));
 const officialMetadataById = new Map(officialMetadataOverrides.map((item) => [item.id, item]));
 const catalogMaintenanceExcludedIds = new Set(catalogMaintenanceExclusions.map((item) => item.id));
@@ -338,7 +342,9 @@ const candidateBooks = [...legacyBooks, ...publishedV2, ...importedBooks, ...cur
   })
   .map((book) => {
     if (reassignedCoverById.has(book.id)) return { ...book, cover: reassignedCoverById.get(book.id), coverUrl: undefined };
-    if (!invalidCoverAssignmentIds.has(book.id)) return book;
+    const coverUrl = book.cover?.url || book.coverUrl;
+    const invalidAssignments = invalidCoverAssignmentsById.get(book.id) || [];
+    if (!invalidAssignments.some((item) => !item.url || item.url === coverUrl)) return book;
     const { cover: _cover, coverUrl: _coverUrl, ...withoutCover } = book;
     return withoutCover;
   });
