@@ -1,58 +1,25 @@
 {
-  "generatedAt": "2026-08-07T08:54:04.287Z",
+  "generatedAt": "2026-08-07T08:59:36.264Z",
   "algorithm": "canonical_work_official_cover_v1",
   "summary": {
-    "checked": 109,
-    "coversAdded": 4,
+    "checked": 105,
+    "coversAdded": 0,
     "remainingWithoutCover": 105
   },
   "remainingReasons": {
-    "cover_belongs_to_existing_catalog_work": 1,
+    "cover_belongs_to_existing_catalog_work": 3,
     "no_official_work_candidate": 9,
     "no_usable_official_cover": 11,
     "work_or_author_not_confirmed": 82
   },
   "sourceFailures": [],
-  "changes": [
-    {
-      "id": "nen-059",
-      "title": "Детектив Самсон",
-      "author": "Катерина Горелик",
-      "source": "polyandria",
-      "sourcePageUrl": "https://www.polyandria.ru/catalog/arkhiv/detektiv-samson/",
-      "coverUrl": "https://www.polyandria.ru/upload/iblock/174/ivfj880mgnfra2mezusr30a0r9jx2lpc.jpg"
-    },
-    {
-      "id": "curated-nen-collection-vasilkovaya-zima-hegyum-kim",
-      "title": "Васильковая зима",
-      "author": "Хегюм Ким",
-      "source": "polyandria",
-      "sourcePageUrl": "https://www.polyandria.ru/catalog/arkhiv/vasilkovaya-zima/",
-      "coverUrl": "https://www.polyandria.ru/upload/iblock/568/lcaxygcw3jznjpvzugpjrs1tx8fykhi7/Vasilkovaya_Zima_Cover-min.jpg"
-    },
-    {
-      "id": "curated-nen-collection-gde-to-v-snegu-linde-faas",
-      "title": "Где-то в снегу",
-      "author": "Линде Фаас",
-      "source": "polyandria",
-      "sourcePageUrl": "https://www.polyandria.ru/catalog/arkhiv/gde-to-v-snegu/",
-      "coverUrl": "https://www.polyandria.ru/upload/iblock/be6/spfrolatjg2f4rl4msjvbwb7plzoekjl/Gde_to-v-snegu_Oblozhka1.jpg"
-    },
-    {
-      "id": "curated-nen-collection-zavetnoe-zhelanie-krotika-sangyn-kim",
-      "title": "Заветное желание кротика",
-      "author": "Сангын Ким",
-      "source": "polyandria",
-      "sourcePageUrl": "https://www.polyandria.ru/catalog/arkhiv/zavetnoe-zhelanie-krotika/",
-      "coverUrl": "https://www.polyandria.ru/upload/iblock/cf1/itzfj1mv160ntxb06vwl0cjzmrlfo3aw/Zavetnoe-zhelanie-krotika_cover_face.jpg"
-    }
-  ],
+  "changes": [],
   "remaining": [
     {
-      "id": "nen-010",
-      "title": "Волшебная кисть Ма Ляна",
-      "author": "Хун Сюньтао",
-      "reason": "no_official_work_candidate",
+      "id": "nen-008",
+      "title": "Аладдин и волшебная лампа",
+      "author": "Сказитель Ханна Дияб; публикация Антуана Галлана",
+      "reason": "work_or_author_not_confirmed",
       "checkedSources": [
         "nen-editorial",
         "official-publishers",
@@ -62,16 +29,97 @@
         "library-catalogs",
         "web-discovery"
       ],
-      "errors": [
-        {
-          "source": "official-publishers",
-          "error": "all_official_product_pages_unavailable:2"
-        }
-      ],
-      "candidatesFound": 0,
+      "errors": [],
+      "candidatesFound": 6,
       "eligibleCandidates": 0,
       "candidateDecisions": [],
-      "rejectedWorkCandidates": []
+      "rejectedWorkCandidates": [
+        {
+          "source": "open-library",
+          "sourcePageUrl": "https://openlibrary.org/works/OL3847163W",
+          "coverUrl": "https://covers.openlibrary.org/b/id/3076924-L.jpg?default=false",
+          "candidateTitle": "Histoire D'Aladdin Ou La Lampe Merveilleuse",
+          "candidateAuthors": [
+            "Antoine Galland"
+          ],
+          "workMatch": {
+            "matches": false,
+            "titleScore": 0.96,
+            "authorMatch": false,
+            "collectionExpansion": false
+          }
+        },
+        {
+          "source": "open-library",
+          "sourcePageUrl": "https://openlibrary.org/works/OL16551520W",
+          "coverUrl": "https://covers.openlibrary.org/b/id/7088722-L.jpg?default=false",
+          "candidateTitle": "Aladdin ou La lampe merveilleuse",
+          "candidateAuthors": [],
+          "workMatch": {
+            "matches": false,
+            "titleScore": 1,
+            "authorMatch": false,
+            "collectionExpansion": false
+          }
+        },
+        {
+          "source": "open-library",
+          "sourcePageUrl": "https://openlibrary.org/works/OL43000029W",
+          "candidateTitle": "Aladdin ou La lampe merveilleuse",
+          "candidateAuthors": [
+            "Antoine Galland"
+          ],
+          "workMatch": {
+            "matches": false,
+            "titleScore": 1,
+            "authorMatch": false,
+            "collectionExpansion": false
+          }
+        },
+        {
+          "source": "open-library",
+          "sourcePageUrl": "https://openlibrary.org/works/OL24693821W",
+          "coverUrl": "https://covers.openlibrary.org/b/id/11405358-L.jpg?default=false",
+          "candidateTitle": "Histoire d'Aladdin ou La lampe merveilleuse",
+          "candidateAuthors": [
+            "Antoine Galland"
+          ],
+          "workMatch": {
+            "matches": false,
+            "titleScore": 0.96,
+            "authorMatch": false,
+            "collectionExpansion": false
+          }
+        },
+        {
+          "source": "open-library",
+          "sourcePageUrl": "https://openlibrary.org/works/OL8910970M",
+          "candidateTitle": "Les mille et une nuits aladdin ou la lampe merveilleuse",
+          "candidateAuthors": [],
+          "workMatch": {
+            "matches": false,
+            "titleScore": 0.96,
+            "authorMatch": false,
+            "collectionExpansion": false
+          }
+        },
+        {
+          "source": "open-library",
+          "sourcePageUrl": "https://openlibrary.org/works/OL24247252W",
+          "coverUrl": "https://covers.openlibrary.org/b/id/10728003-L.jpg?default=false",
+          "candidateTitle": "Aladdin ou La lampe merveilleuse",
+          "candidateAuthors": [
+            "Laurent Berman",
+            "Antoine Galland"
+          ],
+          "workMatch": {
+            "matches": false,
+            "titleScore": 1,
+            "authorMatch": false,
+            "collectionExpansion": false
+          }
+        }
+      ]
     },
     {
       "id": "nen-009",
@@ -206,6 +254,59 @@
       ]
     },
     {
+      "id": "nen-060",
+      "title": "Комиссар Гордон. Первый случай",
+      "author": "Ульф Нильсон",
+      "reason": "cover_belongs_to_existing_catalog_work",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": [],
+      "candidatesFound": 1,
+      "eligibleCandidates": 1,
+      "candidateDecisions": [
+        {
+          "source": "samokat",
+          "sourcePageUrl": "https://samokatbook.ru/book/komissar-gordon-pervoe-delo/",
+          "coverUrl": "https://samokatbook.ru/upload/resize_cache/iblock/ccf/1024_1024_1/ccf39a01ed86f749441fe0e84a44d34e.jpg",
+          "decision": "cover_already_owned",
+          "owner": "curated-samokat-komissar-gordon-pervoe-delo-komissar-gordon-pervoe-delo"
+        }
+      ],
+      "rejectedWorkCandidates": []
+    },
+    {
+      "id": "nen-010",
+      "title": "Волшебная кисть Ма Ляна",
+      "author": "Хун Сюньтао",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": [
+        {
+          "source": "official-publishers",
+          "error": "all_official_product_pages_unavailable:2"
+        }
+      ],
+      "candidatesFound": 0,
+      "eligibleCandidates": 0,
+      "candidateDecisions": [],
+      "rejectedWorkCandidates": []
+    },
+    {
       "id": "nen-061",
       "title": "Универмаг динозавров",
       "author": "Лили Мюррей",
@@ -256,31 +357,6 @@
       "rejectedWorkCandidates": []
     },
     {
-      "id": "nen-bv2-161",
-      "title": "Когда отдыхают ангелы",
-      "author": "Марина Аромштам",
-      "reason": "no_official_work_candidate",
-      "checkedSources": [
-        "nen-editorial",
-        "official-publishers",
-        "google-books",
-        "open-library",
-        "internet-archive",
-        "library-catalogs",
-        "web-discovery"
-      ],
-      "errors": [
-        {
-          "source": "official-publishers",
-          "error": "all_official_product_pages_unavailable:2"
-        }
-      ],
-      "candidatesFound": 0,
-      "eligibleCandidates": 0,
-      "candidateDecisions": [],
-      "rejectedWorkCandidates": []
-    },
-    {
       "id": "nen-bv2-159",
       "title": "Амулет. Хранительница камня",
       "author": "Кадзу Кибуиси",
@@ -304,112 +380,6 @@
       "eligibleCandidates": 0,
       "candidateDecisions": [],
       "rejectedWorkCandidates": []
-    },
-    {
-      "id": "nen-008",
-      "title": "Аладдин и волшебная лампа",
-      "author": "Сказитель Ханна Дияб; публикация Антуана Галлана",
-      "reason": "work_or_author_not_confirmed",
-      "checkedSources": [
-        "nen-editorial",
-        "official-publishers",
-        "google-books",
-        "open-library",
-        "internet-archive",
-        "library-catalogs",
-        "web-discovery"
-      ],
-      "errors": [],
-      "candidatesFound": 6,
-      "eligibleCandidates": 0,
-      "candidateDecisions": [],
-      "rejectedWorkCandidates": [
-        {
-          "source": "open-library",
-          "sourcePageUrl": "https://openlibrary.org/works/OL3847163W",
-          "coverUrl": "https://covers.openlibrary.org/b/id/3076924-L.jpg?default=false",
-          "candidateTitle": "Histoire D'Aladdin Ou La Lampe Merveilleuse",
-          "candidateAuthors": [
-            "Antoine Galland"
-          ],
-          "workMatch": {
-            "matches": false,
-            "titleScore": 0.96,
-            "authorMatch": false,
-            "collectionExpansion": false
-          }
-        },
-        {
-          "source": "open-library",
-          "sourcePageUrl": "https://openlibrary.org/works/OL16551520W",
-          "coverUrl": "https://covers.openlibrary.org/b/id/7088722-L.jpg?default=false",
-          "candidateTitle": "Aladdin ou La lampe merveilleuse",
-          "candidateAuthors": [],
-          "workMatch": {
-            "matches": false,
-            "titleScore": 1,
-            "authorMatch": false,
-            "collectionExpansion": false
-          }
-        },
-        {
-          "source": "open-library",
-          "sourcePageUrl": "https://openlibrary.org/works/OL43000029W",
-          "candidateTitle": "Aladdin ou La lampe merveilleuse",
-          "candidateAuthors": [
-            "Antoine Galland"
-          ],
-          "workMatch": {
-            "matches": false,
-            "titleScore": 1,
-            "authorMatch": false,
-            "collectionExpansion": false
-          }
-        },
-        {
-          "source": "open-library",
-          "sourcePageUrl": "https://openlibrary.org/works/OL24693821W",
-          "coverUrl": "https://covers.openlibrary.org/b/id/11405358-L.jpg?default=false",
-          "candidateTitle": "Histoire d'Aladdin ou La lampe merveilleuse",
-          "candidateAuthors": [
-            "Antoine Galland"
-          ],
-          "workMatch": {
-            "matches": false,
-            "titleScore": 0.96,
-            "authorMatch": false,
-            "collectionExpansion": false
-          }
-        },
-        {
-          "source": "open-library",
-          "sourcePageUrl": "https://openlibrary.org/works/OL8910970M",
-          "candidateTitle": "Les mille et une nuits aladdin ou la lampe merveilleuse",
-          "candidateAuthors": [],
-          "workMatch": {
-            "matches": false,
-            "titleScore": 0.96,
-            "authorMatch": false,
-            "collectionExpansion": false
-          }
-        },
-        {
-          "source": "open-library",
-          "sourcePageUrl": "https://openlibrary.org/works/OL24247252W",
-          "coverUrl": "https://covers.openlibrary.org/b/id/10728003-L.jpg?default=false",
-          "candidateTitle": "Aladdin ou La lampe merveilleuse",
-          "candidateAuthors": [
-            "Laurent Berman",
-            "Antoine Galland"
-          ],
-          "workMatch": {
-            "matches": false,
-            "titleScore": 1,
-            "authorMatch": false,
-            "collectionExpansion": false
-          }
-        }
-      ]
     },
     {
       "id": "ol-ol19742114w",
@@ -564,10 +534,10 @@
       ]
     },
     {
-      "id": "ol-ol2784137w",
-      "title": "Цыплёнок вечером",
-      "author": "Сергей Козлов",
-      "reason": "work_or_author_not_confirmed",
+      "id": "nen-bv2-161",
+      "title": "Когда отдыхают ангелы",
+      "author": "Марина Аромштам",
+      "reason": "no_official_work_candidate",
       "checkedSources": [
         "nen-editorial",
         "official-publishers",
@@ -583,65 +553,10 @@
           "error": "all_official_product_pages_unavailable:2"
         }
       ],
-      "candidatesFound": 1,
+      "candidatesFound": 0,
       "eligibleCandidates": 0,
       "candidateDecisions": [],
-      "rejectedWorkCandidates": [
-        {
-          "source": "open-library",
-          "sourcePageUrl": "https://openlibrary.org/works/OL2784137W",
-          "candidateTitle": "T͡S︡yplënok vecherom",
-          "candidateAuthors": [
-            "Sergeĭ Kozlov"
-          ],
-          "workMatch": {
-            "matches": true,
-            "titleScore": 1,
-            "authorMatch": true,
-            "collectionExpansion": false
-          }
-        }
-      ]
-    },
-    {
-      "id": "ol-ol13647786w",
-      "title": "Мой дом на колёсах",
-      "author": "Наталья Дурова",
-      "reason": "work_or_author_not_confirmed",
-      "checkedSources": [
-        "nen-editorial",
-        "official-publishers",
-        "google-books",
-        "open-library",
-        "internet-archive",
-        "library-catalogs",
-        "web-discovery"
-      ],
-      "errors": [
-        {
-          "source": "official-publishers",
-          "error": "all_official_product_pages_unavailable:2"
-        }
-      ],
-      "candidatesFound": 1,
-      "eligibleCandidates": 0,
-      "candidateDecisions": [],
-      "rejectedWorkCandidates": [
-        {
-          "source": "open-library",
-          "sourcePageUrl": "https://openlibrary.org/works/OL13647786W",
-          "candidateTitle": "Moĭ dom na kolësakh",
-          "candidateAuthors": [
-            "Natalʹi︠a︡ Durova"
-          ],
-          "workMatch": {
-            "matches": true,
-            "titleScore": 1,
-            "authorMatch": true,
-            "collectionExpansion": false
-          }
-        }
-      ]
+      "rejectedWorkCandidates": []
     },
     {
       "id": "ol-ol19970109w",
@@ -862,205 +777,6 @@
       ]
     },
     {
-      "id": "ol-ol19936377w",
-      "title": "Добрый волк",
-      "author": "Марк Тарловский",
-      "reason": "work_or_author_not_confirmed",
-      "checkedSources": [
-        "nen-editorial",
-        "official-publishers",
-        "google-books",
-        "open-library",
-        "internet-archive",
-        "library-catalogs",
-        "web-discovery"
-      ],
-      "errors": [],
-      "candidatesFound": 1,
-      "eligibleCandidates": 0,
-      "candidateDecisions": [],
-      "rejectedWorkCandidates": [
-        {
-          "source": "open-library",
-          "sourcePageUrl": "https://openlibrary.org/works/OL19936377W",
-          "candidateTitle": "Dobryĭ volk",
-          "candidateAuthors": [
-            "Mark Tarlovskiĭ"
-          ],
-          "workMatch": {
-            "matches": true,
-            "titleScore": 1,
-            "authorMatch": true,
-            "collectionExpansion": false
-          }
-        }
-      ]
-    },
-    {
-      "id": "ol-ol11388697w",
-      "title": "Морской охотник",
-      "author": "Николай Чуковский",
-      "reason": "work_or_author_not_confirmed",
-      "checkedSources": [
-        "nen-editorial",
-        "official-publishers",
-        "google-books",
-        "open-library",
-        "internet-archive",
-        "library-catalogs",
-        "web-discovery"
-      ],
-      "errors": [],
-      "candidatesFound": 2,
-      "eligibleCandidates": 0,
-      "candidateDecisions": [],
-      "rejectedWorkCandidates": [
-        {
-          "source": "open-library",
-          "sourcePageUrl": "https://openlibrary.org/works/OL1675388W",
-          "candidateTitle": "Morskoĭ okhotnik",
-          "candidateAuthors": [
-            "Nikolaĭ Chukovskiĭ"
-          ],
-          "workMatch": {
-            "matches": true,
-            "titleScore": 1,
-            "authorMatch": true,
-            "collectionExpansion": false
-          }
-        },
-        {
-          "source": "open-library",
-          "sourcePageUrl": "https://openlibrary.org/works/OL11388697W",
-          "candidateTitle": "Morskoĭ okhotnik",
-          "candidateAuthors": [
-            "Nikolaĭ Chukovskiĭ"
-          ],
-          "workMatch": {
-            "matches": true,
-            "titleScore": 1,
-            "authorMatch": true,
-            "collectionExpansion": false
-          }
-        }
-      ]
-    },
-    {
-      "id": "ol-ol19952256w",
-      "title": "На нашем дворе",
-      "author": "Евгений Иванович Чарушин",
-      "reason": "work_or_author_not_confirmed",
-      "checkedSources": [
-        "nen-editorial",
-        "official-publishers",
-        "google-books",
-        "open-library",
-        "internet-archive",
-        "library-catalogs",
-        "web-discovery"
-      ],
-      "errors": [
-        {
-          "source": "official-publishers",
-          "error": "all_official_product_pages_unavailable:2"
-        }
-      ],
-      "candidatesFound": 1,
-      "eligibleCandidates": 0,
-      "candidateDecisions": [],
-      "rejectedWorkCandidates": [
-        {
-          "source": "open-library",
-          "sourcePageUrl": "https://openlibrary.org/works/OL19952256W",
-          "candidateTitle": "Na nashem dvore",
-          "candidateAuthors": [
-            "Evgeniĭ Ivanovich Charushin"
-          ],
-          "workMatch": {
-            "matches": true,
-            "titleScore": 1,
-            "authorMatch": true,
-            "collectionExpansion": false
-          }
-        }
-      ]
-    },
-    {
-      "id": "ol-ol32513596w",
-      "title": "Ленинградские сказки",
-      "author": "Юлия Яковлева",
-      "reason": "work_or_author_not_confirmed",
-      "checkedSources": [
-        "nen-editorial",
-        "official-publishers",
-        "google-books",
-        "open-library",
-        "internet-archive",
-        "library-catalogs",
-        "web-discovery"
-      ],
-      "errors": [],
-      "candidatesFound": 1,
-      "eligibleCandidates": 0,
-      "candidateDecisions": [],
-      "rejectedWorkCandidates": [
-        {
-          "source": "open-library",
-          "sourcePageUrl": "https://openlibrary.org/works/OL32513596W",
-          "candidateTitle": "Leningradskie skazki",
-          "candidateAuthors": [
-            "I︠U︡lii︠a︡ I︠A︡kovleva"
-          ],
-          "workMatch": {
-            "matches": true,
-            "titleScore": 1,
-            "authorMatch": true,
-            "collectionExpansion": false
-          }
-        }
-      ]
-    },
-    {
-      "id": "ol-ol19931764w",
-      "title": "Всё о больших и маленьких приключениях",
-      "author": "Борис Житков",
-      "reason": "work_or_author_not_confirmed",
-      "checkedSources": [
-        "nen-editorial",
-        "official-publishers",
-        "google-books",
-        "open-library",
-        "internet-archive",
-        "library-catalogs",
-        "web-discovery"
-      ],
-      "errors": [
-        {
-          "source": "official-publishers",
-          "error": "all_official_product_pages_unavailable:2"
-        }
-      ],
-      "candidatesFound": 1,
-      "eligibleCandidates": 0,
-      "candidateDecisions": [],
-      "rejectedWorkCandidates": [
-        {
-          "source": "open-library",
-          "sourcePageUrl": "https://openlibrary.org/works/OL19931764W",
-          "candidateTitle": "Vsë o bolʹshikh i malenʹkikh prikl︠i︡ucheni︠i︡akh",
-          "candidateAuthors": [
-            "Zhitkov, Boris"
-          ],
-          "workMatch": {
-            "matches": false,
-            "titleScore": 0.5,
-            "authorMatch": true,
-            "collectionExpansion": false
-          }
-        }
-      ]
-    },
-    {
       "id": "ol-ol4721004w",
       "title": "Владимир красное солнышко",
       "author": "Ф. В. Домбровский",
@@ -1148,6 +864,241 @@
       ]
     },
     {
+      "id": "ol-ol19936377w",
+      "title": "Добрый волк",
+      "author": "Марк Тарловский",
+      "reason": "work_or_author_not_confirmed",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": [],
+      "candidatesFound": 1,
+      "eligibleCandidates": 0,
+      "candidateDecisions": [],
+      "rejectedWorkCandidates": [
+        {
+          "source": "open-library",
+          "sourcePageUrl": "https://openlibrary.org/works/OL19936377W",
+          "candidateTitle": "Dobryĭ volk",
+          "candidateAuthors": [
+            "Mark Tarlovskiĭ"
+          ],
+          "workMatch": {
+            "matches": true,
+            "titleScore": 1,
+            "authorMatch": true,
+            "collectionExpansion": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "ol-ol11388697w",
+      "title": "Морской охотник",
+      "author": "Николай Чуковский",
+      "reason": "work_or_author_not_confirmed",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": [],
+      "candidatesFound": 2,
+      "eligibleCandidates": 0,
+      "candidateDecisions": [],
+      "rejectedWorkCandidates": [
+        {
+          "source": "open-library",
+          "sourcePageUrl": "https://openlibrary.org/works/OL1675388W",
+          "candidateTitle": "Morskoĭ okhotnik",
+          "candidateAuthors": [
+            "Nikolaĭ Chukovskiĭ"
+          ],
+          "workMatch": {
+            "matches": true,
+            "titleScore": 1,
+            "authorMatch": true,
+            "collectionExpansion": false
+          }
+        },
+        {
+          "source": "open-library",
+          "sourcePageUrl": "https://openlibrary.org/works/OL11388697W",
+          "candidateTitle": "Morskoĭ okhotnik",
+          "candidateAuthors": [
+            "Nikolaĭ Chukovskiĭ"
+          ],
+          "workMatch": {
+            "matches": true,
+            "titleScore": 1,
+            "authorMatch": true,
+            "collectionExpansion": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "ol-ol2784137w",
+      "title": "Цыплёнок вечером",
+      "author": "Сергей Козлов",
+      "reason": "work_or_author_not_confirmed",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": [
+        {
+          "source": "official-publishers",
+          "error": "all_official_product_pages_unavailable:2"
+        }
+      ],
+      "candidatesFound": 1,
+      "eligibleCandidates": 0,
+      "candidateDecisions": [],
+      "rejectedWorkCandidates": [
+        {
+          "source": "open-library",
+          "sourcePageUrl": "https://openlibrary.org/works/OL2784137W",
+          "candidateTitle": "T͡S︡yplënok vecherom",
+          "candidateAuthors": [
+            "Sergeĭ Kozlov"
+          ],
+          "workMatch": {
+            "matches": true,
+            "titleScore": 1,
+            "authorMatch": true,
+            "collectionExpansion": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "ol-ol32513596w",
+      "title": "Ленинградские сказки",
+      "author": "Юлия Яковлева",
+      "reason": "work_or_author_not_confirmed",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": [],
+      "candidatesFound": 1,
+      "eligibleCandidates": 0,
+      "candidateDecisions": [],
+      "rejectedWorkCandidates": [
+        {
+          "source": "open-library",
+          "sourcePageUrl": "https://openlibrary.org/works/OL32513596W",
+          "candidateTitle": "Leningradskie skazki",
+          "candidateAuthors": [
+            "I︠U︡lii︠a︡ I︠A︡kovleva"
+          ],
+          "workMatch": {
+            "matches": true,
+            "titleScore": 1,
+            "authorMatch": true,
+            "collectionExpansion": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "ol-ol13647786w",
+      "title": "Мой дом на колёсах",
+      "author": "Наталья Дурова",
+      "reason": "work_or_author_not_confirmed",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": [
+        {
+          "source": "official-publishers",
+          "error": "all_official_product_pages_unavailable:2"
+        }
+      ],
+      "candidatesFound": 1,
+      "eligibleCandidates": 0,
+      "candidateDecisions": [],
+      "rejectedWorkCandidates": [
+        {
+          "source": "open-library",
+          "sourcePageUrl": "https://openlibrary.org/works/OL13647786W",
+          "candidateTitle": "Moĭ dom na kolësakh",
+          "candidateAuthors": [
+            "Natalʹi︠a︡ Durova"
+          ],
+          "workMatch": {
+            "matches": true,
+            "titleScore": 1,
+            "authorMatch": true,
+            "collectionExpansion": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "ol-ol19978419w",
+      "title": "Большая собачья книга",
+      "author": "В. Н. Белоусов; М. В. Белоусова",
+      "reason": "work_or_author_not_confirmed",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": [],
+      "candidatesFound": 1,
+      "eligibleCandidates": 0,
+      "candidateDecisions": [],
+      "rejectedWorkCandidates": [
+        {
+          "source": "open-library",
+          "sourcePageUrl": "https://openlibrary.org/works/OL19978419W",
+          "candidateTitle": "Bolʹsha︠i︡a sobachʹ︠i︡a kniga",
+          "candidateAuthors": [
+            "V. N. Belousov",
+            "M. V. Belousova"
+          ],
+          "workMatch": {
+            "matches": false,
+            "titleScore": 0.3333333333333333,
+            "authorMatch": true,
+            "collectionExpansion": false
+          }
+        }
+      ]
+    },
+    {
       "id": "ol-ol20043973w",
       "title": "Скок-поскок",
       "author": "Ю Васнецов",
@@ -1218,42 +1169,6 @@
       ]
     },
     {
-      "id": "ol-ol19978419w",
-      "title": "Большая собачья книга",
-      "author": "В. Н. Белоусов; М. В. Белоусова",
-      "reason": "work_or_author_not_confirmed",
-      "checkedSources": [
-        "nen-editorial",
-        "official-publishers",
-        "google-books",
-        "open-library",
-        "internet-archive",
-        "library-catalogs",
-        "web-discovery"
-      ],
-      "errors": [],
-      "candidatesFound": 1,
-      "eligibleCandidates": 0,
-      "candidateDecisions": [],
-      "rejectedWorkCandidates": [
-        {
-          "source": "open-library",
-          "sourcePageUrl": "https://openlibrary.org/works/OL19978419W",
-          "candidateTitle": "Bolʹsha︠i︡a sobachʹ︠i︡a kniga",
-          "candidateAuthors": [
-            "V. N. Belousov",
-            "M. V. Belousova"
-          ],
-          "workMatch": {
-            "matches": false,
-            "titleScore": 0.3333333333333333,
-            "authorMatch": true,
-            "collectionExpansion": false
-          }
-        }
-      ]
-    },
-    {
       "id": "ol-ol4263283w",
       "title": "Терем-теремок и другие сказки",
       "author": "Владимир Сутеев",
@@ -1278,41 +1193,6 @@
           "candidateTitle": "Terem-teremok i drugie skazki",
           "candidateAuthors": [
             "Vladimir Suteev"
-          ],
-          "workMatch": {
-            "matches": true,
-            "titleScore": 1,
-            "authorMatch": true,
-            "collectionExpansion": false
-          }
-        }
-      ]
-    },
-    {
-      "id": "ol-ol3803771w",
-      "title": "Хор охотников",
-      "author": "Г. Скребицкий",
-      "reason": "work_or_author_not_confirmed",
-      "checkedSources": [
-        "nen-editorial",
-        "official-publishers",
-        "google-books",
-        "open-library",
-        "internet-archive",
-        "library-catalogs",
-        "web-discovery"
-      ],
-      "errors": [],
-      "candidatesFound": 1,
-      "eligibleCandidates": 0,
-      "candidateDecisions": [],
-      "rejectedWorkCandidates": [
-        {
-          "source": "open-library",
-          "sourcePageUrl": "https://openlibrary.org/works/OL3803771W",
-          "candidateTitle": "Khor okhotnikov",
-          "candidateAuthors": [
-            "G. Skrebit͡skiĭ"
           ],
           "workMatch": {
             "matches": true,
@@ -1352,6 +1232,41 @@
           "workMatch": {
             "matches": true,
             "titleScore": 0.8,
+            "authorMatch": true,
+            "collectionExpansion": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "ol-ol3803771w",
+      "title": "Хор охотников",
+      "author": "Г. Скребицкий",
+      "reason": "work_or_author_not_confirmed",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": [],
+      "candidatesFound": 1,
+      "eligibleCandidates": 0,
+      "candidateDecisions": [],
+      "rejectedWorkCandidates": [
+        {
+          "source": "open-library",
+          "sourcePageUrl": "https://openlibrary.org/works/OL3803771W",
+          "candidateTitle": "Khor okhotnikov",
+          "candidateAuthors": [
+            "G. Skrebit͡skiĭ"
+          ],
+          "workMatch": {
+            "matches": true,
+            "titleScore": 1,
             "authorMatch": true,
             "collectionExpansion": false
           }
@@ -1623,9 +1538,9 @@
       ]
     },
     {
-      "id": "ol-ol44294375w",
-      "title": "Приключения дяди Лёвы в румынских степях",
-      "author": "Янец Леви; Янив Шимони",
+      "id": "ol-ol19952256w",
+      "title": "На нашем дворе",
+      "author": "Евгений Иванович Чарушин",
       "reason": "work_or_author_not_confirmed",
       "checkedSources": [
         "nen-editorial",
@@ -1648,11 +1563,10 @@
       "rejectedWorkCandidates": [
         {
           "source": "open-library",
-          "sourcePageUrl": "https://openlibrary.org/works/OL44294375W",
-          "candidateTitle": "Приключения дяди Лёвы в румынских степях",
+          "sourcePageUrl": "https://openlibrary.org/works/OL19952256W",
+          "candidateTitle": "Na nashem dvore",
           "candidateAuthors": [
-            "Янец Леви",
-            "Янив Шимони"
+            "Evgeniĭ Ivanovich Charushin"
           ],
           "workMatch": {
             "matches": true,
@@ -1664,9 +1578,9 @@
       ]
     },
     {
-      "id": "ol-ol12849951w",
-      "title": "Визгкультура, или, семейная качалка",
-      "author": "Григорий Остер",
+      "id": "ol-ol19931764w",
+      "title": "Всё о больших и маленьких приключениях",
+      "author": "Борис Житков",
       "reason": "work_or_author_not_confirmed",
       "checkedSources": [
         "nen-editorial",
@@ -1683,117 +1597,21 @@
           "error": "all_official_product_pages_unavailable:2"
         }
       ],
-      "candidatesFound": 2,
+      "candidatesFound": 1,
       "eligibleCandidates": 0,
       "candidateDecisions": [],
       "rejectedWorkCandidates": [
         {
           "source": "open-library",
-          "sourcePageUrl": "https://openlibrary.org/works/OL12849951W",
-          "candidateTitle": "Vizgkulʹtura, ili, semeĭnai︠a︡ kachalka",
+          "sourcePageUrl": "https://openlibrary.org/works/OL19931764W",
+          "candidateTitle": "Vsë o bolʹshikh i malenʹkikh prikl︠i︡ucheni︠i︡akh",
           "candidateAuthors": [
-            "Grigoriĭ Oster"
+            "Zhitkov, Boris"
           ],
           "workMatch": {
             "matches": false,
-            "titleScore": 0.75,
+            "titleScore": 0.5,
             "authorMatch": true,
-            "collectionExpansion": false
-          }
-        },
-        {
-          "source": "open-library",
-          "sourcePageUrl": "https://openlibrary.org/works/OL667418W",
-          "candidateTitle": "Vizgkulʹtura, ili, Semeĭnai͡a︡ kachalka",
-          "candidateAuthors": [
-            "Grigoriĭ Oster"
-          ],
-          "workMatch": {
-            "matches": false,
-            "titleScore": 0.75,
-            "authorMatch": true,
-            "collectionExpansion": false
-          }
-        }
-      ]
-    },
-    {
-      "id": "ol-ol20025742w",
-      "title": "Во-первых и во-вторых",
-      "author": "Даниил Хармс",
-      "reason": "work_or_author_not_confirmed",
-      "checkedSources": [
-        "nen-editorial",
-        "official-publishers",
-        "google-books",
-        "open-library",
-        "internet-archive",
-        "library-catalogs",
-        "web-discovery"
-      ],
-      "errors": [
-        {
-          "source": "official-publishers",
-          "error": "all_official_product_pages_unavailable:2"
-        }
-      ],
-      "candidatesFound": 4,
-      "eligibleCandidates": 0,
-      "candidateDecisions": [],
-      "rejectedWorkCandidates": [
-        {
-          "source": "open-library",
-          "sourcePageUrl": "https://openlibrary.org/works/OL8855913W",
-          "candidateTitle": "Vo-pervykh i vo-vtorykh (Zolotaya biblioteka)",
-          "candidateAuthors": [
-            "D. Kharms"
-          ],
-          "workMatch": {
-            "matches": true,
-            "titleScore": 0.96,
-            "authorMatch": true,
-            "collectionExpansion": false
-          }
-        },
-        {
-          "source": "open-library",
-          "sourcePageUrl": "https://openlibrary.org/works/OL20025742W",
-          "candidateTitle": "Vo-pervykh i vo-vtorykh",
-          "candidateAuthors": [
-            "Daniil Kharms"
-          ],
-          "workMatch": {
-            "matches": true,
-            "titleScore": 1,
-            "authorMatch": true,
-            "collectionExpansion": false
-          }
-        },
-        {
-          "source": "open-library",
-          "sourcePageUrl": "https://openlibrary.org/works/OL38423622W",
-          "candidateTitle": "Vo-pervykh, vo-vtorykh i v-tretʹikh",
-          "candidateAuthors": [
-            "Leonid Martynov"
-          ],
-          "workMatch": {
-            "matches": false,
-            "titleScore": 1,
-            "authorMatch": false,
-            "collectionExpansion": false
-          }
-        },
-        {
-          "source": "open-library",
-          "sourcePageUrl": "https://openlibrary.org/works/OL3849592W",
-          "candidateTitle": "Vo-pervykh, vo-vtorykh i v-tret'ikh",
-          "candidateAuthors": [
-            "Leonid Martynov"
-          ],
-          "workMatch": {
-            "matches": false,
-            "titleScore": 1,
-            "authorMatch": false,
             "collectionExpansion": false
           }
         }
@@ -1961,9 +1779,9 @@
       ]
     },
     {
-      "id": "ol-ol23178263w",
-      "title": "Однажды звери всех мастей",
-      "author": "Михаил Бельчиков",
+      "id": "ol-ol44294375w",
+      "title": "Приключения дяди Лёвы в румынских степях",
+      "author": "Янец Леви; Янив Шимони",
       "reason": "work_or_author_not_confirmed",
       "checkedSources": [
         "nen-editorial",
@@ -1986,15 +1804,70 @@
       "rejectedWorkCandidates": [
         {
           "source": "open-library",
-          "sourcePageUrl": "https://openlibrary.org/works/OL23178263W",
-          "candidateTitle": "Odnazhdy zveri vsekh masteĭ",
+          "sourcePageUrl": "https://openlibrary.org/works/OL44294375W",
+          "candidateTitle": "Приключения дяди Лёвы в румынских степях",
           "candidateAuthors": [
-            "Mikhail Belʹchikov"
+            "Янец Леви",
+            "Янив Шимони"
+          ],
+          "workMatch": {
+            "matches": true,
+            "titleScore": 1,
+            "authorMatch": true,
+            "collectionExpansion": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "ol-ol12849951w",
+      "title": "Визгкультура, или, семейная качалка",
+      "author": "Григорий Остер",
+      "reason": "work_or_author_not_confirmed",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": [
+        {
+          "source": "official-publishers",
+          "error": "all_official_product_pages_unavailable:2"
+        }
+      ],
+      "candidatesFound": 2,
+      "eligibleCandidates": 0,
+      "candidateDecisions": [],
+      "rejectedWorkCandidates": [
+        {
+          "source": "open-library",
+          "sourcePageUrl": "https://openlibrary.org/works/OL12849951W",
+          "candidateTitle": "Vizgkulʹtura, ili, semeĭnai︠a︡ kachalka",
+          "candidateAuthors": [
+            "Grigoriĭ Oster"
           ],
           "workMatch": {
             "matches": false,
-            "titleScore": 1,
-            "authorMatch": false,
+            "titleScore": 0.75,
+            "authorMatch": true,
+            "collectionExpansion": false
+          }
+        },
+        {
+          "source": "open-library",
+          "sourcePageUrl": "https://openlibrary.org/works/OL667418W",
+          "candidateTitle": "Vizgkulʹtura, ili, Semeĭnai͡a︡ kachalka",
+          "candidateAuthors": [
+            "Grigoriĭ Oster"
+          ],
+          "workMatch": {
+            "matches": false,
+            "titleScore": 0.75,
+            "authorMatch": true,
             "collectionExpansion": false
           }
         }
@@ -2036,9 +1909,9 @@
       ]
     },
     {
-      "id": "ol-ol23925164w",
-      "title": "Сказки про хитрую-хитрую рыбу Любу и ведьму Наташу",
-      "author": "Владимир Снарков",
+      "id": "ol-ol20025742w",
+      "title": "Во-первых и во-вторых",
+      "author": "Даниил Хармс",
       "reason": "work_or_author_not_confirmed",
       "checkedSources": [
         "nen-editorial",
@@ -2055,21 +1928,63 @@
           "error": "all_official_product_pages_unavailable:2"
         }
       ],
-      "candidatesFound": 1,
+      "candidatesFound": 4,
       "eligibleCandidates": 0,
       "candidateDecisions": [],
       "rejectedWorkCandidates": [
         {
           "source": "open-library",
-          "sourcePageUrl": "https://openlibrary.org/works/OL23925164W",
-          "candidateTitle": "Skazki pro khitrui︠u︡-khitrui︠u︡ rybu Li︠u︡bu i vedʹmu Natashu",
+          "sourcePageUrl": "https://openlibrary.org/works/OL8855913W",
+          "candidateTitle": "Vo-pervykh i vo-vtorykh (Zolotaya biblioteka)",
           "candidateAuthors": [
-            "Vladimir Snarkov"
+            "D. Kharms"
           ],
           "workMatch": {
             "matches": true,
-            "titleScore": 0.8571428571428571,
+            "titleScore": 0.96,
             "authorMatch": true,
+            "collectionExpansion": false
+          }
+        },
+        {
+          "source": "open-library",
+          "sourcePageUrl": "https://openlibrary.org/works/OL20025742W",
+          "candidateTitle": "Vo-pervykh i vo-vtorykh",
+          "candidateAuthors": [
+            "Daniil Kharms"
+          ],
+          "workMatch": {
+            "matches": true,
+            "titleScore": 1,
+            "authorMatch": true,
+            "collectionExpansion": false
+          }
+        },
+        {
+          "source": "open-library",
+          "sourcePageUrl": "https://openlibrary.org/works/OL38423622W",
+          "candidateTitle": "Vo-pervykh, vo-vtorykh i v-tretʹikh",
+          "candidateAuthors": [
+            "Leonid Martynov"
+          ],
+          "workMatch": {
+            "matches": false,
+            "titleScore": 1,
+            "authorMatch": false,
+            "collectionExpansion": false
+          }
+        },
+        {
+          "source": "open-library",
+          "sourcePageUrl": "https://openlibrary.org/works/OL3849592W",
+          "candidateTitle": "Vo-pervykh, vo-vtorykh i v-tret'ikh",
+          "candidateAuthors": [
+            "Leonid Martynov"
+          ],
+          "workMatch": {
+            "matches": false,
+            "titleScore": 1,
+            "authorMatch": false,
             "collectionExpansion": false
           }
         }
@@ -2152,6 +2067,46 @@
       ]
     },
     {
+      "id": "ol-ol23178263w",
+      "title": "Однажды звери всех мастей",
+      "author": "Михаил Бельчиков",
+      "reason": "work_or_author_not_confirmed",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": [
+        {
+          "source": "official-publishers",
+          "error": "all_official_product_pages_unavailable:2"
+        }
+      ],
+      "candidatesFound": 1,
+      "eligibleCandidates": 0,
+      "candidateDecisions": [],
+      "rejectedWorkCandidates": [
+        {
+          "source": "open-library",
+          "sourcePageUrl": "https://openlibrary.org/works/OL23178263W",
+          "candidateTitle": "Odnazhdy zveri vsekh masteĭ",
+          "candidateAuthors": [
+            "Mikhail Belʹchikov"
+          ],
+          "workMatch": {
+            "matches": false,
+            "titleScore": 1,
+            "authorMatch": false,
+            "collectionExpansion": false
+          }
+        }
+      ]
+    },
+    {
       "id": "ol-ol11483415w",
       "title": "История про воробья Антверпена, кота Михеева, столетника Васю и сороконожку Марью Семеновну с семьей",
       "author": "Людмила Улицкая",
@@ -2185,46 +2140,6 @@
           "workMatch": {
             "matches": false,
             "titleScore": 0.75,
-            "authorMatch": true,
-            "collectionExpansion": false
-          }
-        }
-      ]
-    },
-    {
-      "id": "ol-ol12866329w",
-      "title": "Воздушные рыбки",
-      "author": "Марина Дяченко",
-      "reason": "work_or_author_not_confirmed",
-      "checkedSources": [
-        "nen-editorial",
-        "official-publishers",
-        "google-books",
-        "open-library",
-        "internet-archive",
-        "library-catalogs",
-        "web-discovery"
-      ],
-      "errors": [
-        {
-          "source": "official-publishers",
-          "error": "all_official_product_pages_unavailable:2"
-        }
-      ],
-      "candidatesFound": 1,
-      "eligibleCandidates": 0,
-      "candidateDecisions": [],
-      "rejectedWorkCandidates": [
-        {
-          "source": "open-library",
-          "sourcePageUrl": "https://openlibrary.org/works/OL12866329W",
-          "candidateTitle": "Vozdushnye rybki",
-          "candidateAuthors": [
-            "Марина Дяченко"
-          ],
-          "workMatch": {
-            "matches": true,
-            "titleScore": 1,
             "authorMatch": true,
             "collectionExpansion": false
           }
@@ -2323,9 +2238,9 @@
       ]
     },
     {
-      "id": "ol-ol23311994w",
-      "title": "Солнечный зайчик",
-      "author": "Ирина Белая",
+      "id": "ol-ol23925164w",
+      "title": "Сказки про хитрую-хитрую рыбу Любу и ведьму Наташу",
+      "author": "Владимир Снарков",
       "reason": "work_or_author_not_confirmed",
       "checkedSources": [
         "nen-editorial",
@@ -2342,91 +2257,21 @@
           "error": "all_official_product_pages_unavailable:2"
         }
       ],
-      "candidatesFound": 6,
+      "candidatesFound": 1,
       "eligibleCandidates": 0,
       "candidateDecisions": [],
       "rejectedWorkCandidates": [
         {
           "source": "open-library",
-          "sourcePageUrl": "https://openlibrary.org/works/OL23311994W",
-          "candidateTitle": "Solnechnyĭ zaĭchik",
+          "sourcePageUrl": "https://openlibrary.org/works/OL23925164W",
+          "candidateTitle": "Skazki pro khitrui︠u︡-khitrui︠u︡ rybu Li︠u︡bu i vedʹmu Natashu",
           "candidateAuthors": [
-            "Irina Belai︠a︡"
+            "Vladimir Snarkov"
           ],
           "workMatch": {
             "matches": true,
-            "titleScore": 1,
+            "titleScore": 0.8571428571428571,
             "authorMatch": true,
-            "collectionExpansion": false
-          }
-        },
-        {
-          "source": "open-library",
-          "sourcePageUrl": "https://openlibrary.org/works/OL42505227W",
-          "candidateTitle": "Solnechnyĭ zaĭchik",
-          "candidateAuthors": [
-            "Irina Belai͡a"
-          ],
-          "workMatch": {
-            "matches": true,
-            "titleScore": 1,
-            "authorMatch": true,
-            "collectionExpansion": false
-          }
-        },
-        {
-          "source": "open-library",
-          "sourcePageUrl": "https://openlibrary.org/works/OL39918006W",
-          "candidateTitle": "Solnechnyĭ zaĭchik",
-          "candidateAuthors": [
-            "Elena Bobkova"
-          ],
-          "workMatch": {
-            "matches": false,
-            "titleScore": 1,
-            "authorMatch": false,
-            "collectionExpansion": false
-          }
-        },
-        {
-          "source": "open-library",
-          "sourcePageUrl": "https://openlibrary.org/works/OL5531153W",
-          "candidateTitle": "Solnechnyĭ zaĭchik na staroĭ stene",
-          "candidateAuthors": [
-            "V. D. Savit͡skiĭ"
-          ],
-          "workMatch": {
-            "matches": false,
-            "titleScore": 0.96,
-            "authorMatch": false,
-            "collectionExpansion": false
-          }
-        },
-        {
-          "source": "open-library",
-          "sourcePageUrl": "https://openlibrary.org/works/OL12605940W",
-          "candidateTitle": "Solnechnyĭ zaĭchik na staroĭ stene",
-          "candidateAuthors": [
-            "Vladimir Dmitrievich Savit︠s︡kiĭ"
-          ],
-          "workMatch": {
-            "matches": false,
-            "titleScore": 0.96,
-            "authorMatch": false,
-            "collectionExpansion": false
-          }
-        },
-        {
-          "source": "open-library",
-          "sourcePageUrl": "https://openlibrary.org/works/OL32165201W",
-          "candidateTitle": "Solnechnyĭ zaĭchik s khumusom i bakinskim akt͡sentom",
-          "candidateAuthors": [
-            "Mikhail Neĭman"
-          ],
-          "workMatch": {
-            "matches": false,
-            "titleScore": 0.96,
-            "authorMatch": false,
             "collectionExpansion": false
           }
         }
@@ -2587,6 +2432,192 @@
       ]
     },
     {
+      "id": "ol-ol12866329w",
+      "title": "Воздушные рыбки",
+      "author": "Марина Дяченко",
+      "reason": "work_or_author_not_confirmed",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": [
+        {
+          "source": "official-publishers",
+          "error": "all_official_product_pages_unavailable:2"
+        }
+      ],
+      "candidatesFound": 1,
+      "eligibleCandidates": 0,
+      "candidateDecisions": [],
+      "rejectedWorkCandidates": [
+        {
+          "source": "open-library",
+          "sourcePageUrl": "https://openlibrary.org/works/OL12866329W",
+          "candidateTitle": "Vozdushnye rybki",
+          "candidateAuthors": [
+            "Марина Дяченко"
+          ],
+          "workMatch": {
+            "matches": true,
+            "titleScore": 1,
+            "authorMatch": true,
+            "collectionExpansion": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "ol-ol23311994w",
+      "title": "Солнечный зайчик",
+      "author": "Ирина Белая",
+      "reason": "work_or_author_not_confirmed",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": [
+        {
+          "source": "official-publishers",
+          "error": "all_official_product_pages_unavailable:2"
+        }
+      ],
+      "candidatesFound": 6,
+      "eligibleCandidates": 0,
+      "candidateDecisions": [],
+      "rejectedWorkCandidates": [
+        {
+          "source": "open-library",
+          "sourcePageUrl": "https://openlibrary.org/works/OL23311994W",
+          "candidateTitle": "Solnechnyĭ zaĭchik",
+          "candidateAuthors": [
+            "Irina Belai︠a︡"
+          ],
+          "workMatch": {
+            "matches": true,
+            "titleScore": 1,
+            "authorMatch": true,
+            "collectionExpansion": false
+          }
+        },
+        {
+          "source": "open-library",
+          "sourcePageUrl": "https://openlibrary.org/works/OL42505227W",
+          "candidateTitle": "Solnechnyĭ zaĭchik",
+          "candidateAuthors": [
+            "Irina Belai͡a"
+          ],
+          "workMatch": {
+            "matches": true,
+            "titleScore": 1,
+            "authorMatch": true,
+            "collectionExpansion": false
+          }
+        },
+        {
+          "source": "open-library",
+          "sourcePageUrl": "https://openlibrary.org/works/OL39918006W",
+          "candidateTitle": "Solnechnyĭ zaĭchik",
+          "candidateAuthors": [
+            "Elena Bobkova"
+          ],
+          "workMatch": {
+            "matches": false,
+            "titleScore": 1,
+            "authorMatch": false,
+            "collectionExpansion": false
+          }
+        },
+        {
+          "source": "open-library",
+          "sourcePageUrl": "https://openlibrary.org/works/OL5531153W",
+          "candidateTitle": "Solnechnyĭ zaĭchik na staroĭ stene",
+          "candidateAuthors": [
+            "V. D. Savit͡skiĭ"
+          ],
+          "workMatch": {
+            "matches": false,
+            "titleScore": 0.96,
+            "authorMatch": false,
+            "collectionExpansion": false
+          }
+        },
+        {
+          "source": "open-library",
+          "sourcePageUrl": "https://openlibrary.org/works/OL12605940W",
+          "candidateTitle": "Solnechnyĭ zaĭchik na staroĭ stene",
+          "candidateAuthors": [
+            "Vladimir Dmitrievich Savit︠s︡kiĭ"
+          ],
+          "workMatch": {
+            "matches": false,
+            "titleScore": 0.96,
+            "authorMatch": false,
+            "collectionExpansion": false
+          }
+        },
+        {
+          "source": "open-library",
+          "sourcePageUrl": "https://openlibrary.org/works/OL32165201W",
+          "candidateTitle": "Solnechnyĭ zaĭchik s khumusom i bakinskim akt͡sentom",
+          "candidateAuthors": [
+            "Mikhail Neĭman"
+          ],
+          "workMatch": {
+            "matches": false,
+            "titleScore": 0.96,
+            "authorMatch": false,
+            "collectionExpansion": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "ol-ol19940727w",
+      "title": "Ничуть не страшно и другие сказки",
+      "author": "Л. Кириллов; Мария Рудаченко",
+      "reason": "work_or_author_not_confirmed",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": [],
+      "candidatesFound": 1,
+      "eligibleCandidates": 0,
+      "candidateDecisions": [],
+      "rejectedWorkCandidates": [
+        {
+          "source": "open-library",
+          "sourcePageUrl": "https://openlibrary.org/works/OL19940727W",
+          "candidateTitle": "Nichutʹ ne strashno i drugie skazki",
+          "candidateAuthors": [
+            "L. Kirillov",
+            "Marii︠a︡ Rudachenko"
+          ],
+          "workMatch": {
+            "matches": true,
+            "titleScore": 1,
+            "authorMatch": true,
+            "collectionExpansion": false
+          }
+        }
+      ]
+    },
+    {
       "id": "ol-ol20058937w",
       "title": "Русская пленница французского кота",
       "author": "Игорь Жуков",
@@ -2667,42 +2698,6 @@
       ]
     },
     {
-      "id": "ol-ol19940727w",
-      "title": "Ничуть не страшно и другие сказки",
-      "author": "Л. Кириллов; Мария Рудаченко",
-      "reason": "work_or_author_not_confirmed",
-      "checkedSources": [
-        "nen-editorial",
-        "official-publishers",
-        "google-books",
-        "open-library",
-        "internet-archive",
-        "library-catalogs",
-        "web-discovery"
-      ],
-      "errors": [],
-      "candidatesFound": 1,
-      "eligibleCandidates": 0,
-      "candidateDecisions": [],
-      "rejectedWorkCandidates": [
-        {
-          "source": "open-library",
-          "sourcePageUrl": "https://openlibrary.org/works/OL19940727W",
-          "candidateTitle": "Nichutʹ ne strashno i drugie skazki",
-          "candidateAuthors": [
-            "L. Kirillov",
-            "Marii︠a︡ Rudachenko"
-          ],
-          "workMatch": {
-            "matches": true,
-            "titleScore": 1,
-            "authorMatch": true,
-            "collectionExpansion": false
-          }
-        }
-      ]
-    },
-    {
       "id": "ol-ol6080944w",
       "title": "Похищение продавца приключений",
       "author": "Г. М. Садовников",
@@ -2736,103 +2731,6 @@
           "workMatch": {
             "matches": true,
             "titleScore": 1,
-            "authorMatch": true,
-            "collectionExpansion": false
-          }
-        }
-      ]
-    },
-    {
-      "id": "ol-ol19935840w",
-      "title": "Хрестоматия детской классики",
-      "author": "В. Рябченко",
-      "reason": "work_or_author_not_confirmed",
-      "checkedSources": [
-        "nen-editorial",
-        "official-publishers",
-        "google-books",
-        "open-library",
-        "internet-archive",
-        "library-catalogs",
-        "web-discovery"
-      ],
-      "errors": [
-        {
-          "source": "official-publishers",
-          "error": "all_official_product_pages_unavailable:2"
-        }
-      ],
-      "candidatesFound": 2,
-      "eligibleCandidates": 0,
-      "candidateDecisions": [],
-      "rejectedWorkCandidates": [
-        {
-          "source": "open-library",
-          "sourcePageUrl": "https://openlibrary.org/works/OL19935840W",
-          "candidateTitle": "Khrestomati︠i︡a detskoĭ klassiki",
-          "candidateAuthors": [
-            "V. R︠i︡abchenko"
-          ],
-          "workMatch": {
-            "matches": true,
-            "titleScore": 1,
-            "authorMatch": true,
-            "collectionExpansion": false
-          }
-        },
-        {
-          "source": "open-library",
-          "sourcePageUrl": "https://openlibrary.org/works/OL19862322W",
-          "coverUrl": "https://covers.openlibrary.org/b/id/8668405-L.jpg?default=false",
-          "candidateTitle": "Khrestomatii͡a detskoĭ klassiki ot 2 do 6 let",
-          "candidateAuthors": [
-            "Li͡udmila Kommunar",
-            "Korkin, Vladimir (Artist)",
-            "Li͡udmila I͡Akshis"
-          ],
-          "workMatch": {
-            "matches": false,
-            "titleScore": 0.96,
-            "authorMatch": false,
-            "collectionExpansion": false
-          }
-        }
-      ]
-    },
-    {
-      "id": "ol-ol11630364w",
-      "title": "Необыкновенные приключения школьника Бобки, который изобрёл летающий стул",
-      "author": "Сергей Макаров",
-      "reason": "work_or_author_not_confirmed",
-      "checkedSources": [
-        "nen-editorial",
-        "official-publishers",
-        "google-books",
-        "open-library",
-        "internet-archive",
-        "library-catalogs",
-        "web-discovery"
-      ],
-      "errors": [
-        {
-          "source": "official-publishers",
-          "error": "all_official_product_pages_unavailable:2"
-        }
-      ],
-      "candidatesFound": 1,
-      "eligibleCandidates": 0,
-      "candidateDecisions": [],
-      "rejectedWorkCandidates": [
-        {
-          "source": "open-library",
-          "sourcePageUrl": "https://openlibrary.org/works/OL11630364W",
-          "candidateTitle": "Neobyknovennye prikli︠u︡chenii︠a︡ shkolʹnika Bobki, kotoryĭ izobrël letai︠u︡shchiĭ stul",
-          "candidateAuthors": [
-            "Sergeĭ Makarov"
-          ],
-          "workMatch": {
-            "matches": true,
-            "titleScore": 0.875,
             "authorMatch": true,
             "collectionExpansion": false
           }
@@ -3141,9 +3039,9 @@
       ]
     },
     {
-      "id": "ol-ol10339221w",
-      "title": "Три поросёнка; Трусохвостик; Одноглазый дрозд; Праздник непослушаня; Лесная Академия",
-      "author": "Сергей Владимирович Михалков",
+      "id": "ol-ol19935840w",
+      "title": "Хрестоматия детской классики",
+      "author": "В. Рябченко",
       "reason": "work_or_author_not_confirmed",
       "checkedSources": [
         "nen-editorial",
@@ -3160,16 +3058,69 @@
           "error": "all_official_product_pages_unavailable:2"
         }
       ],
+      "candidatesFound": 2,
+      "eligibleCandidates": 0,
+      "candidateDecisions": [],
+      "rejectedWorkCandidates": [
+        {
+          "source": "open-library",
+          "sourcePageUrl": "https://openlibrary.org/works/OL19935840W",
+          "candidateTitle": "Khrestomati︠i︡a detskoĭ klassiki",
+          "candidateAuthors": [
+            "V. R︠i︡abchenko"
+          ],
+          "workMatch": {
+            "matches": true,
+            "titleScore": 1,
+            "authorMatch": true,
+            "collectionExpansion": false
+          }
+        },
+        {
+          "source": "open-library",
+          "sourcePageUrl": "https://openlibrary.org/works/OL19862322W",
+          "coverUrl": "https://covers.openlibrary.org/b/id/8668405-L.jpg?default=false",
+          "candidateTitle": "Khrestomatii͡a detskoĭ klassiki ot 2 do 6 let",
+          "candidateAuthors": [
+            "Li͡udmila Kommunar",
+            "Korkin, Vladimir (Artist)",
+            "Li͡udmila I͡Akshis"
+          ],
+          "workMatch": {
+            "matches": false,
+            "titleScore": 0.96,
+            "authorMatch": false,
+            "collectionExpansion": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "ol-ol19747024w",
+      "title": "Все сказки и стихи для детского сада",
+      "author": "З. Александрова; Александр Сергеевич Пушкин",
+      "reason": "work_or_author_not_confirmed",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": [],
       "candidatesFound": 1,
       "eligibleCandidates": 0,
       "candidateDecisions": [],
       "rejectedWorkCandidates": [
         {
           "source": "open-library",
-          "sourcePageUrl": "https://openlibrary.org/works/OL10339218W",
-          "candidateTitle": "Son s prodolzheniem ; Upri︠a︡myĭ kozlënok ; Poigraem-ugadaem",
+          "sourcePageUrl": "https://openlibrary.org/works/OL19747024W",
+          "candidateTitle": "Vse skazki i stikhi dli︠a︡ detskogo sada",
           "candidateAuthors": [
-            "Sergeĭ Vladimirovich Mikhalkov"
+            "Aleksandrova, Z.",
+            "Aleksandr Sergeyevich Pushkin"
           ],
           "workMatch": {
             "matches": true,
@@ -3181,9 +3132,9 @@
       ]
     },
     {
-      "id": "ol-ol44383671w",
-      "title": "Приключения носорога Солнышко",
-      "author": "Татьяна Соловьева",
+      "id": "ol-ol11630364w",
+      "title": "Необыкновенные приключения школьника Бобки, который изобрёл летающий стул",
+      "author": "Сергей Макаров",
       "reason": "work_or_author_not_confirmed",
       "checkedSources": [
         "nen-editorial",
@@ -3206,15 +3157,15 @@
       "rejectedWorkCandidates": [
         {
           "source": "open-library",
-          "sourcePageUrl": "https://openlibrary.org/works/OL44383671W",
-          "candidateTitle": "Prikli͡uchenii͡a nosoroga Solnyshko",
+          "sourcePageUrl": "https://openlibrary.org/works/OL11630364W",
+          "candidateTitle": "Neobyknovennye prikli︠u︡chenii︠a︡ shkolʹnika Bobki, kotoryĭ izobrël letai︠u︡shchiĭ stul",
           "candidateAuthors": [
-            "Tatʹi︠a︡na Solovʹeva"
+            "Sergeĭ Makarov"
           ],
           "workMatch": {
-            "matches": false,
-            "titleScore": 1,
-            "authorMatch": false,
+            "matches": true,
+            "titleScore": 0.875,
+            "authorMatch": true,
             "collectionExpansion": false
           }
         }
@@ -3271,42 +3222,6 @@
           "candidateTitle": "Luchshie skazki na nochʹ",
           "candidateAuthors": [
             "L. Sidorova"
-          ],
-          "workMatch": {
-            "matches": true,
-            "titleScore": 1,
-            "authorMatch": true,
-            "collectionExpansion": false
-          }
-        }
-      ]
-    },
-    {
-      "id": "ol-ol19747024w",
-      "title": "Все сказки и стихи для детского сада",
-      "author": "З. Александрова; Александр Сергеевич Пушкин",
-      "reason": "work_or_author_not_confirmed",
-      "checkedSources": [
-        "nen-editorial",
-        "official-publishers",
-        "google-books",
-        "open-library",
-        "internet-archive",
-        "library-catalogs",
-        "web-discovery"
-      ],
-      "errors": [],
-      "candidatesFound": 1,
-      "eligibleCandidates": 0,
-      "candidateDecisions": [],
-      "rejectedWorkCandidates": [
-        {
-          "source": "open-library",
-          "sourcePageUrl": "https://openlibrary.org/works/OL19747024W",
-          "candidateTitle": "Vse skazki i stikhi dli︠a︡ detskogo sada",
-          "candidateAuthors": [
-            "Aleksandrova, Z.",
-            "Aleksandr Sergeyevich Pushkin"
           ],
           "workMatch": {
             "matches": true,
@@ -3514,6 +3429,184 @@
       ]
     },
     {
+      "id": "ol-ol10339221w",
+      "title": "Три поросёнка; Трусохвостик; Одноглазый дрозд; Праздник непослушаня; Лесная Академия",
+      "author": "Сергей Владимирович Михалков",
+      "reason": "work_or_author_not_confirmed",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": [
+        {
+          "source": "official-publishers",
+          "error": "all_official_product_pages_unavailable:2"
+        }
+      ],
+      "candidatesFound": 1,
+      "eligibleCandidates": 0,
+      "candidateDecisions": [],
+      "rejectedWorkCandidates": [
+        {
+          "source": "open-library",
+          "sourcePageUrl": "https://openlibrary.org/works/OL10339218W",
+          "candidateTitle": "Son s prodolzheniem ; Upri︠a︡myĭ kozlënok ; Poigraem-ugadaem",
+          "candidateAuthors": [
+            "Sergeĭ Vladimirovich Mikhalkov"
+          ],
+          "workMatch": {
+            "matches": true,
+            "titleScore": 1,
+            "authorMatch": true,
+            "collectionExpansion": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "ol-ol44383671w",
+      "title": "Приключения носорога Солнышко",
+      "author": "Татьяна Соловьева",
+      "reason": "work_or_author_not_confirmed",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": [
+        {
+          "source": "official-publishers",
+          "error": "all_official_product_pages_unavailable:2"
+        }
+      ],
+      "candidatesFound": 1,
+      "eligibleCandidates": 0,
+      "candidateDecisions": [],
+      "rejectedWorkCandidates": [
+        {
+          "source": "open-library",
+          "sourcePageUrl": "https://openlibrary.org/works/OL44383671W",
+          "candidateTitle": "Prikli͡uchenii͡a nosoroga Solnyshko",
+          "candidateAuthors": [
+            "Tatʹi︠a︡na Solovʹeva"
+          ],
+          "workMatch": {
+            "matches": false,
+            "titleScore": 1,
+            "authorMatch": false,
+            "collectionExpansion": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "ol-ol865257w",
+      "title": "Стихи, сказки, занимательные истории",
+      "author": "Даниил Хармс",
+      "reason": "work_or_author_not_confirmed",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": [],
+      "candidatesFound": 1,
+      "eligibleCandidates": 0,
+      "candidateDecisions": [],
+      "rejectedWorkCandidates": [
+        {
+          "source": "open-library",
+          "sourcePageUrl": "https://openlibrary.org/works/OL865257W",
+          "candidateTitle": "Stikhi, skazki, zanimatelʹnye istorii",
+          "candidateAuthors": [
+            "Daniil Kharms"
+          ],
+          "workMatch": {
+            "matches": false,
+            "titleScore": 0.75,
+            "authorMatch": true,
+            "collectionExpansion": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "ol-ol19944755w",
+      "title": "Русские сказки и потешки",
+      "author": "Ирина Петелина",
+      "reason": "work_or_author_not_confirmed",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": [],
+      "candidatesFound": 3,
+      "eligibleCandidates": 0,
+      "candidateDecisions": [],
+      "rejectedWorkCandidates": [
+        {
+          "source": "open-library",
+          "sourcePageUrl": "https://openlibrary.org/works/OL19944755W",
+          "candidateTitle": "Russkie skazki i poteshki",
+          "candidateAuthors": [
+            "Irina Petelina"
+          ],
+          "workMatch": {
+            "matches": true,
+            "titleScore": 1,
+            "authorMatch": true,
+            "collectionExpansion": false
+          }
+        },
+        {
+          "source": "open-library",
+          "sourcePageUrl": "https://openlibrary.org/works/OL20025745W",
+          "candidateTitle": "Russkie skazki, poteshki i zagadki",
+          "candidateAuthors": [
+            "L.M. Karpenko"
+          ],
+          "workMatch": {
+            "matches": false,
+            "titleScore": 1,
+            "authorMatch": false,
+            "collectionExpansion": false
+          }
+        },
+        {
+          "source": "open-library",
+          "sourcePageUrl": "https://openlibrary.org/works/OL9978582W",
+          "candidateTitle": "Bol'shoj podarok dlya samykh malen'kikh. Russkie narodnye skazki, pesenki, poteshki i pribautki",
+          "candidateAuthors": [
+            "Sergej Sachkov"
+          ],
+          "workMatch": {
+            "matches": false,
+            "titleScore": 1,
+            "authorMatch": false,
+            "collectionExpansion": false
+          }
+        }
+      ]
+    },
+    {
       "id": "ol-ol5997389w",
       "title": "Блохнесское чудовище, или, Жизнь и приключения милиционера Караваева",
       "author": "Марина Москвина",
@@ -3608,9 +3701,9 @@
       ]
     },
     {
-      "id": "ol-ol19944755w",
-      "title": "Русские сказки и потешки",
-      "author": "Ирина Петелина",
+      "id": "ol-ol13735521w",
+      "title": "Легенды Средневековья",
+      "author": "Н. Гарская",
       "reason": "work_or_author_not_confirmed",
       "checkedSources": [
         "nen-editorial",
@@ -3622,49 +3715,21 @@
         "web-discovery"
       ],
       "errors": [],
-      "candidatesFound": 3,
+      "candidatesFound": 1,
       "eligibleCandidates": 0,
       "candidateDecisions": [],
       "rejectedWorkCandidates": [
         {
           "source": "open-library",
-          "sourcePageUrl": "https://openlibrary.org/works/OL19944755W",
-          "candidateTitle": "Russkie skazki i poteshki",
+          "sourcePageUrl": "https://openlibrary.org/works/OL13735521W",
+          "candidateTitle": "Legendy Srednevekovʹi︠a︡",
           "candidateAuthors": [
-            "Irina Petelina"
+            "N. Garskai︠a︡"
           ],
           "workMatch": {
-            "matches": true,
-            "titleScore": 1,
+            "matches": false,
+            "titleScore": 0.5,
             "authorMatch": true,
-            "collectionExpansion": false
-          }
-        },
-        {
-          "source": "open-library",
-          "sourcePageUrl": "https://openlibrary.org/works/OL20025745W",
-          "candidateTitle": "Russkie skazki, poteshki i zagadki",
-          "candidateAuthors": [
-            "L.M. Karpenko"
-          ],
-          "workMatch": {
-            "matches": false,
-            "titleScore": 1,
-            "authorMatch": false,
-            "collectionExpansion": false
-          }
-        },
-        {
-          "source": "open-library",
-          "sourcePageUrl": "https://openlibrary.org/works/OL9978582W",
-          "candidateTitle": "Bol'shoj podarok dlya samykh malen'kikh. Russkie narodnye skazki, pesenki, poteshki i pribautki",
-          "candidateAuthors": [
-            "Sergej Sachkov"
-          ],
-          "workMatch": {
-            "matches": false,
-            "titleScore": 1,
-            "authorMatch": false,
             "collectionExpansion": false
           }
         }
@@ -3709,216 +3774,6 @@
           }
         }
       ]
-    },
-    {
-      "id": "ol-ol865257w",
-      "title": "Стихи, сказки, занимательные истории",
-      "author": "Даниил Хармс",
-      "reason": "work_or_author_not_confirmed",
-      "checkedSources": [
-        "nen-editorial",
-        "official-publishers",
-        "google-books",
-        "open-library",
-        "internet-archive",
-        "library-catalogs",
-        "web-discovery"
-      ],
-      "errors": [],
-      "candidatesFound": 1,
-      "eligibleCandidates": 0,
-      "candidateDecisions": [],
-      "rejectedWorkCandidates": [
-        {
-          "source": "open-library",
-          "sourcePageUrl": "https://openlibrary.org/works/OL865257W",
-          "candidateTitle": "Stikhi, skazki, zanimatelʹnye istorii",
-          "candidateAuthors": [
-            "Daniil Kharms"
-          ],
-          "workMatch": {
-            "matches": false,
-            "titleScore": 0.75,
-            "authorMatch": true,
-            "collectionExpansion": false
-          }
-        }
-      ]
-    },
-    {
-      "id": "ol-ol39493108w",
-      "title": "История про Мишу, Даню и бумажного змея",
-      "author": "Светлана Шенбрунн",
-      "reason": "work_or_author_not_confirmed",
-      "checkedSources": [
-        "nen-editorial",
-        "official-publishers",
-        "google-books",
-        "open-library",
-        "internet-archive",
-        "library-catalogs",
-        "web-discovery"
-      ],
-      "errors": [
-        {
-          "source": "official-publishers",
-          "error": "all_official_product_pages_unavailable:2"
-        }
-      ],
-      "candidatesFound": 1,
-      "eligibleCandidates": 0,
-      "candidateDecisions": [],
-      "rejectedWorkCandidates": [
-        {
-          "source": "open-library",
-          "sourcePageUrl": "https://openlibrary.org/works/OL39493108W",
-          "candidateTitle": "Istorii͡a pro Mishu, Dani͡u i bumazhnogo zmei͡a",
-          "candidateAuthors": [
-            "Svetlana Shenbrunn"
-          ],
-          "workMatch": {
-            "matches": true,
-            "titleScore": 1,
-            "authorMatch": true,
-            "collectionExpansion": false
-          }
-        }
-      ]
-    },
-    {
-      "id": "ol-ol43509234w",
-      "title": "Мартин не плачет",
-      "author": "Линор Горалик",
-      "reason": "work_or_author_not_confirmed",
-      "checkedSources": [
-        "nen-editorial",
-        "official-publishers",
-        "google-books",
-        "open-library",
-        "internet-archive",
-        "library-catalogs",
-        "web-discovery"
-      ],
-      "errors": [
-        {
-          "source": "official-publishers",
-          "error": "all_official_product_pages_unavailable:2"
-        }
-      ],
-      "candidatesFound": 1,
-      "eligibleCandidates": 0,
-      "candidateDecisions": [],
-      "rejectedWorkCandidates": [
-        {
-          "source": "open-library",
-          "sourcePageUrl": "https://openlibrary.org/works/OL43509234W",
-          "candidateTitle": "Мартин не плачет",
-          "candidateAuthors": [
-            "Линор Горалик"
-          ],
-          "workMatch": {
-            "matches": true,
-            "titleScore": 1,
-            "authorMatch": true,
-            "collectionExpansion": false
-          }
-        }
-      ]
-    },
-    {
-      "id": "ol-ol13735521w",
-      "title": "Легенды Средневековья",
-      "author": "Н. Гарская",
-      "reason": "work_or_author_not_confirmed",
-      "checkedSources": [
-        "nen-editorial",
-        "official-publishers",
-        "google-books",
-        "open-library",
-        "internet-archive",
-        "library-catalogs",
-        "web-discovery"
-      ],
-      "errors": [],
-      "candidatesFound": 1,
-      "eligibleCandidates": 0,
-      "candidateDecisions": [],
-      "rejectedWorkCandidates": [
-        {
-          "source": "open-library",
-          "sourcePageUrl": "https://openlibrary.org/works/OL13735521W",
-          "candidateTitle": "Legendy Srednevekovʹi︠a︡",
-          "candidateAuthors": [
-            "N. Garskai︠a︡"
-          ],
-          "workMatch": {
-            "matches": false,
-            "titleScore": 0.5,
-            "authorMatch": true,
-            "collectionExpansion": false
-          }
-        }
-      ]
-    },
-    {
-      "id": "ol-ol11225343w",
-      "title": "Поросёнок Пётр едет в гости",
-      "author": "Людмила Стефановна Петрушевская",
-      "reason": "work_or_author_not_confirmed",
-      "checkedSources": [
-        "nen-editorial",
-        "official-publishers",
-        "google-books",
-        "open-library",
-        "internet-archive",
-        "library-catalogs",
-        "web-discovery"
-      ],
-      "errors": [],
-      "candidatesFound": 1,
-      "eligibleCandidates": 0,
-      "candidateDecisions": [],
-      "rejectedWorkCandidates": [
-        {
-          "source": "open-library",
-          "sourcePageUrl": "https://openlibrary.org/works/OL11225343W",
-          "candidateTitle": "Porosënok Pëtr edet v gosti",
-          "candidateAuthors": [
-            "Людмила Стефановна Петрушевская"
-          ],
-          "workMatch": {
-            "matches": true,
-            "titleScore": 1,
-            "authorMatch": true,
-            "collectionExpansion": false
-          }
-        }
-      ]
-    },
-    {
-      "id": "ol-ol35588586w",
-      "title": "Мифы Древнего Казахстана",
-      "author": "Орынбай Жанайдаров",
-      "reason": "no_official_work_candidate",
-      "checkedSources": [
-        "nen-editorial",
-        "official-publishers",
-        "google-books",
-        "open-library",
-        "internet-archive",
-        "library-catalogs",
-        "web-discovery"
-      ],
-      "errors": [
-        {
-          "source": "official-publishers",
-          "error": "all_official_product_pages_unavailable:2"
-        }
-      ],
-      "candidatesFound": 0,
-      "eligibleCandidates": 0,
-      "candidateDecisions": [],
-      "rejectedWorkCandidates": []
     },
     {
       "id": "ol-ol20015192w",
@@ -4075,9 +3930,44 @@
       ]
     },
     {
-      "id": "ol-ol19952239w",
-      "title": "Журавлиные перья",
-      "author": "Вера Н. Маркова",
+      "id": "ol-ol11225343w",
+      "title": "Поросёнок Пётр едет в гости",
+      "author": "Людмила Стефановна Петрушевская",
+      "reason": "work_or_author_not_confirmed",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": [],
+      "candidatesFound": 1,
+      "eligibleCandidates": 0,
+      "candidateDecisions": [],
+      "rejectedWorkCandidates": [
+        {
+          "source": "open-library",
+          "sourcePageUrl": "https://openlibrary.org/works/OL11225343W",
+          "candidateTitle": "Porosënok Pëtr edet v gosti",
+          "candidateAuthors": [
+            "Людмила Стефановна Петрушевская"
+          ],
+          "workMatch": {
+            "matches": true,
+            "titleScore": 1,
+            "authorMatch": true,
+            "collectionExpansion": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "ol-ol39493108w",
+      "title": "История про Мишу, Даню и бумажного змея",
+      "author": "Светлана Шенбрунн",
       "reason": "work_or_author_not_confirmed",
       "checkedSources": [
         "nen-editorial",
@@ -4094,32 +3984,60 @@
           "error": "all_official_product_pages_unavailable:2"
         }
       ],
-      "candidatesFound": 2,
+      "candidatesFound": 1,
       "eligibleCandidates": 0,
       "candidateDecisions": [],
       "rejectedWorkCandidates": [
         {
           "source": "open-library",
-          "sourcePageUrl": "https://openlibrary.org/works/OL19293117W",
-          "candidateTitle": "Zhuravlinye perʹi︠a︡",
-          "candidateAuthors": [],
-          "workMatch": {
-            "matches": false,
-            "titleScore": 0.5,
-            "authorMatch": false,
-            "collectionExpansion": false
-          }
-        },
-        {
-          "source": "open-library",
-          "sourcePageUrl": "https://openlibrary.org/works/OL19952239W",
-          "candidateTitle": "Zhuravlinye perʹ︠i︡a",
+          "sourcePageUrl": "https://openlibrary.org/works/OL39493108W",
+          "candidateTitle": "Istorii͡a pro Mishu, Dani͡u i bumazhnogo zmei͡a",
           "candidateAuthors": [
-            "Vera N. Markova"
+            "Svetlana Shenbrunn"
           ],
           "workMatch": {
-            "matches": false,
-            "titleScore": 0.5,
+            "matches": true,
+            "titleScore": 1,
+            "authorMatch": true,
+            "collectionExpansion": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "ol-ol43509234w",
+      "title": "Мартин не плачет",
+      "author": "Линор Горалик",
+      "reason": "work_or_author_not_confirmed",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": [
+        {
+          "source": "official-publishers",
+          "error": "all_official_product_pages_unavailable:2"
+        }
+      ],
+      "candidatesFound": 1,
+      "eligibleCandidates": 0,
+      "candidateDecisions": [],
+      "rejectedWorkCandidates": [
+        {
+          "source": "open-library",
+          "sourcePageUrl": "https://openlibrary.org/works/OL43509234W",
+          "candidateTitle": "Мартин не плачет",
+          "candidateAuthors": [
+            "Линор Горалик"
+          ],
+          "workMatch": {
+            "matches": true,
+            "titleScore": 1,
             "authorMatch": true,
             "collectionExpansion": false
           }
@@ -4254,6 +4172,58 @@
       ]
     },
     {
+      "id": "ol-ol19952239w",
+      "title": "Журавлиные перья",
+      "author": "Вера Н. Маркова",
+      "reason": "work_or_author_not_confirmed",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": [
+        {
+          "source": "official-publishers",
+          "error": "all_official_product_pages_unavailable:2"
+        }
+      ],
+      "candidatesFound": 2,
+      "eligibleCandidates": 0,
+      "candidateDecisions": [],
+      "rejectedWorkCandidates": [
+        {
+          "source": "open-library",
+          "sourcePageUrl": "https://openlibrary.org/works/OL19293117W",
+          "candidateTitle": "Zhuravlinye perʹi︠a︡",
+          "candidateAuthors": [],
+          "workMatch": {
+            "matches": false,
+            "titleScore": 0.5,
+            "authorMatch": false,
+            "collectionExpansion": false
+          }
+        },
+        {
+          "source": "open-library",
+          "sourcePageUrl": "https://openlibrary.org/works/OL19952239W",
+          "candidateTitle": "Zhuravlinye perʹ︠i︡a",
+          "candidateAuthors": [
+            "Vera N. Markova"
+          ],
+          "workMatch": {
+            "matches": false,
+            "titleScore": 0.5,
+            "authorMatch": true,
+            "collectionExpansion": false
+          }
+        }
+      ]
+    },
+    {
       "id": "ol-ol23852449w",
       "title": "Лучшие детские анекдоты",
       "author": "Лев Яковлев; Игор Новиков",
@@ -4279,6 +4249,66 @@
           "candidateAuthors": [
             "Lev I︠A︡kovlev",
             "Igor Novikov"
+          ],
+          "workMatch": {
+            "matches": true,
+            "titleScore": 1,
+            "authorMatch": true,
+            "collectionExpansion": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "ol-ol35588586w",
+      "title": "Мифы Древнего Казахстана",
+      "author": "Орынбай Жанайдаров",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": [
+        {
+          "source": "official-publishers",
+          "error": "all_official_product_pages_unavailable:2"
+        }
+      ],
+      "candidatesFound": 0,
+      "eligibleCandidates": 0,
+      "candidateDecisions": [],
+      "rejectedWorkCandidates": []
+    },
+    {
+      "id": "ol-ol20016949w",
+      "title": "Русские богатери",
+      "author": "И. В. Карнаухова",
+      "reason": "work_or_author_not_confirmed",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": [],
+      "candidatesFound": 1,
+      "eligibleCandidates": 0,
+      "candidateDecisions": [],
+      "rejectedWorkCandidates": [
+        {
+          "source": "open-library",
+          "sourcePageUrl": "https://openlibrary.org/works/OL20016949W",
+          "candidateTitle": "Russkie bogateri",
+          "candidateAuthors": [
+            "I. V. Karnaukhova"
           ],
           "workMatch": {
             "matches": true,
@@ -4328,71 +4358,6 @@
           }
         }
       ]
-    },
-    {
-      "id": "ol-ol869549w",
-      "title": "Солнце на потолке",
-      "author": "Олег Кургузов",
-      "reason": "work_or_author_not_confirmed",
-      "checkedSources": [
-        "nen-editorial",
-        "official-publishers",
-        "google-books",
-        "open-library",
-        "internet-archive",
-        "library-catalogs",
-        "web-discovery"
-      ],
-      "errors": [
-        {
-          "source": "official-publishers",
-          "error": "all_official_product_pages_unavailable:2"
-        }
-      ],
-      "candidatesFound": 1,
-      "eligibleCandidates": 0,
-      "candidateDecisions": [],
-      "rejectedWorkCandidates": [
-        {
-          "source": "open-library",
-          "sourcePageUrl": "https://openlibrary.org/works/OL869549W",
-          "candidateTitle": "Solnt︠s︡e na potolke",
-          "candidateAuthors": [
-            "Oleg Kurguzov"
-          ],
-          "workMatch": {
-            "matches": true,
-            "titleScore": 1,
-            "authorMatch": true,
-            "collectionExpansion": false
-          }
-        }
-      ]
-    },
-    {
-      "id": "ol-ol13738508w",
-      "title": "Карандаш и Самоделкин на острове необычайных приклюхений",
-      "author": "В. Постников",
-      "reason": "no_official_work_candidate",
-      "checkedSources": [
-        "nen-editorial",
-        "official-publishers",
-        "google-books",
-        "open-library",
-        "internet-archive",
-        "library-catalogs",
-        "web-discovery"
-      ],
-      "errors": [
-        {
-          "source": "official-publishers",
-          "error": "all_official_product_pages_unavailable:2"
-        }
-      ],
-      "candidatesFound": 0,
-      "eligibleCandidates": 0,
-      "candidateDecisions": [],
-      "rejectedWorkCandidates": []
     },
     {
       "id": "ol-ol40061329w",
@@ -4486,41 +4451,6 @@
       ]
     },
     {
-      "id": "ol-ol20016949w",
-      "title": "Русские богатери",
-      "author": "И. В. Карнаухова",
-      "reason": "work_or_author_not_confirmed",
-      "checkedSources": [
-        "nen-editorial",
-        "official-publishers",
-        "google-books",
-        "open-library",
-        "internet-archive",
-        "library-catalogs",
-        "web-discovery"
-      ],
-      "errors": [],
-      "candidatesFound": 1,
-      "eligibleCandidates": 0,
-      "candidateDecisions": [],
-      "rejectedWorkCandidates": [
-        {
-          "source": "open-library",
-          "sourcePageUrl": "https://openlibrary.org/works/OL20016949W",
-          "candidateTitle": "Russkie bogateri",
-          "candidateAuthors": [
-            "I. V. Karnaukhova"
-          ],
-          "workMatch": {
-            "matches": true,
-            "titleScore": 1,
-            "authorMatch": true,
-            "collectionExpansion": false
-          }
-        }
-      ]
-    },
-    {
       "id": "ol-ol19952281w",
       "title": "Мы встречаем Новыи год!",
       "author": "Илья Григорьевич Савченко",
@@ -4556,9 +4486,9 @@
       ]
     },
     {
-      "id": "ol-ol45311343w",
-      "title": "Три повести о Васе Куролесове",
-      "author": "Юрий Коваль",
+      "id": "ol-ol13738508w",
+      "title": "Карандаш и Самоделкин на острове необычайных приклюхений",
+      "author": "В. Постников",
       "reason": "no_official_work_candidate",
       "checkedSources": [
         "nen-editorial",
@@ -4579,6 +4509,46 @@
       "eligibleCandidates": 0,
       "candidateDecisions": [],
       "rejectedWorkCandidates": []
+    },
+    {
+      "id": "ol-ol869549w",
+      "title": "Солнце на потолке",
+      "author": "Олег Кургузов",
+      "reason": "work_or_author_not_confirmed",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": [
+        {
+          "source": "official-publishers",
+          "error": "all_official_product_pages_unavailable:2"
+        }
+      ],
+      "candidatesFound": 1,
+      "eligibleCandidates": 0,
+      "candidateDecisions": [],
+      "rejectedWorkCandidates": [
+        {
+          "source": "open-library",
+          "sourcePageUrl": "https://openlibrary.org/works/OL869549W",
+          "candidateTitle": "Solnt︠s︡e na potolke",
+          "candidateAuthors": [
+            "Oleg Kurguzov"
+          ],
+          "workMatch": {
+            "matches": true,
+            "titleScore": 1,
+            "authorMatch": true,
+            "collectionExpansion": false
+          }
+        }
+      ]
     },
     {
       "id": "ol-ol19962766w",
@@ -4621,6 +4591,31 @@
       ]
     },
     {
+      "id": "ol-ol45311343w",
+      "title": "Три повести о Васе Куролесове",
+      "author": "Юрий Коваль",
+      "reason": "no_official_work_candidate",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": [
+        {
+          "source": "official-publishers",
+          "error": "all_official_product_pages_unavailable:2"
+        }
+      ],
+      "candidatesFound": 0,
+      "eligibleCandidates": 0,
+      "candidateDecisions": [],
+      "rejectedWorkCandidates": []
+    },
+    {
       "id": "ol-ol13713535w",
       "title": "Общее собрание героев повестей, рассказов, стихотворений и пьес",
       "author": "Едуард Успенский",
@@ -4654,46 +4649,6 @@
           "workMatch": {
             "matches": true,
             "titleScore": 0.8571428571428571,
-            "authorMatch": true,
-            "collectionExpansion": false
-          }
-        }
-      ]
-    },
-    {
-      "id": "ol-ol22792562w",
-      "title": "Хантыйские загадки",
-      "author": "Е. А. Нёмысова",
-      "reason": "work_or_author_not_confirmed",
-      "checkedSources": [
-        "nen-editorial",
-        "official-publishers",
-        "google-books",
-        "open-library",
-        "internet-archive",
-        "library-catalogs",
-        "web-discovery"
-      ],
-      "errors": [
-        {
-          "source": "official-publishers",
-          "error": "all_official_product_pages_unavailable:2"
-        }
-      ],
-      "candidatesFound": 1,
-      "eligibleCandidates": 0,
-      "candidateDecisions": [],
-      "rejectedWorkCandidates": [
-        {
-          "source": "open-library",
-          "sourcePageUrl": "https://openlibrary.org/works/OL22792562W",
-          "candidateTitle": "Khantyĭskie zagadki",
-          "candidateAuthors": [
-            "E. A. Nëmysova"
-          ],
-          "workMatch": {
-            "matches": true,
-            "titleScore": 1,
             "authorMatch": true,
             "collectionExpansion": false
           }
@@ -4781,10 +4736,10 @@
       ]
     },
     {
-      "id": "ol-ol32525747w",
-      "title": "Цезарь Великолепный",
-      "author": "Алёна Спиридонова",
-      "reason": "work_or_author_not_confirmed",
+      "id": "curated-samokat-dnevnik-kota-ubiytsy-vse-istorii-dnevnik-kota-ubiytsy-vse-istorii",
+      "title": "Дневник кота-убийцы. Все истории",
+      "author": "Энн Файн",
+      "reason": "cover_belongs_to_existing_catalog_work",
       "checkedSources": [
         "nen-editorial",
         "official-publishers",
@@ -4794,31 +4749,19 @@
         "library-catalogs",
         "web-discovery"
       ],
-      "errors": [
+      "errors": [],
+      "candidatesFound": 1,
+      "eligibleCandidates": 1,
+      "candidateDecisions": [
         {
-          "source": "official-publishers",
-          "error": "all_official_product_pages_unavailable:2"
+          "source": "samokat",
+          "sourcePageUrl": "https://samokatbook.ru/book/dnevnik-kota-ubiytsy-vse-istorii/",
+          "coverUrl": "https://samokatbook.ru/upload/resize_cache/iblock/8b2/1024_1024_1/8b2853bf921080a642c01197fdf4099e.jpg",
+          "decision": "cover_already_owned",
+          "owner": "nen-bv2-077"
         }
       ],
-      "candidatesFound": 1,
-      "eligibleCandidates": 0,
-      "candidateDecisions": [],
-      "rejectedWorkCandidates": [
-        {
-          "source": "open-library",
-          "sourcePageUrl": "https://openlibrary.org/works/OL32525747W",
-          "candidateTitle": "T︠S︡ezarʹ Velikolepnyĭ",
-          "candidateAuthors": [
-            "Alëna Spiridonova"
-          ],
-          "workMatch": {
-            "matches": true,
-            "titleScore": 1,
-            "authorMatch": true,
-            "collectionExpansion": false
-          }
-        }
-      ]
+      "rejectedWorkCandidates": []
     },
     {
       "id": "curated-whitecrow-dzheyn-lisa-i-ya-jane-lisa-i-ya",
@@ -4903,38 +4846,6 @@
       "rejectedWorkCandidates": []
     },
     {
-      "id": "curated-nen-collection-molli-i-shtormovoe-more-doyl-malahiya",
-      "title": "Молли и штормовое море",
-      "author": "Дойл Малахия",
-      "reason": "no_usable_official_cover",
-      "checkedSources": [
-        "nen-editorial",
-        "official-publishers",
-        "google-books",
-        "open-library",
-        "internet-archive",
-        "library-catalogs",
-        "web-discovery"
-      ],
-      "errors": [
-        {
-          "source": "official-publishers",
-          "error": "all_official_product_pages_unavailable:2"
-        }
-      ],
-      "candidatesFound": 1,
-      "eligibleCandidates": 1,
-      "candidateDecisions": [
-        {
-          "source": "nen-editorial",
-          "sourcePageUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
-          "coverUrl": "https://n-e-n.ru/images/2021-10-07/615edf8a3be1a_0x0.jpg",
-          "decision": "prior_invalid_assignment"
-        }
-      ],
-      "rejectedWorkCandidates": []
-    },
-    {
       "id": "curated-nen-collection-vernye-druzya-mariam-kordes",
       "title": "Верные друзья",
       "author": "Мариам Кордес",
@@ -4960,6 +4871,46 @@
         }
       ],
       "rejectedWorkCandidates": []
+    },
+    {
+      "id": "ol-ol22792562w",
+      "title": "Хантыйские загадки",
+      "author": "Е. А. Нёмысова",
+      "reason": "work_or_author_not_confirmed",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": [
+        {
+          "source": "official-publishers",
+          "error": "all_official_product_pages_unavailable:2"
+        }
+      ],
+      "candidatesFound": 1,
+      "eligibleCandidates": 0,
+      "candidateDecisions": [],
+      "rejectedWorkCandidates": [
+        {
+          "source": "open-library",
+          "sourcePageUrl": "https://openlibrary.org/works/OL22792562W",
+          "candidateTitle": "Khantyĭskie zagadki",
+          "candidateAuthors": [
+            "E. A. Nëmysova"
+          ],
+          "workMatch": {
+            "matches": true,
+            "titleScore": 1,
+            "authorMatch": true,
+            "collectionExpansion": false
+          }
+        }
+      ]
     },
     {
       "id": "curated-nen-collection-pingvikingi-anton-soya",
@@ -5016,9 +4967,9 @@
       "rejectedWorkCandidates": []
     },
     {
-      "id": "curated-nen-collection-muley-erlend-lu",
-      "title": "Мулей",
-      "author": "Эрленд Лу",
+      "id": "curated-nen-collection-molli-i-shtormovoe-more-doyl-malahiya",
+      "title": "Молли и штормовое море",
+      "author": "Дойл Малахия",
       "reason": "no_usable_official_cover",
       "checkedSources": [
         "nen-editorial",
@@ -5035,13 +4986,13 @@
           "error": "all_official_product_pages_unavailable:2"
         }
       ],
-      "candidatesFound": 21,
+      "candidatesFound": 1,
       "eligibleCandidates": 1,
       "candidateDecisions": [
         {
           "source": "nen-editorial",
-          "sourcePageUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
-          "coverUrl": "https://n-e-n.ru/images/2024-11-15/67372ad32d6e7_0x0.jpg",
+          "sourcePageUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
+          "coverUrl": "https://n-e-n.ru/images/2021-10-07/615edf8a3be1a_0x0.jpg",
           "decision": "prior_invalid_assignment"
         }
       ],
@@ -5096,6 +5047,78 @@
           "source": "nen-editorial",
           "sourcePageUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
           "coverUrl": "https://n-e-n.ru/images/2024-11-15/67372b10b866d_0x0.jpg",
+          "decision": "prior_invalid_assignment"
+        }
+      ],
+      "rejectedWorkCandidates": []
+    },
+    {
+      "id": "ol-ol32525747w",
+      "title": "Цезарь Великолепный",
+      "author": "Алёна Спиридонова",
+      "reason": "work_or_author_not_confirmed",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": [
+        {
+          "source": "official-publishers",
+          "error": "all_official_product_pages_unavailable:2"
+        }
+      ],
+      "candidatesFound": 1,
+      "eligibleCandidates": 0,
+      "candidateDecisions": [],
+      "rejectedWorkCandidates": [
+        {
+          "source": "open-library",
+          "sourcePageUrl": "https://openlibrary.org/works/OL32525747W",
+          "candidateTitle": "T︠S︡ezarʹ Velikolepnyĭ",
+          "candidateAuthors": [
+            "Alëna Spiridonova"
+          ],
+          "workMatch": {
+            "matches": true,
+            "titleScore": 1,
+            "authorMatch": true,
+            "collectionExpansion": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "curated-nen-collection-muley-erlend-lu",
+      "title": "Мулей",
+      "author": "Эрленд Лу",
+      "reason": "no_usable_official_cover",
+      "checkedSources": [
+        "nen-editorial",
+        "official-publishers",
+        "google-books",
+        "open-library",
+        "internet-archive",
+        "library-catalogs",
+        "web-discovery"
+      ],
+      "errors": [
+        {
+          "source": "official-publishers",
+          "error": "all_official_product_pages_unavailable:2"
+        }
+      ],
+      "candidatesFound": 21,
+      "eligibleCandidates": 1,
+      "candidateDecisions": [
+        {
+          "source": "nen-editorial",
+          "sourcePageUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+          "coverUrl": "https://n-e-n.ru/images/2024-11-15/67372ad32d6e7_0x0.jpg",
           "decision": "prior_invalid_assignment"
         }
       ],

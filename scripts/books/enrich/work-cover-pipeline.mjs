@@ -55,7 +55,6 @@ export async function runWorkCoverEnrichment({ root, concurrency = 3, sourceConc
     catch (error) { sourceFailures.push({ source: source.key, reason: "source_initialization_failed", error: String(error) }); }
   }
   const occupiedUrls = new Map(catalog.filter((book) => book.cover?.kind === "external" && book.cover.url).map((book) => [book.cover.url, book.id]));
-  const catalogById = new Map(catalog.map((book) => [book.id, book]));
   const missing = catalog.filter((book) => book.cover?.kind !== "external");
   const targets = Number.isInteger(limit) ? missing.slice(0, limit) : missing;
   const outcomes = [];
@@ -90,9 +89,7 @@ export async function runWorkCoverEnrichment({ root, concurrency = 3, sourceConc
         continue;
       }
       const owner = occupiedUrls.get(selection.candidate.cover.url);
-      const ownerBook = owner ? catalogById.get(owner) : undefined;
-      const sharedCanonicalWork = ownerBook ? sameWork(book, { title: ownerBook.title, authors: [ownerBook.author], evidenceText: `${ownerBook.title} ${ownerBook.author}` }).matches : false;
-      if (owner && owner !== book.id && !sharedCanonicalWork) { duplicateCandidates += 1; candidateDecisions.push({ source: selection.candidate.sourceKey, sourcePageUrl: selection.candidate.sourceUrl, coverUrl: selection.candidate.cover.url, decision: "cover_already_owned", owner }); continue; }
+      if (owner && owner !== book.id) { duplicateCandidates += 1; candidateDecisions.push({ source: selection.candidate.sourceKey, sourcePageUrl: selection.candidate.sourceUrl, coverUrl: selection.candidate.cover.url, decision: "cover_already_owned", owner }); continue; }
       if (!await imageVerifier(selection.candidate.cover.url)) { unavailableCandidates += 1; candidateDecisions.push({ source: selection.candidate.sourceKey, sourcePageUrl: selection.candidate.sourceUrl, coverUrl: selection.candidate.cover.url, decision: "image_unavailable" }); continue; }
       accepted = selection;
       candidateDecisions.push({ source: selection.candidate.sourceKey, sourcePageUrl: selection.candidate.sourceUrl, coverUrl: selection.candidate.cover.url, decision: "accepted" });
