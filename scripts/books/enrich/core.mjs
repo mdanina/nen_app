@@ -35,13 +35,25 @@ export function titleScore(left, right) {
   if (a.includes(b) || b.includes(a)) return 0.96;
   const leftSet = new Set(titleTokens(a));
   const rightSet = new Set(titleTokens(b));
-  const common = [...leftSet].filter((token) => rightSet.has(token)).length;
+  const oneEditApart = (first, second) => {
+    if (first === second) return true;
+    if (Math.min(first.length, second.length) < 5 || Math.abs(first.length - second.length) > 1) return false;
+    let previous = Array.from({ length: second.length + 1 }, (_, index) => index);
+    for (let i = 1; i <= first.length; i += 1) {
+      const current = [i];
+      for (let j = 1; j <= second.length; j += 1) current[j] = Math.min(current[j - 1] + 1, previous[j] + 1, previous[j - 1] + Number(first[i - 1] !== second[j - 1]));
+      previous = current;
+    }
+    return previous[second.length] <= 1;
+  };
+  const common = [...leftSet].filter((token) => [...rightSet].some((candidate) => oneEditApart(token, candidate))).length;
   return common / Math.max(1, leftSet.size);
 }
 
 export function authorSurnames(value = "") {
   return String(value).split(/\s*;\s*/u).map((name) => {
-    const parts = normalize(name).split(" ").filter((token) => token.length >= 3);
+    const suffixes = new Set(["младшии", "старшии", "junior", "senior"]);
+    const parts = normalize(name).split(" ").filter((token) => token.length >= 3 && !suffixes.has(token));
     return parts.at(-1);
   }).filter(Boolean);
 }
@@ -50,7 +62,29 @@ export function authorMatches(bookAuthor, candidateAuthors = [], evidence = "") 
   const haystack = normalize([...candidateAuthors, evidence].join(" "));
   const latinHaystack = transliterateRussian(haystack);
   const surnames = authorSurnames(bookAuthor);
-  return surnames.length > 0 && surnames.every((surname) => haystack.includes(surname) || latinHaystack.includes(transliterateRussian(surname)));
+  const candidateSurnames = authorSurnames(candidateAuthors.join(";"));
+  const signature = (value) => transliterateRussian(value)
+    .replace(/shch|zh|kh|ch|sh|ts/gu, (part) => ({ shch: "s", zh: "s", kh: "h", ch: "c", sh: "s", ts: "c" })[part])
+    .replace(/th/gu, "t").replace(/[zc]/gu, "s").replace(/w/gu, "v").replace(/[aeiouy]/gu, "").replace(/(.)\1+/gu, "$1");
+  const nearSignature = (left, right) => {
+    if (!left || !right) return false;
+    if (left === right) return true;
+    if (Math.abs(left.length - right.length) > 1) return false;
+    let previous = Array.from({ length: right.length + 1 }, (_, index) => index);
+    for (let i = 1; i <= left.length; i += 1) {
+      const current = [i];
+      for (let j = 1; j <= right.length; j += 1) current[j] = Math.min(current[j - 1] + 1, previous[j] + 1, previous[j - 1] + Number(left[i - 1] !== right[j - 1]));
+      previous = current;
+    }
+    const distance = previous[right.length];
+    if (left.length <= 2 || right.length <= 2) return left[0] === right[0] && distance <= 1;
+    return distance <= Math.max(1, Math.floor(Math.max(left.length, right.length) * 0.25));
+  };
+  return surnames.length > 0 && surnames.every((surname) => {
+    if (haystack.includes(surname) || latinHaystack.includes(transliterateRussian(surname))) return true;
+    const wanted = signature(surname);
+    return wanted.length >= 2 && candidateSurnames.some((candidate) => nearSignature(wanted, signature(candidate)));
+  });
 }
 
 export function authorMatchesNearTitle(bookAuthor, sourceTitle, evidence = "") {

@@ -8,7 +8,10 @@ const trustedHosts = [
   /(?:^|\.)book24\.ru$/u, /(?:^|\.)chitai-gorod\.ru$/u, /(?:^|\.)labirint\.ru$/u,
   /(?:^|\.)ozon\.ru$/u, /(?:^|\.)wildberries\.ru$/u, /(?:^|\.)amazon\./u,
   /(?:^|\.)(?:azbooka|eksmo|rosman|detlit|strecoza|samokatbook|polyandria|albuscorvus|kompasgid|clever-media|archipelag-publishing|alpinabook|mann-ivanov-ferber|pgbooks|gvardiya|melik-pashaev|ast|livebooks)\.ru$/u,
+  /(?:^|\.)(?:penguinrandomhouse|harpercollins|simonandschuster|panmacmillan|candlewick|scholastic|bloomsbury|hachettechildrens|walker)\.(?:com|co\.uk)$/u,
 ];
+
+const officialPublisherHost = /(?:azbooka|eksmo|rosman|detlit|strecoza|samokatbook|polyandria|albuscorvus|kompasgid|clever-media|archipelag-publishing|alpinabook|mann-ivanov-ferber|pgbooks|gvardiya|melik-pashaev|ast|livebooks)\.ru$|(?:penguinrandomhouse|harpercollins|simonandschuster|panmacmillan|candlewick|scholastic|bloomsbury|hachettechildrens|walker)\.(?:com|co\.uk)$/u;
 
 function discoveryLinks(html) {
   const result = [];
@@ -41,12 +44,15 @@ export function createWebDiscoverySource({ cache, concurrency = 2, workCoverMode
   return {
     key: "web-discovery", priority: 55, coverageComplete: () => false,
     async search(book) {
-      const cacheKey = workCoverMode ? "web-discovery:canonical-work-cover-v3" : "web-discovery:v3-duckduckgo-bing";
+      const cacheKey = workCoverMode ? "web-discovery:canonical-work-cover-v4" : "web-discovery:v3-duckduckgo-bing";
       const cached = cache?.get(cacheKey, book);
       if (cached) return cached;
       const queries = !workCoverMode && book.isbn13
         ? [`${book.isbn13} ${book.title}`, `"${book.title}" "${book.author.split(";")[0]}"`]
-        : workTitles(book).slice(0, 2).map((title) => `"${title}" "${book.author.split(";")[0]}"`);
+        : [...new Set([
+          ...workTitles(book).slice(0, 2).map((title) => `"${title}" "${book.author.split(";")[0]}"`),
+          ...(book.originalTitle ? [`"${book.originalTitle}" book publisher`] : []),
+        ])];
       const urls = [];
       for (const query of queries) {
         try {
@@ -72,7 +78,7 @@ export function createWebDiscoverySource({ cache, concurrency = 2, workCoverMode
             ...parsed, authors: parsed.authors.length ? parsed.authors : [book.author],
             sourceKey: "web-discovery", sourceName: host, sourceUrl: url,
             sourceRecordId: new URL(url).pathname, sourcePriority: 55,
-            officialPublisher: /(?:azbooka|eksmo|rosman|detlit|strecoza|samokatbook|polyandria|albuscorvus|kompasgid|clever-media|archipelag-publishing|alpinabook|mann-ivanov-ferber|pgbooks|gvardiya|melik-pashaev|ast|livebooks)\.ru$/u.test(host),
+            officialPublisher: officialPublisherHost.test(host),
             trustedCoverSource: true, isRussianEdition: parsed.language === "ru",
             confidence: 0.91,
             cover: { official: true, url: parsed.coverUrl, attribution: `Обложка: ${host}` },

@@ -9,7 +9,7 @@ const definitions = [
   { key: "detlit", name: "Издательство «Детская литература»", publisher: "Детская литература", sitemaps: ["https://detlit.ru/sitemap.xml"], product: /^https:\/\/detlit\.ru\/(?!$|series\/|sitemap\/)/u },
   { key: "strekoza", name: "Издательство «Стрекоза»", publisher: "Стрекоза", sitemaps: ["https://strecoza.ru/product-sitemap.xml", "https://strecoza.ru/product-sitemap2.xml", "https://strecoza.ru/product-sitemap3.xml", "https://strecoza.ru/product-sitemap4.xml"], product: /^https:\/\/strecoza\.ru\/product\//u },
   { key: "samokat", name: "Издательство «Самокат»", publisher: "Самокат", sitemaps: ["https://samokatbook.ru/sitemap-iblock-1.xml"], product: /^https:\/\/samokatbook\.ru\/book\//u },
-  { key: "polyandria", name: "Издательство «Поляндрия»", publisher: "Поляндрия", sitemaps: ["https://www.polyandria.ru/sitemap-iblock-4.xml"], product: /^https?:\/\/www\.polyandria\.ru\/catalog\/[^/]+\/[^/]+\/?$/u },
+  { key: "polyandria", name: "Издательство «Поляндрия»", publisher: "Поляндрия", sitemaps: ["https://www.polyandria.ru/sitemap-iblock-4.xml"], workSearch: { path: "/search/", parameter: "q" }, product: /^https?:\/\/(?:www\.)?polyandria\.ru\/catalog\/[^/]+\/[^/]+\/?$/u },
   { key: "white-crow", name: "Издательство «Белая ворона»", publisher: "Белая ворона", sitemaps: ["https://albuscorvus.ru/product-sitemap.xml"], product: /^https:\/\/albuscorvus\.ru\/product\/[^/]+\/?$/u },
   { key: "kompasgid", name: "Издательство «КомпасГид»", publisher: "КомпасГид", sitemaps: ["https://kompasgid.ru/product-sitemap.xml"], product: /^https:\/\/kompasgid\.ru\/product\/[^/]+\/?$/u },
   { key: "clever", name: "Издательство Clever", publisher: "Clever", sitemaps: ["https://www.clever-media.ru/sitemap.xml"], product: /^https:\/\/www\.clever-media\.ru\/product\/[^/]+\/?$/u },
@@ -58,6 +58,22 @@ function officialWorkSearchUrl(definition, book) {
   const url = new URL(definition.workSearch.path, origin);
   url.searchParams.set(definition.workSearch.parameter, workTitles(book)[0]);
   return url.href;
+}
+
+function guessedOfficialWorkUrls(definition, book) {
+  const slug = latin(workTitles(book)[0]).replace(/\s+/gu, "-");
+  const origin = definition.sitemaps?.[0] ? new URL(definition.sitemaps[0]).origin : undefined;
+  if (!origin || !slug) return [];
+  const paths = {
+    azbooka: `/books/${slug}`,
+    samokat: `/book/${slug}/`,
+    polyandria: `/catalog/arkhiv/${slug}/`,
+    "white-crow": `/product/${slug}/`,
+    kompasgid: `/product/${slug}/`,
+    "melik-pashaev": `/product/${slug}/`,
+    alpina: `/catalog/book-${slug}/`,
+  };
+  return paths[definition.key] ? [new URL(paths[definition.key], origin).href] : [];
 }
 
 export function createOfficialPublisherSource({ cache, concurrency = 6, root, matchLevel = 1, publisherKeys, workCoverMode = false } = {}) {
@@ -149,7 +165,7 @@ export function createOfficialPublisherSource({ cache, concurrency = 6, root, ma
       }
     },
     async search(book) {
-      const cacheKey = `${source.key}:${workCoverMode ? "canonical-work-cover-v9" : "adapter-v3-isbn-work-graph"}:match-level-${matchLevel}:publishers-${activeDefinitions.map((item) => item.key).join(",")}`;
+      const cacheKey = `${source.key}:${workCoverMode ? "canonical-work-cover-v21" : "adapter-v3-isbn-work-graph"}:match-level-${matchLevel}:publishers-${activeDefinitions.map((item) => item.key).join(",")}`;
       const cached = cache?.get(cacheKey, book);
       if (cached) return cached;
       const wanted = bookTokens(book);
@@ -168,10 +184,15 @@ export function createOfficialPublisherSource({ cache, concurrency = 6, root, ma
           }
         }
       }
-      const existingPage = book.cover?.sourcePageUrl;
-      if (existingPage) {
+      const existingPages = [...new Set([
+        book.cover?.sourcePageUrl,
+        book.sourceMetadata?.officialMetadataAudit?.sourceUrl,
+        book.sourceMetadata?.sourceUrl,
+        ...(book.bibliographicSources ?? []),
+      ].filter(Boolean))];
+      for (const existingPage of existingPages) {
         const definition = activeDefinitions.find((item) => item.product.test(existingPage));
-        if (definition) trials.push({ url: existingPage, definition, score: 1.1 });
+        if (definition) trials.push({ url: existingPage, definition, score: 1.1, strategy: "known_official_work_page" });
       }
       for (const definition of activeDefinitions) {
         const possible = [...new Map(wanted.flatMap((token) => definition.tokenIndex?.get(token) ?? []).map((item) => [item.url, item])).values()];
@@ -182,6 +203,11 @@ export function createOfficialPublisherSource({ cache, concurrency = 6, root, ma
           return { ...item, definition, score: common / Math.max(1, wanted.length) };
         }).filter((item) => item.score >= minimumScore).sort((a, b) => b.score - a.score).slice(0, perPublisher);
         trials.push(...ranked.filter((trial) => !trials.some((existing) => existing.url === trial.url)));
+        if (workCoverMode && (publisherMatches(book.publisher, definition.publisher) || (!book.publisher && ["azbooka", "polyandria"].includes(definition.key)))) {
+          for (const url of guessedOfficialWorkUrls(definition, book)) {
+            if (!trials.some((existing) => existing.url === url)) trials.push({ url, definition, score: 0.9, strategy: "guessed_official_work_url" });
+          }
+        }
       }
       if (workCoverMode) {
         for (const definition of activeDefinitions.filter((item) => item.workSearch)) {
@@ -220,8 +246,10 @@ export function createOfficialPublisherSource({ cache, concurrency = 6, root, ma
       const pages = await mapLimit(attemptedTrials, concurrency, async (trial) => {
         try {
           const parsed = parseBookPage(await fetchText(trial.url, { attempts: 1, timeoutMs: 8_000 }), trial.url, trial.definition);
-          const score = titleScore(book.title, parsed.title);
-          const authorMatch = parsed.authors.length
+          const score = Math.max(...workTitles(book).map((title) => titleScore(title, parsed.title)), 0);
+          const authorMatch = trial.strategy === "known_official_work_page"
+            ? authorMatches(book.author, parsed.authors, parsed.evidenceText)
+            : parsed.authors.length
             ? authorMatches(book.author, parsed.authors)
             : authorMatchesNearTitle(book.author, parsed.title, parsed.evidenceText);
           if (score < 0.72 || !authorMatch) return undefined;
@@ -237,7 +265,7 @@ export function createOfficialPublisherSource({ cache, concurrency = 6, root, ma
             officialPublisher: true,
             isRussianEdition: parsed.language === "ru",
             confidence: Math.min(0.97, 0.8 + score * 0.17),
-            cover: parsed.coverUrl ? { url: parsed.coverUrl, official: true } : undefined,
+            cover: parsed.coverUrl ? { url: parsed.coverUrl, official: true, productMain: parsed.coverEvidence === "product_main" } : undefined,
           };
         } catch { pageErrors += 1; return undefined; }
       });

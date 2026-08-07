@@ -38,7 +38,7 @@ function names(value) {
 }
 
 function imageUrl(value, baseUrl) {
-  const raw = Array.isArray(value) ? value[0] : typeof value === "object" ? value?.url : value;
+  const raw = imageValues(value)[0];
   try { return raw ? new URL(raw, baseUrl).href : undefined; } catch { return undefined; }
 }
 
@@ -59,14 +59,15 @@ function imageAttributes(tag = "") {
 
 export function extractProductImages(html = "", baseUrl) {
   const candidates = [];
-  const add = (raw, source, context = "", priority = 0, position = -1) => {
+  const add = (raw, source, context = "", priority = 0, position = -1, productMain = false) => {
     for (const value of imageValues(raw)) {
       for (const part of String(value).split(/\s*,\s*/u)) {
         const src = part.trim().split(/\s+/u)[0];
         let url;
         try { url = new URL(src, baseUrl).href; } catch { continue; }
-        if (!url.startsWith("https://") || /(?:logo|favicon|placeholder|no[-_]?image|item[-_]?no[-_]?cover|social[-_]?fb|avatar|sprite|icon)/iu.test(url)) continue;
-        candidates.push({ url, source, context: decodeHtml(context), priority, position });
+        const technical = /(?:logo|favicon|placeholder|preload(?:er)?|no[-_]?image|item[-_]?no[-_]?cover|social[-_]?fb|avatar|sprite|icon)/iu.test(url);
+        if (!url.startsWith("https://") || (technical && !productMain)) continue;
+        candidates.push({ url, source, context: decodeHtml(context), priority, position, productMain });
       }
     }
   };
@@ -77,9 +78,10 @@ export function extractProductImages(html = "", baseUrl) {
   for (const match of html.matchAll(/<img\b[^>]*>/giu)) {
     const attrs = imageAttributes(match[0]);
     const context = [attrs.alt, attrs.title, attrs.class].filter(Boolean).join(" ");
+    const productMain = /(?:product-main-thumbnail|product-main-image|woocommerce-product-gallery__image)/iu.test(context);
     const gallery = /(?:product|book|cover|gallery|woocommerce|wp-post-image)/iu.test(context);
     for (const key of ["data-zoom-image", "data-large_image", "data-src", "data-lazy-src", "data-original", "srcset", "data-srcset", "src"]) {
-      if (attrs[key]) add(attrs[key], `img_${key}`, context, gallery ? 85 : 45, match.index);
+      if (attrs[key]) add(attrs[key], `img_${key}`, context, productMain ? 110 : gallery ? 85 : 45, match.index, productMain);
     }
   }
   add(meta(html, "og:image"), "open_graph", meta(html, "og:title"), 25);
@@ -107,10 +109,15 @@ export function parseBookPage(html, url, fallback = {}) {
   const publisher = String(structured.publisher?.name ?? structured.brand?.name ?? fallback.publisher ?? "").trim() || undefined;
   const seriesName = String(structured.isPartOf?.name ?? "").trim() || undefined;
   const marketplaceImage = html.match(/<img[^>]+data-a-image-name=["']landingImage["'][^>]+(?:data-a-dynamic-image=["'][^"']*?(https:\/\/[^&"']+)|src=["'](https:\/\/[^"']+))/iu);
-  const galleryImage = extractProductImages(html, url)[0]?.url;
-  const image = imageUrl(structured.image || meta(html, "og:image") || marketplaceImage?.[1] || marketplaceImage?.[2] || galleryImage, url);
+  const galleryCandidate = extractProductImages(html, url)[0];
+  const galleryImage = galleryCandidate?.url;
+  const primaryImage = imageUrl(structured.image || meta(html, "og:image") || marketplaceImage?.[1] || marketplaceImage?.[2], url);
+  const image = primaryImage && !/(?:logo|favicon|default|placeholder|preload(?:er)?|social[-_]?fb|article[-_]?preview|item[-_]?no[-_]?cover|main[-_]?cover)/iu.test(primaryImage)
+    ? primaryImage
+    : galleryImage;
   const structuredAuthors = names(structured.author);
   const visibleAuthor = visible.match(/(?:^|\s)Автор(?:ы)?\s+(.{2,100}?)(?=\s+(?:Художник|Иллюстратор|Перевод|Издательство|ISBN|Серия|Возраст|Количество|Кол-во|Артикул)\b)/iu)?.[1]?.trim();
+  const productMainCover = galleryCandidate?.productMain && image === galleryCandidate.url;
   return {
     title,
     authors: structuredAuthors.length ? structuredAuthors : visibleAuthor ? [visibleAuthor] : [],
@@ -121,6 +128,7 @@ export function parseBookPage(html, url, fallback = {}) {
     pages: validPages(pagesText),
     seriesName,
     language: normalizeLanguage(structured.inLanguage) ?? "ru",
-    coverUrl: image && !/(?:logo|favicon|default|placeholder)/iu.test(image) ? image : undefined,
+    coverUrl: image && (productMainCover || !/(?:logo|favicon|default|placeholder|preload(?:er)?|social[-_]?fb|article[-_]?preview|item[-_]?no[-_]?cover|main[-_]?cover)/iu.test(image)) ? image : undefined,
+    coverEvidence: productMainCover ? "product_main" : image ? "structured_or_gallery" : undefined,
   };
 }

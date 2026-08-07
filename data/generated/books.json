@@ -1001,6 +1001,18 @@
           "Фанни Бритт"
         ]
       }
+    },
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2015/09/social-fb-book-035-346x475.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/jane-lisa-i-ya/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     }
   },
   {
@@ -1601,7 +1613,19 @@
     "sensitiveTopicsReviewed": false,
     "officialAgeRating": "0+ — требует сверки по ISBN",
     "officialAgeRatingSource": "https://www.harpercollins.com/products/goodnight-moon-margaret-wise-brown",
-    "status": "published"
+    "status": "published",
+    "cover": {
+      "kind": "external",
+      "url": "https://covers.openlibrary.org/b/id/35556-L.jpg?default=false",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Open Library",
+      "sourcePageUrl": "https://openlibrary.org/works/OL151798W",
+      "temporary": true,
+      "attribution": "Обложка: Open Library",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9285
+    }
   },
   {
     "id": "nen-053",
@@ -2034,6 +2058,18 @@
           "Катерина Горелик"
         ]
       }
+    },
+    "cover": {
+      "kind": "external",
+      "url": "https://www.polyandria.ru/upload/iblock/174/ivfj880mgnfra2mezusr30a0r9jx2lpc.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Поляндрия»",
+      "sourcePageUrl": "https://www.polyandria.ru/catalog/arkhiv/detektiv-samson/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     }
   },
   {
@@ -2244,7 +2280,19 @@
     "sensitiveTopicsReviewed": false,
     "officialAgeRating": "6+ — требует сверки по ISBN",
     "officialAgeRatingSource": "https://www.astridlindgren.com/en/characters/kalle-blomkvist",
-    "status": "published"
+    "status": "published",
+    "cover": {
+      "kind": "external",
+      "url": "https://covers.openlibrary.org/b/id/1026639-L.jpg?default=false",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Open Library",
+      "sourcePageUrl": "https://openlibrary.org/works/OL14872844W",
+      "temporary": true,
+      "attribution": "Обложка: Open Library",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9285
+    }
   },
   {
     "id": "nen-bv2-001",
@@ -3481,8 +3529,16 @@
     "shortDescription": "Ритмичная книжка знакомит малыша с цветами и животными через повторяющийся вопрос и яркие образы.",
     "whyRecommended": "Подойдёт читателям 1–4 лет, которые любят стихи. В книге затрагиваются темы животных.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://covers.openlibrary.org/b/id/12624136-L.jpg?default=false",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Open Library",
+      "sourcePageUrl": "https://openlibrary.org/works/OL59133W",
+      "temporary": true,
+      "attribution": "Обложка: Open Library",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9285
     },
     "identificationStatus": "provisional",
     "publicationYear": 1967,
@@ -3526,8 +3582,16 @@
     "shortDescription": "Семья отправляется на воображаемую охоту и проходит через траву, реку, грязь и метель.",
     "whyRecommended": "Для читателей 2–6 лет это поэзия и приключения о семье, природе и приключениях. Книгу можно выбрать для совместного чтения со взрослым.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://covers.openlibrary.org/b/id/433694-L.jpg?default=false",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Open Library",
+      "sourcePageUrl": "https://openlibrary.org/works/OL832133W",
+      "temporary": true,
+      "attribution": "Обложка: Open Library",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9285
     },
     "identificationStatus": "provisional",
     "publicationYear": 1989,
@@ -3703,8 +3767,16 @@
     "shortDescription": "Игрушечный медвежонок остаётся ночью в магазине и ищет потерянную пуговицу, надеясь обрести дом.",
     "whyRecommended": "Для читателей 3–7 лет это семейная история и приключения о дружбе и самооценке. Книгу можно выбрать для самостоятельного или совместного чтения.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://covers.openlibrary.org/b/id/1333207-L.jpg?default=false",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Open Library",
+      "sourcePageUrl": "https://openlibrary.org/works/OL4114525W",
+      "temporary": true,
+      "attribution": "Обложка: Open Library",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9285
     },
     "identificationStatus": "provisional",
     "publicationYear": 1968,
@@ -3752,8 +3824,16 @@
     "shortDescription": "Мальчик Питер выходит на улицу после снегопада и замечает, сколько игр спрятано в обычном зимнем дне.",
     "whyRecommended": "Если ребёнок любит реалистическую прозу и сюжеты о природе, приключениях и культурном разнообразии, книга подойдёт ему в возрасте 2–6 лет. Она подходит для совместного чтения со взрослым.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://covers.openlibrary.org/b/id/10134995-L.jpg?default=false",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Open Library",
+      "sourcePageUrl": "https://openlibrary.org/works/OL831023W",
+      "temporary": true,
+      "attribution": "Обложка: Open Library",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9285
     },
     "identificationStatus": "provisional",
     "publicationYear": 1962,
@@ -3852,8 +3932,16 @@
     "shortDescription": "Игрушечный кролик мечтает стать настоящим и постепенно узнаёт, что любовь меняет вещи сильнее времени.",
     "whyRecommended": "Для читателей 4–8 лет это сказка и семейная история о семье, самооценке и волшебстве. Книгу можно выбрать для самостоятельного или совместного чтения.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://covers.openlibrary.org/b/id/10516159-L.jpg?default=false",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Open Library",
+      "sourcePageUrl": "https://openlibrary.org/works/OL23590326W",
+      "temporary": true,
+      "attribution": "Обложка: Open Library",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9285
     },
     "identificationStatus": "provisional",
     "publicationYear": 1922,
@@ -3984,8 +4072,16 @@
     "shortDescription": "Энергичная поросёнок Оливия рисует, спорит, наряжается и успевает утомить семью за один насыщенный день.",
     "whyRecommended": "Подойдёт читателям 3–7 лет, которые любят семейные истории и юмористические книги. В книге затрагиваются темы семьи, искусства и самооценки.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://covers.openlibrary.org/b/id/954704-L.jpg?default=false",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Open Library",
+      "sourcePageUrl": "https://openlibrary.org/works/OL82700W",
+      "temporary": true,
+      "attribution": "Обложка: Open Library",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9285
     },
     "identificationStatus": "provisional",
     "isbn13": "9785389002722",
@@ -4058,8 +4154,16 @@
     "shortDescription": "Кротик проводит настойчивое расследование и сравнивает следы разных животных, чтобы найти виновника неприятности.",
     "whyRecommended": "Для читателей 3–7 лет это юмор о животных, теле и юморе. Книгу можно выбрать для самостоятельного или совместного чтения.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://covers.openlibrary.org/b/id/906737-L.jpg?default=false",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Open Library",
+      "sourcePageUrl": "https://openlibrary.org/works/OL66311W",
+      "temporary": true,
+      "attribution": "Обложка: Open Library",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9285
     },
     "identificationStatus": "provisional",
     "publicationYear": 1989,
@@ -4107,8 +4211,16 @@
     "shortDescription": "Бабочка помогает маленькой обезьянке искать маму, но каждый раз понимает её описание слишком буквально.",
     "whyRecommended": "Если ребёнок любит сказки и сюжеты о животных и семье, книга подойдёт ему в возрасте 2–6 лет. Она подходит для совместного чтения со взрослым.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://covers.openlibrary.org/b/id/200453-L.jpg?default=false",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Open Library",
+      "sourcePageUrl": "https://openlibrary.org/works/OL1938306W",
+      "temporary": true,
+      "attribution": "Обложка: Open Library",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9285
     },
     "identificationStatus": "provisional",
     "publicationYear": 2000,
@@ -8081,8 +8193,16 @@
     "shortDescription": "Четверо детей проходят через платяной шкаф в Нарнию, где вечная зима держится по воле Белой колдуньи.",
     "whyRecommended": "Если ребёнок любит фэнтези и приключенческие книги и сюжеты о семье, волшебстве и приключениях, книга подойдёт ему в возрасте 8–13 лет. Она подходит для самостоятельного или совместного чтения.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://covers.openlibrary.org/b/id/10626869-L.jpg?default=false",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Open Library",
+      "sourcePageUrl": "https://openlibrary.org/works/OL24194710W",
+      "temporary": true,
+      "attribution": "Обложка: Open Library",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9285
     },
     "identificationStatus": "provisional",
     "isbn13": "9785041193898",
@@ -8564,8 +8684,16 @@
     "shortDescription": "Софи знакомится с единственным добрым великаном и помогает ему остановить сородичей, охотящихся на людей.",
     "whyRecommended": "Если ребёнок любит фэнтези и приключенческие книги и сюжеты о дружбе, волшебстве и приключениях, книга подойдёт ему в возрасте 8–13 лет. Она подходит для самостоятельного или совместного чтения.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://covers.openlibrary.org/b/id/9176033-L.jpg?default=false",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Open Library",
+      "sourcePageUrl": "https://openlibrary.org/works/OL45885W",
+      "temporary": true,
+      "attribution": "Обложка: Open Library",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9285
     },
     "identificationStatus": "provisional",
     "publicationYear": 2005,
@@ -9547,8 +9675,16 @@
     "shortDescription": "Полуторамиллиметровый Тоби бежит по огромному дереву, спасая семью и знания от захватившей власть компании.",
     "whyRecommended": "Подойдёт читателям 10–15 лет, которые любят фэнтези и приключенческие книги. В книге затрагиваются темы семьи, природы и безопасности.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://covers.openlibrary.org/b/id/13265646-L.jpg?default=false",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Open Library",
+      "sourcePageUrl": "https://openlibrary.org/works/OL29876092W",
+      "temporary": true,
+      "attribution": "Обложка: Open Library",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9285
     },
     "identificationStatus": "provisional",
     "isbn13": "9785905876851",
@@ -10932,8 +11068,16 @@
     "shortDescription": "Мэг отправляется через пространство искать пропавшего отца и сталкивается с миром, где всем навязано одинаковое мышление.",
     "whyRecommended": "Подойдёт читателям 10–15 лет, которые любят научную фантастику и фэнтези. В книге затрагиваются темы семьи, науки и самооценки.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://covers.openlibrary.org/b/id/12544347-L.jpg?default=false",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Open Library",
+      "sourcePageUrl": "https://openlibrary.org/works/OL27036400W",
+      "temporary": true,
+      "attribution": "Обложка: Open Library",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9285
     },
     "identificationStatus": "provisional",
     "publicationYear": 1962,
@@ -11607,8 +11751,16 @@
     "shortDescription": "После травматического события Мелинда почти перестаёт говорить и остаётся изолированной в новой школьной жизни.",
     "whyRecommended": "Для читателей 15–17 лет это реалистическая проза о школе, безопасности и самооценке. Книгу можно выбрать для самостоятельного чтения.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://covers.openlibrary.org/b/id/10857543-L.jpg?default=false",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Open Library",
+      "sourcePageUrl": "https://openlibrary.org/works/OL509183W",
+      "temporary": true,
+      "attribution": "Обложка: Open Library",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9285
     },
     "identificationStatus": "provisional",
     "isbn13": "9785604785911",
@@ -12096,8 +12248,16 @@
     "shortDescription": "Тодд живёт в мире, где мысли мужчин слышны всем, и вынужден бежать после встречи с девочкой, окружённой тишиной.",
     "whyRecommended": "Если ребёнок любит научную фантастику и приключенческие книги и сюжеты о дружбе, безопасности и взрослении, книга подойдёт ему в возрасте 14–17 лет. Она подходит для самостоятельного чтения.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://covers.openlibrary.org/b/id/10200429-L.jpg?default=false",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Open Library",
+      "sourcePageUrl": "https://openlibrary.org/works/OL6073271W",
+      "temporary": true,
+      "attribution": "Обложка: Open Library",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9285
     },
     "identificationStatus": "provisional",
     "publicationYear": 2008,
@@ -12148,8 +12308,16 @@
     "shortDescription": "Двое школьных аутсайдеров постепенно сближаются в автобусе через музыку и комиксы, пока домашняя жизнь Элеанор становится опаснее.",
     "whyRecommended": "Подойдёт читателям 15–17 лет, которые любят реалистическую прозу. В книге затрагиваются темы отношений, семьи и самооценки.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://covers.openlibrary.org/b/id/12917595-L.jpg?default=false",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Open Library",
+      "sourcePageUrl": "https://openlibrary.org/works/OL16803752W",
+      "temporary": true,
+      "attribution": "Обложка: Open Library",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9285
     },
     "identificationStatus": "provisional",
     "publicationYear": 2012,
@@ -12204,8 +12372,16 @@
     "shortDescription": "Саймон переписывается с анонимным школьником и оказывается под угрозой аутинга, когда письма попадают к однокласснику.",
     "whyRecommended": "Для читателей 14–17 лет это реалистическая проза о отношениях, школе и самооценке. Книгу можно выбрать для самостоятельного чтения.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://covers.openlibrary.org/b/id/12303551-L.jpg?default=false",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Open Library",
+      "sourcePageUrl": "https://openlibrary.org/works/OL17357353W",
+      "temporary": true,
+      "attribution": "Обложка: Open Library",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9285
     },
     "identificationStatus": "provisional",
     "publicationYear": 2015,
@@ -12259,8 +12435,16 @@
     "shortDescription": "Два подростка из мексикано-американских семей знакомятся летом и постепенно учатся говорить о дружбе, семье и себе.",
     "whyRecommended": "Если ребёнок любит реалистическую прозу и семейные истории и сюжеты о дружбе, семье и взрослении, книга подойдёт ему в возрасте 14–17 лет. Она подходит для самостоятельного чтения.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://covers.openlibrary.org/b/id/12313804-L.jpg?default=false",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Open Library",
+      "sourcePageUrl": "https://openlibrary.org/works/OL16596099W",
+      "temporary": true,
+      "attribution": "Обложка: Open Library",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9285
     },
     "identificationStatus": "provisional",
     "publicationYear": 2012,
@@ -12313,8 +12497,16 @@
     "shortDescription": "Старр становится свидетелем того, как полицейский убивает её безоружного друга, и решает, сможет ли публично рассказать правду.",
     "whyRecommended": "Подойдёт читателям 15–17 лет, которые любят реалистическую прозу. В книге затрагиваются темы семьи, безопасности и самооценки.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://covers.openlibrary.org/b/id/11521588-L.jpg?default=false",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Open Library",
+      "sourcePageUrl": "https://openlibrary.org/works/OL17714701W",
+      "temporary": true,
+      "attribution": "Обложка: Open Library",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9285
     },
     "identificationStatus": "provisional",
     "publicationYear": 2017,
@@ -12510,8 +12702,16 @@
     "shortDescription": "Девушка-оборотень становится помощницей объявленного злодеем рыцаря и с энтузиазмом предлагает разрушительные решения.",
     "whyRecommended": "Подойдёт читателям 13–17 лет, которые любят фэнтези и приключенческие книги. В книге затрагиваются темы дружбы, самооценки и волшебства.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://covers.openlibrary.org/b/id/10541789-L.jpg?default=false",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Open Library",
+      "sourcePageUrl": "https://openlibrary.org/works/OL17274040W",
+      "temporary": true,
+      "attribution": "Обложка: Open Library",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9285
     },
     "identificationStatus": "provisional",
     "publicationYear": 2015,
@@ -12561,8 +12761,16 @@
     "shortDescription": "Три сюжетные линии соединяют школьника Джина, легенду о Царе обезьян и гротескный образ, построенный на расистских клише.",
     "whyRecommended": "Подойдёт читателям 13–17 лет, которые любят реалистическую прозу и сказки. В книге затрагиваются темы культурного разнообразия, школы и самооценки.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://covers.openlibrary.org/b/id/10134498-L.jpg?default=false",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Open Library",
+      "sourcePageUrl": "https://openlibrary.org/works/OL8994750W",
+      "temporary": true,
+      "attribution": "Обложка: Open Library",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9285
     },
     "identificationStatus": "provisional",
     "publicationYear": 2006,
@@ -15562,8 +15770,16 @@
     "fullDescription": "Сборник сказок Владимир Бояринов. В издание вошли фантастические и бытовые сюжеты с чудесными превращениями, животными и другими сказочными героями.",
     "whyRecommended": "Для читателей 7–12 лет это сказка и фэнтези о волшебстве. Книгу можно выбрать для самостоятельного или совместного чтения.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://covers.openlibrary.org/b/id/9609067-L.jpg?default=false",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Open Library",
+      "sourcePageUrl": "https://openlibrary.org/works/OL12623265W",
+      "temporary": true,
+      "attribution": "Обложка: Open Library",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9285
     },
     "identificationStatus": "provisional",
     "isbn13": null,
@@ -16488,8 +16704,16 @@
     "fullDescription": "Трубочист Федя, кот Игнасий и Одинокая Мышь живут по соседству и постепенно становятся участниками одной общей истории. Их необычная компания учится замечать чужое одиночество.",
     "whyRecommended": "Если ребёнок любит реалистическую прозу и сюжеты о животных, книга подойдёт ему в возрасте 7–12 лет. Она подходит для самостоятельного или совместного чтения.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://covers.openlibrary.org/b/id/8438818-L.jpg?default=false",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Open Library",
+      "sourcePageUrl": "https://openlibrary.org/works/OL754911W",
+      "temporary": true,
+      "attribution": "Обложка: Open Library",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9285
     },
     "identificationStatus": "provisional",
     "isbn13": null,
@@ -18082,6 +18306,18 @@
     "shortDescription": "Сборник произведений Валерий Алексеев. В книгу вошли рассказы и повести с разными героями и самостоятельными сюжетами.",
     "fullDescription": "Сборник произведений Валерий Алексеев. В книгу вошли рассказы и повести с разными героями и самостоятельными сюжетами.",
     "whyRecommended": "Для читателей 6–11 лет это приключения о приключениях. Книгу можно выбрать для самостоятельного или совместного чтения.",
+    "cover": {
+      "kind": "external",
+      "url": "https://detlit.ru/images/detailed/12543/9959f039c80911ea80df00505684449c_9959f03ac80911ea80df00505684449c.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Детская литература»",
+      "sourcePageUrl": "https://detlit.ru/istoricheskie-povesti-ru/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9618
+    },
     "identificationStatus": "provisional",
     "publisher": "Детская литература",
     "publicationYear": 2018,
@@ -18219,8 +18455,16 @@
     "fullDescription": "Новые приключения мальчика, его семьи и друзей.",
     "whyRecommended": "Если ребёнок любит семейные истории и сюжеты о дружбе и семье, книга подойдёт ему в возрасте 6–11 лет. Она подходит для самостоятельного или совместного чтения.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://covers.openlibrary.org/b/id/14095274-L.jpg?default=false",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Open Library",
+      "sourcePageUrl": "https://openlibrary.org/works/OL13715036W",
+      "temporary": true,
+      "attribution": "Обложка: Open Library",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9285
     },
     "identificationStatus": "provisional",
     "isbn13": null,
@@ -21301,8 +21545,16 @@
     "fullDescription": "Иллюстрированные детские рассказы о животных.",
     "whyRecommended": "Если ребёнок любит юмористические книги и сюжеты о животных, книга подойдёт ему в возрасте 7–12 лет. Она подходит для самостоятельного или совместного чтения.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://covers.openlibrary.org/b/id/12577967-L.jpg?default=false",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Open Library",
+      "sourcePageUrl": "https://openlibrary.org/works/OL27060083W",
+      "temporary": true,
+      "attribution": "Обложка: Open Library",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9285
     },
     "identificationStatus": "provisional",
     "publisher": "Азбука-Аттикус",
@@ -38219,8 +38471,16 @@
     "fullDescription": "В Стране Отражений рассказчик и его необычные спутники ищут таинственное Поющее дерево. По дороге они встречают Бегемота, который появляется в трудную минуту, человечка Соломенные ножки и других сказочных жителей.",
     "whyRecommended": "Если ребёнок любит реалистическую прозу и сюжеты о природе, книга подойдёт ему в возрасте 6–11 лет. Она подходит для самостоятельного или совместного чтения.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://covers.openlibrary.org/b/id/5499941-L.jpg?default=false",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Open Library",
+      "sourcePageUrl": "https://openlibrary.org/works/OL12917933W",
+      "temporary": true,
+      "attribution": "Обложка: Open Library",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9285
     },
     "identificationStatus": "provisional",
     "isbn13": null,
@@ -46427,8 +46687,16 @@
     "fullDescription": "Старый башмак вспоминает собственные путешествия и людей, которым принадлежал. Через его рассказ обычная вещь становится свидетелем разных судеб и событий.",
     "whyRecommended": "Подойдёт читателям 6–11 лет, которые любят фэнтези. В книге затрагиваются темы приключений.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://covers.openlibrary.org/b/id/5507168-L.jpg?default=false",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Open Library",
+      "sourcePageUrl": "https://openlibrary.org/works/OL13440963W",
+      "temporary": true,
+      "attribution": "Обложка: Open Library",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9285
     },
     "identificationStatus": "provisional",
     "isbn13": null,
@@ -46800,6 +47068,18 @@
     "shortDescription": "Три поросёнка строят себе разные дома и пытаются перехитрить волка, который хочет до них добраться.",
     "fullDescription": "Три поросёнка строят себе разные дома и пытаются перехитрить волка, который хочет до них добраться.",
     "whyRecommended": "Если ребёнок любит сказки и сюжеты о культурном разнообразии, животных и волшебстве, книга подойдёт ему в возрасте 6–11 лет. Она подходит для самостоятельного или совместного чтения.",
+    "cover": {
+      "kind": "external",
+      "url": "https://covers.openlibrary.org/b/id/14527453-L.jpg?default=false",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Open Library",
+      "sourcePageUrl": "https://openlibrary.org/works/OL34596420W",
+      "temporary": true,
+      "attribution": "Обложка: Open Library",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9285
+    },
     "identificationStatus": "identified",
     "isbn13": "9785171498214",
     "publisher": "АСТ",
@@ -48519,8 +48799,16 @@
     "fullDescription": "Старик Кулебякин живёт рядом с плаксивой кобылой Милой и жеребёнком Равкиным. Заботы о животных связывают героев и меняют их привычную жизнь.",
     "whyRecommended": "Для читателей 7–12 лет это реалистическая проза о животных. Книгу можно выбрать для самостоятельного или совместного чтения.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://covers.openlibrary.org/b/id/12929091-L.jpg?default=false",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Open Library",
+      "sourcePageUrl": "https://openlibrary.org/works/OL754910W",
+      "temporary": true,
+      "attribution": "Обложка: Open Library",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9285
     },
     "identificationStatus": "provisional",
     "isbn13": null,
@@ -53267,8 +53555,16 @@
     "fullDescription": "Герои сталкиваются с ситуациями, в которых простое вежливое слово меняет разговор и отношение окружающих. В книгу вошли стихи и короткие истории Эммы Мошковской.",
     "whyRecommended": "Если ребёнок любит стихи и сюжеты о отношениях, книга подойдёт ему в возрасте 6–11 лет. Она подходит для самостоятельного или совместного чтения.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://api.azbooka.ru/upload/iblock/4ec/4ec093a3e469d77ea75eb795ddd97900.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательская группа «Азбука-Аттикус»",
+      "sourcePageUrl": "https://azbooka.ru/books/vezhlivoe-slovo",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9618
     },
     "identificationStatus": "identified",
     "isbn13": "9785389097421",
@@ -55309,6 +55605,19 @@
     "shortDescription": "Сборник басен Сергей Владимирович Михалков: коротких ироничных сюжетов, в которых человеческие привычки показаны через поступки людей и животных.",
     "fullDescription": "Сборник басен Сергей Владимирович Михалков: коротких ироничных сюжетов, в которых человеческие привычки показаны через поступки людей и животных.",
     "whyRecommended": "Подойдёт читателям 6–11 лет, которые любят сказки. В книге затрагиваются темы отношений.",
+    "cover": {
+      "kind": "external",
+      "url": "https://detlit.ru/images/detailed/12538/1e23440b158911e980cd00505684449c_4593711d523111ea80df00505684449c.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Детская литература»",
+      "sourcePageUrl": "https://detlit.ru/shb-tolstoy-l-basni-skazki-rasskazy/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9618,
+      "isbn13": "9785080054150"
+    },
     "identificationStatus": "identified",
     "isbn13": "9785080054150",
     "publisher": "Детская литература",
@@ -61743,8 +62052,16 @@
     "fullDescription": "Сборник поэм Александра Пушкина.",
     "whyRecommended": "Если ребёнок любит стихи и сюжеты о отношениях, книга подойдёт ему в возрасте 7–12 лет. Она подходит для самостоятельного или совместного чтения.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://covers.openlibrary.org/b/id/14342665-L.jpg?default=false",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Open Library",
+      "sourcePageUrl": "https://openlibrary.org/works/OL10416781W",
+      "temporary": true,
+      "attribution": "Обложка: Open Library",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9285
     },
     "identificationStatus": "identified",
     "isbn13": "9785080042195",
@@ -83918,6 +84235,18 @@
     "lengthCategory": "very-short",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2015/04/Mama-Mu-i-snegokat.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/mama-mu-i-snegokat/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/mama-mu-i-snegokat/",
@@ -83967,6 +84296,18 @@
     "lengthCategory": "short",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2015/04/skazka-guareski.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/skazka-na-rozhdestvo/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/skazka-na-rozhdestvo/",
@@ -84013,6 +84354,18 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2015/04/maksud-ibragimbekov-pust-on-ostanetsya-s-nami.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/pust-on-ostanetsya-s-nami/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/pust-on-ostanetsya-s-nami/",
@@ -84113,6 +84466,18 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2015/04/031.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/skazka-o-vetre/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/skazka-o-vetre/",
@@ -84158,6 +84523,18 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2015/04/0301-346x322.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/belyj-aist-chernyj-aist/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/belyj-aist-chernyj-aist/",
@@ -84250,6 +84627,18 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2015/10/schastlivyj-neudachnik.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/schastlivyj-neudachnik/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/schastlivyj-neudachnik/",
@@ -84297,6 +84686,18 @@
     "lengthCategory": "short",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2015/11/fik-prikljucheniya.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/maksi-pyos-fik-priklyucheniya-prodolzhayutsya/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/maksi-pyos-fik-priklyucheniya-prodolzhayutsya/",
@@ -84344,6 +84745,18 @@
     "lengthCategory": "very-short",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2015/11/mama-mu-poranilas.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/mama-mu-poranilas/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/mama-mu-poranilas/",
@@ -84390,6 +84803,18 @@
     "lengthCategory": "short",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2015/11/kum-korolju.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/kum-korolyu/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/kum-korolyu/",
@@ -84437,6 +84862,18 @@
     "lengthCategory": "long",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2015/11/kaufman.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/vverh-po-lestnitse-vedushhej-vniz/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/vverh-po-lestnitse-vedushhej-vniz/",
@@ -84539,6 +84976,18 @@
     "lengthCategory": "short",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2016/03/ogorod-na-podokonnike.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/ogorod-na-podokonnike/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/ogorod-na-podokonnike/",
@@ -84706,6 +85155,18 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2016/10/memek-1.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/memek-muzykant/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/memek-muzykant/",
@@ -84870,6 +85331,18 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2017/03/brat-unnat.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/brat-unnat/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/brat-unnat/",
@@ -84974,6 +85447,18 @@
     "lengthCategory": "short",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2017/10/karius-i-bakterius.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/karius-i-bakterius/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/karius-i-bakterius/",
@@ -85018,6 +85503,18 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2017/11/meg-rosoff-kak-ya-teper-zhivu.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/meg-rosoff-kak-ya-teper-zhivu/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/meg-rosoff-kak-ya-teper-zhivu/",
@@ -85065,6 +85562,18 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2018/01/lui-sredi-prizrakov.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/lui-sredi-prizrakov/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/lui-sredi-prizrakov/",
@@ -85112,6 +85621,18 @@
     "lengthCategory": "long",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2018/01/i-belye-teni-v-lesu.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/i-belye-teni-v-lesu/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/i-belye-teni-v-lesu/",
@@ -85157,6 +85678,18 @@
     "lengthCategory": "short",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2018/02/myshinaya-kniga.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/myshinaya-kniga/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/myshinaya-kniga/",
@@ -85202,6 +85735,18 @@
     "lengthCategory": "long",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2018/02/vyshel-lev-iz-za-gory4.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/vyshel-lev-iz-za-gory/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/vyshel-lev-iz-za-gory/",
@@ -85248,6 +85793,18 @@
     "lengthCategory": "very-short",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2018/03/vse-druzya-naperechet.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/vse-druzya-naperechet/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/vse-druzya-naperechet/",
@@ -85294,6 +85851,18 @@
     "lengthCategory": "very-short",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2018/03/tajna-hvoinki.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/tajna-hvoinki/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/tajna-hvoinki/",
@@ -85339,6 +85908,18 @@
     "lengthCategory": "very-short",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2018/03/hvoinka-svinofufik-i-nosik-rozochkoj.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/hvoinka-svinofufik-i-nosik-rozochkoj/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/hvoinka-svinofufik-i-nosik-rozochkoj/",
@@ -85387,6 +85968,18 @@
     "lengthCategory": "very-short",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2018/04/korabl-noya.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/korabl-noya/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/korabl-noya/",
@@ -85431,6 +86024,18 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2018/04/myach-v-igre.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/myach-v-igre/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/myach-v-igre/",
@@ -85474,6 +86079,18 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2018/08/kak-ya-nechayanno-napisala-knigu.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/kak-ya-nechayanno-napisala-knigu/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/kak-ya-nechayanno-napisala-knigu/",
@@ -85522,6 +86139,18 @@
     "lengthCategory": "short",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2018/10/malyutka-laban-priklyucheniya-v-zamke.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/malyutka-laban-priklyucheniya-v-zamke/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/malyutka-laban-priklyucheniya-v-zamke/",
@@ -85624,6 +86253,18 @@
     "lengthCategory": "very-short",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2018/10/kalendar-petson-i-findus-2019.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/kalendar-petson-i-findus-2019/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/kalendar-petson-i-findus-2019/",
@@ -85672,6 +86313,18 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2018/10/malenkij-stark.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/mal-stark/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/mal-stark/",
@@ -85719,6 +86372,18 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2018/11/salli-legenda.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/salli-legenda/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/salli-legenda/",
@@ -85764,6 +86429,18 @@
     "lengthCategory": "short",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2019/01/mosty.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/mosty/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/mosty/",
@@ -85811,6 +86488,18 @@
     "lengthCategory": "short",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2019/03/charles-darwin.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/charles-darwin/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/charles-darwin/",
@@ -85859,6 +86548,18 @@
     "lengthCategory": "short",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2019/03/louis-pasteur.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/louis-pasteur/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/louis-pasteur/",
@@ -85905,6 +86606,18 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2019/03/teatr-dzhanni-rodari.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/teatr-dzhanni-rodari/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/teatr-dzhanni-rodari/",
@@ -85949,6 +86662,18 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2019/04/sonya-iz-sedmogo-buee-2.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/sonya-iz-sedmogo-buee/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/sonya-iz-sedmogo-buee/",
@@ -85996,6 +86721,18 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2019/05/nalle-lapson.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/nalle-lapson/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/nalle-lapson/",
@@ -86043,6 +86780,18 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2019/05/nalle-lapson-beretsya-za-delo.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/nalle-lapson-beretsya-za-delo/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/nalle-lapson-beretsya-za-delo/",
@@ -86092,6 +86841,18 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2019/06/maja-lunde-cherez-granicu.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/maja-lunde-cherez-granicu/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/maja-lunde-cherez-granicu/",
@@ -86138,6 +86899,18 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2019/08/ulf-stark-beglecy.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/ulf-stark-beglecy/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/ulf-stark-beglecy/",
@@ -86186,6 +86959,18 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2019/08/puteshestvie-k-centru-zemli.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/puteshestvie-k-centru-zemli/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/puteshestvie-k-centru-zemli/",
@@ -86231,6 +87016,18 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2019/08/malenkaya-povest-o-lyubvi.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/malenkaya-povest-o-lyubvi/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/malenkaya-povest-o-lyubvi/",
@@ -86278,6 +87075,18 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2019/09/nalle-lapson-i-tyapka.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/nalle-lapson-i-tyapka/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/nalle-lapson-i-tyapka/",
@@ -86322,6 +87131,18 @@
     "lengthCategory": "very-short",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2019/09/kalendar-petson-i-findus-2020.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/kalendar-petson-i-findus-2020/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/kalendar-petson-i-findus-2020/",
@@ -86371,6 +87192,18 @@
     "lengthCategory": "short",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2019/10/parco.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/parco/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/parco/",
@@ -86415,6 +87248,18 @@
     "lengthCategory": "short",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2019/10/istoriya-o-kroshke-ele-i-kosmonavte-layke.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/istoriya-o-kroshke-ele-i-kosmonavte-layke/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/istoriya-o-kroshke-ele-i-kosmonavte-layke/",
@@ -98637,6 +99482,19 @@
     "lengthCategory": "short",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
+    "cover": {
+      "kind": "external",
+      "url": "https://alpinabook.ru/upload/iblock/fae/sgfmh32ced4590r49b5p6qp3xqrvc1hb/10.png.webp",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Альпина.Дети»",
+      "sourcePageUrl": "https://alpinabook.ru/catalog/book-persey/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835,
+      "isbn13": "9785002830527"
+    },
     "annotationProvenance": {
       "source": "Издательство «Альпина.Дети»",
       "sourceUrl": "https://alpinabook.ru/catalog/book-persey/",
@@ -98703,6 +99561,18 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2016/08/inspector-pike-1.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/zagadki-detektiva-shhuki/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/zagadki-detektiva-shhuki/",
@@ -98750,6 +99620,18 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2018/10/meg-rosoff-kakim-ya-byl.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/meg-rosoff-kakim-ya-byl/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/meg-rosoff-kakim-ya-byl/",
@@ -143607,7 +144489,19 @@
     "author": "Лиза Папп",
     "ageLabel": "3–12 лет",
     "whyRecommended": "Подойдёт читателям 3–12 лет, которые любят реалистическую прозу. В книге затрагиваются темы животных.",
-    "language": "ru"
+    "language": "ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://www.polyandria.ru/upload/iblock/3b4/3b44f80441416b7bb77328bc030facf0.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Поляндрия»",
+      "sourcePageUrl": "https://www.polyandria.ru/catalog/3-7/meydelin-finn-i-sobaka-iz-priyuta/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    }
   },
   {
     "id": "curated-nen-collection-martyn-i-barsik-masha-rupasova",
@@ -143953,7 +144847,19 @@
     "author": "Туве Янссон",
     "ageLabel": "3–12 лет",
     "whyRecommended": "Если ребёнок любит юмористические книги и сюжеты о животных и юморе, книга подойдёт ему в возрасте 3–12 лет. Она подходит для самостоятельного или совместного чтения.",
-    "language": "ru"
+    "language": "ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://covers.openlibrary.org/b/id/12489200-L.jpg?default=false",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Open Library",
+      "sourcePageUrl": "https://openlibrary.org/works/OL26453719W",
+      "temporary": true,
+      "attribution": "Обложка: Open Library",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9285
+    }
   },
   {
     "id": "curated-nen-collection-myshonok-kotoryy-tam-anastasiya-kovalenkova",
@@ -144086,7 +144992,19 @@
     "author": "Туве Янссон",
     "ageLabel": "3–12 лет",
     "whyRecommended": "Если ребёнок любит сказки и сюжеты о волшебстве, книга подойдёт ему в возрасте 3–12 лет. Она подходит для самостоятельного или совместного чтения.",
-    "language": "ru"
+    "language": "ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://api.azbooka.ru/upload/iblock/1a7/1a7bc5dcf5f72c61f826688c2a3d2b60.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательская группа «Азбука-Аттикус»",
+      "sourcePageUrl": "https://azbooka.ru/books/kto-uteshit-knyutta",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    }
   },
   {
     "id": "curated-nen-collection-kartofelnaya-sobaka-yuriy-koval",
@@ -144456,6 +145374,18 @@
     "pages": 320,
     "translator": "Надежда Бунтман",
     "isbn13": "9785917599236",
+    "cover": {
+      "kind": "external",
+      "url": "https://samokatbook.ru/upload/resize_cache/iblock/7d4/1024_1024_1/7d4e028fa93753ced851044e402fb7a1.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Самокат»",
+      "sourcePageUrl": "https://samokatbook.ru/book/reka-tekushchaya-vspyat/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
     "language": "ru"
   },
   {
@@ -145491,7 +146421,19 @@
     "publicationYear": 2022,
     "pages": 416,
     "isbn13": "9785699951338",
-    "language": "ru ru"
+    "language": "ru ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.eksmo.ru/v2/ITD000000000181965/COVER/cover1__w820.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Эксмо»",
+      "sourcePageUrl": "https://eksmo.ru/book/zhutko-gromko-i-zapredelno-blizko-ITD181965/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    }
   },
   {
     "id": "curated-nen-collection-milye-kosti-elis-sibold",
@@ -145555,7 +146497,19 @@
     "publicationYear": 2020,
     "pages": 432,
     "isbn13": "9785041089535",
-    "language": "ru ru"
+    "language": "ru ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.eksmo.ru/v2/ITD000000000877065/COVER/cover1__w820.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Эксмо»",
+      "sourcePageUrl": "https://eksmo.ru/book/milye-kosti-ITD877065/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    }
   },
   {
     "id": "curated-nen-collection-kogda-my-vstretimsya-rebekka-sted",
@@ -146036,7 +146990,19 @@
     "publicationYear": 2022,
     "pages": 352,
     "isbn13": "9785041602239",
-    "language": "ru ru"
+    "language": "ru ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.eksmo.ru/v2/ITD000000001244126/COVER/cover1__w820.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Эксмо»",
+      "sourcePageUrl": "https://eksmo.ru/book/spletni-i-k-pop-ITD1244126/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    }
   },
   {
     "id": "curated-nen-collection-heytery-dzhessi-endryus",
@@ -147930,7 +148896,19 @@
     "author": "Хегюм Ким",
     "ageLabel": "2–7 лет",
     "whyRecommended": "Подойдёт читателям 2–7 лет, которые любят приключенческие книги. В книге затрагиваются темы животных, взросления и приключений.",
-    "language": "ru"
+    "language": "ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://www.polyandria.ru/upload/iblock/568/lcaxygcw3jznjpvzugpjrs1tx8fykhi7/Vasilkovaya_Zima_Cover-min.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Поляндрия»",
+      "sourcePageUrl": "https://www.polyandria.ru/catalog/arkhiv/vasilkovaya-zima/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    }
   },
   {
     "id": "curated-nen-collection-gde-to-v-snegu-linde-faas",
@@ -147995,7 +148973,19 @@
     "author": "Линде Фаас",
     "ageLabel": "2–7 лет",
     "whyRecommended": "Подойдёт читателям 2–7 лет, которые любят сказки и фэнтези. В книге затрагиваются темы дружбы, семьи и животных.",
-    "language": "ru"
+    "language": "ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://www.polyandria.ru/upload/iblock/be6/spfrolatjg2f4rl4msjvbwb7plzoekjl/Gde_to-v-snegu_Oblozhka1.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Поляндрия»",
+      "sourcePageUrl": "https://www.polyandria.ru/catalog/arkhiv/gde-to-v-snegu/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    }
   },
   {
     "id": "curated-nen-collection-zavetnoe-zhelanie-krotika-sangyn-kim",
@@ -148057,7 +149047,19 @@
     "author": "Сангын Ким",
     "ageLabel": "2–7 лет",
     "whyRecommended": "Если ребёнок любит фэнтези и сюжеты о семье, животных и путешествиях, книга подойдёт ему в возрасте 2–7 лет. Она подходит для самостоятельного или совместного чтения.",
-    "language": "ru"
+    "language": "ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://www.polyandria.ru/upload/iblock/cf1/itzfj1mv160ntxb06vwl0cjzmrlfo3aw/Zavetnoe-zhelanie-krotika_cover_face.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Поляндрия»",
+      "sourcePageUrl": "https://www.polyandria.ru/catalog/arkhiv/zavetnoe-zhelanie-krotika/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    }
   },
   {
     "id": "curated-nen-collection-elka-yulka-olive-tallek",

@@ -4,13 +4,26 @@ const technicalImage = /(?:item[_-]?no[_-]?cover|no[_-]?cover|main[_-]?cover|pla
 const nonBookProduct = /(?:^|[\s/_-])(?:блокнот|набор|стикер(?:пак)?|открытк|браслет|бутылк|шоппер|мерч|тетрад|плакат|календар)(?:[\s/_-]|$)/iu;
 
 export function canonicalWork(book) {
+  const auditedTitle = book.sourceMetadata?.officialMetadataAudit?.officialTitle;
+  const alternativeTitles = [...new Set([
+    ...(book.alternativeTitles ?? []),
+    ...(book.sourceMetadata?.alternativeTitles ?? []),
+    ...(auditedTitle ? [auditedTitle] : []),
+  ].filter(Boolean))];
   return {
     id: book.id,
     title: book.title,
     originalTitle: book.originalTitle,
-    alternativeTitles: book.alternativeTitles,
+    alternativeTitles,
     author: book.author,
-    sourceMetadata: book.sourceMetadata?.alternativeTitles ? { alternativeTitles: book.sourceMetadata.alternativeTitles } : undefined,
+    bibliographicSources: book.bibliographicSources,
+    sourceMetadata: {
+      ...(alternativeTitles.length ? { alternativeTitles } : {}),
+      ...(book.sourceMetadata?.officialMetadataAudit?.sourceUrl ? {
+        officialMetadataAudit: { sourceUrl: book.sourceMetadata.officialMetadataAudit.sourceUrl },
+      } : {}),
+      ...(book.sourceMetadata?.sourceUrl ? { sourceUrl: book.sourceMetadata.sourceUrl } : {}),
+    },
   };
 }
 
@@ -22,7 +35,7 @@ export function rankWorkCoverCandidates(book, candidates) {
       && candidate.cover?.official
       && candidate.cover?.url?.startsWith("https://")
       && candidate.sourceUrl?.startsWith("https://")
-      && !technicalImage.test(candidate.cover.url)
+      && (!technicalImage.test(candidate.cover.url) || candidate.cover.productMain)
       && !nonBookProduct.test(`${candidate.title ?? ""} ${candidate.sourceUrl}`)
       && (candidate.officialPublisher || candidate.trustedCoverSource)
     ))

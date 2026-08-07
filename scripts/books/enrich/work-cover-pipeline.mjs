@@ -11,6 +11,7 @@ import { createOfficialPublisherSource } from "./sources/official-publishers.mjs
 import { createOpenLibrarySource } from "./sources/open-library.mjs";
 import { createWebDiscoverySource } from "./sources/web-discovery.mjs";
 import { canonicalWork, rankWorkCoverCandidates, workCoverRecord } from "./work-cover-core.mjs";
+import { sameWork } from "./core.mjs";
 
 async function readJson(path, fallback) {
   try { return JSON.parse(await readFile(path, "utf8")); } catch { return fallback; }
@@ -54,6 +55,7 @@ export async function runWorkCoverEnrichment({ root, concurrency = 3, sourceConc
     catch (error) { sourceFailures.push({ source: source.key, reason: "source_initialization_failed", error: String(error) }); }
   }
   const occupiedUrls = new Map(catalog.filter((book) => book.cover?.kind === "external" && book.cover.url).map((book) => [book.cover.url, book.id]));
+  const catalogById = new Map(catalog.map((book) => [book.id, book]));
   const missing = catalog.filter((book) => book.cover?.kind !== "external");
   const targets = Number.isInteger(limit) ? missing.slice(0, limit) : missing;
   const outcomes = [];
@@ -75,12 +77,25 @@ export async function runWorkCoverEnrichment({ root, concurrency = 3, sourceConc
     let accepted;
     let duplicateCandidates = 0;
     let unavailableCandidates = 0;
+    const candidateDecisions = [];
     for (const selection of ranked) {
-      if (invalidAssignments.has(`${book.id}|${selection.candidate.cover.url}`)) continue;
+      const knownOfficialPages = new Set([
+        book.sourceMetadata?.officialMetadataAudit?.sourceUrl,
+        book.sourceMetadata?.sourceUrl,
+        ...(book.bibliographicSources ?? []),
+      ].filter(Boolean));
+      const verifiedOfficialCandidate = selection.candidate.officialPublisher && knownOfficialPages.has(selection.candidate.sourceUrl);
+      if (invalidAssignments.has(`${book.id}|${selection.candidate.cover.url}`) && !verifiedOfficialCandidate) {
+        candidateDecisions.push({ source: selection.candidate.sourceKey, sourcePageUrl: selection.candidate.sourceUrl, coverUrl: selection.candidate.cover.url, decision: "prior_invalid_assignment" });
+        continue;
+      }
       const owner = occupiedUrls.get(selection.candidate.cover.url);
-      if (owner && owner !== book.id) { duplicateCandidates += 1; continue; }
-      if (!await imageVerifier(selection.candidate.cover.url)) { unavailableCandidates += 1; continue; }
+      const ownerBook = owner ? catalogById.get(owner) : undefined;
+      const sharedCanonicalWork = ownerBook ? sameWork(book, { title: ownerBook.title, authors: [ownerBook.author], evidenceText: `${ownerBook.title} ${ownerBook.author}` }).matches : false;
+      if (owner && owner !== book.id && !sharedCanonicalWork) { duplicateCandidates += 1; candidateDecisions.push({ source: selection.candidate.sourceKey, sourcePageUrl: selection.candidate.sourceUrl, coverUrl: selection.candidate.cover.url, decision: "cover_already_owned", owner }); continue; }
+      if (!await imageVerifier(selection.candidate.cover.url)) { unavailableCandidates += 1; candidateDecisions.push({ source: selection.candidate.sourceKey, sourcePageUrl: selection.candidate.sourceUrl, coverUrl: selection.candidate.cover.url, decision: "image_unavailable" }); continue; }
       accepted = selection;
+      candidateDecisions.push({ source: selection.candidate.sourceKey, sourcePageUrl: selection.candidate.sourceUrl, coverUrl: selection.candidate.cover.url, decision: "accepted" });
       break;
     }
     if (accepted) {
@@ -94,7 +109,21 @@ export async function runWorkCoverEnrichment({ root, concurrency = 3, sourceConc
         ? candidates.length ? "work_or_author_not_confirmed" : errors.length === sources.length ? "all_sources_unavailable" : "no_official_work_candidate"
         : duplicateCandidates === ranked.length ? "cover_belongs_to_existing_catalog_work"
           : unavailableCandidates > 0 ? "candidate_images_unavailable" : "no_usable_official_cover";
-      outcomes.push({ id: book.id, title: book.title, author: book.author, reason, checkedSources: sources.map((source) => source.key), errors });
+      outcomes.push({
+        id: book.id, title: book.title, author: book.author, reason,
+        checkedSources: sources.map((source) => source.key), errors,
+        candidatesFound: candidates.length,
+        eligibleCandidates: ranked.length,
+        candidateDecisions,
+        rejectedWorkCandidates: ranked.length ? [] : candidates.slice(0, 10).map((candidate) => ({
+          source: candidate.sourceKey,
+          sourcePageUrl: candidate.sourceUrl,
+          coverUrl: candidate.cover?.url,
+          candidateTitle: candidate.title,
+          candidateAuthors: candidate.authors,
+          workMatch: sameWork(book, candidate),
+        })),
+      });
     }
     completed += 1;
     if (completed % 20 === 0 || completed === targets.length) console.log(`[books:covers:work] обработано ${completed}/${targets.length}, добавлено ${changes.length}`);

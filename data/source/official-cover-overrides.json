@@ -2986,14 +2986,24 @@
       "sourcePageUrl": "https://samokatbook.ru/book/komissar-gordon-pervoe-delo/",
       "temporary": true,
       "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-07-28"
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "match": {
-      "strategy": "official_page_title_author",
-      "confidence": 0.99,
-      "titleMatch": 1,
-      "authorMatch": true,
-      "isbnExact": false
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Комиссар Гордон. Первое дело",
+      "matchedAuthors": [
+        "Ульф Нильсон"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
     }
   },
   {
@@ -3753,21 +3763,30 @@
     "id": "ol-ol10339227w",
     "cover": {
       "kind": "external",
-      "url": "https://cdn.ast.ru/v2/ASE000000000866157/COVER/cover1__w340.jpg",
+      "url": "https://covers.openlibrary.org/b/id/14527453-L.jpg?default=false",
       "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «АСТ»",
-      "sourcePageUrl": "https://ast.ru/book/tri-porosyenka-skazki-866157/",
-      "isbn13": "9785900440873",
+      "sourceName": "Open Library",
+      "sourcePageUrl": "https://openlibrary.org/works/OL34596420W",
       "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-07-28"
+      "attribution": "Обложка: Open Library",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9285
     },
     "match": {
-      "strategy": "official_page_work_title_author",
-      "confidence": 0.99,
-      "titleMatch": 1,
-      "authorMatch": true,
-      "isbnExact": false
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9285,
+      "matchedTitle": "Tri porosenka",
+      "matchedAuthors": [
+        "S. V. Mikhalkov"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
     }
   },
   {
@@ -3984,24 +4003,30 @@
     "id": "ol-ol19931868w",
     "cover": {
       "kind": "external",
-      "url": "https://detlit.ru/images/detailed/12508/1e23440b158911e980cd00505684449c_4593711d523111ea80df00505684449c.jpg",
+      "url": "https://detlit.ru/images/detailed/12538/1e23440b158911e980cd00505684449c_4593711d523111ea80df00505684449c.jpg",
       "rightsStatus": "external-display-only",
       "sourceName": "Издательство «Детская литература»",
       "sourcePageUrl": "https://detlit.ru/shb-tolstoy-l-basni-skazki-rasskazy/",
-      "isbn13": "9785080054150",
       "temporary": true,
       "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-08-03"
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9618
     },
     "match": {
-      "strategy": "work_title_author",
-      "confidence": 0.9640000000000001
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9618,
+      "matchedTitle": "ШБ Толстой Л. Басни, сказки, рассказы",
+      "matchedAuthors": [
+        "Сергей Владимирович Михалков"
+      ]
     },
     "verification": {
       "imageVerified": true,
-      "sameEdition": true,
+      "canonicalWorkMatched": true,
       "titleMatched": true,
-      "authorMatched": true
+      "authorMatched": true,
+      "editionIndependent": true
     }
   },
   {
@@ -4146,20 +4171,30 @@
     "id": "nen-017",
     "cover": {
       "kind": "external",
-      "url": "https://albuscorvus.ru/wp-content/uploads/2015/10/social-fb-book-035-2.png",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2015/09/social-fb-book-035-346x475.png",
       "rightsStatus": "external-display-only",
       "sourceName": "Издательство «Белая ворона»",
       "sourcePageUrl": "https://albuscorvus.ru/product/jane-lisa-i-ya/",
       "temporary": true,
       "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-07-28"
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "match": {
-      "strategy": "official_page_work_title_author",
-      "confidence": 0.99,
-      "titleMatch": 1,
-      "authorMatch": true,
-      "isbnExact": false
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Джейн, лиса и&nbsp;я",
+      "matchedAuthors": [
+        "Фанни Бритт"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
     }
   },
   {
@@ -9387,20 +9422,26 @@
       "rightsStatus": "external-display-only",
       "sourceName": "Издательство «Самокат»",
       "sourcePageUrl": "https://samokatbook.ru/book/dnevnik-kota-ubiytsy-vse-istorii/",
-      "isbn13": "9785001673941",
       "temporary": true,
       "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-08-03"
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "match": {
-      "strategy": "work_title_author",
-      "confidence": 0.9700000000000001
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Дневник кота-убийцы. Все истории",
+      "matchedAuthors": [
+        "Энн Файн"
+      ]
     },
     "verification": {
       "imageVerified": true,
-      "sameEdition": true,
+      "canonicalWorkMatched": true,
       "titleMatched": true,
-      "authorMatched": true
+      "authorMatched": true,
+      "editionIndependent": true
     }
   },
   {
@@ -18047,23 +18088,30 @@
     "id": "ol-ol4248290w",
     "cover": {
       "kind": "external",
-      "url": "https://detlit.ru/images/detailed/12514/9959f039c80911ea80df00505684449c_9959f03ac80911ea80df00505684449c.jpg",
+      "url": "https://detlit.ru/images/detailed/12543/9959f039c80911ea80df00505684449c_9959f03ac80911ea80df00505684449c.jpg",
       "rightsStatus": "external-display-only",
       "sourceName": "Издательство «Детская литература»",
       "sourcePageUrl": "https://detlit.ru/istoricheskie-povesti-ru/",
       "temporary": true,
       "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-08-03"
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9618
     },
     "match": {
-      "strategy": "work_title_author",
-      "confidence": 0.9440000000000001
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9618,
+      "matchedTitle": "Алексеев С.П. Исторические повести (эл. книга)",
+      "matchedAuthors": [
+        "Валерий Алексеев"
+      ]
     },
     "verification": {
       "imageVerified": true,
-      "sameEdition": true,
+      "canonicalWorkMatched": true,
       "titleMatched": true,
-      "authorMatched": true
+      "authorMatched": true,
+      "editionIndependent": true
     }
   },
   {
@@ -18621,19 +18669,19 @@
     "id": "curated-nen-collection-reka-tekuschaya-vspyat-klod-murleva",
     "cover": {
       "kind": "external",
-      "url": "https://n-e-n.ru/images/2025-07-31/688b4abab97c0_0x0.jpg",
+      "url": "https://samokatbook.ru/upload/resize_cache/iblock/7d4/1024_1024_1/7d4e028fa93753ced851044e402fb7a1.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/knigi-pro-pervuyu-lyubov/",
+      "sourceName": "Издательство «Самокат»",
+      "sourcePageUrl": "https://samokatbook.ru/book/reka-tekushchaya-vspyat/",
       "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
+      "attribution": "Обложка предоставлена издательством.",
       "verifiedAt": "2026-08-07",
       "assignmentMethod": "canonical_work_official_cover",
-      "assignmentConfidence": 0.99
+      "assignmentConfidence": 0.9835
     },
     "match": {
       "strategy": "canonical_title_aliases_and_author",
-      "confidence": 0.99,
+      "confidence": 0.9835,
       "matchedTitle": "Река, текущая вспять",
       "matchedAuthors": [
         "Жан-Клод Мурлева"
@@ -19342,20 +19390,20 @@
     "id": "curated-nen-collection-kto-uteshit-knyutta-tuve-yansson",
     "cover": {
       "kind": "external",
-      "url": "https://n-e-n.ru/images/2020-12-28/5fe9eb3f21a92_0x0.jpg",
+      "url": "https://api.azbooka.ru/upload/iblock/1a7/1a7bc5dcf5f72c61f826688c2a3d2b60.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
+      "sourceName": "Издательская группа «Азбука-Аттикус»",
+      "sourcePageUrl": "https://azbooka.ru/books/kto-uteshit-knyutta",
       "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
+      "attribution": "Обложка предоставлена издательством.",
       "verifiedAt": "2026-08-07",
       "assignmentMethod": "canonical_work_official_cover",
-      "assignmentConfidence": 0.99
+      "assignmentConfidence": 0.9835
     },
     "match": {
       "strategy": "canonical_title_aliases_and_author",
-      "confidence": 0.99,
-      "matchedTitle": "Кто утешит Кнютта",
+      "confidence": 0.9835,
+      "matchedTitle": "Кто утешит Кнютта?",
       "matchedAuthors": [
         "Туве Янссон"
       ]
@@ -19372,20 +19420,20 @@
     "id": "curated-nen-collection-meydelin-finn-i-sobaka-iz-priyuta-liza-papp",
     "cover": {
       "kind": "external",
-      "url": "https://n-e-n.ru/images/2020-12-28/5fe9e566b95b5_0x0.jpg",
+      "url": "https://www.polyandria.ru/upload/iblock/3b4/3b44f80441416b7bb77328bc030facf0.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
+      "sourceName": "Издательство «Поляндрия»",
+      "sourcePageUrl": "https://www.polyandria.ru/catalog/3-7/meydelin-finn-i-sobaka-iz-priyuta/",
       "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
+      "attribution": "Обложка предоставлена издательством.",
       "verifiedAt": "2026-08-07",
       "assignmentMethod": "canonical_work_official_cover",
-      "assignmentConfidence": 0.99
+      "assignmentConfidence": 0.9835
     },
     "match": {
       "strategy": "canonical_title_aliases_and_author",
-      "confidence": 0.99,
-      "matchedTitle": "Мейделин Финн и собака из приюта",
+      "confidence": 0.9835,
+      "matchedTitle": "Мэйделин Финн и собака из приюта",
       "matchedAuthors": [
         "Лиза Папп"
       ]
@@ -19402,22 +19450,22 @@
     "id": "curated-nen-collection-vse-o-mumi-trollyah-tuve-yansson",
     "cover": {
       "kind": "external",
-      "url": "https://n-e-n.ru/images/2020-12-28/5fe9e9bb8a49f_0x0.jpg",
+      "url": "https://covers.openlibrary.org/b/id/12489200-L.jpg?default=false",
       "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
+      "sourceName": "Open Library",
+      "sourcePageUrl": "https://openlibrary.org/works/OL26453719W",
       "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
+      "attribution": "Обложка: Open Library",
       "verifiedAt": "2026-08-07",
       "assignmentMethod": "canonical_work_official_cover",
-      "assignmentConfidence": 0.99
+      "assignmentConfidence": 0.9285
     },
     "match": {
       "strategy": "canonical_title_aliases_and_author",
-      "confidence": 0.99,
-      "matchedTitle": "Все о Муми-троллях",
+      "confidence": 0.9285,
+      "matchedTitle": "Vsë o mumi-trolli͡akh",
       "matchedAuthors": [
-        "Туве Янссон"
+        "Tove Jansson"
       ]
     },
     "verification": {
@@ -19679,19 +19727,19 @@
     "id": "curated-nen-collection-zhutko-gromko-i-zapredelno-blizko-safran-foer",
     "cover": {
       "kind": "external",
-      "url": "https://n-e-n.ru/images/2024-11-15/67372ae8bb144_0x0.jpg",
+      "url": "https://cdn.eksmo.ru/v2/ITD000000000181965/COVER/cover1__w820.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+      "sourceName": "Издательство «Эксмо»",
+      "sourcePageUrl": "https://eksmo.ru/book/zhutko-gromko-i-zapredelno-blizko-ITD181965/",
       "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
+      "attribution": "Обложка предоставлена издательством.",
       "verifiedAt": "2026-08-07",
       "assignmentMethod": "canonical_work_official_cover",
-      "assignmentConfidence": 0.99
+      "assignmentConfidence": 0.9835
     },
     "match": {
       "strategy": "canonical_title_aliases_and_author",
-      "confidence": 0.99,
+      "confidence": 0.9835,
       "matchedTitle": "Жутко громко и запредельно близко",
       "matchedAuthors": [
         "Джонатан Сафран Фоер"
@@ -19709,19 +19757,19 @@
     "id": "curated-nen-collection-milye-kosti-elis-sibold",
     "cover": {
       "kind": "external",
-      "url": "https://n-e-n.ru/images/2024-11-15/67372af19968a_0x0.jpg",
+      "url": "https://cdn.eksmo.ru/v2/ITD000000000877065/COVER/cover1__w820.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+      "sourceName": "Издательство «Эксмо»",
+      "sourcePageUrl": "https://eksmo.ru/book/milye-kosti-ITD877065/",
       "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
+      "attribution": "Обложка предоставлена издательством.",
       "verifiedAt": "2026-08-07",
       "assignmentMethod": "canonical_work_official_cover",
-      "assignmentConfidence": 0.99
+      "assignmentConfidence": 0.9835
     },
     "match": {
       "strategy": "canonical_title_aliases_and_author",
-      "confidence": 0.99,
+      "confidence": 0.9835,
       "matchedTitle": "Милые кости",
       "matchedAuthors": [
         "Элис Сиболд"
@@ -19829,19 +19877,19 @@
     "id": "curated-nen-collection-spletni-i-k-pop-aleksandra-yang",
     "cover": {
       "kind": "external",
-      "url": "https://n-e-n.ru/images/2024-11-15/67372b1f21ad2_0x0.jpg",
+      "url": "https://cdn.eksmo.ru/v2/ITD000000001244126/COVER/cover1__w820.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+      "sourceName": "Издательство «Эксмо»",
+      "sourcePageUrl": "https://eksmo.ru/book/spletni-i-k-pop-ITD1244126/",
       "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
+      "attribution": "Обложка предоставлена издательством.",
       "verifiedAt": "2026-08-07",
       "assignmentMethod": "canonical_work_official_cover",
-      "assignmentConfidence": 0.99
+      "assignmentConfidence": 0.9835
     },
     "match": {
       "strategy": "canonical_title_aliases_and_author",
-      "confidence": 0.99,
+      "confidence": 0.9835,
       "matchedTitle": "Сплетни и K-pop",
       "matchedAuthors": [
         "Александра Янг"
@@ -20142,69 +20190,90 @@
     "id": "curated-nen-collection-vasilkovaya-zima-hegyum-kim",
     "cover": {
       "kind": "external",
-      "url": "https://n-e-n.ru/images/2025-11-12/69147102ed4ee_1040x720.jpg",
+      "url": "https://www.polyandria.ru/upload/iblock/568/lcaxygcw3jznjpvzugpjrs1tx8fykhi7/Vasilkovaya_Zima_Cover-min.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/",
+      "sourceName": "Издательство «Поляндрия»",
+      "sourcePageUrl": "https://www.polyandria.ru/catalog/arkhiv/vasilkovaya-zima/",
       "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "match": {
-      "strategy": "work_title_author",
-      "confidence": 0.99
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Васильковая зима",
+      "matchedAuthors": [
+        "Хегюм Ким"
+      ]
     },
     "verification": {
       "imageVerified": true,
-      "sameEdition": false,
+      "canonicalWorkMatched": true,
       "titleMatched": true,
-      "authorMatched": true
+      "authorMatched": true,
+      "editionIndependent": true
     }
   },
   {
     "id": "curated-nen-collection-gde-to-v-snegu-linde-faas",
     "cover": {
       "kind": "external",
-      "url": "https://n-e-n.ru/images/2025-11-12/69147102ed4ee_1040x720.jpg",
+      "url": "https://www.polyandria.ru/upload/iblock/be6/spfrolatjg2f4rl4msjvbwb7plzoekjl/Gde_to-v-snegu_Oblozhka1.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/",
+      "sourceName": "Издательство «Поляндрия»",
+      "sourcePageUrl": "https://www.polyandria.ru/catalog/arkhiv/gde-to-v-snegu/",
       "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "match": {
-      "strategy": "work_title_author",
-      "confidence": 0.99
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Где-то в снегу",
+      "matchedAuthors": [
+        "Линде Фаас"
+      ]
     },
     "verification": {
       "imageVerified": true,
-      "sameEdition": false,
+      "canonicalWorkMatched": true,
       "titleMatched": true,
-      "authorMatched": true
+      "authorMatched": true,
+      "editionIndependent": true
     }
   },
   {
     "id": "curated-nen-collection-zavetnoe-zhelanie-krotika-sangyn-kim",
     "cover": {
       "kind": "external",
-      "url": "https://n-e-n.ru/images/2025-11-12/69147102ed4ee_1040x720.jpg",
+      "url": "https://www.polyandria.ru/upload/iblock/cf1/itzfj1mv160ntxb06vwl0cjzmrlfo3aw/Zavetnoe-zhelanie-krotika_cover_face.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/",
+      "sourceName": "Издательство «Поляндрия»",
+      "sourcePageUrl": "https://www.polyandria.ru/catalog/arkhiv/zavetnoe-zhelanie-krotika/",
       "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "match": {
-      "strategy": "work_title_author",
-      "confidence": 0.99
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Заветное желание кротика",
+      "matchedAuthors": [
+        "Сангын Ким"
+      ]
     },
     "verification": {
       "imageVerified": true,
-      "sameEdition": false,
+      "canonicalWorkMatched": true,
       "titleMatched": true,
-      "authorMatched": true
+      "authorMatched": true,
+      "editionIndependent": true
     }
   },
   {
@@ -20692,6 +20761,2385 @@
       "matchedTitle": "Дом, в котором...",
       "matchedAuthors": [
         "Мариам Петросян"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "curated-whitecrow-belyy-aist-poslanets-neba-chernyy-aist-lesnoy-otshelnik-belyj-aist-chernyj-aist",
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2015/04/0301-346x322.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/belyj-aist-chernyj-aist/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Белый аист. Посланец неба. Черный аист. Лесной отшельник",
+      "matchedAuthors": [
+        "Николай Шпиленок"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "curated-whitecrow-schastlivyy-neudachnik-schastlivyj-neudachnik",
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2015/10/schastlivyj-neudachnik.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/schastlivyj-neudachnik/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Счастливый неудачник",
+      "matchedAuthors": [
+        "Вадим Шефнер"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "curated-whitecrow-maksi-pes-fik-priklyucheniya-prodolzhayutsya-maksi-pyos-fik-priklyucheniya-prodolzhayutsya",
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2015/11/fik-prikljucheniya.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/maksi-pyos-fik-priklyucheniya-prodolzhayutsya/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Макси-пёс Фик. Приключения продолжаются",
+      "matchedAuthors": [
+        "Рудольф Чехура; Иржи Шаламоун"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "curated-whitecrow-pohozhdeniya-memeka-muzykanta-memek-muzykant",
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2016/10/memek-1.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/memek-muzykant/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Похождения Мемека-музыканта",
+      "matchedAuthors": [
+        "Жан-Клод Мурлева"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "curated-whitecrow-brat-yunnat-brat-unnat",
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2017/03/brat-unnat.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/brat-unnat/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Брат-юннат",
+      "matchedAuthors": [
+        "Станислав Востоков"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "curated-whitecrow-vse-druzya-naperechet-vse-druzya-naperechet",
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2018/03/vse-druzya-naperechet.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/vse-druzya-naperechet/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Все друзья наперечёт",
+      "matchedAuthors": [
+        "Лена Андерсон"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "curated-whitecrow-lui-sredi-prizrakov-lui-sredi-prizrakov",
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2018/01/lui-sredi-prizrakov.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/lui-sredi-prizrakov/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Луи среди призраков",
+      "matchedAuthors": [
+        "Изабель Арсено; Фанни Бритт"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "curated-whitecrow-charlz-darvin-revolyutsiya-charles-darwin",
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2019/03/charles-darwin.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/charles-darwin/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Чарлз Дарвин. Революция",
+      "matchedAuthors": [
+        "Аннабель Кремер"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "curated-whitecrow-lui-paster-uchenyy-detektiv-louis-pasteur",
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2019/03/louis-pasteur.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/louis-pasteur/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Луи Пастер. Ученый-детектив",
+      "matchedAuthors": [
+        "Флоранс Пино"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "curated-whitecrow-begletsy-ulf-stark-beglecy",
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2019/08/ulf-stark-beglecy.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/ulf-stark-beglecy/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Беглецы",
+      "matchedAuthors": [
+        "Ульф Старк"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "curated-whitecrow-parko-parco",
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2019/10/parco.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/parco/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Парко",
+      "matchedAuthors": [
+        "Алекс Ногес; Гуриди"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "curated-whitecrow-mama-mu-i-snegokat-mama-mu-i-snegokat",
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2015/04/Mama-Mu-i-snegokat.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/mama-mu-i-snegokat/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Мама Му&nbsp;и снегокат",
+      "matchedAuthors": [
+        "Юя; Томас Висландер; Свен Нурдквист"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "curated-whitecrow-pust-on-ostanetsya-s-nami-pust-on-ostanetsya-s-nami",
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2015/04/maksud-ibragimbekov-pust-on-ostanetsya-s-nami.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/pust-on-ostanetsya-s-nami/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Пусть он&nbsp;останется с&nbsp;нами",
+      "matchedAuthors": [
+        "Максуд Ибрагимбеков"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "curated-whitecrow-skazka-o-vetre-v-bezvetrennyy-den-skazka-o-vetre",
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2015/04/031.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/skazka-o-vetre/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Сказка о&nbsp;ветре в&nbsp;безветренный&nbsp;день",
+      "matchedAuthors": [
+        "Софья Прокофьева"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "curated-whitecrow-vverh-po-lestnitse-veduschey-vniz-vverh-po-lestnitse-vedushhej-vniz",
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2015/11/kaufman.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/vverh-po-lestnitse-vedushhej-vniz/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Вверх по&nbsp;лестнице, ведущей&nbsp;вниз",
+      "matchedAuthors": [
+        "Бел Кауфман"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "curated-whitecrow-kum-korolyu-kum-korolyu",
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2015/11/kum-korolju.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/kum-korolyu/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Кум&nbsp;Королю",
+      "matchedAuthors": [
+        "Станислав Востоков; Вера Цепилова"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "curated-whitecrow-karius-i-bakterius-karius-i-bakterius",
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2017/10/karius-i-bakterius.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/karius-i-bakterius/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Кариус и&nbsp;Бактериус",
+      "matchedAuthors": [
+        "Турбьёрн Эгнер"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "curated-whitecrow-skazka-na-rozhdestvo-skazka-na-rozhdestvo",
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2015/04/skazka-guareski.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/skazka-na-rozhdestvo/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Сказка на&nbsp;Рождество",
+      "matchedAuthors": [
+        "Джованнино Гуарески"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "curated-whitecrow-mama-mu-poranilas-mama-mu-poranilas",
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2015/11/mama-mu-poranilas.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/mama-mu-poranilas/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Мама Му&nbsp;поранилась",
+      "matchedAuthors": [
+        "Юя Висландер; Свен Нурдквист"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "curated-whitecrow-i-belye-teni-v-lesu-i-belye-teni-v-lesu",
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2018/01/i-belye-teni-v-lesu.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/i-belye-teni-v-lesu/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "И&nbsp;белые тени в&nbsp;лесу",
+      "matchedAuthors": [
+        "Мария Грипе"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "curated-whitecrow-ogorod-na-podokonnike-ogorod-na-podokonnike",
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2016/03/ogorod-na-podokonnike.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/ogorod-na-podokonnike/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Огород на&nbsp;подоконнике",
+      "matchedAuthors": [
+        "Клара Лидстрём; Аннакарин Нюберг"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "curated-whitecrow-vyshel-lev-iz-za-gory-vyshel-lev-iz-za-gory",
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2018/02/vyshel-lev-iz-za-gory4.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/vyshel-lev-iz-za-gory/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Вышел лев из-за&nbsp;горы",
+      "matchedAuthors": [
+        "Григорий Кружков"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "curated-whitecrow-hvoinka-svinofufik-i-nosik-rozochkoy-hvoinka-svinofufik-i-nosik-rozochkoj",
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2018/03/hvoinka-svinofufik-i-nosik-rozochkoj.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/hvoinka-svinofufik-i-nosik-rozochkoj/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Хвоинка, Свинофуфик и&nbsp;Носик-Розочкой",
+      "matchedAuthors": [
+        "Лена Андерсон"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "curated-whitecrow-kak-ya-nechayanno-napisala-knigu-kak-ya-nechayanno-napisala-knigu",
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2018/08/kak-ya-nechayanno-napisala-knigu.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/kak-ya-nechayanno-napisala-knigu/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Как я&nbsp;нечаянно написала&nbsp;книгу",
+      "matchedAuthors": [
+        "Аннет Хёйзинг"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "curated-whitecrow-myach-v-igre-myach-v-igre",
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2018/04/myach-v-igre.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/myach-v-igre/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Мяч в&nbsp;игре!",
+      "matchedAuthors": [
+        "Алексей Дурново"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "curated-whitecrow-petson-i-findus-semeynyy-kalendar-na-2019-god-kalendar-petson-i-findus-2019",
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2018/10/kalendar-petson-i-findus-2019.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/kalendar-petson-i-findus-2019/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Петсон и&nbsp;Финдус. Семейный календарь на&nbsp;2019&nbsp;год",
+      "matchedAuthors": [
+        "Свен Нурдквист"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "curated-whitecrow-malyutka-laban-priklyucheniya-v-zamke-malyutka-laban-priklyucheniya-v-zamke",
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2018/10/malyutka-laban-priklyucheniya-v-zamke.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/malyutka-laban-priklyucheniya-v-zamke/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Малютка Лабан. Приключения в&nbsp;замке",
+      "matchedAuthors": [
+        "Ингер; Лассе Сандберг"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "curated-whitecrow-kak-ya-teper-zhivu-meg-rosoff-kak-ya-teper-zhivu",
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2017/11/meg-rosoff-kak-ya-teper-zhivu.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/meg-rosoff-kak-ya-teper-zhivu/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Как я&nbsp;теперь&nbsp;живу",
+      "matchedAuthors": [
+        "Мег Розофф"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "curated-whitecrow-tayna-hvoinki-tajna-hvoinki",
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2018/03/tajna-hvoinki.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/tajna-hvoinki/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Тайна&nbsp;Хвоинки",
+      "matchedAuthors": [
+        "Лена Андерсон"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "curated-whitecrow-korabl-noya-korabl-noya",
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2018/04/korabl-noya.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/korabl-noya/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Корабль&nbsp;Ноя",
+      "matchedAuthors": [
+        "Салли Альтшулер; Свен Нурдквист"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "curated-whitecrow-legenda-o-salli-dzhons-salli-legenda",
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2018/11/salli-legenda.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/salli-legenda/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Легенда о&nbsp;Салли&nbsp;Джонс",
+      "matchedAuthors": [
+        "Якоб Вегелиус"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "curated-whitecrow-myshinaya-kniga-myshinaya-kniga",
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2018/02/myshinaya-kniga.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/myshinaya-kniga/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Мышиная&nbsp;книга",
+      "matchedAuthors": [
+        "Стефан Каста; Стаффан Ульстрём"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "curated-whitecrow-teatr-dzhanni-rodari-teatr-dzhanni-rodari",
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2019/03/teatr-dzhanni-rodari.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/teatr-dzhanni-rodari/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Театр Джанни&nbsp;Родари",
+      "matchedAuthors": [
+        "Джанни Родари"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "curated-whitecrow-sonya-iz-7-buee-sonya-iz-sedmogo-buee",
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2019/04/sonya-iz-sedmogo-buee-2.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/sonya-iz-sedmogo-buee/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Соня из&nbsp;7„Буээ“",
+      "matchedAuthors": [
+        "Алексей Олейников; Тимофей Яржомбек"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "curated-whitecrow-nalle-lapson-beretsya-za-delo-nalle-lapson-beretsya-za-delo",
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2019/05/nalle-lapson-beretsya-za-delo.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/nalle-lapson-beretsya-za-delo/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Налле Лапсон берется за&nbsp;дело",
+      "matchedAuthors": [
+        "Йоста Кнутсон"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "curated-whitecrow-nalle-lapson-nalle-lapson",
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2019/05/nalle-lapson.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/nalle-lapson/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Налле&nbsp;Лапсон",
+      "matchedAuthors": [
+        "Йоста Кнутсон"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "curated-whitecrow-cherez-granitsu-maja-lunde-cherez-granicu",
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2019/06/maja-lunde-cherez-granicu.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/maja-lunde-cherez-granicu/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Через&nbsp;границу",
+      "matchedAuthors": [
+        "Майя Лунде"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "curated-whitecrow-kogda-idesh-po-mostu-mosty",
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2019/01/mosty.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/mosty/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Когда идешь по&nbsp;мосту",
+      "matchedAuthors": [
+        "Эрна Усланд"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "curated-whitecrow-malenkaya-povest-o-lyubvi-malenkaya-povest-o-lyubvi",
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2019/08/malenkaya-povest-o-lyubvi.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/malenkaya-povest-o-lyubvi/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Маленькая повесть о&nbsp;любви",
+      "matchedAuthors": [
+        "Ульф Старк"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "curated-whitecrow-puteshestvie-k-tsentru-zemli-po-proizvedeniyu-zhyulya-verna-puteshestvie-k-centru-zemli",
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2019/08/puteshestvie-k-centru-zemli.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/puteshestvie-k-centru-zemli/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Путешествие к&nbsp;центру Земли. По&nbsp;произведению Жюля&nbsp;Верна",
+      "matchedAuthors": [
+        "Маттео Бертон"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "curated-whitecrow-malenkiy-stark-mal-stark",
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2018/10/malenkij-stark.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/mal-stark/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Маленький&nbsp;Старк",
+      "matchedAuthors": [
+        "Ульф Старк"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "curated-whitecrow-istoriya-o-kroshke-ele-i-kosmonavte-layke-istoriya-o-kroshke-ele-i-kosmonavte-layke",
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2019/10/istoriya-o-kroshke-ele-i-kosmonavte-layke.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/istoriya-o-kroshke-ele-i-kosmonavte-layke/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "История о&nbsp;Крошке Эле и&nbsp;космонавте&nbsp;Лайке",
+      "matchedAuthors": [
+        "Хелен Рундгрен; Кеннет Андерссон"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "curated-whitecrow-zagadki-detektiva-schuki-zagadki-detektiva-shhuki",
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2016/08/inspector-pike-1.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/zagadki-detektiva-shhuki/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Загадки детектива&nbsp;Щуки",
+      "matchedAuthors": [
+        "Иржи Калоусек; Иржи Лапачек"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "curated-whitecrow-nalle-lapson-i-tyapka-nalle-lapson-i-tyapka",
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2019/09/nalle-lapson-i-tyapka.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/nalle-lapson-i-tyapka/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Налле Лапсон и&nbsp;Тяпка",
+      "matchedAuthors": [
+        "Йоста Кнутсон"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "curated-whitecrow-petson-i-findus-semeynyy-kalendar-na-2020-god-kalendar-petson-i-findus-2020",
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2019/09/kalendar-petson-i-findus-2020.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/kalendar-petson-i-findus-2020/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Петсон и&nbsp;Финдус. Семейный календарь на&nbsp;2020&nbsp;год",
+      "matchedAuthors": [
+        "Свен Нурдквист"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "curated-whitecrow-kakim-ya-byl-meg-rosoff-kakim-ya-byl",
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2018/10/meg-rosoff-kakim-ya-byl.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/meg-rosoff-kakim-ya-byl/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Каким я&nbsp;был",
+      "matchedAuthors": [
+        "Мег Розофф"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "nen-052",
+    "cover": {
+      "kind": "external",
+      "url": "https://covers.openlibrary.org/b/id/35556-L.jpg?default=false",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Open Library",
+      "sourcePageUrl": "https://openlibrary.org/works/OL151798W",
+      "temporary": true,
+      "attribution": "Обложка: Open Library",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9285
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9285,
+      "matchedTitle": "Goodnight Moon",
+      "matchedAuthors": [
+        "Margaret Wise Brown"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "nen-064",
+    "cover": {
+      "kind": "external",
+      "url": "https://covers.openlibrary.org/b/id/1026639-L.jpg?default=false",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Open Library",
+      "sourcePageUrl": "https://openlibrary.org/works/OL14872844W",
+      "temporary": true,
+      "attribution": "Обложка: Open Library",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9285
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9285,
+      "matchedTitle": "Mästerdetektiven Blomkvist",
+      "matchedAuthors": [
+        "Astrid Lindgren"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "nen-bv2-022",
+    "cover": {
+      "kind": "external",
+      "url": "https://covers.openlibrary.org/b/id/433694-L.jpg?default=false",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Open Library",
+      "sourcePageUrl": "https://openlibrary.org/works/OL832133W",
+      "temporary": true,
+      "attribution": "Обложка: Open Library",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9285
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9285,
+      "matchedTitle": "We're Going on a Bear Hunt",
+      "matchedAuthors": [
+        "Michael Rosen"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "nen-bv2-025",
+    "cover": {
+      "kind": "external",
+      "url": "https://covers.openlibrary.org/b/id/1333207-L.jpg?default=false",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Open Library",
+      "sourcePageUrl": "https://openlibrary.org/works/OL4114525W",
+      "temporary": true,
+      "attribution": "Обложка: Open Library",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9285
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9285,
+      "matchedTitle": "Corduroy",
+      "matchedAuthors": [
+        "Don Freeman"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "nen-bv2-028",
+    "cover": {
+      "kind": "external",
+      "url": "https://covers.openlibrary.org/b/id/10516159-L.jpg?default=false",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Open Library",
+      "sourcePageUrl": "https://openlibrary.org/works/OL23590326W",
+      "temporary": true,
+      "attribution": "Обложка: Open Library",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9285
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9285,
+      "matchedTitle": "The Velveteen Rabbit",
+      "matchedAuthors": [
+        "Margery Williams",
+        "Nicholson, William"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "nen-bv2-030",
+    "cover": {
+      "kind": "external",
+      "url": "https://covers.openlibrary.org/b/id/954704-L.jpg?default=false",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Open Library",
+      "sourcePageUrl": "https://openlibrary.org/works/OL82700W",
+      "temporary": true,
+      "attribution": "Обложка: Open Library",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9285
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9285,
+      "matchedTitle": "Olivia",
+      "matchedAuthors": [
+        "Ian Falconer"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "nen-bv2-032",
+    "cover": {
+      "kind": "external",
+      "url": "https://covers.openlibrary.org/b/id/200453-L.jpg?default=false",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Open Library",
+      "sourcePageUrl": "https://openlibrary.org/works/OL1938306W",
+      "temporary": true,
+      "attribution": "Обложка: Open Library",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9285
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9285,
+      "matchedTitle": "Monkey Puzzle",
+      "matchedAuthors": [
+        "Julia Donaldson"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "nen-bv2-123",
+    "cover": {
+      "kind": "external",
+      "url": "https://covers.openlibrary.org/b/id/12544347-L.jpg?default=false",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Open Library",
+      "sourcePageUrl": "https://openlibrary.org/works/OL27036400W",
+      "temporary": true,
+      "attribution": "Обложка: Open Library",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9285
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9285,
+      "matchedTitle": "A Wrinkle in Time",
+      "matchedAuthors": [
+        "Madeleine L'Engle"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "nen-bv2-139",
+    "cover": {
+      "kind": "external",
+      "url": "https://covers.openlibrary.org/b/id/10857543-L.jpg?default=false",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Open Library",
+      "sourcePageUrl": "https://openlibrary.org/works/OL509183W",
+      "temporary": true,
+      "attribution": "Обложка: Open Library",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9285
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9285,
+      "matchedTitle": "Speak",
+      "matchedAuthors": [
+        "Laurie Halse Anderson"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "nen-bv2-105",
+    "cover": {
+      "kind": "external",
+      "url": "https://covers.openlibrary.org/b/id/13265646-L.jpg?default=false",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Open Library",
+      "sourcePageUrl": "https://openlibrary.org/works/OL29876092W",
+      "temporary": true,
+      "attribution": "Обложка: Open Library",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9285
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9285,
+      "matchedTitle": "Tobie Lolness",
+      "matchedAuthors": [
+        "Timothée de Fombelle",
+        "François Place"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "nen-bv2-146",
+    "cover": {
+      "kind": "external",
+      "url": "https://covers.openlibrary.org/b/id/10200429-L.jpg?default=false",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Open Library",
+      "sourcePageUrl": "https://openlibrary.org/works/OL6073271W",
+      "temporary": true,
+      "attribution": "Обложка: Open Library",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9285
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9285,
+      "matchedTitle": "The Knife of Never Letting Go",
+      "matchedAuthors": [
+        "Patrick Ness",
+        "Nick Podehl"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "nen-bv2-148",
+    "cover": {
+      "kind": "external",
+      "url": "https://covers.openlibrary.org/b/id/12303551-L.jpg?default=false",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Open Library",
+      "sourcePageUrl": "https://openlibrary.org/works/OL17357353W",
+      "temporary": true,
+      "attribution": "Обложка: Open Library",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9285
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9285,
+      "matchedTitle": "Simon vs. the Homo Sapiens Agenda",
+      "matchedAuthors": [
+        "Becky Albertalli",
+        "Victoria Simó Perales"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "nen-bv2-149",
+    "cover": {
+      "kind": "external",
+      "url": "https://covers.openlibrary.org/b/id/12313804-L.jpg?default=false",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Open Library",
+      "sourcePageUrl": "https://openlibrary.org/works/OL16596099W",
+      "temporary": true,
+      "attribution": "Обложка: Open Library",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9285
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9285,
+      "matchedTitle": "Aristotle and Dante discover the secrets of the universe",
+      "matchedAuthors": [
+        "Benjamin Alire Sáenz"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "nen-bv2-150",
+    "cover": {
+      "kind": "external",
+      "url": "https://covers.openlibrary.org/b/id/11521588-L.jpg?default=false",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Open Library",
+      "sourcePageUrl": "https://openlibrary.org/works/OL17714701W",
+      "temporary": true,
+      "attribution": "Обложка: Open Library",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9285
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9285,
+      "matchedTitle": "The Hate U Give",
+      "matchedAuthors": [
+        "Angie Thomas",
+        "Angie Thomas"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "nen-bv2-153",
+    "cover": {
+      "kind": "external",
+      "url": "https://covers.openlibrary.org/b/id/10541789-L.jpg?default=false",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Open Library",
+      "sourcePageUrl": "https://openlibrary.org/works/OL17274040W",
+      "temporary": true,
+      "attribution": "Обложка: Open Library",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9285
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9285,
+      "matchedTitle": "Nimona",
+      "matchedAuthors": [
+        "N.D. Stevenson"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "nen-bv2-156",
+    "cover": {
+      "kind": "external",
+      "url": "https://covers.openlibrary.org/b/id/10134498-L.jpg?default=false",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Open Library",
+      "sourcePageUrl": "https://openlibrary.org/works/OL8994750W",
+      "temporary": true,
+      "attribution": "Обложка: Open Library",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9285
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9285,
+      "matchedTitle": "American Born Chinese",
+      "matchedAuthors": [
+        "Gene Luen Yang"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol12623265w",
+    "cover": {
+      "kind": "external",
+      "url": "https://covers.openlibrary.org/b/id/9609067-L.jpg?default=false",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Open Library",
+      "sourcePageUrl": "https://openlibrary.org/works/OL12623265W",
+      "temporary": true,
+      "attribution": "Обложка: Open Library",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9285
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9285,
+      "matchedTitle": "Skazki pro drakonov",
+      "matchedAuthors": [
+        "Vladimir Boi︠a︡rinov"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol754911w",
+    "cover": {
+      "kind": "external",
+      "url": "https://covers.openlibrary.org/b/id/8438818-L.jpg?default=false",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Open Library",
+      "sourcePageUrl": "https://openlibrary.org/works/OL754911W",
+      "temporary": true,
+      "attribution": "Обложка: Open Library",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9285
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9285,
+      "matchedTitle": "Istorii͡a pro kota Ignasii͡a, trubochista Fedi͡u i Odinokui͡u Myshʹ",
+      "matchedAuthors": [
+        "Li͡udmila Ulit͡skai͡a"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol13715036w",
+    "cover": {
+      "kind": "external",
+      "url": "https://covers.openlibrary.org/b/id/14095274-L.jpg?default=false",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Open Library",
+      "sourcePageUrl": "https://openlibrary.org/works/OL13715036W",
+      "temporary": true,
+      "attribution": "Обложка: Open Library",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9285
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9285,
+      "matchedTitle": "Drug detstva",
+      "matchedAuthors": [
+        "V. Dragunskiĭ"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol13710818w",
+    "cover": {
+      "kind": "external",
+      "url": "https://covers.openlibrary.org/b/id/12577967-L.jpg?default=false",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Open Library",
+      "sourcePageUrl": "https://openlibrary.org/works/OL27060083W",
+      "temporary": true,
+      "attribution": "Обложка: Open Library",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9285
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9285,
+      "matchedTitle": "Vesëlye istorii",
+      "matchedAuthors": [
+        "G. T͡Syferov"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol12917933w",
+    "cover": {
+      "kind": "external",
+      "url": "https://covers.openlibrary.org/b/id/5499941-L.jpg?default=false",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Open Library",
+      "sourcePageUrl": "https://openlibrary.org/works/OL12917933W",
+      "temporary": true,
+      "attribution": "Обложка: Open Library",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9285
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9285,
+      "matchedTitle": "Poi︠u︡shchee derevo",
+      "matchedAuthors": [
+        "Leonid I︠A︡khnin"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol12951162w",
+    "cover": {
+      "kind": "external",
+      "url": "https://covers.openlibrary.org/b/id/5507168-L.jpg?default=false",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Open Library",
+      "sourcePageUrl": "https://openlibrary.org/works/OL13440963W",
+      "temporary": true,
+      "attribution": "Обложка: Open Library",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9285
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9285,
+      "matchedTitle": "Prikli︠u︡chenii︠a︡ Starogo Bashmaka, rasskazannye im samim",
+      "matchedAuthors": [
+        "Georgiĭ Aleksandrovich Ball"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol754910w",
+    "cover": {
+      "kind": "external",
+      "url": "https://covers.openlibrary.org/b/id/12929091-L.jpg?default=false",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Open Library",
+      "sourcePageUrl": "https://openlibrary.org/works/OL754910W",
+      "temporary": true,
+      "attribution": "Обложка: Open Library",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9285
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9285,
+      "matchedTitle": "Istorii͡a o starike Kulebi͡akine, plaksivoĭ kobyle Mile i zherebenke Ravkine",
+      "matchedAuthors": [
+        "Li͡udmila Ulit͡skai͡a"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol19936571w",
+    "cover": {
+      "kind": "external",
+      "url": "https://covers.openlibrary.org/b/id/14342665-L.jpg?default=false",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Open Library",
+      "sourcePageUrl": "https://openlibrary.org/works/OL10416781W",
+      "temporary": true,
+      "attribution": "Обложка: Open Library",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9285
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9285,
+      "matchedTitle": "Poemy",
+      "matchedAuthors": [
+        "Александр Сергеевич Пушкин"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "nen-bv2-026",
+    "cover": {
+      "kind": "external",
+      "url": "https://covers.openlibrary.org/b/id/10134995-L.jpg?default=false",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Open Library",
+      "sourcePageUrl": "https://openlibrary.org/works/OL831023W",
+      "temporary": true,
+      "attribution": "Обложка: Open Library",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9285
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9285,
+      "matchedTitle": "The Snowy Day",
+      "matchedAuthors": [
+        "Ezra Jack Keats",
+        "Marilyn Sanabria",
+        "Shang yi bian ji bu"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "nen-bv2-021",
+    "cover": {
+      "kind": "external",
+      "url": "https://covers.openlibrary.org/b/id/12624136-L.jpg?default=false",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Open Library",
+      "sourcePageUrl": "https://openlibrary.org/works/OL59133W",
+      "temporary": true,
+      "attribution": "Обложка: Open Library",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9285
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9285,
+      "matchedTitle": "Brown Bear, Brown Bear, What Do You See?",
+      "matchedAuthors": [
+        "Bill Martin Jr.",
+        "Eric Carle"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "nen-bv2-031",
+    "cover": {
+      "kind": "external",
+      "url": "https://covers.openlibrary.org/b/id/906737-L.jpg?default=false",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Open Library",
+      "sourcePageUrl": "https://openlibrary.org/works/OL66311W",
+      "temporary": true,
+      "attribution": "Обложка: Open Library",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9285
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9285,
+      "matchedTitle": "Vom kleinen Maulwurf, der wissen wollte, wer ihm auf den Kopf gemacht hat",
+      "matchedAuthors": [
+        "Werner Holzwarth",
+        "Wolf Erlbruch"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "nen-bv2-092",
+    "cover": {
+      "kind": "external",
+      "url": "https://covers.openlibrary.org/b/id/9176033-L.jpg?default=false",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Open Library",
+      "sourcePageUrl": "https://openlibrary.org/works/OL45885W",
+      "temporary": true,
+      "attribution": "Обложка: Open Library",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9285
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9285,
+      "matchedTitle": "The BFG",
+      "matchedAuthors": [
+        "Roald Dahl"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "nen-bv2-086",
+    "cover": {
+      "kind": "external",
+      "url": "https://covers.openlibrary.org/b/id/10626869-L.jpg?default=false",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Open Library",
+      "sourcePageUrl": "https://openlibrary.org/works/OL24194710W",
+      "temporary": true,
+      "attribution": "Обложка: Open Library",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9285
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9285,
+      "matchedTitle": "The Lion, the Witch And The Wardrobe",
+      "matchedAuthors": [
+        "C.S. Lewis"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "nen-bv2-147",
+    "cover": {
+      "kind": "external",
+      "url": "https://covers.openlibrary.org/b/id/12917595-L.jpg?default=false",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Open Library",
+      "sourcePageUrl": "https://openlibrary.org/works/OL16803752W",
+      "temporary": true,
+      "attribution": "Обложка: Open Library",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9285
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9285,
+      "matchedTitle": "Eleanor & Park",
+      "matchedAuthors": [
+        "Rainbow Rowell"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "curated-alpina-deti-persey-book-persey",
+    "cover": {
+      "kind": "external",
+      "url": "https://alpinabook.ru/upload/iblock/fae/sgfmh32ced4590r49b5p6qp3xqrvc1hb/10.png.webp",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Альпина.Дети»",
+      "sourcePageUrl": "https://alpinabook.ru/catalog/book-persey/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Персей Герои древнегреческих мифов",
+      "matchedAuthors": [
+        "Ольга Орлова"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol20043999w",
+    "cover": {
+      "kind": "external",
+      "url": "https://api.azbooka.ru/upload/iblock/4ec/4ec093a3e469d77ea75eb795ddd97900.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательская группа «Азбука-Аттикус»",
+      "sourcePageUrl": "https://azbooka.ru/books/vezhlivoe-slovo",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9618
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9618,
+      "matchedTitle": "Вежливое слово (илл)",
+      "matchedAuthors": [
+        "Е. Мошковская"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "nen-059",
+    "cover": {
+      "kind": "external",
+      "url": "https://www.polyandria.ru/upload/iblock/174/ivfj880mgnfra2mezusr30a0r9jx2lpc.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Поляндрия»",
+      "sourcePageUrl": "https://www.polyandria.ru/catalog/arkhiv/detektiv-samson/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Детектив Самсон",
+      "matchedAuthors": [
+        "Катерина Горелик"
       ]
     },
     "verification": {

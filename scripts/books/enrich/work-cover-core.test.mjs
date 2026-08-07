@@ -12,6 +12,53 @@ const book = {
   publicationYear: 2009,
 };
 
+test("verified official title is a canonical work alias", () => {
+  const work = canonicalWork({
+    id: "gordon",
+    title: "Комиссар Гордон. Первый случай",
+    author: "Ульф Нильсон",
+    sourceMetadata: {
+      officialMetadataAudit: {
+        officialTitle: "Комиссар Гордон. Первое дело",
+        sourceUrl: "https://samokatbook.ru/book/komissar-gordon-pervoe-delo/",
+      },
+    },
+  });
+  assert.deepEqual(work.alternativeTitles, ["Комиссар Гордон. Первое дело"]);
+  assert.deepEqual(work.sourceMetadata.alternativeTitles, ["Комиссар Гордон. Первое дело"]);
+});
+
+test("canonical work matches a transliterated foreign author surname", () => {
+  const foreignWork = canonicalWork({ id: "corduroy", title: "Кордурой", originalTitle: "Corduroy", author: "Дон Фриман" });
+  const ranked = rankWorkCoverCandidates(foreignWork, [candidate({
+    title: "Corduroy",
+    authors: ["Don Freeman"],
+    sourceUrl: "https://www.penguinrandomhouse.com/books/748913/corduroy-by-don-freeman/",
+    cover: { official: true, url: "https://images.penguinrandomhouse.com/cover/9780451470799" },
+  })]);
+  assert.equal(ranked.length, 1);
+});
+
+test("foreign author matching tolerates established transliterations and generation suffixes", () => {
+  const cases = [
+    ["Эзра Джек Китс", "Ezra Jack Keats"],
+    ["Роальд Даль", "Roald Dahl"],
+    ["Рейнбоу Рауэлл", "Rainbow Rowell"],
+    ["Билл Мартин — младший", "Bill Martin Jr."],
+    ["Вернер Хольцварт", "Werner Holzwarth"],
+  ];
+  for (const [author, officialAuthor] of cases) {
+    const work = canonicalWork({ id: author, title: "Exact work", author });
+    assert.equal(rankWorkCoverCandidates(work, [candidate({ title: "Exact work", authors: [officialAuthor] })]).length, 1, `${author} -> ${officialAuthor}`);
+  }
+});
+
+test("canonical work tolerates a one-letter translation spelling variant", () => {
+  const work = canonicalWork({ id: "madeline", title: "Мейделин Финн и собака из приюта", author: "Лиза Папп" });
+  const ranked = rankWorkCoverCandidates(work, [candidate({ title: "Мэйделин Финн и собака из приюта", authors: ["Лиза Папп"] })]);
+  assert.equal(ranked.length, 1);
+});
+
 function candidate(overrides = {}) {
   return {
     title: "Дом, в котором",

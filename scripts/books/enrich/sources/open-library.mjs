@@ -6,7 +6,7 @@ export function createOpenLibrarySource({ cache, workCoverMode = false } = {}) {
     key: "open-library",
     priority: 30,
     async search(book) {
-      const cacheKey = `${this.key}:${workCoverMode ? "canonical-work-cover-v2" : "isbn-cover-first-v3"}`;
+      const cacheKey = `${this.key}:${workCoverMode ? "canonical-work-cover-v3" : "isbn-cover-first-v3"}`;
       const cached = cache?.get(cacheKey, book);
       if (cached) return cached;
       const searches = workCoverMode ? workTitles(book).slice(0, 3) : [workTitles(book)[0]];
@@ -15,10 +15,11 @@ export function createOpenLibrarySource({ cache, workCoverMode = false } = {}) {
         for (const title of searches) {
           const params = new URLSearchParams({
             title,
-            author: book.author.split(";")[0],
             fields: workCoverMode ? "key,title,author_name,language,cover_i" : "key,title,author_name,isbn,publisher,publish_year,number_of_pages_median,language,cover_i",
             limit: "20",
           });
+          const titleUsesRussianScript = /[а-яё]/iu.test(title);
+          if (!workCoverMode || titleUsesRussianScript) params.set("author", book.author.split(";")[0]);
           try { documents.push(...((await fetchJson(`https://openlibrary.org/search.json?${params}`, { attempts: 1, timeoutMs: 6_000 })).docs ?? [])); }
           catch { /* continue with the next source */ }
           if (workCoverMode && documents.some((item) => item.cover_i)) break;
