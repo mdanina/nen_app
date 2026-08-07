@@ -6,6 +6,10 @@ const outputPath = resolve(root, "data/source/curated-multi-publisher-books.json
 const currentCatalogPath = resolve(root, "data/generated/books.json");
 const checkedAt = new Date().toISOString().slice(0, 10);
 const perPublisherTarget = Number(process.argv.find((value) => value.startsWith("--per-publisher="))?.split("=")[1] ?? 70);
+const melikTarget = Number(process.argv.find((value) => value.startsWith("--melik-target="))?.split("=")[1] ?? 300);
+const polyandriaTarget = Number(process.argv.find((value) => value.startsWith("--polyandria-target="))?.split("=")[1] ?? 140);
+const onlyMelik = process.argv.includes("--only-melik");
+const onlyPolyandria = process.argv.includes("--only-polyandria");
 
 const publisherSources = {
   whiteCrow: {
@@ -22,6 +26,16 @@ const publisherSources = {
     name: "Альпина.Дети",
     category: "https://alpinabook.ru/catalog/books-khudozhestvennaya-literatura-dlya-detey/",
     officialUrl: "https://alpinabook.ru/catalog/books-khudozhestvennaya-literatura-dlya-detey/",
+  },
+  melik: {
+    name: "Мелик-Пашаев",
+    sitemap: "https://melik-pashaev.ru/product-sitemap.xml",
+    officialUrl: "https://melik-pashaev.ru/shop/",
+  },
+  polyandria: {
+    name: "Поляндрия",
+    sitemap: "https://www.polyandria.ru/sitemap-iblock-4.xml",
+    officialUrl: "https://www.polyandria.ru/catalog/",
   },
 };
 
@@ -71,6 +85,7 @@ function slugify(value) {
 
 async function fetchText(url) {
   const response = await fetch(url, {
+    signal: AbortSignal.timeout(30_000),
     headers: {
       "user-agent": "NEN curated children books/1.0 (bounded official publisher catalog import)",
       accept: "text/html,application/xhtml+xml,application/xml,text/xml",
@@ -185,7 +200,7 @@ function makeBook({ source, sourceUrl, title, authors, annotation, coverUrl, isb
   const genres = mapGenres(`${title} ${sourceGenre} ${annotation}`);
   const themes = mapThemes(`${title} ${sourceGenre} ${annotation}`, genres);
   const [ageMin, ageMax] = age;
-  const prefix = source === "Белая ворона" ? "whitecrow" : source === "КомпасГид" ? "kompasgid" : "alpina-deti";
+  const prefix = source === "Белая ворона" ? "whitecrow" : source === "КомпасГид" ? "kompasgid" : source === "Мелик-Пашаев" ? "melik-pashaev" : source === "Поляндрия" ? "polyandria" : "alpina-deti";
   const sourceSlug = slugify(new URL(sourceUrl).pathname.split("/").filter(Boolean).at(-1));
   const slug = `${prefix}-${slugify(title)}-${sourceSlug}`.slice(0, 120).replace(/-+$/g, "");
   return {
@@ -301,8 +316,92 @@ function alpinaBook(html, sourceUrl) {
   });
 }
 
+function jsonLdNodes(html) {
+  const result = [];
+  for (const match of html.matchAll(/<script[^>]+type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/giu)) {
+    try {
+      const parsed = JSON.parse(match[1]);
+      const queue = Array.isArray(parsed) ? [...parsed] : [parsed];
+      while (queue.length) {
+        const value = queue.shift();
+        if (!value || typeof value !== "object") continue;
+        result.push(value);
+        if (Array.isArray(value["@graph"])) queue.push(...value["@graph"]);
+      }
+    } catch { /* malformed analytics JSON-LD is ignored */ }
+  }
+  return result;
+}
+
+function productAttribute(html, label) {
+  const row = [...html.matchAll(/<tr[^>]*woocommerce-product-attributes-item[^>]*>([\s\S]*?)<\/tr>/giu)]
+    .map((match) => cleanText(match[1]))
+    .find((value) => normalize(value).startsWith(normalize(label)));
+  return row ? row.slice(row.toLocaleLowerCase("ru").indexOf(label.toLocaleLowerCase("ru")) + label.length).trim() : "";
+}
+
+function melikBook(html, sourceUrl) {
+  const nodes = jsonLdNodes(html);
+  const product = nodes.find((item) => {
+    const types = Array.isArray(item["@type"]) ? item["@type"] : [item["@type"]];
+    return types.some((type) => /^(?:product|book)$/iu.test(String(type)));
+  });
+  if (!product) return null;
+  const breadcrumbs = nodes.find((item) => item["@type"] === "BreadcrumbList")?.itemListElement ?? [];
+  const sourceGenre = breadcrumbs.map((item) => item?.name).filter(Boolean).join(". ");
+  const rawImage = Array.isArray(product.image) ? product.image[0] : product.image;
+  const coverUrl = typeof rawImage === "string" ? rawImage : rawImage?.url ?? rawImage?.contentUrl;
+  const authors = parseAuthors(productAttribute(html, "Автор"), true);
+  const ageText = productAttribute(html, "Возраст");
+  return makeBook({
+    source: "Мелик-Пашаев",
+    sourceUrl,
+    title: cleanText(product.name ?? ""),
+    authors,
+    annotation: cleanText(product.description ?? ""),
+    coverUrl,
+    isbn13: parseIsbn(productAttribute(html, "ISBN")),
+    age: parseAge(ageText, [4, 10]),
+    pages: parseNumber(productAttribute(html, "Кол-во страниц")),
+    seriesName: productAttribute(html, "Серии") || undefined,
+    translator: productAttribute(html, "Перевод") || undefined,
+    sourceGenre,
+  });
+}
+
+function polyandriaBook(html, sourceUrl) {
+  const fields = specs(html);
+  const title = cleanText(meta(html, "og:title")).replace(/\.\s*Издательский дом[\s\S]*$/iu, "").trim();
+  const description = cleanText(meta(html, "og:description")).split(/\s+Об авторе:/iu)[0].trim();
+  const rawCover = meta(html, "og:image");
+  const pathAge = new URL(sourceUrl).pathname.match(/\/catalog\/(0-3|3-7|7-9|9-12|12\+)/u)?.[1] ?? "";
+  const age = pathAge === "0-3" ? [2, 4] : pathAge === "3-7" ? [3, 7] : pathAge === "7-9" ? [7, 9] : pathAge === "9-12" ? [9, 12] : [12, 17];
+  return makeBook({
+    source: "Поляндрия",
+    sourceUrl,
+    title,
+    authors: parseAuthors(fields.get("Автор(ы):") ?? fields.get("Автор")),
+    annotation: description,
+    coverUrl: rawCover ? new URL(rawCover, sourceUrl).href : undefined,
+    isbn13: parseIsbn(fields.get("ISBN:") ?? fields.get("ISBN")),
+    age,
+    pages: parseNumber(fields.get("Объём, стр.:") ?? fields.get("Объем, стр.:")),
+    year: parseNumber(fields.get("Год издания:")),
+    translator: fields.get("Перевод:") || fields.get("Перевод") || undefined,
+    sourceGenre: `детская художественная литература ${title} ${description}`,
+  });
+}
+
 function sitemapLinks(xml) {
-  return [...xml.matchAll(/<loc>([\s\S]*?)<\/loc>/giu)].map((match) => decode(match[1]).trim()).filter((url) => /\/product\//u.test(url));
+  return [...xml.matchAll(/<loc>([\s\S]*?)<\/loc>/giu)]
+    .map((match) => decode(match[1]).replace(/^<!\[CDATA\[|\]\]>$/gu, "").trim().replace(/^http:\/\/www\.polyandria\.ru/iu, "https://www.polyandria.ru"))
+    .filter((url) => /\/product\//u.test(url));
+}
+
+function polyandriaLinks(xml) {
+  return [...xml.matchAll(/<loc>([\s\S]*?)<\/loc>/giu)]
+    .map((match) => decode(match[1]).replace(/^<!\[CDATA\[|\]\]>$/gu, "").trim().replace(/^http:\/\/www\.polyandria\.ru/iu, "https://www.polyandria.ru"))
+    .filter((url) => /\/catalog\/(?:0-3|3-7|7-9|9-12|12\+)\/[^/]+\/?$/u.test(url));
 }
 
 function categoryLinks(html, baseUrl) {
@@ -338,7 +437,7 @@ async function collect(label, links, parser, target) {
 }
 
 const current = JSON.parse(await readFile(currentCatalogPath, "utf8"))
-  .filter((book) => !/^curated-(?:whitecrow|kompasgid|alpina-deti)-/u.test(String(book.id)));
+  .filter((book) => !/^curated-(?:whitecrow|kompasgid|alpina-deti|melik-pashaev|polyandria)-/u.test(String(book.id)));
 const previousSource = JSON.parse(await readFile(outputPath, "utf8"));
 const existingKeys = new Set(current.flatMap((book) => {
   const authors = String(book.author).split(/\s*;\s*/u);
@@ -351,18 +450,32 @@ const existingByKey = new Map(current.flatMap((book) => {
 }));
 const existingByIsbn = new Map(current.filter((book) => book.isbn13).map((book) => [book.isbn13, book]));
 
-const [whiteCrowXml, kompasXml, ...alpinaPages] = await Promise.all([
-  fetchText(publisherSources.whiteCrow.sitemap),
-  fetchText(publisherSources.kompas.sitemap),
-  ...Array.from({ length: 8 }, (_, index) => fetchText(
-    index === 0 ? publisherSources.alpina.category : `${publisherSources.alpina.category}?PAGEN_1=${index + 1}`,
-  )),
-]);
-
-const whiteCrow = await collect("Белая ворона", sitemapLinks(whiteCrowXml), whiteCrowBook, perPublisherTarget + 20);
-const kompas = await collect("КомпасГид", sitemapLinks(kompasXml), kompasBook, perPublisherTarget + 20);
-const alpinaLinks = [...new Set(alpinaPages.flatMap((html) => categoryLinks(html, publisherSources.alpina.category)))];
-const alpina = await collect("Альпина.Дети", alpinaLinks, alpinaBook, perPublisherTarget + 20);
+let melik = { books: [], rejected: [] };
+let polyandria = { books: [], rejected: [] };
+if (!onlyPolyandria) {
+  const melikXml = await fetchText(publisherSources.melik.sitemap);
+  melik = await collect("Мелик-Пашаев", sitemapLinks(melikXml), melikBook, melikTarget);
+}
+if (!onlyMelik) {
+  const polyandriaXml = await fetchText(publisherSources.polyandria.sitemap);
+  polyandria = await collect("Поляндрия", polyandriaLinks(polyandriaXml), polyandriaBook, polyandriaTarget);
+}
+let whiteCrow = { books: [], rejected: [] };
+let kompas = { books: [], rejected: [] };
+let alpina = { books: [], rejected: [] };
+if (!onlyMelik && !onlyPolyandria) {
+  const [whiteCrowXml, kompasXml, ...alpinaPages] = await Promise.all([
+    fetchText(publisherSources.whiteCrow.sitemap),
+    fetchText(publisherSources.kompas.sitemap),
+    ...Array.from({ length: 8 }, (_, index) => fetchText(
+      index === 0 ? publisherSources.alpina.category : `${publisherSources.alpina.category}?PAGEN_1=${index + 1}`,
+    )),
+  ]);
+  whiteCrow = await collect("Белая ворона", sitemapLinks(whiteCrowXml), whiteCrowBook, perPublisherTarget + 20);
+  kompas = await collect("КомпасГид", sitemapLinks(kompasXml), kompasBook, perPublisherTarget + 20);
+  const alpinaLinks = [...new Set(alpinaPages.flatMap((html) => categoryLinks(html, publisherSources.alpina.category)))];
+  alpina = await collect("Альпина.Дети", alpinaLinks, alpinaBook, perPublisherTarget + 20);
+}
 
 const selected = [];
 const rejectedDuplicates = [];
@@ -374,10 +487,11 @@ for (const book of previousSource.books ?? []) {
   existingIsbn.add(book.isbn13);
   selected.push(book);
 }
-for (const group of [whiteCrow.books, kompas.books, alpina.books]) {
+for (const group of [whiteCrow.books, kompas.books, alpina.books, melik.books, polyandria.books]) {
   let acceptedForPublisher = selected.filter((book) => book.publisher === group[0]?.publisher).length;
   for (const book of group) {
-    if (acceptedForPublisher >= perPublisherTarget + 20) break;
+    const publisherTarget = book.publisher === "Мелик-Пашаев" ? melikTarget : book.publisher === "Поляндрия" ? polyandriaTarget : perPublisherTarget + 20;
+    if (acceptedForPublisher >= publisherTarget) break;
     const key = titleAuthorKey(book.title, book.authors);
     if (existingKeys.has(key) || existingIsbn.has(book.isbn13)) {
       const existing = existingByKey.get(key) ?? existingByIsbn.get(book.isbn13);
@@ -418,10 +532,12 @@ const output = {
   enrichments,
   report: {
     requestedPerPublisher: perPublisherTarget,
+    requestedMelikPashaev: melikTarget,
+    requestedPolyandria: polyandriaTarget,
     accepted: selected.length,
     publisherCounts: counts,
     duplicateRejections: rejectedDuplicates,
-    sourceRejections: [...whiteCrow.rejected, ...kompas.rejected, ...alpina.rejected],
+    sourceRejections: [...whiteCrow.rejected, ...kompas.rejected, ...alpina.rejected, ...melik.rejected, ...polyandria.rejected],
   },
 };
 
