@@ -165,7 +165,7 @@ export function createOfficialPublisherSource({ cache, concurrency = 6, root, ma
       }
     },
     async search(book) {
-      const cacheKey = `${source.key}:${workCoverMode ? "canonical-work-cover-v21" : "adapter-v3-isbn-work-graph"}:match-level-${matchLevel}:publishers-${activeDefinitions.map((item) => item.key).join(",")}`;
+      const cacheKey = `${source.key}:${workCoverMode ? "canonical-work-cover-v22" : "adapter-v3-isbn-work-graph"}:match-level-${matchLevel}:publishers-${activeDefinitions.map((item) => item.key).join(",")}`;
       const cached = cache?.get(cacheKey, book);
       if (cached) return cached;
       const wanted = bookTokens(book);

@@ -435,7 +435,19 @@
     "classicOrModern": "classic",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
-    "status": "published"
+    "status": "published",
+    "cover": {
+      "kind": "external",
+      "url": "https://covers.openlibrary.org/b/id/10728003-L.jpg?default=false",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Open Library",
+      "sourcePageUrl": "https://openlibrary.org/works/OL24247252W",
+      "temporary": true,
+      "attribution": "Обложка: Open Library",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9285
+    }
   },
   {
     "id": "nen-009",
@@ -467,7 +479,19 @@
     "classicOrModern": "classic",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
-    "status": "published"
+    "status": "published",
+    "cover": {
+      "kind": "external",
+      "url": "https://store.fukuinkan.co.jp/cdn/shop/files/0039.jpg?v=1747707002&width=1920",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Фукуинкан Сётэн»",
+      "sourcePageUrl": "https://store.fukuinkan.co.jp/products/%E3%82%82%E3%82%82%E3%81%9F%E3%82%8D%E3%81%86",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    }
   },
   {
     "id": "nen-010",
@@ -500,7 +524,19 @@
     "classicOrModern": "classic",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
-    "status": "published"
+    "status": "published",
+    "cover": {
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/738932/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/738932/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный магазин «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    }
   },
   {
     "id": "nen-011",
@@ -2131,6 +2167,18 @@
           "Ульф Нильсон"
         ]
       }
+    },
+    "cover": {
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/668542/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/668542/",
+      "temporary": true,
+      "attribution": "Обложка опубликована в книжном каталоге «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9569
     }
   },
   {
@@ -2168,7 +2216,19 @@
     "sensitiveTopicsReviewed": false,
     "officialAgeRating": "0+ — требует сверки по ISBN",
     "officialAgeRatingSource": "https://www.busterbooks.co.uk/product/the-dinosaur-department-store/",
-    "status": "published"
+    "status": "published",
+    "cover": {
+      "kind": "external",
+      "url": "https://books.google.com/books/content?id=9YrxzQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Google Books",
+      "sourcePageUrl": "https://books.google.com/books/about/The_Dinosaur_Department_Store.html?id=9YrxzQEACAAJ",
+      "temporary": true,
+      "attribution": "Обложка: Google Books.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    }
   },
   {
     "id": "nen-063",
@@ -11979,8 +12039,16 @@
     "shortDescription": "Ученики необычной школы после её закрытия попадают в обычные классы и пытаются сохранить привычку учиться из интереса.",
     "whyRecommended": "Для читателей 10–14 лет это реалистическая проза о школе, дружбе и самооценке. Книгу можно выбрать для самостоятельного чтения.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/600362/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/600362/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный магазин «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "identificationStatus": "provisional",
     "publicationYear": 2012,
@@ -12820,8 +12888,16 @@
     "shortDescription": "После семейной трагедии Эмили переезжает в старый дом и получает амулет, который втягивает её в опасный иной мир.",
     "whyRecommended": "Подойдёт читателям 9–14 лет, которые любят фэнтези и приключенческие книги. В книге затрагиваются темы семьи, волшебства и приключений.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://www.mann-ivanov-ferber.ru/assets/images/covers/51/25951/2.00x-thumb.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «МИФ»",
+      "sourcePageUrl": "https://www.mann-ivanov-ferber.ru/catalog/product/amulet-kniga-pervaya-hranitel-kamnya/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "identificationStatus": "provisional",
     "publicationYear": 2008,
@@ -12932,8 +13008,16 @@
     "shortDescription": "Первоклассница Алина рассказывает о школе, семье и учительнице, которая пытается увидеть в каждом ребёнке отдельного человека.",
     "whyRecommended": "Если ребёнок любит реалистическую прозу и семейные истории и сюжеты о семье, школе и взрослении, книга подойдёт ему в возрасте 10–14 лет. Она подходит для самостоятельного или совместного чтения.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/236628/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/236628/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный магазин «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "identificationStatus": "provisional",
     "publicationYear": 2010,
@@ -13491,8 +13575,16 @@
     "fullDescription": "Школьники оказываются связаны с путешествием во времени и получают возможность увидеть знакомые события с неожиданной стороны. Возвращение к пройденному материалу превращается для них в настоящее приключение.",
     "whyRecommended": "Подойдёт читателям 7–12 лет, которые любят приключенческие книги. В книге затрагиваются темы школы и путешествий.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/524033/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/524033/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный магазин «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "identificationStatus": "identified",
     "isbn13": "9785906819178",
@@ -14126,8 +14218,16 @@
     "fullDescription": "Цыплёнок наблюдает, как наступает вечер и меняется знакомый мир вокруг него. Небольшая сказка следует за героем во время его вечерних встреч.",
     "whyRecommended": "Для читателей 7–12 лет это реалистическая проза о животных и природе. Книгу можно выбрать для самостоятельного или совместного чтения.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/842225/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/842225/",
+      "temporary": true,
+      "attribution": "Обложка опубликована в книжном каталоге «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9569
     },
     "identificationStatus": "provisional",
     "isbn13": null,
@@ -14412,8 +14512,16 @@
     "fullDescription": "Наталья Дурова вспоминает животных — артистов цирка и Театра зверей — и людей, которые с ними работают. В рассказах показаны повадки питомцев, ежедневный труд дрессировщиков и жизнь цирка в дороге.",
     "whyRecommended": "Подойдёт читателям 7–12 лет, которые любят реалистическую прозу. В книге затрагиваются темы животных.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/541683/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/541683/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный магазин «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "identificationStatus": "provisional",
     "isbn13": null,
@@ -14684,8 +14792,16 @@
     "fullDescription": "Сборник сказок Валерий Кастрючин. В издание вошли фантастические и бытовые сюжеты с чудесными превращениями, животными и другими сказочными героями.",
     "whyRecommended": "Подойдёт читателям 6–11 лет, которые любят сказки. В книге затрагиваются темы животных.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/356050/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/356050/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный магазин «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "identificationStatus": "identified",
     "isbn13": "9789855492390",
@@ -14825,8 +14941,16 @@
     "fullDescription": "В книгу вошли короткие рассказы и сказки Константина Ушинского о животных. Звери действуют, спорят и попадают в ситуации, близкие к народной сказке.",
     "whyRecommended": "Если ребёнок любит реалистическую прозу и сюжеты о животных, книга подойдёт ему в возрасте 6–11 лет. Она подходит для самостоятельного или совместного чтения.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/545307/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/545307/",
+      "temporary": true,
+      "attribution": "Обложка опубликована в книжном каталоге «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9569
     },
     "identificationStatus": "identified",
     "isbn13": "9785486018800",
@@ -15335,8 +15459,16 @@
     "fullDescription": "Ёжик и Медвежонок замечают, что звёзды потускнели, и решают протереть их. В книгу вошли сказочные истории о двух друзьях и их лесных соседях.",
     "whyRecommended": "Для читателей 6–11 лет это реалистическая проза о дружбе и природе. Книгу можно выбрать для самостоятельного или совместного чтения.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/500986/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/500986/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный магазин «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "identificationStatus": "identified",
     "isbn13": "9785445309536",
@@ -16408,8 +16540,16 @@
     "fullDescription": "Исторический роман прослеживает судьбу князя Владимира Святославича: от сына рабыни-ключницы до правителя, объединившего Русь. В центре повествования — его войны, противоречивые поступки и переход от язычества к крещению Руси.",
     "whyRecommended": "Для читателей 7–12 лет это реалистическая проза о истории и войне. Книгу можно выбрать для самостоятельного или совместного чтения.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/592040/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/592040/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный магазин «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "identificationStatus": "provisional",
     "isbn13": null,
@@ -16998,8 +17138,16 @@
     "fullDescription": "В сборник входят три сказки: о волке, который хочет со всеми подружиться, о сове, не способной уснуть ночью, и о коте, покинувшем ферму ради города.",
     "whyRecommended": "Подойдёт читателям 7–12 лет, которые любят реалистическую прозу. В книге затрагиваются темы животных.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://files.books.ru/pic/172001-173000/172249/172249.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный каталог Books.ru",
+      "sourcePageUrl": "https://www.books.ru/books/dobryi-volk-172249/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный каталог Books.ru.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "identificationStatus": "identified",
     "isbn13": "9785170121588",
@@ -17661,8 +17809,16 @@
     "fullDescription": "Подросток становится участником морских событий во время Великой Отечественной войны. Опасное плавание требует от него выдержки и быстрых решений.",
     "whyRecommended": "Подойдёт читателям 6–11 лет, которые любят реалистическую прозу. В книге затрагиваются темы истории и войны.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/989544/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/989544/",
+      "temporary": true,
+      "attribution": "Обложка опубликована в книжном каталоге «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9556
     },
     "identificationStatus": "identified",
     "isbn13": "9785080041457",
@@ -18985,8 +19141,16 @@
     "fullDescription": "Евгений Чарушин наблюдает за животными, которые живут рядом с людьми во дворе. Короткие рассказы передают их повадки и небольшие происшествия.",
     "whyRecommended": "Подойдёт читателям 7–12 лет, которые любят реалистическую прозу. В книге затрагиваются темы животных.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/524388/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/524388/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный магазин «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "identificationStatus": "identified",
     "isbn13": "9785367018189",
@@ -19747,8 +19911,16 @@
     "fullDescription": "Сборник сказок Юлия Яковлева. В издание вошли фантастические и бытовые сюжеты с чудесными превращениями, животными и другими сказочными героями.",
     "whyRecommended": "Для читателей 7–12 лет это семейная история о семье. Книгу можно выбрать для самостоятельного или совместного чтения.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://samokatbook.ru/upload/resize_cache/iblock/215/375_1000_1/215f655a1e72c5eb18c25e16bdf04ecf.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Самокат»",
+      "sourcePageUrl": "https://samokatbook.ru/book/deti-vorona/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "identificationStatus": "identified",
     "isbn13": "9785917596617",
@@ -20043,8 +20215,16 @@
     "fullDescription": "В книгу вошли рассказы Бориса Житкова о детях, путешествиях, животных и опасных ситуациях. Героям приходится действовать самостоятельно и отвечать за свои решения.",
     "whyRecommended": "Для читателей 6–11 лет это приключения о приключениях. Книгу можно выбрать для самостоятельного или совместного чтения.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/210224/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/210224/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный магазин «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "identificationStatus": "identified",
     "isbn13": "9785911817299",
@@ -20189,8 +20369,16 @@
     "fullDescription": "В книгу вошли рассказы о собаках разных пород и характеров. Герои живут рядом с людьми, участвуют в приключениях и проявляют собственные привычки.",
     "whyRecommended": "Подойдёт читателям 7–12 лет, которые любят реалистическую прозу. В книге затрагиваются темы животных.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://fantlab.ru/images/editions/big/36637",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Библиографический каталог FantLab",
+      "sourcePageUrl": "https://fantlab.ru/edition36637",
+      "temporary": true,
+      "attribution": "Обложка: Библиографический каталог FantLab.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "identificationStatus": "identified",
     "isbn13": "9785699361700",
@@ -20815,8 +21003,16 @@
     "fullDescription": "Сборник русских потешек, песенок и коротких стихов с иллюстрациями Юрия Васнецова. Тексты построены на ритме, повторах и образах животных.",
     "whyRecommended": "Подойдёт читателям 7–12 лет, которые любят сказки и стихи. В книге затрагиваются темы животных.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://www.belykrolik.ru/media/catalog/product_images/22980311_1_skok-poskok-hud-vasnetsov-yu.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Белый кролик»",
+      "sourcePageUrl": "https://www.belykrolik.ru/catalog/skok_poskok_ill_ju_vasnecova-g22980311/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный магазин «Белый кролик».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "identificationStatus": "identified",
     "isbn13": "9785926818922",
@@ -20960,8 +21156,16 @@
     "fullDescription": "Маленький поросёнок покидает привычное место и попадает в незнакомые ситуации. По дороге ему приходится разбираться с опасностями и новыми знакомыми.",
     "whyRecommended": "Для читателей 7–12 лет это реалистическая проза о животных. Книгу можно выбрать для самостоятельного или совместного чтения.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://fantlab.ru/images/editions/big/303219",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Библиографический каталог FantLab",
+      "sourcePageUrl": "https://fantlab.ru/edition303219",
+      "temporary": true,
+      "attribution": "Обложка: Библиографический каталог FantLab.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "identificationStatus": "identified",
     "isbn13": "9789667047283",
@@ -21398,8 +21602,16 @@
     "fullDescription": "Сборник сказок Владимир Сутеев. В издание вошли фантастические и бытовые сюжеты с чудесными превращениями, животными и другими сказочными героями.",
     "whyRecommended": "Подойдёт читателям 6–11 лет, которые любят сказки. В книге затрагиваются темы животных.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://fantlab.ru/images/editions/big/245173",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Библиографический каталог FantLab",
+      "sourcePageUrl": "https://fantlab.ru/edition245173",
+      "temporary": true,
+      "attribution": "Обложка: Библиографический каталог FantLab.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "identificationStatus": "identified",
     "isbn13": "9785170343003",
@@ -21968,8 +22180,16 @@
     "fullDescription": "Сборник историй с разными животными в главных ролях.",
     "whyRecommended": "Подойдёт читателям 6–11 лет, которые любят реалистическую прозу. В книге затрагиваются темы животных.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/174104/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/174104/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный магазин «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "identificationStatus": "identified",
     "isbn13": "9785818914305",
@@ -22266,8 +22486,16 @@
     "fullDescription": "Лесные птицы и звери становятся героями коротких рассказов Георгия Скребицкого. События разворачиваются в природе и передают наблюдения за поведением животных.",
     "whyRecommended": "Для читателей 7–12 лет это реалистическая проза о природе, истории и искусстве. Книгу можно выбрать для самостоятельного или совместного чтения.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://search.rsl.ru/img/header-main-ru.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Российская государственная библиотека",
+      "sourcePageUrl": "https://search.rsl.ru/ru/record/01002374373",
+      "temporary": true,
+      "attribution": "Обложка: Российская государственная библиотека.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "identificationStatus": "provisional",
     "isbn13": null,
@@ -23773,8 +24001,16 @@
     "fullDescription": "В книгу вошли рассказы Виктора Драгунского о Дениске, его родителях и друзьях. Семейные и школьные события показаны глазами мальчика, который часто понимает происходящее по-своему.",
     "whyRecommended": "Подойдёт читателям 7–12 лет, которые любят реалистическую прозу. В книге затрагиваются темы семьи.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/533508/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/533508/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный магазин «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "identificationStatus": "identified",
     "isbn13": "9785919213635",
@@ -24214,8 +24450,16 @@
     "fullDescription": "Младший сын мельника получает в наследство кота, который обещает устроить судьбу хозяина. Хитрый Кот в сапогах обманывает людоеда и помогает юноше предстать перед королём богатым маркизом.",
     "whyRecommended": "Если ребёнок любит сказки и сюжеты о животных, книга подойдёт ему в возрасте 7–12 лет. Она подходит для самостоятельного или совместного чтения.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://img.chaconne.ru/img/4191172_1031112.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Чакона»",
+      "sourcePageUrl": "https://chaconne.ru/product/4191172/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный магазин «Чакона».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "identificationStatus": "identified",
     "isbn13": "9785353082644",
@@ -24356,8 +24600,16 @@
     "fullDescription": "Книга показывает, как русские художники изображали сказочный мир. На репродукциях появляются Баба-яга, Кощей, леший, богатыри и подводное царство, а рядом рассказывается о создавших эти картины живописцах.",
     "whyRecommended": "Для читателей 7–12 лет это сказка о искусстве. Книгу можно выбрать для самостоятельного или совместного чтения.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://books.fan/assets/books/imgs/7830/27830.webp",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный каталог Books.Fan",
+      "sourcePageUrl": "https://books.fan/book/kazieva-marina/skazka-v-russkoj-zivopisi/27830",
+      "temporary": true,
+      "attribution": "Обложка: Книжный каталог Books.Fan.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "identificationStatus": "provisional",
     "isbn13": null,
@@ -24482,6 +24734,18 @@
     "shortDescription": "Ребята отправляются на остров, где наблюдают за дельфинами и другими морскими животными. Приключение соединяет встречи с природой и жизнь у моря.",
     "fullDescription": "Ребята отправляются на остров, где наблюдают за дельфинами и другими морскими животными. Приключение соединяет встречи с природой и жизнь у моря.",
     "whyRecommended": "Для читателей 6–11 лет это реалистическая проза о животных. Книгу можно выбрать для самостоятельного или совместного чтения.",
+    "cover": {
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/632739/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/632739/",
+      "temporary": true,
+      "attribution": "Обложка опубликована в книжном каталоге «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9569
+    },
     "publisher": "ИД Мещерякова",
     "bibliographicSources": [
       "https://openlibrary.org/works/OL3398755W",
@@ -25090,8 +25354,16 @@
     "fullDescription": "Дядя Лёва отправляется в путешествие по румынским степям и попадает в череду невероятных приключений. Его путь полон абсурдных встреч и неожиданных решений.",
     "whyRecommended": "Для читателей 6–11 лет это приключения о приключениях. Книгу можно выбрать для самостоятельного или совместного чтения.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/779506/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/779506/",
+      "temporary": true,
+      "attribution": "Обложка опубликована в книжном каталоге «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9569
     },
     "identificationStatus": "identified",
     "isbn13": "9785906999481",
@@ -25545,8 +25817,16 @@
     "fullDescription": "Семья решает заняться физкультурой, но каждое упражнение превращается в шумное домашнее происшествие. Григорий Остер доводит полезные советы до комического абсурда.",
     "whyRecommended": "Подойдёт читателям 6–11 лет, которые любят юмористические книги. В книге затрагиваются темы юмора.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://fantlab.ru/images/editions/big/202847",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Библиографический каталог FantLab",
+      "sourcePageUrl": "https://fantlab.ru/edition202847",
+      "temporary": true,
+      "attribution": "Обложка: Библиографический каталог FantLab.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "identificationStatus": "provisional",
     "isbn13": null,
@@ -25669,8 +25949,16 @@
     "fullDescription": "Сборник произведений Виталий Бянки. В книгу вошли рассказы и повести с разными героями и самостоятельными сюжетами.",
     "whyRecommended": "Подойдёт читателям 6–11 лет, которые любят реалистическую прозу. В книге затрагиваются темы животных.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/840679/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/840679/",
+      "temporary": true,
+      "attribution": "Обложка опубликована в книжном каталоге «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9556
     },
     "identificationStatus": "provisional",
     "isbn13": null,
@@ -25955,8 +26243,16 @@
     "fullDescription": "Человек пытается объяснить другому, как нарисовать птицу, но его последовательные указания приводят к совершенно неожиданному результату. Абсурдная цепочка событий построена на рисунках и коротких репликах.",
     "whyRecommended": "Подойдёт читателям 7–12 лет, которые любят реалистическую прозу. В книге затрагиваются темы дружбы.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/463171/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/463171/",
+      "temporary": true,
+      "attribution": "Обложка опубликована в книжном каталоге «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9556
     },
     "identificationStatus": "identified",
     "isbn13": "9785000740224",
@@ -27000,8 +27296,16 @@
     "fullDescription": "Слон Кузя ведёт читателя по Петербургу и превращает знакомство с городом в путешествие-игру. По пути можно рассматривать карты, искать достопримечательности, измерять здания в слонах и отвечать на вопросы о городе.",
     "whyRecommended": "Подойдёт читателям 7–12 лет, которые любят приключенческие книги. В книге затрагиваются темы семьи и путешествий.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://cdn.insales-shop.ru/images/products/1/377/3011682681/44614603.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Питер»",
+      "sourcePageUrl": "https://www.piter.com/collection/all/product/progulki-po-detskomu-peterburgu-obnovlyonnoe-izdanie",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "identificationStatus": "identified",
     "isbn13": "9785496004930",
@@ -29607,8 +29911,16 @@
     "fullDescription": "Волк подслушивает песню козы и пытается обмануть козлят, оставшихся дома одних. Народная сказка предупреждает героев об опасности доверять незнакомому голосу.",
     "whyRecommended": "Для читателей 7–12 лет это реалистическая проза о животных. Книгу можно выбрать для самостоятельного или совместного чтения.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://img.chaconne.ru/img/3945903_740407.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Чакона»",
+      "sourcePageUrl": "https://chaconne.ru/product/3945903/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный магазин «Чакона».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "identificationStatus": "identified",
     "isbn13": "9785353082606",
@@ -29782,8 +30094,16 @@
     "fullDescription": "Воробей Антверпен, кот Михеев, столетник Вася и семья сороконожек живут рядом и оказываются связаны общими событиями. Их отношения складываются из ссор, помощи и неожиданных встреч.",
     "whyRecommended": "Если ребёнок любит реалистическую прозу и сюжеты о животных, книга подойдёт ему в возрасте 6–12 лет. Она подходит для самостоятельного или совместного чтения.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://cdn.litres.ru/pub/c/cover/163822.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "ЛитРес",
+      "sourcePageUrl": "https://www.litres.ru/book/ludmila-ulickaya/istoriya-pro-vorobya-antverpena-kota-miheeva-stoletnika-v-163822/",
+      "temporary": true,
+      "attribution": "Обложка: ЛитРес.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "identificationStatus": "identified",
     "isbn13": "9785699103034",
@@ -30168,8 +30488,16 @@
     "fullDescription": "В мире этой сказки по воздуху проплывают необычные рыбки. Встреча с ними открывает героям пространство, где привычные законы перестают действовать.",
     "whyRecommended": "Для читателей 6–11 лет это реалистическая проза о животных. Книгу можно выбрать для самостоятельного или совместного чтения.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://files.books.ru/pic/554001-555000/554189/000554189.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный каталог Books.ru",
+      "sourcePageUrl": "https://www.books.ru/books/vozdushnye-rybki-vosem-rasskazov-na-lyuboi-vkus-2-e-izdanie-554189/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный каталог Books.ru.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "identificationStatus": "identified",
     "isbn13": "9789667047481",
@@ -30344,8 +30672,16 @@
     "fullDescription": "Царицу с новорождённым князем Гвидоном по навету отправляют в море в бочке. Они спасаются на острове, где Гвидон встречает царевну Лебедь и пытается увидеть отца.",
     "whyRecommended": "Если ребёнок любит сказки и стихи и сюжеты о волшебстве, книга подойдёт ему в возрасте 7–12 лет. Она подходит для самостоятельного или совместного чтения.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/AST000000000039023/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/skazka-o-tsare-saltane-o-syne-ego-slavnom-i-moguchem-bogatyre-knyaze-gvidone-salta-039023/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9618
     },
     "identificationStatus": "provisional",
     "isbn13": null,
@@ -31286,8 +31622,16 @@
     "fullDescription": "Домовёнок Фока живёт рядом с людьми и другими сказочными существами. Вместе с друзьями он защищает дом и разбирается с необычными происшествиями.",
     "whyRecommended": "Подойдёт читателям 6–11 лет, которые любят реалистическую прозу. В книге затрагиваются темы дружбы.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://ndc.bookvoed.ru/pim/products/images/e6/23/018eda8d-39a5-7858-9690-dd034d58e623.jpg?width=220&height=288&fit=bounds",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Буквоед»",
+      "sourcePageUrl": "https://www.bookvoed.ru/product/domovenok-foka-i-ego-druzya-upravsa-hukkapa-unan-tusesem-7581300",
+      "temporary": true,
+      "attribution": "Обложка: Книжный магазин «Буквоед».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "identificationStatus": "identified",
     "isbn13": "9785767020560",
@@ -31650,8 +31994,16 @@
     "fullDescription": "Современность оказывается не менее сказочной, чем старые времена: дремучие леса, нечисть и добрые люди никуда не исчезли. Герои попадают в мир, где привычная жизнь соседствует с чудесами и персонажами народных сказок.",
     "whyRecommended": "Подойдёт читателям 6–11 лет, которые любят сказки. В книге затрагиваются темы волшебства.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://kniga3000.ru/files/artist/m/muhanova_elena_evgenevna/novaya_skazka_1999/novaya_skazka_01_small.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Библиографический каталог «Книга-3000»",
+      "sourcePageUrl": "https://kniga3000.ru/book27",
+      "temporary": true,
+      "attribution": "Обложка: Библиографический каталог «Книга-3000».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "identificationStatus": "provisional",
     "isbn13": null,
@@ -33151,8 +33503,16 @@
     "fullDescription": "Дворянские дети Саша и Лиза убегают на фронт в разгар войны 1812 года, а волшебные мышата неожиданно оказываются возле французского штаба. Детям и мышам предстоит спасать друг друга, столкнуться с Наполеоном и помешать гибели Кремля.",
     "whyRecommended": "Подойдёт читателям 6–11 лет, которые любят реалистическую прозу. В книге затрагиваются темы животных и войны.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/731394/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/731394/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный магазин «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "identificationStatus": "identified",
     "isbn13": "9785905474149",
@@ -35203,8 +35563,16 @@
     "fullDescription": "Сборник сказок Л. Кириллов; Мария Рудаченко. В издание вошли фантастические и бытовые сюжеты с чудесными превращениями, животными и другими сказочными героями.",
     "whyRecommended": "Подойдёт читателям 6–11 лет, которые любят сказки. В книге затрагиваются темы дружбы и волшебства.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://files.books.ru/pic/698001-699000/698517/698517_1.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный каталог Books.ru",
+      "sourcePageUrl": "https://www.books.ru/books/nichut-ne-strashno-i-drugie-skazki-698517/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный каталог Books.ru.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "identificationStatus": "identified",
     "isbn13": "9785353043140",
@@ -35588,8 +35956,16 @@
     "fullDescription": "Школьник попадает в мир, где приключения можно купить, а продавец настоящих приключений внезапно исчезает. Герою приходится искать его и разбираться с теми, кто хочет распоряжаться чужими историями.",
     "whyRecommended": "Подойдёт читателям 6–11 лет, которые любят фэнтези. В книге затрагиваются темы приключений.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://fantlab.ru/images/editions/big/64205?r=1492544193",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Библиографический каталог FantLab",
+      "sourcePageUrl": "https://fantlab.ru/edition64205",
+      "temporary": true,
+      "attribution": "Обложка: Библиографический каталог FantLab.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "identificationStatus": "provisional",
     "isbn13": null,
@@ -35749,8 +36125,16 @@
     "fullDescription": "Хрестоматия объединяет известные произведения детской классики: рассказы, сказки и стихи разных авторов. Тексты предназначены для последовательного знакомства с литературой.",
     "whyRecommended": "Подойдёт читателям 6–11 лет, которые любят сказки и стихи. В книге затрагиваются темы школы.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://fantlab.ru/images/editions/big/43258",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Библиографический каталог FantLab",
+      "sourcePageUrl": "https://fantlab.ru/edition43258",
+      "temporary": true,
+      "attribution": "Обложка: Библиографический каталог FantLab.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "identificationStatus": "identified",
     "isbn13": "9785389002791",
@@ -37241,6 +37625,18 @@
     "shortDescription": "После Троянской войны Одиссей много лет возвращается домой на Итаку. На пути он встречает циклопа, волшебницу Кирку, сирен и другие опасности.",
     "fullDescription": "После Троянской войны Одиссей много лет возвращается домой на Итаку. На пути он встречает циклопа, волшебницу Кирку, сирен и другие опасности.",
     "whyRecommended": "Если ребёнок любит приключенческие книги и сюжеты о приключениях и войне, книга подойдёт ему в возрасте 7–12 лет. Она подходит для самостоятельного или совместного чтения.",
+    "cover": {
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/205385/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/205385/",
+      "temporary": true,
+      "attribution": "Обложка опубликована в книжном каталоге «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9569
+    },
     "identificationStatus": "provisional",
     "isbn13": null,
     "publisher": "Детская литература",
@@ -37586,8 +37982,16 @@
     "fullDescription": "Сборник сказок и преданий, подготовленный Е. В. Белоусов. В книгу вошли произведения разных народов или авторов, объединённые фольклорными сюжетами и чудесными событиями.",
     "whyRecommended": "Если ребёнок любит сказки и сюжеты о волшебстве, книга подойдёт ему в возрасте 7–12 лет. Она подходит для самостоятельного или совместного чтения.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://api.bookmate.ru/assets/books-covers/a9/8e/NIotybuA-ipad.png?image_hash=60a1fff7948183c17d35a537b962275e",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Яндекс Книги",
+      "sourcePageUrl": "https://books.yandex.ru/books/NIotybuA/read-online",
+      "temporary": true,
+      "attribution": "Обложка: Яндекс Книги.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "identificationStatus": "provisional",
     "isbn13": null,
@@ -38865,8 +39269,16 @@
     "fullDescription": "Сюжет связан с Ханукой — еврейским праздником света.",
     "whyRecommended": "Если ребёнок любит фэнтези и сюжеты о волшебстве, книга подойдёт ему в возрасте 7–12 лет. Она подходит для самостоятельного или совместного чтения.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://www.jrccbookstore.org/wp-content/uploads/2021/06/Volshebnaya_Hanukiya.gif",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Официальный книжный магазин JRCC",
+      "sourcePageUrl": "https://www.jrccbookstore.org/ru/product/magic-menorah/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "identificationStatus": "identified",
     "isbn13": "9785932732038",
@@ -39983,8 +40395,16 @@
     "fullDescription": "Девочка заходит в дом трёх медведей, пока хозяев нет, и пробует их еду, стулья и кровати. Медведи возвращаются и обнаруживают следы незваной гостьи.",
     "whyRecommended": "Подойдёт читателям 7–12 лет, которые любят сказки. В книге затрагиваются темы животных.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://img.chaconne.ru/img/3971520_843041.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин Chaconne",
+      "sourcePageUrl": "https://chaconne.ru/product/3971520/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный магазин Chaconne.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "identificationStatus": "identified",
     "isbn13": "9785353082682",
@@ -40160,8 +40580,16 @@
     "fullDescription": "Сборник объединяет сказки и истории Сергея Михалкова, среди которых «Три поросёнка», «Трусохвостик» и «Праздник непослушания». У каждого произведения самостоятельные герои и сюжет.",
     "whyRecommended": "Если ребёнок любит сказки и стихи и сюжеты о природе, книга подойдёт ему в возрасте 6–11 лет. Она подходит для самостоятельного или совместного чтения.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/1005554/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/1005554/",
+      "temporary": true,
+      "attribution": "Обложка опубликована в книжном каталоге «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9556
     },
     "identificationStatus": "provisional",
     "isbn13": null,
@@ -41866,8 +42294,16 @@
     "fullDescription": "В книгу вошли стихи, сказки и другие произведения З. Александрова; Александр Сергеевич Пушкин. Состав издания объединяет короткие тексты для чтения вслух и более длинные сюжетные произведения.",
     "whyRecommended": "Если ребёнок любит сказки и стихи и сюжеты о природе и волшебстве, книга подойдёт ему в возрасте 6–11 лет. Она подходит для самостоятельного или совместного чтения.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://content.img-gorod.ru/pim/products/images/01/39/018eed1b-a601-73f0-96c5-5203af3e0139.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Читай-город»",
+      "sourcePageUrl": "https://www.chitai-gorod.ru/product/vse-skazki-i-stihi-dlya-detskogo-sada-3003118",
+      "temporary": true,
+      "attribution": "Обложка: Книжный магазин «Читай-город».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "identificationStatus": "identified",
     "isbn13": "9785353086079",
@@ -43187,8 +43623,16 @@
     "fullDescription": "Сборник сказок Л. Сидорова. В издание вошли фантастические и бытовые сюжеты с чудесными превращениями, животными и другими сказочными героями.",
     "whyRecommended": "Подойдёт читателям 6–11 лет, которые любят сказки. В книге затрагиваются темы волшебства.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/424680/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/424680/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный магазин «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "identificationStatus": "identified",
     "isbn13": "9785170835560",
@@ -44517,8 +44961,16 @@
     "fullDescription": "Сборник сказок Ирина Явчуновская. В издание вошли фантастические и бытовые сюжеты с чудесными превращениями, животными и другими сказочными героями.",
     "whyRecommended": "Подойдёт читателям 6–12 лет, которые любят сказки. В книге затрагиваются темы волшебства.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000837974/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство АСТ",
+      "sourcePageUrl": "https://ast.ru/book/skazki-matushki-gusyni-837974/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "identificationStatus": "identified",
     "isbn13": "9785985753349",
@@ -44681,8 +45133,16 @@
     "fullDescription": "Бедный Ванька получает волшебное кольцо, которое исполняет желания. Вместе с необычными помощниками он пытается устроить свою жизнь и добиться справедливости.",
     "whyRecommended": "Для читателей 6–11 лет это сказка о волшебстве. Книгу можно выбрать для самостоятельного или совместного чтения.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/521786/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/521786/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный магазин «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "identificationStatus": "identified",
     "isbn13": "9785902326137",
@@ -45765,8 +46225,16 @@
     "fullDescription": "Избранные стихи, сказки и истории Даниила Хармса.",
     "whyRecommended": "Для читателей 6–11 лет это поэзия о волшебстве. Книгу можно выбрать для самостоятельного или совместного чтения.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://api.azbooka.ru/upload/iblock/930/93076301666a641e3eac0b2c2646736c.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Махаон»",
+      "sourcePageUrl": "https://azbooka.ru/books/bolshaya-kniga-stikhov-skazok-i-vesyelykh-istoriy",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "identificationStatus": "provisional",
     "isbn13": null,
@@ -46136,8 +46604,16 @@
     "fullDescription": "Русские народные сказки и потешки.",
     "whyRecommended": "Если ребёнок любит сказки и стихи и сюжеты о волшебстве, книга подойдёт ему в возрасте 5–9 лет. Она подходит для самостоятельного или совместного чтения.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/200549/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/200549/",
+      "temporary": true,
+      "attribution": "Обложка опубликована в книжном каталоге «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9556
     },
     "identificationStatus": "identified",
     "isbn13": "9785389006072",
@@ -46523,8 +46999,16 @@
     "fullDescription": "Повествование прослеживает происхождение чувашского народа и его историю от древних булгарских племён до современности. Отдельные главы посвящены поселениям, ремёслам, языку, быту, культуре и известным представителям народа.",
     "whyRecommended": "Если ребёнок любит реалистическую прозу и сюжеты о истории, книга подойдёт ему в возрасте 7–12 лет. Она подходит для самостоятельного или совместного чтения.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://chuvbook.ru/assets/components/phpthumbof/cache/izdana-kniga-povestvovanie-o-c.6ca6815f94a40fa8299b454a66e104e3.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Чувашское книжное издательство",
+      "sourcePageUrl": "https://chuvbook.ru/news/archieve/izdana-kniga-povestvovanie-o-chuvashakh-elenyi-enkki",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "identificationStatus": "provisional",
     "isbn13": null,
@@ -47295,8 +47779,16 @@
     "fullDescription": "Миша и Даня запускают бумажного змея, и обычная игра становится началом общего приключения. Мальчикам приходится действовать вместе, когда змей уносит их дальше задуманного.",
     "whyRecommended": "Для читателей 7–12 лет это реалистическая проза о культурном разнообразии. Книгу можно выбрать для самостоятельного или совместного чтения.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/312491/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/312491/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный магазин «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "identificationStatus": "identified",
     "isbn13": "9785751610159",
@@ -47472,8 +47964,16 @@
     "fullDescription": "Средневековые западноевропейские легенды в пересказе для детей.",
     "whyRecommended": "Подойдёт читателям 7–12 лет, которые любят сказки. В книге затрагиваются темы культурного разнообразия.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://files.books.ru/pic/49001-50000/49778/49778.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный каталог Books.ru",
+      "sourcePageUrl": "https://www.books.ru/books/legendy-srednevekovya-49778/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный каталог Books.ru.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "identificationStatus": "provisional",
     "isbn13": null,
@@ -47652,8 +48152,16 @@
     "fullDescription": "Слон Мартин живёт среди людей и ведёт себя не так, как от него ожидают окружающие. Герой сталкивается с обидами и трудностями, но не скрывает своих чувств.",
     "whyRecommended": "Если ребёнок любит реалистическую прозу и сюжеты о животных и эмоциях, книга подойдёт ему в возрасте 6–11 лет. Она подходит для самостоятельного или совместного чтения.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/488982/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/488982/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный магазин «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "identificationStatus": "identified",
     "isbn13": "9785990581043",
@@ -47829,8 +48337,16 @@
     "fullDescription": "Три поросёнка строят себе дома из разных материалов. Когда приходит волк, каждому приходится проверить, насколько надёжно его жилище.",
     "whyRecommended": "Для читателей 3–7 лет это сказка о культурном разнообразии и животных. Книгу можно выбрать для самостоятельного или совместного чтения.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/156841/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/156841/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный магазин «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "identificationStatus": "identified",
     "isbn13": "9785378005604",
@@ -48416,8 +48932,16 @@
     "fullDescription": "Поросёнок Пётр собирается в гости и отправляется в дорогу. Простая поездка превращается в короткое абсурдное приключение.",
     "whyRecommended": "Если ребёнок любит реалистическую прозу и сюжеты о животных, книга подойдёт ему в возрасте 7–12 лет. Она подходит для самостоятельного или совместного чтения.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://fantlab.ru/images/editions/big/98134",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Библиографический каталог FantLab",
+      "sourcePageUrl": "https://fantlab.ru/edition98134",
+      "temporary": true,
+      "attribution": "Обложка: Библиографический каталог FantLab.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "identificationStatus": "provisional",
     "isbn13": null,
@@ -48981,8 +49505,16 @@
     "fullDescription": "Сборник пересказывает древние мифы народов Казахстана. В них появляются боги, герои, животные и объяснения происхождения мира и природных явлений.",
     "whyRecommended": "Если ребёнок любит сказки и сюжеты о культурном разнообразии, книга подойдёт ему в возрасте 7–12 лет. Она подходит для самостоятельного или совместного чтения.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://fantlab.ru/images/editions/big/70318",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Библиографический каталог FantLab",
+      "sourcePageUrl": "https://fantlab.ru/edition70318",
+      "temporary": true,
+      "attribution": "Обложка: Библиографический каталог FantLab.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "identificationStatus": "identified",
     "isbn13": "9789965260735",
@@ -50139,8 +50671,16 @@
     "fullDescription": "Сборник японских сказок в пересказе Веры Марковой. В историях действуют люди, животные и волшебные существа, а знакомые бытовые ситуации соседствуют с чудесами.",
     "whyRecommended": "Для читателей 7–12 лет это сказка о культурном разнообразии и волшебстве. Книгу можно выбрать для самостоятельного или совместного чтения.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/598150/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/598150/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный магазин «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "identificationStatus": "identified",
     "isbn13": "9785910452248",
@@ -52627,8 +53167,16 @@
     "fullDescription": "Волк снова пытается догнать Зайца, но каждая погоня заканчивается новой неудачей. В книгу вошли истории по мотивам знакомых мультфильмов.",
     "whyRecommended": "Подойдёт читателям 7–12 лет, которые любят реалистическую прозу. В книге затрагиваются темы отношений.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://fantlab.ru/images/editions/big/436671",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Библиографический каталог FantLab",
+      "sourcePageUrl": "https://fantlab.ru/edition436671",
+      "temporary": true,
+      "attribution": "Обложка: Библиографический каталог FantLab.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "identificationStatus": "provisional",
     "isbn13": null,
@@ -56366,8 +56914,16 @@
     "fullDescription": "Знакомая сказка о Колобке получает новую версию, в которой события и герои оказываются не совсем такими, как принято рассказывать. Автор играет с ожиданиями читателя.",
     "whyRecommended": "Если ребёнок любит реалистическую прозу и сюжеты о отношениях, книга подойдёт ему в возрасте 6–11 лет. Она подходит для самостоятельного или совместного чтения.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://cdnn21.img.ria.ru/images/sharing/article/910210532.jpg?9102064411352460461",
+      "rightsStatus": "external-display-only",
+      "sourceName": "РИА Новости, обложка предоставлена издательством «Росмэн»",
+      "sourcePageUrl": "https://ria.ru/20121109/910210532.html",
+      "temporary": true,
+      "attribution": "Обложка: РИА Новости, обложка предоставлена издательством «Росмэн».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "identificationStatus": "identified",
     "isbn13": "9785353059707",
@@ -56749,8 +57305,16 @@
     "fullDescription": "Маленький герой рождается в семье великана и пытается найти своё место среди тех, кто намного крупнее его. Разница в росте становится источником испытаний и неожиданных решений.",
     "whyRecommended": "Если ребёнок любит реалистическую прозу и сюжеты о отношениях, книга подойдёт ему в возрасте 6–11 лет. Она подходит для самостоятельного или совместного чтения.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/230883/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/230883/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный магазин «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "identificationStatus": "provisional",
     "isbn13": null,
@@ -57052,8 +57616,16 @@
     "fullDescription": "Обычные семейные события в рассказах Олега Кургузова превращаются в смешные приключения. Ребёнок наблюдает за взрослыми и по-своему объясняет их поступки.",
     "whyRecommended": "Подойдёт читателям 6–11 лет, которые любят реалистическую прозу. В книге затрагиваются темы отношений.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://files.books.ru/pic/820001-821000/820256/000820256_1.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный каталог Books.ru",
+      "sourcePageUrl": "https://www.books.ru/books/solntse-na-potolke-820256/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный каталог Books.ru.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "identificationStatus": "provisional",
     "isbn13": null,
@@ -57213,8 +57785,16 @@
     "fullDescription": "Сборник пересказывает русские былины о богатырях. Герои защищают города, сражаются с противниками и отправляются в дальние походы.",
     "whyRecommended": "Подойдёт читателям 7–12 лет, которые любят реалистическую прозу. В книге затрагиваются темы отношений.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/958273/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/958273/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный магазин «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "identificationStatus": "identified",
     "isbn13": "9785389004986",
@@ -58132,8 +58712,16 @@
     "fullDescription": "Карандаш и Самоделкин отправляются на остров, где их ждут необычные жители и опасные испытания. Друзья используют рисунки, изобретения и взаимную помощь.",
     "whyRecommended": "Если ребёнок любит реалистическую прозу и сюжеты о отношениях, книга подойдёт ему в возрасте 6–11 лет. Она подходит для самостоятельного или совместного чтения.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://fantlab.ru/images/editions/big/75840",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Библиографический каталог FantLab",
+      "sourcePageUrl": "https://fantlab.ru/edition75840",
+      "temporary": true,
+      "attribution": "Обложка: Библиографический каталог FantLab.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "identificationStatus": "provisional",
     "isbn13": null,
@@ -60026,8 +60614,16 @@
     "fullDescription": "Сборник новогодних стихов, песенок и коротких историй для чтения перед праздником. Герои готовят ёлку, ждут Деда Мороза и встречают Новый год.",
     "whyRecommended": "Для читателей 6–11 лет это поэзия о отношениях. Книгу можно выбрать для самостоятельного или совместного чтения.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/213707/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/213707/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный магазин «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "identificationStatus": "identified",
     "isbn13": "9785389006751",
@@ -60591,8 +61187,16 @@
     "fullDescription": "Милиционер Вася Куролесов участвует в расследованиях и сталкивается с хитрыми преступниками. Три повести соединяют детективную интригу, погоню и юмор.",
     "whyRecommended": "Для читателей 6–11 лет это реалистическая проза о отношениях и детективе. Книгу можно выбрать для самостоятельного или совместного чтения.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/590000/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/590000/",
+      "temporary": true,
+      "attribution": "Обложка опубликована в книжном каталоге «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9569
     },
     "identificationStatus": "identified",
     "isbn13": "9785990626164",
@@ -60773,8 +61377,16 @@
     "fullDescription": "Азбука знакомит с буквами через стихи, словесные игры и персонажа Буку. Каждая буква становится поводом для отдельной короткой сценки.",
     "whyRecommended": "Для читателей 6–11 лет это реалистическая проза о отношениях. Книгу можно выбрать для самостоятельного или совместного чтения.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/316952/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/316952/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный магазин «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "identificationStatus": "identified",
     "isbn13": "9785389020023",
@@ -61888,8 +62500,16 @@
     "fullDescription": "Большой сборник объединяет повести, рассказы, стихи и пьесы Эдуарда Успенского. В нём встречаются Чебурашка, жители Простоквашина и другие герои автора.",
     "whyRecommended": "Для читателей 6–11 лет это реалистическая проза о животных. Книгу можно выбрать для самостоятельного или совместного чтения.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://fantlab.ru/images/editions/big/197800",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Библиографический каталог FantLab",
+      "sourcePageUrl": "https://fantlab.ru/edition197800",
+      "temporary": true,
+      "attribution": "Обложка: Библиографический каталог FantLab.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "identificationStatus": "provisional",
     "isbn13": null,
@@ -62430,8 +63050,16 @@
     "fullDescription": "В книгу вошли загадки Е. А. Нёмысова. Короткие рифмованные тексты предлагают узнать предметы, животных и явления по их признакам.",
     "whyRecommended": "Если ребёнок любит стихи и сюжеты о взрослении, книга подойдёт ему в возрасте 7–12 лет. Она подходит для самостоятельного или совместного чтения.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://elib.slib.ru/images/knigi_dlya_detej/nemysova_kayukova_hantyjskie_zagadki_na_kazymskom_i_surgutskom_dialektah_2007_1.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Электронная библиотека МБУК ЦБС",
+      "sourcePageUrl": "https://elib.slib.ru/poeziya-proza/knigi-dlya-detej/nemysova-e-a-khantyjskie-zagadki",
+      "temporary": true,
+      "attribution": "Обложка: Электронная библиотека МБУК ЦБС.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "identificationStatus": "identified",
     "isbn13": "9785902499213",
@@ -62599,8 +63227,16 @@
     "fullDescription": "Маленькие обезьянки убегают от мамы и устраивают переполох в городе. Их игры и попытки помочь окружающим обычно заканчиваются неожиданно.",
     "whyRecommended": "Для читателей 6–11 лет это реалистическая проза о отношениях. Книгу можно выбрать для самостоятельного или совместного чтения.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000827017/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство АСТ",
+      "sourcePageUrl": "https://ast.ru/book/pro-vesyelykh-obezyanok-i-drugie-skazki-827017/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "identificationStatus": "provisional",
     "isbn13": null,
@@ -63314,8 +63950,16 @@
     "fullDescription": "Историческая повесть посвящена жизни святого Георгия Победоносца. В ней описаны его военная служба, испытания, подвиги и чудеса, а также то, как почитание Георгия распространилось на Руси.",
     "whyRecommended": "Для читателей 7–12 лет это реалистическая проза о отношениях. Книгу можно выбрать для самостоятельного или совместного чтения.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/288607/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/288607/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный магазин «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "identificationStatus": "provisional",
     "isbn13": null,
@@ -63473,8 +64117,16 @@
     "fullDescription": "Молодой авантюрист Цезарь Великолепный путешествует по Имперской России вместе с другом Августом и корабельной кошкой, разыскивая отца. Поломка летающего корабля заставляет их приземлиться возле промышленного Ставрополя и искать способ продолжить путь.",
     "whyRecommended": "Если ребёнок любит фэнтези и сюжеты о отношениях, книга подойдёт ему в возрасте 7–12 лет. Она подходит для самостоятельного или совместного чтения.",
     "cover": {
-      "kind": "placeholder",
-      "rightsStatus": "not-required"
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/561030/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/561030/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный магазин «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "identificationStatus": "identified",
     "isbn13": "9785990870901",
@@ -75197,6 +75849,19 @@
     "lengthCategory": "long",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
+    "cover": {
+      "kind": "external",
+      "url": "https://samokatbook.ru/upload/resize_cache/iblock/8b2/1024_1024_1/8b2853bf921080a642c01197fdf4099e.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Самокат»",
+      "sourcePageUrl": "https://samokatbook.ru/book/dnevnik-kota-ubiytsy-vse-istorii/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835,
+      "isbn13": "9785001673941"
+    },
     "annotationProvenance": {
       "source": "Издательство «Самокат»",
       "sourceUrl": "https://samokatbook.ru/book/dnevnik-kota-ubiytsy-vse-istorii/",
@@ -84582,6 +85247,18 @@
     "lengthCategory": "medium",
     "sensitiveTopics": [],
     "sensitiveTopicsReviewed": false,
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2015/09/social-fb-book-035-346x475.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/jane-lisa-i-ya/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
     "annotationProvenance": {
       "source": "Издательство «Белая ворона»",
       "sourceUrl": "https://albuscorvus.ru/product/jane-lisa-i-ya/",
@@ -144217,7 +144894,19 @@
     "author": "Бьёрн Рёрвик",
     "ageLabel": "4–8 лет",
     "whyRecommended": "Подойдёт читателям 4–8 лет, которые любят реалистическую прозу. В книге затрагиваются темы дружбы, животных и природы.",
-    "language": "ru"
+    "language": "ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://samokatbook.ru/upload/resize_cache/iblock/58c/375_1000_1/58c068d627ad4cec2a32d1bc8418fb67.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Самокат»",
+      "sourcePageUrl": "https://samokatbook.ru/book/akuliska-vrag-rediski-i-drugie-istorii-o-lise-i-porosenke/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    }
   },
   {
     "id": "curated-nen-collection-stihi-mashi-rupasovoy-masha-rupasova",
@@ -144642,7 +145331,19 @@
     "author": "Бригит Венингер",
     "ageLabel": "3–12 лет",
     "whyRecommended": "Для читателей 3–12 лет это юмор о дружбе, семье и животных. Книгу можно выбрать для самостоятельного или совместного чтения.",
-    "language": "ru"
+    "language": "ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/583540/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/583540/",
+      "temporary": true,
+      "attribution": "Обложка опубликована в книжном каталоге «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9556
+    }
   },
   {
     "id": "curated-nen-collection-korolevstvo-krivyh-zerkal-vitaliy-gubarev",
@@ -145592,7 +146293,19 @@
     "author": "Мариам Кордес",
     "ageLabel": "1–10 лет",
     "whyRecommended": "Для читателей 1–10 лет это реалистическая проза о дружбе, животных и отношениях. Книгу можно выбрать для самостоятельного или совместного чтения.",
-    "language": "ru"
+    "language": "ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/812653/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/812653/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный магазин «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    }
   },
   {
     "id": "curated-nen-collection-spat-kak-tigr-masha-lukashkina",
@@ -145873,7 +146586,19 @@
     "author": "Дойл Малахия",
     "ageLabel": "1–10 лет",
     "whyRecommended": "Для читателей 1–10 лет это реалистическая проза о семье, природе и путешествиях. Книгу можно выбрать для самостоятельного или совместного чтения.",
-    "language": "ru"
+    "language": "ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/799583/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/799583/",
+      "temporary": true,
+      "attribution": "Обложка опубликована в книжном каталоге «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9569
+    }
   },
   {
     "id": "curated-nen-collection-idi-poigray-s-tem-malchikom-klementina-bove",
@@ -146159,7 +146884,19 @@
     "author": "Антон Соя",
     "ageLabel": "1–10 лет",
     "whyRecommended": "Для читателей 1–10 лет это приключения о животных, природе и путешествиях. Книгу можно выбрать для самостоятельного или совместного чтения.",
-    "language": "ru"
+    "language": "ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://rosman.ru/upload/iblock/8d7/t1tbhb6wzbaxourva7q6qihto0kxea15.jpeg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Росмэн»",
+      "sourcePageUrl": "https://rosman.ru/catalog/pingvikingi_soya_a_/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    }
   },
   {
     "id": "curated-nen-collection-shkola-v-karmartene-anna-korosteleva",
@@ -146357,7 +147094,19 @@
     "author": "Эрленд Лу",
     "ageLabel": "12–17 лет",
     "whyRecommended": "Для читателей 12–17 лет это реалистическая проза о семье, путешествиях и приключениях. Книгу можно выбрать для самостоятельного чтения.",
-    "language": "ru"
+    "language": "ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/187465/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/187465/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный магазин «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    }
   },
   {
     "id": "curated-nen-collection-zhutko-gromko-i-zapredelno-blizko-safran-foer",
@@ -146716,7 +147465,19 @@
     "author": "Нил Шустерман",
     "ageLabel": "12–17 лет",
     "whyRecommended": "Подойдёт читателям 12–17 лет, которые любят реалистическую прозу. В книге затрагиваются темы школы и искусства.",
-    "language": "ru"
+    "language": "ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/692010/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/692010/",
+      "temporary": true,
+      "attribution": "Обложка опубликована в книжном каталоге «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9569
+    }
   },
   {
     "id": "curated-nen-collection-devyatnadtsat-minut-dzhodi-pikolt",
@@ -146851,7 +147612,19 @@
     "author": "Робин Роу",
     "ageLabel": "12–17 лет",
     "whyRecommended": "Для читателей 12–17 лет это реалистическая проза о дружбе, школе и животных. Книгу можно выбрать для самостоятельного чтения.",
-    "language": "ru"
+    "language": "ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/683130/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/683130/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный магазин «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    }
   },
   {
     "id": "curated-nen-collection-ulichnyy-kot-po-imeni-bob-dzheyms-bouen",
@@ -148480,7 +149253,19 @@
     "whyRecommended": "Подойдёт читателям 3–6 лет, которые любят реалистическую прозу. В книге затрагиваются темы дружбы и животных.",
     "pages": 32,
     "isbn13": "9785000414880",
-    "language": "ru"
+    "language": "ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://beltz.de/media/50/31/c6/1747048393/9783407754967.jpeg?ts=1784093445",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство Beltz",
+      "sourcePageUrl": "https://beltz.de/kinder-und-jugendbuecher/bilderbuchsuchmaschine/ein-tag-mit-freunden/BEL75496",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    }
   },
   {
     "id": "curated-nen-collection-moya-bolshaya-sibiy-delakrua",
@@ -149121,7 +149906,19 @@
     "author": "Оливье Таллек",
     "ageLabel": "2–7 лет",
     "whyRecommended": "Если ребёнок любит сказки и фэнтези и сюжеты о животных, волшебстве и страхе, книга подойдёт ему в возрасте 2–7 лет. Она подходит для самостоятельного или совместного чтения.",
-    "language": "ru"
+    "language": "ru",
+    "cover": {
+      "kind": "external",
+      "url": "https://samokatbook.ru/upload/resize_cache/iblock/804/1024_1024_1/86qhxg05fjd9tsc49u7hcgee5dyanbuw.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Самокат»",
+      "sourcePageUrl": "https://samokatbook.ru/book/yelka-yulka/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    }
   },
   {
     "id": "curated-nen-collection-v-poiskah-deda-moroza-ann-montel",
@@ -149389,9 +150186,21 @@
       ]
     },
     "status": "published",
-    "author": "Анна Моховая",
+    "author": "Анна Монахова",
     "ageLabel": "2–7 лет",
-    "whyRecommended": "Подойдёт читателям 2–7 лет, которые любят сказки и фэнтези. В книге затрагиваются темы дружбы, природы и волшебства."
+    "whyRecommended": "Подойдёт читателям 2–7 лет, которые любят сказки и фэнтези. В книге затрагиваются темы дружбы, природы и волшебства.",
+    "cover": {
+      "kind": "external",
+      "url": "https://ndc.bookvoed.ru/pim/products/images/37/18/018eed37-aa7c-7313-abec-0331d01c3718.jpg?width=220&height=288&fit=bounds",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Буквоед»",
+      "sourcePageUrl": "https://www.bookvoed.ru/product/vyuzhik-i-upavshaya-zvezda-6792685",
+      "temporary": true,
+      "attribution": "Обложка: Книжный магазин «Буквоед».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    }
   },
   {
     "id": "curated-nen-collection-peschernyy-chelovek-terri-pratchett",

@@ -5,11 +5,13 @@ import { EnrichmentCache } from "./cache.mjs";
 import { mapLimit, verifyImage } from "./http.mjs";
 import { createGoogleBooksSource } from "./sources/google-books.mjs";
 import { createInternetArchiveSource } from "./sources/internet-archive.mjs";
+import { createLabirintSource } from "./sources/labirint.mjs";
 import { createLibraryCatalogSource } from "./sources/library-catalogs.mjs";
 import { createNenEditorialSource } from "./sources/nen-editorial.mjs";
 import { createOfficialPublisherSource } from "./sources/official-publishers.mjs";
 import { createOpenLibrarySource } from "./sources/open-library.mjs";
 import { createWebDiscoverySource } from "./sources/web-discovery.mjs";
+import { createVerifiedWorkPagesSource } from "./sources/verified-work-pages.mjs";
 import { canonicalWork, rankWorkCoverCandidates, workCoverRecord } from "./work-cover-core.mjs";
 import { sameWork } from "./core.mjs";
 
@@ -41,12 +43,14 @@ export async function runWorkCoverEnrichment({ root, concurrency = 3, sourceConc
   const cache = new EnrichmentCache(root, 30);
   await cache.load();
   const sources = sourceAdapters ?? [
+    createVerifiedWorkPagesSource({ root }),
     createNenEditorialSource({ root, workCoverMode: true }),
     createOfficialPublisherSource({ cache, concurrency: sourceConcurrency, root, matchLevel: 3, workCoverMode: true }),
     createGoogleBooksSource({ cache, workCoverMode: true }),
     createOpenLibrarySource({ cache, workCoverMode: true }),
     createInternetArchiveSource({ cache }),
     createLibraryCatalogSource({ cache, concurrency: sourceConcurrency, workCoverMode: true }),
+    createLabirintSource({ cache, concurrency: sourceConcurrency }),
     createWebDiscoverySource({ cache, concurrency: sourceConcurrency, workCoverMode: true }),
   ];
   const sourceFailures = [];
@@ -54,6 +58,7 @@ export async function runWorkCoverEnrichment({ root, concurrency = 3, sourceConc
     try { await source.init?.(); }
     catch (error) { sourceFailures.push({ source: source.key, reason: "source_initialization_failed", error: String(error) }); }
   }
+  const catalogById = new Map(catalog.map((book) => [book.id, book]));
   const occupiedUrls = new Map(catalog.filter((book) => book.cover?.kind === "external" && book.cover.url).map((book) => [book.cover.url, book.id]));
   const missing = catalog.filter((book) => book.cover?.kind !== "external");
   const targets = Number.isInteger(limit) ? missing.slice(0, limit) : missing;
@@ -89,7 +94,13 @@ export async function runWorkCoverEnrichment({ root, concurrency = 3, sourceConc
         continue;
       }
       const owner = occupiedUrls.get(selection.candidate.cover.url);
-      if (owner && owner !== book.id) { duplicateCandidates += 1; candidateDecisions.push({ source: selection.candidate.sourceKey, sourcePageUrl: selection.candidate.sourceUrl, coverUrl: selection.candidate.cover.url, decision: "cover_already_owned", owner }); continue; }
+      const ownerBook = catalogById.get(owner);
+      const sameCanonicalOwner = ownerBook && sameWork(book, { ...ownerBook, authors: [ownerBook.author], evidenceText: ownerBook.author }).matches;
+      if (owner && owner !== book.id && !sameCanonicalOwner) {
+        duplicateCandidates += 1;
+        candidateDecisions.push({ source: selection.candidate.sourceKey, sourcePageUrl: selection.candidate.sourceUrl, coverUrl: selection.candidate.cover.url, decision: "cover_already_owned", owner });
+        continue;
+      }
       if (!await imageVerifier(selection.candidate.cover.url)) { unavailableCandidates += 1; candidateDecisions.push({ source: selection.candidate.sourceKey, sourcePageUrl: selection.candidate.sourceUrl, coverUrl: selection.candidate.cover.url, decision: "image_unavailable" }); continue; }
       accepted = selection;
       candidateDecisions.push({ source: selection.candidate.sourceKey, sourcePageUrl: selection.candidate.sourceUrl, coverUrl: selection.candidate.cover.url, decision: "accepted" });
@@ -133,6 +144,10 @@ export async function runWorkCoverEnrichment({ root, concurrency = 3, sourceConc
   }
   const finalCatalog = dryRun ? catalog : await readJson(catalogPath, catalog);
   const appliedChanges = changes.filter((item) => finalCatalog.some((book) => book.id === item.id && book.cover?.url === item.coverUrl));
+  const finalCoveredIds = new Set(finalCatalog.filter((book) => book.cover?.kind === "external").map((book) => book.id));
+  const remainingOutcomes = outcomes.filter((item) => !finalCoveredIds.has(item.id)).map((item) => (
+    item.reason === "cover_added" ? { ...item, reason: "cover_not_applied" } : item
+  ));
   const report = {
     generatedAt: new Date().toISOString(),
     algorithm: "canonical_work_official_cover_v1",
@@ -141,10 +156,10 @@ export async function runWorkCoverEnrichment({ root, concurrency = 3, sourceConc
       coversAdded: appliedChanges.length,
       remainingWithoutCover: finalCatalog.filter((book) => book.cover?.kind !== "external").length,
     },
-    remainingReasons: countReasons(outcomes.filter((item) => item.reason !== "cover_added")),
+    remainingReasons: countReasons(remainingOutcomes),
     sourceFailures,
     changes: appliedChanges,
-    remaining: outcomes.filter((item) => item.reason !== "cover_added"),
+    remaining: remainingOutcomes,
   };
   if (!dryRun) await writeJsonAtomic(reportPath, report);
   return report;

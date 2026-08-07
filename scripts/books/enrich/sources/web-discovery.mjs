@@ -44,7 +44,7 @@ export function createWebDiscoverySource({ cache, concurrency = 2, workCoverMode
   return {
     key: "web-discovery", priority: 55, coverageComplete: () => false,
     async search(book) {
-      const cacheKey = workCoverMode ? "web-discovery:canonical-work-cover-v4" : "web-discovery:v3-duckduckgo-bing";
+      const cacheKey = workCoverMode ? "web-discovery:canonical-work-cover-v5" : "web-discovery:v3-duckduckgo-bing";
       const cached = cache?.get(cacheKey, book);
       if (cached) return cached;
       const queries = !workCoverMode && book.isbn13

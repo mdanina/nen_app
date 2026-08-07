@@ -2841,21 +2841,30 @@
     "id": "ol-ol2577056w",
     "cover": {
       "kind": "external",
-      "url": "https://detlit.ru/images/detailed/12477/181f15e7158911e980cd00505684449c_7de32926522711ea80df00505684449c.jpg",
+      "url": "https://imo10.labirint.ru/books/205385/cover.jpg/484-0",
       "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Детская литература»",
-      "sourcePageUrl": "https://detlit.ru/shb-priklyucheniya-odisseya/",
-      "isbn13": null,
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/205385/",
       "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
-      "verifiedAt": "2026-07-28"
+      "attribution": "Обложка опубликована в книжном каталоге «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9569
     },
     "match": {
-      "strategy": "official_page_title_author",
-      "confidence": 0.99,
-      "titleMatch": 1,
-      "authorMatch": true,
-      "isbnExact": false
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9569,
+      "matchedTitle": "Приключения Одиссея. Троянская война и ее герои : Елена Тудоровская",
+      "matchedAuthors": [
+        "Е. А. Тудоровская"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
     }
   },
   {
@@ -2980,20 +2989,20 @@
     "id": "nen-060",
     "cover": {
       "kind": "external",
-      "url": "https://samokatbook.ru/upload/resize_cache/iblock/ccf/1024_1024_1/ccf39a01ed86f749441fe0e84a44d34e.jpg",
+      "url": "https://imo10.labirint.ru/books/668542/cover.jpg/484-0",
       "rightsStatus": "external-display-only",
-      "sourceName": "Издательство «Самокат»",
-      "sourcePageUrl": "https://samokatbook.ru/book/komissar-gordon-pervoe-delo/",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/668542/",
       "temporary": true,
-      "attribution": "Обложка предоставлена издательством.",
+      "attribution": "Обложка опубликована в книжном каталоге «Лабиринт».",
       "verifiedAt": "2026-08-07",
       "assignmentMethod": "canonical_work_official_cover",
-      "assignmentConfidence": 0.9835
+      "assignmentConfidence": 0.9569
     },
     "match": {
       "strategy": "canonical_title_aliases_and_author",
-      "confidence": 0.9835,
-      "matchedTitle": "Комиссар Гордон. Первое дело",
+      "confidence": 0.9569,
+      "matchedTitle": "Комиссар Гордон. Первое дело : Ульф Нильсон",
       "matchedAuthors": [
         "Ульф Нильсон"
       ]
@@ -5041,21 +5050,30 @@
     "id": "ol-ol3398755w",
     "cover": {
       "kind": "external",
-      "url": "https://www.books.ru/static/images/item_no_cover.png",
+      "url": "https://imo10.labirint.ru/books/632739/cover.jpg/484-0",
       "rightsStatus": "external-display-only",
-      "sourceName": "books.ru",
-      "sourcePageUrl": "https://www.books.ru/books/delfinii-ostrov-4858750/",
-      "isbn13": null,
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/632739/",
       "temporary": true,
-      "attribution": "Обложка опубликована в карточке современного издания.",
-      "verifiedAt": "2026-07-28"
+      "attribution": "Обложка опубликована в книжном каталоге «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9569
     },
     "match": {
-      "strategy": "official_page_exact_isbn",
-      "confidence": 1,
-      "titleMatch": 1,
-      "authorMatch": true,
-      "isbnExact": true
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9569,
+      "matchedTitle": "Дельфиний остров : Святослав Сахарнов",
+      "matchedAuthors": [
+        "С. Сахарнов"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
     }
   },
   {
@@ -19231,19 +19249,19 @@
     "id": "curated-nen-collection-letniy-den-s-druzyami-filip-vehter",
     "cover": {
       "kind": "external",
-      "url": "https://n-e-n.ru/images/2022-10-11/63452598e4d5f_0x0.jpg",
+      "url": "https://beltz.de/media/50/31/c6/1747048393/9783407754967.jpeg?ts=1784093445",
       "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/novinki-dlya-shkolnikov/",
+      "sourceName": "Издательство Beltz",
+      "sourcePageUrl": "https://beltz.de/kinder-und-jugendbuecher/bilderbuchsuchmaschine/ein-tag-mit-freunden/BEL75496",
       "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
+      "attribution": "Обложка предоставлена издательством.",
       "verifiedAt": "2026-08-07",
       "assignmentMethod": "canonical_work_official_cover",
-      "assignmentConfidence": 0.99
+      "assignmentConfidence": 0.9835
     },
     "match": {
       "strategy": "canonical_title_aliases_and_author",
-      "confidence": 0.99,
+      "confidence": 0.9835,
       "matchedTitle": "Летний день с друзьями",
       "matchedAuthors": [
         "Филип Вехтер"
@@ -19284,19 +19302,19 @@
     "id": "curated-nen-collection-pro-lisa-i-porosenka-bern-rervik",
     "cover": {
       "kind": "external",
-      "url": "https://n-e-n.ru/images/2025-11-12/69147102ed4ee_1040x720.jpg",
+      "url": "https://samokatbook.ru/upload/resize_cache/iblock/58c/375_1000_1/58c068d627ad4cec2a32d1bc8418fb67.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
+      "sourceName": "Издательство «Самокат»",
+      "sourcePageUrl": "https://samokatbook.ru/book/akuliska-vrag-rediski-i-drugie-istorii-o-lise-i-porosenke/",
       "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
+      "attribution": "Обложка предоставлена издательством.",
       "verifiedAt": "2026-08-07",
       "assignmentMethod": "canonical_work_official_cover",
-      "assignmentConfidence": 0.99
+      "assignmentConfidence": 0.9835
     },
     "match": {
       "strategy": "canonical_title_aliases_and_author",
-      "confidence": 0.99,
+      "confidence": 0.9835,
       "matchedTitle": "Про Лиса и Поросенка",
       "matchedAuthors": [
         "Бьёрн Рёрвик"
@@ -19337,23 +19355,21 @@
     "id": "curated-nen-collection-odin-za-vseh-i-vse-za-odnogo-brigit-veninger",
     "cover": {
       "kind": "external",
-      "url": "https://n-e-n.ru/images/2020-12-28/5fe9e619d35f6_0x0.jpg",
+      "url": "https://imo10.labirint.ru/books/583540/cover.jpg/484-0",
       "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/thebestbooksforchildren2020/",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/583540/",
       "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
+      "attribution": "Обложка опубликована в книжном каталоге «Лабиринт».",
       "verifiedAt": "2026-08-07",
       "assignmentMethod": "canonical_work_official_cover",
-      "assignmentConfidence": 0.99
+      "assignmentConfidence": 0.9556
     },
     "match": {
       "strategy": "canonical_title_aliases_and_author",
-      "confidence": 0.99,
-      "matchedTitle": "Один за всех и все за одного",
-      "matchedAuthors": [
-        "Бригит Венингер"
-      ]
+      "confidence": 0.9556,
+      "matchedTitle": "Один за всех и все за одного : Бригитта Венингер",
+      "matchedAuthors": []
     },
     "verification": {
       "imageVerified": true,
@@ -19549,23 +19565,30 @@
     "id": "curated-nen-collection-vernye-druzya-mariam-kordes",
     "cover": {
       "kind": "external",
-      "url": "https://n-e-n.ru/images/2021-10-07/615ede5ada5ef_0x0.jpg",
+      "url": "https://imo10.labirint.ru/books/812653/cover.jpg/484-0",
       "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/812653/",
       "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
+      "attribution": "Обложка: Книжный магазин «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "match": {
-      "strategy": "work_title_author",
-      "confidence": 0.99
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Верные друзья",
+      "matchedAuthors": [
+        "Мариам Кордес"
+      ]
     },
     "verification": {
       "imageVerified": true,
-      "sameEdition": false,
+      "canonicalWorkMatched": true,
       "titleMatched": true,
-      "authorMatched": true
+      "authorMatched": true,
+      "editionIndependent": true
     }
   },
   {
@@ -19595,23 +19618,30 @@
     "id": "curated-nen-collection-molli-i-shtormovoe-more-doyl-malahiya",
     "cover": {
       "kind": "external",
-      "url": "https://n-e-n.ru/images/2021-10-07/615edf8a3be1a_0x0.jpg",
+      "url": "https://imo10.labirint.ru/books/799583/cover.jpg/484-0",
       "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/799583/",
       "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
+      "attribution": "Обложка опубликована в книжном каталоге «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9569
     },
     "match": {
-      "strategy": "work_title_author",
-      "confidence": 0.99
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9569,
+      "matchedTitle": "Молли и штормовое море : Малахия Дойл",
+      "matchedAuthors": [
+        "Дойл Малахия"
+      ]
     },
     "verification": {
       "imageVerified": true,
-      "sameEdition": false,
+      "canonicalWorkMatched": true,
       "titleMatched": true,
-      "authorMatched": true
+      "authorMatched": true,
+      "editionIndependent": true
     }
   },
   {
@@ -19644,23 +19674,30 @@
     "id": "curated-nen-collection-pingvikingi-anton-soya",
     "cover": {
       "kind": "external",
-      "url": "https://n-e-n.ru/images/2021-10-07/615ee05f2ff74_0x0.jpg",
+      "url": "https://rosman.ru/upload/iblock/8d7/t1tbhb6wzbaxourva7q6qihto0kxea15.jpeg",
       "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/tenbestbooksforchildren/",
+      "sourceName": "Издательство «Росмэн»",
+      "sourcePageUrl": "https://rosman.ru/catalog/pingvikingi_soya_a_/",
       "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "match": {
-      "strategy": "work_title_author",
-      "confidence": 0.99
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Пингвикинги",
+      "matchedAuthors": [
+        "Антон Соя"
+      ]
     },
     "verification": {
       "imageVerified": true,
-      "sameEdition": false,
+      "canonicalWorkMatched": true,
       "titleMatched": true,
-      "authorMatched": true
+      "authorMatched": true,
+      "editionIndependent": true
     }
   },
   {
@@ -19697,19 +19734,19 @@
     "id": "curated-nen-collection-muley-erlend-lu",
     "cover": {
       "kind": "external",
-      "url": "https://n-e-n.ru/images/2024-11-15/67372ad32d6e7_0x0.jpg",
+      "url": "https://imo10.labirint.ru/books/187465/cover.jpg/484-0",
       "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/187465/",
       "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
+      "attribution": "Обложка: Книжный магазин «Лабиринт».",
       "verifiedAt": "2026-08-07",
       "assignmentMethod": "canonical_work_official_cover",
-      "assignmentConfidence": 0.99
+      "assignmentConfidence": 0.9835
     },
     "match": {
       "strategy": "canonical_title_aliases_and_author",
-      "confidence": 0.99,
+      "confidence": 0.9835,
       "matchedTitle": "Мулей",
       "matchedAuthors": [
         "Эрленд Лу"
@@ -19817,20 +19854,20 @@
     "id": "curated-nen-collection-bezdna-chellendzhera-nil-shusterman",
     "cover": {
       "kind": "external",
-      "url": "https://n-e-n.ru/images/2024-11-15/67372b02c74ed_0x0.jpg",
+      "url": "https://imo10.labirint.ru/books/692010/cover.jpg/484-0",
       "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/692010/",
       "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
+      "attribution": "Обложка опубликована в книжном каталоге «Лабиринт».",
       "verifiedAt": "2026-08-07",
       "assignmentMethod": "canonical_work_official_cover",
-      "assignmentConfidence": 0.99
+      "assignmentConfidence": 0.9569
     },
     "match": {
       "strategy": "canonical_title_aliases_and_author",
-      "confidence": 0.99,
-      "matchedTitle": "Бездна Челленджера",
+      "confidence": 0.9569,
+      "matchedTitle": "Бездна Челленджера : Нил Шустерман",
       "matchedAuthors": [
         "Нил Шустерман"
       ]
@@ -19847,19 +19884,19 @@
     "id": "curated-nen-collection-ptitsa-v-kletke-robin-rou",
     "cover": {
       "kind": "external",
-      "url": "https://n-e-n.ru/images/2024-11-15/67372b10b866d_0x0.jpg",
+      "url": "https://imo10.labirint.ru/books/683130/cover.jpg/484-0",
       "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/683130/",
       "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
+      "attribution": "Обложка: Книжный магазин «Лабиринт».",
       "verifiedAt": "2026-08-07",
       "assignmentMethod": "canonical_work_official_cover",
-      "assignmentConfidence": 0.99
+      "assignmentConfidence": 0.9835
     },
     "match": {
       "strategy": "canonical_title_aliases_and_author",
-      "confidence": 0.99,
+      "confidence": 0.9835,
       "matchedTitle": "Птица в клетке",
       "matchedAuthors": [
         "Робин Роу"
@@ -20280,23 +20317,30 @@
     "id": "curated-nen-collection-elka-yulka-olive-tallek",
     "cover": {
       "kind": "external",
-      "url": "https://n-e-n.ru/images/2025-11-12/69147102ed4ee_1040x720.jpg",
+      "url": "https://samokatbook.ru/upload/resize_cache/iblock/804/1024_1024_1/86qhxg05fjd9tsc49u7hcgee5dyanbuw.jpg",
       "rightsStatus": "external-display-only",
-      "sourceName": "НЭН",
-      "sourcePageUrl": "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/",
+      "sourceName": "Издательство «Самокат»",
+      "sourcePageUrl": "https://samokatbook.ru/book/yelka-yulka/",
       "temporary": true,
-      "attribution": "Обложка из редакционного материала НЭН.",
-      "verifiedAt": "2026-08-04"
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
     },
     "match": {
-      "strategy": "work_title_author",
-      "confidence": 0.99
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Ёлка Юлька",
+      "matchedAuthors": [
+        "Оливье Таллек"
+      ]
     },
     "verification": {
       "imageVerified": true,
-      "sameEdition": false,
+      "canonicalWorkMatched": true,
       "titleMatched": true,
-      "authorMatched": true
+      "authorMatched": true,
+      "editionIndependent": true
     }
   },
   {
@@ -23140,6 +23184,2315 @@
       "matchedTitle": "Детектив Самсон",
       "matchedAuthors": [
         "Катерина Горелик"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol2784137w",
+    "cover": {
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/842225/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/842225/",
+      "temporary": true,
+      "attribution": "Обложка опубликована в книжном каталоге «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9569
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9569,
+      "matchedTitle": "Цыпленок",
+      "matchedAuthors": [
+        "Сергей Козлов"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol19931441w",
+    "cover": {
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/545307/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/545307/",
+      "temporary": true,
+      "attribution": "Обложка опубликована в книжном каталоге «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9569
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9569,
+      "matchedTitle": "Сказки для малышей про зверей : Бианки, Михалков, Ушинский",
+      "matchedAuthors": [
+        "Константин Дмитриевич Ушинский"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol44294375w",
+    "cover": {
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/779506/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/779506/",
+      "temporary": true,
+      "attribution": "Обложка опубликована в книжном каталоге «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9569
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9569,
+      "matchedTitle": "Приключения дяди Лёвы в румынских степях : Янец Леви",
+      "matchedAuthors": [
+        "Янец Леви; Янив Шимони"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol45311343w",
+    "cover": {
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/590000/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/590000/",
+      "temporary": true,
+      "attribution": "Обложка опубликована в книжном каталоге «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9569
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9569,
+      "matchedTitle": "Три повести о Васе Куролесове : Юрий Коваль",
+      "matchedAuthors": [
+        "Юрий Коваль"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "nen-008",
+    "cover": {
+      "kind": "external",
+      "url": "https://covers.openlibrary.org/b/id/10728003-L.jpg?default=false",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Open Library",
+      "sourcePageUrl": "https://openlibrary.org/works/OL24247252W",
+      "temporary": true,
+      "attribution": "Обложка: Open Library",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9285
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9285,
+      "matchedTitle": "Aladdin ou La lampe merveilleuse",
+      "matchedAuthors": [
+        "Laurent Berman",
+        "Antoine Galland"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol11388697w",
+    "cover": {
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/989544/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/989544/",
+      "temporary": true,
+      "attribution": "Обложка опубликована в книжном каталоге «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9556
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9556,
+      "matchedTitle": "Морской охотник : Николай Чуковский",
+      "matchedAuthors": []
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol1306134w",
+    "cover": {
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/840679/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/840679/",
+      "temporary": true,
+      "attribution": "Обложка опубликована в книжном каталоге «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9556
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9556,
+      "matchedTitle": "Рассказы и сказки : Виталий Бианки",
+      "matchedAuthors": []
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol20025742w",
+    "cover": {
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/463171/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/463171/",
+      "temporary": true,
+      "attribution": "Обложка опубликована в книжном каталоге «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9556
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9556,
+      "matchedTitle": "Во-первых и во-вторых : Даниил Хармс",
+      "matchedAuthors": [
+        "Хармс Даниил Иванович Художник Глазауэр Вилли Издательство Карьера Пресс , 2015 ID товара 463171"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol623358w",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/AST000000000039023/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «АСТ»",
+      "sourcePageUrl": "https://ast.ru/book/skazka-o-tsare-saltane-o-syne-ego-slavnom-i-moguchem-bogatyre-knyaze-gvidone-salta-039023/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9618
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9618,
+      "matchedTitle": "Сказка о царе Салтане, о сыне его славном и могучем богатыре князе Гвидоне Салта",
+      "matchedAuthors": [
+        "Александр Сергеевич Пушкин"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol10339221w",
+    "cover": {
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/1005554/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/1005554/",
+      "temporary": true,
+      "attribution": "Обложка опубликована в книжном каталоге «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9556
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9556,
+      "matchedTitle": "Три поросёнка. Сказки : Сергей Михалков",
+      "matchedAuthors": []
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol19944755w",
+    "cover": {
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/200549/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/200549/",
+      "temporary": true,
+      "attribution": "Обложка опубликована в книжном каталоге «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9556
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9556,
+      "matchedTitle": "Русские сказки",
+      "matchedAuthors": []
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "nen-bv2-142",
+    "cover": {
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/600362/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/600362/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный магазин «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Я хочу в школу!",
+      "matchedAuthors": [
+        "Андрей Жвалевский",
+        "Евгения Пастернак"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "nen-010",
+    "cover": {
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/738932/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/738932/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный магазин «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Ма Лян и волшебная кисть",
+      "matchedAuthors": [
+        "Хун Сюньтао"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "nen-bv2-161",
+    "cover": {
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/236628/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/236628/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный магазин «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Когда отдыхают ангелы",
+      "matchedAuthors": [
+        "Марина Аромштам"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "curated-whitecrow-dzheyn-lisa-i-ya-jane-lisa-i-ya",
+    "cover": {
+      "kind": "external",
+      "url": "https://albuscorvus.ru/wp-content/uploads/2015/09/social-fb-book-035-346x475.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Белая ворона»",
+      "sourcePageUrl": "https://albuscorvus.ru/product/jane-lisa-i-ya/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Джейн, лиса и&nbsp;я",
+      "matchedAuthors": [
+        "Изабель Арсено; Фанни Бритт"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "curated-nen-collection-vyuzhik-i-upavshaya-zvezda-anna-mohovaya",
+    "cover": {
+      "kind": "external",
+      "url": "https://ndc.bookvoed.ru/pim/products/images/37/18/018eed37-aa7c-7313-abec-0331d01c3718.jpg?width=220&height=288&fit=bounds",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Буквоед»",
+      "sourcePageUrl": "https://www.bookvoed.ru/product/vyuzhik-i-upavshaya-zvezda-6792685",
+      "temporary": true,
+      "attribution": "Обложка: Книжный магазин «Буквоед».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Вьюжик и упавшая звезда",
+      "matchedAuthors": [
+        "Анна Монахова"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "nen-bv2-159",
+    "cover": {
+      "kind": "external",
+      "url": "https://www.mann-ivanov-ferber.ru/assets/images/covers/51/25951/2.00x-thumb.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «МИФ»",
+      "sourcePageUrl": "https://www.mann-ivanov-ferber.ru/catalog/product/amulet-kniga-pervaya-hranitel-kamnya/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Амулет. Хранительница камня",
+      "matchedAuthors": [
+        "Кадзу Кибуиси"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "nen-061",
+    "cover": {
+      "kind": "external",
+      "url": "https://books.google.com/books/content?id=9YrxzQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Google Books",
+      "sourcePageUrl": "https://books.google.com/books/about/The_Dinosaur_Department_Store.html?id=9YrxzQEACAAJ",
+      "temporary": true,
+      "attribution": "Обложка: Google Books.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Универмаг динозавров",
+      "matchedAuthors": [
+        "Лили Мюррей"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol19742114w",
+    "cover": {
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/524033/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/524033/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный магазин «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Повторение пройденного",
+      "matchedAuthors": [
+        "Тамара Крюкова"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol20030843w",
+    "cover": {
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/500986/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/500986/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный магазин «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Как Ёжик с Медвежонком протирали звезды",
+      "matchedAuthors": [
+        "Сергей Козлов"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol13647786w",
+    "cover": {
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/541683/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/541683/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный магазин «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Мой дом на колёсах",
+      "matchedAuthors": [
+        "Наталья Дурова"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol20043982w",
+    "cover": {
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/533508/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/533508/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный магазин «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Папа, мама, и я",
+      "matchedAuthors": [
+        "Виктор Драгунский"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol20058937w",
+    "cover": {
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/731394/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/731394/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный магазин «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Русская пленница французского кота",
+      "matchedAuthors": [
+        "Игорь Жуков"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol2256574w",
+    "cover": {
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/521786/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/521786/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный магазин «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Волшебное кольцо",
+      "matchedAuthors": [
+        "Борис Шергин"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol43509234w",
+    "cover": {
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/488982/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/488982/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный магазин «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Мартин не плачет",
+      "matchedAuthors": [
+        "Линор Горалик"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol5186967w",
+    "cover": {
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/230883/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/230883/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный магазин «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Лилипут-сын великана",
+      "matchedAuthors": [
+        "Альберт Иванов"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol19962766w",
+    "cover": {
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/316952/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/316952/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный магазин «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Азбука для Буки",
+      "matchedAuthors": [
+        "Андрей Усачёв"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol32525747w",
+    "cover": {
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/561030/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/561030/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный магазин «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Цезарь Великолепный",
+      "matchedAuthors": [
+        "Алёна Спиридонова"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol11483415w",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.litres.ru/pub/c/cover/163822.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "ЛитРес",
+      "sourcePageUrl": "https://www.litres.ru/book/ludmila-ulickaya/istoriya-pro-vorobya-antverpena-kota-miheeva-stoletnika-v-163822/",
+      "temporary": true,
+      "attribution": "Обложка: ЛитРес.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "История про воробья Антверпена, кота Михеева, столетника Васю и сороконожку Марью Семеновну с семьей",
+      "matchedAuthors": [
+        "Людмила Улицкая"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol12866329w",
+    "cover": {
+      "kind": "external",
+      "url": "https://files.books.ru/pic/554001-555000/554189/000554189.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный каталог Books.ru",
+      "sourcePageUrl": "https://www.books.ru/books/vozdushnye-rybki-vosem-rasskazov-na-lyuboi-vkus-2-e-izdanie-554189/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный каталог Books.ru.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Воздушные рыбки",
+      "matchedAuthors": [
+        "Марина Дяченко"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol19970141w",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdnn21.img.ria.ru/images/sharing/article/910210532.jpg?9102064411352460461",
+      "rightsStatus": "external-display-only",
+      "sourceName": "РИА Новости, обложка предоставлена издательством «Росмэн»",
+      "sourcePageUrl": "https://ria.ru/20121109/910210532.html",
+      "temporary": true,
+      "attribution": "Обложка: РИА Новости, обложка предоставлена издательством «Росмэн».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Правдивая история колобка",
+      "matchedAuthors": [
+        "Андрей Усачёв"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol19970109w",
+    "cover": {
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/356050/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/356050/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный магазин «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Сказки Чудо-дерева",
+      "matchedAuthors": [
+        "Валерий Кастрючин"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol19952256w",
+    "cover": {
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/524388/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/524388/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный магазин «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "На нашем дворе",
+      "matchedAuthors": [
+        "Евгений Чарушин"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol19931764w",
+    "cover": {
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/210224/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/210224/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный магазин «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Всё о больших и маленьких приключениях",
+      "matchedAuthors": [
+        "Борис Житков"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol19935924w",
+    "cover": {
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/174104/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/174104/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный магазин «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Как стать большим и другие истории",
+      "matchedAuthors": [
+        "Геннадий Цыферов"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol20043973w",
+    "cover": {
+      "kind": "external",
+      "url": "https://www.belykrolik.ru/media/catalog/product_images/22980311_1_skok-poskok-hud-vasnetsov-yu.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Белый кролик»",
+      "sourcePageUrl": "https://www.belykrolik.ru/catalog/skok_poskok_ill_ju_vasnecova-g22980311/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный магазин «Белый кролик».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Скок-поскок",
+      "matchedAuthors": [
+        "Юрий Васнецов"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol19936377w",
+    "cover": {
+      "kind": "external",
+      "url": "https://files.books.ru/pic/172001-173000/172249/172249.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный каталог Books.ru",
+      "sourcePageUrl": "https://www.books.ru/books/dobryi-volk-172249/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный каталог Books.ru.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Добрый волк",
+      "matchedAuthors": [
+        "Марк Тарловский"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol31578033w",
+    "cover": {
+      "kind": "external",
+      "url": "https://ndc.bookvoed.ru/pim/products/images/e6/23/018eda8d-39a5-7858-9690-dd034d58e623.jpg?width=220&height=288&fit=bounds",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Буквоед»",
+      "sourcePageUrl": "https://www.bookvoed.ru/product/domovenok-foka-i-ego-druzya-upravsa-hukkapa-unan-tusesem-7581300",
+      "temporary": true,
+      "attribution": "Обложка: Книжный магазин «Буквоед».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Домовёнок Фока и его друзья",
+      "matchedAuthors": [
+        "Андрей Растворцев"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol19940727w",
+    "cover": {
+      "kind": "external",
+      "url": "https://files.books.ru/pic/698001-699000/698517/698517_1.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный каталог Books.ru",
+      "sourcePageUrl": "https://www.books.ru/books/nichut-ne-strashno-i-drugie-skazki-698517/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный каталог Books.ru.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Ничуть не страшно и другие сказки",
+      "matchedAuthors": [
+        "Андрей Кириллов"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol20016949w",
+    "cover": {
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/958273/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/958273/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный магазин «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Русские богатыри",
+      "matchedAuthors": [
+        "Ирина Карнаухова"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol19952239w",
+    "cover": {
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/598150/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/598150/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный магазин «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Журавлиные перья",
+      "matchedAuthors": [
+        "Вера Маркова"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "nen-009",
+    "cover": {
+      "kind": "external",
+      "url": "https://store.fukuinkan.co.jp/cdn/shop/files/0039.jpg?v=1747707002&width=1920",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Фукуинкан Сётэн»",
+      "sourcePageUrl": "https://store.fukuinkan.co.jp/products/%E3%82%82%E3%82%82%E3%81%9F%E3%82%8D%E3%81%86",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Момотаро",
+      "matchedAuthors": [
+        "Японская народная сказка"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol19734608w",
+    "cover": {
+      "kind": "external",
+      "url": "https://img.chaconne.ru/img/3971520_843041.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин Chaconne",
+      "sourcePageUrl": "https://chaconne.ru/product/3971520/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный магазин Chaconne.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Три медведя",
+      "matchedAuthors": [
+        "Н. И. Котятова",
+        "Т. В. Баринова"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol23834945w",
+    "cover": {
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/288607/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/288607/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный магазин «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Смиренный воин",
+      "matchedAuthors": [
+        "Георгий Юдин"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol12719103w",
+    "cover": {
+      "kind": "external",
+      "url": "https://fantlab.ru/images/editions/big/303219",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Библиографический каталог FantLab",
+      "sourcePageUrl": "https://fantlab.ru/edition303219",
+      "temporary": true,
+      "attribution": "Обложка: Библиографический каталог FantLab.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "История одного поросенка",
+      "matchedAuthors": [
+        "Юрий Выннычук"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol4263283w",
+    "cover": {
+      "kind": "external",
+      "url": "https://fantlab.ru/images/editions/big/245173",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Библиографический каталог FantLab",
+      "sourcePageUrl": "https://fantlab.ru/edition245173",
+      "temporary": true,
+      "attribution": "Обложка: Библиографический каталог FantLab.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Терем-теремок и другие сказки",
+      "matchedAuthors": [
+        "Владимир Сутеев"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol6080944w",
+    "cover": {
+      "kind": "external",
+      "url": "https://fantlab.ru/images/editions/big/64205?r=1492544193",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Библиографический каталог FantLab",
+      "sourcePageUrl": "https://fantlab.ru/edition64205",
+      "temporary": true,
+      "attribution": "Обложка: Библиографический каталог FantLab.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Похищение продавца приключений",
+      "matchedAuthors": [
+        "Георгий Садовников"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol11225343w",
+    "cover": {
+      "kind": "external",
+      "url": "https://fantlab.ru/images/editions/big/98134",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Библиографический каталог FantLab",
+      "sourcePageUrl": "https://fantlab.ru/edition98134",
+      "temporary": true,
+      "attribution": "Обложка: Библиографический каталог FantLab.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Поросёнок Пётр едет в гости",
+      "matchedAuthors": [
+        "Людмила Петрушевская"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol13738508w",
+    "cover": {
+      "kind": "external",
+      "url": "https://fantlab.ru/images/editions/big/75840",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Библиографический каталог FantLab",
+      "sourcePageUrl": "https://fantlab.ru/edition75840",
+      "temporary": true,
+      "attribution": "Обложка: Библиографический каталог FantLab.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Карандаш и Самоделкин на острове необычайных приключений",
+      "matchedAuthors": [
+        "Валентин Постников"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol13713535w",
+    "cover": {
+      "kind": "external",
+      "url": "https://fantlab.ru/images/editions/big/197800",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Библиографический каталог FantLab",
+      "sourcePageUrl": "https://fantlab.ru/edition197800",
+      "temporary": true,
+      "attribution": "Обложка: Библиографический каталог FantLab.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Общее собрание героев, повестей, рассказов, стихотворений и пьес",
+      "matchedAuthors": [
+        "Эдуард Успенский"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol19978419w",
+    "cover": {
+      "kind": "external",
+      "url": "https://fantlab.ru/images/editions/big/36637",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Библиографический каталог FantLab",
+      "sourcePageUrl": "https://fantlab.ru/edition36637",
+      "temporary": true,
+      "attribution": "Обложка: Библиографический каталог FantLab.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Большая собачья книга",
+      "matchedAuthors": [
+        "В. Н. Белоусов",
+        "М. В. Белоусова"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol23852447w",
+    "cover": {
+      "kind": "external",
+      "url": "https://books.fan/assets/books/imgs/7830/27830.webp",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный каталог Books.Fan",
+      "sourcePageUrl": "https://books.fan/book/kazieva-marina/skazka-v-russkoj-zivopisi/27830",
+      "temporary": true,
+      "attribution": "Обложка: Книжный каталог Books.Fan.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Сказка в русской живописи",
+      "matchedAuthors": [
+        "Марина Казиева"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol19978791w",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.insales-shop.ru/images/products/1/377/3011682681/44614603.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Питер»",
+      "sourcePageUrl": "https://www.piter.com/collection/all/product/progulki-po-detskomu-peterburgu-obnovlyonnoe-izdanie",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Прогулки по детскому Петербургу",
+      "matchedAuthors": [
+        "Ольга Феофанова"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol24010186w",
+    "cover": {
+      "kind": "external",
+      "url": "https://api.bookmate.ru/assets/books-covers/a9/8e/NIotybuA-ipad.png?image_hash=60a1fff7948183c17d35a537b962275e",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Яндекс Книги",
+      "sourcePageUrl": "https://books.yandex.ru/books/NIotybuA/read-online",
+      "temporary": true,
+      "attribution": "Обложка: Яндекс Книги.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Легенды, были и сказки Крыма для детей",
+      "matchedAuthors": [
+        "Евгений Белоусов"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol11764672w",
+    "cover": {
+      "kind": "external",
+      "url": "https://www.jrccbookstore.org/wp-content/uploads/2021/06/Volshebnaya_Hanukiya.gif",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Официальный книжный магазин JRCC",
+      "sourcePageUrl": "https://www.jrccbookstore.org/ru/product/magic-menorah/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Волшебная Ханукия",
+      "matchedAuthors": [
+        "Хава-Броха Корзакова"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol6007209w",
+    "cover": {
+      "kind": "external",
+      "url": "https://chuvbook.ru/assets/components/phpthumbof/cache/izdana-kniga-povestvovanie-o-c.6ca6815f94a40fa8299b454a66e104e3.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Чувашское книжное издательство",
+      "sourcePageUrl": "https://chuvbook.ru/news/archieve/izdana-kniga-povestvovanie-o-chuvashakh-elenyi-enkki",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Повествование о чувашах",
+      "matchedAuthors": [
+        "Елена Енькка"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol19747024w",
+    "cover": {
+      "kind": "external",
+      "url": "https://content.img-gorod.ru/pim/products/images/01/39/018eed1b-a601-73f0-96c5-5203af3e0139.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Читай-город»",
+      "sourcePageUrl": "https://www.chitai-gorod.ru/product/vse-skazki-i-stihi-dlya-detskogo-sada-3003118",
+      "temporary": true,
+      "attribution": "Обложка: Книжный магазин «Читай-город».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Все сказки и стихи для детского сада",
+      "matchedAuthors": [
+        "З. Александрова",
+        "Александр Сергеевич Пушкин"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol19935840w",
+    "cover": {
+      "kind": "external",
+      "url": "https://fantlab.ru/images/editions/big/43258",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Библиографический каталог FantLab",
+      "sourcePageUrl": "https://fantlab.ru/edition43258",
+      "temporary": true,
+      "attribution": "Обложка: Библиографический каталог FantLab.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Хрестоматия детской классики",
+      "matchedAuthors": [
+        "В. Рябченко"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol19978428w",
+    "cover": {
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/424680/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/424680/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный магазин «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Лучшие сказки на ночь",
+      "matchedAuthors": [
+        "Л. Сидорова"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol12849951w",
+    "cover": {
+      "kind": "external",
+      "url": "https://fantlab.ru/images/editions/big/202847",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Библиографический каталог FantLab",
+      "sourcePageUrl": "https://fantlab.ru/edition202847",
+      "temporary": true,
+      "attribution": "Обложка: Библиографический каталог FantLab.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Визгкультура, или, семейная качалка",
+      "matchedAuthors": [
+        "Григорий Остер"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol3803771w",
+    "cover": {
+      "kind": "external",
+      "url": "https://search.rsl.ru/img/header-main-ru.png",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Российская государственная библиотека",
+      "sourcePageUrl": "https://search.rsl.ru/ru/record/01002374373",
+      "temporary": true,
+      "attribution": "Обложка: Российская государственная библиотека.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Хор охотников",
+      "matchedAuthors": [
+        "Г. Скребицкий"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol35588586w",
+    "cover": {
+      "kind": "external",
+      "url": "https://fantlab.ru/images/editions/big/70318",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Библиографический каталог FantLab",
+      "sourcePageUrl": "https://fantlab.ru/edition70318",
+      "temporary": true,
+      "attribution": "Обложка: Библиографический каталог FantLab.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Мифы Древнего Казахстана",
+      "matchedAuthors": [
+        "Орынбай Жанайдаров"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol13746366w",
+    "cover": {
+      "kind": "external",
+      "url": "https://fantlab.ru/images/editions/big/436671",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Библиографический каталог FantLab",
+      "sourcePageUrl": "https://fantlab.ru/edition436671",
+      "temporary": true,
+      "attribution": "Обложка: Библиографический каталог FantLab.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Ну, погоди!",
+      "matchedAuthors": [
+        "Федор Камов"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol869549w",
+    "cover": {
+      "kind": "external",
+      "url": "https://files.books.ru/pic/820001-821000/820256/000820256_1.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный каталог Books.ru",
+      "sourcePageUrl": "https://www.books.ru/books/solntse-na-potolke-820256/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный каталог Books.ru.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Солнце на потолке",
+      "matchedAuthors": [
+        "Олег Кургузов"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol22792562w",
+    "cover": {
+      "kind": "external",
+      "url": "https://elib.slib.ru/images/knigi_dlya_detej/nemysova_kayukova_hantyjskie_zagadki_na_kazymskom_i_surgutskom_dialektah_2007_1.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Электронная библиотека МБУК ЦБС",
+      "sourcePageUrl": "https://elib.slib.ru/poeziya-proza/knigi-dlya-detej/nemysova-e-a-khantyjskie-zagadki",
+      "temporary": true,
+      "attribution": "Обложка: Электронная библиотека МБУК ЦБС.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Хантыйские загадки",
+      "matchedAuthors": [
+        "Е. А. Нёмысова"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol19734609w",
+    "cover": {
+      "kind": "external",
+      "url": "https://img.chaconne.ru/img/3945903_740407.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Чакона»",
+      "sourcePageUrl": "https://chaconne.ru/product/3945903/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный магазин «Чакона».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Волк и козлята",
+      "matchedAuthors": [
+        "Н. И. Котятова",
+        "Т. В. Баринова"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol19734604w",
+    "cover": {
+      "kind": "external",
+      "url": "https://img.chaconne.ru/img/4191172_1031112.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Чакона»",
+      "sourcePageUrl": "https://chaconne.ru/product/4191172/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный магазин «Чакона».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Кот в сапогах",
+      "matchedAuthors": [
+        "Н. И. Котятова",
+        "Т. В. Баринова"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol43971155w",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000837974/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство АСТ",
+      "sourcePageUrl": "https://ast.ru/book/skazki-matushki-gusyni-837974/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Сказки Матушки Гусыни",
+      "matchedAuthors": [
+        "Ирина Явчуновская"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol13735521w",
+    "cover": {
+      "kind": "external",
+      "url": "https://files.books.ru/pic/49001-50000/49778/49778.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный каталог Books.ru",
+      "sourcePageUrl": "https://www.books.ru/books/legendy-srednevekovya-49778/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный каталог Books.ru.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Легенды Средневековья",
+      "matchedAuthors": [
+        "Н. Гарская"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol19952281w",
+    "cover": {
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/213707/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/213707/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный магазин «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Мы встречаем Новыи год!",
+      "matchedAuthors": [
+        "Илья Григорьевич Савченко"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol20015192w",
+    "cover": {
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/156841/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/156841/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный магазин «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Три поросенка",
+      "matchedAuthors": [
+        "Е. Смирнова"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol13736457w",
+    "cover": {
+      "kind": "external",
+      "url": "https://kniga3000.ru/files/artist/m/muhanova_elena_evgenevna/novaya_skazka_1999/novaya_skazka_01_small.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Библиографический каталог «Книга-3000»",
+      "sourcePageUrl": "https://kniga3000.ru/book27",
+      "temporary": true,
+      "attribution": "Обложка: Библиографический каталог «Книга-3000».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Новая сказка",
+      "matchedAuthors": [
+        "Дмитрий Цветков"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol32513596w",
+    "cover": {
+      "kind": "external",
+      "url": "https://samokatbook.ru/upload/resize_cache/iblock/215/375_1000_1/215f655a1e72c5eb18c25e16bdf04ecf.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Самокат»",
+      "sourcePageUrl": "https://samokatbook.ru/book/deti-vorona/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Ленинградские сказки",
+      "matchedAuthors": [
+        "Юлия Яковлева"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol865257w",
+    "cover": {
+      "kind": "external",
+      "url": "https://api.azbooka.ru/upload/iblock/930/93076301666a641e3eac0b2c2646736c.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство «Махаон»",
+      "sourcePageUrl": "https://azbooka.ru/books/bolshaya-kniga-stikhov-skazok-i-vesyelykh-istoriy",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Стихи, сказки, занимательные истории",
+      "matchedAuthors": [
+        "Даниил Хармс"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol12849949w",
+    "cover": {
+      "kind": "external",
+      "url": "https://cdn.ast.ru/v2/ASE000000000827017/COVER/cover1__w340.jpg",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Издательство АСТ",
+      "sourcePageUrl": "https://ast.ru/book/pro-vesyelykh-obezyanok-i-drugie-skazki-827017/",
+      "temporary": true,
+      "attribution": "Обложка предоставлена издательством.",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Обезьянки младшего возраста",
+      "matchedAuthors": [
+        "Григорий Остер"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol39493108w",
+    "cover": {
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/312491/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/312491/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный магазин «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "История про Мишу, Даню и бумажного змея",
+      "matchedAuthors": [
+        "Светлана Шенбрунн"
+      ]
+    },
+    "verification": {
+      "imageVerified": true,
+      "canonicalWorkMatched": true,
+      "titleMatched": true,
+      "authorMatched": true,
+      "editionIndependent": true
+    }
+  },
+  {
+    "id": "ol-ol4721004w",
+    "cover": {
+      "kind": "external",
+      "url": "https://imo10.labirint.ru/books/592040/cover.jpg/484-0",
+      "rightsStatus": "external-display-only",
+      "sourceName": "Книжный магазин «Лабиринт»",
+      "sourcePageUrl": "https://www.labirint.ru/books/592040/",
+      "temporary": true,
+      "attribution": "Обложка: Книжный магазин «Лабиринт».",
+      "verifiedAt": "2026-08-07",
+      "assignmentMethod": "canonical_work_official_cover",
+      "assignmentConfidence": 0.9835
+    },
+    "match": {
+      "strategy": "canonical_title_aliases_and_author",
+      "confidence": 0.9835,
+      "matchedTitle": "Владимир Красное Солнышко",
+      "matchedAuthors": [
+        "Ф. В. Домбровский"
       ]
     },
     "verification": {

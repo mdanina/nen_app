@@ -1,6 +1,8 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 import { canonicalWork, rankWorkCoverCandidates, workCoverRecord } from "./work-cover-core.mjs";
+import { workTitles } from "./core.mjs";
+import { labirintProductLinks } from "./sources/labirint.mjs";
 
 const book = {
   id: "book-1",
@@ -11,6 +13,19 @@ const book = {
   publisher: "Старое издательство",
   publicationYear: 2009,
 };
+
+test("labirint product search keeps unique book pages", () => {
+  const html = '<a href="/books/600362/">Книга</a><a href="/books/600362/">Дубль</a><a href="/books/42/">Ещё</a>';
+  assert.deepEqual(labirintProductLinks(html), [
+    "https://www.labirint.ru/books/600362/",
+    "https://www.labirint.ru/books/42/",
+  ]);
+});
+
+test("work titles include a standalone work named before a collection tail", () => {
+  assert.ok(workTitles({ title: "Сказка о царе Салтане, о сыне его славном и могучем" }).includes("Сказка о царе Салтане"));
+  assert.ok(workTitles({ title: "Три поросёнка; Трусохвостик; Одноглазый дрозд" }).includes("Три поросёнка"));
+});
 
 test("verified official title is a canonical work alias", () => {
   const work = canonicalWork({
@@ -35,6 +50,17 @@ test("canonical work matches a transliterated foreign author surname", () => {
     authors: ["Don Freeman"],
     sourceUrl: "https://www.penguinrandomhouse.com/books/748913/corduroy-by-don-freeman/",
     cover: { official: true, url: "https://images.penguinrandomhouse.com/cover/9780451470799" },
+  })]);
+  assert.equal(ranked.length, 1);
+});
+
+test("canonical work accepts an official edition naming one principal contributor", () => {
+  const collaborativeWork = canonicalWork({ id: "aladdin", title: "Аладдин и волшебная лампа", author: "Ханна Дияб; Антуан Галлан" });
+  const ranked = rankWorkCoverCandidates(collaborativeWork, [candidate({
+    title: "Аладдин и волшебная лампа",
+    authors: ["Антуан Галлан"],
+    sourceUrl: "https://publisher.example/aladdin",
+    cover: { official: true, url: "https://publisher.example/aladdin.jpg" },
   })]);
   assert.equal(ranked.length, 1);
 });

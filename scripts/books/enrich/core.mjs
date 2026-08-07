@@ -18,12 +18,23 @@ export function titleTokens(value = "") {
 }
 
 export function workTitles(book = {}) {
-  const titles = [
+  const supplied = [
     book.title,
     book.originalTitle,
     ...(book.alternativeTitles ?? []),
     ...(book.sourceMetadata?.alternativeTitles ?? []),
   ].map((value) => String(value ?? "").trim()).filter(Boolean);
+  const compactAliases = supplied.flatMap((title) => {
+    const aliases = [];
+    const firstListedWork = title.split(/\s*;\s*/u)[0]?.trim();
+    const leadingWork = title.split(/\s*,\s*(?:о|или)\s+/iu)[0]?.trim();
+    const withoutCollectionTail = title.replace(/\s+(?:и\s+)?друг(?:ие|ая|ой)\s+(?:истории|сказки|рассказы|произведения).*$/iu, "").trim();
+    for (const alias of [firstListedWork, leadingWork, withoutCollectionTail]) {
+      if (alias && alias !== title && titleTokens(alias).length >= 2) aliases.push(alias);
+    }
+    return aliases;
+  });
+  const titles = [...new Set([...supplied, ...compactAliases])];
   return [...new Set([...titles, ...titles.map(transliterateRussian)])];
 }
 
@@ -37,7 +48,7 @@ export function titleScore(left, right) {
   const rightSet = new Set(titleTokens(b));
   const oneEditApart = (first, second) => {
     if (first === second) return true;
-    if (Math.min(first.length, second.length) < 5 || Math.abs(first.length - second.length) > 1) return false;
+    if (Math.min(first.length, second.length) < 3 || Math.abs(first.length - second.length) > 1) return false;
     let previous = Array.from({ length: second.length + 1 }, (_, index) => index);
     for (let i = 1; i <= first.length; i += 1) {
       const current = [i];
@@ -87,6 +98,12 @@ export function authorMatches(bookAuthor, candidateAuthors = [], evidence = "") 
   });
 }
 
+export function workAuthorMatches(bookAuthor, candidateAuthors = [], evidence = "") {
+  const contributors = String(bookAuthor ?? "").split(/\s*;\s*/u).filter(Boolean);
+  if (contributors.length <= 1) return authorMatches(bookAuthor, candidateAuthors, evidence);
+  return contributors.some((contributor) => authorMatches(contributor, candidateAuthors, evidence));
+}
+
 export function authorMatchesNearTitle(bookAuthor, sourceTitle, evidence = "") {
   const haystack = normalize(evidence);
   const title = normalize(sourceTitle);
@@ -127,7 +144,7 @@ export function normalizeLanguage(value) {
 
 export function sameWork(book, candidate) {
   const score = Math.max(...workTitles(book).map((title) => titleScore(title, candidate.title)), 0);
-  const authorMatch = authorMatches(book.author, candidate.authors, candidate.evidenceText);
+  const authorMatch = workAuthorMatches(book.author, candidate.authors, candidate.evidenceText);
   const bookTitle = normalize(book.title);
   const candidateTitle = normalize(candidate.title);
   const collectionExpansion = /(?:^| )(?:и другие|все|сборник)(?: |$)/u.test(candidateTitle)
