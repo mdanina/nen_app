@@ -1,5 +1,5 @@
 packages:
   - "apps/*"
   - "packages/*"
-neverBuiltDependencies:
-  - tesseract.js
+allowBuilds:
+  tesseract.js: true
