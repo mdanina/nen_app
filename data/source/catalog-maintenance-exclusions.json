@@ -1010,5 +1010,103 @@
     "canonicalBookId": "curated-kompasgid-gorod-solntsa-kniga-3-golos-krovi-2-e-izd-gorod-solntsa-kniga-3-golos-krovi-2-e-izd",
     "excludedAt": "2026-08-06",
     "ruleVersion": "maintainable-catalog-1.0.0"
+  },
+  {
+    "id": "ol-ol23178263w",
+    "title": "Однажды звери всех мастей",
+    "author": "Михаил Бельчиков",
+    "reason": "no_verified_book_cover",
+    "excludedAt": "2026-08-08"
+  },
+  {
+    "id": "ol-ol23925164w",
+    "title": "Сказки про хитрую-хитрую рыбу Любу и ведьму Наташу",
+    "author": "Владимир Снарков",
+    "reason": "no_verified_book_cover",
+    "excludedAt": "2026-08-08"
+  },
+  {
+    "id": "ol-ol23311994w",
+    "title": "Солнечный зайчик",
+    "author": "Ирина Белая",
+    "reason": "no_verified_book_cover",
+    "excludedAt": "2026-08-08"
+  },
+  {
+    "id": "ol-ol19952284w",
+    "title": "Любимые стихи и сказки",
+    "author": "Борис Акимович Акулиничев",
+    "reason": "no_verified_book_cover",
+    "excludedAt": "2026-08-08"
+  },
+  {
+    "id": "ol-ol20044016w",
+    "title": "Песенки, стихи, загадки",
+    "author": "Л. М. Карпенко",
+    "reason": "no_verified_book_cover",
+    "excludedAt": "2026-08-08"
+  },
+  {
+    "id": "ol-ol13682862w",
+    "title": "Детский музыкальный фольклор Рязанской области",
+    "author": "Н. Н. Гилярова",
+    "reason": "no_verified_book_cover",
+    "excludedAt": "2026-08-08"
+  },
+  {
+    "id": "ol-ol11630364w",
+    "title": "Необыкновенные приключения школьника Бобки, который изобрёл летающий стул",
+    "author": "Сергей Макаров",
+    "reason": "no_verified_book_cover",
+    "excludedAt": "2026-08-08"
+  },
+  {
+    "id": "ol-ol20044018w",
+    "title": "Русские загадки и сказки о животных",
+    "author": "М. Ф. Коршунова",
+    "reason": "no_verified_book_cover",
+    "excludedAt": "2026-08-08"
+  },
+  {
+    "id": "ol-ol44383671w",
+    "title": "Приключения носорога Солнышко",
+    "author": "Татьяна Соловьева",
+    "reason": "no_verified_book_cover",
+    "excludedAt": "2026-08-08"
+  },
+  {
+    "id": "ol-ol5997389w",
+    "title": "Блохнесское чудовище, или, Жизнь и приключения милиционера Караваева",
+    "author": "Марина Москвина",
+    "reason": "no_verified_book_cover",
+    "excludedAt": "2026-08-08"
+  },
+  {
+    "id": "ol-ol32843984w",
+    "title": "Сказки Ф. Гауфа, Р. Густафсона, повести В. Гауфа, басни И. Хемницера, баллады В. А. Жуковского, стихи М. Ю. Лермонтова в иллюстрациях Дмитрия Митрохина",
+    "author": "Дмитрий Исидорович Митрохин",
+    "reason": "no_verified_book_cover",
+    "excludedAt": "2026-08-08"
+  },
+  {
+    "id": "ol-ol23852449w",
+    "title": "Лучшие детские анекдоты",
+    "author": "Лев Яковлев; Игор Новиков",
+    "reason": "no_verified_book_cover",
+    "excludedAt": "2026-08-08"
+  },
+  {
+    "id": "ol-ol40061329w",
+    "title": "Хранители очага",
+    "author": "Андрей Васильевич Растворцев",
+    "reason": "no_verified_book_cover",
+    "excludedAt": "2026-08-08"
+  },
+  {
+    "id": "curated-nen-collection-shkola-v-karmartene-anna-korosteleva",
+    "title": "Школа в Кармартене",
+    "author": "Анна Коростелева",
+    "reason": "no_verified_book_cover",
+    "excludedAt": "2026-08-08"
   }
 ]

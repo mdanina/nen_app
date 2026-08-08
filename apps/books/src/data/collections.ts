@@ -73,7 +73,6 @@ export const collections: BookCollection[] = [
       description: "Динамичные романы о магии, школе, семье, тайнах и сложном взрослении — для подростков, которым важно, чтобы книга захватила с первых страниц.",
       introduction: "Здесь есть фэнтези, реалистическая проза и напряжённые семейные истории; подборка подойдёт и увлечённым читателям, и тем, кто пока не нашёл свою книгу.",
       bookIds: [
-        "curated-nen-collection-shkola-v-karmartene-anna-korosteleva",
         "curated-nen-collection-zakoldovannaya-zhizn-uinn-dzhons",
         "nen-bv2-140",
         "curated-nen-collection-muley-erlend-lu",

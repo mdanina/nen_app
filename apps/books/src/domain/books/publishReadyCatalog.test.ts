@@ -3,6 +3,7 @@ import productionBooks from "../../../../../data/generated/books.json";
 import curatedPublisherSource from "../../../../../data/source/curated-publisher-books.json";
 import curatedMultiPublisherSource from "../../../../../data/source/curated-multi-publisher-books.json";
 import curatedPriorityPublisherSource from "../../../../../data/source/curated-priority-publisher-books.json";
+import curatedOfficialFictionSource from "../../../../../data/source/curated-official-fiction-books.json";
 import nenCollectionSource from "../../../../../data/source/nen-collection-books.json";
 import importedExclusions from "../../../../../data/source/openlibrary-books-excluded.json";
 import ambiguousReview from "../../../../../data/reports/ambiguous-review.json";
@@ -24,6 +25,7 @@ describe("connected Open Library catalog", () => {
       + curatedPublisherSource.books.length
       + curatedMultiPublisherSource.books.length
       + curatedPriorityPublisherSource.books.length
+      + curatedOfficialFictionSource.books.length
       + nenCollectionSource.books.length
       - maintenanceExclusions.length,
     );

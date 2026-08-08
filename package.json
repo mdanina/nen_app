@@ -21,6 +21,7 @@
     "collections:import:nen": "node scripts/books/import-nen-collection-books.mjs",
     "collections:build": "node scripts/books/build-nen-collections.mjs",
     "catalog:import:priority-publishers": "node scripts/books/import-priority-publishers.mjs",
+    "catalog:import:official-fiction": "node scripts/books/import-official-fiction-catalogs.mjs",
     "import:openlibrary": "node scripts/openlibrary/import-pilot.mjs",
     "import:openlibrary:fixture": "node scripts/openlibrary/import-pilot.mjs --input data/import/openlibrary/fixtures/pilot-fragment.txt --output data/import/openlibrary/pilot --dump-date 2026-07-01 --limit 1000 --seed 20260721 --fixture",
     "import:universal:fixture": "node scripts/openlibrary/import-universal.mjs --input data/import/openlibrary/fixtures/pilot-fragment.txt --output data/import/staging/openlibrary-pilot --retrieved-at 2026-07-21T00:00:00.000Z --batch-id openlibrary-pilot-20260721",

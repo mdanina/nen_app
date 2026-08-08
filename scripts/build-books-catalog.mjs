@@ -13,6 +13,7 @@ const importedExclusionsPath = resolve(root, "data/source/openlibrary-books-excl
 const curatedPublisherPath = resolve(root, "data/source/curated-publisher-books.json");
 const curatedMultiPublisherPath = resolve(root, "data/source/curated-multi-publisher-books.json");
 const curatedPriorityPublisherPath = resolve(root, "data/source/curated-priority-publisher-books.json");
+const curatedOfficialFictionPath = resolve(root, "data/source/curated-official-fiction-books.json");
 const nenCollectionBooksPath = resolve(root, "data/source/nen-collection-books.json");
 const annotationOverridesPath = resolve(root, "data/source/book-annotation-overrides.json");
 const officialCoverOverridesPath = resolve(root, "data/source/official-cover-overrides.json");
@@ -29,6 +30,7 @@ const importedExclusions = JSON.parse(await readFile(importedExclusionsPath, "ut
 const curatedPublisherSource = JSON.parse(await readFile(curatedPublisherPath, "utf8"));
 const curatedMultiPublisherSource = JSON.parse(await readFile(curatedMultiPublisherPath, "utf8"));
 const curatedPriorityPublisherSource = JSON.parse(await readFile(curatedPriorityPublisherPath, "utf8"));
+const curatedOfficialFictionSource = JSON.parse(await readFile(curatedOfficialFictionPath, "utf8"));
 const nenCollectionSource = JSON.parse(await readFile(nenCollectionBooksPath, "utf8"));
 const annotationOverrides = JSON.parse(await readFile(annotationOverridesPath, "utf8"));
 const officialCoverOverrides = JSON.parse(await readFile(officialCoverOverridesPath, "utf8"));
@@ -274,12 +276,14 @@ const curatedPublisherBooks = [
   ...curatedPublisherSource.books,
   ...curatedMultiPublisherSource.books,
   ...curatedPriorityPublisherSource.books,
+  ...curatedOfficialFictionSource.books,
 ].map(curatedPublisherBook);
 const nenCollectionBooks = nenCollectionSource.books.map(nenCollectionBook);
 const enrichmentById = new Map([
   ...curatedPublisherSource.enrichments,
   ...curatedMultiPublisherSource.enrichments,
   ...curatedPriorityPublisherSource.enrichments,
+  ...curatedOfficialFictionSource.enrichments,
 ].map((item) => [item.id, item]));
 function applyPublisherEnrichment(book) {
   const enrichment = enrichmentById.get(book.id);
