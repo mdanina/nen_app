@@ -1,0 +1,283 @@
+{
+  "generatedAt": "2026-07-31T12:10:04.392Z",
+  "strategy": "priority-rightsholders-and-well-known-titles",
+  "pendingBefore": 567,
+  "reviewed": 20,
+  "localized": 12,
+  "officialRussianRelease": 1,
+  "editoriallyConfirmed": 11,
+  "remainingOriginalOnly": 555,
+  "changed": [
+    {
+      "id": "nen-668",
+      "previousTitle": "Zombies",
+      "originalTitle": "Zombies",
+      "title": "З-О-М-Б-И",
+      "year": 2018,
+      "basis": "editorially-confirmed",
+      "sources": [
+        {
+          "name": "Кинопоиск",
+          "url": "https://www.kinopoisk.ru/film/1068115/"
+        }
+      ],
+      "note": "Карточка фиксирует российскую премьеру и русский дубляж."
+    },
+    {
+      "id": "nen-669",
+      "previousTitle": "Zombies 2",
+      "originalTitle": "Zombies 2",
+      "title": "З-О-М-Б-И 2",
+      "year": 2020,
+      "basis": "editorially-confirmed",
+      "sources": [
+        {
+          "name": "Кинопоиск",
+          "url": "https://www.kinopoisk.ru/film/1273167/"
+        }
+      ],
+      "note": "Карточка фиксирует цифровой релиз Walt Disney Company CIS."
+    },
+    {
+      "id": "nen-670",
+      "previousTitle": "Zombies 3",
+      "originalTitle": "Zombies 3",
+      "title": "З-О-М-Б-И 3",
+      "year": 2022,
+      "basis": "editorially-confirmed",
+      "sources": [
+        {
+          "name": "Кинопоиск",
+          "url": "https://www.kinopoisk.ru/film/4522598/"
+        },
+        {
+          "name": "Okko",
+          "url": "https://blog.okko.tv/selections/luchshie-filmi-i-serialy-pro-zombi-2022-goda-ot-frantsuzskoj-komedii-do-disneevskogo-myuzikla"
+        }
+      ]
+    },
+    {
+      "id": "nen-wd-q3519757",
+      "previousTitle": "The Amazing Mr Blunden",
+      "originalTitle": "The Amazing Mr Blunden",
+      "title": "Изумительный мистер Бланден",
+      "year": 1972,
+      "basis": "editorially-confirmed",
+      "sources": [
+        {
+          "name": "Кинопоиск",
+          "url": "https://www.kinopoisk.ru/film/93166/"
+        },
+        {
+          "name": "Афиша",
+          "url": "https://www.afisha.ru/movie/izumitelniy-mister-blanden-188072/"
+        }
+      ],
+      "alternatives": [
+        "Удивительный мистер Бланден"
+      ]
+    },
+    {
+      "id": "nen-wd-q1753929",
+      "previousTitle": "Summer City",
+      "originalTitle": "Summer City",
+      "title": "Жаркое лето",
+      "year": 1977,
+      "basis": "editorially-confirmed",
+      "sources": [
+        {
+          "name": "Кинопоиск",
+          "url": "https://www.kinopoisk.ru/film/15068/"
+        },
+        {
+          "name": "Афиша",
+          "url": "https://www.afisha.ru/movie/zharkoe-leto-198234/"
+        },
+        {
+          "name": "Бюллетень кинопрокатчика",
+          "url": "https://www.kinobusiness.com/movies/zharkoe-leto/"
+        }
+      ]
+    },
+    {
+      "id": "nen-wd-q103791249",
+      "previousTitle": "Angela's Christmas Wish",
+      "originalTitle": "Angela's Christmas Wish",
+      "title": "Рождественское желание Ангелы",
+      "year": 2020,
+      "basis": "editorially-confirmed",
+      "sources": [
+        {
+          "name": "Кинопоиск",
+          "url": "https://www.kinopoisk.ru/film/1447236/"
+        },
+        {
+          "name": "JustWatch",
+          "url": "https://www.justwatch.com/ru/фильм/angelas-christmas-wish"
+        }
+      ],
+      "alternatives": [
+        "Рождественское желание Анджелы"
+      ],
+      "note": "Основной вариант выбран по российскому кинокаталогу."
+    },
+    {
+      "id": "nen-wd-q1604316",
+      "previousTitle": "Mission Odyssey",
+      "originalTitle": "Mission Odyssey",
+      "title": "Миссия Одиссея",
+      "year": 2002,
+      "basis": "editorially-confirmed",
+      "sources": [
+        {
+          "name": "Кинопоиск",
+          "url": "https://www.kinopoisk.ru/series/1006562/"
+        },
+        {
+          "name": "Кинопоиск — каталог сериалов",
+          "url": "https://www.kinopoisk.ru/lists/movies/genre--animation/country--3/?b=series"
+        }
+      ],
+      "note": "Название устойчиво используется в российском каталоге сериала."
+    },
+    {
+      "id": "nen-wd-q15270669",
+      "previousTitle": "The Canterville Ghost",
+      "originalTitle": "The Canterville Ghost",
+      "title": "Кентервильское привидение",
+      "year": 2023,
+      "basis": "official-russian-release",
+      "sources": [
+        {
+          "name": "Бюллетень кинопрокатчика",
+          "url": "https://www.kinometro.ru/release/card/id/48076"
+        },
+        {
+          "name": "Бюллетень кинопрокатчика — карточка фильма",
+          "url": "https://www.kinobusiness.com/movies/kentervilskoe-prividenie23/"
+        },
+        {
+          "name": "Афиша",
+          "url": "https://www.afisha.ru/movie/kentervilskoe-prividenie-273683/"
+        }
+      ],
+      "alternatives": [
+        "Призрак Кентервиля"
+      ],
+      "note": "Российский прокат TenLetters, 7 декабря 2023 года."
+    },
+    {
+      "id": "nen-wd-q2546045",
+      "previousTitle": "The Care Bears Movie",
+      "originalTitle": "The Care Bears Movie",
+      "title": "Заботливые мишки",
+      "year": 1985,
+      "basis": "editorially-confirmed",
+      "sources": [
+        {
+          "name": "Кинопоиск",
+          "url": "https://www.kinopoisk.ru/film/27129/"
+        },
+        {
+          "name": "Русскоязычный каталог франшизы",
+          "url": "https://ru.wikifur.com/wiki/Care_Bears"
+        }
+      ]
+    },
+    {
+      "id": "nen-wd-q522518",
+      "previousTitle": "Franklin et le Trésor du lac",
+      "originalTitle": "Franklin et le Trésor du lac",
+      "title": "Франклин и сокровища Озера Черепахи",
+      "year": 2006,
+      "basis": "editorially-confirmed",
+      "sources": [
+        {
+          "name": "Кинопоиск",
+          "url": "https://www.kinopoisk.ru/film/274956/"
+        }
+      ],
+      "note": "Название соответствует русской карточке известной детской франшизы."
+    },
+    {
+      "id": "nen-wd-q2011263",
+      "previousTitle": "Panique au village",
+      "originalTitle": "Panique au village",
+      "title": "Паника в деревне",
+      "year": 2009,
+      "basis": "editorially-confirmed",
+      "sources": [
+        {
+          "name": "Кинопоиск",
+          "url": "https://www.kinopoisk.ru/film/464296/"
+        },
+        {
+          "name": "Афиша",
+          "url": "https://www.afisha.ru/movie/panika-v-derevne-197026/"
+        }
+      ]
+    },
+    {
+      "id": "nen-wd-q57803374",
+      "previousTitle": "The Farthest",
+      "originalTitle": "The Farthest",
+      "title": "Вояджер: Дальше планет",
+      "year": 2017,
+      "basis": "editorially-confirmed",
+      "sources": [
+        {
+          "name": "Кинопоиск",
+          "url": "https://www.kinopoisk.ru/film/1016418/"
+        },
+        {
+          "name": "Афиша",
+          "url": "https://www.afisha.ru/movie/voyadzher-dalshe-planet-232603/"
+        }
+      ]
+    }
+  ],
+  "requiresManualReview": [
+    {
+      "id": "nen-wd-q106920326",
+      "originalTitle": "Riverdance: The Animated Adventure",
+      "year": 2021
+    },
+    {
+      "id": "nen-wd-q913839",
+      "originalTitle": "Santa Claus: The Movie",
+      "year": 1985
+    },
+    {
+      "id": "nen-wd-q3231246",
+      "originalTitle": "The Care Bears Adventure in Wonderland",
+      "year": 1987
+    },
+    {
+      "id": "nen-wd-q5038848",
+      "originalTitle": "Care Bears Nutcracker Suite",
+      "year": 1988
+    },
+    {
+      "id": "nen-wd-q3280982",
+      "originalTitle": "The Little Bear Movie",
+      "year": 2001
+    },
+    {
+      "id": "nen-wd-q124523835",
+      "originalTitle": "Brave Bunnies",
+      "year": 2021
+    },
+    {
+      "id": "nen-wd-q30898159",
+      "originalTitle": "72 Dangerous Places to Live",
+      "year": 2016
+    },
+    {
+      "id": "nen-wd-q169558",
+      "originalTitle": "Pink Floyd: Live at Pompeii",
+      "year": 1972
+    }
+  ],
+  "skippedRareTitles": 547,
+  "duplicateKeys": []
+}

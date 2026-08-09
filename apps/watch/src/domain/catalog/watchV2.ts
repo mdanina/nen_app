@@ -9,6 +9,7 @@ export type WatchV2Kind =
   | "documentary"
   | "short-film";
 export type RussianAgeRating = "0+" | "6+" | "12+" | "16+" | "18+";
+export type TitleLocalization = "official-ru" | "original-only";
 
 export const WATCH_MOODS = [
   "спокойное", "весёлое", "уютное", "приключенческое", "таинственное",
@@ -71,7 +72,8 @@ interface WatchV2Base {
   id: string;
   slug: string;
   title: string;
-  originalTitle?: string;
+  originalTitle: string;
+  titleLocalization: TitleLocalization;
   shortDescription: string;
   whyRecommended: string;
   country: string[];

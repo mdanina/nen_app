@@ -17,6 +17,7 @@ const THEMES = new Set([
 ]);
 const KINDS = new Set(["movie", "animated-feature", "animated-short", "animated-series", "series", "documentary", "short-film"]);
 const RATINGS = new Set(["0+", "6+", "12+", "16+", "18+"]);
+const TITLE_LOCALIZATIONS = new Set(["official-ru", "original-only"]);
 const SERVICE_MARKER = /\b(?:demo|test|sample|todo|tbd)\b|демонстрацион|тестов|заглушк|заполнить позже|уточнить позже/iu;
 
 const isRecord = (value) => typeof value === "object" && value !== null && !Array.isArray(value);
@@ -38,10 +39,12 @@ function validateRecord(record, index) {
   const add = (field, message) => issues.push(`${ref(record, index)} ${field}: ${message}`);
   if (!isRecord(record)) return [`${ref(record, index)} record: ожидается объект`];
   if (record.schemaVersion !== 2) add("schemaVersion", "ожидается 2");
-  for (const field of ["id", "slug", "title", "shortDescription", "whyRecommended"]) {
+  for (const field of ["id", "slug", "title", "originalTitle", "shortDescription", "whyRecommended"]) {
     if (!isText(record[field])) add(field, "обязательная непустая строка");
   }
   if (isText(record.slug) && !/^[a-z0-9]+(?:-[a-z0-9]+)*$/u.test(record.slug)) add("slug", "ожидается kebab-case");
+  if (!TITLE_LOCALIZATIONS.has(record.titleLocalization)) add("titleLocalization", "ожидается official-ru или original-only");
+  if (record.titleLocalization === "original-only" && record.title !== record.originalTitle) add("title", "без официального русского названия основным должно быть оригинальное название");
   if (!KINDS.has(record.kind)) add("kind", "неизвестный вид произведения");
   for (const field of ["id", "slug", "title", "shortDescription", "whyRecommended"]) {
     if (isText(record[field]) && SERVICE_MARKER.test(record[field])) add(field, "служебные demo/test/sample/TODO-данные запрещены");
@@ -120,7 +123,8 @@ function normalize(record) {
     id: record.id.trim(),
     slug: record.slug.trim(),
     title: record.title.trim(),
-    ...(record.originalTitle ? { originalTitle: record.originalTitle.trim() } : {}),
+    originalTitle: record.originalTitle.trim(),
+    titleLocalization: record.titleLocalization,
     kind: record.kind,
     shortDescription: record.shortDescription.trim(),
     whyRecommended: record.whyRecommended.trim(),

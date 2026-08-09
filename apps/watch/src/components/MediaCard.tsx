@@ -18,11 +18,23 @@ const typeLabels: Record<WatchTitle["productionKind"], string> = {
 
 export const typeLabel = (title: WatchTitle) => typeLabels[title.productionKind];
 export const detailHref = (title: WatchTitle) => `/${title.contentType === "cartoon" ? "cartoons" : "movies"}/${encodeURIComponent(title.slug)}`;
+export const localizationNotice = (title: WatchTitle) =>
+  title.titleLocalization === "original-only" ? "Официальное русское название отсутствует." : null;
+export const localizedAwards = (title: WatchTitle) =>
+  title.awards?.filter((award) => /[А-ЯЁа-яё]/u.test(award)) ?? [];
+export const moodLabel = (mood: WatchTitle["mood"][number]) => ({
+  calm: "Спокойное",
+  cheerful: "Весёлое",
+  adventurous: "Приключенческое",
+  thoughtful: "Вдумчивое",
+  emotional: "Эмоциональное",
+})[mood];
 
 export const frameCaption = (title: WatchTitle) => {
-  const studios = title.frame?.studios ?? [];
+  const studios = (title.frame?.studios ?? []).filter((studio) => !/[A-Za-z]{3}/u.test(studio));
   const studioLabel = studios.length === 1 ? "Студия производства" : "Студии производства";
-  return `Кадр из ${typeLabel(title).toLocaleLowerCase("ru")} «${title.title}» (${title.year}) | ${studioLabel}: ${studios.join(", ")}`;
+  const base = `Кадр из ${typeLabel(title).toLocaleLowerCase("ru")} «${title.title}» (${title.year})`;
+  return studios.length ? `${base} | ${studioLabel}: ${studios.join(", ")}` : base;
 };
 
 export const compactRecommendation = (title: WatchTitle) => {
@@ -50,16 +62,19 @@ export function MediaCard({ title, favorite, toggleFavorite, navigate, matched =
   matched?: ConditionExplanation[];
   relaxed?: ConditionExplanation[];
 }) {
+  const awards = localizedAwards(title);
+  const notice = localizationNotice(title);
   return <article className="media-card">
     <Frame title={title} />
     <div className="card-body">
       <div className="card-kicker"><span>{typeLabel(title)}</span><span>{title.nenAgeRecommendation.minAge}+</span><span>{durationLabel(title)}</span></div>
       <h2><Link href={detailHref(title)} navigate={navigate}>{title.title}</Link></h2>
+      {notice && <p className="localization-note">{notice}</p>}
       <p>{title.shortDescription}</p>
       <div className="compact-recommendation">
-        <strong>{title.awards?.length ? "Награды" : "Почему рекомендуем"}</strong>
-        {title.awards?.length
-          ? <span>🏆 {title.awards[0]}</span>
+        <strong>{awards.length ? "Награды" : "Почему рекомендуем"}</strong>
+        {awards.length
+          ? <span>🏆 {awards[0]}</span>
           : <span>{compactRecommendation(title)}</span>}
       </div>
       <div className="tag-list">{title.themes.slice(0, 6).map((theme) => <span key={theme}>{theme}</span>)}</div>

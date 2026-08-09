@@ -10,9 +10,10 @@ const moods = new Set<string>(WATCH_MOODS);
 const genres = new Set<string>(WATCH_GENRES);
 const themes = new Set<string>(WATCH_THEMES);
 const ratings = new Set(["0+", "6+", "12+", "16+", "18+"]);
+const titleLocalizations = new Set(["official-ru", "original-only"]);
 const serviceText = /\b(?:demo|test|sample|todo|tbd)\b|демонстрацион|тестов|заглушк|заполнить позже|уточнить позже/iu;
 const allowedFields = new Set([
-  "schemaVersion", "id", "slug", "title", "originalTitle", "kind", "shortDescription",
+  "schemaVersion", "id", "slug", "title", "originalTitle", "titleLocalization", "kind", "shortDescription",
   "whyRecommended", "country", "year", "duration", "genres", "themes", "discussionTopics",
   "mood", "sensitiveTopics", "nenAgeRecommendation", "officialRating", "frame", "awards", "studios", "relatedTitles",
 ]);
@@ -31,9 +32,10 @@ export function validateWatchV2Record(value: unknown): WatchV2Issue[] {
 
   for (const field of Object.keys(value).filter((field) => !allowedFields.has(field))) add(field, "Поле не входит в watch-v2");
   if (value.schemaVersion !== 2) add("schemaVersion", "Для watch-v2 требуется schemaVersion: 2");
-  for (const field of ["id", "slug", "title"]) if (!nonEmptyString(value[field])) add(field, "Обязательная непустая строка");
+  for (const field of ["id", "slug", "title", "originalTitle"]) if (!nonEmptyString(value[field])) add(field, "Обязательная непустая строка");
   if (typeof value.slug === "string" && !/^[a-z0-9]+(?:-[a-z0-9]+)*$/u.test(value.slug)) add("slug", "Ожидается kebab-case");
-  if (value.originalTitle !== undefined && !nonEmptyString(value.originalTitle)) add("originalTitle", "Если поле задано, оно не должно быть пустым");
+  if (!titleLocalizations.has(String(value.titleLocalization))) add("titleLocalization", "Ожидается official-ru или original-only");
+  if (value.titleLocalization === "original-only" && value.title !== value.originalTitle) add("title", "Без официального русского названия основным должно быть оригинальное название");
   if (!kinds.has(String(value.kind))) add("kind", "Неизвестный вид произведения");
 
   for (const [field, minLength] of [["shortDescription", 40], ["whyRecommended", 40]] as const) {

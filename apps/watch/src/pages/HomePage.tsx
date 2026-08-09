@@ -12,6 +12,7 @@ export function HomePage({ titles, favorites, toggleFavorite, navigate }: { titl
     <section className="entry-grid" aria-label="Каталоги">
       <Link href="/cartoons" navigate={navigate} className="entry-card cartoons"><span>✦</span><strong>Мультфильмы</strong><small>Полный метр и сериалы</small></Link>
       <Link href="/movies" navigate={navigate} className="entry-card movies"><span>▶</span><strong>Фильмы</strong><small>Смотреть вместе и обсуждать</small></Link>
+      <Link href="/series" navigate={navigate} className="entry-card series"><span>▤</span><strong>Сериалы</strong><small>Игровые, анимационные и познавательные</small></Link>
     </section>
     <section className="recommend-callout"><div><p className="eyebrow">Быстрый путь</p><h2>Не знаете, что выбрать?</h2><p>Начните с мультфильмов или фильмов и уточните выбор по возрасту, настроению и темам.</p></div><Link href="/recommend" navigate={navigate} className="primary-link">Выбрать каталог →</Link></section>
     <section><div className="section-heading"><div><p className="eyebrow">Редакционный выбор</p><h2>Небольшие подборки</h2></div><Link href="/collections" navigate={navigate} className="text-link">Все подборки →</Link></div><div className="collection-row"><Link href="/collections/semeinyi-vecher" navigate={navigate} className="collection-tile">Для семейного вечера</Link><Link href="/collections/uznat-novoe" navigate={navigate} className="collection-tile alt">Чтобы узнать новое</Link></div></section>

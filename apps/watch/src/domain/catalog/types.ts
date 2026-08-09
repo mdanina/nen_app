@@ -47,6 +47,7 @@ interface WatchTitleBase {
   slug: string;
   title: string;
   originalTitle?: string;
+  titleLocalization?: "official-ru" | "original-only";
   shortDescription: string;
   whyRecommended: string;
   country: string[];

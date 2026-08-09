@@ -4,6 +4,7 @@ const items = [
   ["/", "Главная"],
   ["/cartoons", "Мультфильмы"],
   ["/movies", "Фильмы"],
+  ["/series", "Сериалы"],
   ["/favorites", "Избранное"],
 ] as const;
 
@@ -19,7 +20,7 @@ export function AppHeader({ pathname, navigate, favoriteCount }: { pathname: str
       </nav>
     </header>
     <nav className="bottom-nav" aria-label="Мобильная навигация">
-      {items.map(([href, label]) => <Link key={href} href={href} navigate={navigate} className={isActive(pathname, href) ? "active" : undefined}><span aria-hidden="true">{href === "/" ? "⌂" : href === "/cartoons" ? "✦" : href === "/movies" ? "▶" : "♡"}</span>{label}</Link>)}
+      {items.map(([href, label]) => <Link key={href} href={href} navigate={navigate} className={isActive(pathname, href) ? "active" : undefined}><span aria-hidden="true">{href === "/" ? "⌂" : href === "/cartoons" ? "✦" : href === "/movies" ? "▶" : href === "/series" ? "▤" : "♡"}</span>{label}</Link>)}
     </nav>
   </>;
 }

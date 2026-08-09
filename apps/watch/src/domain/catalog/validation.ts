@@ -20,7 +20,7 @@ const moods = new Set<Mood>(["calm", "cheerful", "adventurous", "thoughtful", "e
 const cartoonFormats = new Set<ContentFormat>(["animated-feature", "animated-series"]);
 const movieFormats = new Set<ContentFormat>(["fiction", "series", "documentary"]);
 const topLevelKeys = new Set([
-  "id", "slug", "title", "originalTitle", "contentType", "contentFormat", "releaseForm",
+  "id", "slug", "title", "originalTitle", "titleLocalization", "contentType", "contentFormat", "releaseForm",
   "shortDescription", "whyRecommended", "country", "year", "duration", "themes", "mood",
   "sensitiveTopics", "nenAgeRecommendation", "officialRating", "productionKind", "genres",
   "discussionTopics", "frame", "awards", "studios", "relatedTitles",
@@ -131,6 +131,7 @@ function validateRecord(record: Record<string, unknown>, index: number, issues: 
   for (const field of ["id", "slug", "title", "shortDescription", "whyRecommended"]) requiredString(record, field, index, issues);
   if (typeof record.slug === "string" && !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(record.slug)) issue(issues, index, "slug", "Slug должен быть в kebab-case");
   if (record.originalTitle !== undefined && (typeof record.originalTitle !== "string" || !record.originalTitle.trim())) issue(issues, index, "originalTitle", "Ожидается непустая строка");
+  if (record.titleLocalization !== undefined && record.titleLocalization !== "official-ru" && record.titleLocalization !== "original-only") issue(issues, index, "titleLocalization", "Неизвестный статус локализации названия");
   for (const field of ["country", "themes", "mood", "sensitiveTopics", "genres", "discussionTopics"]) stringArray(record, field, index, issues);
   if (!Number.isInteger(record.year) || Number(record.year) < 1888 || Number(record.year) > new Date().getFullYear() + 1) issue(issues, index, "year", "Некорректный год выпуска");
   if (!Array.isArray(record.mood) || record.mood.some((value) => !moods.has(value as Mood))) issue(issues, index, "mood", "Неизвестное настроение");

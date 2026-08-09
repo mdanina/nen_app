@@ -2,6 +2,7 @@ export const routes = {
   home: "/",
   cartoons: "/cartoons",
   movies: "/movies",
+  series: "/series",
   collections: "/collections",
   recommend: "/recommend",
   favorites: "/favorites",
@@ -18,6 +19,7 @@ export type ResolvedRoute =
   | { kind: "cartoons" }
   | { kind: "cartoon-detail"; slug: string }
   | { kind: "movies" }
+  | { kind: "series" }
   | { kind: "movie-detail"; slug: string }
   | { kind: "collections" }
   | { kind: "collection-detail"; slug: string }
@@ -34,6 +36,7 @@ export function resolveRoute(pathname: string): ResolvedRoute {
   if (route === routes.home) return { kind: "home" };
   if (route === routes.cartoons) return { kind: "cartoons" };
   if (route === routes.movies) return { kind: "movies" };
+  if (route === routes.series) return { kind: "series" };
   if (route === routes.collections) return { kind: "collections" };
   if (route === routes.recommend) return { kind: "recommend" };
   if (route === routes.favorites) return { kind: "favorites" };

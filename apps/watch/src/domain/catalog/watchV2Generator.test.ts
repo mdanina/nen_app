@@ -7,6 +7,8 @@ const record = (id: string, kind: "movie" | "animated-feature" | "animated-short
   id,
   slug: id,
   title: `Произведение ${id}`,
+  originalTitle: `Произведение ${id}`,
+  titleLocalization: "official-ru",
   kind,
   shortDescription: "Содержательное описание реального произведения для семейного каталога НЭН.",
   whyRecommended: "Редакция рекомендует это произведение как повод для внимательного семейного разговора.",

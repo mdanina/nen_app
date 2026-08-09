@@ -7,6 +7,7 @@ import { CatalogPage } from "../pages/CatalogPage";
 import { DetailPage } from "../pages/DetailPage";
 import { FavoritesPage } from "../pages/FavoritesPage";
 import { HomePage } from "../pages/HomePage";
+import { SeriesPage } from "../pages/SeriesPage";
 import { CollectionsPage, NotFoundPage, RecommendPage } from "../pages/PlaceholderPages";
 import { resolveRoute } from "./routes";
 import { shouldResetScroll } from "./navigation";
@@ -67,6 +68,7 @@ export function App() {
       case "home": page = <HomePage titles={data.titles} {...common} />; break;
       case "cartoons": page = <CatalogPage contentType="cartoon" titles={data.titles} dictionary={data.cartoonDictionary} search={url.search} {...common} />; break;
       case "movies": page = <CatalogPage contentType="movie" titles={data.titles} dictionary={data.movieDictionary} search={url.search} {...common} />; break;
+      case "series": page = <SeriesPage titles={data.titles} search={url.search} {...common} />; break;
       case "cartoon-detail": page = <DetailPage slug={route.slug} expectedType="cartoon" titles={data.titles} {...common} />; break;
       case "movie-detail": page = <DetailPage slug={route.slug} expectedType="movie" titles={data.titles} {...common} />; break;
       case "favorites": page = <FavoritesPage titles={data.titles} {...common} />; break;

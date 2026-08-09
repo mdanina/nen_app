@@ -12,6 +12,7 @@ describe("watch routes", () => {
 
   it("resolves catalogs and detail slugs", () => {
     expect(resolveRoute("/cartoons")).toEqual({ kind: "cartoons" });
+    expect(resolveRoute("/series")).toEqual({ kind: "series" });
     expect(resolveRoute("/movies/svet-mayaka")).toEqual({ kind: "movie-detail", slug: "svet-mayaka" });
   });
 
