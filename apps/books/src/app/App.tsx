@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useLayoutEffect, useState } from "react";
 import { SkeletonGrid } from "@nen/ui";
 import { Header } from "../components/Header";
 import { booksRepository } from "../data/booksRepository";
@@ -11,13 +11,15 @@ import { CollectionDetailPage, CollectionsPage } from "../pages/CollectionsPage"
 import { FavoritesPage } from "../pages/FavoritesPage";
 import { HomePage } from "../pages/HomePage";
 import { RecommendPage } from "../pages/RecommendPage";
+import { resetScrollPosition } from "./scroll";
 
 const currentRoute = () => window.location.pathname.replace(/\/$/, "") || "/";
 export function App() {
   const [route, setRoute] = useState(currentRoute); const [books, setBooks] = useState<Book[] | null>(null); const { favorites, toggle } = useFavorites();
   useEffect(() => { booksRepository.getAll().then(setBooks); }, []);
   useEffect(() => { const pop = () => setRoute(currentRoute()); window.addEventListener("popstate", pop); return () => window.removeEventListener("popstate", pop); }, []);
-  const navigate = (path: string) => { window.history.pushState({}, "", path); setRoute(currentRoute()); window.scrollTo({ top: 0, behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" }); };
+  useLayoutEffect(() => { resetScrollPosition(); }, [route]);
+  const navigate = (path: string) => { window.history.pushState({}, "", path); setRoute(currentRoute()); };
   if (!books) return <><Header navigate={navigate} favoriteCount={favorites.length} route={route}/><main className="page"><SkeletonGrid /></main></>;
   const common = { books, favorites, toggleFavorite: toggle, navigate };
   let page;
