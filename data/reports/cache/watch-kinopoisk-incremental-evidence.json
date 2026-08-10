@@ -1,0 +1,2320 @@
+{
+  "generatedAt": "2026-08-10T14:25:30.860Z",
+  "processed": 263,
+  "found": 133,
+  "results": [
+    {
+      "id": "nen-wd-q7742391",
+      "kp": "313057",
+      "title": "The Intruders",
+      "year": 1969,
+      "directors": [
+        {
+          "id": "Q3228926",
+          "name": "Ли Робинсон"
+        }
+      ],
+      "candidates": [
+        "Сортировка по году",
+        "Рейтинг Кинопоиска 5.6"
+      ],
+      "query": "site:kinopoisk.ru \"The Intruders\" 1969 Кинопоиск 313057"
+    },
+    {
+      "id": "nen-wd-q4929113",
+      "kp": "52767",
+      "title": "Blue Fire Lady",
+      "year": 1977,
+      "directors": [
+        {
+          "id": "Q7369286",
+          "name": "Росс Димси"
+        }
+      ],
+      "candidates": [
+        "фильм ... Рейтинг Кинопоиска 6.7 ... Леди голубое пламя",
+        "Леди голубое пламя",
+        "Рейтинг Кинопоиска 6.5 ... Леди голубое пламя"
+      ],
+      "query": "site:kinopoisk.ru \"Blue Fire Lady\" 1977 Кинопоиск 52767"
+    },
+    {
+      "id": "nen-wd-q7409694",
+      "kp": "226202",
+      "title": "Sammy's Super T-Shirt",
+      "year": 1978,
+      "directors": [
+        {
+          "id": "Q13411072",
+          "name": "Джереми Саммерс"
+        }
+      ],
+      "candidates": [
+        "Сортировка по году",
+        "Рейтинг Кинопоиска 6.2",
+        "Рейтинг Кинопоиска 6.8"
+      ],
+      "query": "site:kinopoisk.ru \"Sammy's Super T-Shirt\" 1978 Кинопоиск 226202"
+    },
+    {
+      "id": "nen-wd-q17052523",
+      "kp": "148914",
+      "title": "The Little Convict",
+      "year": 1979,
+      "directors": [
+        {
+          "id": "Q54855",
+          "name": "Йорам Гросс"
+        }
+      ],
+      "candidates": [
+        "Режиссёр: Ричард Слапчински В ролях: Алистэр Дункан, Рон Хэддрик"
+      ],
+      "query": "site:kinopoisk.ru \"The Little Convict\" 1979 Кинопоиск 148914"
+    },
+    {
+      "id": "nen-wd-q19364301",
+      "kp": "74770",
+      "title": "Der schönste Tag meines Lebens",
+      "year": 1957,
+      "directors": [
+        {
+          "id": "Q85415",
+          "name": "Max Neufeld"
+        }
+      ],
+      "candidates": [
+        "Рейтинг Кинопоиска 6.7"
+      ],
+      "query": "site:kinopoisk.ru \"Der schönste Tag meines Lebens\" 1957 Кинопоиск 74770"
+    },
+    {
+      "id": "nen-wd-q1189882",
+      "kp": "131637",
+      "title": "Vidalita",
+      "year": 1949,
+      "directors": [
+        {
+          "id": "Q786938",
+          "name": "Luis Saslavsky"
+        }
+      ],
+      "candidates": [
+        "фильмов"
+      ],
+      "query": "site:kinopoisk.ru \"Vidalita\" 1949 Кинопоиск 131637"
+    },
+    {
+      "id": "nen-wd-q7881964",
+      "kp": "114170",
+      "title": "Un elefante color ilusión",
+      "year": 1970,
+      "directors": [
+        {
+          "id": "Q24961617",
+          "name": "Derlis Beccaglia"
+        }
+      ],
+      "candidates": [
+        "Слоненок цвета мечты"
+      ],
+      "query": "site:kinopoisk.ru \"Un elefante color ilusión\" 1970 Кинопоиск 114170"
+    },
+    {
+      "id": "nen-wd-q18709309",
+      "kp": "108663",
+      "title": "Las aventuras de Hijitus",
+      "year": 1973,
+      "directors": [
+        {
+          "id": "Q6553406",
+          "name": "Мануэль Гарсия Ферре"
+        }
+      ],
+      "candidates": [
+        "Приключения Ихитуса"
+      ],
+      "query": "site:kinopoisk.ru \"Las aventuras de Hijitus\" 1973 Кинопоиск 108663"
+    },
+    {
+      "id": "nen-wd-q4726315",
+      "kp": "126667",
+      "title": "Alicia en el país de las maravillas",
+      "year": 1976,
+      "directors": [
+        {
+          "id": "Q25913586",
+          "name": "Эдуардо Пла"
+        }
+      ],
+      "candidates": [
+        "Сортировка по году"
+      ],
+      "query": "site:kinopoisk.ru \"Alicia en el país de las maravillas\" 1976 Кинопоиск 126667"
+    },
+    {
+      "id": "nen-wd-q12154966",
+      "kp": "116744",
+      "title": "Los cuatro secretos",
+      "year": 1976,
+      "directors": [
+        {
+          "id": "Q6128888",
+          "name": "Simón Feldman"
+        }
+      ],
+      "candidates": [
+        "Режиссёр: Хуан Падрон"
+      ],
+      "query": "site:kinopoisk.ru \"Los cuatro secretos\" 1976 Кинопоиск 116744"
+    },
+    {
+      "id": "nen-wd-q6492057",
+      "kp": "131200",
+      "title": "Las aventuras de Pikín",
+      "year": 1977,
+      "directors": [
+        {
+          "id": "Q81538566",
+          "name": "Alberto Abdala"
+        }
+      ],
+      "candidates": [
+        "лет",
+        "фильма"
+      ],
+      "query": "site:kinopoisk.ru \"Las aventuras de Pikín\" 1977 Кинопоиск 131200"
+    },
+    {
+      "id": "nen-wd-q6683065",
+      "kp": "117340",
+      "title": "Los pequeños aventureros",
+      "year": 1977,
+      "directors": [
+        {
+          "id": "Q29465946",
+          "name": "Daniel Pires Mateus"
+        }
+      ],
+      "candidates": [
+        "Сортировка по году"
+      ],
+      "query": "site:kinopoisk.ru \"Los pequeños aventureros\" 1977 Кинопоиск 117340"
+    },
+    {
+      "id": "nen-wd-q6760240",
+      "kp": "117400",
+      "title": "Margarito Tereré",
+      "year": 1978,
+      "directors": [
+        {
+          "id": "Q6166098",
+          "name": "Waldo Belloso"
+        }
+      ],
+      "candidates": [
+        "Рейтинг Кинопоиска 4.5"
+      ],
+      "query": "site:kinopoisk.ru \"Margarito Tereré\" 1978 Кинопоиск 117400"
+    },
+    {
+      "id": "nen-wd-q5033546",
+      "kp": "116713",
+      "title": "Cantaniño cuenta un cuento",
+      "year": 1979,
+      "directors": [
+        {
+          "id": "Q5998606",
+          "name": "Марио Давид"
+        }
+      ],
+      "candidates": [
+        "Как прекрасна моя семья!"
+      ],
+      "query": "site:kinopoisk.ru \"Cantaniño cuenta un cuento\" 1979 Кинопоиск 116713"
+    },
+    {
+      "id": "nen-wd-q2459759",
+      "kp": "140291",
+      "title": "Plop in de wolken",
+      "year": 2000,
+      "directors": [
+        {
+          "id": "Q2196223",
+          "name": "Bart Van Leemputten"
+        }
+      ],
+      "candidates": [
+        "Барбара Гарофало"
+      ],
+      "query": "site:kinopoisk.ru \"Plop in de wolken\" 2000 Кинопоиск 140291"
+    },
+    {
+      "id": "nen-wd-q2520070",
+      "kp": "120554",
+      "title": "Kabouter Plop en de toverstaf",
+      "year": 2003,
+      "directors": [
+        {
+          "id": "Q2691618",
+          "name": "Маттиас Теммерманс"
+        }
+      ],
+      "candidates": [
+        "фильма ... Рейтинг Кинопоиска 5.9",
+        "фильм ... Рейтинг Кинопоиска 7.3"
+      ],
+      "query": "site:kinopoisk.ru \"Kabouter Plop en de toverstaf\" 2003 Кинопоиск 120554"
+    },
+    {
+      "id": "nen-wd-q13446439",
+      "kp": "146223",
+      "title": "Buitenspel",
+      "year": 2005,
+      "directors": [
+        {
+          "id": "Q1999130",
+          "name": "Питер Ван Хес"
+        },
+        {
+          "id": "Q2545756",
+          "name": "Ян Верхейен"
+        }
+      ],
+      "candidates": [
+        "Жиль",
+        "Рейтинг Кинопоиска 6.8 ... Жиль",
+        "Рейтинг Кинопоиска 6.3 ... Жиль"
+      ],
+      "query": "site:kinopoisk.ru \"Buitenspel\" 2005 Кинопоиск 146223"
+    },
+    {
+      "id": "nen-wd-q10339889",
+      "kp": "120729",
+      "title": "O Trapalhão na Arca de Noé",
+      "year": 1983,
+      "directors": [
+        {
+          "id": "Q10264809",
+          "name": "Дель Ранхель"
+        }
+      ],
+      "candidates": [
+        "Режиссёр: Даниэл Филью В ролях: Таня Алвес, Ренато Арагао",
+        "комедия В ролях: Эдд Холл, Крис Эллиот"
+      ],
+      "query": "site:kinopoisk.ru \"O Trapalhão na Arca de Noé\" 1983 Кинопоиск 120729"
+    },
+    {
+      "id": "nen-wd-q16484409",
+      "kp": "232097",
+      "title": "A Filha dos Trapalhões",
+      "year": 1984,
+      "directors": [
+        {
+          "id": "Q1791562",
+          "name": "Деде Сантана"
+        }
+      ],
+      "candidates": [
+        "Режиссёр: Виктор Лустоса В ролях: Ренато Арагао, Деде Сантана",
+        "Рейтинг Кинопоиска 6.4"
+      ],
+      "query": "site:kinopoisk.ru \"A Filha dos Trapalhões\" 1984 Кинопоиск 232097"
+    },
+    {
+      "id": "nen-wd-q10342118",
+      "kp": "159767",
+      "title": "Os Trapalhões no Reino da Fantasia",
+      "year": 1985,
+      "directors": [
+        {
+          "id": "Q1791562",
+          "name": "Деде Сантана"
+        }
+      ],
+      "candidates": [
+        "Сортировка по году",
+        "Режиссёр: Фабио Баррето В ролях: Нуно Леаль Майя, Ампаро Грисалес",
+        "фильм ... Рейтинг Кинопоиска 5.1"
+      ],
+      "query": "site:kinopoisk.ru \"Os Trapalhões no Reino da Fantasia\" 1985 Кинопоиск 159767"
+    },
+    {
+      "id": "nen-wd-q17168882",
+      "kp": "110147",
+      "title": "Mônica e a Sereia do Rio",
+      "year": 1987,
+      "directors": [
+        {
+          "id": "Q523315",
+          "name": "Вальтер Уго Коури"
+        },
+        {
+          "id": "Q657432",
+          "name": "Mauricio de Sousa"
+        }
+      ],
+      "candidates": [
+        "Рейтинг Кинопоиска 6.8 ... Моника и русалки Рио",
+        "Моника и русалки Рио"
+      ],
+      "query": "site:kinopoisk.ru \"Mônica e a Sereia do Rio\" 1987 Кинопоиск 110147"
+    },
+    {
+      "id": "nen-wd-q17168949",
+      "kp": "238006",
+      "title": "A Princesa Xuxa e os Trapalhões",
+      "year": 1989,
+      "directors": [
+        {
+          "id": "Q10308743",
+          "name": "José Alvarenga Júnior"
+        }
+      ],
+      "candidates": [
+        "исполнительный продюсер ... Принцесса Шуша и бандиты"
+      ],
+      "query": "site:kinopoisk.ru \"A Princesa Xuxa e os Trapalhões\" 1989 Кинопоиск 238006"
+    },
+    {
+      "id": "nen-wd-q10342115",
+      "kp": "121385",
+      "title": "Os Trapalhões na Terra dos Monstros",
+      "year": 1989,
+      "directors": [
+        {
+          "id": "Q224834",
+          "name": "Флавио Мильяччо"
+        }
+      ],
+      "candidates": [
+        "Режиссёр: Виктор Мануэль Кастро В ролях: Альфонсо Саяс, Роберто «Флако» Гусман",
+        "Художник-постановщик"
+      ],
+      "query": "site:kinopoisk.ru \"Os Trapalhões na Terra dos Monstros\" 1989 Кинопоиск 121385"
+    },
+    {
+      "id": "nen-wd-q1199256",
+      "kp": "71462",
+      "title": "Der kleine Muck",
+      "year": 1944,
+      "directors": [
+        {
+          "id": "Q126934",
+          "name": "Franz Fiedler"
+        }
+      ],
+      "candidates": [
+        "Маленький Мук"
+      ],
+      "query": "site:kinopoisk.ru \"Der kleine Muck\" 1944 Кинопоиск 71462"
+    },
+    {
+      "id": "nen-wd-q1215510",
+      "kp": "221456",
+      "title": "Die Prinzessin und der Schweinehirt",
+      "year": 1953,
+      "directors": [
+        {
+          "id": "Q97364",
+          "name": "Herbert B. Fredersdorf"
+        }
+      ],
+      "candidates": [
+        "Принцесса и Свинопас"
+      ],
+      "query": "site:kinopoisk.ru \"Die Prinzessin und der Schweinehirt\" 1953 Кинопоиск 221456"
+    },
+    {
+      "id": "nen-wd-q1197203",
+      "kp": "71405",
+      "title": "Der Struwwelpeter",
+      "year": 1955,
+      "directors": [
+        {
+          "id": "Q84418",
+          "name": "Фриц Геншов"
+        }
+      ],
+      "candidates": [
+        "Сортировка по году"
+      ],
+      "query": "site:kinopoisk.ru \"Der Struwwelpeter\" 1955 Кинопоиск 71405"
+    },
+    {
+      "id": "nen-wd-q1261258",
+      "kp": "101199",
+      "title": "Peterchens Mondfahrt",
+      "year": 1990,
+      "directors": [
+        {
+          "id": "Q55683057",
+          "name": "Вольфганг Урхс"
+        }
+      ],
+      "candidates": [
+        "Рётц В ролях: Герт Грассе, Хенри Хюбхен ... Питер в волшебной стране",
+        "Питер в волшебной стране",
+        "Рейтинг Кинопоиска 6.8 ... Питер в волшебной стране"
+      ],
+      "query": "site:kinopoisk.ru \"Peterchens Mondfahrt\" 1990 Кинопоиск 101199"
+    },
+    {
+      "id": "nen-wd-q1216390",
+      "kp": "179709",
+      "title": "Die Spur führt zum Silbersee",
+      "year": 1990,
+      "directors": [
+        {
+          "id": "Q1560969",
+          "name": "Günter Rätz"
+        }
+      ],
+      "candidates": [
+        "След ведёт к Зильберзе",
+        "Рейтинг Кинопоиска 6.8 ... След ведёт к Зильберзе",
+        "фильм ... След ведёт к Зильберзе",
+        "Режиссёр: Кодзи Ямамура ... След ведёт к Зильберзе"
+      ],
+      "query": "site:kinopoisk.ru \"Die Spur führt zum Silbersee\" 1990 Кинопоиск 179709"
+    },
+    {
+      "id": "nen-wd-q12337481",
+      "kp": "363152",
+      "title": "Strit og Stumme",
+      "year": 1987,
+      "directors": [
+        {
+          "id": "Q3162070",
+          "name": "Янник Хаструп"
+        }
+      ],
+      "candidates": [
+        "Колючка и Молчун: Путешествие в Рай"
+      ],
+      "query": "site:kinopoisk.ru \"Strit og Stumme\" 1987 Кинопоиск 363152"
+    },
+    {
+      "id": "nen-wd-q12302788",
+      "kp": "23508",
+      "title": "Balladen om Holger Danske",
+      "year": 1996,
+      "directors": [
+        {
+          "id": "Q35979506",
+          "name": "Laila Hodell"
+        }
+      ],
+      "candidates": [
+        "Сортировка по году"
+      ],
+      "query": "site:kinopoisk.ru \"Balladen om Holger Danske\" 1996 Кинопоиск 23508"
+    },
+    {
+      "id": "nen-wd-q12306380",
+      "kp": "417425",
+      "title": "Cirkeline og Verdens mindste superhelt",
+      "year": 2004,
+      "directors": [
+        {
+          "id": "Q3162070",
+          "name": "Янник Хаструп"
+        }
+      ],
+      "candidates": [
+        "Сиркелине и самый маленький в мире супергерой",
+        "... Рейтинг Кинопоиска 4.7 ... Сиркелине и самый маленький в мире супергерой",
+        "фильма ... Сиркелине и самый маленький в мире супергерой"
+      ],
+      "query": "site:kinopoisk.ru \"Cirkeline og Verdens mindste superhelt\" 2004 Кинопоиск 417425"
+    },
+    {
+      "id": "nen-wd-q3095311",
+      "kp": "132551",
+      "title": "Garbancito de la Mancha",
+      "year": 1945,
+      "directors": [
+        {
+          "id": "Q5707368",
+          "name": "Артуро Морено"
+        },
+        {
+          "id": "Q74644046",
+          "name": "José María Blay"
+        }
+      ],
+      "candidates": [
+        "Сортировка по году"
+      ],
+      "query": "site:kinopoisk.ru \"Garbancito de la Mancha\" 1945 Кинопоиск 132551"
+    },
+    {
+      "id": "nen-wd-q2832409",
+      "kp": "132561",
+      "title": "Alegres vacaciones",
+      "year": 1948,
+      "directors": [
+        {
+          "id": "Q5707368",
+          "name": "Артуро Морено"
+        }
+      ],
+      "candidates": [
+        "Счастливые каникулы"
+      ],
+      "query": "site:kinopoisk.ru \"Alegres vacaciones\" 1948 Кинопоиск 132561"
+    },
+    {
+      "id": "nen-wd-q19703066",
+      "kp": "243815",
+      "title": "Los 4 músicos de Bremen",
+      "year": 1989,
+      "directors": [
+        {
+          "id": "Q5792361",
+          "name": "Cruz Delgado"
+        }
+      ],
+      "candidates": [
+        "Бременские музыканты"
+      ],
+      "query": "site:kinopoisk.ru \"Los 4 músicos de Bremen\" 1989 Кинопоиск 243815"
+    },
+    {
+      "id": "nen-wd-q19999726",
+      "kp": "85465",
+      "title": "Despertaferro",
+      "year": 1990,
+      "directors": [
+        {
+          "id": "Q5934222",
+          "name": "Jordi Amorós"
+        }
+      ],
+      "candidates": [
+        "Режиссёр: Эдуардо Кампой В ролях: Виктория Абриль, Иманоль Ариас",
+        "Герона, Испания ... Рейтинг Кинопоиска 7.7",
+        "Режиссёр: Майкл Спорн В ролях: Осси Дэвис, Диана Черкас",
+        "исполнительный продюсер"
+      ],
+      "query": "site:kinopoisk.ru \"Despertaferro\" 1990 Кинопоиск 85465"
+    },
+    {
+      "id": "nen-wd-q9019373",
+      "kp": "95493",
+      "title": "La leyenda del viento del Norte",
+      "year": 1992,
+      "directors": [
+        {
+          "id": "Q5990213",
+          "name": "Маите Руис де Аустри"
+        },
+        {
+          "id": "Q12260950",
+          "name": "Хуан Баутиста Берасатеги"
+        }
+      ],
+      "candidates": [
+        "По порядку",
+        "Сортировка по году"
+      ],
+      "query": "site:kinopoisk.ru \"La leyenda del viento del Norte\" 1992 Кинопоиск 95493"
+    },
+    {
+      "id": "nen-wd-q12739463",
+      "kp": "272259",
+      "title": "Il racconto della giungla",
+      "year": 1974,
+      "directors": [
+        {
+          "id": "Q528370",
+          "name": "Gibba"
+        }
+      ],
+      "candidates": [
+        "Джан Витторио Бальди В ролях: Маша Мериль, Джон Стайнер ... Робинзон Крузо",
+        "Робинзон Крузо",
+        "Рейтинг Кинопоиска 7.6 ... Робинзон Крузо"
+      ],
+      "query": "site:kinopoisk.ru \"Il racconto della giungla\" 1974 Кинопоиск 272259"
+    },
+    {
+      "id": "nen-wd-q3792945",
+      "kp": "113348",
+      "title": "Il Signor Rossi cerca la felicità",
+      "year": 1976,
+      "directors": [
+        {
+          "id": "Q673304",
+          "name": "Бруно Боццетто"
+        }
+      ],
+      "candidates": [
+        "Рейтинг Кинопоиска 6.7",
+        "Сортировка по году",
+        "Режиссёр: Бруно Боццетто",
+        "озвучка"
+      ],
+      "query": "site:kinopoisk.ru \"Il Signor Rossi cerca la felicità\" 1976 Кинопоиск 113348"
+    },
+    {
+      "id": "nen-wd-q116447611",
+      "kp": "779644",
+      "title": "Secchi",
+      "year": 2013,
+      "directors": [
+        {
+          "id": "Q3719632",
+          "name": "Edoardo Natoli"
+        }
+      ],
+      "candidates": [
+        "фильмов ... Рейтинг Кинопоиска 6.3",
+        "Режиссёр: Том Ходжис В ролях: Рон Джереми, Джеймс С",
+        "Режиссёр: Крис Шеперд В ролях: Присцилла Ададе, Николас Герард-Мартин"
+      ],
+      "query": "site:kinopoisk.ru \"Secchi\" 2013 Кинопоиск 779644"
+    },
+    {
+      "id": "nen-wd-q40483603",
+      "kp": "142219",
+      "title": "Lady Fishbourne's Complete Guide to Better Table Manners",
+      "year": 1976,
+      "directors": [
+        {
+          "id": "Q2506671",
+          "name": "Janet Perlman"
+        }
+      ],
+      "candidates": [
+        "Режиссёр: Дональд Шебиб В ролях: Джеймс Нафтон, Линдсей Вагнер"
+      ],
+      "query": "site:kinopoisk.ru \"Lady Fishbourne's Complete Guide to Better Table Manners\" 1976 Кинопоиск 142219"
+    },
+    {
+      "id": "nen-wd-q43201265",
+      "kp": "142354",
+      "title": "Accordéon",
+      "year": 2004,
+      "directors": [
+        {
+          "id": "Q3311606",
+          "name": "Michèle Cournoyer"
+        }
+      ],
+      "candidates": [
+        "Аккордеон"
+      ],
+      "query": "site:kinopoisk.ru \"Accordéon\" 2004 Кинопоиск 142354"
+    },
+    {
+      "id": "nen-wd-q111445088",
+      "kp": "4437777",
+      "title": "Nuevo Rico",
+      "year": 2021,
+      "directors": [
+        {
+          "id": "Q116178650",
+          "name": "Кристиан Меркадо"
+        }
+      ],
+      "candidates": [
+        "Режиссёр: Дин Лян В ролях: Бен Бостик, Пол «Макс» Райнхарт"
+      ],
+      "query": "site:kinopoisk.ru \"Nuevo Rico\" 2021 Кинопоиск 4437777"
+    },
+    {
+      "id": "nen-wd-q12029118",
+      "kp": "469509",
+      "title": "Kde padají hvězdy",
+      "year": 1996,
+      "directors": [
+        {
+          "id": "Q1681872",
+          "name": "Ян Гржебейк"
+        }
+      ],
+      "candidates": [
+        "Где падали звезды"
+      ],
+      "query": "site:kinopoisk.ru \"Kde padají hvězdy\" 1996 Кинопоиск 469509"
+    },
+    {
+      "id": "nen-wd-q10635807",
+      "kp": "364389",
+      "title": "Pojken och draken",
+      "year": 1962,
+      "directors": [
+        {
+          "id": "Q449514",
+          "name": "Бу Видерберг"
+        }
+      ],
+      "candidates": [
+        "Мальчик и дракон"
+      ],
+      "query": "site:kinopoisk.ru \"Pojken och draken\" 1962 Кинопоиск 364389"
+    },
+    {
+      "id": "nen-wd-q10535496",
+      "kp": "929452",
+      "title": "Ingen rövare finns i skogen",
+      "year": 1989,
+      "directors": [
+        {
+          "id": "Q3372631",
+          "name": "Йоран Кармбак"
+        }
+      ],
+      "candidates": [
+        "фильм ... Рейтинг Кинопоиска 6.0 ... Нет в лесу никаких разбойников",
+        "Нет в лесу никаких разбойников",
+        "от брака с Нильсом Стуре Линдгреном. ... Нет в лесу никаких разбойников",
+        "Рейтинг Кинопоиска 7.9 ... Нет в лесу никаких разбойников"
+      ],
+      "query": "site:kinopoisk.ru \"Ingen rövare finns i skogen\" 1989 Кинопоиск 929452"
+    },
+    {
+      "id": "nen-wd-q33555518",
+      "kp": "851119",
+      "title": "Nylon",
+      "year": 2015,
+      "directors": [
+        {
+          "id": "Q37493744",
+          "name": "Жанетт Нурдаль"
+        }
+      ],
+      "candidates": [
+        "Фото ... Рейтинг Кинопоиска 5.9"
+      ],
+      "query": "site:kinopoisk.ru \"Nylon\" 2015 Кинопоиск 851119"
+    },
+    {
+      "id": "nen-wd-q25415411",
+      "kp": "404280",
+      "title": "David Copperfield",
+      "year": 1983,
+      "directors": [
+        {
+          "id": "Q114340514",
+          "name": "Alex Nicholas"
+        },
+        {
+          "id": "Q114774878",
+          "name": "Ian Mackenzie"
+        }
+      ],
+      "candidates": [
+        "Режиссёр: Евгений Ларченко В ролях: Геннадий Овсянников ... Дэвид Копперфилд"
+      ],
+      "query": "site:kinopoisk.ru \"David Copperfield\" 1983 Кинопоиск 404280"
+    },
+    {
+      "id": "nen-wd-q6896507",
+      "kp": "197701",
+      "title": "Molly",
+      "year": 1983,
+      "directors": [
+        {
+          "id": "Q29617984",
+          "name": "Ned Lander"
+        }
+      ],
+      "candidates": [
+        "для взрослых В ролях: Эрик Эдвардс, Ипатия Ли"
+      ],
+      "query": "site:kinopoisk.ru \"Molly\" 1983 Кинопоиск 197701"
+    },
+    {
+      "id": "nen-wd-q9020582",
+      "kp": "257761",
+      "title": "The Adventures of Robin Hood",
+      "year": 1985,
+      "directors": [
+        {
+          "id": "Q27902911",
+          "name": "Geoff Collins"
+        },
+        {
+          "id": "Q113559061",
+          "name": "Warwick Gilbert"
+        }
+      ],
+      "candidates": [
+        "Приключения Робина Гуда"
+      ],
+      "query": "site:kinopoisk.ru \"The Adventures of Robin Hood\" 1985 Кинопоиск 257761"
+    },
+    {
+      "id": "nen-wd-q5826970",
+      "kp": "54147",
+      "title": "Black Tulip",
+      "year": 1988,
+      "directors": [
+        {
+          "id": "Q115183845",
+          "name": "Franco Cristofani"
+        }
+      ],
+      "candidates": [
+        "фильма ... Черный Тюльпан",
+        "Черный Тюльпан",
+        "Рейтинг Кинопоиска 6.7 ... Черный Тюльпан"
+      ],
+      "query": "site:kinopoisk.ru \"Black Tulip\" 1988 Кинопоиск 54147"
+    },
+    {
+      "id": "nen-wd-q39663634",
+      "kp": "858482",
+      "title": "Beautiful Girl",
+      "year": 2015,
+      "directors": [
+        {
+          "id": "Q19278413",
+          "name": "Доминик Хартль"
+        }
+      ],
+      "candidates": [
+        "Художник по костюмам ... Красотка",
+        "Красотка"
+      ],
+      "query": "site:kinopoisk.ru \"Beautiful Girl\" 2015 Кинопоиск 858482"
+    },
+    {
+      "id": "nen-wd-q6949817",
+      "kp": "113999",
+      "title": "Más allá de la aventura",
+      "year": 1980,
+      "directors": [
+        {
+          "id": "Q7105875",
+          "name": "Оскар Барни Финн"
+        }
+      ],
+      "candidates": [
+        "Режиссёр: Дэвид Полсен В ролях: Клаус Кински, Донна Уилкс"
+      ],
+      "query": "site:kinopoisk.ru \"Más allá de la aventura\" 1980 Кинопоиск 113999"
+    },
+    {
+      "id": "nen-wd-q30898980",
+      "kp": "115764",
+      "title": "Mingo y Aníbal contra los fantasmas",
+      "year": 1985,
+      "directors": [
+        {
+          "id": "Q5379661",
+          "name": "Энрике Каррерас"
+        }
+      ],
+      "candidates": [
+        "фильм ... Рейтинг Кинопоиска 6.7",
+        "Режиссёр: Энджел Лабра В ролях: Вик Варгас, Глория Диас"
+      ],
+      "query": "site:kinopoisk.ru \"Mingo y Aníbal contra los fantasmas\" 1985 Кинопоиск 115764"
+    },
+    {
+      "id": "nen-wd-q16301967",
+      "kp": "116750",
+      "title": "Los matamonstruos en la mansión del terror",
+      "year": 1987,
+      "directors": [
+        {
+          "id": "Q5042104",
+          "name": "Carlos Galettini"
+        }
+      ],
+      "candidates": [
+        "Охотники за монстрами",
+        "Рейтинг Кинопоиска 7.7 ... Охотники за монстрами"
+      ],
+      "query": "site:kinopoisk.ru \"Los matamonstruos en la mansión del terror\" 1987 Кинопоиск 116750"
+    },
+    {
+      "id": "nen-wd-q16593446",
+      "kp": "108695",
+      "title": "Los pilotos más locos del mundo",
+      "year": 1988,
+      "directors": [
+        {
+          "id": "Q5042104",
+          "name": "Carlos Galettini"
+        }
+      ],
+      "candidates": [
+        "В ролях: Альфонсина Карросио, Сусана Кастро ... Самые сумасшедшие пилоты в мире",
+        "Самые сумасшедшие пилоты в мире"
+      ],
+      "query": "site:kinopoisk.ru \"Los pilotos más locos del mundo\" 1988 Кинопоиск 108695"
+    },
+    {
+      "id": "nen-wd-q97124782",
+      "kp": "58828",
+      "title": "El largo viaje de Nahuel Pan",
+      "year": 1995,
+      "directors": [
+        {
+          "id": "Q28146415",
+          "name": "Jorge Zuhair Jury"
+        }
+      ],
+      "candidates": [
+        "Режиссёр: Кори Майкл Юбэнкс В ролях: ДжоДжо Адамс, Брайан Эйври",
+        "Рейтинг Кинопоиска 5.5",
+        "Рейтинг Кинопоиска 7.6"
+      ],
+      "query": "site:kinopoisk.ru \"El largo viaje de Nahuel Pan\" 1995 Кинопоиск 58828"
+    },
+    {
+      "id": "nen-wd-q5805486",
+      "kp": "116681",
+      "title": "Dibu: la película",
+      "year": 1997,
+      "directors": [
+        {
+          "id": "Q28465809",
+          "name": "Карлос Оливьери"
+        }
+      ],
+      "candidates": [
+        "Кино"
+      ],
+      "query": "site:kinopoisk.ru \"Dibu: la película\" 1997 Кинопоиск 116681"
+    },
+    {
+      "id": "nen-wd-q109015317",
+      "kp": "131094",
+      "title": "Tobi y el libro mágico",
+      "year": 2001,
+      "directors": [
+        {
+          "id": "Q28146415",
+          "name": "Jorge Zuhair Jury"
+        }
+      ],
+      "candidates": [
+        "Рейтинг Кинопоиска 6.0 ... Тоби и магическая книга",
+        "Тоби и магическая книга"
+      ],
+      "query": "site:kinopoisk.ru \"Tobi y el libro mágico\" 2001 Кинопоиск 131094"
+    },
+    {
+      "id": "nen-wd-q6138629",
+      "kp": "63617",
+      "title": "Micaela, una película mágica",
+      "year": 2002,
+      "directors": [
+        {
+          "id": "Q6121436",
+          "name": "Rosanna Manfredi"
+        }
+      ],
+      "candidates": [
+        "Сортировка по году",
+        "Режиссёр: Андрес Борги",
+        "Рейтинг Кинопоиска 5.2"
+      ],
+      "query": "site:kinopoisk.ru \"Micaela, una película mágica\" 2002 Кинопоиск 63617"
+    },
+    {
+      "id": "nen-wd-q10367358",
+      "kp": "61510",
+      "title": "Samy y yo",
+      "year": 2002,
+      "directors": [
+        {
+          "id": "Q108418507",
+          "name": "Eduardo Milewicz"
+        }
+      ],
+      "candidates": [
+        "фильм ... Сэм и я",
+        "Сэм и я",
+        "Родригес Пейла В ролях: Николас Кабре, Луисана Лопилато ... Сэм и я"
+      ],
+      "query": "site:kinopoisk.ru \"Samy y yo\" 2002 Кинопоиск 61510"
+    },
+    {
+      "id": "nen-wd-q21042326",
+      "kp": "116669",
+      "title": "Patoruzito",
+      "year": 2004,
+      "directors": [
+        {
+          "id": "Q95882681",
+          "name": "Хосе Луис Масса"
+        }
+      ],
+      "candidates": [
+        "оценок ... Маленький вождь",
+        "Режиссёр: Мария Муат В ролях: Полина Кутепова, Ксения Кутепова ... Маленький вождь",
+        "Видео, 2005 ... Маленький вождь"
+      ],
+      "query": "site:kinopoisk.ru \"Patoruzito\" 2004 Кинопоиск 116669"
+    },
+    {
+      "id": "nen-wd-q7245825",
+      "kp": "94179",
+      "title": "Prisoner of Zenda",
+      "year": 1988,
+      "directors": [
+        {
+          "name": "http://www.wikidata.org/.well-known/genid/b8e50e0675d24f2bfcf12e64cfc9a71f"
+        }
+      ],
+      "candidates": [
+        "Рейтинг Кинопоиска 6.7 ... Узник крепости Зенда",
+        "Узник крепости Зенда"
+      ],
+      "query": "site:kinopoisk.ru \"Prisoner of Zenda\" 1988 Кинопоиск 94179"
+    },
+    {
+      "id": "nen-wd-q804498",
+      "kp": "54144",
+      "title": "Blinky Bill",
+      "year": 1992,
+      "directors": [
+        {
+          "id": "Q54855",
+          "name": "Йорам Гросс"
+        }
+      ],
+      "candidates": [
+        "Режиссёр: Фил Роман В ролях: Ричард Кайнд, Дэна Хилл ... Блинки Билл",
+        "Блинки Билл"
+      ],
+      "query": "site:kinopoisk.ru \"Blinky Bill\" 1992 Кинопоиск 54144"
+    },
+    {
+      "id": "nen-wd-q3545539",
+      "kp": "12253",
+      "title": "Hammers Over the Anvil",
+      "year": 1993,
+      "directors": [
+        {
+          "id": "Q4766717",
+          "name": "Энн Тернер"
+        }
+      ],
+      "candidates": [
+        "Рейтинг Кинопоиска 6.5 ... Молоты над наковальней",
+        "Молоты над наковальней",
+        "Рейтинг Кинопоиска 6.3 ... Молоты над наковальней",
+        "мини-сериал, 1994 ... Рейтинг Кинопоиска 6.0 ... Молоты над наковальней",
+        "линейный продюсер ... Молоты над наковальней",
+        "Художник-постановщик ... Молоты над наковальней"
+      ],
+      "query": "site:kinopoisk.ru \"Hammers Over the Anvil\" 1993 Кинопоиск 12253"
+    },
+    {
+      "id": "nen-wd-q110418813",
+      "kp": "1356778",
+      "title": "Cómo mueren las reinas",
+      "year": 2021,
+      "directors": [
+        {
+          "id": "Q114899325",
+          "name": "Lucas Nazareno Turturro"
+        }
+      ],
+      "candidates": [
+        "Рейтинг Кинопоиска 6.1",
+        "Сортировка по году"
+      ],
+      "query": "site:kinopoisk.ru \"Cómo mueren las reinas\" 2021 Кинопоиск 1356778"
+    },
+    {
+      "id": "nen-wd-q2177944",
+      "kp": "281872",
+      "title": "Plop in de stad",
+      "year": 2006,
+      "directors": [
+        {
+          "id": "Q2691618",
+          "name": "Маттиас Теммерманс"
+        }
+      ],
+      "candidates": [
+        "Пол Гуссен ... Рейтинг Кинопоиска 7.4",
+        "Рейтинг Кинопоиска 5.9"
+      ],
+      "query": "site:kinopoisk.ru \"Plop in de stad\" 2006 Кинопоиск 281872"
+    },
+    {
+      "id": "nen-wd-q2643459",
+      "kp": "527057",
+      "title": "Blinker en de blixvaten",
+      "year": 2008,
+      "directors": [
+        {
+          "id": "Q2654163",
+          "name": "Filip Van Neyghem"
+        }
+      ],
+      "candidates": [
+        "Сортировка по годуБлинкер и ядовитые отходы",
+        "Блинкер и ядовитые отходы",
+        "Рейтинг Кинопоиска 8.7 ... Блинкер и ядовитые отходы"
+      ],
+      "query": "site:kinopoisk.ru \"Blinker en de blixvaten\" 2008 Кинопоиск 527057"
+    },
+    {
+      "id": "nen-wd-q2695756",
+      "kp": "416405",
+      "title": "Hotel op stelten",
+      "year": 2008,
+      "directors": [
+        {
+          "id": "Q2196223",
+          "name": "Bart Van Leemputten"
+        }
+      ],
+      "candidates": [
+        "Рейтинг Кинопоиска 5.7"
+      ],
+      "query": "site:kinopoisk.ru \"Hotel op stelten\" 2008 Кинопоиск 416405"
+    },
+    {
+      "id": "nen-wd-q2076027",
+      "kp": "536561",
+      "title": "Het geheim van Mega Mindy",
+      "year": 2009,
+      "directors": [
+        {
+          "id": "Q2691618",
+          "name": "Маттиас Теммерманс"
+        }
+      ],
+      "candidates": [
+        "Рейтинг Кинопоиска 5.9"
+      ],
+      "query": "site:kinopoisk.ru \"Het geheim van Mega Mindy\" 2009 Кинопоиск 536561"
+    },
+    {
+      "id": "nen-wd-q2837969",
+      "kp": "561683",
+      "title": "Allez raconte!",
+      "year": 2010,
+      "directors": [
+        {
+          "id": "Q71435494",
+          "name": "Jean-Christophe Roger"
+        }
+      ],
+      "candidates": [
+        "из 565",
+        "из 570",
+        "Рейтинг Кинопоиска 6.5 ... Рейтинг Кинопоиска 6.7"
+      ],
+      "query": "site:kinopoisk.ru \"Allez raconte!\" 2010 Кинопоиск 561683"
+    },
+    {
+      "id": "nen-wd-q10339443",
+      "kp": "140884",
+      "title": "O Mistério de Robin Hood",
+      "year": 1990,
+      "directors": [
+        {
+          "id": "Q10308743",
+          "name": "José Alvarenga Júnior"
+        }
+      ],
+      "candidates": [
+        "Режиссёр: Иванка Грыбчева В ролях: Георги Калоянчев, Боряна Пунчева",
+        "фильм ... Рейтинг Кинопоиска 6.8"
+      ],
+      "query": "site:kinopoisk.ru \"O Mistério de Robin Hood\" 1990 Кинопоиск 140884"
+    },
+    {
+      "id": "nen-wd-q10387418",
+      "kp": "120731",
+      "title": "Uma Escola Atrapalhada",
+      "year": 1990,
+      "directors": [
+        {
+          "id": "Q10264809",
+          "name": "Дель Ранхель"
+        }
+      ],
+      "candidates": [
+        "Марсио Бандарра В ролях: Жоржи Шеркис, Араси Балабанян ... Переполох в школе",
+        "Переполох в школе",
+        "Клаус Виллер В ролях: Лучана Серра, Дэвид Кюблер ... Переполох в школе",
+        "исполнительный продюсер ... Переполох в школе",
+        "рассказ ... Переполох в школе",
+        "Рейтинг Кинопоиска 6.0 ... Переполох в школе",
+        "фильмов ... Переполох в школе"
+      ],
+      "query": "site:kinopoisk.ru \"Uma Escola Atrapalhada\" 1990 Кинопоиск 120731"
+    },
+    {
+      "id": "nen-wd-q10342110",
+      "kp": "140877",
+      "title": "Os Trapalhões e a Árvore da Juventude",
+      "year": 1991,
+      "directors": [
+        {
+          "id": "Q10308743",
+          "name": "José Alvarenga Júnior"
+        }
+      ],
+      "candidates": [
+        "Сортировка по году"
+      ],
+      "query": "site:kinopoisk.ru \"Os Trapalhões e a Árvore da Juventude\" 1991 Кинопоиск 140877"
+    },
+    {
+      "id": "nen-wd-q10339505",
+      "kp": "110139",
+      "title": "O Noviço Rebelde",
+      "year": 1997,
+      "directors": [
+        {
+          "id": "Q7810553",
+          "name": "Тидзука Ямасаки"
+        }
+      ],
+      "candidates": [
+        "Художник-постановщик ... Рейтинг Кинопоиска 7.3 ... Путь начинающего",
+        "Путь начинающего"
+      ],
+      "query": "site:kinopoisk.ru \"O Noviço Rebelde\" 1997 Кинопоиск 110139"
+    },
+    {
+      "id": "nen-wd-q10394438",
+      "kp": "63055",
+      "title": "Xuxa Popstar",
+      "year": 2000,
+      "directors": [
+        {
+          "id": "Q7810553",
+          "name": "Тидзука Ямасаки"
+        }
+      ],
+      "candidates": [
+        "Дэна Де Оливейра ... Поп-звезда",
+        "Поп-звезда",
+        "Режиссёр: Марсело Лаффитте В ролях: Симоне Споладоре, Игорь Котрим ... Поп-звезда"
+      ],
+      "query": "site:kinopoisk.ru \"Xuxa Popstar\" 2000 Кинопоиск 63055"
+    },
+    {
+      "id": "nen-wd-q10394445",
+      "kp": "63054",
+      "title": "Xuxa e os Duendes",
+      "year": 2001,
+      "directors": [
+        {
+          "id": "Q10346837",
+          "name": "Paulo Sérgio Almeida"
+        }
+      ],
+      "candidates": [
+        "Шуша и гоблины"
+      ],
+      "query": "site:kinopoisk.ru \"Xuxa e os Duendes\" 2001 Кинопоиск 63054"
+    },
+    {
+      "id": "nen-wd-q1213334",
+      "kp": "183797",
+      "title": "Die Heinzelmännchen",
+      "year": 1956,
+      "directors": [
+        {
+          "id": "Q1352602",
+          "name": "Эрих Коблер"
+        }
+      ],
+      "candidates": [
+        "Сортировка по году"
+      ],
+      "query": "site:kinopoisk.ru \"Die Heinzelmännchen\" 1956 Кинопоиск 183797"
+    },
+    {
+      "id": "nen-wd-q1213231",
+      "kp": "68566",
+      "title": "Die Gänsemagd",
+      "year": 1957,
+      "directors": [
+        {
+          "id": "Q84418",
+          "name": "Фриц Геншов"
+        }
+      ],
+      "candidates": [
+        "Сортировка по году"
+      ],
+      "query": "site:kinopoisk.ru \"Die Gänsemagd\" 1957 Кинопоиск 68566"
+    },
+    {
+      "id": "nen-wd-q470544",
+      "kp": "213707",
+      "title": "Serengeti darf nicht sterben",
+      "year": 1959,
+      "directors": [
+        {
+          "id": "Q65906",
+          "name": "Бернард Гржимек"
+        },
+        {
+          "id": "Q72816",
+          "name": "Михаэль Гржимек"
+        }
+      ],
+      "candidates": [
+        "Режиссёр: Вим Вендерс ... Серенгети не должен умереть",
+        "Серенгети не должен умереть",
+        "Барбера В ролях: Доуз Батлер, Дон Мессик ... Серенгети не должен умереть",
+        "Режиссёр: Валериан Боровчик В ролях: Лигия Бранице ... Серенгети не должен умереть",
+        "фильма ... Рейтинг Кинопоиска 8.4 ... Серенгети не должен умереть"
+      ],
+      "query": "site:kinopoisk.ru \"Serengeti darf nicht sterben\" 1959 Кинопоиск 213707"
+    },
+    {
+      "id": "nen-wd-q1169931",
+      "kp": "210691",
+      "title": "Das Märchenschloß",
+      "year": 1961,
+      "directors": [
+        {
+          "id": "Q106168",
+          "name": "Герман Цшохе"
+        }
+      ],
+      "candidates": [
+        "Сортировка по году"
+      ],
+      "query": "site:kinopoisk.ru \"Das Märchenschloß\" 1961 Кинопоиск 210691"
+    },
+    {
+      "id": "nen-wd-q1199657",
+      "kp": "105916",
+      "title": "Der tapfere Schulschwänzer",
+      "year": 1967,
+      "directors": [
+        {
+          "id": "Q2584231",
+          "name": "Винфрид Юнге"
+        }
+      ],
+      "candidates": [
+        "фильм ... Храбрый прогульщик",
+        "Храбрый прогульщик",
+        "Режиссёр: Ханнелор Унтерберг В ролях: Нильс Аншутц, Мириам Кнабе ... Храбрый прогульщик"
+      ],
+      "query": "site:kinopoisk.ru \"Der tapfere Schulschwänzer\" 1967 Кинопоиск 105916"
+    },
+    {
+      "id": "nen-wd-q5261274",
+      "kp": "74596",
+      "title": "Der var engang en vicevært",
+      "year": 1937,
+      "directors": [
+        {
+          "id": "Q1389642",
+          "name": "Лау Лауритцен"
+        },
+        {
+          "id": "Q2836639",
+          "name": "Элис О’Фредерикс"
+        }
+      ],
+      "candidates": [
+        "Жил-был привратник"
+      ],
+      "query": "site:kinopoisk.ru \"Der var engang en vicevært\" 1937 Кинопоиск 74596"
+    },
+    {
+      "id": "nen-wd-q5069906",
+      "kp": "74543",
+      "title": "Champagnegaloppen",
+      "year": 1938,
+      "directors": [
+        {
+          "id": "Q3101912",
+          "name": "Q3101912"
+        }
+      ],
+      "candidates": [
+        "фильма",
+        "Сортировка по году"
+      ],
+      "query": "site:kinopoisk.ru \"Champagnegaloppen\" 1938 Кинопоиск 74543"
+    },
+    {
+      "id": "nen-wd-q5883502",
+      "kp": "95492",
+      "title": "Goomer",
+      "year": 1999,
+      "directors": [
+        {
+          "id": "Q57585857",
+          "name": "Carlos Varela"
+        },
+        {
+          "id": "Q93373343",
+          "name": "José Luis Feito Rodríguez"
+        }
+      ],
+      "candidates": [
+        "Мигель Альбаладехо В ролях: Давид Санчес дель Рей, Адриана Осорес ... Жених",
+        "фильм ... Жених"
+      ],
+      "query": "site:kinopoisk.ru \"Goomer\" 1999 Кинопоиск 95492"
+    },
+    {
+      "id": "nen-wd-q3354344",
+      "kp": "81629",
+      "title": "Opopomoz",
+      "year": 2003,
+      "directors": [
+        {
+          "id": "Q1346090",
+          "name": "Энцо Д’Ало"
+        }
+      ],
+      "candidates": [
+        "Опопомоз",
+        "Режиссёр: Цутому Сибаяма В ролях: Нобуё Ояма, Норико Охара ... Опопомоз",
+        "фильма ... Опопомоз",
+        "фильм ... Опопомоз"
+      ],
+      "query": "site:kinopoisk.ru \"Opopomoz\" 2003 Кинопоиск 81629"
+    },
+    {
+      "id": "nen-wd-q3819044",
+      "kp": "95273",
+      "title": "L'eroe dei due mondi",
+      "year": 1994,
+      "directors": [
+        {
+          "id": "Q3779367",
+          "name": "Guido Manuli"
+        }
+      ],
+      "candidates": [
+        "Герой Старого и Нового мира"
+      ],
+      "query": "site:kinopoisk.ru \"L'eroe dei due mondi\" 1994 Кинопоиск 95273"
+    },
+    {
+      "id": "nen-wd-q3532763",
+      "kp": "279468",
+      "title": "Totò Sapore e la magica storia della pizza",
+      "year": 2003,
+      "directors": [
+        {
+          "id": "Q105904613",
+          "name": "Маурицио Форестьери"
+        }
+      ],
+      "candidates": [
+        "Рейтинг Кинопоиска 6.3 ... Волшебная история пиццы"
+      ],
+      "query": "site:kinopoisk.ru \"Totò Sapore e la magica storia della pizza\" 2003 Кинопоиск 279468"
+    },
+    {
+      "id": "nen-wd-q3231246",
+      "kp": "37462",
+      "title": "The Care Bears Adventure in Wonderland",
+      "year": 1987,
+      "directors": [
+        {
+          "id": "Q95869940",
+          "name": "Raymond Jafelice"
+        }
+      ],
+      "candidates": [
+        "Штерн В ролях: Дон Майкл Пол, Лоуренс Дэйн ... Заботливые медвежата 3",
+        "Заботливые медвежата 3",
+        "Рейтинг Кинопоиска 7.6 ... Заботливые медвежата 3",
+        "Рейтинг Кинопоиска 7.2 ... 374 оценки ... Заботливые медвежата 3",
+        "Режиссёр: Индрих Полак ... Заботливые медвежата 3",
+        "фильм ... Рейтинг Кинопоиска 3.7 ... Заботливые медвежата 3"
+      ],
+      "query": "site:kinopoisk.ru \"The Care Bears Adventure in Wonderland\" 1987 Кинопоиск 37462"
+    },
+    {
+      "id": "nen-wd-q2898231",
+      "kp": "34173",
+      "title": "Die Schelme von Schelm",
+      "year": 1995,
+      "directors": [
+        {
+          "id": "Q6984096",
+          "name": "Albert Hanan Kaminski"
+        }
+      ],
+      "candidates": [
+        "Режиссёр: Галина Мелько В ролях: Мария Виноградова, Светлана Харлап ... Настоящий Шлемель",
+        "Настоящий Шлемель",
+        "Рейтинг Кинопоиска 7.8 ... Настоящий Шлемель"
+      ],
+      "query": "site:kinopoisk.ru \"Die Schelme von Schelm\" 1995 Кинопоиск 34173"
+    },
+    {
+      "id": "nen-wd-q50172196",
+      "kp": "1118236",
+      "title": "Cipka",
+      "year": 2016,
+      "directors": [
+        {
+          "id": "Q98056257",
+          "name": "Renata Gąsiorowska"
+        }
+      ],
+      "candidates": [
+        "Киска",
+        "В ролях: Дуглас Бут, Джош Бердетт ... Рейтинг Кинопоиска 6.3 ... Киска",
+        "Режиссёр: Марек Скробецкий В ролях: Каролина Требач, Йоанна Яблчиньска ... Киска",
+        "Режиссёр: Станислав Дюльц В ролях: Петр Фрончевский, Илона Кусьмерска ... Киска"
+      ],
+      "query": "site:kinopoisk.ru \"Cipka\" 2016 Кинопоиск 1118236"
+    },
+    {
+      "id": "nen-wd-q5459304",
+      "kp": "683707",
+      "title": "Flight of the Butterflies",
+      "year": 2012,
+      "directors": [
+        {
+          "id": "Q6848840",
+          "name": "Майк Сли"
+        }
+      ],
+      "candidates": [
+        "Режиссёр: Уильям Ким В ролях: Цзин Тянь, Лу И ... Полет бабочек",
+        "Полет бабочек",
+        "Рейтинг Кинопоиска 6.2 ... Полет бабочек"
+      ],
+      "query": "site:kinopoisk.ru \"Flight of the Butterflies\" 2012 Кинопоиск 683707"
+    },
+    {
+      "id": "nen-wd-q7774811",
+      "kp": "200020",
+      "title": "The Wiggles Movie",
+      "year": 1997,
+      "directors": [
+        {
+          "id": "Q108487381",
+          "name": "Dean Covell"
+        }
+      ],
+      "candidates": [
+        "Сортировка по году",
+        "Рейтинг Кинопоиска 7.4"
+      ],
+      "query": "site:kinopoisk.ru \"The Wiggles Movie\" 1997 Кинопоиск 200020"
+    },
+    {
+      "id": "nen-wd-q20439904",
+      "kp": "313551",
+      "title": "Blinky Bill's White Christmas",
+      "year": 2005,
+      "directors": [
+        {
+          "id": "Q5622296",
+          "name": "Guy Gross"
+        }
+      ],
+      "candidates": [
+        "Рождество Блинки Билла",
+        "Рейтинг Кинопоиска 6.5 ... Рождество Блинки Билла"
+      ],
+      "query": "site:kinopoisk.ru \"Blinky Bill's White Christmas\" 2005 Кинопоиск 313551"
+    },
+    {
+      "id": "nen-wd-q4638652",
+      "kp": "208043",
+      "title": "48 Shades",
+      "year": 2006,
+      "directors": [
+        {
+          "id": "Q369113",
+          "name": "Дэниел Лапейн"
+        }
+      ],
+      "candidates": [
+        "оттенков",
+        "Рейтинг Кинопоиска 6.3 ... 48 оттенков"
+      ],
+      "query": "site:kinopoisk.ru \"48 Shades\" 2006 Кинопоиск 208043"
+    },
+    {
+      "id": "nen-wd-q2488039",
+      "kp": "585870",
+      "title": "Allez, Eddy!",
+      "year": 2012,
+      "directors": [
+        {
+          "id": "Q52825471",
+          "name": "Герт Эмбреш"
+        }
+      ],
+      "candidates": [
+        "Рейтинг Кинопоиска 6.3",
+        "Рейтинг Кинопоиска 6.8"
+      ],
+      "query": "site:kinopoisk.ru \"Allez, Eddy!\" 2012 Кинопоиск 585870"
+    },
+    {
+      "id": "nen-wd-q2240293",
+      "kp": "711905",
+      "title": "K3 Bengeltjes",
+      "year": 2012,
+      "directors": [
+        {
+          "id": "Q2196223",
+          "name": "Bart Van Leemputten"
+        }
+      ],
+      "candidates": [
+        "фильм ... Рейтинг Кинопоиска 5.7"
+      ],
+      "query": "site:kinopoisk.ru \"K3 Bengeltjes\" 2012 Кинопоиск 711905"
+    },
+    {
+      "id": "nen-wd-q21998615",
+      "kp": "829670",
+      "title": "K3 Dierenhotel",
+      "year": 2014,
+      "directors": [
+        {
+          "id": "Q2196223",
+          "name": "Bart Van Leemputten"
+        }
+      ],
+      "candidates": [
+        "фильма ... Рейтинг Кинопоиска 7.4"
+      ],
+      "query": "site:kinopoisk.ru \"K3 Dierenhotel\" 2014 Кинопоиск 829670"
+    },
+    {
+      "id": "nen-wd-q21515983",
+      "kp": "918631",
+      "title": "Mega Mindy versus Rox",
+      "year": 2015,
+      "directors": [
+        {
+          "id": "Q2691618",
+          "name": "Маттиас Теммерманс"
+        }
+      ],
+      "candidates": [
+        "Сортировка по году",
+        "фильм ... Рейтинг Кинопоиска 5.7"
+      ],
+      "query": "site:kinopoisk.ru \"Mega Mindy versus Rox\" 2015 Кинопоиск 918631"
+    },
+    {
+      "id": "nen-wd-q10394429",
+      "kp": "121518",
+      "title": "Xuxa Abracadabra",
+      "year": 2003,
+      "directors": [
+        {
+          "id": "Q10331286",
+          "name": "Муасир Гоэш"
+        }
+      ],
+      "candidates": [
+        "Рейтинг Кинопоиска 7.3 ... Шуша Абракадабра",
+        "Шуша Абракадабра",
+        "Жан Де Сегонзак В ролях: Кристофер Титус, Навин Эндрюс ... Шуша Абракадабра",
+        "Рейтинг Кинопоиска 6.9 ... Шуша Абракадабра",
+        "Художник по декорациямРейтинг Кинопоиска 5.3 ... Шуша Абракадабра"
+      ],
+      "query": "site:kinopoisk.ru \"Xuxa Abracadabra\" 2003 Кинопоиск 121518"
+    },
+    {
+      "id": "nen-wd-q10394442",
+      "kp": "121516",
+      "title": "Xuxa e o Tesouro da Cidade Perdida",
+      "year": 2004,
+      "directors": [
+        {
+          "id": "Q10331286",
+          "name": "Муасир Гоэш"
+        }
+      ],
+      "candidates": [
+        "Шуша на пути к потерянным сокровищам",
+        "Рейтинг Кинопоиска 6.4 ... Шуша на пути к потерянным сокровищам"
+      ],
+      "query": "site:kinopoisk.ru \"Xuxa e o Tesouro da Cidade Perdida\" 2004 Кинопоиск 121516"
+    },
+    {
+      "id": "nen-wd-q10394435",
+      "kp": "315126",
+      "title": "Xuxa Gêmeas",
+      "year": 2006,
+      "directors": [
+        {
+          "id": "Q10308113",
+          "name": "Джордж Фернандо"
+        }
+      ],
+      "candidates": [
+        "Шуша близнецы"
+      ],
+      "query": "site:kinopoisk.ru \"Xuxa Gêmeas\" 2006 Кинопоиск 315126"
+    },
+    {
+      "id": "nen-wd-q4846388",
+      "kp": "445371",
+      "title": "Garoto Cósmico",
+      "year": 2007,
+      "directors": [
+        {
+          "id": "Q9609252",
+          "name": "Але Абреу"
+        }
+      ],
+      "candidates": [
+        "Рейтинг Кинопоиска 7.4 ... Космический мальчик"
+      ],
+      "query": "site:kinopoisk.ru \"Garoto Cósmico\" 2007 Кинопоиск 445371"
+    },
+    {
+      "id": "nen-wd-q6468915",
+      "kp": "429031",
+      "title": "Gladiformers",
+      "year": 2007,
+      "directors": [],
+      "candidates": [
+        "Гладиформеры: Роботы-гладиаторы",
+        "Рейтинг Кинопоиска 7.2 ... Гладиформеры: Роботы-гладиаторы",
+        "Иджинио Страффи В ролях: Анни Бовэйард, Даниэль Брошу ... Гладиформеры: Роботы-гладиаторы"
+      ],
+      "query": "site:kinopoisk.ru \"Gladiformers\" 2007 Кинопоиск 429031"
+    },
+    {
+      "id": "nen-wd-q10394447",
+      "kp": "493324",
+      "title": "Xuxa em O Mistério de Feiurinha",
+      "year": 2009,
+      "directors": [
+        {
+          "id": "Q7810553",
+          "name": "Тидзука Ямасаки"
+        }
+      ],
+      "candidates": [
+        "Сортировка по году",
+        "фильм ... Рейтинг Кинопоиска 6.2",
+        "Рейтинг Кинопоиска 6.8",
+        "фильма ... Рейтинг Кинопоиска 6.2",
+        "Рейтинг Кинопоиска 6.1",
+        "фильм ... Рейтинг Кинопоиска 6.6",
+        "мини-сериал, 2024 ... Рейтинг Кинопоиска 7.6",
+        "Рейтинг Кинопоиска 5.4",
+        "фильмов ... Рейтинг Кинопоиска 5.6"
+      ],
+      "query": "site:kinopoisk.ru \"Xuxa em O Mistério de Feiurinha\" 2009 Кинопоиск 493324"
+    },
+    {
+      "id": "nen-wd-q1171003",
+      "kp": "129753",
+      "title": "Das blaue Licht",
+      "year": 1976,
+      "directors": [
+        {
+          "id": "Q1672736",
+          "name": "Iris Gusner"
+        }
+      ],
+      "candidates": [
+        "Голубой свет"
+      ],
+      "query": "site:kinopoisk.ru \"Das blaue Licht\" 1976 Кинопоиск 129753"
+    },
+    {
+      "id": "nen-wd-q1192727",
+      "kp": "273826",
+      "title": "Der Bärenhäuter",
+      "year": 1986,
+      "directors": [
+        {
+          "id": "Q1587952",
+          "name": "Уолтер Бек"
+        }
+      ],
+      "candidates": [
+        "Режиссёр: Улли Ломмель В ролях: Сюзанна Лав, Бэрри Хикки",
+        "фильма",
+        "Режиссёр: Лотер Барк"
+      ],
+      "query": "site:kinopoisk.ru \"Der Bärenhäuter\" 1986 Кинопоиск 273826"
+    },
+    {
+      "id": "nen-wd-q1196813",
+      "kp": "113319",
+      "title": "Der Schwur von Rabenhorst",
+      "year": 1987,
+      "directors": [
+        {
+          "id": "Q1580841",
+          "name": "Ханс Кратцерт"
+        }
+      ],
+      "candidates": [
+        "Рейтинг Кинопоиска 7.9 ... Клятва в Рабенхорсте",
+        "Клятва в Рабенхорсте",
+        "Рейтинг Кинопоиска 8.0 ... Клятва в Рабенхорсте"
+      ],
+      "query": "site:kinopoisk.ru \"Der Schwur von Rabenhorst\" 1987 Кинопоиск 113319"
+    },
+    {
+      "id": "nen-wd-q1193121",
+      "kp": "273825",
+      "title": "Der Eisenhans",
+      "year": 1988,
+      "directors": [
+        {
+          "id": "Q1595297",
+          "name": "Karl Heinz Lotz"
+        }
+      ],
+      "candidates": [
+        "фильм ... Железный Ганс",
+        "Железный Ганс"
+      ],
+      "query": "site:kinopoisk.ru \"Der Eisenhans\" 1988 Кинопоиск 273825"
+    },
+    {
+      "id": "nen-wd-q1211964",
+      "kp": "143507",
+      "title": "Die Distel",
+      "year": 1992,
+      "directors": [
+        {
+          "id": "Q1514412",
+          "name": "Gernot Krää"
+        }
+      ],
+      "candidates": [
+        "Чертополох",
+        "фильм ... Рейтинг Кинопоиска 7.6 ... Чертополох",
+        "фильм ... Чертополох"
+      ],
+      "query": "site:kinopoisk.ru \"Die Distel\" 1992 Кинопоиск 143507"
+    },
+    {
+      "id": "nen-wd-q7752431",
+      "kp": "130356",
+      "title": "Las madres de la Plaza de Mayo",
+      "year": 1985,
+      "directors": [
+        {
+          "id": "Q4308868",
+          "name": "Лурдес Портильо"
+        },
+        {
+          "id": "Q7648583",
+          "name": "Susana Blaustein Muñoz"
+        }
+      ],
+      "candidates": [
+        "МакКвин В ролях: Ванесса Николь Хилл, Джаррод Пистилли ... Матери площади Мая",
+        "Матери площади Мая",
+        "Марк Льюис ... Матери площади Мая"
+      ],
+      "query": "site:kinopoisk.ru \"Las madres de la Plaza de Mayo\" 1985 Кинопоиск 130356"
+    },
+    {
+      "id": "nen-wd-q17076875",
+      "kp": "824165",
+      "title": "Living Stars",
+      "year": 2014,
+      "directors": [
+        {
+          "id": "Q21191121",
+          "name": "Мариано Кон"
+        },
+        {
+          "id": "Q21191123",
+          "name": "Гастон Дюпра"
+        }
+      ],
+      "candidates": [
+        "фильма",
+        "фильма ... Рейтинг Кинопоиска 7.5"
+      ],
+      "query": "site:kinopoisk.ru \"Living Stars\" 2014 Кинопоиск 824165"
+    },
+    {
+      "id": "nen-wd-q56064398",
+      "kp": "1189777",
+      "title": "El Pepe, una vida suprema",
+      "year": 2018,
+      "directors": [
+        {
+          "id": "Q94882",
+          "name": "Эмир Кустурица"
+        }
+      ],
+      "candidates": [
+        "Рейтинг Кинопоиска 6.7 ... Высшая жизнь",
+        "Пепе. Высшая жизнь",
+        "Каспер Ункал ... Высшая жизнь"
+      ],
+      "query": "site:kinopoisk.ru \"El Pepe, una vida suprema\" 2018 Кинопоиск 1189777"
+    },
+    {
+      "id": "nen-wd-q50281295",
+      "kp": "1032056",
+      "title": "Teatro de guerra",
+      "year": 2018,
+      "directors": [
+        {
+          "id": "Q518784",
+          "name": "Lola Arias"
+        }
+      ],
+      "candidates": [
+        "Сортировка по году",
+        "Режиссёр: Энгус МакКвин В ролях: Ванесса Николь Хилл, Джаррод Пистилли"
+      ],
+      "query": "site:kinopoisk.ru \"Teatro de guerra\" 2018 Кинопоиск 1032056"
+    },
+    {
+      "id": "nen-wd-q2241055",
+      "kp": "35106",
+      "title": "Verder dan de maan",
+      "year": 2003,
+      "directors": [
+        {
+          "id": "Q1396054",
+          "name": "Стиин Конинкс"
+        }
+      ],
+      "candidates": [
+        "фильм ... Море тишины",
+        "Море тишины",
+        "играет самого себя, хроника, в титрах не указан ... Море тишины"
+      ],
+      "query": "site:kinopoisk.ru \"Verder dan de maan\" 2003 Кинопоиск 35106"
+    },
+    {
+      "id": "nen-wd-q1931340",
+      "kp": "469622",
+      "title": "Suske en Wiske: De Texas rakkers",
+      "year": 2009,
+      "directors": [
+        {
+          "id": "Q95819211",
+          "name": "Марк Мертенс"
+        },
+        {
+          "id": "Q96978862",
+          "name": "Wim Bien"
+        }
+      ],
+      "candidates": [
+        "Люк и Люси: Техасские рейнджеры",
+        "В ролях: Тревор Ганьон, Филип Болден ... Люк и Люси: Техасские рейнджеры",
+        "Филип Болден ... Рейтинг Кинопоиска 6.9 ... Люк и Люси: Техасские рейнджеры"
+      ],
+      "query": "site:kinopoisk.ru \"Suske en Wiske: De Texas rakkers\" 2009 Кинопоиск 469622"
+    },
+    {
+      "id": "nen-wd-q10337738",
+      "kp": "107659",
+      "title": "Notícias de uma Guerra Particular",
+      "year": 1999,
+      "directors": [
+        {
+          "id": "Q3033796",
+          "name": "Катя Лунд"
+        },
+        {
+          "id": "Q6298266",
+          "name": "Жоан Морейра Саллес"
+        }
+      ],
+      "candidates": [
+        "Рейтинг Кинопоиска 7.8"
+      ],
+      "query": "site:kinopoisk.ru \"Notícias de uma Guerra Particular\" 1999 Кинопоиск 107659"
+    },
+    {
+      "id": "nen-wd-q67837996",
+      "kp": "188848",
+      "title": "Housing Problems",
+      "year": 1935,
+      "directors": [
+        {
+          "id": "Q1283768",
+          "name": "Эдгар Энсти"
+        },
+        {
+          "id": "Q7526060",
+          "name": "Sir Arthur Elton, 10th Baronet"
+        }
+      ],
+      "candidates": [
+        "Режиссёр: Бейзил Дин В ролях: Грэйси Филдс, Вивьен Ли"
+      ],
+      "query": "site:kinopoisk.ru \"Housing Problems\" 1935 Кинопоиск 188848"
+    },
+    {
+      "id": "nen-wd-q20022685",
+      "kp": "451344",
+      "title": "Treasure in Malta",
+      "year": 1963,
+      "directors": [],
+      "candidates": [
+        "Рейтинг Кинопоиска 7.8"
+      ],
+      "query": "site:kinopoisk.ru \"Treasure in Malta\" 1963 Кинопоиск 451344"
+    },
+    {
+      "id": "nen-wd-q7775580",
+      "kp": "818230",
+      "title": "The Wombles",
+      "year": 1973,
+      "directors": [
+        {
+          "id": "Q3131882",
+          "name": "Айвор Вуд"
+        }
+      ],
+      "candidates": [
+        "атолий Резников В ролях: Александр Калягин, Геннадий Хазанов ... Рейтинг Кинопоиска 7.3"
+      ],
+      "query": "site:kinopoisk.ru \"The Wombles\" 1973 Кинопоиск 818230"
+    },
+    {
+      "id": "nen-wd-q15851310",
+      "kp": "278803",
+      "title": "Toxic",
+      "year": 1990,
+      "directors": [],
+      "candidates": [
+        "Режиссёр: Риёко Икэда В ролях: Джексон Бек, Лен Карлсон ... Ядовитый",
+        "Ядовитый"
+      ],
+      "query": "site:kinopoisk.ru \"Toxic\" 1990 Кинопоиск 278803"
+    },
+    {
+      "id": "nen-wd-q20756850",
+      "kp": "736778",
+      "title": "Matar Extraños",
+      "year": 2013,
+      "directors": [
+        {
+          "id": "Q7030411",
+          "name": "Николас Переда"
+        },
+        {
+          "id": "Q38054592",
+          "name": "Jacob Schulsinger"
+        }
+      ],
+      "candidates": [
+        "Рейтинг Кинопоиска 6.3",
+        "фильм ... Рейтинг Кинопоиска 4.3"
+      ],
+      "query": "site:kinopoisk.ru \"Matar Extraños\" 2013 Кинопоиск 736778"
+    },
+    {
+      "id": "nen-wd-q3842212",
+      "kp": "3580",
+      "title": "Mad About Mambo",
+      "year": 2000,
+      "directors": [
+        {
+          "id": "Q130526855",
+          "name": "John Forte"
+        }
+      ],
+      "candidates": [
+        "Без ума от Мамбо",
+        "Рейтинг Кинопоиска 5.9 ... Без ума от Мамбо",
+        "Рейтинг Кинопоиска 6.4 ... Без ума от Мамбо",
+        "фильм ... Рейтинг Кинопоиска 7.2 ... Без ума от Мамбо",
+        "Видео, 2012 ... Рейтинг Кинопоиска 8.0 ... Без ума от Мамбо",
+        "фильм ... Рейтинг Кинопоиска 7.0 ... Без ума от Мамбо",
+        "Рейтинг Кинопоиска 8.0 ... Без ума от Мамбо",
+        "Рейтинг Кинопоиска 7.0 ... Без ума от Мамбо"
+      ],
+      "query": "site:kinopoisk.ru \"Mad About Mambo\" 2000 Кинопоиск 3580"
+    },
+    {
+      "id": "nen-wd-q14915750",
+      "kp": "82133",
+      "title": "La justicia del Coyote",
+      "year": 1956,
+      "directors": [
+        {
+          "id": "Q728391",
+          "name": "Joaquín Luis Romero Hernández Marchent"
+        }
+      ],
+      "candidates": [
+        "Рейтинг Кинопоиска 7.3 ... Правосудие Койота",
+        "Правосудие Койота",
+        "Рейтинг Кинопоиска 6.3 ... Правосудие Койота"
+      ],
+      "query": "site:kinopoisk.ru \"La justicia del Coyote\" 1956 Кинопоиск 82133"
+    },
+    {
+      "id": "nen-wd-q40683260",
+      "kp": "1055156",
+      "title": "Wednesday with Goddard",
+      "year": 2016,
+      "directors": [],
+      "candidates": [
+        "Джоэнна Харрисон В ролях: Элси Кавалье, Оливия Колман ... Среда с Годдардом",
+        "Среда с Годдардом"
+      ],
+      "query": "site:kinopoisk.ru \"Wednesday with Goddard\" 2016 Кинопоиск 1055156"
+    },
+    {
+      "id": "nen-wd-q116978367",
+      "kp": "321582",
+      "title": "How Mermaids Breed",
+      "year": 2002,
+      "directors": [],
+      "candidates": [
+        "Элис Кин ... Как разводить русалок",
+        "Как разводить русалок"
+      ],
+      "query": "site:kinopoisk.ru \"How Mermaids Breed\" 2002 Кинопоиск 321582"
+    },
+    {
+      "id": "nen-wd-q64167484",
+      "kp": "1101236",
+      "title": "Home Movie",
+      "year": 2013,
+      "directors": [],
+      "candidates": [
+        "фильм ... Домашнее кино",
+        "Домашнее кино"
+      ],
+      "query": "site:kinopoisk.ru \"Home Movie\" 2013 Кинопоиск 1101236"
+    },
+    {
+      "id": "nen-wd-q50414259",
+      "kp": "864610",
+      "title": "Austin to Boston",
+      "year": 2014,
+      "directors": [
+        {
+          "id": "Q21614619",
+          "name": "James Marcus Haney"
+        }
+      ],
+      "candidates": [
+        "фильм ... Из Остина в Бостон",
+        "Из Остина в Бостон"
+      ],
+      "query": "site:kinopoisk.ru \"Austin to Boston\" 2014 Кинопоиск 864610"
+    },
+    {
+      "id": "nen-wd-q98005150",
+      "kp": "1399208",
+      "title": "The Go-Go's",
+      "year": 2020,
+      "directors": [
+        {
+          "id": "Q24628818",
+          "name": "Элисон Эллвуд"
+        }
+      ],
+      "candidates": [
+        "Сортировка по году",
+        "О персоне"
+      ],
+      "query": "site:kinopoisk.ru \"The Go-Go's\" 2020 Кинопоиск 1399208"
+    },
+    {
+      "id": "nen-wd-q515899",
+      "kp": "54789",
+      "title": "Tommy Tricker and the Stamp Traveller",
+      "year": 1988,
+      "directors": [
+        {
+          "id": "Q3308492",
+          "name": "Майкл Руббо"
+        }
+      ],
+      "candidates": [
+        "путешественник на марке"
+      ],
+      "query": "site:kinopoisk.ru \"Tommy Tricker and the Stamp Traveller\" 1988 Кинопоиск 54789"
+    },
+    {
+      "id": "nen-wd-q21027072",
+      "kp": "817206",
+      "title": "The Legend of Longwood",
+      "year": 2014,
+      "directors": [
+        {
+          "id": "Q56230172",
+          "name": "Лиза Малкеи"
+        }
+      ],
+      "candidates": [
+        "Легенда Лонгвуда",
+        "фильма ... Легенда Лонгвуда",
+        "сопродюсер ... Рейтинг Кинопоиска 6.4 ... Легенда Лонгвуда",
+        "фильма ... Рейтинг Кинопоиска 5.4 ... Легенда Лонгвуда"
+      ],
+      "query": "site:kinopoisk.ru \"The Legend of Longwood\" 2014 Кинопоиск 817206"
+    },
+    {
+      "id": "nen-wd-q66123849",
+      "kp": "197388",
+      "title": "Podstawy BHP w kopalni miedzi",
+      "year": 1972,
+      "directors": [
+        {
+          "id": "Q55165",
+          "name": "Кшиштоф Кесьлёвский"
+        }
+      ],
+      "candidates": [
+        "Основы охраны труда на медном руднике"
+      ],
+      "query": "site:kinopoisk.ru \"Podstawy BHP w kopalni miedzi\" 1972 Кинопоиск 197388"
+    },
+    {
+      "id": "nen-wd-q66124409",
+      "kp": "197383",
+      "title": "Klaps",
+      "year": 1976,
+      "directors": [
+        {
+          "id": "Q55165",
+          "name": "Кшиштоф Кесьлёвский"
+        }
+      ],
+      "candidates": [
+        "Режиссёр: Ричард Кинон В ролях: Сэда Томпсон, Джеймс Бродерик ... Хлопушка",
+        "Хлопушка",
+        "фильма ... Рейтинг Кинопоиска 7.6 ... Хлопушка"
+      ],
+      "query": "site:kinopoisk.ru \"Klaps\" 1976 Кинопоиск 197383"
+    },
+    {
+      "id": "nen-wd-q19607229",
+      "kp": "279425",
+      "title": "Chet's Romance",
+      "year": 1988,
+      "directors": [
+        {
+          "id": "Q2899524",
+          "name": "Bertrand Fèvre"
+        }
+      ],
+      "candidates": [
+        "Режиссёр: Джереми Карбони В ролях: Присцилла Бесконд, Джефри Кэри ... Роман Чета",
+        "Роман Чета"
+      ],
+      "query": "site:kinopoisk.ru \"Chet's Romance\" 1988 Кинопоиск 279425"
+    }
+  ]
+}

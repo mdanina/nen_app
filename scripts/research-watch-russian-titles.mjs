@@ -14,6 +14,7 @@ const analyticsOnly = process.argv.includes("--analytics-only");
 const removeKnownDuplicate = process.argv.includes("--remove-known-duplicate");
 const analyticsJsonPath = "data/reports/watch-original-only-analysis.json";
 const analyticsMarkdownPath = "data/reports/watch-original-only-analysis.md";
+const incrementalReviewPath = "data/reports/watch-russian-title-incremental-review.json";
 const cyrillic = /[А-ЯЁа-яё]/u;
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
@@ -323,6 +324,16 @@ const previousReport = await fs.readFile(reportPath, "utf8").then(JSON.parse).ca
 const previousResults = new Map((previousReport?.results ?? []).map((result) => [result.id, result]));
 const cache = await fs.readFile(cachePath, "utf8").then(JSON.parse).catch(() =>
   Object.fromEntries((previousReport?.results ?? []).map((result) => [result.id, result])));
+const incrementalReview = await fs.readFile(incrementalReviewPath, "utf8").then(JSON.parse).catch(() => ({ results: [] }));
+const incrementalEvidenceById = new Map((incrementalReview.results ?? []).map((result) => [result.id, {
+  candidate: result.russianTitle,
+  source: result.source,
+  url: result.sourceUrl,
+  match: result.match,
+  confidence: result.confidence,
+  sourceId: result.sourceId,
+  reason: result.reason,
+}]));
 
 if (analyticsOnly) {
   const countBy = (values) => Object.fromEntries([...values.reduce((map, value) =>
@@ -507,7 +518,8 @@ async function research(item) {
   };
   const previous = cache[item.id];
   const evidence = [...(previous?.provenance ?? []), ...(previous?.rejectedCandidates ?? []),
-    ...indexedWikidataEvidence(identifiers), ...editorialEvidence(item)];
+    ...indexedWikidataEvidence(identifiers), ...editorialEvidence(item),
+    ...(incrementalEvidenceById.has(item.id) ? [incrementalEvidenceById.get(item.id)] : [])];
   const errors = (previous?.errors ?? []).filter((error) => error.source !== "Wikidata" && error.source !== "TMDb" && error.source !== "Русская Википедия");
   const hasTmdb = evidence.some((entry) => entry.source.startsWith("TMDb"));
   const hasWikipedia = evidence.some((entry) => entry.source.startsWith("Русская Википедия"));
@@ -544,7 +556,8 @@ await Promise.all(Array.from({ length: 2 }, async () => {
 const results = pending.map((item) => {
   const cached = cache[item.id] ?? previousResults.get(item.id);
   if (!cached) throw new Error(`В кэше отсутствует результат для ${item.id}`);
-  const evidence = [...(cached.provenance ?? []), ...(cached.rejectedCandidates ?? [])]
+  const evidence = [...(cached.provenance ?? []), ...(cached.rejectedCandidates ?? []),
+    ...(incrementalEvidenceById.has(item.id) ? [incrementalEvidenceById.get(item.id)] : [])]
     .map((entry) => ({ ...entry, candidate: sanitizeCandidate(entry.candidate) }))
     .filter((entry) => !invalidCandidate(entry.candidate) &&
       !invalidEvidence(item, entry) &&

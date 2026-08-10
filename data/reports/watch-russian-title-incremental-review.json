@@ -1,0 +1,626 @@
+{
+  "generatedAt": "2026-08-10T14:27:41.222Z",
+  "accepted": 62,
+  "results": [
+    {
+      "id": "nen-wd-q4929113",
+      "russianTitle": "Леди голубое пламя",
+      "source": "Кинопоиск — индексируемая страница/сниппет",
+      "sourceId": "52767",
+      "sourceUrl": "https://www.kinopoisk.ru/film/52767/",
+      "match": "exact-kinopoisk-id:52767;original-title:Blue Fire Lady;year:1977",
+      "confidence": 0.96,
+      "reason": "Русское название непосредственно связано с точным originalTitle и годом в индексируемом материале Кинопоиска"
+    },
+    {
+      "id": "nen-wd-q7881964",
+      "russianTitle": "Слоненок цвета мечты",
+      "source": "Кинопоиск — индексируемая страница/сниппет",
+      "sourceId": "114170",
+      "sourceUrl": "https://www.kinopoisk.ru/film/114170/",
+      "match": "exact-kinopoisk-id:114170;original-title:Un elefante color ilusión;year:1970",
+      "confidence": 0.96,
+      "reason": "Русское название непосредственно связано с точным originalTitle и годом в индексируемом материале Кинопоиска"
+    },
+    {
+      "id": "nen-wd-q18709309",
+      "russianTitle": "Приключения Ихитуса",
+      "source": "Кинопоиск — индексируемая страница/сниппет",
+      "sourceId": "108663",
+      "sourceUrl": "https://www.kinopoisk.ru/film/108663/",
+      "match": "exact-kinopoisk-id:108663;original-title:Las aventuras de Hijitus;year:1973",
+      "confidence": 0.96,
+      "reason": "Русское название непосредственно связано с точным originalTitle и годом в индексируемом материале Кинопоиска"
+    },
+    {
+      "id": "nen-wd-q5033546",
+      "russianTitle": "Как прекрасна моя семья!",
+      "source": "Кинопоиск — индексируемая страница/сниппет",
+      "sourceId": "116713",
+      "sourceUrl": "https://www.kinopoisk.ru/film/116713/",
+      "match": "exact-kinopoisk-id:116713;original-title:Cantaniño cuenta un cuento;year:1979",
+      "confidence": 0.96,
+      "reason": "Русское название непосредственно связано с точным originalTitle и годом в индексируемом материале Кинопоиска"
+    },
+    {
+      "id": "nen-wd-q17168882",
+      "russianTitle": "Моника и русалки Рио",
+      "source": "Кинопоиск — индексируемая страница/сниппет",
+      "sourceId": "110147",
+      "sourceUrl": "https://www.kinopoisk.ru/film/110147/",
+      "match": "exact-kinopoisk-id:110147;original-title:Mônica e a Sereia do Rio;year:1987",
+      "confidence": 0.96,
+      "reason": "Русское название непосредственно связано с точным originalTitle и годом в индексируемом материале Кинопоиска"
+    },
+    {
+      "id": "nen-wd-q1199256",
+      "russianTitle": "Маленький Мук",
+      "source": "Кинопоиск — индексируемая страница/сниппет",
+      "sourceId": "71462",
+      "sourceUrl": "https://www.kinopoisk.ru/film/71462/",
+      "match": "exact-kinopoisk-id:71462;original-title:Der kleine Muck;year:1944",
+      "confidence": 0.96,
+      "reason": "Русское название непосредственно связано с точным originalTitle и годом в индексируемом материале Кинопоиска"
+    },
+    {
+      "id": "nen-wd-q1215510",
+      "russianTitle": "Принцесса и Свинопас",
+      "source": "Кинопоиск — индексируемая страница/сниппет",
+      "sourceId": "221456",
+      "sourceUrl": "https://www.kinopoisk.ru/film/221456/",
+      "match": "exact-kinopoisk-id:221456;original-title:Die Prinzessin und der Schweinehirt;year:1953",
+      "confidence": 0.96,
+      "reason": "Русское название непосредственно связано с точным originalTitle и годом в индексируемом материале Кинопоиска"
+    },
+    {
+      "id": "nen-wd-q1261258",
+      "russianTitle": "Питер в волшебной стране",
+      "source": "Кинопоиск — индексируемая страница/сниппет",
+      "sourceId": "101199",
+      "sourceUrl": "https://www.kinopoisk.ru/film/101199/",
+      "match": "exact-kinopoisk-id:101199;original-title:Peterchens Mondfahrt;year:1990",
+      "confidence": 0.96,
+      "reason": "Русское название непосредственно связано с точным originalTitle и годом в индексируемом материале Кинопоиска"
+    },
+    {
+      "id": "nen-wd-q1216390",
+      "russianTitle": "След ведёт к Зильберзе",
+      "source": "Кинопоиск — индексируемая страница/сниппет",
+      "sourceId": "179709",
+      "sourceUrl": "https://www.kinopoisk.ru/film/179709/",
+      "match": "exact-kinopoisk-id:179709;original-title:Die Spur führt zum Silbersee;year:1990",
+      "confidence": 0.96,
+      "reason": "Русское название непосредственно связано с точным originalTitle и годом в индексируемом материале Кинопоиска"
+    },
+    {
+      "id": "nen-wd-q12306380",
+      "russianTitle": "Сиркелине и самый маленький в мире супергерой",
+      "source": "Кинопоиск — индексируемая страница/сниппет",
+      "sourceId": "417425",
+      "sourceUrl": "https://www.kinopoisk.ru/film/417425/",
+      "match": "exact-kinopoisk-id:417425;original-title:Cirkeline og Verdens mindste superhelt;year:2004",
+      "confidence": 0.96,
+      "reason": "Русское название непосредственно связано с точным originalTitle и годом в индексируемом материале Кинопоиска"
+    },
+    {
+      "id": "nen-wd-q2832409",
+      "russianTitle": "Счастливые каникулы",
+      "source": "Кинопоиск — индексируемая страница/сниппет",
+      "sourceId": "132561",
+      "sourceUrl": "https://www.kinopoisk.ru/film/132561/",
+      "match": "exact-kinopoisk-id:132561;original-title:Alegres vacaciones;year:1948",
+      "confidence": 0.96,
+      "reason": "Русское название непосредственно связано с точным originalTitle и годом в индексируемом материале Кинопоиска"
+    },
+    {
+      "id": "nen-wd-q19703066",
+      "russianTitle": "Бременские музыканты",
+      "source": "Кинопоиск — индексируемая страница/сниппет",
+      "sourceId": "243815",
+      "sourceUrl": "https://www.kinopoisk.ru/film/243815/",
+      "match": "exact-kinopoisk-id:243815;original-title:Los 4 músicos de Bremen;year:1989",
+      "confidence": 0.96,
+      "reason": "Русское название непосредственно связано с точным originalTitle и годом в индексируемом материале Кинопоиска"
+    },
+    {
+      "id": "nen-wd-q43201265",
+      "russianTitle": "Аккордеон",
+      "source": "Кинопоиск — индексируемая страница/сниппет",
+      "sourceId": "142354",
+      "sourceUrl": "https://www.kinopoisk.ru/film/142354/",
+      "match": "exact-kinopoisk-id:142354;original-title:Accordéon;year:2004",
+      "confidence": 0.96,
+      "reason": "Русское название непосредственно связано с точным originalTitle и годом в индексируемом материале Кинопоиска"
+    },
+    {
+      "id": "nen-wd-q12029118",
+      "russianTitle": "Где падали звезды",
+      "source": "Кинопоиск — индексируемая страница/сниппет",
+      "sourceId": "469509",
+      "sourceUrl": "https://www.kinopoisk.ru/film/469509/",
+      "match": "exact-kinopoisk-id:469509;original-title:Kde padají hvězdy;year:1996",
+      "confidence": 0.96,
+      "reason": "Русское название непосредственно связано с точным originalTitle и годом в индексируемом материале Кинопоиска"
+    },
+    {
+      "id": "nen-wd-q10635807",
+      "russianTitle": "Мальчик и дракон",
+      "source": "Кинопоиск — индексируемая страница/сниппет",
+      "sourceId": "364389",
+      "sourceUrl": "https://www.kinopoisk.ru/film/364389/",
+      "match": "exact-kinopoisk-id:364389;original-title:Pojken och draken;year:1962",
+      "confidence": 0.96,
+      "reason": "Русское название непосредственно связано с точным originalTitle и годом в индексируемом материале Кинопоиска"
+    },
+    {
+      "id": "nen-wd-q10535496",
+      "russianTitle": "Нет в лесу никаких разбойников",
+      "source": "Кинопоиск — индексируемая страница/сниппет",
+      "sourceId": "929452",
+      "sourceUrl": "https://www.kinopoisk.ru/film/929452/",
+      "match": "exact-kinopoisk-id:929452;original-title:Ingen rövare finns i skogen;year:1989",
+      "confidence": 0.96,
+      "reason": "Русское название непосредственно связано с точным originalTitle и годом в индексируемом материале Кинопоиска"
+    },
+    {
+      "id": "nen-wd-q9020582",
+      "russianTitle": "Приключения Робина Гуда",
+      "source": "Кинопоиск — индексируемая страница/сниппет",
+      "sourceId": "257761",
+      "sourceUrl": "https://www.kinopoisk.ru/film/257761/",
+      "match": "exact-kinopoisk-id:257761;original-title:The Adventures of Robin Hood;year:1985",
+      "confidence": 0.96,
+      "reason": "Русское название непосредственно связано с точным originalTitle и годом в индексируемом материале Кинопоиска"
+    },
+    {
+      "id": "nen-wd-q5826970",
+      "russianTitle": "Черный Тюльпан",
+      "source": "Кинопоиск — индексируемая страница/сниппет",
+      "sourceId": "54147",
+      "sourceUrl": "https://www.kinopoisk.ru/film/54147/",
+      "match": "exact-kinopoisk-id:54147;original-title:Black Tulip;year:1988",
+      "confidence": 0.96,
+      "reason": "Русское название непосредственно связано с точным originalTitle и годом в индексируемом материале Кинопоиска"
+    },
+    {
+      "id": "nen-wd-q39663634",
+      "russianTitle": "Красотка",
+      "source": "Кинопоиск — индексируемая страница/сниппет",
+      "sourceId": "858482",
+      "sourceUrl": "https://www.kinopoisk.ru/film/858482/",
+      "match": "exact-kinopoisk-id:858482;original-title:Beautiful Girl;year:2015",
+      "confidence": 0.96,
+      "reason": "Русское название непосредственно связано с точным originalTitle и годом в индексируемом материале Кинопоиска"
+    },
+    {
+      "id": "nen-wd-q16301967",
+      "russianTitle": "Охотники за монстрами",
+      "source": "Кинопоиск — индексируемая страница/сниппет",
+      "sourceId": "116750",
+      "sourceUrl": "https://www.kinopoisk.ru/film/116750/",
+      "match": "exact-kinopoisk-id:116750;original-title:Los matamonstruos en la mansión del terror;year:1987",
+      "confidence": 0.96,
+      "reason": "Русское название непосредственно связано с точным originalTitle и годом в индексируемом материале Кинопоиска"
+    },
+    {
+      "id": "nen-wd-q16593446",
+      "russianTitle": "Самые сумасшедшие пилоты в мире",
+      "source": "Кинопоиск — индексируемая страница/сниппет",
+      "sourceId": "108695",
+      "sourceUrl": "https://www.kinopoisk.ru/film/108695/",
+      "match": "exact-kinopoisk-id:108695;original-title:Los pilotos más locos del mundo;year:1988",
+      "confidence": 0.96,
+      "reason": "Русское название непосредственно связано с точным originalTitle и годом в индексируемом материале Кинопоиска"
+    },
+    {
+      "id": "nen-wd-q109015317",
+      "russianTitle": "Тоби и магическая книга",
+      "source": "Кинопоиск — индексируемая страница/сниппет",
+      "sourceId": "131094",
+      "sourceUrl": "https://www.kinopoisk.ru/film/131094/",
+      "match": "exact-kinopoisk-id:131094;original-title:Tobi y el libro mágico;year:2001",
+      "confidence": 0.96,
+      "reason": "Русское название непосредственно связано с точным originalTitle и годом в индексируемом материале Кинопоиска"
+    },
+    {
+      "id": "nen-wd-q10367358",
+      "russianTitle": "Сэм и я",
+      "source": "Кинопоиск — индексируемая страница/сниппет",
+      "sourceId": "61510",
+      "sourceUrl": "https://www.kinopoisk.ru/film/61510/",
+      "match": "exact-kinopoisk-id:61510;original-title:Samy y yo;year:2002",
+      "confidence": 0.96,
+      "reason": "Русское название непосредственно связано с точным originalTitle и годом в индексируемом материале Кинопоиска"
+    },
+    {
+      "id": "nen-wd-q7245825",
+      "russianTitle": "Узник крепости Зенда",
+      "source": "Кинопоиск — индексируемая страница/сниппет",
+      "sourceId": "94179",
+      "sourceUrl": "https://www.kinopoisk.ru/film/94179/",
+      "match": "exact-kinopoisk-id:94179;original-title:Prisoner of Zenda;year:1988",
+      "confidence": 0.96,
+      "reason": "Русское название непосредственно связано с точным originalTitle и годом в индексируемом материале Кинопоиска"
+    },
+    {
+      "id": "nen-wd-q804498",
+      "russianTitle": "Блинки Билл",
+      "source": "Кинопоиск — индексируемая страница/сниппет",
+      "sourceId": "54144",
+      "sourceUrl": "https://www.kinopoisk.ru/film/54144/",
+      "match": "exact-kinopoisk-id:54144;original-title:Blinky Bill;year:1992",
+      "confidence": 0.96,
+      "reason": "Русское название непосредственно связано с точным originalTitle и годом в индексируемом материале Кинопоиска"
+    },
+    {
+      "id": "nen-wd-q3545539",
+      "russianTitle": "Молоты над наковальней",
+      "source": "Кинопоиск — индексируемая страница/сниппет",
+      "sourceId": "12253",
+      "sourceUrl": "https://www.kinopoisk.ru/film/12253/",
+      "match": "exact-kinopoisk-id:12253;original-title:Hammers Over the Anvil;year:1993",
+      "confidence": 0.96,
+      "reason": "Русское название непосредственно связано с точным originalTitle и годом в индексируемом материале Кинопоиска"
+    },
+    {
+      "id": "nen-wd-q2643459",
+      "russianTitle": "Блинкер и ядовитые отходы",
+      "source": "Кинопоиск — индексируемая страница/сниппет",
+      "sourceId": "527057",
+      "sourceUrl": "https://www.kinopoisk.ru/film/527057/",
+      "match": "exact-kinopoisk-id:527057;original-title:Blinker en de blixvaten;year:2008",
+      "confidence": 0.96,
+      "reason": "Русское название непосредственно связано с точным originalTitle и годом в индексируемом материале Кинопоиска"
+    },
+    {
+      "id": "nen-wd-q10387418",
+      "russianTitle": "Переполох в школе",
+      "source": "Кинопоиск — индексируемая страница/сниппет",
+      "sourceId": "120731",
+      "sourceUrl": "https://www.kinopoisk.ru/film/120731/",
+      "match": "exact-kinopoisk-id:120731;original-title:Uma Escola Atrapalhada;year:1990",
+      "confidence": 0.96,
+      "reason": "Русское название непосредственно связано с точным originalTitle и годом в индексируемом материале Кинопоиска"
+    },
+    {
+      "id": "nen-wd-q10339505",
+      "russianTitle": "Путь начинающего",
+      "source": "Кинопоиск — индексируемая страница/сниппет",
+      "sourceId": "110139",
+      "sourceUrl": "https://www.kinopoisk.ru/film/110139/",
+      "match": "exact-kinopoisk-id:110139;original-title:O Noviço Rebelde;year:1997",
+      "confidence": 0.96,
+      "reason": "Русское название непосредственно связано с точным originalTitle и годом в индексируемом материале Кинопоиска"
+    },
+    {
+      "id": "nen-wd-q10394438",
+      "russianTitle": "Поп-звезда",
+      "source": "Кинопоиск — индексируемая страница/сниппет",
+      "sourceId": "63055",
+      "sourceUrl": "https://www.kinopoisk.ru/film/63055/",
+      "match": "exact-kinopoisk-id:63055;original-title:Xuxa Popstar;year:2000",
+      "confidence": 0.96,
+      "reason": "Русское название непосредственно связано с точным originalTitle и годом в индексируемом материале Кинопоиска"
+    },
+    {
+      "id": "nen-wd-q10394445",
+      "russianTitle": "Шуша и гоблины",
+      "source": "Кинопоиск — индексируемая страница/сниппет",
+      "sourceId": "63054",
+      "sourceUrl": "https://www.kinopoisk.ru/film/63054/",
+      "match": "exact-kinopoisk-id:63054;original-title:Xuxa e os Duendes;year:2001",
+      "confidence": 0.96,
+      "reason": "Русское название непосредственно связано с точным originalTitle и годом в индексируемом материале Кинопоиска"
+    },
+    {
+      "id": "nen-wd-q470544",
+      "russianTitle": "Серенгети не должен умереть",
+      "source": "Кинопоиск — индексируемая страница/сниппет",
+      "sourceId": "213707",
+      "sourceUrl": "https://www.kinopoisk.ru/film/213707/",
+      "match": "exact-kinopoisk-id:213707;original-title:Serengeti darf nicht sterben;year:1959",
+      "confidence": 0.96,
+      "reason": "Русское название непосредственно связано с точным originalTitle и годом в индексируемом материале Кинопоиска"
+    },
+    {
+      "id": "nen-wd-q1199657",
+      "russianTitle": "Храбрый прогульщик",
+      "source": "Кинопоиск — индексируемая страница/сниппет",
+      "sourceId": "105916",
+      "sourceUrl": "https://www.kinopoisk.ru/film/105916/",
+      "match": "exact-kinopoisk-id:105916;original-title:Der tapfere Schulschwänzer;year:1967",
+      "confidence": 0.96,
+      "reason": "Русское название непосредственно связано с точным originalTitle и годом в индексируемом материале Кинопоиска"
+    },
+    {
+      "id": "nen-wd-q5261274",
+      "russianTitle": "Жил-был привратник",
+      "source": "Кинопоиск — индексируемая страница/сниппет",
+      "sourceId": "74596",
+      "sourceUrl": "https://www.kinopoisk.ru/film/74596/",
+      "match": "exact-kinopoisk-id:74596;original-title:Der var engang en vicevært;year:1937",
+      "confidence": 0.96,
+      "reason": "Русское название непосредственно связано с точным originalTitle и годом в индексируемом материале Кинопоиска"
+    },
+    {
+      "id": "nen-wd-q3354344",
+      "russianTitle": "Опопомоз",
+      "source": "Кинопоиск — индексируемая страница/сниппет",
+      "sourceId": "81629",
+      "sourceUrl": "https://www.kinopoisk.ru/film/81629/",
+      "match": "exact-kinopoisk-id:81629;original-title:Opopomoz;year:2003",
+      "confidence": 0.96,
+      "reason": "Русское название непосредственно связано с точным originalTitle и годом в индексируемом материале Кинопоиска"
+    },
+    {
+      "id": "nen-wd-q3819044",
+      "russianTitle": "Герой Старого и Нового мира",
+      "source": "Кинопоиск — индексируемая страница/сниппет",
+      "sourceId": "95273",
+      "sourceUrl": "https://www.kinopoisk.ru/film/95273/",
+      "match": "exact-kinopoisk-id:95273;original-title:L'eroe dei due mondi;year:1994",
+      "confidence": 0.96,
+      "reason": "Русское название непосредственно связано с точным originalTitle и годом в индексируемом материале Кинопоиска"
+    },
+    {
+      "id": "nen-wd-q3231246",
+      "russianTitle": "Заботливые медвежата 3",
+      "source": "Кинопоиск — индексируемая страница/сниппет",
+      "sourceId": "37462",
+      "sourceUrl": "https://www.kinopoisk.ru/film/37462/",
+      "match": "exact-kinopoisk-id:37462;original-title:The Care Bears Adventure in Wonderland;year:1987",
+      "confidence": 0.96,
+      "reason": "Русское название непосредственно связано с точным originalTitle и годом в индексируемом материале Кинопоиска"
+    },
+    {
+      "id": "nen-wd-q2898231",
+      "russianTitle": "Настоящий Шлемель",
+      "source": "Кинопоиск — индексируемая страница/сниппет",
+      "sourceId": "34173",
+      "sourceUrl": "https://www.kinopoisk.ru/film/34173/",
+      "match": "exact-kinopoisk-id:34173;original-title:Die Schelme von Schelm;year:1995",
+      "confidence": 0.96,
+      "reason": "Русское название непосредственно связано с точным originalTitle и годом в индексируемом материале Кинопоиска"
+    },
+    {
+      "id": "nen-wd-q50172196",
+      "russianTitle": "Киска",
+      "source": "Кинопоиск — индексируемая страница/сниппет",
+      "sourceId": "1118236",
+      "sourceUrl": "https://www.kinopoisk.ru/film/1118236/",
+      "match": "exact-kinopoisk-id:1118236;original-title:Cipka;year:2016",
+      "confidence": 0.96,
+      "reason": "Русское название непосредственно связано с точным originalTitle и годом в индексируемом материале Кинопоиска"
+    },
+    {
+      "id": "nen-wd-q5459304",
+      "russianTitle": "Полет бабочек",
+      "source": "Кинопоиск — индексируемая страница/сниппет",
+      "sourceId": "683707",
+      "sourceUrl": "https://www.kinopoisk.ru/film/683707/",
+      "match": "exact-kinopoisk-id:683707;original-title:Flight of the Butterflies;year:2012",
+      "confidence": 0.96,
+      "reason": "Русское название непосредственно связано с точным originalTitle и годом в индексируемом материале Кинопоиска"
+    },
+    {
+      "id": "nen-wd-q20439904",
+      "russianTitle": "Рождество Блинки Билла",
+      "source": "Кинопоиск — индексируемая страница/сниппет",
+      "sourceId": "313551",
+      "sourceUrl": "https://www.kinopoisk.ru/film/313551/",
+      "match": "exact-kinopoisk-id:313551;original-title:Blinky Bill's White Christmas;year:2005",
+      "confidence": 0.96,
+      "reason": "Русское название непосредственно связано с точным originalTitle и годом в индексируемом материале Кинопоиска"
+    },
+    {
+      "id": "nen-wd-q10394429",
+      "russianTitle": "Шуша Абракадабра",
+      "source": "Кинопоиск — индексируемая страница/сниппет",
+      "sourceId": "121518",
+      "sourceUrl": "https://www.kinopoisk.ru/film/121518/",
+      "match": "exact-kinopoisk-id:121518;original-title:Xuxa Abracadabra;year:2003",
+      "confidence": 0.96,
+      "reason": "Русское название непосредственно связано с точным originalTitle и годом в индексируемом материале Кинопоиска"
+    },
+    {
+      "id": "nen-wd-q10394442",
+      "russianTitle": "Шуша на пути к потерянным сокровищам",
+      "source": "Кинопоиск — индексируемая страница/сниппет",
+      "sourceId": "121516",
+      "sourceUrl": "https://www.kinopoisk.ru/film/121516/",
+      "match": "exact-kinopoisk-id:121516;original-title:Xuxa e o Tesouro da Cidade Perdida;year:2004",
+      "confidence": 0.96,
+      "reason": "Русское название непосредственно связано с точным originalTitle и годом в индексируемом материале Кинопоиска"
+    },
+    {
+      "id": "nen-wd-q10394435",
+      "russianTitle": "Шуша близнецы",
+      "source": "Кинопоиск — индексируемая страница/сниппет",
+      "sourceId": "315126",
+      "sourceUrl": "https://www.kinopoisk.ru/film/315126/",
+      "match": "exact-kinopoisk-id:315126;original-title:Xuxa Gêmeas;year:2006",
+      "confidence": 0.96,
+      "reason": "Русское название непосредственно связано с точным originalTitle и годом в индексируемом материале Кинопоиска"
+    },
+    {
+      "id": "nen-wd-q1171003",
+      "russianTitle": "Голубой свет",
+      "source": "Кинопоиск — индексируемая страница/сниппет",
+      "sourceId": "129753",
+      "sourceUrl": "https://www.kinopoisk.ru/film/129753/",
+      "match": "exact-kinopoisk-id:129753;original-title:Das blaue Licht;year:1976",
+      "confidence": 0.96,
+      "reason": "Русское название непосредственно связано с точным originalTitle и годом в индексируемом материале Кинопоиска"
+    },
+    {
+      "id": "nen-wd-q1196813",
+      "russianTitle": "Клятва в Рабенхорсте",
+      "source": "Кинопоиск — индексируемая страница/сниппет",
+      "sourceId": "113319",
+      "sourceUrl": "https://www.kinopoisk.ru/film/113319/",
+      "match": "exact-kinopoisk-id:113319;original-title:Der Schwur von Rabenhorst;year:1987",
+      "confidence": 0.96,
+      "reason": "Русское название непосредственно связано с точным originalTitle и годом в индексируемом материале Кинопоиска"
+    },
+    {
+      "id": "nen-wd-q1193121",
+      "russianTitle": "Железный Ганс",
+      "source": "Кинопоиск — индексируемая страница/сниппет",
+      "sourceId": "273825",
+      "sourceUrl": "https://www.kinopoisk.ru/film/273825/",
+      "match": "exact-kinopoisk-id:273825;original-title:Der Eisenhans;year:1988",
+      "confidence": 0.96,
+      "reason": "Русское название непосредственно связано с точным originalTitle и годом в индексируемом материале Кинопоиска"
+    },
+    {
+      "id": "nen-wd-q1211964",
+      "russianTitle": "Чертополох",
+      "source": "Кинопоиск — индексируемая страница/сниппет",
+      "sourceId": "143507",
+      "sourceUrl": "https://www.kinopoisk.ru/film/143507/",
+      "match": "exact-kinopoisk-id:143507;original-title:Die Distel;year:1992",
+      "confidence": 0.96,
+      "reason": "Русское название непосредственно связано с точным originalTitle и годом в индексируемом материале Кинопоиска"
+    },
+    {
+      "id": "nen-wd-q7752431",
+      "russianTitle": "Матери площади Мая",
+      "source": "Кинопоиск — индексируемая страница/сниппет",
+      "sourceId": "130356",
+      "sourceUrl": "https://www.kinopoisk.ru/film/130356/",
+      "match": "exact-kinopoisk-id:130356;original-title:Las madres de la Plaza de Mayo;year:1985",
+      "confidence": 0.96,
+      "reason": "Русское название непосредственно связано с точным originalTitle и годом в индексируемом материале Кинопоиска"
+    },
+    {
+      "id": "nen-wd-q56064398",
+      "russianTitle": "Пепе. Высшая жизнь",
+      "source": "Кинопоиск — индексируемая страница/сниппет",
+      "sourceId": "1189777",
+      "sourceUrl": "https://www.kinopoisk.ru/film/1189777/",
+      "match": "exact-kinopoisk-id:1189777;original-title:El Pepe, una vida suprema;year:2018",
+      "confidence": 0.96,
+      "reason": "Русское название непосредственно связано с точным originalTitle и годом в индексируемом материале Кинопоиска"
+    },
+    {
+      "id": "nen-wd-q2241055",
+      "russianTitle": "Море тишины",
+      "source": "Кинопоиск — индексируемая страница/сниппет",
+      "sourceId": "35106",
+      "sourceUrl": "https://www.kinopoisk.ru/film/35106/",
+      "match": "exact-kinopoisk-id:35106;original-title:Verder dan de maan;year:2003",
+      "confidence": 0.96,
+      "reason": "Русское название непосредственно связано с точным originalTitle и годом в индексируемом материале Кинопоиска"
+    },
+    {
+      "id": "nen-wd-q15851310",
+      "russianTitle": "Ядовитый",
+      "source": "Кинопоиск — индексируемая страница/сниппет",
+      "sourceId": "278803",
+      "sourceUrl": "https://www.kinopoisk.ru/film/278803/",
+      "match": "exact-kinopoisk-id:278803;original-title:Toxic;year:1990",
+      "confidence": 0.96,
+      "reason": "Русское название непосредственно связано с точным originalTitle и годом в индексируемом материале Кинопоиска"
+    },
+    {
+      "id": "nen-wd-q3842212",
+      "russianTitle": "Без ума от Мамбо",
+      "source": "Кинопоиск — индексируемая страница/сниппет",
+      "sourceId": "3580",
+      "sourceUrl": "https://www.kinopoisk.ru/film/3580/",
+      "match": "exact-kinopoisk-id:3580;original-title:Mad About Mambo;year:2000",
+      "confidence": 0.96,
+      "reason": "Русское название непосредственно связано с точным originalTitle и годом в индексируемом материале Кинопоиска"
+    },
+    {
+      "id": "nen-wd-q14915750",
+      "russianTitle": "Правосудие Койота",
+      "source": "Кинопоиск — индексируемая страница/сниппет",
+      "sourceId": "82133",
+      "sourceUrl": "https://www.kinopoisk.ru/film/82133/",
+      "match": "exact-kinopoisk-id:82133;original-title:La justicia del Coyote;year:1956",
+      "confidence": 0.96,
+      "reason": "Русское название непосредственно связано с точным originalTitle и годом в индексируемом материале Кинопоиска"
+    },
+    {
+      "id": "nen-wd-q40683260",
+      "russianTitle": "Среда с Годдардом",
+      "source": "Кинопоиск — индексируемая страница/сниппет",
+      "sourceId": "1055156",
+      "sourceUrl": "https://www.kinopoisk.ru/film/1055156/",
+      "match": "exact-kinopoisk-id:1055156;original-title:Wednesday with Goddard;year:2016",
+      "confidence": 0.96,
+      "reason": "Русское название непосредственно связано с точным originalTitle и годом в индексируемом материале Кинопоиска"
+    },
+    {
+      "id": "nen-wd-q116978367",
+      "russianTitle": "Как разводить русалок",
+      "source": "Кинопоиск — индексируемая страница/сниппет",
+      "sourceId": "321582",
+      "sourceUrl": "https://www.kinopoisk.ru/film/321582/",
+      "match": "exact-kinopoisk-id:321582;original-title:How Mermaids Breed;year:2002",
+      "confidence": 0.96,
+      "reason": "Русское название непосредственно связано с точным originalTitle и годом в индексируемом материале Кинопоиска"
+    },
+    {
+      "id": "nen-wd-q64167484",
+      "russianTitle": "Домашнее кино",
+      "source": "Кинопоиск — индексируемая страница/сниппет",
+      "sourceId": "1101236",
+      "sourceUrl": "https://www.kinopoisk.ru/film/1101236/",
+      "match": "exact-kinopoisk-id:1101236;original-title:Home Movie;year:2013",
+      "confidence": 0.96,
+      "reason": "Русское название непосредственно связано с точным originalTitle и годом в индексируемом материале Кинопоиска"
+    },
+    {
+      "id": "nen-wd-q50414259",
+      "russianTitle": "Из Остина в Бостон",
+      "source": "Кинопоиск — индексируемая страница/сниппет",
+      "sourceId": "864610",
+      "sourceUrl": "https://www.kinopoisk.ru/film/864610/",
+      "match": "exact-kinopoisk-id:864610;original-title:Austin to Boston;year:2014",
+      "confidence": 0.96,
+      "reason": "Русское название непосредственно связано с точным originalTitle и годом в индексируемом материале Кинопоиска"
+    },
+    {
+      "id": "nen-wd-q21027072",
+      "russianTitle": "Легенда Лонгвуда",
+      "source": "Кинопоиск — индексируемая страница/сниппет",
+      "sourceId": "817206",
+      "sourceUrl": "https://www.kinopoisk.ru/film/817206/",
+      "match": "exact-kinopoisk-id:817206;original-title:The Legend of Longwood;year:2014",
+      "confidence": 0.96,
+      "reason": "Русское название непосредственно связано с точным originalTitle и годом в индексируемом материале Кинопоиска"
+    },
+    {
+      "id": "nen-wd-q66123849",
+      "russianTitle": "Основы охраны труда на медном руднике",
+      "source": "Кинопоиск — индексируемая страница/сниппет",
+      "sourceId": "197388",
+      "sourceUrl": "https://www.kinopoisk.ru/film/197388/",
+      "match": "exact-kinopoisk-id:197388;original-title:Podstawy BHP w kopalni miedzi;year:1972",
+      "confidence": 0.96,
+      "reason": "Русское название непосредственно связано с точным originalTitle и годом в индексируемом материале Кинопоиска"
+    },
+    {
+      "id": "nen-wd-q66124409",
+      "russianTitle": "Хлопушка",
+      "source": "Кинопоиск — индексируемая страница/сниппет",
+      "sourceId": "197383",
+      "sourceUrl": "https://www.kinopoisk.ru/film/197383/",
+      "match": "exact-kinopoisk-id:197383;original-title:Klaps;year:1976",
+      "confidence": 0.96,
+      "reason": "Русское название непосредственно связано с точным originalTitle и годом в индексируемом материале Кинопоиска"
+    },
+    {
+      "id": "nen-wd-q19607229",
+      "russianTitle": "Роман Чета",
+      "source": "Кинопоиск — индексируемая страница/сниппет",
+      "sourceId": "279425",
+      "sourceUrl": "https://www.kinopoisk.ru/film/279425/",
+      "match": "exact-kinopoisk-id:279425;original-title:Chet's Romance;year:1988",
+      "confidence": 0.96,
+      "reason": "Русское название непосредственно связано с точным originalTitle и годом в индексируемом материале Кинопоиска"
+    }
+  ]
+}
