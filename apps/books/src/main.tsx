@@ -1,5 +1,6 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
+import "@fontsource-variable/montserrat";
 import "@nen/config/tokens.css";
 import "./styles.css";
 import "./share.css";

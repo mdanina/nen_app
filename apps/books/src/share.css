@@ -6,10 +6,11 @@
 .book-share__trigger {
   width: 100%;
   min-height: 48px;
-  border: 1px solid var(--nen-ink);
-  border-radius: 12px;
+  border: 1px solid var(--nen-blue);
+  border-radius: var(--nen-radius-sm);
   background: white;
-  font-weight: 800;
+  color: var(--nen-blue-dark);
+  font-weight: 700;
   cursor: pointer;
 }
 
@@ -21,7 +22,7 @@
   left: 0;
   padding: 6px;
   border: 1px solid var(--nen-line);
-  border-radius: 12px;
+  border-radius: var(--nen-radius-md);
   background: white;
   box-shadow: var(--nen-shadow);
 }
@@ -34,7 +35,7 @@
   align-items: center;
   gap: 9px;
   border: 0;
-  border-radius: 8px;
+  border-radius: var(--nen-radius-sm);
   background: white;
   text-align: left;
   cursor: pointer;
@@ -42,7 +43,7 @@
 
 .book-share__menu button:hover,
 .book-share__menu button:focus-visible {
-  background: var(--nen-yellow-soft);
+  background: var(--nen-blue-soft);
 }
 
 .book-share__toast {
@@ -51,8 +52,8 @@
   left: 50%;
   bottom: calc(82px + env(safe-area-inset-bottom));
   padding: 10px 14px;
-  border-radius: 99px;
-  background: var(--nen-ink);
+  border-radius: var(--nen-radius-sm);
+  background: var(--nen-blue-dark);
   color: white;
   box-shadow: var(--nen-shadow);
   font-size: 13px;
