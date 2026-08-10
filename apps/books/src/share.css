@@ -5,13 +5,23 @@
 
 .book-share__trigger {
   width: 100%;
-  min-height: 48px;
-  border: 1px solid var(--nen-blue);
-  border-radius: var(--nen-radius-sm);
-  background: white;
-  color: var(--nen-blue-dark);
-  font-weight: 700;
+  min-height: 52px;
+  border: 0;
+  border-radius: 16px;
+  background: var(--nen-action-dark);
+  color: white;
+  font-weight: 750;
   cursor: pointer;
+  transition: background-color 160ms ease, transform 120ms ease;
+}
+
+.book-share__trigger:hover {
+  background: var(--nen-action-dark-hover);
+  transform: translateY(-1px);
+}
+
+.book-share__trigger:active {
+  transform: translateY(1px) scale(0.99);
 }
 
 .book-share__menu {
@@ -35,15 +45,24 @@
   align-items: center;
   gap: 9px;
   border: 0;
-  border-radius: var(--nen-radius-sm);
-  background: white;
+  border-radius: 12px;
+  background: #f2ebf4;
+  font-weight: 650;
   text-align: left;
   cursor: pointer;
 }
 
 .book-share__menu button:hover,
 .book-share__menu button:focus-visible {
-  background: var(--nen-blue-soft);
+  background: var(--nen-pink);
+}
+
+@media (max-width: 420px) {
+  .book-share__trigger {
+    min-height: 50px;
+    border-radius: 15px;
+    font-size: 12px;
+  }
 }
 
 .book-share__toast {

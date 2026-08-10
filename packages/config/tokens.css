@@ -12,6 +12,9 @@
   --nen-pink-soft: #fff0f4;
   --nen-coral: #fe8b59;
   --nen-coral-dark: #e86f3d;
+  --nen-cta-gradient: linear-gradient(90deg, #ffaec5 0%, #c6b8e0 50%, #90c2f9 100%);
+  --nen-action-dark: #33343a;
+  --nen-action-dark-hover: #24252a;
   --nen-yellow: #f1d667;
   --nen-yellow-soft: #fff7cf;
   --nen-green: #9bc9b2;
