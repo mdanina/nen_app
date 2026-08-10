@@ -935,6 +935,47 @@ footer span {
   }
 }
 
+.collection-tile {
+  position: relative;
+}
+
+.collection-tile.tile-tone-0 {
+  background: var(--nen-yellow-soft);
+}
+
+.collection-tile.tile-tone-1 {
+  background: var(--nen-pink);
+}
+
+.collection-tile.tile-tone-2 {
+  background: var(--nen-cyan-soft);
+}
+
+.collection-tile.tile-tone-3 {
+  background: var(--nen-blue-soft);
+}
+
+.collection-tile > span {
+  padding-right: 70px;
+}
+
+.collection-tile__logo {
+  position: absolute;
+  right: 18px;
+  bottom: 18px;
+  width: 54px;
+  height: auto;
+  opacity: 0.76;
+}
+
+@media (max-width: 420px) {
+  .collection-tile__logo {
+    right: 16px;
+    bottom: 16px;
+    width: 48px;
+  }
+}
+
 /* Brand composition from the NEN identity guide and product components. */
 .brand > img {
   display: block;
