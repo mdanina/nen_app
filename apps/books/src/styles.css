@@ -959,6 +959,54 @@ footer span {
   padding-right: 70px;
 }
 
+.collection-row.collection-tile {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 0;
+}
+
+.collection-row.collection-tile > p {
+  margin-bottom: 18px;
+}
+
+.collection-row.collection-tile > span {
+  margin-top: auto;
+  font-size: 13px;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.collection-tile > small {
+  padding-right: 88px;
+}
+
+.collection-tile__mascot {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 68px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.collection-tile:nth-child(4n + 2) .collection-tile__mascot {
+  top: 19px;
+  right: 18px;
+  width: 62px;
+}
+
+.collection-tile:nth-child(4n + 3) .collection-tile__mascot {
+  top: 14px;
+  right: 17px;
+  width: 65px;
+}
+
+.collection-tile:nth-child(4n + 4) .collection-tile__mascot {
+  top: 18px;
+  right: 15px;
+  width: 64px;
+}
+
 .collection-tile__logo {
   position: absolute;
   right: 18px;
@@ -969,6 +1017,20 @@ footer span {
 }
 
 @media (max-width: 420px) {
+  .collection-tile > small {
+    padding-right: 70px;
+  }
+
+  .collection-tile__mascot,
+  .collection-tile:nth-child(4n + 2) .collection-tile__mascot,
+  .collection-tile:nth-child(4n + 3) .collection-tile__mascot,
+  .collection-tile:nth-child(4n + 4) .collection-tile__mascot {
+    top: 14px;
+    right: 14px;
+    width: 55px;
+    border-radius: 8px;
+  }
+
   .collection-tile__logo {
     right: 16px;
     bottom: 16px;
