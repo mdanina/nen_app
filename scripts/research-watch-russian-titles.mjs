@@ -10,6 +10,10 @@ const applyConfirmed = process.argv.includes("--apply-confirmed");
 const indexOnly = process.argv.includes("--index-only");
 const tmdbOnly = process.argv.includes("--tmdb-only");
 const wikipediaOnly = process.argv.includes("--wikipedia-only");
+const analyticsOnly = process.argv.includes("--analytics-only");
+const removeKnownDuplicate = process.argv.includes("--remove-known-duplicate");
+const analyticsJsonPath = "data/reports/watch-original-only-analysis.json";
+const analyticsMarkdownPath = "data/reports/watch-original-only-analysis.md";
 const cyrillic = /[А-ЯЁа-яё]/u;
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
@@ -296,13 +300,196 @@ function decide(item, identifiers, evidence, errors) {
 }
 
 await fs.mkdir(path.dirname(cachePath), { recursive: true });
-const catalog = JSON.parse(await fs.readFile(sourcePath, "utf8"));
+let catalog = JSON.parse(await fs.readFile(sourcePath, "utf8"));
+let duplicateRemoval = null;
+if (removeKnownDuplicate) {
+  const kept = catalog.find((item) => item.id === "nen-593");
+  const removed = catalog.find((item) => item.id === "nen-wd-q16661378");
+  if (!kept || !removed) throw new Error("Не найдены обе карточки подтверждённого дубля Лулу");
+  if (kept.originalTitle !== removed.originalTitle || kept.year !== removed.year) {
+    throw new Error("Карточки Лулу не совпадают по originalTitle и году; удаление отменено");
+  }
+  catalog = catalog.filter((item) => item.id !== removed.id);
+  duplicateRemoval = {
+    kept: { id: kept.id, slug: kept.slug, title: kept.title, originalTitle: kept.originalTitle, year: kept.year },
+    removed: { id: removed.id, slug: removed.slug, title: removed.title, originalTitle: removed.originalTitle, year: removed.year },
+    reason: "nen-593 — более полная редакционная карточка со стабильным slug; nen-wd-q16661378 — поздний импорт того же произведения из Wikidata",
+  };
+  await fs.writeFile(sourcePath, `${JSON.stringify(catalog, null, 2)}\n`, "utf8");
+}
 const pending = catalog.filter((item) => item.titleLocalization === "original-only");
-const identifierIndex = finalizeOnly ? new Map() : await loadIdentifierIndex(pending);
+const identifierIndex = (finalizeOnly || analyticsOnly) ? new Map() : await loadIdentifierIndex(pending);
 const previousReport = await fs.readFile(reportPath, "utf8").then(JSON.parse).catch(() => null);
 const previousResults = new Map((previousReport?.results ?? []).map((result) => [result.id, result]));
 const cache = await fs.readFile(cachePath, "utf8").then(JSON.parse).catch(() =>
   Object.fromEntries((previousReport?.results ?? []).map((result) => [result.id, result])));
+
+if (analyticsOnly) {
+  const countBy = (values) => Object.fromEntries([...values.reduce((map, value) =>
+    map.set(value, (map.get(value) ?? 0) + 1), new Map()).entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "ru")));
+  const hasTechnicalError = (entry, pattern) => (entry?.errors ?? []).some((error) =>
+    pattern.test(`${error.source ?? ""} ${error.message ?? ""}`));
+  const records = pending.map((item) => {
+    const cached = cache[item.id] ?? previousResults.get(item.id) ?? {};
+    const identifiers = {
+      kinopoisk: cached.identifiers?.kinopoisk ?? null,
+      tmdbMovie: cached.identifiers?.tmdbMovie ?? null,
+      tmdbTv: cached.identifiers?.tmdbTv ?? null,
+      imdb: cached.identifiers?.imdb ?? null,
+      wikidata: cached.identifiers?.wikidata ?? qid(item) ?? null,
+    };
+    const directors = cached.identifiers?.directors ?? [];
+    const exactCount = [identifiers.kinopoisk, identifiers.tmdbMovie ?? identifiers.tmdbTv,
+      identifiers.imdb, identifiers.wikidata].filter(Boolean).length;
+    const kpBlocked = hasTechnicalError(cached, /Кинопоиск|Kinopoisk|SSO|авторизац/iu);
+    const tmdbLimited = hasTechnicalError(cached, /TMDb.*429|429.*TMDb|HTTP 429/iu);
+    const wikipediaLimited = hasTechnicalError(cached, /Википедия.*429|429.*Википедия/iu);
+    let priorityGroup;
+    let previousFailureReason;
+    let recommendedNextSearch;
+    if (identifiers.kinopoisk || ((identifiers.tmdbMovie || identifiers.tmdbTv) && tmdbLimited)) {
+      priorityGroup = "A";
+      previousFailureReason = identifiers.kinopoisk
+        ? "Точный Kinopoisk ID известен, но прямой HTML возвращал SSO/авторизацию и не дал пригодного названия"
+        : "Точный TMDb ID известен, но предыдущую проверку ограничил HTTP 429";
+      recommendedNextSearch = identifiers.kinopoisk
+        ? "Точный lookup по Kinopoisk ID через разрешённый API/индекс либо поиск этого ID в индексируемых русскоязычных базах"
+        : "TMDb translations по точному ID после cooldown с возобновляемым кэшем";
+    } else if (identifiers.tmdbMovie || identifiers.tmdbTv || (identifiers.imdb && exactCount >= 2)) {
+      priorityGroup = "B";
+      previousFailureReason = "Точные внешние ID есть, но кэш не содержит надёжного русского title evidence";
+      recommendedNextSearch = "Кросс-поиск по точным TMDb/IMDb/Wikidata ID в русскоязычных базах и каталогах проката";
+    } else if (item.originalTitle && item.year && (directors.length || item.country?.length)) {
+      priorityGroup = "C";
+      previousFailureReason = wikipediaLimited
+        ? "Автоматический источник был ограничен HTTP 429; точного локализованного ID-ответа нет"
+        : "По точным ID русский вариант не найден или ID недостаточно";
+      recommendedNextSearch = "Редакционный поиск по originalTitle + год + режиссёр/страна";
+    } else {
+      priorityGroup = "D";
+      previousFailureReason = "Редкое произведение или недостаточный набор идентифицирующих метаданных и русскоязычных свидетельств";
+      recommendedNextSearch = "Ручной поиск в фестивальных, телевизионных и национальных архивах";
+    }
+    return {
+      id: item.id, currentTitle: item.title, originalTitle: item.originalTitle, year: item.year,
+      country: item.country, kind: item.kind, directors, identifiers, exactIdentifierCount: exactCount,
+      technicalLimits: { kinopoiskSso: kpBlocked, tmdb429: tmdbLimited, wikipedia429: wikipediaLimited },
+      priorityGroup, previousFailureReason, recommendedNextSearch,
+    };
+  });
+  const hasKp = (record) => Boolean(record.identifiers.kinopoisk);
+  const hasTmdb = (record) => Boolean(record.identifiers.tmdbMovie || record.identifiers.tmdbTv);
+  const hasImdb = (record) => Boolean(record.identifiers.imdb);
+  const hasWd = (record) => Boolean(record.identifiers.wikidata);
+  const byGroup = Object.fromEntries(["A", "B", "C", "D"].map((group) =>
+    [group, records.filter((record) => record.priorityGroup === group).length]));
+  const identifierGroups = {
+    kinopoisk: records.filter(hasKp).length,
+    tmdbAny: records.filter(hasTmdb).length,
+    tmdbMovie: records.filter((record) => record.identifiers.tmdbMovie).length,
+    tmdbTv: records.filter((record) => record.identifiers.tmdbTv).length,
+    imdb: records.filter(hasImdb).length,
+    wikidata: records.filter(hasWd).length,
+    severalExactIdentifiers: records.filter((record) => record.exactIdentifierCount >= 2).length,
+    onlyWikidataOrOther: records.filter((record) => hasWd(record) && !hasKp(record) && !hasTmdb(record) && !hasImdb(record)).length,
+    noUsefulExternalIdentifiers: records.filter((record) => !hasKp(record) && !hasTmdb(record) && !hasImdb(record) && !hasWd(record)).length,
+  };
+  const intersections = {
+    kinopoiskAndTmdb: records.filter((record) => hasKp(record) && hasTmdb(record)).length,
+    kinopoiskAndImdb: records.filter((record) => hasKp(record) && hasImdb(record)).length,
+    tmdbAndImdb: records.filter((record) => hasTmdb(record) && hasImdb(record)).length,
+    kinopoiskTmdbImdb: records.filter((record) => hasKp(record) && hasTmdb(record) && hasImdb(record)).length,
+    allFour: records.filter((record) => hasKp(record) && hasTmdb(record) && hasImdb(record) && hasWd(record)).length,
+  };
+  const report = {
+    generatedAt: new Date().toISOString(), sourceCatalog: sourcePath, duplicateRemoval,
+    catalogTotalAfterDuplicateRemoval: catalog.length, originalOnlyTotal: records.length,
+    identifierGroups, intersections,
+    distributions: {
+      byDecade: countBy(records.map((record) => `${Math.floor(record.year / 10) * 10}-е`)),
+      byCountry: countBy(records.flatMap((record) => record.country ?? ["Не указана"])),
+      byKind: countBy(records.map((record) => record.kind)),
+    },
+    sourceAnalysis: {
+      kinopoisk: {
+        exactIds: identifierGroups.kinopoisk,
+        cardsWithKnownLink: records.filter((record) => hasKp(record)).length,
+        projectDirectAdapterAvailable: false,
+        limitation: "Точные ID сохранены, но прямые страницы возвращали SSO; обход защиты не выполнялся",
+      },
+      tmdb: {
+        movieIds: identifierGroups.tmdbMovie, tvIds: identifierGroups.tmdbTv,
+        russianLocalizationInCurrentOriginalOnlyCache: records.filter((record) =>
+          [...(cache[record.id]?.provenance ?? []), ...(cache[record.id]?.rejectedCandidates ?? [])]
+            .some((entry) => String(entry.source).startsWith("TMDb") && cyrillic.test(entry.candidate ?? ""))).length,
+        previousHttp429: records.filter((record) => record.technicalLimits.tmdb429).length,
+      },
+      imdb: { exactIds: identifierGroups.imdb, use: "Однозначное сопоставление при поиске в русскоязычных индексах" },
+      wikidata: {
+        qids: identifierGroups.wikidata,
+        russianEvidenceRemaining: records.filter((record) =>
+          [...(cache[record.id]?.provenance ?? []), ...(cache[record.id]?.rejectedCandidates ?? [])]
+            .some((entry) => String(entry.source).startsWith("Wikidata") && cyrillic.test(entry.candidate ?? ""))).length,
+        use: "QID и sitelinks для перехода к точным русскоязычным страницам",
+      },
+    },
+    priorityGroups: {
+      counts: byGroup,
+      definitions: {
+        A: "Высокая вероятность быстрого результата по Kinopoisk ID или повторяемому exact-ID endpoint после технического ограничения",
+        B: "Вероятен результат через кросс-поиск по нескольким точным ID",
+        C: "Нужен поиск по originalTitle, году, режиссёру и стране",
+        D: "Редкое произведение или мало идентифицирующих/русскоязычных данных",
+      },
+      examples: Object.fromEntries(["A", "B", "C", "D"].map((group) =>
+        [group, records.filter((record) => record.priorityGroup === group).slice(0, 20)])),
+    },
+    potential: {
+      viaKinopoiskExactId: identifierGroups.kinopoisk,
+      viaTmdbExactId: identifierGroups.tmdbAny,
+      viaRussianReleaseCatalogs: records.filter((record) => record.year >= 1990 &&
+        ["movie", "animated-feature", "documentary"].includes(record.kind)).length,
+      viaRussianLanguageDatabasesUsingExactIds: records.filter((record) => hasKp(record) || hasTmdb(record) || hasImdb(record)).length,
+      viaIdYearDirectorCombination: records.filter((record) => record.exactIdentifierCount > 0 && record.year && record.directors.length).length,
+      note: "Это оценка поискового потенциала, а не число уже подтверждённых русских названий; группы источников пересекаются",
+    },
+    records,
+  };
+  const md = [
+    "# Аналитика original-only каталога watch", "",
+    `Сформировано: ${report.generatedAt}`, "",
+    "## Удалённый дубль", "",
+    `Оставлена: **${duplicateRemoval?.kept.id}** (${duplicateRemoval?.kept.slug}).`,
+    `Удалена: **${duplicateRemoval?.removed.id}** (${duplicateRemoval?.removed.slug}).`,
+    duplicateRemoval?.reason ?? "Удаление дубля в этом запуске не выполнялось.", "",
+    "## Сводка", "",
+    `- Каталог после удаления дубля: ${report.catalogTotalAfterDuplicateRemoval}`,
+    `- Original-only: ${report.originalOnlyTotal}`,
+    `- Kinopoisk ID: ${identifierGroups.kinopoisk}`,
+    `- TMDb ID: ${identifierGroups.tmdbAny} (movie ${identifierGroups.tmdbMovie}, TV ${identifierGroups.tmdbTv})`,
+    `- IMDb ID: ${identifierGroups.imdb}`,
+    `- Wikidata QID: ${identifierGroups.wikidata}`, "",
+    "## Пересечения идентификаторов", "",
+    ...Object.entries(intersections).map(([key, value]) => `- ${key}: ${value}`), "",
+    "## Приоритет следующего прохода", "",
+    ...Object.entries(byGroup).map(([group, value]) => `- ${group}: ${value} — ${report.priorityGroups.definitions[group]}`), "",
+    "## Потенциал источников", "",
+    ...Object.entries(report.potential).map(([key, value]) => `- ${key}: ${value}`), "",
+    "## Примеры проблемных групп", "",
+    ...["A", "B", "C", "D"].flatMap((group) => [
+      `### Группа ${group}`, "",
+      ...report.priorityGroups.examples[group].map((record) =>
+        `- ${record.id} — ${record.originalTitle} (${record.year}); ${record.previousFailureReason}; следующий шаг: ${record.recommendedNextSearch}`), "",
+    ]),
+    "Полный список из всех карточек, распределения по годам, странам и видам содержится в JSON-отчёте.", "",
+  ].join("\n");
+  await fs.writeFile(analyticsJsonPath, `${JSON.stringify(report, null, 2)}\n`, "utf8");
+  await fs.writeFile(analyticsMarkdownPath, md, "utf8");
+  console.log(JSON.stringify({ catalogTotal: catalog.length, originalOnly: records.length,
+    identifierGroups, intersections, byGroup, potential: report.potential,
+    analyticsJsonPath, analyticsMarkdownPath }, null, 2));
+  process.exit(0);
+}
 let completed = 0;
 let saveChain = Promise.resolve();
 const saveCache = () => {
