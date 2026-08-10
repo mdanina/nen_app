@@ -5,17 +5,12 @@ import type { Book } from "../domain/books/types";
 export function BookCover({ book, large = false }: { book: Book; large?: boolean }) {
   const presentation = resolveBookCover(book);
   const [failed, setFailed] = useState(false);
-  const [loaded, setLoaded] = useState(false);
   const source = presentation.kind === "image" ? presentation.url : "placeholder";
-  useEffect(() => { setFailed(false); setLoaded(false); }, [book.id, source]);
-  useEffect(() => {
-    if (presentation.kind !== "image" || loaded || failed) return;
-    const timeout = window.setTimeout(() => setFailed(true), 5000);
-    return () => window.clearTimeout(timeout);
-  }, [presentation.kind, source, loaded, failed]);
+  useEffect(() => { setFailed(false); }, [book.id, source]);
 
   if (presentation.kind === "image" && !failed) {
-    return <img className={`book-cover${large ? " book-cover--large" : ""}`} src={presentation.url} alt={`Обложка книги «${book.title}»`} loading={large ? "eager" : "lazy"} onLoad={() => setLoaded(true)} onError={() => setFailed(true)} />;
+    // Lazy images can wait off-screen indefinitely; only an actual load error justifies the fallback.
+    return <img className={`book-cover${large ? " book-cover--large" : ""}`} src={presentation.url} alt={`Обложка книги «${book.title}»`} loading={large ? "eager" : "lazy"} onError={() => setFailed(true)} />;
   }
 
   const tone = presentation.kind === "placeholder" ? presentation.tone : [...book.id].reduce((sum, char) => sum + char.charCodeAt(0), 0) % 6;
