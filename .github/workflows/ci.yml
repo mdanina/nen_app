@@ -1,0 +1,35 @@
+name: Проверки
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - run: pnpm install --frozen-lockfile
+
+      - name: Типы
+        run: pnpm typecheck
+
+      - name: Тесты
+        run: pnpm test
+
+      # Каталог собирается из исходных выгрузок. Если сборка расходится
+      # с закоммиченным data/generated/books.json — значит правку забыли внести.
+      - name: Сборка
+        run: pnpm build
+
+      - name: Сгенерированный каталог совпадает с закоммиченным
+        run: git diff --exit-code -- data/generated/books.json

@@ -5,5 +5,11 @@
   "buildCommand": "pnpm build",
   "outputDirectory": "apps/books/dist",
   "cleanUrls": true,
-  "trailingSlash": false
+  "trailingSlash": false,
+  "build": {
+    "env": {
+      "BOOKS_BASE_PATH": "/",
+      "BOOKS_PUBLIC_ORIGIN": "https://n-e-n.ru"
+    }
+  }
 }
