@@ -70,9 +70,6 @@ export function BooksPage({ books, favorites, toggleFavorite, navigate }: { book
         <h1>Каталог книг</h1>
         <p>Ищите по названию, автору или теме. Фильтры применяются сразу и сохраняются в ссылке.</p>
       </div>
-      <div className="catalog-header__brand" aria-hidden="true">
-        <img className="catalog-header__brand-logo" src={href("/brand/nen-logo-display.png")} alt="" />
-      </div>
       <div className="catalog-header__tools">
         <label className="search-field">
           <Icon name="search" />

@@ -1354,3 +1354,54 @@ footer span {
 .knigi .home-hero h1 em {
   font-weight: 900;
 }
+
+/* На телефоне разделы живут в нижней панели, и полоса наверху оставалась пустой. */
+@media (max-width: 899px) {
+  .service-nav {
+    display: none;
+  }
+}
+
+/*
+  Шапка каталога больше не держит декоративный оранжевый блок (его делали
+  под маскота, маскота убрали) — вторая колонка сетки не нужна.
+*/
+.catalog-header {
+  grid-template-columns: minmax(0, 820px);
+  grid-template-areas:
+    "intro"
+    "tools";
+}
+
+/*
+  Пустое состояние было широкой сиреневой плашкой с текстом по центру и
+  градиентной кнопкой — на фоне спокойного каталога она читалась как ошибка.
+  Спокойная карточка, выключка влево, кнопка как везде в сервисе.
+*/
+.empty-state {
+  max-width: 560px;
+  margin: 8px 0 0;
+  padding: 26px 28px;
+  display: grid;
+  justify-items: start;
+  gap: 6px;
+  border: 1px solid var(--nen-line);
+  border-radius: var(--nen-radius-md);
+  background: var(--nen-surface);
+  text-align: left;
+}
+
+.empty-state h2 {
+  margin: 0;
+  font-size: var(--step-1);
+  font-weight: 700;
+}
+
+.empty-state p {
+  margin: 0;
+  color: var(--nen-muted);
+}
+
+.empty-state > :last-child:not(h2):not(div) {
+  margin-top: 14px;
+}

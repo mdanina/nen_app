@@ -38,12 +38,6 @@ export function Header({ navigate, favoriteCount, route }: { navigate: (path: st
   return <>
     <nav className="service-nav" aria-label="Разделы сервиса «Что почитать с детьми»">
       <div className="service-nav__inner">
-        {/* На главной это же название стоит заголовком страницы — второй раз не повторяем. */}
-        {route !== ROUTES.home && (
-          <AppLink href={ROUTES.home} navigate={navigate} className="service-nav__title">
-            Что почитать с детьми
-          </AppLink>
-        )}
         <div className="service-nav__links">
           {LINKS.map(([target, label]) => (
             <AppLink key={target} href={target} navigate={navigate} className={isActive(target) ? "active" : ""}>
