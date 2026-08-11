@@ -1,3 +1,5 @@
+import { bookPath, href } from "../../app/routes";
+
 export interface ShareData {
   title: string;
   url: string;
@@ -17,7 +19,7 @@ export interface CopyMethods {
 export type ShareResult = "shared" | "copied" | "failed";
 
 export function getBookPermalink(slug: string, origin = window.location.origin) {
-  return new URL(`/books/${encodeURIComponent(slug)}`, origin).href;
+  return new URL(href(bookPath(encodeURIComponent(slug))), origin).href;
 }
 
 export function getShareActionLabel(canShare: boolean) {

@@ -1,5 +1,6 @@
 import { describe, expect, it } from "vitest";
 import rawBooks from "../../../../../data/generated/books.json";
+import { bookPath } from "../../app/routes";
 import { collections } from "../../data/collections";
 import { emptyFilters, searchBooks } from "./filters";
 import { filtersFromUrl, filtersToUrl } from "./url";
@@ -70,14 +71,14 @@ describe("collections", () => {
 describe("book permalinks", () => {
   it("создаёт уникальную постоянную ссылку для каждой книги", () => {
     const books = rawBooks as Book[];
-    const paths = books.map((item) => `/books/${item.slug}`);
+    const paths = books.map((item) => bookPath(item.slug));
     expect(new Set(paths).size).toBe(books.length);
-    expect(paths.every((path) => /^\/books\/[a-z0-9]+(?:-[a-z0-9]+)*$/.test(path))).toBe(true);
+    expect(paths.every((path) => /^\/kniga\/[a-z0-9]+(?:-[a-z0-9]+)*$/.test(path))).toBe(true);
   });
 
   it("не включает поиск и фильтры в постоянную ссылку", () => {
     expect((rawBooks as Book[]).every((item) => !item.slug.includes("?") && !item.slug.includes("#"))).toBe(true);
-    expect(getBookPermalink("451-gradus-po-farengeytu", "https://books.example.test/catalog?q=поиск")).toBe("https://books.example.test/books/451-gradus-po-farengeytu");
+    expect(getBookPermalink("451-gradus-po-farengeytu", "https://books.example.test/catalog?q=поиск")).toBe("https://books.example.test/kniga/451-gradus-po-farengeytu");
     expect(getShareActionLabel(true)).toBe("Поделиться");
     expect(getShareActionLabel(false)).toBe("Скопировать ссылку");
   });
