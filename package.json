@@ -39,7 +39,8 @@
     "lint": "pnpm -r --if-present lint",
     "test": "pnpm catalog:build && pnpm test:scripts && pnpm -r --if-present test",
     "covers:cache": "node scripts/books/cache-covers.mjs",
-    "test:scripts": "node --test scripts/books/book-recommendation.test.mjs scripts/books/nen-collections.test.mjs scripts/books/public-slug.test.mjs scripts/books/cover-cache.test.mjs && pnpm test:openlibrary && pnpm test:bnf && pnpm test:books:enrich"
+    "test:scripts": "node --test scripts/books/book-recommendation.test.mjs scripts/books/nen-collections.test.mjs scripts/books/public-slug.test.mjs scripts/books/cover-cache.test.mjs scripts/books/scope-css.test.mjs && pnpm test:openlibrary && pnpm test:bnf && pnpm test:books:enrich",
+    "preview:site": "node scripts/books/preview-in-site.mjs"
   },
   "devDependencies": {
     "@tesseract.js-data/rus": "^1.0.0",

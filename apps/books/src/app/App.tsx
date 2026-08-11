@@ -35,10 +35,10 @@ export function App() {
   };
 
   if (!books) {
-    return <>
+    return <div className="knigi">
       <Header navigate={navigate} favoriteCount={favorites.length} route={route} />
-      <main className="page"><SkeletonGrid /></main>
-    </>;
+      <div className="page"><SkeletonGrid /></div>
+    </div>;
   }
 
   const common = { books, favorites, toggleFavorite: toggle, navigate };
@@ -55,15 +55,11 @@ export function App() {
   else if (route === ROUTES.favorites) page = <FavoritesPage {...common} />;
   else page = <NotFoundPage navigate={navigate} />;
 
-  return <>
+  // Ни <main>, ни подвала: и то и другое даёт страница сайта, внутри которой мы живём.
+  return <div className="knigi">
     <Header navigate={navigate} favoriteCount={favorites.length} route={route} />
-    <main>{page}</main>
-    <footer>
-      <strong>НЭН</strong>
-      <span>Что почитать с детьми</span>
-      <span>Честное медиа для родителей</span>
-    </footer>
-  </>;
+    {page}
+  </div>;
 }
 
 function NotFoundPage({ navigate }: { navigate: (path: string) => void }) {
