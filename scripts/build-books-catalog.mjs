@@ -1,9 +1,11 @@
-import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { mkdir, readFile, rm, writeFile } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { classifyCatalogBook } from "./books/fiction-classifier.mjs";
 import { fixGeneratedAuthorCases } from "./books/russian-morphology.mjs";
 import { buildBookRecommendation, isGeneratedRecommendation } from "./books/book-recommendation.mjs";
+import { assignPublicSlugs } from "./books/public-slug.mjs";
+import { normalizeTypography } from "./books/typography.mjs";
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const legacyPath = resolve(root, "data/source/catalog-full.json");
@@ -23,6 +25,10 @@ const catalogMaintenanceExclusionsPath = resolve(root, "data/source/catalog-main
 const targetPath = resolve(root, "data/generated/books.json");
 const fictionExcludedReportPath = resolve(root, "data/reports/fiction-catalog-excluded.json");
 const fictionAmbiguousReportPath = resolve(root, "data/reports/ambiguous-review.json");
+const slugRenameReportPath = resolve(root, "data/reports/public-slug-rename.json");
+// Статика приложения: Vite копирует public/ в dist как есть.
+const runtimeCatalogDir = resolve(root, "apps/books/public/data");
+const coverCacheManifestPath = resolve(root, "data/generated/cover-cache.json");
 const legacySource = JSON.parse(await readFile(legacyPath, "utf8"));
 const v2Source = JSON.parse(await readFile(v2Path, "utf8"));
 const importedSource = JSON.parse(await readFile(importedPath, "utf8"));
@@ -430,11 +436,12 @@ function fictionOnlyGenres(book) {
   return reviewedFictionGenreOverrides.get(book.id) ?? [];
 }
 
-const books = candidateBooks
+const keptBooks = candidateBooks
   .filter((book) => isNenCollectionBook(book) || classifyCatalogBook(book).decision === "keep")
   .map((book) => {
     const normalized = {
       ...book,
+      title: normalizeTypography(book.title),
       genres: isNenCollectionBook(book) ? compact(book.genres) : fictionOnlyGenres(book),
       themes: enrichedThemes(book),
       publisher: normalizePublisher(book.publisher),
@@ -446,6 +453,34 @@ const books = candidateBooks
       whyRecommended: buildBookRecommendation(normalized, { force: true }),
     };
   });
+
+// Слаг из служебного идентификатора импорта («samokat-…», «…-ol19978384w») попал бы
+// в публичный URL и в индекс поисковика. Пересобираем его из названия книги.
+async function readJsonOrEmpty(path) {
+  try {
+    return JSON.parse(await readFile(path, "utf8"));
+  } catch {
+    return {};
+  }
+}
+
+const publicSlugs = assignPublicSlugs(keptBooks);
+const renamedSlugs = keptBooks
+  .filter((book) => publicSlugs.get(book.id) !== book.slug)
+  .map((book) => ({ id: book.id, title: book.title, from: book.slug, to: publicSlugs.get(book.id) }));
+
+// Обложки, уже скачанные в кеш (scripts/books/cache-covers.mjs), отдаются с домена НЭН.
+// Чего в кеше нет — остаётся ссылкой на сайт издательства, каталог не ломается.
+const coverCache = await readJsonOrEmpty(coverCacheManifestPath);
+const books = keptBooks.map((book) => {
+  const cached = book.cover?.url ? coverCache[book.cover.url] : undefined;
+  return {
+    ...book,
+    slug: publicSlugs.get(book.id),
+    cover: book.cover && cached ? { ...book.cover, cachedPath: `/covers/${cached.file}` } : book.cover,
+  };
+});
+const cachedCovers = books.filter((book) => book.cover?.cachedPath).length;
 
 const refreshedRecommendations = books.filter((book) => {
   const original = candidateBooks.find((candidate) => candidate.id === book.id)?.whyRecommended ?? "";
@@ -471,6 +506,55 @@ function classificationReportRecord({ book, classification }) {
   };
 }
 
+// Каталог не импортируется в JS-бандл: список книг и карточка книги загружаются
+// отдельными файлами. Иначе все 2500 записей приезжают к человеку, открывшему одну книгу.
+const INDEX_FIELDS = [
+  "id", "slug", "title", "originalTitle", "author", "whyRecommended",
+  "ageMin", "ageMax", "ageLabel", "readingMode", "genres", "themes", "moods",
+  "suitableForBedtime", "languageDifficulty", "lengthCategory", "lengthLabel", "pages",
+  "estimatedReadingMinutes", "publisher", "isbn13", "seriesName", "classicOrModern",
+  "similarBookIds", "status",
+];
+// Валидатор проверяет право на показ обложки и на индексе тоже, поэтому
+// подтверждающие поля (источник, сопоставление произведения) едут вместе с ней.
+const COVER_INDEX_FIELDS = [
+  "kind", "url", "cachedPath", "rightsStatus", "attribution", "temporary",
+  "sourceName", "sourcePageUrl", "assignmentMethod", "assignmentConfidence",
+];
+const EXCERPT_LENGTH = 180;
+
+// Карточка обрезает описание тремя строками, а полный текст — в среднем 560 символов.
+// В индекс кладём выдержку, полное описание доезжает вместе со страницей книги.
+export function cardExcerpt(description = "") {
+  const text = String(description).trim();
+  if (text.length <= EXCERPT_LENGTH) return text;
+  const cut = text.slice(0, EXCERPT_LENGTH);
+  const boundary = Math.max(cut.lastIndexOf(" "), cut.lastIndexOf(" "));
+  return `${(boundary > EXCERPT_LENGTH / 2 ? cut.slice(0, boundary) : cut).replace(/[\s.,;:—-]+$/u, "")}…`;
+}
+
+function indexRecord(book) {
+  const record = {};
+  for (const field of INDEX_FIELDS) if (book[field] !== undefined) record[field] = book[field];
+  record.shortDescription = cardExcerpt(book.shortDescription);
+  if (book.cover) {
+    record.cover = {};
+    for (const field of COVER_INDEX_FIELDS) if (book.cover[field] !== undefined) record.cover[field] = book.cover[field];
+  }
+  return record;
+}
+
+async function writeRuntimeCatalog(catalog) {
+  await rm(runtimeCatalogDir, { recursive: true, force: true });
+  await mkdir(resolve(runtimeCatalogDir, "books"), { recursive: true });
+  const index = catalog.map(indexRecord);
+  await writeFile(resolve(runtimeCatalogDir, "catalog-index.json"), JSON.stringify(index), "utf8");
+  // Запись пишется по одному файлу на книгу: страница книги грузит только свою.
+  await Promise.all(catalog.map((book) => writeFile(resolve(runtimeCatalogDir, "books", `${book.slug}.json`), JSON.stringify(book), "utf8")));
+  const indexBytes = Buffer.byteLength(JSON.stringify(index));
+  console.log(`Каталог для загрузки в браузере: индекс ${(indexBytes / 1048576).toFixed(2)} МБ, карточек ${catalog.length}`);
+}
+
 for (const [label, key] of [["id", (book) => book.id], ["slug", (book) => book.slug], ["ISBN", (book) => book.isbn13], ["название и автор", (book) => `${normalized(book.title)}|${normalized(book.author)}`]]) {
   const seen = new Map();
   for (const book of books) {
@@ -485,8 +569,13 @@ await mkdir(dirname(targetPath), { recursive: true });
 await mkdir(dirname(fictionExcludedReportPath), { recursive: true });
 await Promise.all([
   writeFile(targetPath, `${JSON.stringify(books, null, 2)}\n`, "utf8"),
+  writeFile(slugRenameReportPath, `${JSON.stringify(renamedSlugs, null, 2)}\n`, "utf8"),
   writeFile(fictionExcludedReportPath, `${JSON.stringify(fictionExcluded.map(classificationReportRecord), null, 2)}\n`, "utf8"),
   writeFile(fictionAmbiguousReportPath, `${JSON.stringify(fictionAmbiguous.map(classificationReportRecord), null, 2)}\n`, "utf8"),
 ]);
 console.log(`Сформировано книг: ${books.length} (кандидатов ${candidateBooks.length}; исключено ранее ${excludedImportedIds.size}, по типу издания ${fictionExcluded.length}, на ручной проверке ${fictionAmbiguous.length})`);
 console.log(`Обновлено автоматически сформированных рекомендаций: ${refreshedRecommendations.length}`);
+console.log(`Публичных слагов пересобрано: ${renamedSlugs.length}`);
+console.log(`Обложек из кеша НЭН: ${cachedCovers} из ${books.length}`);
+
+await writeRuntimeCatalog(books);
