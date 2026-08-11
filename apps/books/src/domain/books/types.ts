@@ -8,6 +8,8 @@ export type CoverRightsStatus = "licensed" | "open-license" | "public-domain" | 
 export interface BookCoverData {
   kind: CoverKind;
   url?: string;
+  /** Путь к копии в кеше НЭН относительно корня сервиса, например /covers/ab12….jpg. */
+  cachedPath?: string;
   rightsStatus: CoverRightsStatus;
   sourceName?: string;
   sourcePageUrl?: string;

@@ -1,3 +1,4 @@
+import { href } from "../../app/routes";
 import type { Book, BookCoverData } from "./types";
 
 const displayableRights = new Set(["licensed", "open-license", "public-domain", "external-display-only"]);
@@ -19,7 +20,10 @@ function approvedCover(cover?: BookCoverData): cover is BookCoverData & { url: s
 
 export function resolveBookCover(book: Book): CoverPresentation {
   if (approvedCover(book.cover)) {
-    return { kind: "image", url: book.cover.url, temporary: Boolean(book.cover.temporary), attribution: book.cover.attribution };
+    // Копия в кеше НЭН надёжнее исходника: чужой CDN может закрыть хотлинк
+    // или переименовать файл, и витрина каталога опустеет.
+    const url = book.cover.cachedPath ? href(book.cover.cachedPath) : book.cover.url;
+    return { kind: "image", url, temporary: Boolean(book.cover.temporary), attribution: book.cover.attribution };
   }
   if (!book.cover && book.coverUrl) return { kind: "image", url: book.coverUrl, temporary: true };
   return { kind: "placeholder", tone: placeholderTone(book.id) };
