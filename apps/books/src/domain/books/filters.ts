@@ -7,7 +7,8 @@ const lengthOrder: LengthCategory[] = ["very-short", "short", "medium", "long"];
 function includesAll(source: string[], selected: string[]) { return selected.every((value) => source.includes(value)); }
 function readingMatches(book: Book, reading: BookFilters["reading"]) { return !reading || book.readingMode === reading || book.readingMode === "both"; }
 function ageMatches(book: Book, age: number | null) { return age === null || (age >= book.ageMin && age <= book.ageMax); }
-function text(book: Book) { return [book.title, book.originalTitle, book.author, book.publisher, book.seriesName, book.shortDescription, book.fullDescription, ...book.genres, ...book.themes].filter(Boolean).join(" "); }
+// fullDescription в индексе списка не приезжает — он живёт в файле карточки книги.
+function text(book: Book) { return [book.title, book.originalTitle, book.author, book.publisher, book.seriesName, book.shortDescription, book.fullDescription, ...book.genres, ...book.themes, ...book.moods].filter(Boolean).join(" "); }
 function semanticSearchMatch(book: Book, query: string): boolean | null {
   const normalized = query.toLocaleLowerCase("ru").replaceAll("ё", "е");
   if (/перед сном|на ночь|засып/.test(normalized)) return Boolean(book.suitableForBedtime) || book.moods.some((value) => value === "спокойное" || value === "уютное");

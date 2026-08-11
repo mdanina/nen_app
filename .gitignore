@@ -18,3 +18,8 @@ data/import/openlibrary/publish-ready-catalog/
 data/import/openlibrary/russian-children-staging/
 data/import/openlibrary/state/
 data/import/staging/
+
+# Каталог и обложки, которые собираются командой сборки
+apps/books/public/data/
+apps/books/public/covers/
+data/generated/cover-cache.json
