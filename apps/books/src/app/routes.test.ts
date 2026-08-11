@@ -4,8 +4,13 @@ import { BASE_PATH, bookPath, href, ROUTES, toRoute } from "./routes";
 describe("маршруты внутри подкаталога сайта", () => {
   it("собирает внешний адрес с префиксом сайта", () => {
     expect(href(ROUTES.home)).toBe(`${BASE_PATH}/`);
-    expect(href(ROUTES.catalog)).toBe(`${BASE_PATH}/katalog`);
-    expect(href(bookPath("kolobok"))).toBe(`${BASE_PATH}/kniga/kolobok`);
+    expect(href(ROUTES.catalog)).toBe(`${BASE_PATH}/katalog/`);
+    expect(href(bookPath("kolobok"))).toBe(`${BASE_PATH}/kniga/kolobok/`);
+  });
+
+  it("к файлам сборки слэш не приписывается", () => {
+    expect(href("/data/catalog-index.json")).toBe(`${BASE_PATH}/data/catalog-index.json`);
+    expect(href("/covers/ab12.webp")).toBe(`${BASE_PATH}/covers/ab12.webp`);
   });
 
   it("снимает префикс сайта с адреса браузера", () => {

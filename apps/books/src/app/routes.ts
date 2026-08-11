@@ -26,10 +26,18 @@ function normalizeBase(base: string) {
   return withSlashes === "/" ? "" : withSlashes;
 }
 
-/** Внутренний маршрут → адрес, по которому страница доступна снаружи. */
+/**
+ * Внутренний маршрут → адрес, по которому страница доступна снаружи.
+ *
+ * Со слэшем на конце: у сайта в urlManager стоит suffix «/» и нормализатор
+ * с постоянным редиректом, поэтому адрес без слэша ловил бы 301 на каждой
+ * ссылке. Файлы сборки (data, covers, assets) слэшем не дополняются.
+ */
 export function href(route: string) {
   const path = route.startsWith("/") ? route : `/${route}`;
-  return path === "/" ? `${BASE_PATH}/` : `${BASE_PATH}${path}`;
+  if (path === "/") return `${BASE_PATH}/`;
+  const isFile = /\.[a-z0-9]+$/iu.test(path);
+  return `${BASE_PATH}${path}${isFile ? "" : "/"}`;
 }
 
 /** Адрес в браузере → внутренний маршрут. Префикс сайта и устаревшие пути снимаются. */

@@ -13,7 +13,8 @@ const books = JSON.parse(await readFile(path.join(root, "data", "generated", "bo
 const DEFAULT_ORIGIN = "https://n-e-n.ru";
 const origin = (process.env.BOOKS_PUBLIC_ORIGIN || DEFAULT_ORIGIN).replace(/\/$/, "");
 const basePath = `/${(process.env.BOOKS_BASE_PATH ?? "/knigi/").replace(/^\/+|\/+$/g, "")}`;
-const publicUrl = (route) => `${origin}${basePath}${route === "/" ? "/" : route}`;
+// Слэш на конце — конвенция адресов сайта (urlManager suffix «/»).
+const publicUrl = (route) => `${origin}${basePath}${route === "/" ? "/" : `${route}/`}`;
 
 const escapeHtml = (value) => String(value)
   .replaceAll("&", "&amp;")
@@ -110,7 +111,7 @@ await writeFile(path.join(dist, "sitemap.xml"), sitemap, "utf8");
 await writeFile(path.join(dist, "robots.txt"), [
   "User-agent: *",
   "Allow: /",
-  `Sitemap: ${publicUrl("/sitemap.xml")}`,
+  `Sitemap: ${origin}${basePath}/sitemap.xml`,
   "",
 ].join("\n"), "utf8");
 

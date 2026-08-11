@@ -78,7 +78,7 @@ describe("book permalinks", () => {
 
   it("не включает поиск и фильтры в постоянную ссылку", () => {
     expect((rawBooks as Book[]).every((item) => !item.slug.includes("?") && !item.slug.includes("#"))).toBe(true);
-    expect(getBookPermalink("451-gradus-po-farengeytu", "https://books.example.test/catalog?q=поиск")).toBe("https://books.example.test/kniga/451-gradus-po-farengeytu");
+    expect(getBookPermalink("451-gradus-po-farengeytu", "https://books.example.test/catalog?q=поиск")).toBe("https://books.example.test/kniga/451-gradus-po-farengeytu/");
     expect(getShareActionLabel(true)).toBe("Поделиться");
     expect(getShareActionLabel(false)).toBe("Скопировать ссылку");
   });
