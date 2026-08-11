@@ -66,9 +66,8 @@ export function BooksPage({ books, favorites, toggleFavorite, navigate }: { book
   return <section className="catalog-page">
     <header className="catalog-header">
       <div className="catalog-header__intro">
-        <p className="eyebrow">{plural(books.length, BOOKS)} в каталоге</p>
         <h1>Каталог книг</h1>
-        <p>Ищите по названию, автору или теме. Фильтры применяются сразу и сохраняются в ссылке.</p>
+        <p>{plural(books.length, BOOKS)} с рекомендациями редакции. Ищите по названию, автору или теме: фильтры применяются сразу и сохраняются в ссылке.</p>
       </div>
       <div className="catalog-header__tools">
         <label className="search-field">

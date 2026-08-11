@@ -53,7 +53,9 @@ export function BookDetailPage({ slug, books, favorites, toggleFavorite, navigat
   const similar = getSimilarBooks(book, books, 4);
   const included = collections.filter((collection) => collection.bookIds.includes(book.id));
   const officialAgeRating = getPublicOfficialAgeRating(book);
-  const description = book.fullDescription || book.shortDescription;
+  // У 1735 книг из 2500 полное описание дословно повторяет короткое: без этой
+  // проверки один и тот же абзац стоял на странице дважды — в лиде и в «О книге».
+  const description = book.fullDescription && book.fullDescription !== book.shortDescription ? book.fullDescription : "";
   const isFavorite = favorites.includes(book.id);
   const volume = book.lengthLabel ?? (book.pages ? plural(book.pages, PAGES) : "");
 

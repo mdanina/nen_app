@@ -1149,7 +1149,7 @@ footer span {
   Вместо второй шапки — навигация раздела: полоса вкладок в потоке страницы.
   Мобильная панель снизу убрана, она конфликтовала с интерфейсом сайта.
 */
-.knigi {
+& {
   --nen-max: 1180px;
   padding-bottom: 8px;
 }
@@ -1300,7 +1300,7 @@ footer span {
     display: none;
   }
 
-  .knigi {
+  & {
     padding-bottom: 72px;
   }
 }
@@ -1311,7 +1311,7 @@ footer span {
   До этого у сервиса была своя шкала, и рядом на одном домене это читалось
   как два разных издания.
 */
-.knigi {
+& {
   --step-0: clamp(0.98rem, 0.94rem + 0.2vw, 1.08rem);
   --step-1: clamp(1.15rem, 1.05rem + 0.5vw, 1.45rem);
   --step-2: clamp(1.5rem, 1.2rem + 1.5vw, 2.35rem);
@@ -1404,4 +1404,186 @@ footer span {
 
 .empty-state > :last-child:not(h2):not(div) {
   margin-top: 14px;
+}
+
+/*
+  Сетка раздела = сетка сайта.
+
+  У сайта контейнер собран лесенкой: до 768 — вся ширина с полями по 10px,
+  дальше 670px, с 1280 — 1180px, с 1350 — 1290px. Раздел жил по собственной
+  ширине 1180px и совпадал с сайтом ровно в одной точке: на 1024 он был на
+  339px шире шапки и подвала, на 1366 и выше — на 110px уже. Края разъезжались
+  с шапкой, тёмным меню и подвалом, и раздел читался как чужая врезка.
+
+  Колонка фильтров включается там же, где сайт переходит на широкий контейнер
+  (1280px): в полосе 768–1279 у сайта колонка 670px, и сайдбар туда не влезает.
+*/
+& {
+  --knigi-container: 100%;
+  --knigi-gutter: 10px;
+}
+
+@media (min-width: 768px) {
+  & {
+    --knigi-container: 670px;
+    --knigi-gutter: 0px;
+  }
+}
+
+@media (min-width: 1280px) {
+  & {
+    --knigi-container: 1180px;
+  }
+}
+
+@media (min-width: 1350px) {
+  & {
+    --knigi-container: 1290px;
+  }
+}
+
+.page,
+.section,
+.catalog-page,
+.detail-page,
+.recommend-page,
+.home-hero,
+.service-nav__inner,
+.section--white > *,
+.detail-info > div {
+  width: min(100%, var(--knigi-container));
+  margin-inline: auto;
+  padding-inline: var(--knigi-gutter);
+}
+
+.section--white,
+.detail-info {
+  padding-inline: var(--knigi-gutter);
+}
+
+/* Полоса разделов тянется во всю ширину, содержимое — по сетке. */
+.service-nav__inner {
+  padding-block: 14px;
+}
+
+@media (min-width: 900px) {
+  /* Фильтры уезжают в шторку до 1280: в колонке 670px им негде развернуться. */
+  .catalog-shell {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .desktop-filters {
+    display: none;
+  }
+
+  .filter-trigger {
+    display: flex;
+  }
+}
+
+@media (min-width: 1280px) {
+  .catalog-shell {
+    grid-template-columns: 280px minmax(0, 1fr);
+  }
+
+  .desktop-filters {
+    display: block;
+  }
+
+  .filter-trigger {
+    display: none;
+  }
+}
+
+/* Ширина колонки под текст: 65–75 знаков, а не вся сетка. */
+.detail-info > div:first-child p,
+.collection-detail > header .lead,
+.catalog-header__intro > p:not(.eyebrow) {
+  max-width: 68ch;
+}
+
+/*
+  Раскладки, которые раньше включались на 900px, рассчитаны на широкий
+  контейнер. В полосе 768–1279 у сайта колонка 670px: три карточки в ряд
+  дают по 205px, а обложка с названием туда не помещаются. Переносим на
+  1280px — туда же, где сайт расширяет контейнер.
+*/
+@media (min-width: 900px) and (max-width: 1279px) {
+  .book-grid,
+  .collection-grid,
+  .recommend-results > .book-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .collections-list {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  /* Обложка 360px + текст: в 670px тексту осталось бы 245px. */
+  .detail-hero {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 32px;
+  }
+
+  .detail-cover {
+    margin-inline: auto;
+  }
+
+  .detail-info {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 36px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .results .book-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+/* Вкладки раздела стоят над своим содержимым, а не жмутся к правому краю. */
+.service-nav__links {
+  margin-left: 0;
+}
+
+/*
+  Герой держал min-height 590px: на широком экране под кнопками оставалась
+  полоса пустоты в треть экрана — страница читалась как недогруженная.
+  Высоту задаёт содержимое, воздух — отступами.
+*/
+@media (min-width: 900px) {
+  .home-hero {
+    min-height: 0;
+    padding-block: 72px 84px;
+    align-items: start;
+  }
+
+  .hero-note {
+    align-self: start;
+  }
+}
+
+/* Заголовок секции без надзаголовка выравнивается по базовой линии ссылки. */
+.section-heading {
+  align-items: baseline;
+}
+
+/* Автор и лид стояли вплотную к заголовку: группируем плотно, отделяем щедро. */
+.detail-author {
+  margin-bottom: 18px;
+}
+
+.detail-hero h1 {
+  margin-bottom: 14px;
+}
+
+/*
+  Между героем и следующей секцией набиралось около 156px пустоты: отступ
+  героя снизу складывался с отступом секции сверху. Держим в пределах,
+  где разрыв ещё читается как пауза, а не как обрыв страницы.
+*/
+@media (min-width: 900px) {
+  .home-hero {
+    padding-bottom: 24px;
+  }
 }
