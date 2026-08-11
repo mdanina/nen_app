@@ -12,25 +12,43 @@ const LINKS = [
   [ROUTES.favorites, "Избранное", "♡"],
 ] as const;
 
+// Ниже этой отметки от конца страницы панель уступает место подвалу сайта.
+const BOTTOM_GAP = 120;
+// Пока страница едва прокручивается, прятать нечего: панель нужна всё время.
+const MIN_SCROLLABLE = 240;
+
 /**
- * Панель прячется, когда человек дочитал до подвала сайта: иначе она
- * перекрывает форму подписки и нижние ссылки. Баннер про куки сайт крепит
- * снизу с z-index 1000, поэтому панель держится ниже него.
+ * Панель уступает место подвалу сайта, но только у самого низа страницы.
+ * Раньше она пряталась, как только подвал попадал в кадр, — на короткой
+ * странице вроде подбора книги он виден сразу, и панель исчезала совсем.
+ * Баннер про куки сайт крепит снизу с z-index 1000, поэтому панель ниже него.
  */
-function useHiddenNearSiteFooter() {
+function useHiddenAtPageBottom() {
   const [hidden, setHidden] = useState(false);
   useEffect(() => {
-    const footer = document.querySelector("footer");
-    if (!footer || typeof IntersectionObserver === "undefined") return;
-    const observer = new IntersectionObserver(([entry]) => setHidden(entry.isIntersecting), { rootMargin: "0px 0px -40px 0px" });
-    observer.observe(footer);
-    return () => observer.disconnect();
+    let frame = 0;
+    const update = () => {
+      frame = 0;
+      const { scrollHeight } = document.documentElement;
+      const scrolled = window.scrollY + window.innerHeight;
+      const scrollable = scrollHeight - window.innerHeight;
+      setHidden(scrollable > MIN_SCROLLABLE && scrolled >= scrollHeight - BOTTOM_GAP);
+    };
+    const schedule = () => { frame ||= requestAnimationFrame(update); };
+    update();
+    window.addEventListener("scroll", schedule, { passive: true });
+    window.addEventListener("resize", schedule);
+    return () => {
+      if (frame) cancelAnimationFrame(frame);
+      window.removeEventListener("scroll", schedule);
+      window.removeEventListener("resize", schedule);
+    };
   }, []);
   return hidden;
 }
 
 export function Header({ navigate, favoriteCount, route }: { navigate: (path: string) => void; favoriteCount: number; route: string }) {
-  const hiddenNearFooter = useHiddenNearSiteFooter();
+  const hiddenAtBottom = useHiddenAtPageBottom();
   const isActive = (target: string) => route === target
     || route.startsWith(`${target}/`)
     || (target === ROUTES.catalog && route.startsWith(`${ROUTES.book}/`));
@@ -48,7 +66,7 @@ export function Header({ navigate, favoriteCount, route }: { navigate: (path: st
         </div>
       </div>
     </nav>
-    <nav className={`service-tabbar${hiddenNearFooter ? " is-hidden" : ""}`} aria-label="Разделы сервиса">
+    <nav className={`service-tabbar${hiddenAtBottom ? " is-hidden" : ""}`} aria-label="Разделы сервиса">
       {LINKS.map(([target, label, icon]) => (
         <AppLink key={target} href={target} navigate={navigate} className={isActive(target) ? "active" : ""}>
           <span aria-hidden="true">{icon}</span>
