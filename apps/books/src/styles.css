@@ -1108,3 +1108,28 @@ footer span {
     border-radius: 999px;
   }
 }
+
+/*
+  Боковая панель фильтров переиспользует мобильные ленты чипов. В колонке 280 px
+  лента шириной 576 px прячет возрасты с 5 до 14 за горизонтальным скроллом без
+  видимой подсказки, а «Формат чтения» теряет третий вариант. На десктопе
+  раскладываем всё в несколько рядов.
+*/
+@media (min-width: 900px) {
+  .desktop-filters .chip-scroll {
+    flex-wrap: wrap;
+    overflow: visible;
+    padding-bottom: 0;
+  }
+
+  .desktop-filters .segment {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .desktop-filters .segment button,
+  .desktop-filters .chip-scroll button,
+  .desktop-filters .chips button {
+    white-space: normal;
+    text-align: left;
+  }
+}
